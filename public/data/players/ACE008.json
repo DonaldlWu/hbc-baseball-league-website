@@ -1,0 +1,160 @@
+{
+  "id": "ACE008",
+  "code": "ACE008",
+  "name": "劉鈺生",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOoQexf3s-wy6x8JqfmKzlI9ZX-qOSumkNWsiDD7kMd_5g30mz8qeRKU6L5AVopjkhSNUU82ZwhFxiVBaq1BZNmQ5PPp90QILlT3GZ2JEN46KhFZ_EE835gdURX-VOEEI0l1vjQU99d_UyFz8lXq0vQfA=w310-h335-no",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "ACES"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "ACES",
+      "number": "7",
+      "batting": {
+        "games": 4,
+        "pa": 12,
+        "ab": 12,
+        "hits": 7,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 6,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 185,
+        "hits": 173,
+        "hr": 1207,
+        "rbi": 206,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "ACES",
+      "number": "7",
+      "batting": {
+        "games": 7,
+        "pa": 23,
+        "ab": 21,
+        "hits": 7,
+        "singles": 5,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 3,
+        "bb": 0,
+        "so": 10,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 133,
+        "hits": 85,
+        "hr": 1311,
+        "rbi": 152,
+        "avg": 58
+      }
+    },
+    {
+      "year": 2023,
+      "team": "ACES",
+      "number": "7",
+      "batting": {
+        "games": 7,
+        "pa": 17,
+        "ab": 14,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 0,
+        "so": 8,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 311,
+        "hits": 290,
+        "hr": 1265,
+        "rbi": 1395,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "ACES",
+      "number": "102",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 494,
+        "hits": 809,
+        "hr": 357,
+        "rbi": 722,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ACES",
+      "number": "7",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 992,
+        "hits": 1610,
+        "hr": 1085,
+        "rbi": 1556,
+        "avg": 1022
+      }
+    }
+  ]
+}

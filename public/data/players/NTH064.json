@@ -1,0 +1,44 @@
+{
+  "id": "NTH064",
+  "code": "NTH064",
+  "name": "洪少淇",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczN4RstPC0eXP7SaKUEZrwM_uMo6eAt8PAqq90HFE8hTH5ViSM5aV1zcVA54A9xtM6LYdNwK5ndDXDrCY6Wnu4D8SsG7WSt0XoJNwStYPXFQzlvXmIlppNPReNEahkukhZc40imq5KFxvsXEH8xKV4TB=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "110",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 657,
+        "hits": 954,
+        "hr": 431,
+        "rbi": 900,
+        "avg": 1123
+      }
+    }
+  ]
+}

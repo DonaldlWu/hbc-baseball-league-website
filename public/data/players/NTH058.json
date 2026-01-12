@@ -1,0 +1,44 @@
+{
+  "id": "NTH058",
+  "code": "NTH058",
+  "name": "甘百宏",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMcir1eVM8Bzj7U9uRfyyvpu3GB0tRTZ1S4QdJXsLQ719eRHr_LGx_8E2ijpwXNE--wg8E6QvEfRlDKFO0tWsMWb7WMjWPBfBaCiKO-uff7JKLnD2kzA58mi3dS1lcsgCMQ9eKEgzrgLxwV4LkrVjXk=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "107",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 442,
+        "hits": 1470,
+        "hr": 993,
+        "rbi": 296,
+        "avg": 1123
+      }
+    }
+  ]
+}

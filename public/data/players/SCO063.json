@@ -1,0 +1,44 @@
+{
+  "id": "SCO063",
+  "code": "SCO063",
+  "name": "張祐誠",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMY91vFWeowDqMAwt3350zzB_rtB91SMFRSlmQxX2bZk2Hhzas8wNiBU7gJWetjhpV17kea2ERWfki1UGgX1ouKQvtzXanLg0WA3SfjMP96socBMfQwg_H5zH8JnrlFzPo-7ZNf7CCylQ5jdcxg6mAfbQ=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "205",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 340,
+        "hits": 349,
+        "hr": 978,
+        "rbi": 1292,
+        "avg": 903
+      }
+    }
+  ]
+}

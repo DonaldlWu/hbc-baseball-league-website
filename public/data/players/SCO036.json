@@ -1,0 +1,73 @@
+{
+  "id": "SCO036",
+  "code": "SCO036",
+  "name": "高識曜",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOfieuQgyDOkUfgFDp2tQ-XFZLGgL3RE3StmjCBQwOujYCfY5wHB2rC_80QFLRv3IbKpZAOQAtJI6oTMQ1YNz4FWRyy-x9NINA9jzYYb8TT3ZbwrG6Dy54tEaOMvRmxhdl6MX91z673PIb-B2_uIyw_Hg=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "109",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 680,
+        "hits": 590,
+        "hr": 67,
+        "rbi": 536,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "140",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 891,
+        "hits": 1361,
+        "hr": 1006,
+        "rbi": 1313,
+        "avg": 903
+      }
+    }
+  ]
+}

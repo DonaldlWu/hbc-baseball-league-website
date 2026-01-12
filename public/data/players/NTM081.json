@@ -1,0 +1,44 @@
+{
+  "id": "NTM081",
+  "code": "NTM081",
+  "name": "魏逸豪",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOn5vBEhGQWJG4vsLH1Uhg5K6waOrl-9MaX0ZLPboiCZF26NqTmephpf4pGoBaWXlBeIiQOhE8sUgyGf7t3OxeIx6mFo59FCnWY2AY8NmGEpMGgk3kzgFoyz9-HHMijarEYsrqtVyg5hg_UHspMY9hPpg=w689-h919-s-no-gm?authuser=0",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "Mechanics"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Mechanics",
+      "number": "8",
+      "batting": {
+        "games": 5,
+        "pa": 13,
+        "ab": 10,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 471,
+        "hits": 533,
+        "hr": 1213,
+        "rbi": 467,
+        "avg": 1123
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "NTO031",
+  "code": "NTO031",
+  "name": "張儒斌",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "海洋大學",
+      "number": "61",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 465,
+        "hits": 419,
+        "hr": 38,
+        "rbi": 368,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "海洋大學",
+      "number": "61",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 473,
+        "hits": 1435,
+        "hr": 1017,
+        "rbi": 296,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "海洋大學",
+      "number": "61",
+      "batting": {
+        "games": 7,
+        "pa": 21,
+        "ab": 19,
+        "hits": 8,
+        "singles": 6,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 6,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 214,
+        "hits": 180,
+        "hr": 1413,
+        "rbi": 169,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "海洋大學",
+      "number": "61",
+      "batting": {
+        "games": 11,
+        "pa": 36,
+        "ab": 28,
+        "hits": 15,
+        "singles": 9,
+        "doubles": 5,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 14,
+        "runs": 10,
+        "bb": 17,
+        "so": 0,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 22
+      },
+      "rankings": {
+        "rc": 61,
+        "hits": 78,
+        "hr": 1515,
+        "rbi": 40,
+        "avg": 1101
+      }
+    }
+  ]
+}

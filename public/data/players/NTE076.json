@@ -1,0 +1,44 @@
+{
+  "id": "NTE076",
+  "code": "NTE076",
+  "name": "宋騏任",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "台大經濟OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2016,
+      "team": "台大經濟OB",
+      "number": "NTE076",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 870,
+        "hits": 842,
+        "hr": 343,
+        "rbi": 788,
+        "avg": 349
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "MIR062",
+  "code": "MIR062",
+  "name": "薛景文",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "MIRACLE"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "MIRACLE",
+      "number": "51",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 956,
+        "hits": 932,
+        "hr": 342,
+        "rbi": 848,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "MIRACLE",
+      "number": "51",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 576,
+        "hits": 1630,
+        "hr": 1155,
+        "rbi": 1587,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "MIRACLE",
+      "number": "51",
+      "batting": {
+        "games": 7,
+        "pa": 27,
+        "ab": 25,
+        "hits": 8,
+        "singles": 4,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 7,
+        "bb": 1,
+        "so": 10,
+        "sb": 4,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 217,
+        "hits": 197,
+        "hr": 1476,
+        "rbi": 145,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "MIRACLE",
+      "number": "MIR062",
+      "batting": {
+        "games": 10,
+        "pa": 33,
+        "ab": 29,
+        "hits": 13,
+        "singles": 10,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 10,
+        "runs": 13,
+        "bb": 5,
+        "so": 6,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 18
+      },
+      "rankings": {
+        "rc": 120,
+        "hits": 118,
+        "hr": 32,
+        "rbi": 110,
+        "avg": 340
+      }
+    }
+  ]
+}

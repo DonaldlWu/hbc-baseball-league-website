@@ -1,0 +1,392 @@
+{
+  "id": "HOL005",
+  "code": "HOL005",
+  "name": "陳於晨",
+  "photo": "https://lh5.googleusercontent.com/pX-qg5HXbcg2Ii_gtsLmacHCroPfqX28jWZB5IO5GZw=w310-h335-no",
+  "career": {
+    "debut": 2013,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 13
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "HOLYBAT",
+      "number": "18",
+      "batting": {
+        "games": 11,
+        "pa": 15,
+        "ab": 13,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 16,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 484,
+        "hits": 415,
+        "hr": 1251,
+        "rbi": 479,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "HOLYBAT",
+      "number": "18",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 1,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 889,
+        "hits": 1364,
+        "hr": 1011,
+        "rbi": 1318,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "HOLYBAT",
+      "number": "18",
+      "batting": {
+        "games": 5,
+        "pa": 5,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 12,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 343,
+        "hits": 347,
+        "hr": 1042,
+        "rbi": 1335,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "HOLYBAT",
+      "number": "18",
+      "batting": {
+        "games": 7,
+        "pa": 11,
+        "ab": 10,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 18,
+        "so": 4,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 438,
+        "hits": 316,
+        "hr": 1215,
+        "rbi": 343,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "HOLYBAT",
+      "number": "18",
+      "batting": {
+        "games": 13,
+        "pa": 15,
+        "ab": 15,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 32,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 443,
+        "hits": 325,
+        "hr": 1340,
+        "rbi": 485,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "HOLYBAT",
+      "number": "18",
+      "batting": {
+        "games": 6,
+        "pa": 10,
+        "ab": 9,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 46,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 505,
+        "hits": 471,
+        "hr": 1243,
+        "rbi": 1637,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "HOLYBAT",
+      "number": "18",
+      "batting": {
+        "games": 7,
+        "pa": 20,
+        "ab": 16,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 36,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 450,
+        "hits": 456,
+        "hr": 1408,
+        "rbi": 469,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "HOLYBAT",
+      "number": "18",
+      "batting": {
+        "games": 14,
+        "pa": 48,
+        "ab": 38,
+        "hits": 8,
+        "singles": 7,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 6,
+        "bb": 59,
+        "so": 9,
+        "sb": 4,
+        "sf": 1,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 206,
+        "hits": 219,
+        "hr": 1601,
+        "rbi": 134,
+        "avg": 122
+      }
+    },
+    {
+      "year": 2017,
+      "team": "HOLYBAT",
+      "number": "HOL005",
+      "batting": {
+        "games": 14,
+        "pa": 32,
+        "ab": 30,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 4,
+        "bb": 36,
+        "so": 9,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 406,
+        "hits": 275,
+        "hr": 843,
+        "rbi": 295,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "HOLYBAT",
+      "number": "HOL005",
+      "batting": {
+        "games": 17,
+        "pa": 26,
+        "ab": 19,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 9,
+        "bb": 62,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 304,
+        "hits": 358,
+        "hr": 724,
+        "rbi": 302,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "HOLYBAT",
+      "number": "HOL005",
+      "batting": {
+        "games": 13,
+        "pa": 2,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 63,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 841,
+        "hits": 823,
+        "hr": 367,
+        "rbi": 779,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "HOLYBAT",
+      "number": "HOL005",
+      "batting": {
+        "games": 16,
+        "pa": 9,
+        "ab": 8,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 48,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 299,
+        "hits": 268,
+        "hr": 347,
+        "rbi": 336,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "HOLYBAT",
+      "number": "HOL005",
+      "batting": {
+        "games": 6,
+        "pa": 16,
+        "ab": 10,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 1,
+        "bb": 27,
+        "so": 4,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 451,
+        "hits": 494,
+        "hr": 298,
+        "rbi": 175,
+        "avg": 323
+      }
+    }
+  ]
+}

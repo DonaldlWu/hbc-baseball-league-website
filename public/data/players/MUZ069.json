@@ -1,0 +1,73 @@
+{
+  "id": "MUZ069",
+  "code": "MUZ069",
+  "name": "李承軒",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOIbdJAb9rZILOdI74B48UY11hhSeEgpbTmwT0Lr5IGarUuP-UodZehc0N6Uw5nIV8I_3_HxaiN6xxhakdbpcl_ntJpcu_vtfXCxp7sJVauSWPciVG1SaOUfm4rQ8BTV3xODfjP1OaPGrU0a0HzgcA=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "木柵OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "木柵OB",
+      "number": "61",
+      "batting": {
+        "games": 10,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 19,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 734,
+        "hits": 664,
+        "hr": 141,
+        "rbi": 610,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "木柵OB",
+      "number": "61",
+      "batting": {
+        "games": 6,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 12,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 842,
+        "hits": 1285,
+        "hr": 878,
+        "rbi": 1220,
+        "avg": 903
+      }
+    }
+  ]
+}

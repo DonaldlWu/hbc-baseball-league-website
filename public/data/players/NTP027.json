@@ -1,0 +1,102 @@
+{
+  "id": "NTP027",
+  "code": "NTP027",
+  "name": "顏爾汎",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "台北大學"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "台北大學",
+      "number": "31",
+      "batting": {
+        "games": 14,
+        "pa": 55,
+        "ab": 44,
+        "hits": 16,
+        "singles": 13,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 13,
+        "runs": 13,
+        "bb": 0,
+        "so": 7,
+        "sb": 5,
+        "sf": 1,
+        "totalBases": 19
+      },
+      "rankings": {
+        "rc": 69,
+        "hits": 71,
+        "hr": 1623,
+        "rbi": 52,
+        "avg": 50
+      }
+    },
+    {
+      "year": 2020,
+      "team": "台北大學",
+      "number": "31",
+      "batting": {
+        "games": 17,
+        "pa": 45,
+        "ab": 38,
+        "hits": 10,
+        "singles": 10,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 9,
+        "bb": 0,
+        "so": 9,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 206,
+        "hits": 164,
+        "hr": 1571,
+        "rbi": 222,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台北大學",
+      "number": "94",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 583,
+        "hits": 599,
+        "hr": 85,
+        "rbi": 532,
+        "avg": 917
+      }
+    }
+  ]
+}

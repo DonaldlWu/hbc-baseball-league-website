@@ -1,0 +1,102 @@
+{
+  "id": "NTM070",
+  "code": "NTM070",
+  "name": "劉丞恩",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "台大機械"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "台大機械",
+      "number": "17",
+      "batting": {
+        "games": 4,
+        "pa": 21,
+        "ab": 19,
+        "hits": 13,
+        "singles": 12,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 11,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 15,
+        "hits": 8,
+        "hr": 1311,
+        "rbi": 21,
+        "avg": 1
+      }
+    },
+    {
+      "year": 2022,
+      "team": "台大機械",
+      "number": "10",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 700,
+        "hits": 659,
+        "hr": 207,
+        "rbi": 572,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "台大機械",
+      "number": "10",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 770,
+        "hits": 728,
+        "hr": 181,
+        "rbi": 662,
+        "avg": 1022
+      }
+    }
+  ]
+}

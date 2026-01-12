@@ -1,0 +1,44 @@
+{
+  "id": "YCT144",
+  "code": "YCT144",
+  "name": "羅人豪",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMXqCKuVxdrTSyvGbOAWHPtKasBpi9z0o9Wj1DEDo307Qi1EL2Uyy5AtxUdeE4to6tz3WGj5CvaTbOKJyvl_pjA-FZxqQ2_gBqBiXpv2-PUDA8dvrsk6BPJzNaTo_SJ4Lmgu2wPolAaTlHJiF7kUBfR=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "永春TB",
+      "number": "87",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 806,
+        "hits": 716,
+        "hr": 193,
+        "rbi": 662,
+        "avg": 1123
+      }
+    }
+  ]
+}

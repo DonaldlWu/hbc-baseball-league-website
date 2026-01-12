@@ -1,0 +1,220 @@
+{
+  "id": "NTP024",
+  "code": "NTP024",
+  "name": "郭冠麟",
+  "photo": "https://lh3.googleusercontent.com/pw/ACtC-3cyZuVZAzzrd0wKcyZX1UBWkv4bbhGerCWoFEJ8xGN9vsptkqrntdmtbJsu9xoX1QdSn8VZ1qDucK9bPNMIpa0GFjW0_bM25y2LiPU79IYU71BYDR20wfvhgKXLaYW1HFjuymdiASnmDwYpU-aSdEa25Q=w310-h335-no",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "Line Drive",
+      "ROOKIES",
+      "台北大學"
+    ],
+    "totalSeasons": 7
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Line Drive",
+      "number": "56",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 496,
+        "hits": 1440,
+        "hr": 940,
+        "rbi": 1392,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "Line Drive",
+      "number": "56",
+      "batting": {
+        "games": 2,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 845,
+        "hits": 1292,
+        "hr": 885,
+        "rbi": 1227,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "Line Drive",
+      "number": "56",
+      "batting": {
+        "games": 3,
+        "pa": 4,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 392,
+        "hits": 336,
+        "hr": 1021,
+        "rbi": 270,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "Line Drive",
+      "number": "56",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 924,
+        "hits": 1444,
+        "hr": 1042,
+        "rbi": 304,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ROOKIES",
+      "number": "56",
+      "batting": {
+        "games": 5,
+        "pa": 7,
+        "ab": 7,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 417,
+        "hits": 361,
+        "hr": 1207,
+        "rbi": 1630,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "ROOKIES",
+      "number": "104",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 885,
+        "hits": 861,
+        "hr": 271,
+        "rbi": 777,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台北大學",
+      "number": "99",
+      "batting": {
+        "games": 4,
+        "pa": 15,
+        "ab": 11,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 390,
+        "hits": 453,
+        "hr": 1354,
+        "rbi": 453,
+        "avg": 917
+      }
+    }
+  ]
+}

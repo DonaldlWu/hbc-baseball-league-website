@@ -1,0 +1,73 @@
+{
+  "id": "ACE019",
+  "code": "ACE019",
+  "name": "田村翔大",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNyFwKA8Uq0FnSYGMUzC-sbGVI4vQPEO21FaY_XiocMJMD373d2VO-NHpy_FHi9zBpXk6zYyx5yMqsQCcz-1-NN5XShoWLn5NOZVXjn9K72JuRfIps2-wmPvUFEqy7OfnCeDAEie9qIHAkV40VHy0aFjw=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "ACES"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "ACES",
+      "number": "197",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 688,
+        "hits": 579,
+        "hr": 56,
+        "rbi": 525,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "ACES",
+      "number": "197",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 5,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 115,
+        "hits": 120,
+        "hr": 1023,
+        "rbi": 170,
+        "avg": 903
+      }
+    }
+  ]
+}

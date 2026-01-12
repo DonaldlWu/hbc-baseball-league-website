@@ -1,0 +1,73 @@
+{
+  "id": "YAN090",
+  "code": "YAN090",
+  "name": "黃怡雄",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "陽明OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "陽明OB",
+      "number": "46",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 958,
+        "hits": 1587,
+        "hr": 1047,
+        "rbi": 1524,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "陽明OB",
+      "number": "114",
+      "batting": {
+        "games": 5,
+        "pa": 5,
+        "ab": 5,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 382,
+        "hits": 372,
+        "hr": 1125,
+        "rbi": 1581,
+        "avg": 1101
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "NTH020",
+  "code": "NTH020",
+  "name": "郭欣展",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNXJ2S3UPj4BoTTUo4yETWHrSCPVIr75ohYRSxSE5aa-44XhDgxY3mZ1BaD9jZe-kGFLPUB_5n0k9BHV_3LE5DB4z6NNKi5QGOFIX2nY-210Kbx2L4VDXKQV6AFdP4ymfTGALHYTZxHhbHhAunqT7sx=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "123",
+      "batting": {
+        "games": 3,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 19,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 656,
+        "hits": 953,
+        "hr": 430,
+        "rbi": 899,
+        "avg": 1123
+      }
+    }
+  ]
+}

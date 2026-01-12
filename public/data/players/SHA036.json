@@ -1,0 +1,44 @@
+{
+  "id": "SHA036",
+  "code": "SHA036",
+  "name": "韓家祥",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPGQ5K3ODXXeThSRcCX8SlF1slwy0jDZGc_R287vjyzFsHVMtJwFb-c5hM7TrAdh6sVH28PXVv5NSbu1nRyUEmHDtZLt1oWMaYSV8QKBiv3-m1NQ4CwBAEqsoqHEUt2ec09y9hKQSZuPKXViyXTrhKp7Q=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "少林棒球隊"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "少林棒球隊",
+      "number": "997",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1082,
+        "hits": 1463,
+        "hr": 983,
+        "rbi": 1422,
+        "avg": 1123
+      }
+    }
+  ]
+}

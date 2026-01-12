@@ -1,0 +1,44 @@
+{
+  "id": "SWD006",
+  "code": "SWD006",
+  "name": "陳偉峻",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNoACHn4cYHZi3QgFM3FxzhuLacY98xvWNPgnqPx5BbRojYhh5BIAKtQmz4UFaNWjK72krb0U6mien0CQVYdImSKlOkz63xXDft_48tXz8ec6IEDLyGr-3Hx8ReKoAWi4GAuYE-wpFG0Lc32RzNa6nRCQ=w316-h366",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "甜心暴龍"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "甜心暴龍",
+      "number": "13",
+      "batting": {
+        "games": 14,
+        "pa": 51,
+        "ab": 37,
+        "hits": 10,
+        "singles": 9,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 17,
+        "bb": 0,
+        "so": 10,
+        "sb": 4,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 84,
+        "hits": 130,
+        "hr": 1501,
+        "rbi": 152,
+        "avg": 82
+      }
+    }
+  ]
+}

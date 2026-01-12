@@ -1,0 +1,44 @@
+{
+  "id": "SWD024",
+  "code": "SWD024",
+  "name": "蘇嘉傑",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNhyOIwbYoYqGjM66j_OwUrBN3CHsywHW0VvtNaB5EJsy9EuqxizE9zB2ip9KQjMzb11yeym0K8gIry8Q0J20xf_b2Ui5l0LYIOALQI6Lvd59j6zpof2LVzehK12yZ3D-q9lyy7aY8ZwaLNWxhoWrrddA=w679-h905",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "甜心暴龍"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "甜心暴龍",
+      "number": "49",
+      "batting": {
+        "games": 6,
+        "pa": 11,
+        "ab": 8,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 4,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 355,
+        "hits": 396,
+        "hr": 1182,
+        "rbi": 247,
+        "avg": 1123
+      }
+    }
+  ]
+}

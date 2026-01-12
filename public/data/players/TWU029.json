@@ -1,0 +1,44 @@
+{
+  "id": "TWU029",
+  "code": "TWU029",
+  "name": "林志勳",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPXm7Pz2LfOGKWMRGqwCSIY4KOFEnCaA75i7Px43St88joYua-eREMk5826gBgqq9cpgp2F93PK69gU2r2jTvJnEw3LCHcM7DwQHZWiygbN_kZ0X2VzJad1yF4zsEfBfyjoY4tlbyGpQsYbzu2sjyQr=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "103",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 374,
+        "hits": 1318,
+        "hr": 922,
+        "rbi": 1254,
+        "avg": 903
+      }
+    }
+  ]
+}

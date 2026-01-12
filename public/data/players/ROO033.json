@@ -1,0 +1,44 @@
+{
+  "id": "ROO033",
+  "code": "ROO033",
+  "name": "柯偉任",
+  "photo": "",
+  "career": {
+    "debut": 2012,
+    "teams": [
+      "ROOKIES"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2012,
+      "team": "ROOKIES",
+      "number": "ROO033",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 338,
+        "hits": 339,
+        "hr": 141,
+        "rbi": 325,
+        "avg": 358
+      }
+    }
+  ]
+}

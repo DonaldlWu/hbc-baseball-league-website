@@ -1,0 +1,73 @@
+{
+  "id": "HUA133",
+  "code": "HUA133",
+  "name": "黃竑儒",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPCxrS87HOadwTTtD1XtyfHOJ1tmJjxhQPrMGB19QXY6tEKPwIxJdY1CVNwQcDVmEsmJoAvafeFnLUPbk6u_EwJONudVi0ozdF6rFH1a6Ryj5HoiMuZy2DOlN3BOH_au-woqKqcPlxney7zNHuyCAd2PA=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "華江OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "華江OB",
+      "number": "56",
+      "batting": {
+        "games": 3,
+        "pa": 7,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 497,
+        "hits": 1509,
+        "hr": 1094,
+        "rbi": 428,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "華江OB",
+      "number": "11",
+      "batting": {
+        "games": 3,
+        "pa": 2,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 321,
+        "hits": 1296,
+        "hr": 889,
+        "rbi": 1230,
+        "avg": 903
+      }
+    }
+  ]
+}

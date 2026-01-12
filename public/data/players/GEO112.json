@@ -1,0 +1,44 @@
+{
+  "id": "GEO112",
+  "code": "GEO112",
+  "name": "黎宇昊",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPnzlCpSOY0wDk2xOimJ7GsW51uYugpHqPuRf71z8UzLRVd18Rq-bYeRv1Hp-svCtbZx8z4RPijDqKOdssJassOCIImorImIVUSd54rredqBwJuVGQt6oxA0k_0NrJyJWKOfHw1exgHJFeOgyRSrpel-g=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "十號馬"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "十號馬",
+      "number": "107",
+      "batting": {
+        "games": 2,
+        "pa": 2,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 3,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 528,
+        "hits": 1416,
+        "hr": 899,
+        "rbi": 1361,
+        "avg": 1123
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "HOL061",
+  "code": "HOL061",
+  "name": "陳星宇",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "HOLYBAT",
+      "number": "90",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 5,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 350,
+        "hits": 354,
+        "hr": 1219,
+        "rbi": 412,
+        "avg": 917
+      }
+    }
+  ]
+}

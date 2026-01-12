@@ -1,0 +1,44 @@
+{
+  "id": "MIX093",
+  "code": "MIX093",
+  "name": "賴品宜",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "MIX",
+      "number": "104",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 8,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 364,
+        "hits": 350,
+        "hr": 1166,
+        "rbi": 400,
+        "avg": 917
+      }
+    }
+  ]
+}

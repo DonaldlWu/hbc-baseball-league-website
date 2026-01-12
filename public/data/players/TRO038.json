@@ -1,0 +1,102 @@
+{
+  "id": "TRO038",
+  "code": "TRO038",
+  "name": "李韋辰",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "楚奧特"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "楚奧特",
+      "number": "32",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 610,
+        "hits": 592,
+        "hr": 90,
+        "rbi": 530,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "楚奧特",
+      "number": "TRO038",
+      "batting": {
+        "games": 4,
+        "pa": 11,
+        "ab": 9,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 341,
+        "hits": 390,
+        "hr": 649,
+        "rbi": 327,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "楚奧特",
+      "number": "TRO038",
+      "batting": {
+        "games": 4,
+        "pa": 18,
+        "ab": 15,
+        "hits": 8,
+        "singles": 7,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 9,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 198,
+        "hits": 206,
+        "hr": 663,
+        "rbi": 114,
+        "avg": 349
+      }
+    }
+  ]
+}

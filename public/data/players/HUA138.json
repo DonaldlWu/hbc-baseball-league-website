@@ -1,0 +1,44 @@
+{
+  "id": "HUA138",
+  "code": "HUA138",
+  "name": "杜李浩宇",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNkCnutIcR7hA0nbASAVKEXPi-3kPbHhsubcGF5GgpSnTYj4cd3oSMjlrjGYepLXiRLeZXUMuEw55XG6ZfKEMD4xzYHcPYp7yjjD11ccIz6Dd7xXSTaCZhMbHa_UjcGrTUunrmIfRGTa-4kXIEQYBFgaA=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "華江OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "華江OB",
+      "number": "7",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1106,
+        "hits": 1495,
+        "hr": 1060,
+        "rbi": 1466,
+        "avg": 1123
+      }
+    }
+  ]
+}

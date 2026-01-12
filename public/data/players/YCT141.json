@@ -1,0 +1,44 @@
+{
+  "id": "YCT141",
+  "code": "YCT141",
+  "name": "陳漢承",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMLlVMsTRe_r6lw1gIGRW9Eb_oNzowG7tZi4kSg8e9WB_6FhbJP0F5c56a7LaOGA1A8ZYdDkSFqtwnyCcUpGehcSX9BWL00lB_hPOkyyOyaNvX9_PyMxXfF8eT8RV6tY_ILouO_PxwHzIQaiKyzNlk4=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "永春TB",
+      "number": "89",
+      "batting": {
+        "games": 3,
+        "pa": 10,
+        "ab": 7,
+        "hits": 4,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 4,
+        "bb": 0,
+        "so": 1,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 198,
+        "hits": 262,
+        "hr": 1159,
+        "rbi": 199,
+        "avg": 1123
+      }
+    }
+  ]
+}

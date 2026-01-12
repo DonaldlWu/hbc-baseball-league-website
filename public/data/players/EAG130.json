@@ -1,0 +1,44 @@
+{
+  "id": "EAG130",
+  "code": "EAG130",
+  "name": "林峻嘉",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOZbT3v9cUaoaacYSdX1XH0jdyaM1t3cPeQZK5j3vOXa5SnPCTEfgdgnM2iVxCQXGFGhnzgSjoNjAParFtNGY7yXXMf37nOysoq1-zKbj5VlC_NSaHLc6hhkZBTQp8En6JSCv3HbbSW6DqiDz8-H_k=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "火把老鷹",
+      "number": "22",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 5,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 184,
+        "hits": 276,
+        "hr": 1115,
+        "rbi": 300,
+        "avg": 903
+      }
+    }
+  ]
+}

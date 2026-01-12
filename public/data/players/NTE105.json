@@ -1,0 +1,161 @@
+{
+  "id": "NTE105",
+  "code": "NTE105",
+  "name": "馬家晨",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNaEPeQLweaBrdJskXtn7_bXctaFPOwcl7QF4jR5ys-GaC-VTm1SnBHM50LRZZt-tvRIEc3AulM4b_AyrOccFq22wWxB7TXv5c5_NLjmGWiRwXDP7i5zDXxRpTunGFqOQkGvaLztLT6-Odzt3uY50Jc=w310-h335-no",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "台大醫學院棒",
+      "台大經濟OB"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "112",
+      "batting": {
+        "games": 8,
+        "pa": 26,
+        "ab": 25,
+        "hits": 11,
+        "singles": 7,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 6,
+        "bb": 0,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 127,
+        "hits": 86,
+        "hr": 1366,
+        "rbi": 227,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "台大經濟OB",
+      "number": "55",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 620,
+        "hits": 589,
+        "hr": 177,
+        "rbi": 522,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "台大經濟OB",
+      "number": "55",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 572,
+        "hits": 523,
+        "hr": 142,
+        "rbi": 472,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "台大經濟OB",
+      "number": "55",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 622,
+        "hits": 581,
+        "hr": 129,
+        "rbi": 494,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "台大經濟OB",
+      "number": "55",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 715,
+        "hits": 673,
+        "hr": 126,
+        "rbi": 607,
+        "avg": 1022
+      }
+    }
+  ]
+}

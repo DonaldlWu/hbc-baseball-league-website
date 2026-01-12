@@ -1,0 +1,44 @@
+{
+  "id": "SCO070",
+  "code": "SCO070",
+  "name": "林哲緯",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPWxJi31lFKYpp_PVjl3Xxkdnh1MYPHUtEC1Muvqm-eDsMUiSQMcDxB7sAWExXqWmyCnGrAK_AKNEP0BEAMNwzK6IE5rPFT-eUL5KC4fgVu9ke1N7DsgVZi2DPAl77WHo5MNc2Q-0GC-pme2Cah8-h45Q=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "77",
+      "batting": {
+        "games": 6,
+        "pa": 20,
+        "ab": 18,
+        "hits": 7,
+        "singles": 6,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 4,
+        "bb": 0,
+        "so": 4,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 196,
+        "hits": 178,
+        "hr": 1318,
+        "rbi": 265,
+        "avg": 1123
+      }
+    }
+  ]
+}

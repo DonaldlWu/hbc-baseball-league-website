@@ -1,0 +1,73 @@
+{
+  "id": "BLA017",
+  "code": "BLA017",
+  "name": "黃建成",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "黑名單"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "黑名單",
+      "number": "BLA017",
+      "batting": {
+        "games": 5,
+        "pa": 24,
+        "ab": 19,
+        "hits": 7,
+        "singles": 5,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 8,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 65,
+        "hits": 70,
+        "hr": 148,
+        "rbi": 110,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2009,
+      "team": "黑名單",
+      "number": "BLA017",
+      "batting": {
+        "games": 10,
+        "pa": 40,
+        "ab": 35,
+        "hits": 14,
+        "singles": 10,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 13,
+        "runs": 11,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 18
+      },
+      "rankings": {
+        "rc": 34,
+        "hits": 32,
+        "hr": 264,
+        "rbi": 22,
+        "avg": 450
+      }
+    }
+  ]
+}

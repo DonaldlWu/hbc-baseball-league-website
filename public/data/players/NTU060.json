@@ -1,0 +1,335 @@
+{
+  "id": "NTU060",
+  "code": "NTU060",
+  "name": "李彥頡",
+  "photo": "https://lh3.googleusercontent.com/yXOLaNsFSS-VdNmOY9iitgY4ZNR563onT-iUaHgVRmRjxarb3cmiM8DK6pGDDZjoEElE_MjMms2PCl31pjbN57PHmSeFD7OC8hydkKx2bIodO3IEZEtO0Tkc6ILuQrWGW3J4lW-eyB7lPJY12uUzLVpE49zdXPDWGpMU87qRw4VIoyZsPPVmd-nbIoGvUfjz2xh-bTj7fZemfY1HuxE2c2x3MP8aKPPTzvRSZVxU_QFbHor4zsZPUmMfpN7nCsgxeWIPY98odQ6dCTnx-X3mb4s9pYjW58ko6c5s6Ou0pqXh17-sTXakJJfpe3d8-CRPIZYNEKNZwTVKLWaThUulbZoM6fXvGVtnUOSew0LxvUmY03BU2kVg8FEpHnFCH64dJsBVsOZoeJmPPuH_-8uLCwGrbwKQoZ5ifFhKCGPVyGAS27H-enBMlSjw3N5uFSsL3KvAm8HIxlOsKDARifXLG8-o3IJY1mh1-8aEfM8mj4POuA1_bF0W8ZcjiNH2T0Ij1royCQgvzTD1Va4cvdzUSZ7RpHe8ZgiAmQNckgp1ophDVy0zc1X5rV8xCFNW8pVb8XOUAJcBE6SpvjF5nWYSomWxYEoxeEpdfLhtOOs44525dCiGUVy2pgGLs1bjtJnCR1Pdv_BQy73UQl3OqyuG1SxMvmI8l6DJ9AZ4D4PYWPS-76wH2G7DKyJNWUnRkbLca0iSH4w7l86WNwnuRsPjAHMLs9cVv25ux0eEKmJcGVayCF0p=w310-h335-no",
+  "career": {
+    "debut": 2014,
+    "teams": [
+      "楚奧特",
+      "台大化工OB"
+    ],
+    "totalSeasons": 11
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "楚奧特",
+      "number": "63",
+      "batting": {
+        "games": 8,
+        "pa": 27,
+        "ab": 19,
+        "hits": 7,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 11,
+        "bb": 0,
+        "so": 4,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 121,
+        "hits": 183,
+        "hr": 1367,
+        "rbi": 177,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "楚奧特",
+      "number": "63",
+      "batting": {
+        "games": 10,
+        "pa": 40,
+        "ab": 24,
+        "hits": 11,
+        "singles": 10,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 13,
+        "bb": 0,
+        "so": 1,
+        "sb": 6,
+        "sf": 0,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 4,
+        "hits": 34,
+        "hr": 1393,
+        "rbi": 124,
+        "avg": 18
+      }
+    },
+    {
+      "year": 2023,
+      "team": "楚奧特",
+      "number": "63",
+      "batting": {
+        "games": 9,
+        "pa": 43,
+        "ab": 33,
+        "hits": 12,
+        "singles": 11,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 12,
+        "bb": 0,
+        "so": 1,
+        "sb": 4,
+        "sf": 1,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 14,
+        "hits": 15,
+        "hr": 1399,
+        "rbi": 73,
+        "avg": 44
+      }
+    },
+    {
+      "year": 2022,
+      "team": "楚奧特",
+      "number": "63",
+      "batting": {
+        "games": 8,
+        "pa": 31,
+        "ab": 29,
+        "hits": 12,
+        "singles": 9,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 11,
+        "bb": 0,
+        "so": 4,
+        "sb": 11,
+        "sf": 0,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 26,
+        "hits": 16,
+        "hr": 1435,
+        "rbi": 111,
+        "avg": 36
+      }
+    },
+    {
+      "year": 2021,
+      "team": "楚奧特",
+      "number": "63",
+      "batting": {
+        "games": 18,
+        "pa": 72,
+        "ab": 58,
+        "hits": 21,
+        "singles": 18,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 27,
+        "bb": 0,
+        "so": 11,
+        "sb": 8,
+        "sf": 0,
+        "totalBases": 24
+      },
+      "rankings": {
+        "rc": 30,
+        "hits": 33,
+        "hr": 1665,
+        "rbi": 142,
+        "avg": 51
+      }
+    },
+    {
+      "year": 2020,
+      "team": "楚奧特",
+      "number": "63",
+      "batting": {
+        "games": 19,
+        "pa": 75,
+        "ab": 57,
+        "hits": 22,
+        "singles": 18,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 14,
+        "runs": 24,
+        "bb": 0,
+        "so": 12,
+        "sb": 8,
+        "sf": 0,
+        "totalBases": 26
+      },
+      "rankings": {
+        "rc": 18,
+        "hits": 34,
+        "hr": 1667,
+        "rbi": 46,
+        "avg": 49
+      }
+    },
+    {
+      "year": 2019,
+      "team": "楚奧特",
+      "number": "63",
+      "batting": {
+        "games": 20,
+        "pa": 73,
+        "ab": 55,
+        "hits": 20,
+        "singles": 18,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 27,
+        "bb": 0,
+        "so": 15,
+        "sb": 7,
+        "sf": 0,
+        "totalBases": 23
+      },
+      "rankings": {
+        "rc": 30,
+        "hits": 43,
+        "hr": 1662,
+        "rbi": 80,
+        "avg": 35
+      }
+    },
+    {
+      "year": 2018,
+      "team": "楚奧特",
+      "number": "63",
+      "batting": {
+        "games": 19,
+        "pa": 52,
+        "ab": 39,
+        "hits": 16,
+        "singles": 13,
+        "doubles": 1,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 17,
+        "runs": 14,
+        "bb": 0,
+        "so": 12,
+        "sb": 5,
+        "sf": 0,
+        "totalBases": 21
+      },
+      "rankings": {
+        "rc": 50,
+        "hits": 78,
+        "hr": 1621,
+        "rbi": 29,
+        "avg": 35
+      }
+    },
+    {
+      "year": 2017,
+      "team": "楚奧特",
+      "number": "NTU060",
+      "batting": {
+        "games": 13,
+        "pa": 37,
+        "ab": 28,
+        "hits": 11,
+        "singles": 10,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 14,
+        "bb": 0,
+        "so": 8,
+        "sb": 5,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 132,
+        "hits": 151,
+        "hr": 871,
+        "rbi": 251,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "台大化工OB",
+      "number": "NTU060",
+      "batting": {
+        "games": 8,
+        "pa": 15,
+        "ab": 11,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 6,
+        "bb": 0,
+        "so": 3,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 340,
+        "hits": 387,
+        "hr": 614,
+        "rbi": 398,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2014,
+      "team": "台大化工OB",
+      "number": "NTU060",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 451,
+        "hits": 409,
+        "hr": 27,
+        "rbi": 378,
+        "avg": 327
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "GEO102",
+  "code": "GEO102",
+  "name": "林修齊",
+  "photo": "https://lh3.googleusercontent.com/pw/AJFCJaX6RXCui_-N7HdPCrDr35l4yHa5pVFDGXRYupAf14SMCLveYblJiBXAyZfT9v7oCdNrPzTifV5gUejgr6k8_KnpK93KrFV3_0EZskCxyRNb0EI5WzriM9w1EYEYs7-jl4XojHN4UjWLPCNlzHqAqdV4=w310-h335-no",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "十號馬"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "十號馬",
+      "number": "70",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 742,
+        "hits": 560,
+        "hr": 37,
+        "rbi": 506,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "十號馬",
+      "number": "70",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 550,
+        "hits": 433,
+        "hr": 21,
+        "rbi": 366,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "十號馬",
+      "number": "70",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 402,
+        "hits": 1369,
+        "hr": 1055,
+        "rbi": 186,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "十號馬",
+      "number": "70",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 555,
+        "hits": 514,
+        "hr": 62,
+        "rbi": 427,
+        "avg": 943
+      }
+    }
+  ]
+}

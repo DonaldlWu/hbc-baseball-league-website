@@ -1,0 +1,44 @@
+{
+  "id": "EAG142",
+  "code": "EAG142",
+  "name": "鄭宇修",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczM66dvQyqmLKFKfn-C9y4GqaI0iN1l2w3dD_wi9oP7FrCgVi_we2doq2qd9Ls01D-hk-Ko3qZ7Q-RwU26VE8u98NchtgxwI6HPugy9E_Js22i9U3nDFttA3tUBiv1qavM2EEFHSaHZP2II2PSU4Az8=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "火把老鷹",
+      "number": "106",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 4,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 429,
+        "hits": 369,
+        "hr": 1025,
+        "rbi": 1442,
+        "avg": 1123
+      }
+    }
+  ]
+}

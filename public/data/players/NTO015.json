@@ -1,0 +1,73 @@
+{
+  "id": "NTO015",
+  "code": "NTO015",
+  "name": "古逸賢",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "海洋大學",
+      "number": "49",
+      "batting": {
+        "games": 6,
+        "pa": 21,
+        "ab": 18,
+        "hits": 9,
+        "singles": 6,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 9,
+        "bb": 5,
+        "so": 2,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 179,
+        "hits": 160,
+        "hr": 1409,
+        "rbi": 209,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "海洋大學",
+      "number": "24",
+      "batting": {
+        "games": 3,
+        "pa": 10,
+        "ab": 9,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 0,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 478,
+        "hits": 387,
+        "hr": 1237,
+        "rbi": 357,
+        "avg": 1101
+      }
+    }
+  ]
+}

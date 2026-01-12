@@ -1,0 +1,44 @@
+{
+  "id": "NAN096",
+  "code": "NAN096",
+  "name": "文煊",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "Synergy"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2016,
+      "team": "Synergy",
+      "number": "NAN096",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 890,
+        "hits": 904,
+        "hr": 437,
+        "rbi": 865,
+        "avg": 349
+      }
+    }
+  ]
+}

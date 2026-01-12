@@ -1,0 +1,73 @@
+{
+  "id": "SHU001",
+  "code": "SHU001",
+  "name": "陳邵恩",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOQTukBvWXcBXkdHTDWo5MBoMxFp7U5FSwOdWiSOJciK_rRbYZcBMfheaz-8piO5Z-nLw8pGcsY6MkXdASP_-ch1VFJ-YFOlWJEWOH4D1dq-hrov9du8LspYQ-SjkWZilNbpW5e2F5hlBZNxGnUPl0-=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "0",
+      "batting": {
+        "games": 13,
+        "pa": 42,
+        "ab": 39,
+        "hits": 12,
+        "singles": 10,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 5,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 163,
+        "hits": 78,
+        "hr": 1470,
+        "rbi": 84,
+        "avg": 67
+      }
+    },
+    {
+      "year": 2024,
+      "team": "世新超乙組",
+      "number": "0",
+      "batting": {
+        "games": 7,
+        "pa": 24,
+        "ab": 21,
+        "hits": 9,
+        "singles": 7,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 4,
+        "bb": 0,
+        "so": 5,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 65,
+        "hits": 52,
+        "hr": 1317,
+        "rbi": 83,
+        "avg": 28
+      }
+    }
+  ]
+}

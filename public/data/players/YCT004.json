@@ -1,0 +1,102 @@
+{
+  "id": "YCT004",
+  "code": "YCT004",
+  "name": "黃柏勳",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "永春TB",
+      "number": "84",
+      "batting": {
+        "games": 4,
+        "pa": 7,
+        "ab": 6,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 434,
+        "hits": 426,
+        "hr": 1246,
+        "rbi": 1643,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2016,
+      "team": "永春TB",
+      "number": "YCT004",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 596,
+        "hits": 578,
+        "hr": 77,
+        "rbi": 524,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "永春TB",
+      "number": "YCT004",
+      "batting": {
+        "games": 8,
+        "pa": 23,
+        "ab": 17,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 0,
+        "so": 9,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 483,
+        "hits": 518,
+        "hr": 676,
+        "rbi": 377,
+        "avg": 624
+      }
+    }
+  ]
+}

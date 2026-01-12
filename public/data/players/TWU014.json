@@ -1,0 +1,44 @@
+{
+  "id": "TWU014",
+  "code": "TWU014",
+  "name": "李思澄",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOEpApjoo9P6ThbrxUgsmQ2qhoX7Yll3PKSd_EFrr1K6vphYQm0MKbN5wj8A5hPN3qCuDkS8jdKvdbJtDElDrFadi70P5_jGccBAoTryGpQkkVxG8CoE49LTeM4l8CUUBGxVq-T4lHfVLte6-THwHUy=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "125",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 696,
+        "hits": 439,
+        "hr": 27,
+        "rbi": 372,
+        "avg": 903
+      }
+    }
+  ]
+}

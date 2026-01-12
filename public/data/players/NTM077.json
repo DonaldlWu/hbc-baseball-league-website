@@ -1,0 +1,74 @@
+{
+  "id": "NTM077",
+  "code": "NTM077",
+  "name": "吳逸鈞",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMo1PZHYu_U12wrKTu-Mz028OpAY2RZgq3tF4Ehg-xWU1zbWjv-TRORHF1lN-rjcfxOHZ3OT1TsB9VTbz0NPzwGxjH-QoxEQLzm6T8YlnuyKitVzoDP7iqp3qFw6VBxTlwlOInELUrimiJ8rKZmpoEW1g=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "Mechanics",
+      "台大機械"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Mechanics",
+      "number": "74",
+      "batting": {
+        "games": 16,
+        "pa": 50,
+        "ab": 41,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 9,
+        "bb": 2,
+        "so": 13,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 244,
+        "hits": 217,
+        "hr": 1498,
+        "rbi": 291,
+        "avg": 93
+      }
+    },
+    {
+      "year": 2024,
+      "team": "台大機械",
+      "number": "20",
+      "batting": {
+        "games": 3,
+        "pa": 5,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 453,
+        "hits": 370,
+        "hr": 1034,
+        "rbi": 1327,
+        "avg": 903
+      }
+    }
+  ]
+}

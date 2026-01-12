@@ -1,0 +1,44 @@
+{
+  "id": "SCO050",
+  "code": "SCO050",
+  "name": "王應憲",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczO-_oQ3x39g0J05gVQHMxbKKBnuiR4Q60_AZ18_3Mjo26puGY8DYjkhS3nOeIhezgUoz6Yec1cOr_D2eiDaLQ5JTz7am87U2LGtTtxHGOEtbn9rCZ55On5VwBjrMvQ4q6fzxj8-1XaWhxQlG2oBWzsHTQ=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "113",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 369,
+        "hits": 1314,
+        "hr": 917,
+        "rbi": 250,
+        "avg": 903
+      }
+    }
+  ]
+}

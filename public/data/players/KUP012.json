@@ -1,0 +1,44 @@
+{
+  "id": "KUP012",
+  "code": "KUP012",
+  "name": "高睿伯",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "極品酷寶"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "極品酷寶",
+      "number": "28",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 570,
+        "hits": 509,
+        "hr": 1145,
+        "rbi": 268,
+        "avg": 1022
+      }
+    }
+  ]
+}

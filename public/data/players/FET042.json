@@ -1,0 +1,73 @@
+{
+  "id": "FET042",
+  "code": "FET042",
+  "name": "李潤翔",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "FORCE"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "FORCE",
+      "number": "FET042",
+      "batting": {
+        "games": 14,
+        "pa": 48,
+        "ab": 37,
+        "hits": 15,
+        "singles": 11,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 16,
+        "runs": 13,
+        "bb": 0,
+        "so": 7,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 19
+      },
+      "rankings": {
+        "rc": 24,
+        "hits": 33,
+        "hr": 184,
+        "rbi": 19,
+        "avg": 8
+      }
+    },
+    {
+      "year": 2009,
+      "team": "FORCE",
+      "number": "FET042",
+      "batting": {
+        "games": 12,
+        "pa": 55,
+        "ab": 43,
+        "hits": 19,
+        "singles": 12,
+        "doubles": 4,
+        "triples": 2,
+        "hr": 1,
+        "rbi": 21,
+        "runs": 16,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 30
+      },
+      "rankings": {
+        "rc": 10,
+        "hits": 17,
+        "hr": 8,
+        "rbi": 5,
+        "avg": 4
+      }
+    }
+  ]
+}

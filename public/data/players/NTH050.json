@@ -1,0 +1,44 @@
+{
+  "id": "NTH050",
+  "code": "NTH050",
+  "name": "官軒宇",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNIP-htXpNhF_KDXx8oQ5CnyKJrCtbjnAIEUWiFiLy5PZwcbfP2YDElCDQPnGf5KOjJIH_0oyi1cuf215AL42QarCNCueTG2ICdrdTTykb7M0Al-OMN0xKozhj2xV28subSOCyf3GjtYmjAxmaErNzS=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "99",
+      "batting": {
+        "games": 8,
+        "pa": 27,
+        "ab": 22,
+        "hits": 8,
+        "singles": 5,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 6,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 153,
+        "hits": 156,
+        "hr": 1372,
+        "rbi": 179,
+        "avg": 1123
+      }
+    }
+  ]
+}

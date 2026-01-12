@@ -1,0 +1,44 @@
+{
+  "id": "NTH011",
+  "code": "NTH011",
+  "name": "吳宗翰",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczO2c52OLWbVgia-ReFAuB3u-Bw8mKh3SHLtRdcBMmbjNLirtQeLlPP1U8Q5uwMMFoq0C3kgh9sVLXT_3JDsH_RG5O_VT43Rt58sLIT2WuFJ7cExOp-_DXmzPwNnSW_Ri9TnmlV7BgigPSMA_rtBV6XB=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "43",
+      "batting": {
+        "games": 8,
+        "pa": 19,
+        "ab": 17,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 0,
+        "so": 9,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 369,
+        "hits": 346,
+        "hr": 1307,
+        "rbi": 261,
+        "avg": 1123
+      }
+    }
+  ]
+}

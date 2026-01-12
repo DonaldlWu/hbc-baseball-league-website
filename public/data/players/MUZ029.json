@@ -1,0 +1,73 @@
+{
+  "id": "MUZ029",
+  "code": "MUZ029",
+  "name": "王宸培",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "木柵OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "木柵OB",
+      "number": "88",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 563,
+        "hits": 545,
+        "hr": 43,
+        "rbi": 483,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "木柵OB",
+      "number": "MUZ029",
+      "batting": {
+        "games": 6,
+        "pa": 11,
+        "ab": 8,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 5,
+        "bb": 4,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 353,
+        "hits": 458,
+        "hr": 645,
+        "rbi": 379,
+        "avg": 340
+      }
+    }
+  ]
+}

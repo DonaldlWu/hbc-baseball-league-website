@@ -1,0 +1,364 @@
+{
+  "id": "NTM022",
+  "code": "NTM022",
+  "name": "任傳中",
+  "photo": "https://lh3.googleusercontent.com/SZCy-jOFvEdubb2GSKP7lwZqm7iVOTnTE-w--0FJWHcuzi7BoQmnuRs5lbSnzzCOrx92izsunyrv4RW82erikzmMpFvr-NLG-3oHqz2N7h0S97R8LWEUcuWuhwZj5mCONyN3I72AD9Uyv5YES7D4bV9O6U0F3ERM77in9DL9kYQVKrZ4wUWaoW86iC8tSCfKqHcgHN_aF_nMyXuk7OoKQTbd0nypuIIzZbGjbxh2G7mwU9gX3QHaLspqU4B2pW5gkbzTeuT5INmi8z3oOVvL_zg7K4SuXju75kgmPFONL_yLA4GVIKyMeVYWLtZetVkA00jvWQaW7aZjq-BSzOsDt-1VA8wnYQ2-yg3q4mAh4yHvRb3EDhldmUXMmDwPW_j4RZL5tM2X0q7lmaxr4eixPdN26cr82VAXY1YYNWOqF0DQQ256uBKKm_xQYCb21e60dw3qu5eUCqdh37eLUyJ9SCFlmaB2M_G4Q_Nf8G24Ohcr6vweoZ1_5SAlmBQIt-fWl3HyuEv6tedaLY1sjhJ9D6p1tK6z0dQRLfb_k6lpm1VpuqbxnwcvN0-T4IxLVIjRdyHggXAda9y_kCymW2OVavKWlLFt-UNSrVXQdRq6Hoy-YXbJyoKJIVTmv-TovxNVc60S5no5f-7zDxzw6klht6PBXKmCs_cd=w310-h335-no",
+  "career": {
+    "debut": 2014,
+    "teams": [
+      "Mechanics",
+      "台大機械"
+    ],
+    "totalSeasons": 12
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Mechanics",
+      "number": "66",
+      "batting": {
+        "games": 7,
+        "pa": 23,
+        "ab": 20,
+        "hits": 4,
+        "singles": 2,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 5,
+        "so": 11,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 329,
+        "hits": 289,
+        "hr": 1347,
+        "rbi": 493,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "台大機械",
+      "number": "66",
+      "batting": {
+        "games": 4,
+        "pa": 10,
+        "ab": 6,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 2,
+        "bb": 4,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 136,
+        "hits": 197,
+        "hr": 1136,
+        "rbi": 51,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "台大機械",
+      "number": "66",
+      "batting": {
+        "games": 4,
+        "pa": 11,
+        "ab": 11,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 3,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 409,
+        "hits": 274,
+        "hr": 1171,
+        "rbi": 312,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "台大機械",
+      "number": "66",
+      "batting": {
+        "games": 7,
+        "pa": 16,
+        "ab": 10,
+        "hits": 4,
+        "singles": 2,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 9,
+        "bb": 17,
+        "so": 1,
+        "sb": 6,
+        "sf": 1,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 99,
+        "hits": 192,
+        "hr": 1288,
+        "rbi": 89,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "台大機械",
+      "number": "66",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 6,
+        "hits": 2,
+        "singles": 0,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 451,
+        "hits": 428,
+        "hr": 1179,
+        "rbi": 444,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "台大機械",
+      "number": "66",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 7,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 5,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 393,
+        "hits": 378,
+        "hr": 1190,
+        "rbi": 349,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台大機械",
+      "number": "66",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 890,
+        "hits": 1617,
+        "hr": 1130,
+        "rbi": 1565,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "台大機械",
+      "number": "66",
+      "batting": {
+        "games": 9,
+        "pa": 32,
+        "ab": 27,
+        "hits": 12,
+        "singles": 8,
+        "doubles": 2,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 15,
+        "bb": 20,
+        "so": 3,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 18
+      },
+      "rankings": {
+        "rc": 101,
+        "hits": 114,
+        "hr": 1509,
+        "rbi": 84,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "台大機械",
+      "number": "NTM022",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 8,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 9,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 421,
+        "hits": 454,
+        "hr": 630,
+        "rbi": 484,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "台大機械",
+      "number": "NTM022",
+      "batting": {
+        "games": 11,
+        "pa": 24,
+        "ab": 23,
+        "hits": 7,
+        "singles": 7,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 7,
+        "bb": 12,
+        "so": 7,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 339,
+        "hits": 246,
+        "hr": 711,
+        "rbi": 298,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "台大機械",
+      "number": "NTM022",
+      "batting": {
+        "games": 9,
+        "pa": 22,
+        "ab": 19,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 6,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 417,
+        "hits": 328,
+        "hr": 668,
+        "rbi": 471,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "台大機械",
+      "number": "NTM022",
+      "batting": {
+        "games": 4,
+        "pa": 12,
+        "ab": 10,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 22,
+        "so": 7,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 662,
+        "hits": 667,
+        "hr": 380,
+        "rbi": 655,
+        "avg": 327
+      }
+    }
+  ]
+}

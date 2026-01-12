@@ -1,0 +1,73 @@
+{
+  "id": "WIN057",
+  "code": "WIN057",
+  "name": "葉偉志",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "颶風"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "颶風",
+      "number": "WIN057",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 6,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 2,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 959,
+        "hits": 539,
+        "hr": 580,
+        "rbi": 971,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "颶風",
+      "number": "WIN057",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 4,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 860,
+        "hits": 849,
+        "hr": 352,
+        "rbi": 797,
+        "avg": 349
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "NTH041",
+  "code": "NTH041",
+  "name": "郭品言",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMNeS9VldcF5HoGB6T22nYWRUikcZid6KxoUyPwtqoRzVCR2TJLerjMP1z37Zj8gVBNyKzxm1HG62LSgOS2sbFuc2GSbWrEVt_kqslEmdPkBPwxTFbDirDTp91reQPh1Y7-P7gEAwOYbxKTMQtNuuBO=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "54",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 646,
+        "hits": 909,
+        "hr": 386,
+        "rbi": 855,
+        "avg": 1123
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "SHU027",
+  "code": "SHU027",
+  "name": "林峻麒",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMMyQuUp7BMw6Z5Oy9bv8Az6UYm_E60-0vNaUe0nENeBaefdp6t_rW2efpZ9DvkxQ1ExLP8EQT7zKhvifGXdNQFzm4DpTfq5C1Da3tY6rZlM0unQ4EzaT_zDQK12EUz6ewzPwPomnn-Qzio3LrIevRz=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "97",
+      "batting": {
+        "games": 15,
+        "pa": 61,
+        "ab": 44,
+        "hits": 22,
+        "singles": 13,
+        "doubles": 8,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 12,
+        "runs": 20,
+        "bb": 3,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 32
+      },
+      "rankings": {
+        "rc": 5,
+        "hits": 10,
+        "hr": 1525,
+        "rbi": 45,
+        "avg": 9
+      }
+    },
+    {
+      "year": 2024,
+      "team": "世新超乙組",
+      "number": "95",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 230,
+        "hits": 239,
+        "hr": 990,
+        "rbi": 1304,
+        "avg": 903
+      }
+    }
+  ]
+}

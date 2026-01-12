@@ -1,0 +1,189 @@
+{
+  "id": "YAN059",
+  "code": "YAN059",
+  "name": "侯樹原",
+  "photo": "https://lh3.googleusercontent.com/7NdNv3K3FmqaWMOyKxpYQbwdvmd7OiakUi7Ps8sjneF0-gNLrq0mhSNkD7hUEWY1PHv7obgbIZXCxfz_qD9zKqFLulZxjQeXG6p3OTukKlc4p3A0PZHJEPl9iX48sVn0LAOEmiTXOR_hsbyMa6hr1Y02FDlK0KH2MVuHcNMzBvOEor-bQB0JD0AAWu6xjwdRATsH5Tu5s0N5iVdDRCIB-fgQSwXIHW80owhRKc9kUfZyhF77RN3UdYvN4NMZr60OKMqcKvcO9wLofTawD-X6GkknpLXTRwtYPT2lUXOv3wBwjl2LujIuMb_UmHRVo8RO_GqTyyILH3PkKR1MIfwKFyDHluA-r2GMugCAnLb7eslb6MFGUS8nVIiJB6vgCHnOA-V5LfVg-froESV66sxJOgF5X1ipSSZy1NQSshlmwOPFQSUiivteeEILVtvT98Sm9mVp3TyQtV0Y4BXKPNOd0IWVInWf029I8hpwEWHwFU4DX7YWAzBmFj0XfY2hsrq5V99W73Hh7kP_ymbfUN5FQ2GMO8-UEFesuZ4an0CPedznjOkKxuN2Gw--ctLH6v0aT_UCm_fm0R_ohwB4J05HleWyIXxsW-A=w310-h335-no",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "陽明OB"
+    ],
+    "totalSeasons": 6
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "陽明OB",
+      "number": "13",
+      "batting": {
+        "games": 11,
+        "pa": 52,
+        "ab": 41,
+        "hits": 23,
+        "singles": 13,
+        "doubles": 8,
+        "triples": 1,
+        "hr": 1,
+        "rbi": 18,
+        "runs": 27,
+        "bb": 0,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 36
+      },
+      "rankings": {
+        "rc": 6,
+        "hits": 6,
+        "hr": 27,
+        "rbi": 12,
+        "avg": 4
+      }
+    },
+    {
+      "year": 2024,
+      "team": "陽明OB",
+      "number": "13",
+      "batting": {
+        "games": 7,
+        "pa": 24,
+        "ab": 20,
+        "hits": 11,
+        "singles": 7,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 12,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 23,
+        "hits": 25,
+        "hr": 1316,
+        "rbi": 82,
+        "avg": 5
+      }
+    },
+    {
+      "year": 2019,
+      "team": "陽明OB",
+      "number": "102",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 646,
+        "hits": 616,
+        "hr": 102,
+        "rbi": 549,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "陽明OB",
+      "number": "102",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 665,
+        "hits": 647,
+        "hr": 145,
+        "rbi": 585,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "陽明OB",
+      "number": "YAN059",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 6,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 548,
+        "hits": 537,
+        "hr": 578,
+        "rbi": 969,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "陽明OB",
+      "number": "YAN059",
+      "batting": {
+        "games": 7,
+        "pa": 27,
+        "ab": 22,
+        "hits": 11,
+        "singles": 4,
+        "doubles": 5,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 8,
+        "bb": 0,
+        "so": 5,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 20
+      },
+      "rankings": {
+        "rc": 106,
+        "hits": 153,
+        "hr": 736,
+        "rbi": 215,
+        "avg": 349
+      }
+    }
+  ]
+}

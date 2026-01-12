@@ -1,0 +1,73 @@
+{
+  "id": "NTO010",
+  "code": "NTO010",
+  "name": "楊乃嘉",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "海洋大學",
+      "number": "17",
+      "batting": {
+        "games": 5,
+        "pa": 12,
+        "ab": 12,
+        "hits": 4,
+        "singles": 2,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 363,
+        "hits": 314,
+        "hr": 1286,
+        "rbi": 235,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "海洋大學",
+      "number": "17",
+      "batting": {
+        "games": 6,
+        "pa": 16,
+        "ab": 15,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 11,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 521,
+        "hits": 406,
+        "hr": 1332,
+        "rbi": 505,
+        "avg": 1101
+      }
+    }
+  ]
+}

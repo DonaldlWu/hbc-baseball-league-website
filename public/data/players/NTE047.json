@@ -1,0 +1,44 @@
+{
+  "id": "NTE047",
+  "code": "NTE047",
+  "name": "林紹翔",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "台大經濟OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "台大經濟OB",
+      "number": "NTE047",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 372,
+        "hits": 389,
+        "hr": 434,
+        "rbi": 408,
+        "avg": 624
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "HOL028",
+  "code": "HOL028",
+  "name": "周世剛",
+  "photo": "",
+  "career": {
+    "debut": 2014,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "HOLYBAT",
+      "number": "HOL028",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 991,
+        "hits": 525,
+        "hr": 549,
+        "rbi": 959,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "HOLYBAT",
+      "number": "HOL028",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 756,
+        "hits": 738,
+        "hr": 237,
+        "rbi": 684,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "HOLYBAT",
+      "number": "HOL028",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 711,
+        "hits": 522,
+        "hr": 61,
+        "rbi": 479,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "HOLYBAT",
+      "number": "HOL028",
+      "batting": {
+        "games": 6,
+        "pa": 11,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 250,
+        "hits": 385,
+        "hr": 357,
+        "rbi": 339,
+        "avg": 327
+      }
+    }
+  ]
+}

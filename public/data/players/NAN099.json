@@ -1,0 +1,248 @@
+{
+  "id": "NAN099",
+  "code": "NAN099",
+  "name": "顏維新",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "台大機械",
+      "Synergy"
+    ],
+    "totalSeasons": 8
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台大機械",
+      "number": "74",
+      "batting": {
+        "games": 3,
+        "pa": 3,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 5,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 324,
+        "hits": 333,
+        "hr": 928,
+        "rbi": 1256,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "台大機械",
+      "number": "74",
+      "batting": {
+        "games": 3,
+        "pa": 12,
+        "ab": 9,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 5,
+        "so": 0,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 864,
+        "hits": 1394,
+        "hr": 1180,
+        "rbi": 314,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "台大機械",
+      "number": "74",
+      "batting": {
+        "games": 4,
+        "pa": 15,
+        "ab": 15,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 1,
+        "bb": 3,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 209,
+        "hits": 102,
+        "hr": 1287,
+        "rbi": 197,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "台大機械",
+      "number": "74",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 8,
+        "hits": 3,
+        "singles": 1,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 5,
+        "bb": 11,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 370,
+        "hits": 367,
+        "hr": 1245,
+        "rbi": 1641,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "台大機械",
+      "number": "74",
+      "batting": {
+        "games": 7,
+        "pa": 29,
+        "ab": 29,
+        "hits": 18,
+        "singles": 14,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 9,
+        "bb": 5,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 23
+      },
+      "rankings": {
+        "rc": 67,
+        "hits": 55,
+        "hr": 1463,
+        "rbi": 66,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台大機械",
+      "number": "74",
+      "batting": {
+        "games": 5,
+        "pa": 9,
+        "ab": 9,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 286,
+        "hits": 274,
+        "hr": 1278,
+        "rbi": 428,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "台大機械",
+      "number": "74",
+      "batting": {
+        "games": 4,
+        "pa": 14,
+        "ab": 12,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 3,
+        "bb": 16,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 335,
+        "hits": 326,
+        "hr": 1355,
+        "rbi": 188,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "Synergy",
+      "number": "NAN099",
+      "batting": {
+        "games": 5,
+        "pa": 15,
+        "ab": 13,
+        "hits": 5,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 3,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 3,
+        "bb": 33,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 225,
+        "hits": 291,
+        "hr": 704,
+        "rbi": 136,
+        "avg": 340
+      }
+    }
+  ]
+}

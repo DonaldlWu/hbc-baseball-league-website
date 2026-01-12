@@ -1,0 +1,44 @@
+{
+  "id": "CBC022",
+  "code": "CBC022",
+  "name": "許勝源",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "日促會"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "日促會",
+      "number": "CBC022",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 439,
+        "hits": 457,
+        "hr": 376,
+        "rbi": 785,
+        "avg": 624
+      }
+    }
+  ]
+}

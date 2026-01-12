@@ -1,0 +1,44 @@
+{
+  "id": "FET048",
+  "code": "FET048",
+  "name": "康漢鈞",
+  "photo": "",
+  "career": {
+    "debut": 2010,
+    "teams": [
+      "FORCE"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "FORCE",
+      "number": "FET048",
+      "batting": {
+        "games": 22,
+        "pa": 94,
+        "ab": 69,
+        "hits": 26,
+        "singles": 18,
+        "doubles": 8,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 30,
+        "runs": 24,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 2,
+        "totalBases": 34
+      },
+      "rankings": {
+        "rc": 5,
+        "hits": 9,
+        "hr": 214,
+        "rbi": 2,
+        "avg": 13
+      }
+    }
+  ]
+}

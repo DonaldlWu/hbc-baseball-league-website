@@ -1,0 +1,73 @@
+{
+  "id": "NAN059",
+  "code": "NAN059",
+  "name": "陳韋龍",
+  "photo": "",
+  "career": {
+    "debut": 2011,
+    "teams": [
+      "南港高工OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2012,
+      "team": "南港高工OB",
+      "number": "NAN059",
+      "batting": {
+        "games": 12,
+        "pa": 42,
+        "ab": 37,
+        "hits": 13,
+        "singles": 12,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 4,
+        "bb": 12,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 67,
+        "hits": 44,
+        "hr": 306,
+        "rbi": 69,
+        "avg": 25
+      }
+    },
+    {
+      "year": 2011,
+      "team": "南港高工OB",
+      "number": "NAN059",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 8,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 3,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 159,
+        "hits": 125,
+        "hr": 110,
+        "rbi": 126,
+        "avg": 450
+      }
+    }
+  ]
+}

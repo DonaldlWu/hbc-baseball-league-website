@@ -1,0 +1,44 @@
+{
+  "id": "NTH053",
+  "code": "NTH053",
+  "name": "王暉翔",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNJtHA28cV8lX5ZHNros8Y6kOvHFbvWluJnKHcBtYrmyVpWuJf8bgDndTreyd7-sKOe16HyGLajLbJey8EBMEWnHBihVSOAkLIiIReVHvvO0up4Pl1Jwk7U5VIPrb279J3gBsgZkxme6nZGfhI9Ou65=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "155",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 596,
+        "hits": 1445,
+        "hr": 953,
+        "rbi": 1398,
+        "avg": 1123
+      }
+    }
+  ]
+}

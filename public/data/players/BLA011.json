@@ -1,0 +1,73 @@
+{
+  "id": "BLA011",
+  "code": "BLA011",
+  "name": "劉璟臻",
+  "photo": "沒有照片",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "黑名單"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "黑名單",
+      "number": "BLA011",
+      "batting": {
+        "games": 17,
+        "pa": 74,
+        "ab": 66,
+        "hits": 21,
+        "singles": 15,
+        "doubles": 3,
+        "triples": 3,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 17,
+        "bb": 0,
+        "so": 8,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 30
+      },
+      "rankings": {
+        "rc": 23,
+        "hits": 14,
+        "hr": 212,
+        "rbi": 42,
+        "avg": 29
+      }
+    },
+    {
+      "year": 2009,
+      "team": "黑名單",
+      "number": "BLA011",
+      "batting": {
+        "games": 19,
+        "pa": 87,
+        "ab": 79,
+        "hits": 30,
+        "singles": 22,
+        "doubles": 5,
+        "triples": 3,
+        "hr": 0,
+        "rbi": 16,
+        "runs": 28,
+        "bb": 7,
+        "so": 11,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 41
+      },
+      "rankings": {
+        "rc": 7,
+        "hits": 1,
+        "hr": 298,
+        "rbi": 16,
+        "avg": 13
+      }
+    }
+  ]
+}

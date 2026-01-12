@@ -1,0 +1,160 @@
+{
+  "id": "TRO066",
+  "code": "TRO066",
+  "name": "羅鈺鈞",
+  "photo": "https://lh3.googleusercontent.com/pw/AL9nZEXmNReI1rCS3wqLLB73qwYxg41Li8cPFt6XeomBmP0zOOXKh3LxT3aMCYecCEhTEJEP5F5si7LeASj8yp6_M4Z8VMOo1DeEbMFCgEunZzXj2JE1meGDQlYBLb7imR0HPte21Qo1oyIC_H9jrlRpPPsFmw=w310-h335-no",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "楚奧特"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "楚奧特",
+      "number": "17",
+      "batting": {
+        "games": 15,
+        "pa": 62,
+        "ab": 53,
+        "hits": 23,
+        "singles": 17,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 22,
+        "runs": 16,
+        "bb": 0,
+        "so": 10,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 31
+      },
+      "rankings": {
+        "rc": 18,
+        "hits": 7,
+        "hr": 29,
+        "rbi": 4,
+        "avg": 21
+      }
+    },
+    {
+      "year": 2024,
+      "team": "楚奧特",
+      "number": "17",
+      "batting": {
+        "games": 8,
+        "pa": 32,
+        "ab": 28,
+        "hits": 7,
+        "singles": 5,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 7,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 124,
+        "hits": 93,
+        "hr": 1369,
+        "rbi": 45,
+        "avg": 80
+      }
+    },
+    {
+      "year": 2023,
+      "team": "楚奧特",
+      "number": "17",
+      "batting": {
+        "games": 8,
+        "pa": 32,
+        "ab": 29,
+        "hits": 9,
+        "singles": 4,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 7,
+        "bb": 0,
+        "so": 5,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 62,
+        "hits": 46,
+        "hr": 1378,
+        "rbi": 86,
+        "avg": 65
+      }
+    },
+    {
+      "year": 2022,
+      "team": "楚奧特",
+      "number": "17",
+      "batting": {
+        "games": 7,
+        "pa": 19,
+        "ab": 17,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 7,
+        "bb": 0,
+        "so": 5,
+        "sb": 4,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 167,
+        "hits": 150,
+        "hr": 1327,
+        "rbi": 50,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "楚奧特",
+      "number": "17",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 684,
+        "hits": 642,
+        "hr": 95,
+        "rbi": 576,
+        "avg": 1022
+      }
+    }
+  ]
+}

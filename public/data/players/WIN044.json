@@ -1,0 +1,335 @@
+{
+  "id": "WIN044",
+  "code": "WIN044",
+  "name": "張富城",
+  "photo": "https://lh3.googleusercontent.com/pw/AL9nZEVMhX4O5-hwBioDAx3IFpWP5yP5TG9APWgttJ858hjg2ygPhzWVBippJXcuT8E8gc6E48CQUz_vQ1cgJ52-Ql0mooOTO2QXIylmbNji5R-Et0gvrvYoLPdLPn5wHmqr40ypViuontWZ2sG9fDctsQ4umA=w310-h335-no",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "逆轉星球",
+      "颶風"
+    ],
+    "totalSeasons": 11
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "逆轉星球",
+      "number": "0",
+      "batting": {
+        "games": 9,
+        "pa": 31,
+        "ab": 26,
+        "hits": 8,
+        "singles": 5,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 8,
+        "bb": 12,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 168,
+        "hits": 161,
+        "hr": 1397,
+        "rbi": 181,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "逆轉星球",
+      "number": "0",
+      "batting": {
+        "games": 9,
+        "pa": 30,
+        "ab": 24,
+        "hits": 12,
+        "singles": 7,
+        "doubles": 4,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 9,
+        "bb": 10,
+        "so": 2,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 18
+      },
+      "rankings": {
+        "rc": 11,
+        "hits": 17,
+        "hr": 1357,
+        "rbi": 119,
+        "avg": 10
+      }
+    },
+    {
+      "year": 2023,
+      "team": "颶風",
+      "number": "0",
+      "batting": {
+        "games": 7,
+        "pa": 29,
+        "ab": 25,
+        "hits": 10,
+        "singles": 7,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 12,
+        "bb": 12,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 42,
+        "hits": 28,
+        "hr": 1369,
+        "rbi": 67,
+        "avg": 32
+      }
+    },
+    {
+      "year": 2022,
+      "team": "颶風",
+      "number": "0",
+      "batting": {
+        "games": 7,
+        "pa": 29,
+        "ab": 25,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 8,
+        "bb": 2,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 175,
+        "hits": 117,
+        "hr": 1425,
+        "rbi": 160,
+        "avg": 84
+      }
+    },
+    {
+      "year": 2021,
+      "team": "逆轉星球",
+      "number": "0",
+      "batting": {
+        "games": 12,
+        "pa": 44,
+        "ab": 36,
+        "hits": 18,
+        "singles": 10,
+        "doubles": 7,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 16,
+        "bb": 9,
+        "so": 7,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 27
+      },
+      "rankings": {
+        "rc": 38,
+        "hits": 51,
+        "hr": 1587,
+        "rbi": 85,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "逆轉星球",
+      "number": "0",
+      "batting": {
+        "games": 15,
+        "pa": 42,
+        "ab": 30,
+        "hits": 10,
+        "singles": 9,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 9,
+        "bb": 24,
+        "so": 6,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 116,
+        "hits": 159,
+        "hr": 1551,
+        "rbi": 413,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "逆轉星球",
+      "number": "0",
+      "batting": {
+        "games": 16,
+        "pa": 52,
+        "ab": 42,
+        "hits": 17,
+        "singles": 15,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 15,
+        "runs": 19,
+        "bb": 20,
+        "so": 2,
+        "sb": 5,
+        "sf": 0,
+        "totalBases": 21
+      },
+      "rankings": {
+        "rc": 55,
+        "hits": 55,
+        "hr": 20,
+        "rbi": 35,
+        "avg": 26
+      }
+    },
+    {
+      "year": 2018,
+      "team": "逆轉星球",
+      "number": "0",
+      "batting": {
+        "games": 18,
+        "pa": 55,
+        "ab": 46,
+        "hits": 15,
+        "singles": 10,
+        "doubles": 1,
+        "triples": 2,
+        "hr": 2,
+        "rbi": 12,
+        "runs": 16,
+        "bb": 29,
+        "so": 7,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 26
+      },
+      "rankings": {
+        "rc": 69,
+        "hits": 90,
+        "hr": 4,
+        "rbi": 65,
+        "avg": 80
+      }
+    },
+    {
+      "year": 2017,
+      "team": "颶風",
+      "number": "WIN044",
+      "batting": {
+        "games": 15,
+        "pa": 64,
+        "ab": 50,
+        "hits": 24,
+        "singles": 17,
+        "doubles": 6,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 17,
+        "runs": 24,
+        "bb": 38,
+        "so": 3,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 32
+      },
+      "rankings": {
+        "rc": 26,
+        "hits": 30,
+        "hr": 980,
+        "rbi": 41,
+        "avg": 21
+      }
+    },
+    {
+      "year": 2016,
+      "team": "颶風",
+      "number": "WIN044",
+      "batting": {
+        "games": 17,
+        "pa": 57,
+        "ab": 47,
+        "hits": 22,
+        "singles": 15,
+        "doubles": 5,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 13,
+        "runs": 22,
+        "bb": 28,
+        "so": 3,
+        "sb": 5,
+        "sf": 1,
+        "totalBases": 31
+      },
+      "rankings": {
+        "rc": 37,
+        "hits": 53,
+        "hr": 899,
+        "rbi": 77,
+        "avg": 23
+      }
+    },
+    {
+      "year": 2015,
+      "team": "颶風",
+      "number": "WIN044",
+      "batting": {
+        "games": 3,
+        "pa": 17,
+        "ab": 16,
+        "hits": 11,
+        "singles": 5,
+        "doubles": 6,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 8,
+        "bb": 4,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 117,
+        "hits": 137,
+        "hr": 620,
+        "rbi": 158,
+        "avg": 624
+      }
+    }
+  ]
+}

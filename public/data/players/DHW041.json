@@ -1,0 +1,44 @@
+{
+  "id": "DHW041",
+  "code": "DHW041",
+  "name": "趙德承",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOOfg6OGjIdiIbb4Z9cH9LYlhREzMPKykqtEePYhmIXRctRXLpJGE1noH9Q-KezREF6RlxueFImj1BpkNG59_lotk9i78L-Ek6v24r15Igg86Hl5QWdKjymL9ShTT2NPQzikkE86EQPMy9tm66V4UWn=w143-h144",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "51",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 618,
+        "hits": 895,
+        "hr": 372,
+        "rbi": 841,
+        "avg": 1123
+      }
+    }
+  ]
+}

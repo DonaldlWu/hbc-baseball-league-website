@@ -1,0 +1,249 @@
+{
+  "id": "NAN087",
+  "code": "NAN087",
+  "name": "孔睦驊",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPzFbe3GWDfXkmGxqTt-nz4tL765BDLr3LOZHqf6spWkGAqd6X0VFXBLRdfkBORh9AhqxXZiwUP2jcS6wHQxYF_p2sw73fea6eU9QcM6qD2lxbGd5K7eXZ6gVOsq2m3Nw1kkaqmTnTZ9GhIEBgpHlvwjA=w361-h490",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "飛尼克斯",
+      "Synergy",
+      "南港高工OB"
+    ],
+    "totalSeasons": 8
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "飛尼克斯",
+      "number": "2",
+      "batting": {
+        "games": 17,
+        "pa": 49,
+        "ab": 36,
+        "hits": 11,
+        "singles": 7,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 19,
+        "bb": 0,
+        "so": 13,
+        "sb": 5,
+        "sf": 1,
+        "totalBases": 16
+      },
+      "rankings": {
+        "rc": 61,
+        "hits": 102,
+        "hr": 1491,
+        "rbi": 86,
+        "avg": 69
+      }
+    },
+    {
+      "year": 2024,
+      "team": "飛尼克斯",
+      "number": "2",
+      "batting": {
+        "games": 8,
+        "pa": 22,
+        "ab": 18,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 5,
+        "bb": 0,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 114,
+        "hits": 108,
+        "hr": 1297,
+        "rbi": 108,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "飛尼克斯",
+      "number": "2",
+      "batting": {
+        "games": 8,
+        "pa": 21,
+        "ab": 19,
+        "hits": 9,
+        "singles": 9,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 8,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 70,
+        "hits": 38,
+        "hr": 1312,
+        "rbi": 47,
+        "avg": 19
+      }
+    },
+    {
+      "year": 2022,
+      "team": "飛尼克斯",
+      "number": "2",
+      "batting": {
+        "games": 4,
+        "pa": 11,
+        "ab": 10,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 7,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 274,
+        "hits": 318,
+        "hr": 1217,
+        "rbi": 1458,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "飛尼克斯",
+      "number": "2",
+      "batting": {
+        "games": 9,
+        "pa": 20,
+        "ab": 16,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 2,
+        "bb": 0,
+        "so": 4,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 276,
+        "hits": 279,
+        "hr": 1389,
+        "rbi": 145,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "飛尼克斯",
+      "number": "101",
+      "batting": {
+        "games": 12,
+        "pa": 25,
+        "ab": 22,
+        "hits": 12,
+        "singles": 9,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 11,
+        "bb": 0,
+        "so": 4,
+        "sb": 6,
+        "sf": 0,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 101,
+        "hits": 107,
+        "hr": 1422,
+        "rbi": 135,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2016,
+      "team": "Synergy",
+      "number": "NAN087",
+      "batting": {
+        "games": 4,
+        "pa": 11,
+        "ab": 10,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 4,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 367,
+        "hits": 337,
+        "hr": 570,
+        "rbi": 324,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "南港高工OB",
+      "number": "NAN087",
+      "batting": {
+        "games": 9,
+        "pa": 28,
+        "ab": 25,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 5,
+        "bb": 0,
+        "so": 9,
+        "sb": 3,
+        "sf": 1,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 434,
+        "hits": 333,
+        "hr": 714,
+        "rbi": 326,
+        "avg": 624
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "SCO048",
+  "code": "SCO048",
+  "name": "劉念純",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczO8qjEzl3uJ12OUbaVJXFHdUjFc0trDecg5XgTo9hX5Wo2tMW3m7S2vQA8gCwKM1H_-VT5Sxh6VXXn4RlMl7aLqS6Gsrr26P7Ykzp5pfg1EYfqjNKOhW85VupbxxzLMLb2V15Hj_iKpkYKxpSaSyHYSFQ=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "63",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 571,
+        "hits": 1418,
+        "hr": 903,
+        "rbi": 1365,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "124",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 526,
+        "hits": 476,
+        "hr": 64,
+        "rbi": 409,
+        "avg": 903
+      }
+    }
+  ]
+}

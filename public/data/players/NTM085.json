@@ -1,0 +1,44 @@
+{
+  "id": "NTM085",
+  "code": "NTM085",
+  "name": "連翊安",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNLLX8QNxoiMYFnb2_hCPKaSWAijJzoYHbeCvs_-glOdG-8Z1phyuQXJh5cNI7FhN3vXwwOM-ASwbmZjHeR0oolvnQ3I6Ie6tnVxcDqlnSH8fu7UBrj4lR1ddoDKpYHCVqjEemq1FppQK890fEMYMMgOw=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "Mechanics"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Mechanics",
+      "number": "96",
+      "batting": {
+        "games": 4,
+        "pa": 6,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1070,
+        "hits": 1504,
+        "hr": 1079,
+        "rbi": 1475,
+        "avg": 1123
+      }
+    }
+  ]
+}

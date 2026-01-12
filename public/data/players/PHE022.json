@@ -1,0 +1,73 @@
+{
+  "id": "PHE022",
+  "code": "PHE022",
+  "name": "張富原",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczO6i5SiFEx4JOLLysfB79IRtmJSgv4y1C_X4nf1aobeaQ8fbGUkMMYWhI494f1QKAuhXLAdEnJzNLt3FQlWORjCw7zcWHRuvDgLCgo5i7EfB_IgIsqtLxvY36GyTaf5BJ5WnCHVw92y51Op1K9VKdbL_A=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "飛尼克斯"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "飛尼克斯",
+      "number": "106",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1015,
+        "hits": 623,
+        "hr": 100,
+        "rbi": 569,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "飛尼克斯",
+      "number": "106",
+      "batting": {
+        "games": 3,
+        "pa": 5,
+        "ab": 2,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 5,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 211,
+        "hits": 365,
+        "hr": 1012,
+        "rbi": 273,
+        "avg": 903
+      }
+    }
+  ]
+}

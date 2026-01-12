@@ -1,0 +1,44 @@
+{
+  "id": "SWD005",
+  "code": "SWD005",
+  "name": "李冠緯",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNLDPHJuP4fQAv5BovAo8zd2tn7XNwjSXTYr08_nllLQMlnfJ1lwaH_ETV-TC6__AA_izgn6KwJkizkMt291-j7lYJEmipwl2mstbwkIwRigoix2uDh6Of8xEIJFRMsb_QO1FgOOlX3X_7kPFIvTvZoHg=w744-h816",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "甜心暴龍"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "甜心暴龍",
+      "number": "10",
+      "batting": {
+        "games": 4,
+        "pa": 14,
+        "ab": 11,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 1,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 419,
+        "hits": 409,
+        "hr": 1223,
+        "rbi": 135,
+        "avg": 1123
+      }
+    }
+  ]
+}

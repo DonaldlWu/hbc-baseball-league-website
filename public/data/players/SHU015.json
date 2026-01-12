@@ -1,0 +1,73 @@
+{
+  "id": "SHU015",
+  "code": "SHU015",
+  "name": "張耀銘",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPNTQXuLEuIc-2vPLLjQuCpXZT3KYc_MJzKmsjVQZ5Lr8il-nAjSsORlhA5VR6A6FmMh_u5Vv3H-F2yzH5QoTL8RPcIqpEj0TqVPP55HSCRn9qClUWDg-d9izFB9XC4ir8AzYvZeSsvG3dtU6JH3H8r=w150-h190-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "113",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 441,
+        "hits": 479,
+        "hr": 1007,
+        "rbi": 1436,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "世新超乙組",
+      "number": "34",
+      "batting": {
+        "games": 4,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 881,
+        "hits": 1337,
+        "hr": 955,
+        "rbi": 1277,
+        "avg": 903
+      }
+    }
+  ]
+}

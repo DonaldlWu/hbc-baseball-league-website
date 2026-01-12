@@ -1,0 +1,44 @@
+{
+  "id": "PMA006",
+  "code": "PMA006",
+  "name": "林柏宇",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "戊戍本一家"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2016,
+      "team": "戊戍本一家",
+      "number": "PMA006",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 8,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 3,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 891,
+        "hits": 531,
+        "hr": 533,
+        "rbi": 917,
+        "avg": 349
+      }
+    }
+  ]
+}

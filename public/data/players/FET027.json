@@ -1,0 +1,73 @@
+{
+  "id": "FET027",
+  "code": "FET027",
+  "name": "江念澤",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "FORCE"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "FORCE",
+      "number": "FET027",
+      "batting": {
+        "games": 8,
+        "pa": 29,
+        "ab": 24,
+        "hits": 10,
+        "singles": 7,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 11,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 49,
+        "hits": 54,
+        "hr": 163,
+        "rbi": 70,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2009,
+      "team": "FORCE",
+      "number": "FET027",
+      "batting": {
+        "games": 15,
+        "pa": 65,
+        "ab": 58,
+        "hits": 25,
+        "singles": 15,
+        "doubles": 7,
+        "triples": 3,
+        "hr": 0,
+        "rbi": 22,
+        "runs": 23,
+        "bb": 2,
+        "so": 4,
+        "sb": 0,
+        "sf": 2,
+        "totalBases": 38
+      },
+      "rankings": {
+        "rc": 9,
+        "hits": 7,
+        "hr": 290,
+        "rbi": 3,
+        "avg": 9
+      }
+    }
+  ]
+}

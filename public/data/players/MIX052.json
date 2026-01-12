@@ -1,0 +1,44 @@
+{
+  "id": "MIX052",
+  "code": "MIX052",
+  "name": "林浚仁",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2016,
+      "team": "MIX",
+      "number": "MIX052",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 721,
+        "hits": 703,
+        "hr": 202,
+        "rbi": 649,
+        "avg": 349
+      }
+    }
+  ]
+}

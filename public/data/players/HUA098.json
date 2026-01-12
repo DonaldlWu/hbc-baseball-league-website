@@ -1,0 +1,249 @@
+{
+  "id": "HUA098",
+  "code": "HUA098",
+  "name": "馬瑄鴻",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNRqafK5pEI-Ntr4g9S0oS1q8M_PH6UKJR1p_YKpDHCDFhi8L1Kj44NyZpViLH9tDQ8BwhVE7_TotTCWBUzg9rjq3TWjkpadYa3xMLEV0tWy2ZkU5kaqqrJfnCcG1cnFFksQICx9WLq7quQqjZV42UbdQ=w310-h335-no",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "逆轉星球",
+      "戊戍本一家",
+      "華江OB"
+    ],
+    "totalSeasons": 8
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "逆轉星球",
+      "number": "24",
+      "batting": {
+        "games": 12,
+        "pa": 45,
+        "ab": 35,
+        "hits": 11,
+        "singles": 6,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 8,
+        "runs": 13,
+        "bb": 2,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 18
+      },
+      "rankings": {
+        "rc": 77,
+        "hits": 98,
+        "hr": 24,
+        "rbi": 102,
+        "avg": 59
+      }
+    },
+    {
+      "year": 2024,
+      "team": "逆轉星球",
+      "number": "24",
+      "batting": {
+        "games": 5,
+        "pa": 10,
+        "ab": 9,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 8,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 334,
+        "hits": 283,
+        "hr": 1146,
+        "rbi": 309,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "逆轉星球",
+      "number": "24",
+      "batting": {
+        "games": 4,
+        "pa": 11,
+        "ab": 6,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 5,
+        "bb": 7,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 197,
+        "hits": 376,
+        "hr": 1154,
+        "rbi": 307,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "逆轉星球",
+      "number": "24",
+      "batting": {
+        "games": 8,
+        "pa": 21,
+        "ab": 18,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 1,
+        "bb": 8,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 293,
+        "hits": 264,
+        "hr": 1347,
+        "rbi": 206,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "逆轉星球",
+      "number": "24",
+      "batting": {
+        "games": 11,
+        "pa": 38,
+        "ab": 26,
+        "hits": 7,
+        "singles": 7,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 9,
+        "bb": 17,
+        "so": 4,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 170,
+        "hits": 238,
+        "hr": 1552,
+        "rbi": 70,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "戊戍本一家",
+      "number": "55",
+      "batting": {
+        "games": 9,
+        "pa": 28,
+        "ab": 21,
+        "hits": 9,
+        "singles": 6,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 6,
+        "bb": 2,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 156,
+        "hits": 179,
+        "hr": 1445,
+        "rbi": 164,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "華江OB",
+      "number": "27",
+      "batting": {
+        "games": 4,
+        "pa": 5,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 539,
+        "hits": 1647,
+        "hr": 1190,
+        "rbi": 1610,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "華江OB",
+      "number": "102",
+      "batting": {
+        "games": 6,
+        "pa": 11,
+        "ab": 8,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 9,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 438,
+        "hits": 532,
+        "hr": 1310,
+        "rbi": 1661,
+        "avg": 940
+      }
+    }
+  ]
+}

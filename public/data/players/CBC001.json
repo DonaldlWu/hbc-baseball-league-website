@@ -1,0 +1,44 @@
+{
+  "id": "CBC001",
+  "code": "CBC001",
+  "name": "王璽安",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "日促會"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "日促會",
+      "number": "CBC001",
+      "batting": {
+        "games": 16,
+        "pa": 54,
+        "ab": 46,
+        "hits": 17,
+        "singles": 13,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 14,
+        "runs": 7,
+        "bb": 19,
+        "so": 8,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 21
+      },
+      "rankings": {
+        "rc": 86,
+        "hits": 68,
+        "hr": 850,
+        "rbi": 59,
+        "avg": 58
+      }
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "id": "NAN088",
+  "code": "NAN088",
+  "name": "陳柏勳",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMkd2R-xmSfIuMZRtOSc81839ZxGJy5S3hLfpMzyuySNoAMseSuRBEzFqdfrFDOejD_gYVbMoObAZMQTR2Iag5d8o-9mCISfNqnxJL_pzTMHfZnv0kLbu2JjHlXymfUcGAE1GXWHg4XpeBzsyaxHxd7Xw=w310-h335-no",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "Line Drive",
+      "台北大學",
+      "戊戍本一家",
+      "Synergy",
+      "南港高工OB"
+    ],
+    "totalSeasons": 9
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Line Drive",
+      "number": "28",
+      "batting": {
+        "games": 12,
+        "pa": 49,
+        "ab": 39,
+        "hits": 22,
+        "singles": 15,
+        "doubles": 4,
+        "triples": 2,
+        "hr": 1,
+        "rbi": 18,
+        "runs": 22,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 33
+      },
+      "rankings": {
+        "rc": 8,
+        "hits": 8,
+        "hr": 26,
+        "rbi": 11,
+        "avg": 2
+      }
+    },
+    {
+      "year": 2024,
+      "team": "Line Drive",
+      "number": "28",
+      "batting": {
+        "games": 7,
+        "pa": 23,
+        "ab": 18,
+        "hits": 9,
+        "singles": 6,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 10,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 43,
+        "hits": 51,
+        "hr": 1305,
+        "rbi": 81,
+        "avg": 14
+      }
+    },
+    {
+      "year": 2021,
+      "team": "台北大學",
+      "number": "28",
+      "batting": {
+        "games": 12,
+        "pa": 48,
+        "ab": 47,
+        "hits": 13,
+        "singles": 7,
+        "doubles": 5,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 14,
+        "bb": 0,
+        "so": 9,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 20
+      },
+      "rankings": {
+        "rc": 184,
+        "hits": 106,
+        "hr": 1604,
+        "rbi": 133,
+        "avg": 93
+      }
+    },
+    {
+      "year": 2020,
+      "team": "戊戍本一家",
+      "number": "33",
+      "batting": {
+        "games": 12,
+        "pa": 42,
+        "ab": 38,
+        "hits": 15,
+        "singles": 14,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 3,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 16
+      },
+      "rankings": {
+        "rc": 128,
+        "hits": 82,
+        "hr": 1557,
+        "rbi": 218,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "戊戍本一家",
+      "number": "33",
+      "batting": {
+        "games": 11,
+        "pa": 35,
+        "ab": 34,
+        "hits": 8,
+        "singles": 6,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 5,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 319,
+        "hits": 197,
+        "hr": 1533,
+        "rbi": 309,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "戊戍本一家",
+      "number": "33",
+      "batting": {
+        "games": 4,
+        "pa": 10,
+        "ab": 7,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 450,
+        "hits": 526,
+        "hr": 1295,
+        "rbi": 448,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "Synergy",
+      "number": "NAN088",
+      "batting": {
+        "games": 3,
+        "pa": 12,
+        "ab": 10,
+        "hits": 4,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 3,
+        "runs": 4,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 278,
+        "hits": 328,
+        "hr": 23,
+        "rbi": 328,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "Synergy",
+      "number": "NAN088",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 8,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 551,
+        "hits": 433,
+        "hr": 534,
+        "rbi": 918,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "南港高工OB",
+      "number": "NAN088",
+      "batting": {
+        "games": 8,
+        "pa": 19,
+        "ab": 19,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 10,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 903,
+        "hits": 515,
+        "hr": 647,
+        "rbi": 898,
+        "avg": 624
+      }
+    }
+  ]
+}

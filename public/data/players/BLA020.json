@@ -1,0 +1,73 @@
+{
+  "id": "BLA020",
+  "code": "BLA020",
+  "name": "蘇正棠",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "黑名單"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "黑名單",
+      "number": "BLA020",
+      "batting": {
+        "games": 4,
+        "pa": 16,
+        "ab": 16,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 7,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 107,
+        "hits": 89,
+        "hr": 142,
+        "rbi": 60,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2009,
+      "team": "黑名單",
+      "number": "BLA020",
+      "batting": {
+        "games": 9,
+        "pa": 36,
+        "ab": 32,
+        "hits": 11,
+        "singles": 7,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 7,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 41,
+        "hits": 40,
+        "hr": 257,
+        "rbi": 39,
+        "avg": 450
+      }
+    }
+  ]
+}

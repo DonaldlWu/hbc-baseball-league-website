@@ -1,0 +1,44 @@
+{
+  "id": "NTH016",
+  "code": "NTH016",
+  "name": "李文政",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMCU15LbozX03WCFgHZEZf3bp8IzAZICwAk04qf7Jx79nfDFbsc7OIq2svtYLsUIQNfEAV5r-Asp89A0hnbjh7QOIMyAPKJiSQ9Ku3hwR5DHTnq8ZQ1pSK7mPn_6ndrFNpvEG988xJubaulQtFtLwIr=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "83",
+      "batting": {
+        "games": 4,
+        "pa": 10,
+        "ab": 8,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1055,
+        "hits": 1527,
+        "hr": 1168,
+        "rbi": 1505,
+        "avg": 1123
+      }
+    }
+  ]
+}

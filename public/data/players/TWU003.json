@@ -1,0 +1,44 @@
+{
+  "id": "TWU003",
+  "code": "TWU003",
+  "name": "羅彥鈞",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNIyavi3RuzmrG6Cmeh8ahO0MQnMaWowb4qO7nzFtkXGN-2CogNJzBZ1MeFAtmOhB7s81c9V0dyZBSFcEutevuJ2xRBshm1yaBev-2aTUO_SEK9jmA3N_x-soN-q6vBO1-FZVaxwfa5D7Eou3UYF3Qt=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "4",
+      "batting": {
+        "games": 7,
+        "pa": 31,
+        "ab": 24,
+        "hits": 7,
+        "singles": 7,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 10,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 83,
+        "hits": 92,
+        "hr": 1361,
+        "rbi": 65,
+        "avg": 69
+      }
+    }
+  ]
+}

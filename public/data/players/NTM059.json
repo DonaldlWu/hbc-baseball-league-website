@@ -1,0 +1,44 @@
+{
+  "id": "NTM059",
+  "code": "NTM059",
+  "name": "嚴榮興",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "台大機械"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "台大機械",
+      "number": "103",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 4,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 529,
+        "hits": 486,
+        "hr": 1174,
+        "rbi": 345,
+        "avg": 940
+      }
+    }
+  ]
+}

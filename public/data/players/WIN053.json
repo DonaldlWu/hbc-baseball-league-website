@@ -1,0 +1,131 @@
+{
+  "id": "WIN053",
+  "code": "WIN053",
+  "name": "陳航軒",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "颶風"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "颶風",
+      "number": "28",
+      "batting": {
+        "games": 2,
+        "pa": 7,
+        "ab": 6,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 350,
+        "hits": 356,
+        "hr": 1082,
+        "rbi": 282,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "颶風",
+      "number": "28",
+      "batting": {
+        "games": 8,
+        "pa": 20,
+        "ab": 16,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 182,
+        "hits": 152,
+        "hr": 1335,
+        "rbi": 365,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2017,
+      "team": "颶風",
+      "number": "WIN053",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 743,
+        "hits": 748,
+        "hr": 242,
+        "rbi": 692,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "颶風",
+      "number": "WIN053",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 529,
+        "hits": 865,
+        "hr": 370,
+        "rbi": 814,
+        "avg": 349
+      }
+    }
+  ]
+}

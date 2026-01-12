@@ -1,0 +1,44 @@
+{
+  "id": "HUA072",
+  "code": "HUA072",
+  "name": "吳富綸",
+  "photo": "",
+  "career": {
+    "debut": 2012,
+    "teams": [
+      "華江OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2012,
+      "team": "華江OB",
+      "number": "HUA072",
+      "batting": {
+        "games": 1,
+        "pa": 8,
+        "ab": 8,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 86,
+        "hits": 101,
+        "hr": 190,
+        "rbi": 186,
+        "avg": 358
+      }
+    }
+  ]
+}

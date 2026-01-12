@@ -1,0 +1,160 @@
+{
+  "id": "ADV056",
+  "code": "ADV056",
+  "name": "王維浩",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "冒險家"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "冒險家",
+      "number": "1",
+      "batting": {
+        "games": 17,
+        "pa": 75,
+        "ab": 55,
+        "hits": 22,
+        "singles": 13,
+        "doubles": 8,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 12,
+        "runs": 22,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 32
+      },
+      "rankings": {
+        "rc": 15,
+        "hits": 33,
+        "hr": 1666,
+        "rbi": 62,
+        "avg": 42
+      }
+    },
+    {
+      "year": 2019,
+      "team": "冒險家",
+      "number": "1",
+      "batting": {
+        "games": 10,
+        "pa": 42,
+        "ab": 33,
+        "hits": 18,
+        "singles": 10,
+        "doubles": 6,
+        "triples": 1,
+        "hr": 1,
+        "rbi": 9,
+        "runs": 10,
+        "bb": 6,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 29
+      },
+      "rankings": {
+        "rc": 34,
+        "hits": 48,
+        "hr": 18,
+        "rbi": 105,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "冒險家",
+      "number": "1",
+      "batting": {
+        "games": 15,
+        "pa": 66,
+        "ab": 46,
+        "hits": 19,
+        "singles": 15,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 17,
+        "runs": 27,
+        "bb": 1,
+        "so": 2,
+        "sb": 0,
+        "sf": 4,
+        "totalBases": 24
+      },
+      "rankings": {
+        "rc": 36,
+        "hits": 54,
+        "hr": 1652,
+        "rbi": 31,
+        "avg": 34
+      }
+    },
+    {
+      "year": 2017,
+      "team": "冒險家",
+      "number": "ADV056",
+      "batting": {
+        "games": 19,
+        "pa": 91,
+        "ab": 72,
+        "hits": 35,
+        "singles": 22,
+        "doubles": 12,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 25,
+        "runs": 27,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 2,
+        "totalBases": 49
+      },
+      "rankings": {
+        "rc": 8,
+        "hits": 5,
+        "hr": 1014,
+        "rbi": 10,
+        "avg": 17
+      }
+    },
+    {
+      "year": 2016,
+      "team": "冒險家",
+      "number": "ADV056",
+      "batting": {
+        "games": 5,
+        "pa": 5,
+        "ab": 3,
+        "hits": 3,
+        "singles": 1,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 296,
+        "hits": 366,
+        "hr": 451,
+        "rbi": 315,
+        "avg": 349
+      }
+    }
+  ]
+}

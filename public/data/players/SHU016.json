@@ -1,0 +1,73 @@
+{
+  "id": "SHU016",
+  "code": "SHU016",
+  "name": "邱浩賢",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOxMdF6AHExywmg3QCgDQi1wqe85025MMAy_WlgwdU8x5quUOtlBQS5wKixppCw0FG-bLsIxDkcf10-yRxpv4vnyvr0KUrOz7NRouZ7NnrwfDqldJApY1XW8MftjN51bdIPK5s3WBo5xSTVm5KV7fUQ=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "95",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1034,
+        "hits": 1405,
+        "hr": 887,
+        "rbi": 1351,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "世新超乙組",
+      "number": "103",
+      "batting": {
+        "games": 4,
+        "pa": 5,
+        "ab": 4,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 242,
+        "hits": 242,
+        "hr": 1020,
+        "rbi": 1322,
+        "avg": 903
+      }
+    }
+  ]
+}

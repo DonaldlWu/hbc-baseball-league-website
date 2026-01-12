@@ -1,0 +1,44 @@
+{
+  "id": "TWU028",
+  "code": "TWU028",
+  "name": "布萊德",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPYk2tfTopxGIqxKaU3VvieELbgkosfFoOzkD-tSW9MjCKfNPGhoosBDICVCRBCyA06ngL5aLYJxJZgC6UIM6mdWdcczGM6WcGYNFu2TRywT5BjxCeg8M0i4nya0Xl0KR6Zs_WAIrQpoHPLpqmIOgA9=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "6",
+      "batting": {
+        "games": 6,
+        "pa": 14,
+        "ab": 12,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 7,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 111,
+        "hits": 99,
+        "hr": 1213,
+        "rbi": 212,
+        "avg": 903
+      }
+    }
+  ]
+}

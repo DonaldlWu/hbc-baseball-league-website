@@ -1,0 +1,44 @@
+{
+  "id": "SHA010",
+  "code": "SHA010",
+  "name": "劉泓均",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczM8m8v_xx0yUcUZQFBk7jhktOinY-4NFbuGeb4Xr-sEGdACJ6VedNI4lUEH2XwvwYqtVhsIHm8Aslp_-zOn0q0fJ-ox-dJ0U8yZZNwahqI_gkOVgUPUqzQcu6oP_Fy7o-Fr8WnLN32X_KdxdrTVKy_0=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "少林棒球隊"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "少林棒球隊",
+      "number": "11",
+      "batting": {
+        "games": 5,
+        "pa": 16,
+        "ab": 15,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 4,
+        "so": 8,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 421,
+        "hits": 338,
+        "hr": 1273,
+        "rbi": 486,
+        "avg": 1123
+      }
+    }
+  ]
+}

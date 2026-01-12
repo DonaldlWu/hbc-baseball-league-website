@@ -1,0 +1,44 @@
+{
+  "id": "EAG101",
+  "code": "EAG101",
+  "name": "王格致",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "火把老鷹",
+      "number": "17",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 575,
+        "hits": 523,
+        "hr": 1054,
+        "rbi": 1541,
+        "avg": 1101
+      }
+    }
+  ]
+}

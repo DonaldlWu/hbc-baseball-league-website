@@ -1,0 +1,44 @@
+{
+  "id": "DHW035",
+  "code": "DHW035",
+  "name": "郭子儀",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPP3ikzVRSAwkJEZ-FcwyhgRRUz8i1al_vtnKa1yE4ErSqAgXyZvRP-1SaRr3bs0F8OUwbf9W3cTopYPnk5Q5qV7Ctzccuro6Xqg0M9CNcM-f3dfnkdzOsZsj4z9GwXO3LB2XMI_PMpMlnhOr4qfJOl=w215-h297",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "26",
+      "batting": {
+        "games": 5,
+        "pa": 21,
+        "ab": 21,
+        "hits": 10,
+        "singles": 8,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 5,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 161,
+        "hits": 108,
+        "hr": 1330,
+        "rbi": 140,
+        "avg": 1123
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ALL086",
+  "code": "ALL086",
+  "name": "曹林暐",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "ALLSTAR"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "ALLSTAR",
+      "number": "73",
+      "batting": {
+        "games": 4,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 7,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 988,
+        "hits": 964,
+        "hr": 374,
+        "rbi": 880,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "ALLSTAR",
+      "number": "101",
+      "batting": {
+        "games": 5,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 10,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 833,
+        "hits": 803,
+        "hr": 289,
+        "rbi": 736,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "ALLSTAR",
+      "number": "101",
+      "batting": {
+        "games": 8,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 22,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 860,
+        "hits": 842,
+        "hr": 340,
+        "rbi": 780,
+        "avg": 940
+      }
+    }
+  ]
+}

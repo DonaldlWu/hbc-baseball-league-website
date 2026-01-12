@@ -1,0 +1,73 @@
+{
+  "id": "YCT102",
+  "code": "YCT102",
+  "name": "簡宇昕",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "永春TB",
+      "number": "62",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 693,
+        "hits": 651,
+        "hr": 104,
+        "rbi": 585,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "永春TB",
+      "number": "62",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1069,
+        "hits": 1612,
+        "hr": 1050,
+        "rbi": 1537,
+        "avg": 1101
+      }
+    }
+  ]
+}

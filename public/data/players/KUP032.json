@@ -1,0 +1,73 @@
+{
+  "id": "KUP032",
+  "code": "KUP032",
+  "name": "江國謙",
+  "photo": "",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "極品酷寶"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "極品酷寶",
+      "number": "103",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 452,
+        "hits": 750,
+        "hr": 369,
+        "rbi": 699,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "極品酷寶",
+      "number": "70",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 514,
+        "hits": 838,
+        "hr": 386,
+        "rbi": 751,
+        "avg": 943
+      }
+    }
+  ]
+}

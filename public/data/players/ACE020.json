@@ -1,0 +1,73 @@
+{
+  "id": "ACE020",
+  "code": "ACE020",
+  "name": "林祐任",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczONvBFZN0K8VMVTiyY0QCicKhzsdPZMpiIDH7X9vBOFcGSj3WKVoJbwp2vJrV1aisnNOFEGVwOwaDN2POc989-ab6ioLwi8zMQqOqSxhKMFQLD9KIcj4ngpA_C6PuRam7ggem7TMFBuSNy3ls6b1TBWAA=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "ACES"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "ACES",
+      "number": "67",
+      "batting": {
+        "games": 7,
+        "pa": 9,
+        "ab": 7,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1033,
+        "hits": 1523,
+        "hr": 1146,
+        "rbi": 1500,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "ACES",
+      "number": "10",
+      "batting": {
+        "games": 3,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 870,
+        "hits": 1309,
+        "hr": 911,
+        "rbi": 1247,
+        "avg": 903
+      }
+    }
+  ]
+}

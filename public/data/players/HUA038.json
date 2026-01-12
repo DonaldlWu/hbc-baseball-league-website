@@ -1,0 +1,44 @@
+{
+  "id": "HUA038",
+  "code": "HUA038",
+  "name": "方啟安",
+  "photo": "",
+  "career": {
+    "debut": 2013,
+    "teams": [
+      "華江OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2013,
+      "team": "華江OB",
+      "number": "HUA038",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 372,
+        "hits": 322,
+        "hr": 27,
+        "rbi": 285,
+        "avg": 323
+      }
+    }
+  ]
+}

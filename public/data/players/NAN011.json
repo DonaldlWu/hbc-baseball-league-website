@@ -1,0 +1,426 @@
+{
+  "id": "NAN011",
+  "code": "NAN011",
+  "name": "許登傑",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPjTKgk3l3Gb9VMrricBPxX9X4axXqdoyfUumpRpQXZ8HGl9g1_SpJbNMTjtF0lWP3YNUU8E76rqZJVaRhaXdmICPcQi-9xOT-GcgjnDJ7Y98SIML5A2bsL9nHd-iyMmwrDZgf3ShPHIaH3HAOrUbg1Qg=w310-h335-no",
+  "career": {
+    "debut": 2012,
+    "teams": [
+      "ACES",
+      "台大機械",
+      "ROOKIES",
+      "戊戍本一家",
+      "Synergy",
+      "南港高工OB"
+    ],
+    "totalSeasons": 14
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "ACES",
+      "number": "16",
+      "batting": {
+        "games": 9,
+        "pa": 30,
+        "ab": 22,
+        "hits": 10,
+        "singles": 9,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 7,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 101,
+        "hits": 113,
+        "hr": 1386,
+        "rbi": 145,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "ACES",
+      "number": "16",
+      "batting": {
+        "games": 7,
+        "pa": 25,
+        "ab": 19,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 5,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 112,
+        "hits": 144,
+        "hr": 1322,
+        "rbi": 112,
+        "avg": 77
+      }
+    },
+    {
+      "year": 2023,
+      "team": "ACES",
+      "number": "96",
+      "batting": {
+        "games": 7,
+        "pa": 25,
+        "ab": 23,
+        "hits": 8,
+        "singles": 5,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 3,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 94,
+        "hits": 58,
+        "hr": 1347,
+        "rbi": 116,
+        "avg": 51
+      }
+    },
+    {
+      "year": 2022,
+      "team": "ACES",
+      "number": "96",
+      "batting": {
+        "games": 4,
+        "pa": 11,
+        "ab": 7,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 312,
+        "hits": 443,
+        "hr": 1199,
+        "rbi": 337,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "台大機械",
+      "number": "16",
+      "batting": {
+        "games": 18,
+        "pa": 72,
+        "ab": 49,
+        "hits": 14,
+        "singles": 12,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 25,
+        "bb": 0,
+        "so": 9,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 16
+      },
+      "rankings": {
+        "rc": 53,
+        "hits": 100,
+        "hr": 1663,
+        "rbi": 117,
+        "avg": 90
+      }
+    },
+    {
+      "year": 2020,
+      "team": "ROOKIES",
+      "number": "4",
+      "batting": {
+        "games": 16,
+        "pa": 46,
+        "ab": 39,
+        "hits": 10,
+        "singles": 10,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 8,
+        "bb": 3,
+        "so": 9,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 205,
+        "hits": 167,
+        "hr": 1577,
+        "rbi": 176,
+        "avg": 104
+      }
+    },
+    {
+      "year": 2019,
+      "team": "戊戍本一家",
+      "number": "16",
+      "batting": {
+        "games": 9,
+        "pa": 36,
+        "ab": 24,
+        "hits": 8,
+        "singles": 7,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 9,
+        "bb": 2,
+        "so": 3,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 136,
+        "hits": 196,
+        "hr": 1532,
+        "rbi": 264,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "戊戍本一家",
+      "number": "16",
+      "batting": {
+        "games": 19,
+        "pa": 81,
+        "ab": 62,
+        "hits": 22,
+        "singles": 17,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 15,
+        "runs": 24,
+        "bb": 26,
+        "so": 8,
+        "sb": 5,
+        "sf": 3,
+        "totalBases": 27
+      },
+      "rankings": {
+        "rc": 33,
+        "hits": 32,
+        "hr": 1674,
+        "rbi": 46,
+        "avg": 61
+      }
+    },
+    {
+      "year": 2017,
+      "team": "Synergy",
+      "number": "NAN011",
+      "batting": {
+        "games": 17,
+        "pa": 73,
+        "ab": 48,
+        "hits": 16,
+        "singles": 12,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 29,
+        "bb": 13,
+        "so": 9,
+        "sb": 10,
+        "sf": 2,
+        "totalBases": 20
+      },
+      "rankings": {
+        "rc": 40,
+        "hits": 90,
+        "hr": 997,
+        "rbi": 105,
+        "avg": 83
+      }
+    },
+    {
+      "year": 2016,
+      "team": "Synergy",
+      "number": "NAN011",
+      "batting": {
+        "games": 20,
+        "pa": 75,
+        "ab": 62,
+        "hits": 16,
+        "singles": 13,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 17,
+        "runs": 15,
+        "bb": 5,
+        "so": 11,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 19
+      },
+      "rankings": {
+        "rc": 159,
+        "hits": 95,
+        "hr": 936,
+        "rbi": 43,
+        "avg": 111
+      }
+    },
+    {
+      "year": 2015,
+      "team": "南港高工OB",
+      "number": "NAN011",
+      "batting": {
+        "games": 20,
+        "pa": 55,
+        "ab": 52,
+        "hits": 16,
+        "singles": 9,
+        "doubles": 5,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 11,
+        "bb": 24,
+        "so": 7,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 25
+      },
+      "rankings": {
+        "rc": 115,
+        "hits": 78,
+        "hr": 852,
+        "rbi": 94,
+        "avg": 85
+      }
+    },
+    {
+      "year": 2014,
+      "team": "南港高工OB",
+      "number": "NAN011",
+      "batting": {
+        "games": 13,
+        "pa": 25,
+        "ab": 20,
+        "hits": 4,
+        "singles": 1,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 7,
+        "bb": 30,
+        "so": 7,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 255,
+        "hits": 254,
+        "hr": 494,
+        "rbi": 243,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "南港高工OB",
+      "number": "NAN011",
+      "batting": {
+        "games": 6,
+        "pa": 20,
+        "ab": 18,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 22,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 168,
+        "hits": 148,
+        "hr": 338,
+        "rbi": 180,
+        "avg": 323
+      }
+    },
+    {
+      "year": 2012,
+      "team": "ROOKIES",
+      "number": "NAN011",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 9,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 223,
+        "hits": 222,
+        "hr": 18,
+        "rbi": 206,
+        "avg": 358
+      }
+    }
+  ]
+}

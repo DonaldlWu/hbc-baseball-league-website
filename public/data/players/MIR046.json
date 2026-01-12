@@ -1,0 +1,74 @@
+{
+  "id": "MIR046",
+  "code": "MIR046",
+  "name": "張凱崴",
+  "photo": "",
+  "career": {
+    "debut": 2010,
+    "teams": [
+      "MIRACLE",
+      "Miracle"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2011,
+      "team": "MIRACLE",
+      "number": "MIR046",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 174,
+        "hits": 160,
+        "hr": 12,
+        "rbi": 146,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2010,
+      "team": "Miracle",
+      "number": "MIR046",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 6,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 134,
+        "hits": 116,
+        "hr": 105,
+        "rbi": 210,
+        "avg": 450
+      }
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "YCT084",
+  "code": "YCT084",
+  "name": "黃敬翔",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "冒險家",
+      "永春TB"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "冒險家",
+      "number": "18",
+      "batting": {
+        "games": 14,
+        "pa": 53,
+        "ab": 44,
+        "hits": 22,
+        "singles": 14,
+        "doubles": 7,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 10,
+        "runs": 23,
+        "bb": 2,
+        "so": 10,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 32
+      },
+      "rankings": {
+        "rc": 28,
+        "hits": 26,
+        "hr": 17,
+        "rbi": 85,
+        "avg": 10
+      }
+    },
+    {
+      "year": 2019,
+      "team": "冒險家",
+      "number": "19",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 535,
+        "hits": 1575,
+        "hr": 1061,
+        "rbi": 1508,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "永春TB",
+      "number": "42",
+      "batting": {
+        "games": 4,
+        "pa": 7,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 3,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 496,
+        "hits": 1670,
+        "hr": 1235,
+        "rbi": 434,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "永春TB",
+      "number": "YCT084",
+      "batting": {
+        "games": 5,
+        "pa": 7,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 469,
+        "hits": 543,
+        "hr": 589,
+        "rbi": 977,
+        "avg": 340
+      }
+    }
+  ]
+}

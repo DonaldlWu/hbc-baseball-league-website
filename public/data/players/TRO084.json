@@ -1,0 +1,44 @@
+{
+  "id": "TRO084",
+  "code": "TRO084",
+  "name": "卓宏達",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMmWlhp8YU3NVydIVuH6e8QBbOouCXXRRy6zIhOB2AHaWul2sItpg2lYVzjAkJh9tehgGqIyxLB0VGLlfBMavyx6BSpiuk_XvKP7NPovtfsFRoXB1w84nYojfHZve05yA23N6LhF6bKiCYiInUjRQHAqA=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "楚奧特"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "楚奧特",
+      "number": "27",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 775,
+        "hits": 685,
+        "hr": 162,
+        "rbi": 631,
+        "avg": 1123
+      }
+    }
+  ]
+}

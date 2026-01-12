@@ -1,0 +1,73 @@
+{
+  "id": "MIX087",
+  "code": "MIX087",
+  "name": "邱凱翔",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "MIX",
+      "number": "103",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1047,
+        "hits": 1598,
+        "hr": 1018,
+        "rbi": 1514,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "MIX",
+      "number": "101",
+      "batting": {
+        "games": 6,
+        "pa": 14,
+        "ab": 14,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 573,
+        "hits": 452,
+        "hr": 1350,
+        "rbi": 1672,
+        "avg": 917
+      }
+    }
+  ]
+}

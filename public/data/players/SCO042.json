@@ -1,0 +1,73 @@
+{
+  "id": "SCO042",
+  "code": "SCO042",
+  "name": "萬奕均",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPoC57FRdyECTJirCKE3thVjthwFFdSgriWbjxhWSrg6fPRelUeJUDM1ZdkwkDmE7MaTfSc_iCwniZr2uBgLRUBKv-2N5ntacN8z4AIf5C4tZKKgyD7tyUu4BgWIAJJ7RN5k3xRGItb03HfzXlrIIKQhg=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "137",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 676,
+        "hits": 582,
+        "hr": 59,
+        "rbi": 528,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "131",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 516,
+        "hits": 453,
+        "hr": 41,
+        "rbi": 386,
+        "avg": 903
+      }
+    }
+  ]
+}

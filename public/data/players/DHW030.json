@@ -1,0 +1,44 @@
+{
+  "id": "DHW030",
+  "code": "DHW030",
+  "name": "林紹翊",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMz4KBzrA5MKCRLu-e4QtY8ljg1keHhU0o_tHAUmClCkNN00LLttcjNwA2QfXGK4sbh9eEiklN-sVbi1umITcTbOHEMY1egcjfFr5mYNQgxNfE9g5vih0MHlCnzGLCCnlymgxnPXRQZYH2oBhMw8-ZX=w162-h215",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "99",
+      "batting": {
+        "games": 3,
+        "pa": 12,
+        "ab": 9,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 526,
+        "hits": 531,
+        "hr": 1202,
+        "rbi": 463,
+        "avg": 1123
+      }
+    }
+  ]
+}

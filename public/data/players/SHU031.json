@@ -1,0 +1,73 @@
+{
+  "id": "SHU031",
+  "code": "SHU031",
+  "name": "施焜棋",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNmKbTqQHhMQZ3HZbpxnA-7L5hcSy2_WJfGtnGNXSiaDJGxcNUt4vlJCfF1gD52_UIViKYzeQ2zry_uc-HNUqBvGjCHjLQdxvZakIErc9V2aLj_DSevN3SAlMJ5MAL_9NL6gvVQjc8w9JrT7h6Zmt50=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "25",
+      "batting": {
+        "games": 4,
+        "pa": 4,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1100,
+        "hits": 1477,
+        "hr": 1019,
+        "rbi": 400,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "世新超乙組",
+      "number": "25",
+      "batting": {
+        "games": 3,
+        "pa": 4,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 426,
+        "hits": 359,
+        "hr": 1000,
+        "rbi": 272,
+        "avg": 903
+      }
+    }
+  ]
+}

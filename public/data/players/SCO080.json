@@ -1,0 +1,44 @@
+{
+  "id": "SCO080",
+  "code": "SCO080",
+  "name": "葉豐碩",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPeL7TBNeUnflCyD6ycnI4_li4RK8sv7xRMLV9yDjnKRjDw8laaYIDKVc6Odiy55e7an5qURvQLq2eISYAT34R0nXGOZaFErSYmGE6Y0NagOUegOxIzKMNpSoeK1KOCStGVAEFLBLVGgtSZo3lPU1-fPQ=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "61",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 687,
+        "hits": 608,
+        "hr": 85,
+        "rbi": 554,
+        "avg": 1123
+      }
+    }
+  ]
+}

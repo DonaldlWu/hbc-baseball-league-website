@@ -1,0 +1,44 @@
+{
+  "id": "TWU038",
+  "code": "TWU038",
+  "name": "洪瑋澤",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczP1GnAEEznXh6d6au-AVjDKYdSJpFMQ-GwevjV7GBajA44X5tSqM7Yn9PzicjeDj4waznvLy5IdrxXqZDT_LzxiV6_d-6-3qECL7-l-PuwubPhLklOT6U2rDoA0jqgUQTsGw_UJFCWbjS-tqw3LV7ZR=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "9",
+      "batting": {
+        "games": 3,
+        "pa": 10,
+        "ab": 8,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 97,
+        "hits": 95,
+        "hr": 1141,
+        "rbi": 307,
+        "avg": 903
+      }
+    }
+  ]
+}

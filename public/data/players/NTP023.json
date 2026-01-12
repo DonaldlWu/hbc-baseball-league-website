@@ -1,0 +1,102 @@
+{
+  "id": "NTP023",
+  "code": "NTP023",
+  "name": "洪承瀚",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "台北大學"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "台北大學",
+      "number": "22",
+      "batting": {
+        "games": 15,
+        "pa": 28,
+        "ab": 27,
+        "hits": 14,
+        "singles": 10,
+        "doubles": 2,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 15,
+        "bb": 19,
+        "so": 5,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 20
+      },
+      "rankings": {
+        "rc": 98,
+        "hits": 88,
+        "hr": 1488,
+        "rbi": 102,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "台北大學",
+      "number": "22",
+      "batting": {
+        "games": 11,
+        "pa": 33,
+        "ab": 26,
+        "hits": 7,
+        "singles": 6,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 10,
+        "bb": 6,
+        "so": 8,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 234,
+        "hits": 240,
+        "hr": 1495,
+        "rbi": 258,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台北大學",
+      "number": "95",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 582,
+        "hits": 598,
+        "hr": 84,
+        "rbi": 531,
+        "avg": 917
+      }
+    }
+  ]
+}

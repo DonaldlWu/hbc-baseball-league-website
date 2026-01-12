@@ -1,0 +1,44 @@
+{
+  "id": "TWU031",
+  "code": "TWU031",
+  "name": "湯朝翔",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPLtQz29dSTafw0RmiqW3rI-DEslxhAb0i8ExyjelrC7CNHeL2Jyhx5T7ffAL5rD60ccLY4BIKrqda6ZcJy4gTJ7jCc7XsEiF2m8xxF4P9h5gIis_4wr02Ln3h24pERR-320D1xUQMv1Y5PMw-Snw3u=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "101",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 698,
+        "hits": 441,
+        "hr": 29,
+        "rbi": 374,
+        "avg": 903
+      }
+    }
+  ]
+}

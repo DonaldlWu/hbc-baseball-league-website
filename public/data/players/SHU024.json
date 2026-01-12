@@ -1,0 +1,73 @@
+{
+  "id": "SHU024",
+  "code": "SHU024",
+  "name": "萬秉坤",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNHzo-fLrSH-1H2ZB4VvQeT6OCRloxLq4Uj2awUkIt5kJce7Ng2CKueTbzR9oXRtDJo-peDQaHADyIeFtR72FJu3R8vEFofMZqYqXlvEfvfp-ttkYOomV4JCsC6tMujtk0UMTo4LP9WBzmOesybaOm_=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "53",
+      "batting": {
+        "games": 4,
+        "pa": 16,
+        "ab": 14,
+        "hits": 4,
+        "singles": 2,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 4,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 296,
+        "hits": 278,
+        "hr": 1270,
+        "rbi": 163,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "世新超乙組",
+      "number": "14",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 479,
+        "hits": 1351,
+        "hr": 981,
+        "rbi": 1295,
+        "avg": 903
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "COL050",
+  "code": "COL050",
+  "name": "黃子玹",
+  "photo": "",
+  "career": {
+    "debut": 2011,
+    "teams": [
+      "冷鋒"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "冷鋒",
+      "number": "COL050",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 767,
+        "hits": 522,
+        "hr": 61,
+        "rbi": 479,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "冷鋒",
+      "number": "COL050",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 351,
+        "hits": 351,
+        "hr": 259,
+        "rbi": 257,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2012,
+      "team": "冷鋒",
+      "number": "COL050",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 284,
+        "hits": 222,
+        "hr": 18,
+        "rbi": 206,
+        "avg": 358
+      }
+    },
+    {
+      "year": 2011,
+      "team": "冷鋒",
+      "number": "COL050",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 6,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 5,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 125,
+        "hits": 122,
+        "hr": 101,
+        "rbi": 219,
+        "avg": 450
+      }
+    }
+  ]
+}

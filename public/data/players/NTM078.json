@@ -1,0 +1,74 @@
+{
+  "id": "NTM078",
+  "code": "NTM078",
+  "name": "何光展",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPJ2c62QipsAibcQNFzpbYw_8zKXAu0BvcghoshiNF8Pizlwv3T-s2YTdz3HfZoBBgep3h2eoAdWicpVgOTpO8qWcrNhH0isSCUR6FHpw27fxYq4j-6tP6sLlNJ5vr-L7db-wSoMv36bt-iFGqG0D0V1A=w1379-h919-s-no-gm?authuser=0",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "Mechanics",
+      "台大機械"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Mechanics",
+      "number": "20",
+      "batting": {
+        "games": 12,
+        "pa": 36,
+        "ab": 30,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 6,
+        "bb": 4,
+        "so": 23,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 1111,
+        "hits": 552,
+        "hr": 1436,
+        "rbi": 283,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "台大機械",
+      "number": "13",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 692,
+        "hits": 661,
+        "hr": 249,
+        "rbi": 594,
+        "avg": 903
+      }
+    }
+  ]
+}

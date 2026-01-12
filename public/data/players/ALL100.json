@@ -1,0 +1,102 @@
+{
+  "id": "ALL100",
+  "code": "ALL100",
+  "name": "李長年",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "ALLSTAR"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "ALLSTAR",
+      "number": "35",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 853,
+        "hits": 796,
+        "hr": 344,
+        "rbi": 709,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ALLSTAR",
+      "number": "35",
+      "batting": {
+        "games": 6,
+        "pa": 18,
+        "ab": 11,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 5,
+        "so": 4,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 329,
+        "hits": 467,
+        "hr": 1362,
+        "rbi": 490,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "ALLSTAR",
+      "number": "35",
+      "batting": {
+        "games": 7,
+        "pa": 10,
+        "ab": 9,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 6,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 519,
+        "hits": 470,
+        "hr": 1241,
+        "rbi": 1635,
+        "avg": 1101
+      }
+    }
+  ]
+}

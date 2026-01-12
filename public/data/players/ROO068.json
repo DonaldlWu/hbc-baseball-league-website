@@ -1,0 +1,132 @@
+{
+  "id": "ROO068",
+  "code": "ROO068",
+  "name": "曾俊倫",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "ROOKIES",
+      "台北大學"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "ROOKIES",
+      "number": "25",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 849,
+        "hits": 807,
+        "hr": 260,
+        "rbi": 741,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "台北大學",
+      "number": "1",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 669,
+        "hits": 647,
+        "hr": 57,
+        "rbi": 563,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台北大學",
+      "number": "1",
+      "batting": {
+        "games": 18,
+        "pa": 77,
+        "ab": 77,
+        "hits": 40,
+        "singles": 30,
+        "doubles": 9,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 16,
+        "runs": 15,
+        "bb": 18,
+        "so": 5,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 51
+      },
+      "rankings": {
+        "rc": 7,
+        "hits": 2,
+        "hr": 1672,
+        "rbi": 34,
+        "avg": 5
+      }
+    },
+    {
+      "year": 2018,
+      "team": "ROOKIES",
+      "number": "25",
+      "batting": {
+        "games": 6,
+        "pa": 21,
+        "ab": 18,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 6,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 295,
+        "hits": 291,
+        "hr": 1431,
+        "rbi": 318,
+        "avg": 940
+      }
+    }
+  ]
+}

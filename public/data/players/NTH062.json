@@ -1,0 +1,44 @@
+{
+  "id": "NTH062",
+  "code": "NTH062",
+  "name": "顏俊寬",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOSCmibSjF9bvjsRufnQVvCsVYrv_m127i9ejzPPIeS5l_IkanvGMjpeY3I7sG-B1R6X5terIfdyTYk9F-0ZpEcn0q_1OoiRZyS4Koyz5r3iEsz_AcNA9HI9oTltHwCMmFbRxX43mkU_7wOVJqrGTPh=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "101",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1045,
+        "hits": 1412,
+        "hr": 894,
+        "rbi": 1358,
+        "avg": 1123
+      }
+    }
+  ]
+}

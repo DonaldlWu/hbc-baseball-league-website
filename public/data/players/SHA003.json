@@ -1,0 +1,44 @@
+{
+  "id": "SHA003",
+  "code": "SHA003",
+  "name": "鄭博元",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczM4X5SW5EfwUMb-0n7gZhFliAaIC3b7GFaAmH2ci6_0pJXDUIgrUHVIE8yVdCWjkR1qwdRspk_zcyDhf3takTNhbSUUiEpb9GPlEGOfDOkh8NQPOECNV7DvZO9v2Wy1XL7Wcm9apII5on_eBanausII=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "少林棒球隊"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "少林棒球隊",
+      "number": "3",
+      "batting": {
+        "games": 9,
+        "pa": 26,
+        "ab": 22,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 5,
+        "bb": 4,
+        "so": 10,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 264,
+        "hits": 248,
+        "hr": 1364,
+        "rbi": 226,
+        "avg": 1123
+      }
+    }
+  ]
+}

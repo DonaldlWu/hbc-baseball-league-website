@@ -1,0 +1,73 @@
+{
+  "id": "BLA014",
+  "code": "BLA014",
+  "name": "鄭羽翔",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "黑名單"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "黑名單",
+      "number": "BLA014",
+      "batting": {
+        "games": 17,
+        "pa": 53,
+        "ab": 50,
+        "hits": 14,
+        "singles": 8,
+        "doubles": 6,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 13,
+        "bb": 14,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 20
+      },
+      "rankings": {
+        "rc": 55,
+        "hits": 42,
+        "hr": 201,
+        "rbi": 45,
+        "avg": 39
+      }
+    },
+    {
+      "year": 2009,
+      "team": "黑名單",
+      "number": "BLA014",
+      "batting": {
+        "games": 7,
+        "pa": 13,
+        "ab": 13,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 18,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 86,
+        "hits": 82,
+        "hr": 232,
+        "rbi": 69,
+        "avg": 450
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "SHU035",
+  "code": "SHU035",
+  "name": "盧柏諺",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOXBcEIljGhpY-KzJd505JxN4I7kyZnrtQZsQHxA_V7QqsTbjqOAO5OzzCCDtZnB5EFBGux1TmnA8UzPxuLvU5-5XuVB1jgJywUTyln5BXbc-HY45JwCm3T0xarMfykL8zn1lyj8OcpxeSXSOa7lxON=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "47",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 492,
+        "hits": 1438,
+        "hr": 938,
+        "rbi": 295,
+        "avg": 1123
+      }
+    }
+  ]
+}

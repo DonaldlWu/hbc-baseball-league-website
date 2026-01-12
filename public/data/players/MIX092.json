@@ -1,0 +1,44 @@
+{
+  "id": "MIX092",
+  "code": "MIX092",
+  "name": "蔡丞豐",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "MIX",
+      "number": "9",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 527,
+        "hits": 492,
+        "hr": 1134,
+        "rbi": 1569,
+        "avg": 917
+      }
+    }
+  ]
+}

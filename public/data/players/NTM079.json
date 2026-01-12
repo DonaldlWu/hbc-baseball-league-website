@@ -1,0 +1,74 @@
+{
+  "id": "NTM079",
+  "code": "NTM079",
+  "name": "王榮德",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczO0kY_cIFjg54-RCNytlIA02nJp2bKYChoARTStJMY1tIrHVMDaoZbMbAE_of8eSYrNjd9iMsSO5bXTsSfPw620M4KNTosPgRK5_I3BxldvZRaFcKSKSLXIJwCrvMT_nRcTlK-PjukP-ZEz-hRfPevJ9g=w689-h919-s-no-gm?authuser=0",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "Mechanics",
+      "台大機械"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Mechanics",
+      "number": "26",
+      "batting": {
+        "games": 15,
+        "pa": 46,
+        "ab": 45,
+        "hits": 11,
+        "singles": 9,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 11,
+        "bb": 0,
+        "so": 15,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 230,
+        "hits": 100,
+        "hr": 1484,
+        "rbi": 498,
+        "avg": 88
+      }
+    },
+    {
+      "year": 2024,
+      "team": "台大機械",
+      "number": "26",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 689,
+        "hits": 658,
+        "hr": 246,
+        "rbi": 591,
+        "avg": 903
+      }
+    }
+  ]
+}

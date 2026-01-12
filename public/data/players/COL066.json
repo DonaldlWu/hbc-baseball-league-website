@@ -1,0 +1,131 @@
+{
+  "id": "COL066",
+  "code": "COL066",
+  "name": "許文誠",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "冷鋒"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "冷鋒",
+      "number": "34",
+      "batting": {
+        "games": 6,
+        "pa": 18,
+        "ab": 14,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 4,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 315,
+        "hits": 338,
+        "hr": 1404,
+        "rbi": 241,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "冷鋒",
+      "number": "COL066",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 492,
+        "hits": 931,
+        "hr": 428,
+        "rbi": 876,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "冷鋒",
+      "number": "COL066",
+      "batting": {
+        "games": 11,
+        "pa": 23,
+        "ab": 15,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 10,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 263,
+        "hits": 357,
+        "hr": 698,
+        "rbi": 249,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "冷鋒",
+      "number": "COL066",
+      "batting": {
+        "games": 6,
+        "pa": 12,
+        "ab": 7,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 351,
+        "hits": 426,
+        "hr": 556,
+        "rbi": 444,
+        "avg": 624
+      }
+    }
+  ]
+}

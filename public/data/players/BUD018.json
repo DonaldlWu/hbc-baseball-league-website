@@ -1,0 +1,132 @@
+{
+  "id": "BUD018",
+  "code": "BUD018",
+  "name": "鄭棨舜",
+  "photo": "https://lh3.googleusercontent.com/pw/AIL4fc-1KyRjUrDKEqgVNQoaNpjxKNRtWdGLMYHy5QdTacbi8Gv2F9SjKJQr5iH6oW3LJrlVBgO_bsVjLuf-4LBqFFNOk1d0dIHW2nC3nhSt3Z3jnvxtyNXnx4nsBqInaN3kbOiH26hkkDIGeY0CCiUl7YgT=w310-h335-no",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "MIRACLE",
+      "The Buddies"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "MIRACLE",
+      "number": "65",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 512,
+        "hits": 446,
+        "hr": 914,
+        "rbi": 378,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "MIRACLE",
+      "number": "65",
+      "batting": {
+        "games": 3,
+        "pa": 6,
+        "ab": 6,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 473,
+        "hits": 384,
+        "hr": 1061,
+        "rbi": 287,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "MIRACLE",
+      "number": "65",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 880,
+        "hits": 1347,
+        "hr": 993,
+        "rbi": 1311,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2021,
+      "team": "The Buddies",
+      "number": "56",
+      "batting": {
+        "games": 12,
+        "pa": 28,
+        "ab": 21,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 36,
+        "so": 9,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 301,
+        "hits": 349,
+        "hr": 1478,
+        "rbi": 392,
+        "avg": 1022
+      }
+    }
+  ]
+}

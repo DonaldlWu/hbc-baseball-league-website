@@ -1,0 +1,367 @@
+{
+  "id": "NAN076",
+  "code": "NAN076",
+  "name": "陳柏閔",
+  "photo": "https://lh3.googleusercontent.com/bHIc-VaStG_QJJBeMHrl_n5dJa2FXdFfwyXwcdy8kxH4yHBYKX7w_9BV5dgxCd3CDE5V18sqtLdLwOPTLn97xy3gyt1PRDuyZ0ucwVokO8-H_RfBVUrgI9iI3bdUbYdiusltcEcWx90aFBjLXK4FTiER4HencJnuY_aC7-6qxIdAk8J1gNzFNIaKtkAWD8ZDykYqrs_FnvktGAhkGw2ptKfk-WOSXIiMUVPA-556_G4YgcBa3XavvhULlduawBn5SUJt731QxhvEwptpO4qd-yNEYS00jRTabLTkyvZTIhKtKjuLoqS5Di4h2ggpWVDDHVxHgRefEYd5QOZasrJIBUnO2crrsv_QIyL7TsbM7pnGhDnoFzn9QZPk13l1BaaO9hPN4pIY7wsOXO8QuWZrUAcWwRujT-sQZfxi0Wda4HAwfKADGIDIXm91OKndJtFVyVFGvreTj7mQhJ4tOX7owVlLk-FX0e8Aj72Cz1zBK1WLSnKg1HZtSaR9NIK7wgSinFxGnW3bHIqGgoWSm63WZi9clDK-dQ38apHCkH0CvCQQsuUTWQtZ4qZyqjMITVERGdyZ=w310-h335-no",
+  "career": {
+    "debut": 2013,
+    "teams": [
+      "ACES",
+      "ROOKIES",
+      "戊戍本一家",
+      "Synergy",
+      "南港高工OB"
+    ],
+    "totalSeasons": 12
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "ACES",
+      "number": "106",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 690,
+        "hits": 582,
+        "hr": 59,
+        "rbi": 528,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "ACES",
+      "number": "105",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 496,
+        "hits": 473,
+        "hr": 61,
+        "rbi": 406,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "ACES",
+      "number": "105",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 875,
+        "hits": 1348,
+        "hr": 994,
+        "rbi": 1312,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "ACES",
+      "number": "104",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 320,
+        "hits": 368,
+        "hr": 1012,
+        "rbi": 294,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2020,
+      "team": "ROOKIES",
+      "number": "105",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 875,
+        "hits": 851,
+        "hr": 261,
+        "rbi": 767,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "戊戍本一家",
+      "number": "34",
+      "batting": {
+        "games": 4,
+        "pa": 14,
+        "ab": 12,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 4,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 457,
+        "hits": 451,
+        "hr": 1345,
+        "rbi": 451,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "戊戍本一家",
+      "number": "34",
+      "batting": {
+        "games": 9,
+        "pa": 41,
+        "ab": 33,
+        "hits": 10,
+        "singles": 9,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 10,
+        "bb": 0,
+        "so": 5,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 168,
+        "hits": 156,
+        "hr": 1555,
+        "rbi": 272,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "Synergy",
+      "number": "NAN076",
+      "batting": {
+        "games": 11,
+        "pa": 27,
+        "ab": 19,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 8,
+        "bb": 0,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 204,
+        "hits": 270,
+        "hr": 806,
+        "rbi": 418,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "Synergy",
+      "number": "NAN076",
+      "batting": {
+        "games": 9,
+        "pa": 33,
+        "ab": 31,
+        "hits": 8,
+        "singles": 8,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 11,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 343,
+        "hits": 219,
+        "hr": 776,
+        "rbi": 358,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "南港高工OB",
+      "number": "NAN076",
+      "batting": {
+        "games": 15,
+        "pa": 63,
+        "ab": 54,
+        "hits": 16,
+        "singles": 13,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 14,
+        "runs": 14,
+        "bb": 0,
+        "so": 10,
+        "sb": 5,
+        "sf": 1,
+        "totalBases": 20
+      },
+      "rankings": {
+        "rc": 98,
+        "hits": 82,
+        "hr": 875,
+        "rbi": 64,
+        "avg": 92
+      }
+    },
+    {
+      "year": 2014,
+      "team": "南港高工OB",
+      "number": "NAN076",
+      "batting": {
+        "games": 12,
+        "pa": 41,
+        "ab": 38,
+        "hits": 9,
+        "singles": 9,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 7,
+        "bb": 0,
+        "so": 7,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 221,
+        "hits": 145,
+        "hr": 579,
+        "rbi": 100,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "南港高工OB",
+      "number": "NAN076",
+      "batting": {
+        "games": 8,
+        "pa": 30,
+        "ab": 27,
+        "hits": 10,
+        "singles": 9,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 8,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 119,
+        "hits": 85,
+        "hr": 388,
+        "rbi": 494,
+        "avg": 323
+      }
+    }
+  ]
+}

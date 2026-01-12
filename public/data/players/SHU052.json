@@ -1,0 +1,44 @@
+{
+  "id": "SHU052",
+  "code": "SHU052",
+  "name": "孫秉榆",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczM4pNjSbuJIdDWIzrgoaL8uCes8eYoz54jhjOzosKJ48v1x46rAu61NCFEGH4_A_cMx4wXk5YZ69Vd3z-p5MYC4xNLwx5vt43cICCa4CCQABNNsb1LWLdi3fVyoXED8xPPNll2-eJjfz_xBgWkGx2Bi=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "81",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 666,
+        "hits": 634,
+        "hr": 111,
+        "rbi": 580,
+        "avg": 1123
+      }
+    }
+  ]
+}

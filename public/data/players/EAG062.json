@@ -1,0 +1,73 @@
+{
+  "id": "EAG062",
+  "code": "EAG062",
+  "name": "黃冠融",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "火把老鷹",
+      "number": "EAG062",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 1,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 948,
+        "hits": 990,
+        "hr": 531,
+        "rbi": 948,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "火把老鷹",
+      "number": "EAG062",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 5,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 5,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 326,
+        "hits": 328,
+        "hr": 469,
+        "rbi": 368,
+        "avg": 349
+      }
+    }
+  ]
+}

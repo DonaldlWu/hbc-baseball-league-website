@@ -1,0 +1,44 @@
+{
+  "id": "SCO034",
+  "code": "SCO034",
+  "name": "吳宇凱",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOQ2G4gfNzrua0r9e2pOOzbI7RbiG_3qgosPazatSwuN9U-V9yqlmnUfUjaIJa3Fbv8kMMtMu0-l0LRdriqWwktLw3MVE0RYeZsCiCltZzA4TIGFJ2Z16gUAmsvPFdjDnZ0K8cKsg29ljneoZb6iw80ag=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "117",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 373,
+        "hits": 1315,
+        "hr": 918,
+        "rbi": 251,
+        "avg": 903
+      }
+    }
+  ]
+}

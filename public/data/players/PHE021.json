@@ -1,0 +1,73 @@
+{
+  "id": "PHE021",
+  "code": "PHE021",
+  "name": "郭羿宗",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPFfJutzrGQS4SeoV75wNC4OIRwnwzbMa5Xb9CD8U0GHpXp0vwF02kkjbKQtOpA86CD43V8vbBAxDmKAfI4dRP-ezzvW6F75Z2kMQ1LytFFssxMaj6NvhFIxCuFuIHHGQM2FJlkEhfS8a7OKsYUbp4adw=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "飛尼克斯"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "飛尼克斯",
+      "number": "5",
+      "batting": {
+        "games": 6,
+        "pa": 11,
+        "ab": 9,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 2,
+        "bb": 2,
+        "so": 2,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 435,
+        "hits": 399,
+        "hr": 1190,
+        "rbi": 159,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "飛尼克斯",
+      "number": "5",
+      "batting": {
+        "games": 2,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 5,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 831,
+        "hits": 502,
+        "hr": 90,
+        "rbi": 435,
+        "avg": 903
+      }
+    }
+  ]
+}

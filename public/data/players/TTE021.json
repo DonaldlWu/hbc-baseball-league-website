@@ -1,0 +1,44 @@
+{
+  "id": "TTE021",
+  "code": "TTE021",
+  "name": "蔡家興",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "北科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "北科大",
+      "number": "TTE021",
+      "batting": {
+        "games": 15,
+        "pa": 48,
+        "ab": 39,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 11,
+        "bb": 0,
+        "so": 18,
+        "sb": 3,
+        "sf": 1,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 441,
+        "hits": 292,
+        "hr": 818,
+        "rbi": 285,
+        "avg": 130
+      }
+    }
+  ]
+}

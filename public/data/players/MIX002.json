@@ -1,0 +1,131 @@
+{
+  "id": "MIX002",
+  "code": "MIX002",
+  "name": "楊引祥",
+  "photo": "",
+  "career": {
+    "debut": 2013,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2016,
+      "team": "MIX",
+      "number": "MIX002",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 724,
+        "hits": 706,
+        "hr": 205,
+        "rbi": 652,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "MIX",
+      "number": "MIX002",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 8,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 509,
+        "hits": 500,
+        "hr": 525,
+        "rbi": 878,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "MIX",
+      "number": "MIX002",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 471,
+        "hits": 409,
+        "hr": 27,
+        "rbi": 378,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "MIX",
+      "number": "MIX002",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 466,
+        "hits": 468,
+        "hr": 177,
+        "rbi": 434,
+        "avg": 323
+      }
+    }
+  ]
+}

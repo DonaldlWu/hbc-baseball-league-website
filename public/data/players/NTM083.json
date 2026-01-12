@@ -1,0 +1,44 @@
+{
+  "id": "NTM083",
+  "code": "NTM083",
+  "name": "洪霆涵",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPTqYLAGt1Hvi3luCe69sXyC5cwyPzvlDTYQVojvvmvgGxotOdW1lK4y9YWQXO8Ith0M1jCXlNMcMpTufD1cYcymdCS6Ou4U0WB84no6iortqoO28HqJXmdJNZpE6DMQCyo-BeJg8rXJbwkI_pULdH0Ug=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "Mechanics"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Mechanics",
+      "number": "92",
+      "batting": {
+        "games": 4,
+        "pa": 10,
+        "ab": 8,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 3,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 312,
+        "hits": 318,
+        "hr": 1164,
+        "rbi": 245,
+        "avg": 1123
+      }
+    }
+  ]
+}

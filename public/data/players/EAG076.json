@@ -1,0 +1,102 @@
+{
+  "id": "EAG076",
+  "code": "EAG076",
+  "name": "高聖倫",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "火把老鷹",
+      "number": "0",
+      "batting": {
+        "games": 3,
+        "pa": 4,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 9,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 412,
+        "hits": 498,
+        "hr": 1149,
+        "rbi": 1583,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "火把老鷹",
+      "number": "0",
+      "batting": {
+        "games": 6,
+        "pa": 14,
+        "ab": 9,
+        "hits": 4,
+        "singles": 2,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 4,
+        "bb": 0,
+        "so": 3,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 249,
+        "hits": 325,
+        "hr": 1350,
+        "rbi": 303,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "火把老鷹",
+      "number": "EAG076",
+      "batting": {
+        "games": 10,
+        "pa": 34,
+        "ab": 25,
+        "hits": 3,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 7,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 297,
+        "hits": 424,
+        "hr": 855,
+        "rbi": 145,
+        "avg": 340
+      }
+    }
+  ]
+}

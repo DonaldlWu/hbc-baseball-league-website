@@ -1,0 +1,103 @@
+{
+  "id": "FET057",
+  "code": "FET057",
+  "name": "周天健",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "日促會",
+      "FORCE"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "日促會",
+      "number": "FET057",
+      "batting": {
+        "games": 9,
+        "pa": 29,
+        "ab": 25,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 6,
+        "bb": 0,
+        "so": 8,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 321,
+        "hits": 255,
+        "hr": 722,
+        "rbi": 383,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2010,
+      "team": "FORCE",
+      "number": "FET057",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 165,
+        "hits": 148,
+        "hr": 23,
+        "rbi": 139,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2009,
+      "team": "FORCE",
+      "number": "FET057",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 118,
+        "hits": 108,
+        "hr": 14,
+        "rbi": 99,
+        "avg": 450
+      }
+    }
+  ]
+}

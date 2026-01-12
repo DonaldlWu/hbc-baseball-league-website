@@ -1,0 +1,44 @@
+{
+  "id": "NTM058",
+  "code": "NTM058",
+  "name": "潘志承",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "台大機械"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "台大機械",
+      "number": "105",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 5,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 523,
+        "hits": 496,
+        "hr": 1204,
+        "rbi": 1619,
+        "avg": 940
+      }
+    }
+  ]
+}

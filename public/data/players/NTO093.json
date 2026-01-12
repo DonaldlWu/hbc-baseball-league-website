@@ -1,0 +1,44 @@
+{
+  "id": "NTO093",
+  "code": "NTO093",
+  "name": "林昱傑",
+  "photo": "https://lh3.googleusercontent.com/pw/ADCreHdzcVdiCSJQXKrpzk5RuB7FcL_Qo64f7EOZN102vBgPNeERE517mBv4_mOSPMlEpnDVdp6Vsx7ydSperu5poetwpK1jxnFMHlrxNO0cXc47z8VeyT-GWGAeBSTMGmXfIJg2BwcwvjKA-_CMaziTtUo2=w310-h335-no",
+  "career": {
+    "debut": 2023,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "海洋大學",
+      "number": "55",
+      "batting": {
+        "games": 5,
+        "pa": 9,
+        "ab": 8,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 412,
+        "hits": 371,
+        "hr": 1130,
+        "rbi": 1370,
+        "avg": 896
+      }
+    }
+  ]
+}

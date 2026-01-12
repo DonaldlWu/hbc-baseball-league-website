@@ -1,0 +1,44 @@
+{
+  "id": "NTO039",
+  "code": "NTO039",
+  "name": "蘇昱彰",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "海洋大學",
+      "number": "103",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 491,
+        "hits": 510,
+        "hr": 1027,
+        "rbi": 1520,
+        "avg": 1101
+      }
+    }
+  ]
+}

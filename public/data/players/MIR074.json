@@ -1,0 +1,44 @@
+{
+  "id": "MIR074",
+  "code": "MIR074",
+  "name": "韋岳斌",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPizFu4jtFnhJ9tPiD9XNC5xm6rCbZg8-U_m1iHmMKgF7b6lYdvawWWGFVyubUIHIZBINrSc5BxSsjdczwv4VOBRm3Sb1rXNhLfAFOfzlrZ4jr8qpY4QyW6Iy8mioli68RdtqZGsPDhDVnNO5khJCjo=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "MIRACLE"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "MIRACLE",
+      "number": "51",
+      "batting": {
+        "games": 10,
+        "pa": 33,
+        "ab": 28,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 4,
+        "bb": 0,
+        "so": 10,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 315,
+        "hits": 253,
+        "hr": 1413,
+        "rbi": 118,
+        "avg": 1123
+      }
+    }
+  ]
+}

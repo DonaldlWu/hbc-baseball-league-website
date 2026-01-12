@@ -1,0 +1,44 @@
+{
+  "id": "DHW008",
+  "code": "DHW008",
+  "name": "王彥棠",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNCFuFp7Xui1aCtMWL065OhXuxOfnAikRlqXNWGBBVbh7D_ZFq-sw4WVY3PK8oQLXeZimk9DfD96C_eDOmNIUFEYFk3-CiFoubpUaLSI0EHML9bw9tw80eGVtnik2pD1gQ_VTCEThkLx9sZcnPApYpn=w145-h139",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "20",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 490,
+        "hits": 493,
+        "hr": 1049,
+        "rbi": 1459,
+        "avg": 1123
+      }
+    }
+  ]
+}

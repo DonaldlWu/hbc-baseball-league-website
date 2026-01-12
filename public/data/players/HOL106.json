@@ -1,0 +1,44 @@
+{
+  "id": "HOL106",
+  "code": "HOL106",
+  "name": "陳羿豪",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOrVvCfjsH6Wij8kGrrJALeyBdeW8Iogd85mkSBLLIyH_-KCPV_ikZYNic96at6QcjzZg32IbRnPcgRI11oQUfmRH_wvIrkn34Z5annd0-tYNUIp23jA5H4SIgBbDLLjY67Y4izOtaNAJQCBvWCwTlvPw=w310-h335-s-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "HOLYBAT",
+      "number": "44",
+      "batting": {
+        "games": 8,
+        "pa": 15,
+        "ab": 14,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 241,
+        "hits": 192,
+        "hr": 1258,
+        "rbi": 481,
+        "avg": 1123
+      }
+    }
+  ]
+}

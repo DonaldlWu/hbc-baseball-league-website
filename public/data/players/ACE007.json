@@ -1,0 +1,102 @@
+{
+  "id": "ACE007",
+  "code": "ACE007",
+  "name": "葉旭翔",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "ACES"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "ACES",
+      "number": "39",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 435,
+        "hits": 728,
+        "hr": 347,
+        "rbi": 677,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "ACES",
+      "number": "39",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 498,
+        "hits": 813,
+        "hr": 361,
+        "rbi": 726,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ACES",
+      "number": "39",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 605,
+        "hits": 866,
+        "hr": 319,
+        "rbi": 800,
+        "avg": 1022
+      }
+    }
+  ]
+}

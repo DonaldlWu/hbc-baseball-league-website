@@ -1,0 +1,44 @@
+{
+  "id": "TWU020",
+  "code": "TWU020",
+  "name": "范玉堂",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczN3aJuBnG2r3H9qiMy8x5n07e0eOWI399ogXOd0hnKMZ6-GbEJuBgFmCtZYZRDotz86VymrHhU895aR6BXB9KtvEndXnL8taopGzl5mMw-h809MRTiEba-rUu4D99vLnYZDpznclaVyl5-9dlVJ6t6z=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "42",
+      "batting": {
+        "games": 5,
+        "pa": 14,
+        "ab": 12,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 3,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 214,
+        "hits": 166,
+        "hr": 1211,
+        "rbi": 54,
+        "avg": 903
+      }
+    }
+  ]
+}

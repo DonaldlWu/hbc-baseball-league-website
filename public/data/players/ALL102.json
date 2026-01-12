@@ -1,0 +1,102 @@
+{
+  "id": "ALL102",
+  "code": "ALL102",
+  "name": "張智翔",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "ALLSTAR"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "ALLSTAR",
+      "number": "200",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 842,
+        "hits": 785,
+        "hr": 333,
+        "rbi": 698,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ALLSTAR",
+      "number": "88",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 898,
+        "hits": 848,
+        "hr": 301,
+        "rbi": 782,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "ALLSTAR",
+      "number": "88",
+      "batting": {
+        "games": 8,
+        "pa": 21,
+        "ab": 18,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 8,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 446,
+        "hits": 417,
+        "hr": 1393,
+        "rbi": 389,
+        "avg": 1101
+      }
+    }
+  ]
+}

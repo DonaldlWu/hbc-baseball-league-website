@@ -1,0 +1,44 @@
+{
+  "id": "FET022",
+  "code": "FET022",
+  "name": "楊尚文",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "FORCE"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2009,
+      "team": "FORCE",
+      "number": "FET022",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 5,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 91,
+        "hits": 87,
+        "hr": 207,
+        "rbi": 288,
+        "avg": 450
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "HOL095",
+  "code": "HOL095",
+  "name": "白濬豪",
+  "photo": "https://lh3.googleusercontent.com/pw/AM-JKLXu4b6Y0lsPS5J74dmDa__wU4oXB85qeGp5KXrbzZSoswsG7DLwxnngHmx0WpndtfXpmEyugeiwXayfKDo27D2pSrO5emQL2sWrLb3AjkxsybmEhInxez83wVwOYqc1qxUPCq-sFIxqQojBf09vrvdc=w310-h335-no",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "HOLYBAT",
+      "number": "3",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 908,
+        "hits": 806,
+        "hr": 283,
+        "rbi": 752,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "HOLYBAT",
+      "number": "3",
+      "batting": {
+        "games": 3,
+        "pa": 11,
+        "ab": 11,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 7,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 903,
+        "hits": 1393,
+        "hr": 1166,
+        "rbi": 316,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "HOLYBAT",
+      "number": "102",
+      "batting": {
+        "games": 6,
+        "pa": 13,
+        "ab": 12,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 870,
+        "hits": 383,
+        "hr": 1209,
+        "rbi": 1385,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "HOLYBAT",
+      "number": "102",
+      "batting": {
+        "games": 6,
+        "pa": 18,
+        "ab": 16,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 0,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 218,
+        "hits": 148,
+        "hr": 1317,
+        "rbi": 201,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "HOLYBAT",
+      "number": "102",
+      "batting": {
+        "games": 7,
+        "pa": 14,
+        "ab": 13,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 998,
+        "hits": 565,
+        "hr": 1324,
+        "rbi": 1667,
+        "avg": 1022
+      }
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "id": "HUA104",
+  "code": "HUA104",
+  "name": "林正浩",
+  "photo": "https://lh3.googleusercontent.com/pw/AIL4fc_peTL1jNXfBYkonF8v59JpKMDZdp58og_U4bEpuv9vfD2SdCaRYDwthglW4S6p7ZacX-nFINp0zkYsxVDB0xbpO2D4yhBA3kb_82TM5C4LEVcO2kfhVMJTgvGqN9AwtzCY98uPm7vZHgdtikiAkJc=w310-h335-no",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "火把老鷹",
+      "華江OB"
+    ],
+    "totalSeasons": 7
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "火把老鷹",
+      "number": "64",
+      "batting": {
+        "games": 5,
+        "pa": 15,
+        "ab": 13,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 7,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 1031,
+        "hits": 541,
+        "hr": 1252,
+        "rbi": 480,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "火把老鷹",
+      "number": "64",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 652,
+        "hits": 621,
+        "hr": 209,
+        "rbi": 554,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "火把老鷹",
+      "number": "64",
+      "batting": {
+        "games": 4,
+        "pa": 13,
+        "ab": 10,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 2,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 194,
+        "hits": 198,
+        "hr": 1193,
+        "rbi": 58,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "華江OB",
+      "number": "99",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 775,
+        "hits": 734,
+        "hr": 282,
+        "rbi": 647,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "華江OB",
+      "number": "99",
+      "batting": {
+        "games": 5,
+        "pa": 8,
+        "ab": 5,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 456,
+        "hits": 536,
+        "hr": 1214,
+        "rbi": 338,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "華江OB",
+      "number": "99",
+      "batting": {
+        "games": 7,
+        "pa": 6,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 5,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1043,
+        "hits": 1653,
+        "hr": 1146,
+        "rbi": 1596,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "華江OB",
+      "number": "105",
+      "batting": {
+        "games": 5,
+        "pa": 9,
+        "ab": 7,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 487,
+        "hits": 538,
+        "hr": 1270,
+        "rbi": 1653,
+        "avg": 917
+      }
+    }
+  ]
+}

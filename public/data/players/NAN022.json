@@ -1,0 +1,248 @@
+{
+  "id": "NAN022",
+  "code": "NAN022",
+  "name": "賴德旻",
+  "photo": "",
+  "career": {
+    "debut": 2012,
+    "teams": [
+      "ROOKIES",
+      "南港高工OB"
+    ],
+    "totalSeasons": 8
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "ROOKIES",
+      "number": "80",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 879,
+        "hits": 855,
+        "hr": 265,
+        "rbi": 771,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "ROOKIES",
+      "number": "80",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 737,
+        "hits": 707,
+        "hr": 193,
+        "rbi": 640,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "ROOKIES",
+      "number": "80",
+      "batting": {
+        "games": 5,
+        "pa": 4,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 7,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 449,
+        "hits": 1646,
+        "hr": 1159,
+        "rbi": 1592,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "ROOKIES",
+      "number": "NAN022",
+      "batting": {
+        "games": 10,
+        "pa": 30,
+        "ab": 22,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 7,
+        "bb": 7,
+        "so": 13,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 344,
+        "hits": 357,
+        "hr": 823,
+        "rbi": 292,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2015,
+      "team": "南港高工OB",
+      "number": "NAN022",
+      "batting": {
+        "games": 3,
+        "pa": 6,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 883,
+        "hits": 876,
+        "hr": 467,
+        "rbi": 416,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "南港高工OB",
+      "number": "NAN022",
+      "batting": {
+        "games": 8,
+        "pa": 29,
+        "ab": 27,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 7,
+        "bb": 0,
+        "so": 10,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 282,
+        "hits": 194,
+        "hr": 527,
+        "rbi": 299,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "南港高工OB",
+      "number": "NAN022",
+      "batting": {
+        "games": 9,
+        "pa": 29,
+        "ab": 21,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 5,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 118,
+        "hits": 153,
+        "hr": 379,
+        "rbi": 158,
+        "avg": 323
+      }
+    },
+    {
+      "year": 2012,
+      "team": "南港高工OB",
+      "number": "NAN022",
+      "batting": {
+        "games": 12,
+        "pa": 38,
+        "ab": 28,
+        "hits": 8,
+        "singles": 6,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 7,
+        "bb": 17,
+        "so": 11,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 78,
+        "hits": 92,
+        "hr": 297,
+        "rbi": 116,
+        "avg": 358
+      }
+    }
+  ]
+}

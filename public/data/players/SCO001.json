@@ -1,0 +1,73 @@
+{
+  "id": "SCO001",
+  "code": "SCO001",
+  "name": "卓宜駿",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOv5WZcOuq1aJwAH67LFXSlrnVm7X9JZz8rPjI8_PD4oiBTkUC9jedD2xbmgoIFfBDM-yXRyE26emSQfQNWKoxRxyMLAoer3KzGIf3VpQtMSEPZJp7bh4KW89p3gtGCGcLCqk0na-o5kq7reraGtpj34A=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "0",
+      "batting": {
+        "games": 11,
+        "pa": 15,
+        "ab": 13,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 4,
+        "bb": 2,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 218,
+        "hits": 190,
+        "hr": 1247,
+        "rbi": 253,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "0",
+      "batting": {
+        "games": 7,
+        "pa": 20,
+        "ab": 16,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 5,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 121,
+        "hits": 107,
+        "hr": 1279,
+        "rbi": 77,
+        "avg": 903
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "TWU018",
+  "code": "TWU018",
+  "name": "許宸瑜",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMrC4nex3EJwaRJUoaZhUYGzsf4J0YH2P1g6-vqCMP1-TAqbiQGSr8Xa4xa_ahFxgB3IuPi1_G4piaUABhPiXs6KJjwWA_ot-1JsfabgyFq70tr0kTGoj5TP5OEbzpys89jxyw3XzOlw5O5tDp6k8Y9=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "31",
+      "batting": {
+        "games": 9,
+        "pa": 28,
+        "ab": 25,
+        "hits": 13,
+        "singles": 10,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 7,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 17,
+        "hits": 10,
+        "hr": 1350,
+        "rbi": 17,
+        "avg": 7
+      }
+    }
+  ]
+}

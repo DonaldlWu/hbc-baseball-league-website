@@ -1,0 +1,73 @@
+{
+  "id": "SHU013",
+  "code": "SHU013",
+  "name": "李承恩",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOJ3QKj1cshZxdH5mz0wzb0OHz5yfnT0UyxL4NTEkE0mnD77b8IwZj_qwGavM6faPwO0ESAIDDG6PY_AXgGEXvvDdxOms5_FAmErT3kHFXJbxBdKDNq5um80iWPGv5RPwL9LbYEwDwjfqEGTstp7C3T=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "17",
+      "batting": {
+        "games": 7,
+        "pa": 23,
+        "ab": 20,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 4,
+        "bb": 7,
+        "so": 4,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 214,
+        "hits": 201,
+        "hr": 1345,
+        "rbi": 142,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "世新超乙組",
+      "number": "17",
+      "batting": {
+        "games": 6,
+        "pa": 22,
+        "ab": 18,
+        "hits": 8,
+        "singles": 6,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 7,
+        "bb": 10,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 63,
+        "hits": 68,
+        "hr": 1296,
+        "rbi": 58,
+        "avg": 903
+      }
+    }
+  ]
+}

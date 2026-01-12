@@ -1,0 +1,160 @@
+{
+  "id": "TRO051",
+  "code": "TRO051",
+  "name": "施柏丞",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "楚奧特"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "楚奧特",
+      "number": "12",
+      "batting": {
+        "games": 4,
+        "pa": 10,
+        "ab": 8,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 273,
+        "hits": 281,
+        "hr": 1139,
+        "rbi": 133,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "楚奧特",
+      "number": "12",
+      "batting": {
+        "games": 8,
+        "pa": 31,
+        "ab": 25,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 4,
+        "bb": 0,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 141,
+        "hits": 127,
+        "hr": 1375,
+        "rbi": 85,
+        "avg": 81
+      }
+    },
+    {
+      "year": 2022,
+      "team": "楚奧特",
+      "number": "12",
+      "batting": {
+        "games": 9,
+        "pa": 28,
+        "ab": 23,
+        "hits": 10,
+        "singles": 6,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 7,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 59,
+        "hits": 34,
+        "hr": 1416,
+        "rbi": 29,
+        "avg": 30
+      }
+    },
+    {
+      "year": 2021,
+      "team": "楚奧特",
+      "number": "12",
+      "batting": {
+        "games": 14,
+        "pa": 44,
+        "ab": 36,
+        "hits": 15,
+        "singles": 12,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 12,
+        "runs": 10,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 19
+      },
+      "rankings": {
+        "rc": 85,
+        "hits": 76,
+        "hr": 1586,
+        "rbi": 61,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "楚奧特",
+      "number": "12",
+      "batting": {
+        "games": 12,
+        "pa": 31,
+        "ab": 27,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 6,
+        "bb": 0,
+        "so": 9,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 337,
+        "hits": 273,
+        "hr": 1479,
+        "rbi": 522,
+        "avg": 1101
+      }
+    }
+  ]
+}

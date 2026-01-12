@@ -1,0 +1,44 @@
+{
+  "id": "NTM068",
+  "code": "NTM068",
+  "name": "蘇達人",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "台大機械"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "台大機械",
+      "number": "106",
+      "batting": {
+        "games": 1,
+        "pa": 6,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 525,
+        "hits": 522,
+        "hr": 1166,
+        "rbi": 438,
+        "avg": 1022
+      }
+    }
+  ]
+}

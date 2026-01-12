@@ -1,0 +1,44 @@
+{
+  "id": "NTP055",
+  "code": "NTP055",
+  "name": "何浩睿",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "台北大學"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "台北大學",
+      "number": "6",
+      "batting": {
+        "games": 2,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 3,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 643,
+        "hits": 601,
+        "hr": 54,
+        "rbi": 535,
+        "avg": 1022
+      }
+    }
+  ]
+}

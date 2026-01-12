@@ -1,0 +1,44 @@
+{
+  "id": "SWD004",
+  "code": "SWD004",
+  "name": "龔彥誠",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczN-kDZ4WTUD0rTXmuVThcYI2XPUfxJ1YmpOEjiiA8qqnXXtDtwdR3RAgMPpDurppCj_uEUFSfxDJ-itcDOUWqOQzHXNh-6TDNpKqFiFrR1Zcld3JRsO0OLJEdq4E8J5hCwUxubq52Anv0LEoUcBD406Yw=w527-h753",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "甜心暴龍"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "甜心暴龍",
+      "number": "9",
+      "batting": {
+        "games": 12,
+        "pa": 39,
+        "ab": 31,
+        "hits": 7,
+        "singles": 4,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 8,
+        "bb": 1,
+        "so": 6,
+        "sb": 4,
+        "sf": 1,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 169,
+        "hits": 188,
+        "hr": 1456,
+        "rbi": 150,
+        "avg": 1123
+      }
+    }
+  ]
+}

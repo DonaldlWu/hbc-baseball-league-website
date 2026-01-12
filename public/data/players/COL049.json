@@ -1,0 +1,73 @@
+{
+  "id": "COL049",
+  "code": "COL049",
+  "name": "敖秉翔",
+  "photo": "",
+  "career": {
+    "debut": 2011,
+    "teams": [
+      "冷鋒"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2012,
+      "team": "冷鋒",
+      "number": "COL049",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 289,
+        "hits": 222,
+        "hr": 18,
+        "rbi": 206,
+        "avg": 358
+      }
+    },
+    {
+      "year": 2011,
+      "team": "冷鋒",
+      "number": "COL049",
+      "batting": {
+        "games": 8,
+        "pa": 26,
+        "ab": 20,
+        "hits": 7,
+        "singles": 5,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 6,
+        "bb": 0,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 43,
+        "hits": 47,
+        "hr": 170,
+        "rbi": 143,
+        "avg": 450
+      }
+    }
+  ]
+}

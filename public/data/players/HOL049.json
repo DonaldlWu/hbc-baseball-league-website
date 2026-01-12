@@ -1,0 +1,44 @@
+{
+  "id": "HOL049",
+  "code": "HOL049",
+  "name": "陳子維",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "HOLYBAT",
+      "number": "10",
+      "batting": {
+        "games": 2,
+        "pa": 7,
+        "ab": 6,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 3,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 922,
+        "hits": 1672,
+        "hr": 1243,
+        "rbi": 436,
+        "avg": 940
+      }
+    }
+  ]
+}

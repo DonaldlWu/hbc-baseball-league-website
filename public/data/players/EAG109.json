@@ -1,0 +1,160 @@
+{
+  "id": "EAG109",
+  "code": "EAG109",
+  "name": "吳承易",
+  "photo": "https://lh3.googleusercontent.com/pw/ACtC-3de3LNSKxHSSqPWe8UcD098ZjEAm3aWN2T9DeGw659znym6xlw0nx1nCkXOggnFsPZhbKyOCA8BEMrzr5DNVlqoklZZOg0CnEH0Z8gc38xhmSInt68uJtXD4sJt5R5lRFyMDjNk6-GuCpTq6jVJalQ=w310-h335-no",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "火把老鷹",
+      "number": "13",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 389,
+        "hits": 489,
+        "hr": 1037,
+        "rbi": 406,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "火把老鷹",
+      "number": "13",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 653,
+        "hits": 622,
+        "hr": 210,
+        "rbi": 555,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "火把老鷹",
+      "number": "13",
+      "batting": {
+        "games": 3,
+        "pa": 13,
+        "ab": 8,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 167,
+        "hits": 278,
+        "hr": 1190,
+        "rbi": 318,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "火把老鷹",
+      "number": "13",
+      "batting": {
+        "games": 4,
+        "pa": 15,
+        "ab": 12,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 6,
+        "bb": 0,
+        "so": 2,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 172,
+        "hits": 191,
+        "hr": 1278,
+        "rbi": 355,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "火把老鷹",
+      "number": "13",
+      "batting": {
+        "games": 9,
+        "pa": 27,
+        "ab": 22,
+        "hits": 5,
+        "singles": 2,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 6,
+        "bb": 0,
+        "so": 9,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 293,
+        "hits": 291,
+        "hr": 1470,
+        "rbi": 309,
+        "avg": 1022
+      }
+    }
+  ]
+}

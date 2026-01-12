@@ -1,0 +1,44 @@
+{
+  "id": "DHW027",
+  "code": "DHW027",
+  "name": "吳健宇",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOyLaIzLcS5r1GDGAfltC5KmOGQua2NCiHVuaS9ELAR4izkpLjM7mms-q02j-aOGizhc6rKR-BW0yU7dsT50EjJTwPIxUnemwzQ2PrXqIq6400onsEykWvHwTx2_Of3T4DuA_897eAceETMZXtEnXBq=w219-h288",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "82",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 586,
+        "hits": 1452,
+        "hr": 961,
+        "rbi": 1406,
+        "avg": 1123
+      }
+    }
+  ]
+}

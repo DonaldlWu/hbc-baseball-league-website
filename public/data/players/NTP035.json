@@ -1,0 +1,73 @@
+{
+  "id": "NTP035",
+  "code": "NTP035",
+  "name": "陳蕭喬遠",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "台北大學"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "台北大學",
+      "number": "10",
+      "batting": {
+        "games": 3,
+        "pa": 11,
+        "ab": 9,
+        "hits": 4,
+        "singles": 2,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 312,
+        "hits": 311,
+        "hr": 1271,
+        "rbi": 196,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "台北大學",
+      "number": "10",
+      "batting": {
+        "games": 10,
+        "pa": 36,
+        "ab": 36,
+        "hits": 15,
+        "singles": 13,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 6,
+        "bb": 15,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 140,
+        "hits": 79,
+        "hr": 1521,
+        "rbi": 117,
+        "avg": 1101
+      }
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "id": "NAN092",
+  "code": "NAN092",
+  "name": "陳威元",
+  "photo": "https://lh3.googleusercontent.com/AlSWxfAnwRkPSdFwUQav8eYefxcYGnUHVAO4aEQKNW-wbPmPLZ09clC7RLPr77zmmtHUwmSYgNIA_aURiyPoQQpr06K9Ib_D_NlFkErM2SusA09tCH7KfU1VJ2k0jOsUjt2Qv5P4X8re_cxQ_PnK2XUIouyp7QVovE3daX6Hn6viP1rAbcHtQN72fLRa0KAn3EGI0tc6FcubSXRKSWb5I4Ypt9armQOzNzSm1zklkdO2K4PMoxFdIPuXnO76olswVXllg2b9Bz6eYloyrIhRoE2ib7VFCLW36fqFHYPUliqK6Ms-U8EogSVcTTpdIt7puDSvdGWTmIa4AJhWM5N_bU5u3jfQTj3BrJP18mccBDJv2k-VOizz0TRuM0h_GFXblOPJne3vwJwMhfkOq2H_zfYRjtpjPp2KV8yqaosiV8Vp9ZurPWBsKFVklqsO6aRh1I8njm1TRTVwuc7JcUH-5KDmw5xNsBtpujG6rVXIqFeCSqt6oWwG58uXo4XheYH9WbNiswFvV6YMZ06eRtEfQ0bRmlKI4EKCdN4XnD1RXQ2E602emz5d5XGaZ9EJmYO7vShK2ADsh4c02-SPNyasv9gPSYpOUhoza2Ju2htNI7kAukj3r4gwfuPMOq6Ef8KOSlucXd5XMs47Rs4uM1sgGaDTO_ziJm1nf_SONnpVLyVozc9a-eZ5FWj6ZQreFFMzM7_ek-2d7ZjepdXITiIejnDt=w310-h335-no",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "Line Drive",
+      "ROOKIES",
+      "台北大學",
+      "Synergy",
+      "南港高工OB"
+    ],
+    "totalSeasons": 11
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Line Drive",
+      "number": "24",
+      "batting": {
+        "games": 13,
+        "pa": 59,
+        "ab": 27,
+        "hits": 11,
+        "singles": 6,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 15,
+        "runs": 25,
+        "bb": 0,
+        "so": 7,
+        "sb": 7,
+        "sf": 1,
+        "totalBases": 16
+      },
+      "rankings": {
+        "rc": 9,
+        "hits": 105,
+        "hr": 1516,
+        "rbi": 22,
+        "avg": 33
+      }
+    },
+    {
+      "year": 2024,
+      "team": "Line Drive",
+      "number": "24",
+      "batting": {
+        "games": 8,
+        "pa": 28,
+        "ab": 19,
+        "hits": 8,
+        "singles": 3,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 7,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 27,
+        "hits": 72,
+        "hr": 1346,
+        "rbi": 25,
+        "avg": 29
+      }
+    },
+    {
+      "year": 2023,
+      "team": "Line Drive",
+      "number": "24",
+      "batting": {
+        "games": 8,
+        "pa": 33,
+        "ab": 21,
+        "hits": 8,
+        "singles": 6,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 12,
+        "bb": 0,
+        "so": 0,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 19,
+        "hits": 63,
+        "hr": 1380,
+        "rbi": 170,
+        "avg": 38
+      }
+    },
+    {
+      "year": 2022,
+      "team": "Line Drive",
+      "number": "24",
+      "batting": {
+        "games": 9,
+        "pa": 29,
+        "ab": 21,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 7,
+        "bb": 0,
+        "so": 3,
+        "sb": 5,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 91,
+        "hits": 170,
+        "hr": 1422,
+        "rbi": 107,
+        "avg": 85
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ROOKIES",
+      "number": "24",
+      "batting": {
+        "games": 15,
+        "pa": 42,
+        "ab": 34,
+        "hits": 10,
+        "singles": 9,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 10,
+        "bb": 0,
+        "so": 10,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 187,
+        "hits": 154,
+        "hr": 1577,
+        "rbi": 225,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "ROOKIES",
+      "number": "24",
+      "batting": {
+        "games": 13,
+        "pa": 49,
+        "ab": 36,
+        "hits": 13,
+        "singles": 10,
+        "doubles": 1,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 16,
+        "bb": 0,
+        "so": 8,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 18
+      },
+      "rankings": {
+        "rc": 62,
+        "hits": 104,
+        "hr": 1591,
+        "rbi": 126,
+        "avg": 55
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台北大學",
+      "number": "51",
+      "batting": {
+        "games": 14,
+        "pa": 58,
+        "ab": 48,
+        "hits": 16,
+        "singles": 12,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 16,
+        "bb": 0,
+        "so": 12,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 21
+      },
+      "rankings": {
+        "rc": 70,
+        "hits": 73,
+        "hr": 1633,
+        "rbi": 113,
+        "avg": 57
+      }
+    },
+    {
+      "year": 2018,
+      "team": "ROOKIES",
+      "number": "24",
+      "batting": {
+        "games": 7,
+        "pa": 14,
+        "ab": 13,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 0,
+        "so": 8,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 929,
+        "hits": 537,
+        "hr": 1360,
+        "rbi": 1668,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "Synergy",
+      "number": "NAN092",
+      "batting": {
+        "games": 12,
+        "pa": 32,
+        "ab": 26,
+        "hits": 9,
+        "singles": 9,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 9,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 220,
+        "hits": 189,
+        "hr": 836,
+        "rbi": 423,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "Synergy",
+      "number": "NAN092",
+      "batting": {
+        "games": 14,
+        "pa": 50,
+        "ab": 40,
+        "hits": 10,
+        "singles": 8,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 13,
+        "bb": 0,
+        "so": 7,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 194,
+        "hits": 187,
+        "hr": 869,
+        "rbi": 273,
+        "avg": 113
+      }
+    },
+    {
+      "year": 2015,
+      "team": "南港高工OB",
+      "number": "NAN092",
+      "batting": {
+        "games": 11,
+        "pa": 37,
+        "ab": 32,
+        "hits": 9,
+        "singles": 5,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 8,
+        "bb": 0,
+        "so": 4,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 171,
+        "hits": 180,
+        "hr": 776,
+        "rbi": 199,
+        "avg": 624
+      }
+    }
+  ]
+}

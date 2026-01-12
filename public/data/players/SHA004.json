@@ -1,0 +1,44 @@
+{
+  "id": "SHA004",
+  "code": "SHA004",
+  "name": "呂彥翰",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMVyX1p8hfcuZ3Lt24-Wl2bkW4dYWWyVEeO6GoE1y4M8j-OI9-fyHwigqOPy4aqZDm4aGFCEeYd59IoE6cv_ZvtVpDou7HZLvMv5CVJhuznGKDtrAe2yRp2nzP2A1erobbBJVcTPeTruSog7Xay7po4=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "少林棒球隊"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "少林棒球隊",
+      "number": "5",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1065,
+        "hits": 1503,
+        "hr": 1077,
+        "rbi": 422,
+        "avg": 1123
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "DHW031",
+  "code": "DHW031",
+  "name": "林奕廷",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNZ336SQutuOZqYqbC1eVdyeYR-PNA7VvAvdw2Qn0Ffwsn6jSnMNsYvWRnWUAgmvpO_9t4TQZ-Zx6O_VHItwIOsDkfqFk9MQFg66dT9_jIAhH11c7DFLt3Yr-inX6TSDe26BE8Bg19l2tRkJWMbNn88=w275-h344",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "7",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 8,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 5,
+        "bb": 1,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 306,
+        "hits": 260,
+        "hr": 1133,
+        "rbi": 311,
+        "avg": 1123
+      }
+    }
+  ]
+}

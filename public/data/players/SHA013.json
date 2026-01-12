@@ -1,0 +1,44 @@
+{
+  "id": "SHA013",
+  "code": "SHA013",
+  "name": "謝名勁",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNi_nOQPFU2XrFQYJlW1h7OMkVR8XE3T_pjmZ8fKt4edz9ozvbJ5p5LZamWW1j3fBalfxdfMfCfD9RxeDQdLCkSfDUla6obdj1WGE_5N-hl5HV_svkIMso2OJ-7Q_ojtb9CbKKFMcnYTztzs7dVGMKO=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "少林棒球隊"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "少林棒球隊",
+      "number": "17",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 405,
+        "hits": 359,
+        "hr": 968,
+        "rbi": 388,
+        "avg": 1123
+      }
+    }
+  ]
+}

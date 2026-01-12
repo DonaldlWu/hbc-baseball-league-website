@@ -1,0 +1,102 @@
+{
+  "id": "PMA010",
+  "code": "PMA010",
+  "name": "林昱丞",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "戊戍本一家"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "戊戍本一家",
+      "number": "18",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 604,
+        "hits": 586,
+        "hr": 84,
+        "rbi": 524,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "戊戍本一家",
+      "number": "PMA010",
+      "batting": {
+        "games": 7,
+        "pa": 13,
+        "ab": 9,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 12,
+        "so": 8,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 509,
+        "hits": 562,
+        "hr": 675,
+        "rbi": 331,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "戊戍本一家",
+      "number": "PMA010",
+      "batting": {
+        "games": 17,
+        "pa": 44,
+        "ab": 36,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 5,
+        "bb": 34,
+        "so": 25,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 888,
+        "hits": 325,
+        "hr": 841,
+        "rbi": 362,
+        "avg": 349
+      }
+    }
+  ]
+}

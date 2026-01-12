@@ -1,0 +1,277 @@
+{
+  "id": "COL002",
+  "code": "COL002",
+  "name": "陳靖",
+  "photo": "",
+  "career": {
+    "debut": 2012,
+    "teams": [
+      "MIRACLE",
+      "冷鋒"
+    ],
+    "totalSeasons": 9
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "MIRACLE",
+      "number": "94",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 952,
+        "hits": 928,
+        "hr": 338,
+        "rbi": 844,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "MIRACLE",
+      "number": "101",
+      "batting": {
+        "games": 5,
+        "pa": 21,
+        "ab": 16,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 5,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 213,
+        "hits": 243,
+        "hr": 1414,
+        "rbi": 168,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "冷鋒",
+      "number": "19",
+      "batting": {
+        "games": 15,
+        "pa": 69,
+        "ab": 61,
+        "hits": 33,
+        "singles": 23,
+        "doubles": 9,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 15,
+        "runs": 25,
+        "bb": 7,
+        "so": 5,
+        "sb": 3,
+        "sf": 2,
+        "totalBases": 45
+      },
+      "rankings": {
+        "rc": 8,
+        "hits": 5,
+        "hr": 36,
+        "rbi": 44,
+        "avg": 6
+      }
+    },
+    {
+      "year": 2017,
+      "team": "冷鋒",
+      "number": "COL002",
+      "batting": {
+        "games": 20,
+        "pa": 92,
+        "ab": 84,
+        "hits": 45,
+        "singles": 28,
+        "doubles": 16,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 26,
+        "runs": 36,
+        "bb": 11,
+        "so": 6,
+        "sb": 27,
+        "sf": 1,
+        "totalBases": 64
+      },
+      "rankings": {
+        "rc": 2,
+        "hits": 1,
+        "hr": 67,
+        "rbi": 8,
+        "avg": 5
+      }
+    },
+    {
+      "year": 2016,
+      "team": "冷鋒",
+      "number": "COL002",
+      "batting": {
+        "games": 21,
+        "pa": 102,
+        "ab": 90,
+        "hits": 47,
+        "singles": 22,
+        "doubles": 18,
+        "triples": 2,
+        "hr": 5,
+        "rbi": 34,
+        "runs": 48,
+        "bb": 7,
+        "so": 10,
+        "sb": 4,
+        "sf": 2,
+        "totalBases": 84
+      },
+      "rankings": {
+        "rc": 2,
+        "hits": 3,
+        "hr": 1,
+        "rbi": 3,
+        "avg": 10
+      }
+    },
+    {
+      "year": 2015,
+      "team": "冷鋒",
+      "number": "COL002",
+      "batting": {
+        "games": 20,
+        "pa": 93,
+        "ab": 81,
+        "hits": 42,
+        "singles": 26,
+        "doubles": 12,
+        "triples": 2,
+        "hr": 2,
+        "rbi": 25,
+        "runs": 30,
+        "bb": 3,
+        "so": 10,
+        "sb": 13,
+        "sf": 0,
+        "totalBases": 64
+      },
+      "rankings": {
+        "rc": 2,
+        "hits": 2,
+        "hr": 16,
+        "rbi": 5,
+        "avg": 6
+      }
+    },
+    {
+      "year": 2014,
+      "team": "冷鋒",
+      "number": "COL002",
+      "batting": {
+        "games": 20,
+        "pa": 97,
+        "ab": 78,
+        "hits": 39,
+        "singles": 20,
+        "doubles": 12,
+        "triples": 5,
+        "hr": 2,
+        "rbi": 28,
+        "runs": 44,
+        "bb": 0,
+        "so": 11,
+        "sb": 8,
+        "sf": 0,
+        "totalBases": 67
+      },
+      "rankings": {
+        "rc": 2,
+        "hits": 4,
+        "hr": 5,
+        "rbi": 7,
+        "avg": 8
+      }
+    },
+    {
+      "year": 2013,
+      "team": "冷鋒",
+      "number": "COL002",
+      "batting": {
+        "games": 15,
+        "pa": 69,
+        "ab": 60,
+        "hits": 26,
+        "singles": 15,
+        "doubles": 7,
+        "triples": 4,
+        "hr": 0,
+        "rbi": 15,
+        "runs": 26,
+        "bb": 0,
+        "so": 7,
+        "sb": 7,
+        "sf": 0,
+        "totalBases": 41
+      },
+      "rankings": {
+        "rc": 7,
+        "hits": 7,
+        "hr": 484,
+        "rbi": 27,
+        "avg": 10
+      }
+    },
+    {
+      "year": 2012,
+      "team": "冷鋒",
+      "number": "COL002",
+      "batting": {
+        "games": 3,
+        "pa": 12,
+        "ab": 8,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 5,
+        "bb": 9,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 83,
+        "hits": 113,
+        "hr": 204,
+        "rbi": 105,
+        "avg": 358
+      }
+    }
+  ]
+}

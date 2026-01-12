@@ -1,0 +1,102 @@
+{
+  "id": "YAN031",
+  "code": "YAN031",
+  "name": "柯鉅鋒",
+  "photo": "",
+  "career": {
+    "debut": 2014,
+    "teams": [
+      "陽明OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2016,
+      "team": "陽明OB",
+      "number": "YAN031",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 682,
+        "hits": 664,
+        "hr": 163,
+        "rbi": 610,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "陽明OB",
+      "number": "YAN031",
+      "batting": {
+        "games": 3,
+        "pa": 12,
+        "ab": 11,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 4,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 303,
+        "hits": 269,
+        "hr": 562,
+        "rbi": 255,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "陽明OB",
+      "number": "YAN031",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 427,
+        "hits": 409,
+        "hr": 27,
+        "rbi": 378,
+        "avg": 327
+      }
+    }
+  ]
+}

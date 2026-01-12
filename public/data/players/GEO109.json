@@ -1,0 +1,44 @@
+{
+  "id": "GEO109",
+  "code": "GEO109",
+  "name": "楊景仁",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPVQIgU7AC1zb-aA7VlXqLIKaHSwFS1973BXlXa_zBRXKGxzFNY2VxYAkyq30rOLBCM4KJS4s9AxGG4rDqxcGzFFwRnscIb6o0HA8uJ4sVNQenw5o39HrjvhbQC8EzY5LaEOxTKfdTwuw-FVJoIu5Qi=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "十號馬"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "十號馬",
+      "number": "21",
+      "batting": {
+        "games": 10,
+        "pa": 30,
+        "ab": 25,
+        "hits": 11,
+        "singles": 10,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 6,
+        "bb": 4,
+        "so": 4,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 103,
+        "hits": 87,
+        "hr": 1390,
+        "rbi": 116,
+        "avg": 1123
+      }
+    }
+  ]
+}

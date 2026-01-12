@@ -1,0 +1,44 @@
+{
+  "id": "SCO054",
+  "code": "SCO054",
+  "name": "陳敬恩",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczP2SkXajwVFSdtgPHAEMHIGrOgVfkJMIZZfdVau_LD3X4EieXUBd_mNeIBxEc6EqKdj5hrgvX6yL_4JeGWEm4S8LkDFp7Pl0jqQ0w7ZWNb5JhvBCXexCUtkeeXN0mGfBW8FfbK1h91PQer210vFkLAn6w=w703-h888-s-no-gm?authuser=0",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "68",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 264,
+        "hits": 317,
+        "hr": 865,
+        "rbi": 161,
+        "avg": 903
+      }
+    }
+  ]
+}

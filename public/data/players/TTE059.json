@@ -1,0 +1,73 @@
+{
+  "id": "TTE059",
+  "code": "TTE059",
+  "name": "陸柄銓",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "北科大"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "北科大",
+      "number": "TTE059",
+      "batting": {
+        "games": 9,
+        "pa": 21,
+        "ab": 19,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 15,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1014,
+        "hits": 1014,
+        "hr": 763,
+        "rbi": 509,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "北科大",
+      "number": "TTE059",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 910,
+        "hits": 923,
+        "hr": 486,
+        "rbi": 895,
+        "avg": 349
+      }
+    }
+  ]
+}

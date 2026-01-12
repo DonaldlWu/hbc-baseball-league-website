@@ -1,0 +1,44 @@
+{
+  "id": "SHU044",
+  "code": "SHU044",
+  "name": "林豐學",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOKSVESL9igjlWw8G67Pbi__rh1sezYU1k4Chn2weDtmv2zHO3U9onvV5TaG0e1UPDDEWy5zPBmu4p_oE6JAmzbl1GlLYe0q6f4oT7zix1Kak27qqvpGCottoQPOTH3noHeKQi6Qme3p_WnzGgOcVHn=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "9",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1035,
+        "hits": 1406,
+        "hr": 888,
+        "rbi": 1352,
+        "avg": 1123
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "NTH017",
+  "code": "NTH017",
+  "name": "周軒宇",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNXHyVlqxXpZBPfzpotJ-qn1WM_voBYlhzuo0AtWO7wkc94T8PIQAp4EUPaH6lo73uoaOovnx9-w9iwRBM6zu_V6lHWkGNtLXTcV-T_-N89_NURLvlA1VufxsYPSPCP1aCs2Uo-HXgYqZ9VrfKDw1LU=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "90",
+      "batting": {
+        "games": 7,
+        "pa": 22,
+        "ab": 19,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 5,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 259,
+        "hits": 242,
+        "hr": 1338,
+        "rbi": 1535,
+        "avg": 1123
+      }
+    }
+  ]
+}

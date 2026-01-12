@@ -1,0 +1,102 @@
+{
+  "id": "MIR071",
+  "code": "MIR071",
+  "name": "江俊彥",
+  "photo": "https://lh3.googleusercontent.com/pw/AIL4fc9gmgIvJE39Ma8eTpsszn6AckkT7LDOAL3hIZCcXVc5ppSNdcvfckjk-xXVuVD1NsItoNO0bw7ewka8_jkSYvboRW7jp-yeH_LErM8HNLKMii27qa6hkfGOVOOyT3YHevlnMKr-Uu6x00ZeKSz_YNiO=w310-h335-no",
+  "career": {
+    "debut": 2023,
+    "teams": [
+      "MIRACLE"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "MIRACLE",
+      "number": "0",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 420,
+        "hits": 490,
+        "hr": 1040,
+        "rbi": 1454,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "MIRACLE",
+      "number": "0",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 812,
+        "hits": 774,
+        "hr": 362,
+        "rbi": 707,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "MIRACLE",
+      "number": "0",
+      "batting": {
+        "games": 6,
+        "pa": 20,
+        "ab": 18,
+        "hits": 3,
+        "singles": 1,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 6,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 283,
+        "hits": 222,
+        "hr": 1303,
+        "rbi": 162,
+        "avg": 896
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "PMA027",
+  "code": "PMA027",
+  "name": "林暄富",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "戊戍本一家"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "戊戍本一家",
+      "number": "11",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 517,
+        "hits": 530,
+        "hr": 1075,
+        "rbi": 1552,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "戊戍本一家",
+      "number": "11",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 846,
+        "hits": 1577,
+        "hr": 1065,
+        "rbi": 1510,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "戊戍本一家",
+      "number": "11",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 6,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 937,
+        "hits": 1668,
+        "hr": 1233,
+        "rbi": 1638,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "戊戍本一家",
+      "number": "PMA027",
+      "batting": {
+        "games": 4,
+        "pa": 11,
+        "ab": 9,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 4,
+        "bb": 0,
+        "so": 3,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 287,
+        "hits": 327,
+        "hr": 647,
+        "rbi": 265,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "戊戍本一家",
+      "number": "PMA027",
+      "batting": {
+        "games": 9,
+        "pa": 34,
+        "ab": 30,
+        "hits": 9,
+        "singles": 4,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 7,
+        "runs": 8,
+        "bb": 0,
+        "so": 9,
+        "sb": 4,
+        "sf": 0,
+        "totalBases": 16
+      },
+      "rankings": {
+        "rc": 188,
+        "hits": 197,
+        "hr": 20,
+        "rbi": 192,
+        "avg": 349
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "MUZ092",
+  "code": "MUZ092",
+  "name": "張少君",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczN4OUg7IKMPoxHU4AsNM5ebZSAczBgjUQU5E3lbV_yizmU5bZP9f9Yk0x0Cm20gHiz7TSgUeUXSrqWM3yhWnnuBpZ1-5KxR0dN6CRI48yDjZ15aKLQ3XYqzjMl7OzJ88IFgCgCZJrrzI1m_G6JxJ__ZSA=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "木柵OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "木柵OB",
+      "number": "31",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 724,
+        "hits": 654,
+        "hr": 131,
+        "rbi": 600,
+        "avg": 1123
+      }
+    }
+  ]
+}

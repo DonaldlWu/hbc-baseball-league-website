@@ -1,0 +1,44 @@
+{
+  "id": "MIR073",
+  "code": "MIR073",
+  "name": "吳志為",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOkuA-ew8f8HLD7NGJUK793Dd6fZQ7fTEOOJjceZ4vpv70M2x6-3_GdUkIkbW63Sq2oBkfws5sb47T7nBan-cIktlb_zU0a5EjkSOw2hWH33v9lI1LtFxxGK-YGUo9JQVQKf51a6YwQmwv2_ABTv31tyg=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "MIRACLE"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "MIRACLE",
+      "number": "26",
+      "batting": {
+        "games": 7,
+        "pa": 7,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 501,
+        "hits": 1511,
+        "hr": 1096,
+        "rbi": 1482,
+        "avg": 1123
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "TRO080",
+  "code": "TRO080",
+  "name": "王昱之",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPxNrtLOVMucc4fww68gRcqFV38uGIv3Pjp9VYwZd6ikX_wxUsDJy4Zz-NVEoO_D3eDRFVR6EHCF2xDAfUT7NHP8WfdTWMMhgsd435qzKTt4fD-kyVMDkcOBd5WpeD5ogVhHJk1a-fg_Y5FaNEwbdBIwQ=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "楚奧特"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "楚奧特",
+      "number": "33",
+      "batting": {
+        "games": 5,
+        "pa": 7,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 11,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 463,
+        "hits": 508,
+        "hr": 1099,
+        "rbi": 1484,
+        "avg": 1123
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "NTP033",
+  "code": "NTP033",
+  "name": "陳子軒",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "台北大學"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "台北大學",
+      "number": "11",
+      "batting": {
+        "games": 15,
+        "pa": 64,
+        "ab": 53,
+        "hits": 19,
+        "singles": 12,
+        "doubles": 4,
+        "triples": 1,
+        "hr": 2,
+        "rbi": 16,
+        "runs": 12,
+        "bb": 3,
+        "so": 13,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 31
+      },
+      "rankings": {
+        "rc": 29,
+        "hits": 49,
+        "hr": 3,
+        "rbi": 31,
+        "avg": 54
+      }
+    },
+    {
+      "year": 2020,
+      "team": "台北大學",
+      "number": "11",
+      "batting": {
+        "games": 8,
+        "pa": 34,
+        "ab": 27,
+        "hits": 13,
+        "singles": 6,
+        "doubles": 5,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 13,
+        "bb": 15,
+        "so": 8,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 22
+      },
+      "rankings": {
+        "rc": 68,
+        "hits": 103,
+        "hr": 1502,
+        "rbi": 93,
+        "avg": 1101
+      }
+    }
+  ]
+}

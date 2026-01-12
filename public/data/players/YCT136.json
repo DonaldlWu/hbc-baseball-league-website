@@ -1,0 +1,44 @@
+{
+  "id": "YCT136",
+  "code": "YCT136",
+  "name": "童秉豐",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPNuNdsWjAkCvEHrOc974vf3sqVIBC1feOV77a_fBHFw5mdLUnJbcBNx9l8hm0zcUZr9TjJF3BY5WOcIfsm-DY0VNvWzQlA-gq340f1Me-6jwTENfn49F5s1r1o9MYiWewgejdRv6meWeLDFsr-zn4F=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "永春TB",
+      "number": "55",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 6,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 325,
+        "hits": 307,
+        "hr": 1124,
+        "rbi": 242,
+        "avg": 1123
+      }
+    }
+  ]
+}

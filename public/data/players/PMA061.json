@@ -1,0 +1,44 @@
+{
+  "id": "PMA061",
+  "code": "PMA061",
+  "name": "蔡佳勳",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "戊戍本一家"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "戊戍本一家",
+      "number": "42",
+      "batting": {
+        "games": 2,
+        "pa": 1,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 5,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 578,
+        "hits": 1550,
+        "hr": 960,
+        "rbi": 1466,
+        "avg": 1101
+      }
+    }
+  ]
+}

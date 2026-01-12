@@ -1,0 +1,44 @@
+{
+  "id": "HOL054",
+  "code": "HOL054",
+  "name": "陳麒文",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "HOLYBAT",
+      "number": "104",
+      "batting": {
+        "games": 9,
+        "pa": 27,
+        "ab": 22,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 11,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 886,
+        "hits": 543,
+        "hr": 1472,
+        "rbi": 480,
+        "avg": 940
+      }
+    }
+  ]
+}

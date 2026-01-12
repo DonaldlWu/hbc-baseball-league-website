@@ -1,0 +1,44 @@
+{
+  "id": "NTU109",
+  "code": "NTU109",
+  "name": "陳語弦",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "台大化工OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "台大化工OB",
+      "number": "24",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 4,
+        "hits": 2,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 4,
+        "runs": 3,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 306,
+        "hits": 417,
+        "hr": 9,
+        "rbi": 232,
+        "avg": 917
+      }
+    }
+  ]
+}

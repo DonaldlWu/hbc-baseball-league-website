@@ -1,0 +1,44 @@
+{
+  "id": "DHW019",
+  "code": "DHW019",
+  "name": "田振恩",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOzg_7B1Uuej-7enYGZpKL_4yEpWngS81FZ9cFHRnhaeRQO8WUeL6dth-cBy9xyktcLtJ0xgBv4Gh76qsRV_SwwBCz4kaSVkvrkO3sLI4Ao2OoRBeyDAkV6-ka2DOB_WvAnMm2RPJuxlZm3g3sk7eH2=w222-h296",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "48",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 3,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 438,
+        "hits": 478,
+        "hr": 1006,
+        "rbi": 397,
+        "avg": 1123
+      }
+    }
+  ]
+}

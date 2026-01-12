@@ -1,0 +1,44 @@
+{
+  "id": "TTE042",
+  "code": "TTE042",
+  "name": "蕭博元",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "北科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "北科大",
+      "number": "TTE042",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 856,
+        "hits": 831,
+        "hr": 380,
+        "rbi": 789,
+        "avg": 624
+      }
+    }
+  ]
+}

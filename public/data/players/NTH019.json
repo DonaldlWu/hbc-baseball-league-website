@@ -1,0 +1,44 @@
+{
+  "id": "NTH019",
+  "code": "NTH019",
+  "name": "吳群明",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNntQF__DZvacvMCyfBaMpll6KzD22tc2W3sL64Kh0Op6DwkeGUb1tbKnvO_cJYPtmzAX7Zd7ZuvXj86csRgHLa3K1WLKKRbp1HPQpguD-c_EuOTIblffHlDqAYUXRzvt2aCB161p8Umbf95hRGkEoE=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "92",
+      "batting": {
+        "games": 10,
+        "pa": 30,
+        "ab": 24,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 240,
+        "hits": 249,
+        "hr": 1388,
+        "rbi": 357,
+        "avg": 1123
+      }
+    }
+  ]
+}

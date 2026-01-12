@@ -1,0 +1,102 @@
+{
+  "id": "HUA128",
+  "code": "HUA128",
+  "name": "蔡欣恩",
+  "photo": "https://lh3.googleusercontent.com/pw/ADCreHcJJ0TD3gWxbPy5f7k1rbC11tbls2nehlDF-hkSbfrpSID60IuYkaGuIjTJCyuDyeL1vxU88_JecAoUU_--9D7MPnRbj1Vpv0fii-gfMGjpozHYx7foSXqPHBfAuDZtk2nJgrwxO3ODJWHc0uxjm9Ke=w310-h335-no",
+  "career": {
+    "debut": 2023,
+    "teams": [
+      "華江OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "華江OB",
+      "number": "63",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1049,
+        "hits": 1410,
+        "hr": 892,
+        "rbi": 1356,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "華江OB",
+      "number": "63",
+      "batting": {
+        "games": 3,
+        "pa": 7,
+        "ab": 7,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 364,
+        "hits": 262,
+        "hr": 1080,
+        "rbi": 186,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "華江OB",
+      "number": "63",
+      "batting": {
+        "games": 3,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 747,
+        "hits": 698,
+        "hr": 317,
+        "rbi": 647,
+        "avg": 896
+      }
+    }
+  ]
+}

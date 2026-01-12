@@ -1,0 +1,102 @@
+{
+  "id": "MIX073",
+  "code": "MIX073",
+  "name": "尤繞篤耀",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "MIX",
+      "number": "46",
+      "batting": {
+        "games": 6,
+        "pa": 18,
+        "ab": 16,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 298,
+        "hits": 240,
+        "hr": 1396,
+        "rbi": 464,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "MIX",
+      "number": "46",
+      "batting": {
+        "games": 9,
+        "pa": 32,
+        "ab": 26,
+        "hits": 10,
+        "singles": 9,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 6,
+        "bb": 14,
+        "so": 6,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 157,
+        "hits": 153,
+        "hr": 1508,
+        "rbi": 265,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "MIX",
+      "number": "MIX073",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 507,
+        "hits": 505,
+        "hr": 475,
+        "rbi": 444,
+        "avg": 340
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "PMA032",
+  "code": "PMA032",
+  "name": "林庭瑋",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczO6dGk4hfZliBLkcNxfjd-qHhukulR0RCZXdoqvzYSPMZ6gn6tl8xmPYsxZAOnRifP_BIXRgam8kqvEfxyAGQmcwAB0KkLFZ6wHsbOFfZqEG0SJwIQXD21RCga4gErLpEfZcZRe-ER9fWDE3bskQXr5=w310-h335-no",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "台大醫學院棒",
+      "戊戍本一家"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "7",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 654,
+        "hits": 937,
+        "hr": 414,
+        "rbi": 883,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2016,
+      "team": "戊戍本一家",
+      "number": "PMA032",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 626,
+        "hits": 608,
+        "hr": 107,
+        "rbi": 554,
+        "avg": 349
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "BLA031",
+  "code": "BLA031",
+  "name": "高得勝",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "黑名單"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "黑名單",
+      "number": "BLA031",
+      "batting": {
+        "games": 9,
+        "pa": 25,
+        "ab": 19,
+        "hits": 4,
+        "singles": 0,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 6,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 75,
+        "hits": 101,
+        "hr": 149,
+        "rbi": 111,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2009,
+      "team": "黑名單",
+      "number": "BLA031",
+      "batting": {
+        "games": 8,
+        "pa": 27,
+        "ab": 26,
+        "hits": 13,
+        "singles": 7,
+        "doubles": 5,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 9,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 20
+      },
+      "rankings": {
+        "rc": 31,
+        "hits": 35,
+        "hr": 251,
+        "rbi": 51,
+        "avg": 450
+      }
+    }
+  ]
+}

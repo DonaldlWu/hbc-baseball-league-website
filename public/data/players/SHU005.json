@@ -1,0 +1,44 @@
+{
+  "id": "SHU005",
+  "code": "SHU005",
+  "name": "吳君毅",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNjNtv8BA8FO5HX3gE429fCz7yDWeIepPCKdPU_nzpcktL_syOY1bZBNyD5QCUb9SkA-krgFDR90fG5hx7h7bZZW23xs3kRxMHwQ9EWN4-ZcBWlIRsr1M4s2bvINNWOLHpLWoHMwwp5_d3fF2stFZsb=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "世新超乙組",
+      "number": "47",
+      "batting": {
+        "games": 4,
+        "pa": 8,
+        "ab": 5,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 212,
+        "hits": 267,
+        "hr": 1094,
+        "rbi": 1352,
+        "avg": 903
+      }
+    }
+  ]
+}

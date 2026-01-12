@@ -1,0 +1,189 @@
+{
+  "id": "ADV040",
+  "code": "ADV040",
+  "name": "陳振明",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "冒險家"
+    ],
+    "totalSeasons": 6
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "冒險家",
+      "number": "10",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 565,
+        "hits": 513,
+        "hr": 1034,
+        "rbi": 330,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "冒險家",
+      "number": "10",
+      "batting": {
+        "games": 5,
+        "pa": 14,
+        "ab": 13,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 5,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 444,
+        "hits": 382,
+        "hr": 1349,
+        "rbi": 452,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2012,
+      "team": "冒險家",
+      "number": "ADV040",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 311,
+        "hits": 222,
+        "hr": 18,
+        "rbi": 206,
+        "avg": 358
+      }
+    },
+    {
+      "year": 2011,
+      "team": "冒險家",
+      "number": "ADV040",
+      "batting": {
+        "games": 9,
+        "pa": 16,
+        "ab": 15,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 3,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 218,
+        "hits": 131,
+        "hr": 146,
+        "rbi": 140,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2010,
+      "team": "冒險家",
+      "number": "ADV040",
+      "batting": {
+        "games": 8,
+        "pa": 23,
+        "ab": 22,
+        "hits": 7,
+        "singles": 3,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 3,
+        "bb": 9,
+        "so": 4,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 79,
+        "hits": 72,
+        "hr": 156,
+        "rbi": 50,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2009,
+      "team": "冒險家",
+      "number": "ADV040",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 146,
+        "hits": 108,
+        "hr": 14,
+        "rbi": 99,
+        "avg": 450
+      }
+    }
+  ]
+}

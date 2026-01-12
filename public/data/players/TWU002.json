@@ -1,0 +1,44 @@
+{
+  "id": "TWU002",
+  "code": "TWU002",
+  "name": "江松豪",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOc8Xp60P1zC2aVbMM5GwiT_D9H6fAeUEQSO9KAXgk-ZJn4GgKS-ssxwF7J9fx7b5ULP00L3RISNLzm_dB_8fNOSemfkZeD6Vp2D6x2iJlubBBoDiDj8V2GTkqhVYSMvQz8IkhppAUayUZA5VbE4Htw=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "2",
+      "batting": {
+        "games": 6,
+        "pa": 18,
+        "ab": 14,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 5,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 96,
+        "hits": 103,
+        "hr": 1260,
+        "rbi": 76,
+        "avg": 903
+      }
+    }
+  ]
+}

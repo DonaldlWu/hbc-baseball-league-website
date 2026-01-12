@@ -1,0 +1,73 @@
+{
+  "id": "SHU007",
+  "code": "SHU007",
+  "name": "林育亦",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczP2GXa-WK8YDaIWCmJPBaCH-4fPHJrK-KcBSTWn6bRQ8RdCABsLbLbuVZNOrn92fCb_es1_Z1I-JseMJlaNHIfp6PbVF92Elsy6Rnpfa2tKChOGHlZb1BMN7NgYAmFtL4TQy58kEbjt6iEbb1i_LSGB=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "11",
+      "batting": {
+        "games": 5,
+        "pa": 13,
+        "ab": 10,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 488,
+        "hits": 534,
+        "hr": 1214,
+        "rbi": 468,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "世新超乙組",
+      "number": "11",
+      "batting": {
+        "games": 6,
+        "pa": 18,
+        "ab": 14,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 271,
+        "hits": 310,
+        "hr": 1265,
+        "rbi": 344,
+        "avg": 903
+      }
+    }
+  ]
+}

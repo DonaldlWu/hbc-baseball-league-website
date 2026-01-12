@@ -1,0 +1,73 @@
+{
+  "id": "YCT073",
+  "code": "YCT073",
+  "name": "吳煥群",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "永春TB",
+      "number": "26",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 629,
+        "hits": 611,
+        "hr": 109,
+        "rbi": 549,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "永春TB",
+      "number": "YCT073",
+      "batting": {
+        "games": 4,
+        "pa": 8,
+        "ab": 7,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 7,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 563,
+        "hits": 549,
+        "hr": 609,
+        "rbi": 982,
+        "avg": 340
+      }
+    }
+  ]
+}

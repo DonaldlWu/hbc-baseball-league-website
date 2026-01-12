@@ -1,0 +1,102 @@
+{
+  "id": "REV056",
+  "code": "REV056",
+  "name": "林佑恩",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOPzzjHWnBPjsBu0M5bSW-K5ONuwOKSrtLMhoGb8V-hptlycSVexjtvDyD9ZECeCdpSHUyNp1teHbyI_Dn317_cPLaXUdd1XmxYXtdCBWgu3OMT7_xa6FUopl5Xh1IwCwfMEMhoXZZpTcWnDBj-0f_2KA=w310-h335-no",
+  "career": {
+    "debut": 2023,
+    "teams": [
+      "逆轉星球"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "逆轉星球",
+      "number": "98",
+      "batting": {
+        "games": 12,
+        "pa": 37,
+        "ab": 34,
+        "hits": 11,
+        "singles": 9,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 9,
+        "bb": 5,
+        "so": 9,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 155,
+        "hits": 94,
+        "hr": 1444,
+        "rbi": 188,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "逆轉星球",
+      "number": "98",
+      "batting": {
+        "games": 4,
+        "pa": 14,
+        "ab": 12,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 252,
+        "hits": 211,
+        "hr": 1215,
+        "rbi": 214,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "逆轉星球",
+      "number": "98",
+      "batting": {
+        "games": 4,
+        "pa": 12,
+        "ab": 12,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 3,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 265,
+        "hits": 196,
+        "hr": 1188,
+        "rbi": 210,
+        "avg": 896
+      }
+    }
+  ]
+}

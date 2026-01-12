@@ -1,0 +1,44 @@
+{
+  "id": "VOL037",
+  "code": "VOL037",
+  "name": "吳長勳",
+  "photo": "",
+  "career": {
+    "debut": 2010,
+    "teams": [
+      "志願者"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "志願者",
+      "number": "VOL037",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 6,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 3,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 109,
+        "hits": 119,
+        "hr": 111,
+        "rbi": 214,
+        "avg": 450
+      }
+    }
+  ]
+}

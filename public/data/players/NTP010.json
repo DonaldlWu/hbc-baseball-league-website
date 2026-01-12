@@ -1,0 +1,102 @@
+{
+  "id": "NTP010",
+  "code": "NTP010",
+  "name": "陳俊曄",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "台北大學"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "台北大學",
+      "number": "24",
+      "batting": {
+        "games": 6,
+        "pa": 17,
+        "ab": 15,
+        "hits": 2,
+        "singles": 0,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 4,
+        "bb": 14,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 477,
+        "hits": 466,
+        "hr": 1360,
+        "rbi": 1673,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "台北大學",
+      "number": "24",
+      "batting": {
+        "games": 14,
+        "pa": 60,
+        "ab": 55,
+        "hits": 26,
+        "singles": 18,
+        "doubles": 8,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 12,
+        "runs": 25,
+        "bb": 0,
+        "so": 6,
+        "sb": 3,
+        "sf": 1,
+        "totalBases": 34
+      },
+      "rankings": {
+        "rc": 27,
+        "hits": 15,
+        "hr": 1645,
+        "rbi": 60,
+        "avg": 14
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台北大學",
+      "number": "24",
+      "batting": {
+        "games": 5,
+        "pa": 18,
+        "ab": 15,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 4,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 220,
+        "hits": 238,
+        "hr": 1393,
+        "rbi": 137,
+        "avg": 917
+      }
+    }
+  ]
+}

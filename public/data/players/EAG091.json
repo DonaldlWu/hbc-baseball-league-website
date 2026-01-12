@@ -1,0 +1,73 @@
+{
+  "id": "EAG091",
+  "code": "EAG091",
+  "name": "劉漢文",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "火把老鷹",
+      "number": "55",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 787,
+        "hits": 764,
+        "hr": 174,
+        "rbi": 680,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "火把老鷹",
+      "number": "55",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 486,
+        "hits": 517,
+        "hr": 1198,
+        "rbi": 1616,
+        "avg": 917
+      }
+    }
+  ]
+}

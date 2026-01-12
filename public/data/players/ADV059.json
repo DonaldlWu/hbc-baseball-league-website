@@ -1,0 +1,73 @@
+{
+  "id": "ADV059",
+  "code": "ADV059",
+  "name": "陳輝旭",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "冒險家"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "冒險家",
+      "number": "103",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 492,
+        "hits": 484,
+        "hr": 1122,
+        "rbi": 398,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "冒險家",
+      "number": "103",
+      "batting": {
+        "games": 5,
+        "pa": 13,
+        "ab": 11,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 342,
+        "hits": 324,
+        "hr": 1343,
+        "rbi": 467,
+        "avg": 940
+      }
+    }
+  ]
+}

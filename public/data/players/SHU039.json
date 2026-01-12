@@ -1,0 +1,44 @@
+{
+  "id": "SHU039",
+  "code": "SHU039",
+  "name": "范哲綸",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPSBAHCx9XTpzGmra0acT-Ep-igLfm3cG98O1SmfrUvcU44ybUirD0VrhGcJsUdoIon84yYV2PgnH-a2oMu97yFZarv143W0xf3v5h2Q_eYY4E-4u627huofbcP576sQh4PTpyRXjFD6qa7-NpRHqwu=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "66",
+      "batting": {
+        "games": 5,
+        "pa": 11,
+        "ab": 8,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 5,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 458,
+        "hits": 527,
+        "hr": 1184,
+        "rbi": 459,
+        "avg": 1123
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "EAG118",
+  "code": "EAG118",
+  "name": "張育嘉",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPW2X_oGo__hQSUtI1RTBNxVBvjP6YNvLmD-PLKu_yPgdMt8RCHw9yQnV5boEVqhzZXZ1N94TUJ-iraiImGE3Uob0j3svd2J3EgTSJGEGuEFdDkXMY7PHdjriE7LCDgIuMlC98EAdHw67jbdm8hOUc=w310-h335-no",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "火把老鷹",
+      "number": "11",
+      "batting": {
+        "games": 3,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 3,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 592,
+        "hits": 1449,
+        "hr": 958,
+        "rbi": 1403,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "火把老鷹",
+      "number": "11",
+      "batting": {
+        "games": 6,
+        "pa": 6,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 16,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 256,
+        "hits": 373,
+        "hr": 1041,
+        "rbi": 1332,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "火把老鷹",
+      "number": "11",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 12,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 326,
+        "hits": 334,
+        "hr": 1015,
+        "rbi": 1322,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "火把老鷹",
+      "number": "11",
+      "batting": {
+        "games": 5,
+        "pa": 10,
+        "ab": 9,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 14,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 380,
+        "hits": 311,
+        "hr": 1189,
+        "rbi": 245,
+        "avg": 943
+      }
+    }
+  ]
+}

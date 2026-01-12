@@ -1,0 +1,44 @@
+{
+  "id": "HUA101",
+  "code": "HUA101",
+  "name": "洪正勳",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "華江OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "華江OB",
+      "number": "64",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 760,
+        "hits": 730,
+        "hr": 216,
+        "rbi": 663,
+        "avg": 917
+      }
+    }
+  ]
+}

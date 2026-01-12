@@ -1,0 +1,44 @@
+{
+  "id": "NTH025",
+  "code": "NTH025",
+  "name": "呂奕成",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPrPwzbmt-eDqseYiwc055zv7wcIrfHRinFQnlO01gbFoq2fIppI-Phnt36pB6QJB1QJE0eQx-Ryaa9UVOZQTG1IyM_w0FGcRiDOUr-uCZx-0M2bID3Xg4fdl9xYlEJg8BnznWiV7J7G3zC3tx_MR1w=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "5",
+      "batting": {
+        "games": 3,
+        "pa": 4,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1101,
+        "hits": 1486,
+        "hr": 1034,
+        "rbi": 1451,
+        "avg": 1123
+      }
+    }
+  ]
+}

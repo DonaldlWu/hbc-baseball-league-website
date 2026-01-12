@@ -1,0 +1,102 @@
+{
+  "id": "EAG080",
+  "code": "EAG080",
+  "name": "宋冠杰",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "火把老鷹",
+      "number": "30",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 632,
+        "hits": 602,
+        "hr": 88,
+        "rbi": 535,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "火把老鷹",
+      "number": "30",
+      "batting": {
+        "games": 10,
+        "pa": 30,
+        "ab": 23,
+        "hits": 8,
+        "singles": 8,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 11,
+        "bb": 14,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 218,
+        "hits": 204,
+        "hr": 1494,
+        "rbi": 261,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "火把老鷹",
+      "number": "EAG080",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 5,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 676,
+        "hits": 681,
+        "hr": 175,
+        "rbi": 625,
+        "avg": 340
+      }
+    }
+  ]
+}

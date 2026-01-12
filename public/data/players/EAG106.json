@@ -1,0 +1,102 @@
+{
+  "id": "EAG106",
+  "code": "EAG106",
+  "name": "黃彥銘",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "火把老鷹",
+      "number": "4",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 597,
+        "hits": 548,
+        "hr": 167,
+        "rbi": 497,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "火把老鷹",
+      "number": "4",
+      "batting": {
+        "games": 2,
+        "pa": 10,
+        "ab": 9,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 257,
+        "hits": 178,
+        "hr": 1192,
+        "rbi": 1447,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "火把老鷹",
+      "number": "4",
+      "batting": {
+        "games": 5,
+        "pa": 16,
+        "ab": 16,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 5,
+        "so": 1,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 474,
+        "hits": 381,
+        "hr": 1350,
+        "rbi": 367,
+        "avg": 1022
+      }
+    }
+  ]
+}

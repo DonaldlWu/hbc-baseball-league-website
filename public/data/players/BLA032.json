@@ -1,0 +1,73 @@
+{
+  "id": "BLA032",
+  "code": "BLA032",
+  "name": "張智凱",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "黑名單"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "黑名單",
+      "number": "BLA032",
+      "batting": {
+        "games": 3,
+        "pa": 11,
+        "ab": 9,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 117,
+        "hits": 124,
+        "hr": 127,
+        "rbi": 90,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2009,
+      "team": "黑名單",
+      "number": "BLA032",
+      "batting": {
+        "games": 12,
+        "pa": 51,
+        "ab": 36,
+        "hits": 15,
+        "singles": 9,
+        "doubles": 4,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 13,
+        "runs": 17,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 23
+      },
+      "rankings": {
+        "rc": 17,
+        "hits": 28,
+        "hr": 266,
+        "rbi": 23,
+        "avg": 10
+      }
+    }
+  ]
+}

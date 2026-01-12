@@ -1,0 +1,44 @@
+{
+  "id": "NAN055",
+  "code": "NAN055",
+  "name": "李昱賢",
+  "photo": "",
+  "career": {
+    "debut": 2011,
+    "teams": [
+      "南港高工OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2011,
+      "team": "南港高工OB",
+      "number": "NAN055",
+      "batting": {
+        "games": 3,
+        "pa": 16,
+        "ab": 15,
+        "hits": 7,
+        "singles": 4,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 11,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 49,
+        "hits": 46,
+        "hr": 145,
+        "rbi": 139,
+        "avg": 450
+      }
+    }
+  ]
+}

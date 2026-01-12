@@ -1,0 +1,44 @@
+{
+  "id": "NTU092",
+  "code": "NTU092",
+  "name": "杜俊達",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "台大化工OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "台大化工OB",
+      "number": "31",
+      "batting": {
+        "games": 5,
+        "pa": 17,
+        "ab": 14,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 5,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 249,
+        "hits": 236,
+        "hr": 1383,
+        "rbi": 200,
+        "avg": 917
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "YCT105",
+  "code": "YCT105",
+  "name": "鍾少華",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "永春TB",
+      "number": "102",
+      "batting": {
+        "games": 4,
+        "pa": 5,
+        "ab": 4,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 3,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 373,
+        "hits": 438,
+        "hr": 1112,
+        "rbi": 336,
+        "avg": 1101
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "NTP058",
+  "code": "NTP058",
+  "name": "章丞翰",
+  "photo": "",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "海洋大學",
+      "number": "23",
+      "batting": {
+        "games": 7,
+        "pa": 13,
+        "ab": 9,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 378,
+        "hits": 1395,
+        "hr": 1192,
+        "rbi": 1382,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "海洋大學",
+      "number": "23",
+      "batting": {
+        "games": 5,
+        "pa": 8,
+        "ab": 7,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 460,
+        "hits": 423,
+        "hr": 1135,
+        "rbi": 322,
+        "avg": 943
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "WIN079",
+  "code": "WIN079",
+  "name": "莊家綸",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "颶風"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "颶風",
+      "number": "75",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 4,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 362,
+        "hits": 1349,
+        "hr": 999,
+        "rbi": 264,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "颶風",
+      "number": "75",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 392,
+        "hits": 378,
+        "hr": 1035,
+        "rbi": 1377,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "颶風",
+      "number": "75",
+      "batting": {
+        "games": 4,
+        "pa": 9,
+        "ab": 6,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 542,
+        "hits": 1664,
+        "hr": 1232,
+        "rbi": 461,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "颶風",
+      "number": "75",
+      "batting": {
+        "games": 7,
+        "pa": 25,
+        "ab": 19,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 3,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 236,
+        "hits": 267,
+        "hr": 1420,
+        "rbi": 196,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "颶風",
+      "number": "75",
+      "batting": {
+        "games": 10,
+        "pa": 38,
+        "ab": 31,
+        "hits": 8,
+        "singles": 7,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 8,
+        "bb": 4,
+        "so": 7,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 212,
+        "hits": 198,
+        "hr": 1546,
+        "rbi": 384,
+        "avg": 917
+      }
+    }
+  ]
+}

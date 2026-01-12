@@ -1,0 +1,44 @@
+{
+  "id": "KUP029",
+  "code": "KUP029",
+  "name": "薛宇辰",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "極品酷寶"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "極品酷寶",
+      "number": "6",
+      "batting": {
+        "games": 3,
+        "pa": 6,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 564,
+        "hits": 523,
+        "hr": 1168,
+        "rbi": 440,
+        "avg": 1022
+      }
+    }
+  ]
+}

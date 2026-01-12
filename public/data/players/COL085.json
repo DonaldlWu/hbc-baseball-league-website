@@ -1,0 +1,44 @@
+{
+  "id": "COL085",
+  "code": "COL085",
+  "name": "陳孟佐",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "冷鋒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "冷鋒",
+      "number": "52",
+      "batting": {
+        "games": 6,
+        "pa": 23,
+        "ab": 23,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 445,
+        "hits": 296,
+        "hr": 1451,
+        "rbi": 398,
+        "avg": 940
+      }
+    }
+  ]
+}

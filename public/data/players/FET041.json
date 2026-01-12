@@ -1,0 +1,73 @@
+{
+  "id": "FET041",
+  "code": "FET041",
+  "name": "高誠志",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "FORCE"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "FORCE",
+      "number": "FET041",
+      "batting": {
+        "games": 24,
+        "pa": 97,
+        "ab": 79,
+        "hits": 28,
+        "singles": 21,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 2,
+        "rbi": 19,
+        "runs": 28,
+        "bb": 0,
+        "so": 13,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 39
+      },
+      "rankings": {
+        "rc": 6,
+        "hits": 6,
+        "hr": 8,
+        "rbi": 13,
+        "avg": 18
+      }
+    },
+    {
+      "year": 2009,
+      "team": "FORCE",
+      "number": "FET041",
+      "batting": {
+        "games": 20,
+        "pa": 83,
+        "ab": 71,
+        "hits": 16,
+        "singles": 14,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 17,
+        "runs": 24,
+        "bb": 6,
+        "so": 14,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 19
+      },
+      "rankings": {
+        "rc": 40,
+        "hits": 27,
+        "hr": 295,
+        "rbi": 12,
+        "avg": 38
+      }
+    }
+  ]
+}

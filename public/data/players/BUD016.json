@@ -1,0 +1,44 @@
+{
+  "id": "BUD016",
+  "code": "BUD016",
+  "name": "李宇哲",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "The Buddies"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "The Buddies",
+      "number": "40",
+      "batting": {
+        "games": 9,
+        "pa": 13,
+        "ab": 12,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 8,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 991,
+        "hits": 562,
+        "hr": 1308,
+        "rbi": 1664,
+        "avg": 1022
+      }
+    }
+  ]
+}

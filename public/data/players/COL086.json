@@ -1,0 +1,250 @@
+{
+  "id": "COL086",
+  "code": "COL086",
+  "name": "高任炫",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMER3lRQ36BjhY5vfyZ9TBz4f46I-GVssiWf4HyQRXGnzRkkCLAwubmfRzzUl1m2DWJ7nlfdzdivCVm432a3RDEfNnOpJD_8uYdsi4NP2erwHK2RZT_GfHoSgAOkB4zHHHJyYt1nh-OkLZdIA8jBFRg=w310-h335-no",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "Line Drive",
+      "Tsuyoi",
+      "路易莎咖啡",
+      "冷鋒"
+    ],
+    "totalSeasons": 8
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Line Drive",
+      "number": "12",
+      "batting": {
+        "games": 16,
+        "pa": 6,
+        "ab": 6,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 36,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 418,
+        "hits": 380,
+        "hr": 1088,
+        "rbi": 425,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "Line Drive",
+      "number": "12",
+      "batting": {
+        "games": 5,
+        "pa": 1,
+        "ab": 1,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 356,
+        "hits": 319,
+        "hr": 867,
+        "rbi": 1209,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "Tsuyoi",
+      "number": "21",
+      "batting": {
+        "games": 7,
+        "pa": 10,
+        "ab": 9,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 0,
+        "bb": 17,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 318,
+        "hits": 267,
+        "hr": 1150,
+        "rbi": 140,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "路易莎咖啡",
+      "number": "47",
+      "batting": {
+        "games": 6,
+        "pa": 11,
+        "ab": 8,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 13,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 475,
+        "hits": 1467,
+        "hr": 1200,
+        "rbi": 338,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "路易莎咖啡",
+      "number": "47",
+      "batting": {
+        "games": 15,
+        "pa": 19,
+        "ab": 16,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 35,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 345,
+        "hits": 336,
+        "hr": 1382,
+        "rbi": 1676,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "路易莎咖啡",
+      "number": "47",
+      "batting": {
+        "games": 6,
+        "pa": 12,
+        "ab": 11,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 1,
+        "bb": 24,
+        "so": 1,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 397,
+        "hits": 326,
+        "hr": 1276,
+        "rbi": 152,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "路易莎咖啡",
+      "number": "47",
+      "batting": {
+        "games": 3,
+        "pa": 2,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 34,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 499,
+        "hits": 475,
+        "hr": 1096,
+        "rbi": 317,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "冷鋒",
+      "number": "101",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 823,
+        "hits": 805,
+        "hr": 303,
+        "rbi": 743,
+        "avg": 940
+      }
+    }
+  ]
+}

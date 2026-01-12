@@ -1,0 +1,44 @@
+{
+  "id": "TWU010",
+  "code": "TWU010",
+  "name": "郭亞勳",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczN6TYfY-R4y2C-nIqqPkykfyRoCVbeOxiN8rjzOtc_aqRgMQo_bCaBHOWADQqLtRPF2e4pbs0ZSeg9hpkrlOd4uCUG_yoWu92VyMk6ADbBPPNT-U2075Q335DebpGTab2hGW2IFbtF8FfX-ohFjQRMT=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "19",
+      "batting": {
+        "games": 4,
+        "pa": 15,
+        "ab": 12,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 4,
+        "bb": 4,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 157,
+        "hits": 167,
+        "hr": 1228,
+        "rbi": 103,
+        "avg": 903
+      }
+    }
+  ]
+}

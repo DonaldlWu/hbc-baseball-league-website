@@ -1,0 +1,248 @@
+{
+  "id": "NTU075",
+  "code": "NTU075",
+  "name": "陳杰均",
+  "photo": "https://lh3.googleusercontent.com/pw/ACtC-3dENLYh_LCEAwJK80xT2HMn5u2zuzcGvaYhUz12oFtBZrFIF4FLLyqchtDRW9UmBRZZYkU4xh8KrtGLirEn8Bq_qzaCnGjvEBxj3vyH04_4zwL-L28d297zOcIvRcYogH-2Ccs058dLrIEwyB5IuLYG=w310-h335-no",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "逆轉星球",
+      "台大化工OB"
+    ],
+    "totalSeasons": 8
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "逆轉星球",
+      "number": "9",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 7,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 525,
+        "hits": 517,
+        "hr": 1131,
+        "rbi": 1498,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "逆轉星球",
+      "number": "9",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 668,
+        "hits": 637,
+        "hr": 225,
+        "rbi": 570,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "逆轉星球",
+      "number": "9",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 614,
+        "hits": 565,
+        "hr": 184,
+        "rbi": 514,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "逆轉星球",
+      "number": "9",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 386,
+        "hits": 377,
+        "hr": 1034,
+        "rbi": 1376,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "逆轉星球",
+      "number": "9",
+      "batting": {
+        "games": 11,
+        "pa": 40,
+        "ab": 26,
+        "hits": 10,
+        "singles": 8,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 14,
+        "bb": 3,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 89,
+        "hits": 151,
+        "hr": 1560,
+        "rbi": 129,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台大化工OB",
+      "number": "50",
+      "batting": {
+        "games": 18,
+        "pa": 60,
+        "ab": 46,
+        "hits": 21,
+        "singles": 16,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 13,
+        "runs": 14,
+        "bb": 8,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 26
+      },
+      "rankings": {
+        "rc": 32,
+        "hits": 35,
+        "hr": 1637,
+        "rbi": 54,
+        "avg": 13
+      }
+    },
+    {
+      "year": 2018,
+      "team": "台大化工OB",
+      "number": "50",
+      "batting": {
+        "games": 19,
+        "pa": 77,
+        "ab": 53,
+        "hits": 22,
+        "singles": 18,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 17,
+        "runs": 23,
+        "bb": 7,
+        "so": 0,
+        "sb": 4,
+        "sf": 2,
+        "totalBases": 28
+      },
+      "rankings": {
+        "rc": 15,
+        "hits": 31,
+        "hr": 40,
+        "rbi": 32,
+        "avg": 32
+      }
+    },
+    {
+      "year": 2017,
+      "team": "台大化工OB",
+      "number": "NTU075",
+      "batting": {
+        "games": 20,
+        "pa": 81,
+        "ab": 64,
+        "hits": 33,
+        "singles": 19,
+        "doubles": 12,
+        "triples": 0,
+        "hr": 2,
+        "rbi": 32,
+        "runs": 28,
+        "bb": 10,
+        "so": 0,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 51
+      },
+      "rankings": {
+        "rc": 6,
+        "hits": 8,
+        "hr": 18,
+        "rbi": 2,
+        "avg": 11
+      }
+    }
+  ]
+}

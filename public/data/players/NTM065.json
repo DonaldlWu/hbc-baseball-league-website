@@ -1,0 +1,73 @@
+{
+  "id": "NTM065",
+  "code": "NTM065",
+  "name": "朱睿恩",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "台大機械"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "台大機械",
+      "number": "99",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 697,
+        "hits": 656,
+        "hr": 204,
+        "rbi": 569,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "台大機械",
+      "number": "99",
+      "batting": {
+        "games": 5,
+        "pa": 27,
+        "ab": 23,
+        "hits": 11,
+        "singles": 8,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 9,
+        "runs": 16,
+        "bb": 3,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 16
+      },
+      "rankings": {
+        "rc": 119,
+        "hits": 123,
+        "hr": 13,
+        "rbi": 101,
+        "avg": 1022
+      }
+    }
+  ]
+}

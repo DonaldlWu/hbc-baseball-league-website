@@ -1,0 +1,44 @@
+{
+  "id": "DHW060",
+  "code": "DHW060",
+  "name": "詹雲行",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczM6LHSr59GWVKemvUr6iBc-keR8Q7O3bMHGCk6ZRaJUsrj2AkmV4z0QvvI8aDh3GdFDBRQxrEPk07sUuL398z8K1lGcX1YqS_bljKyP_18SrdlpH6eFgRKCGW0ffCWRaJ9dcnL0vN0InpmrGiNJddg-=w929-h933",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "79",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 534,
+        "hits": 464,
+        "hr": 971,
+        "rbi": 391,
+        "avg": 1123
+      }
+    }
+  ]
+}

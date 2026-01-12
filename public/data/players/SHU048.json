@@ -1,0 +1,44 @@
+{
+  "id": "SHU048",
+  "code": "SHU048",
+  "name": "朱學庸",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMvi0cWyLDaGQbE4DR0nK9Xd9vFfdI5Hw0n65NQPR-3Hfh2hG80n7XTrB0rp5Km1960OeDEClNT7wF2IzCgtXNhRO1asl2mhSgK25Hr4cDgkJya3T2XO_OAK8gSvPiypKTdLADxqFvIyqXs-1dnIVdm=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "111",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 4,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1084,
+        "hits": 1462,
+        "hr": 980,
+        "rbi": 1419,
+        "avg": 1123
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "NAN013",
+  "code": "NAN013",
+  "name": "陳韋豪",
+  "photo": "",
+  "career": {
+    "debut": 2012,
+    "teams": [
+      "南港高工OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2014,
+      "team": "南港高工OB",
+      "number": "NAN013",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 532,
+        "hits": 409,
+        "hr": 27,
+        "rbi": 378,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "南港高工OB",
+      "number": "NAN013",
+      "batting": {
+        "games": 6,
+        "pa": 21,
+        "ab": 17,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 263,
+        "hits": 269,
+        "hr": 344,
+        "rbi": 281,
+        "avg": 323
+      }
+    },
+    {
+      "year": 2012,
+      "team": "南港高工OB",
+      "number": "NAN013",
+      "batting": {
+        "games": 13,
+        "pa": 38,
+        "ab": 30,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 6,
+        "bb": 9,
+        "so": 9,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 130,
+        "hits": 120,
+        "hr": 298,
+        "rbi": 117,
+        "avg": 358
+      }
+    }
+  ]
+}

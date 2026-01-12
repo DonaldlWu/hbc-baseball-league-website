@@ -1,0 +1,73 @@
+{
+  "id": "SCO068",
+  "code": "SCO068",
+  "name": "葉豐瑋",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMjhAsUHZEXQsJxNLsYNy8yxGFWqEictIIx3LCPZjzUEumjtOikABB8fU2XyO35t3Rgihpiem24n_nZ_rg2fbJVBNQ3BV6u8s-_uwdOX7tW4_BmWyS_DBnEsToBv6lPgjXOb5F8nJ2Z13J9zAmIxjKmmg=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "126",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 678,
+        "hits": 586,
+        "hr": 63,
+        "rbi": 532,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "78",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 400,
+        "hits": 343,
+        "hr": 953,
+        "rbi": 1275,
+        "avg": 903
+      }
+    }
+  ]
+}

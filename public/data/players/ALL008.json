@@ -1,0 +1,480 @@
+{
+  "id": "ALL008",
+  "code": "ALL008",
+  "name": "陳聖富",
+  "photo": "https://lh3.googleusercontent.com/9F09o5625BIlxkRJQvQXdHXSWLtH7I89ZLrrs8du3v5audSrXKYnfyuHheyZe1RQd9hd8GEMTtZm9KpH1keLMHrnH3WKTWt8bqex8G5RqtFwOBPJgqvrKSr3CAdsWhrHPM5bSmIv4bE9_oy2eTbUhDD6sK8ZTHdfmCC6mghFPGR4qOocjklfeE5eTOzqUNw5FXa-QqWQ0JTwG2xp0hSWkm6oJtF4GiQlV9vqvIjPDYsHOt5nJPu8cHWQUf70e4acRxkuKYJRMIfSvnVR45-mG9HUHHFTg5NrE4t5owuK3k9IvSLPMjDWAYI7-QPVFyP74XMkvcasDNBG_UBl9oEaak8CPRxCwXdgaZgOEFx2j1-1INavRfeXqXpedqQzOvx8BvniXxgv3g6kHhApLBIZNahOYkCoKa7K9vVIoMoWow8oheEhGSvetEnhwNXuOVk5VIeLiGepZFrJjhEd6Dm128X1yFqG6AXMTyWScUfvCiOXDQFqxglXtcP5ufkRu4l-vtugaLeCqG1E1gOeG7grSnyd8wM--ofbNrLdL5u5jt6vOLnOvSjTl7GErHOYm7CxZYDY54aflQzAj9H4WHjbKcOOuzJ66L73XSyZq4E=w310-h335-no",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "MIRACLE",
+      "ALLSTAR"
+    ],
+    "totalSeasons": 16
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "MIRACLE",
+      "number": "29",
+      "batting": {
+        "games": 2,
+        "pa": 2,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 572,
+        "hits": 1415,
+        "hr": 898,
+        "rbi": 372,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "MIRACLE",
+      "number": "29",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 797,
+        "hits": 759,
+        "hr": 347,
+        "rbi": 692,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2022,
+      "team": "ALLSTAR",
+      "number": "11",
+      "batting": {
+        "games": 2,
+        "pa": 7,
+        "ab": 5,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 220,
+        "hits": 215,
+        "hr": 1109,
+        "rbi": 175,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ALLSTAR",
+      "number": "11",
+      "batting": {
+        "games": 6,
+        "pa": 15,
+        "ab": 13,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 4,
+        "bb": 0,
+        "so": 5,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 350,
+        "hits": 323,
+        "hr": 1332,
+        "rbi": 200,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "ALLSTAR",
+      "number": "11",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 984,
+        "hits": 960,
+        "hr": 370,
+        "rbi": 876,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "ALLSTAR",
+      "number": "11",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 830,
+        "hits": 800,
+        "hr": 286,
+        "rbi": 733,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "ALLSTAR",
+      "number": "11",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 857,
+        "hits": 839,
+        "hr": 337,
+        "rbi": 777,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "ALLSTAR",
+      "number": "ALL008",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 877,
+        "hits": 882,
+        "hr": 376,
+        "rbi": 826,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "ALLSTAR",
+      "number": "ALL008",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 837,
+        "hits": 819,
+        "hr": 318,
+        "rbi": 765,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "ALLSTAR",
+      "number": "ALL008",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 800,
+        "hits": 522,
+        "hr": 61,
+        "rbi": 479,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "ALLSTAR",
+      "number": "ALL008",
+      "batting": {
+        "games": 3,
+        "pa": 12,
+        "ab": 10,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 242,
+        "hits": 225,
+        "hr": 377,
+        "rbi": 154,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "ALLSTAR",
+      "number": "ALL008",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 6,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 444,
+        "hits": 300,
+        "hr": 229,
+        "rbi": 202,
+        "avg": 323
+      }
+    },
+    {
+      "year": 2012,
+      "team": "ALLSTAR",
+      "number": "ALL008",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 9,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 176,
+        "hits": 148,
+        "hr": 194,
+        "rbi": 156,
+        "avg": 358
+      }
+    },
+    {
+      "year": 2011,
+      "team": "ALLSTAR",
+      "number": "ALL008",
+      "batting": {
+        "games": 9,
+        "pa": 31,
+        "ab": 20,
+        "hits": 7,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 8,
+        "runs": 10,
+        "bb": 0,
+        "so": 2,
+        "sb": 2,
+        "sf": 1,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 29,
+        "hits": 49,
+        "hr": 5,
+        "rbi": 31,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2010,
+      "team": "ALLSTAR",
+      "number": "ALL008",
+      "batting": {
+        "games": 15,
+        "pa": 43,
+        "ab": 34,
+        "hits": 7,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 8,
+        "bb": 0,
+        "so": 11,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 92,
+        "hits": 75,
+        "hr": 179,
+        "rbi": 64,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2009,
+      "team": "ALLSTAR",
+      "number": "ALL008",
+      "batting": {
+        "games": 7,
+        "pa": 24,
+        "ab": 19,
+        "hits": 7,
+        "singles": 7,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 5,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 54,
+        "hits": 60,
+        "hr": 243,
+        "rbi": 57,
+        "avg": 450
+      }
+    }
+  ]
+}

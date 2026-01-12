@@ -1,0 +1,44 @@
+{
+  "id": "SHA029",
+  "code": "SHA029",
+  "name": "李書維",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPsXpOojB8HQXjAZA0FX_-zwIQw2Bf4vTc5CiF86kYurLHTdJ15NP9xA8StxP55BLHARUt-hs2t34aKv53q-CVct0rfcnmo51cnKoGhtfdh9Rm3Wc_UmNZ-BClfcLggGAbFrJ7VlnO5pq0PV4MAyyL4=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "少林棒球隊"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "少林棒球隊",
+      "number": "99",
+      "batting": {
+        "games": 15,
+        "pa": 43,
+        "ab": 29,
+        "hits": 9,
+        "singles": 7,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 10,
+        "bb": 1,
+        "so": 11,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 80,
+        "hits": 143,
+        "hr": 1471,
+        "rbi": 365,
+        "avg": 63
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "DHW046",
+  "code": "DHW046",
+  "name": "李曜成",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPfDY5J--sRvV75apmkqNB3yYI8EPyRmlyqVTEey-Sqnz7G202CuIdy_zHa5FBaXfjXcqsezjjNtBxkO1suC7SpAuQsLQ_H-FmzJzabA9yWLqpbGc3Tdkp-P5saTXBREHAqaNMBRoq69WgmrGimH8Ue=w145-h150",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "94",
+      "batting": {
+        "games": 2,
+        "pa": 7,
+        "ab": 4,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 314,
+        "hits": 382,
+        "hr": 1093,
+        "rbi": 427,
+        "avg": 1123
+      }
+    }
+  ]
+}

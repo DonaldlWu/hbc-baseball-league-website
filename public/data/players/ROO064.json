@@ -1,0 +1,73 @@
+{
+  "id": "ROO064",
+  "code": "ROO064",
+  "name": "許福陞",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "ROOKIES"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "ROOKIES",
+      "number": "ROO064",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 791,
+        "hits": 796,
+        "hr": 290,
+        "rbi": 740,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "ROOKIES",
+      "number": "ROO064",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 763,
+        "hits": 745,
+        "hr": 244,
+        "rbi": 691,
+        "avg": 349
+      }
+    }
+  ]
+}

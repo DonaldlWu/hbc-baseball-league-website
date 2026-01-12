@@ -1,0 +1,44 @@
+{
+  "id": "CBC020",
+  "code": "CBC020",
+  "name": "郭建良",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "日促會"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "日促會",
+      "number": "CBC020",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 8,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 346,
+        "hits": 296,
+        "hr": 523,
+        "rbi": 432,
+        "avg": 624
+      }
+    }
+  ]
+}

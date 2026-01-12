@@ -1,0 +1,102 @@
+{
+  "id": "HUA073",
+  "code": "HUA073",
+  "name": "方政豐",
+  "photo": "",
+  "career": {
+    "debut": 2014,
+    "teams": [
+      "華江OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "華江OB",
+      "number": "HUA073",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 794,
+        "hits": 799,
+        "hr": 293,
+        "rbi": 743,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2015,
+      "team": "華江OB",
+      "number": "HUA073",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 746,
+        "hits": 522,
+        "hr": 61,
+        "rbi": 479,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "華江OB",
+      "number": "HUA073",
+      "batting": {
+        "games": 1,
+        "pa": 7,
+        "ab": 6,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 4,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 377,
+        "hits": 375,
+        "hr": 319,
+        "rbi": 221,
+        "avg": 327
+      }
+    }
+  ]
+}

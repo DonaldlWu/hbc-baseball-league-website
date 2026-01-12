@@ -1,0 +1,44 @@
+{
+  "id": "TWU013",
+  "code": "TWU013",
+  "name": "凃睿辰",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMiifLSXrXWAGuzrokpSwOC6bO0LAIoh--1u3o_jH3SV-2rrLDPqWhQ99ADa2fjfgZo2K1o-8bKcgDebW1hHWkkl4SxZFrDI-VVKxW3sHf8Eubjiq3WHeWBHTZruKxXmP3lkTYaIpBFU9TmoSfa4NsZ=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "24",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 5,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 210,
+        "hits": 266,
+        "hr": 1089,
+        "rbi": 128,
+        "avg": 903
+      }
+    }
+  ]
+}

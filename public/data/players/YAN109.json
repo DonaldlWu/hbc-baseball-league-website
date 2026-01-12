@@ -1,0 +1,74 @@
+{
+  "id": "YAN109",
+  "code": "YAN109",
+  "name": "吳政遠",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczO93udEQlvxNN9DITUzyUluRKJZ66c7zOyYQTTp0BAohGieBZ0UafhtRCVKSE8xhEOL86uNv7JC7h7JDMK7_GL8fdPTpJ-ZdSv_6uA0HLXQE2m05U963oevo8x0kr7kvUn5iVpOYCnthENkwiIdpn7k=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "DH戰將",
+      "陽明OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "56",
+      "batting": {
+        "games": 10,
+        "pa": 38,
+        "ab": 30,
+        "hits": 10,
+        "singles": 10,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 13,
+        "bb": 8,
+        "so": 5,
+        "sb": 4,
+        "sf": 1,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 117,
+        "hits": 120,
+        "hr": 1448,
+        "rbi": 286,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "陽明OB",
+      "number": "2",
+      "batting": {
+        "games": 3,
+        "pa": 5,
+        "ab": 5,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 150,
+        "hits": 150,
+        "hr": 1033,
+        "rbi": 1326,
+        "avg": 903
+      }
+    }
+  ]
+}

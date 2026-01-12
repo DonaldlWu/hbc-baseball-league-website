@@ -1,0 +1,73 @@
+{
+  "id": "WIN038",
+  "code": "WIN038",
+  "name": "林昶文",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "颶風"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2016,
+      "team": "颶風",
+      "number": "WIN038",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 739,
+        "hits": 721,
+        "hr": 220,
+        "rbi": 667,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "颶風",
+      "number": "WIN038",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 695,
+        "hits": 522,
+        "hr": 61,
+        "rbi": 479,
+        "avg": 624
+      }
+    }
+  ]
+}

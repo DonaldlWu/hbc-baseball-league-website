@@ -1,0 +1,44 @@
+{
+  "id": "SHU047",
+  "code": "SHU047",
+  "name": "陳柏儒",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMtx_vfOMeU1JKYDSW6NXXQuGP52igsojQ_CSW5_dJUgOjeipWvJMStgeo0Te3K9UQpgX3E4RakMbENo3f3c838I3D8e26vldvZUFYH14NPOEQCcdda7Rf0JtxRQlOfZiyZKYeOg5TkaFsrdvaTSjwO=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "96",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 1,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 373,
+        "hits": 454,
+        "hr": 941,
+        "rbi": 1393,
+        "avg": 1123
+      }
+    }
+  ]
+}

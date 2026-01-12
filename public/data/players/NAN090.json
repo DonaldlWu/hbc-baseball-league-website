@@ -1,0 +1,44 @@
+{
+  "id": "NAN090",
+  "code": "NAN090",
+  "name": "葛鴻儒",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "南港高工OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "南港高工OB",
+      "number": "NAN090",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 6,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 882,
+        "hits": 880,
+        "hr": 475,
+        "rbi": 860,
+        "avg": 624
+      }
+    }
+  ]
+}

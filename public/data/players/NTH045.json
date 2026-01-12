@@ -1,0 +1,44 @@
+{
+  "id": "NTH045",
+  "code": "NTH045",
+  "name": "王立禾",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOph-rArZ29pJ1Bk-kVuoHfoDVfk-ISo3lwtF2W4L5EE574H2IYULONyDXXeSd7viU9nhmdGYyz1jIxxqSKMT9KGnZwuZnBNOS27X5Uhh5v7Qv24lyLeE1ovzgcsdwRHMCHKjLOJ1DV0d2aN7f1A0Wy=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "66",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 472,
+        "hits": 480,
+        "hr": 1009,
+        "rbi": 1438,
+        "avg": 1123
+      }
+    }
+  ]
+}

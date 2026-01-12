@@ -1,0 +1,44 @@
+{
+  "id": "MIX005",
+  "code": "MIX005",
+  "name": "龔廷瑜",
+  "photo": "",
+  "career": {
+    "debut": 2013,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2013,
+      "team": "MIX",
+      "number": "MIX005",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 7,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 251,
+        "hits": 256,
+        "hr": 250,
+        "rbi": 256,
+        "avg": 323
+      }
+    }
+  ]
+}

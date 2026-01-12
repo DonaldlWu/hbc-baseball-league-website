@@ -1,0 +1,44 @@
+{
+  "id": "SWD028",
+  "code": "SWD028",
+  "name": "黃韋閔",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPmiL2xAOqfDskyem0S6BXfQZJx0CFAdylfXbdffPQsQLnMVCKQEHWWH_iWhfkjNAMbzyPshLSZJFNK98MMMwN8w5hKiVjziWMQ1g8O44LyjFqp8X4h1H3IFgTZsoyFR4pFtyhwqCNipsfaIEJyf308DQ=w650-h945",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "甜心暴龍"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "甜心暴龍",
+      "number": "101",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1077,
+        "hits": 1478,
+        "hr": 1020,
+        "rbi": 401,
+        "avg": 1123
+      }
+    }
+  ]
+}

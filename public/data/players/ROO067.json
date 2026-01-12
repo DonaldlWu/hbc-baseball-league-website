@@ -1,0 +1,73 @@
+{
+  "id": "ROO067",
+  "code": "ROO067",
+  "name": "陳信賢",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "ROOKIES"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "ROOKIES",
+      "number": "ROO067",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 785,
+        "hits": 790,
+        "hr": 284,
+        "rbi": 734,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "ROOKIES",
+      "number": "ROO067",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 760,
+        "hits": 742,
+        "hr": 241,
+        "rbi": 688,
+        "avg": 349
+      }
+    }
+  ]
+}

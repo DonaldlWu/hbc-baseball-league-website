@@ -1,0 +1,189 @@
+{
+  "id": "PHE001",
+  "code": "PHE001",
+  "name": "許程翔",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPmTzOvJJQghUHnZTHre9QvxWvebr4o4g8yAjKmjUT7B-S538Nh9hNmPK8GrJiDS0aX_yH8Fsg9nJcanqBDvBEkdRvIFxHdekcufzGGg9eG0eIKs93z_yTignGydB0frTgBMdYc0_NpJvQhq4h9AH0NTw=w417-h553",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "飛尼克斯"
+    ],
+    "totalSeasons": 6
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "飛尼克斯",
+      "number": "3",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 487,
+        "hits": 491,
+        "hr": 1047,
+        "rbi": 409,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "飛尼克斯",
+      "number": "3",
+      "batting": {
+        "games": 6,
+        "pa": 15,
+        "ab": 11,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 5,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 181,
+        "hits": 216,
+        "hr": 1226,
+        "rbi": 218,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "飛尼克斯",
+      "number": "3",
+      "batting": {
+        "games": 8,
+        "pa": 15,
+        "ab": 14,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 305,
+        "hits": 211,
+        "hr": 1243,
+        "rbi": 231,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "飛尼克斯",
+      "number": "3",
+      "batting": {
+        "games": 10,
+        "pa": 25,
+        "ab": 20,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 7,
+        "bb": 0,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 176,
+        "hits": 165,
+        "hr": 1403,
+        "rbi": 283,
+        "avg": 82
+      }
+    },
+    {
+      "year": 2021,
+      "team": "飛尼克斯",
+      "number": "3",
+      "batting": {
+        "games": 14,
+        "pa": 36,
+        "ab": 29,
+        "hits": 11,
+        "singles": 11,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 6,
+        "bb": 0,
+        "so": 7,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 141,
+        "hits": 127,
+        "hr": 1547,
+        "rbi": 155,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "飛尼克斯",
+      "number": "3",
+      "batting": {
+        "games": 10,
+        "pa": 18,
+        "ab": 12,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 4,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 421,
+        "hits": 605,
+        "hr": 1343,
+        "rbi": 291,
+        "avg": 1101
+      }
+    }
+  ]
+}

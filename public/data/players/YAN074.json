@@ -1,0 +1,133 @@
+{
+  "id": "YAN074",
+  "code": "YAN074",
+  "name": "李家治",
+  "photo": "https://lh3.googleusercontent.com/YY3NTeNoub7fMy74D08aL8BNEWfPtRmD9CgDpSizSpmBsBTZeGjFtoQaz2cTG6oGRCGRS5Ke5rEQ9Ov8Lx85xKPRWFEsK0hL3NGSeR6EF0sbZedAQ9ia1H9KFz4WAw9jM7NZ8-K5XI5_YRqq-e7FpDux-vNqk_se3ji-tJ29vKj51en9t5fZ4dXAFCfvV4QlOF9HSYhggv68Dfm7c1srYDrRhg-xtMtyV45QHoaCTE7IAnn9arle5IpYCTy4lqrVGPFXjuyZSuEom5lAWQqSGbz8mi9Np7at9cX7DD3BlESgQPpVwOm4JMURIjVqBUUyYF2MKbBOKTHUCHLwY1LyxJVmF14uaGnhUZBOq9p9ifqZiA-PUrxQOoOHu8m4G81eIAfXvIaNkPFWENnGxXul35JOjaeN4pogJmX6FXnOoWevkIN1GCvWJ8zmDri-0hdGfUDKAa8oyqysy5iZ7QTqksRc2J9RRP1fYihnOsgmRTB3vQUhUFY514gM8zN9Tq1uf4fgODD933GzbmDq3n3YyITHSDI_q8rTjzA7lLkxRYxdem1bLhxZaruj4QdB9uzLITm1SZ2ngzDTNhiUxZc3Rsax8AMvQ-g_I3g33j7WKH_YkIVDuloaW51dy1gGJreBXz_6GMerUxpRmRQ_ywlocqrH3Ndsa4PycgqMD9rFRIlzNkZxQ8HX3kGGg4nHNw=w450-h650",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "逆轉星球",
+      "聖騎士",
+      "陽明OB"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "逆轉星球",
+      "number": "13",
+      "batting": {
+        "games": 7,
+        "pa": 20,
+        "ab": 14,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 1,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 328,
+        "hits": 424,
+        "hr": 1311,
+        "rbi": 347,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2020,
+      "team": "聖騎士",
+      "number": "101",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 5,
+        "so": 2,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 615,
+        "hits": 1620,
+        "hr": 1062,
+        "rbi": 433,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "陽明OB",
+      "number": "107",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 5,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 333,
+        "hits": 352,
+        "hr": 1203,
+        "rbi": 325,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "陽明OB",
+      "number": "107",
+      "batting": {
+        "games": 3,
+        "pa": 7,
+        "ab": 5,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 322,
+        "hits": 363,
+        "hr": 1239,
+        "rbi": 351,
+        "avg": 940
+      }
+    }
+  ]
+}

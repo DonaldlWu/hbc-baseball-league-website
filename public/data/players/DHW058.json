@@ -1,0 +1,44 @@
+{
+  "id": "DHW058",
+  "code": "DHW058",
+  "name": "方奕翔",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNV111v0DpCviezesJRRW6GmZiRxd7OmW3rBi55VOOKMUB22bFntBBqYjj1IkB_xHMoFgRq2P5r7sfoAJcEZa4-2gYPl60MtyHYdfPeGei-VP3rPfy68UbDW4X914MfVSUHda3jZOSseJQTRhYeB5mf=w749-h933",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "72",
+      "batting": {
+        "games": 3,
+        "pa": 10,
+        "ab": 9,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 348,
+        "hits": 320,
+        "hr": 1171,
+        "rbi": 454,
+        "avg": 1123
+      }
+    }
+  ]
+}

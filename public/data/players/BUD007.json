@@ -1,0 +1,44 @@
+{
+  "id": "BUD007",
+  "code": "BUD007",
+  "name": "鍾丞祐",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "The Buddies"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "The Buddies",
+      "number": "17",
+      "batting": {
+        "games": 4,
+        "pa": 10,
+        "ab": 9,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 498,
+        "hits": 448,
+        "hr": 1265,
+        "rbi": 1648,
+        "avg": 1022
+      }
+    }
+  ]
+}

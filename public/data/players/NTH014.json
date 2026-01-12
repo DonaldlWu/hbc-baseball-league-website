@@ -1,0 +1,44 @@
+{
+  "id": "NTH014",
+  "code": "NTH014",
+  "name": "李皓允",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNkJbD4JNYPTzTHLE9TP5PEdXOAJailv1LdbmG7GIm8QUVNcsiasni_LMx38IbImVgkqjrByf0SZXIo2dsE8kBKI6toh24eqAKyFm_Q56mwu8eD4pJgthNZU_aSenbxmVuiGc3jMcNzXsNEUnOkrrG0=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "69",
+      "batting": {
+        "games": 4,
+        "pa": 9,
+        "ab": 7,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 1,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 600,
+        "hits": 1522,
+        "hr": 1145,
+        "rbi": 447,
+        "avg": 1123
+      }
+    }
+  ]
+}

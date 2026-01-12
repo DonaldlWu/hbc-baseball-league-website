@@ -1,0 +1,44 @@
+{
+  "id": "SCO039",
+  "code": "SCO039",
+  "name": "吳家鈞",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPDNheY4IbAYtmy4Co0MswP-0YKhlN75i5-JwglqosSazjH39RFeY-EjcJxPx-TS9OHU94L9u6z8nvOwz5m4rE6lzPSAyu3rRVUAI3hjJJD_k3olU5sAkah4_d1PdPC_nXaWZgV0x0tqIWr9hV3N2Hy5A=w599-h888-s-no-gm?authuser=0",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "214",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 851,
+        "hits": 1280,
+        "hr": 872,
+        "rbi": 1214,
+        "avg": 903
+      }
+    }
+  ]
+}

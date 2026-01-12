@@ -1,0 +1,104 @@
+{
+  "id": "MUZ058",
+  "code": "MUZ058",
+  "name": "昝泓岐",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "Line Drive",
+      "ROOKIES",
+      "木柵OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "Line Drive",
+      "number": "99",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 756,
+        "hits": 715,
+        "hr": 263,
+        "rbi": 628,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ROOKIES",
+      "number": "4",
+      "batting": {
+        "games": 4,
+        "pa": 15,
+        "ab": 14,
+        "hits": 7,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 4,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 216,
+        "hits": 206,
+        "hr": 1339,
+        "rbi": 241,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "木柵OB",
+      "number": "40",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1008,
+        "hits": 1557,
+        "hr": 969,
+        "rbi": 1474,
+        "avg": 1101
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "SCO040",
+  "code": "SCO040",
+  "name": "賴冠榕",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOs2cOHvnY1rHRLPz85TWCW__QiLTKJEN3voe-I6dLlR7ZMwss3f06HQlTEFYTDJcK0wuY5hSVOLddHr4Ldh3evHLOwnj83IOk6glXWXi6EHtNNPiUX6afq3_VPw7sofAGvBIzKcJLMwzkTVW4AsgStnA=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "852",
+      "batting": {
+        "games": 2,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 3,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1046,
+        "hits": 1402,
+        "hr": 882,
+        "rbi": 1346,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "201",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 7,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 317,
+        "hits": 1382,
+        "hr": 1087,
+        "rbi": 1349,
+        "avg": 903
+      }
+    }
+  ]
+}

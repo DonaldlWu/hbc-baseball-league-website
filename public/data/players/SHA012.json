@@ -1,0 +1,44 @@
+{
+  "id": "SHA012",
+  "code": "SHA012",
+  "name": "李明軒",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczORH0t8LxOezb77W_p4QgRKRpfpA5Zbv6hSvMtqmu58ns7xYjl9uTSwKZvnji44I4ugCQu5N_V8bzoQrfjspRnFveOVinmn54qn9XTnXe6djjU25DtR5GbcjEGw4_MCC7zI2vZYg4WUrBk09VKKedu7=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "少林棒球隊"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "少林棒球隊",
+      "number": "13",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 555,
+        "hits": 1490,
+        "hr": 1042,
+        "rbi": 1456,
+        "avg": 1123
+      }
+    }
+  ]
+}

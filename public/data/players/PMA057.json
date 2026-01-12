@@ -1,0 +1,190 @@
+{
+  "id": "PMA057",
+  "code": "PMA057",
+  "name": "丁彥喆",
+  "photo": "https://lh3.googleusercontent.com/tHE2KKmnPiaorfM04NAmF4WUSXYK7euJfysUhu-9WI33Wp7aEA5yMPEEQq6q5-_yPgSWWBOVrX9GkwefR8HsqzK-mYumFJcVmWwst72AAk4tcqrB7d4BCqHFprXTs2Ta8HZtfaLGCaWSUZCXCS8b1ZSv_6wRVgg27DY5LBzFb5hDfHz9IxRg8TBtRJRN4rl4fF9to6-vpRsgxaN3piBELJQehrKBpFXPpwW6miBejRlic5c3rrkUj8Xluy4O3ggcrH0Uo4OYlym8XJ-Zb4LinYeo2f2pFDnVTW4UWhTTYWQvKwEBNw034x7piPhxU8My70cfqDCWQHrsZT4vrBSZtBh0_FSJTqJid-nVrc9x8x9KY73pL5lFfYVaXyGmjo1bx3K1rkfog7S5eFw27DHCjGDkwHVcYUf45KNiJKS3F_tMDXMMAZzlV8PUiHnXekbhP-I25KZzSc5fuughw1lUeelJhKj7IzZP1VbOlXRpxhumyUX16OXVAZ0RB-yux1bWISAN4yH2oxFZJPdKrT5CwMTUquiclKkxiZjG_Vj4zwBpwFxAkm9GOhHgA5oOr7GYW-zXsQygcFtnbOOPIrfuGB5-Dps7vBiUsdoAGY8w1fn_zx_rBDp3gqYodOqzBiIwOccJQ-rnR8L0RrLleDraCmJMagfDlU3XA1SEhkK_XmbbBrsuMX2jRChaEDMWweEMTtx9Oe7DJcODcDopJwCeBqmV=w310-h335-no",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "ACES",
+      "戊戍本一家"
+    ],
+    "totalSeasons": 6
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "ACES",
+      "number": "14",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1091,
+        "hits": 1461,
+        "hr": 979,
+        "rbi": 1418,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "ACES",
+      "number": "14",
+      "batting": {
+        "games": 3,
+        "pa": 5,
+        "ab": 4,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 205,
+        "hits": 186,
+        "hr": 1017,
+        "rbi": 169,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "ACES",
+      "number": "14",
+      "batting": {
+        "games": 4,
+        "pa": 14,
+        "ab": 11,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 183,
+        "hits": 204,
+        "hr": 1219,
+        "rbi": 1388,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "ACES",
+      "number": "14",
+      "batting": {
+        "games": 5,
+        "pa": 11,
+        "ab": 10,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 375,
+        "hits": 315,
+        "hr": 1214,
+        "rbi": 342,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ACES",
+      "number": "14",
+      "batting": {
+        "games": 6,
+        "pa": 13,
+        "ab": 10,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 360,
+        "hits": 373,
+        "hr": 1293,
+        "rbi": 355,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2019,
+      "team": "戊戍本一家",
+      "number": "27",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 459,
+        "hits": 479,
+        "hr": 1111,
+        "rbi": 395,
+        "avg": 917
+      }
+    }
+  ]
+}

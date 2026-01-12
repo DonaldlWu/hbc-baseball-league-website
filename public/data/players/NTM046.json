@@ -1,0 +1,189 @@
+{
+  "id": "NTM046",
+  "code": "NTM046",
+  "name": "陳勁佑",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "台大機械"
+    ],
+    "totalSeasons": 6
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "台大機械",
+      "number": "13",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 816,
+        "hits": 792,
+        "hr": 202,
+        "rbi": 708,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台大機械",
+      "number": "13",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 4,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 464,
+        "hits": 501,
+        "hr": 1169,
+        "rbi": 403,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "台大機械",
+      "number": "13",
+      "batting": {
+        "games": 5,
+        "pa": 23,
+        "ab": 18,
+        "hits": 8,
+        "singles": 4,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 4,
+        "runs": 8,
+        "bb": 0,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 149,
+        "hits": 188,
+        "hr": 12,
+        "rbi": 251,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "台大機械",
+      "number": "NTM046",
+      "batting": {
+        "games": 12,
+        "pa": 47,
+        "ab": 37,
+        "hits": 16,
+        "singles": 10,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 3,
+        "rbi": 17,
+        "runs": 16,
+        "bb": 0,
+        "so": 10,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 28
+      },
+      "rankings": {
+        "rc": 61,
+        "hits": 82,
+        "hr": 4,
+        "rbi": 37,
+        "avg": 37
+      }
+    },
+    {
+      "year": 2016,
+      "team": "台大機械",
+      "number": "NTM046",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 6,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 383,
+        "hits": 429,
+        "hr": 523,
+        "rbi": 914,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "台大機械",
+      "number": "NTM046",
+      "batting": {
+        "games": 5,
+        "pa": 20,
+        "ab": 14,
+        "hits": 7,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 2,
+        "hr": 1,
+        "rbi": 4,
+        "runs": 12,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 118,
+        "hits": 216,
+        "hr": 23,
+        "rbi": 265,
+        "avg": 624
+      }
+    }
+  ]
+}

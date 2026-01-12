@@ -1,0 +1,102 @@
+{
+  "id": "ROO066",
+  "code": "ROO066",
+  "name": "蔡鎮鴻",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "ROOKIES"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "ROOKIES",
+      "number": "17",
+      "batting": {
+        "games": 4,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 6,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 850,
+        "hits": 808,
+        "hr": 261,
+        "rbi": 742,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2017,
+      "team": "ROOKIES",
+      "number": "ROO066",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 789,
+        "hits": 794,
+        "hr": 288,
+        "rbi": 738,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "ROOKIES",
+      "number": "ROO066",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 761,
+        "hits": 743,
+        "hr": 242,
+        "rbi": 689,
+        "avg": 349
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "YCT062",
+  "code": "YCT062",
+  "name": "林子惟",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2016,
+      "team": "永春TB",
+      "number": "YCT062",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 591,
+        "hits": 573,
+        "hr": 72,
+        "rbi": 519,
+        "avg": 349
+      }
+    }
+  ]
+}

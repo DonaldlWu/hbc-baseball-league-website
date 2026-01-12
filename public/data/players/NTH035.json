@@ -1,0 +1,44 @@
+{
+  "id": "NTH035",
+  "code": "NTH035",
+  "name": "李軍逸",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOYbH64Rf_oScdH5m1CGw-8zzNoRHeOKhZR0jB6i3eRvZvbvc44xxwr8v4gP4ga_D8fwek04jm2ywKL3IXhhcuemwqSB96YZ6czXktGWveeAAQOE3uIrNUqJtdR2mV9tbV8wseQmICBw_qu1tJEIRsF=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "29",
+      "batting": {
+        "games": 13,
+        "pa": 38,
+        "ab": 33,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 5,
+        "bb": 0,
+        "so": 11,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 357,
+        "hits": 257,
+        "hr": 1452,
+        "rbi": 363,
+        "avg": 1123
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "MUZ090",
+  "code": "MUZ090",
+  "name": "彭立劫",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNB3wegcjS-WLO52pHBWYnTxbINyDEn1XCefp_sN8Q67G_8wFwn9pKeBQp4qH7R2WgQw6Mo2jQVvn9N0_n-cmFmIqo672nPm1l_m_pB87vmsj2Vf30W32xxMnmM9mJb1AxC9VqjTKePcDxkTBbQ-ibLBQ=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "木柵OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "木柵OB",
+      "number": "94",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 709,
+        "hits": 639,
+        "hr": 116,
+        "rbi": 585,
+        "avg": 1123
+      }
+    }
+  ]
+}

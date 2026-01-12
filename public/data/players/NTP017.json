@@ -1,0 +1,102 @@
+{
+  "id": "NTP017",
+  "code": "NTP017",
+  "name": "張孟穎",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "台北大學"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "台北大學",
+      "number": "55",
+      "batting": {
+        "games": 9,
+        "pa": 23,
+        "ab": 19,
+        "hits": 11,
+        "singles": 7,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 7,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 117,
+        "hits": 121,
+        "hr": 1429,
+        "rbi": 123,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "台北大學",
+      "number": "55",
+      "batting": {
+        "games": 6,
+        "pa": 16,
+        "ab": 15,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 2,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 473,
+        "hits": 405,
+        "hr": 1331,
+        "rbi": 238,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台北大學",
+      "number": "55",
+      "batting": {
+        "games": 17,
+        "pa": 61,
+        "ab": 53,
+        "hits": 18,
+        "singles": 16,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 14,
+        "runs": 11,
+        "bb": 3,
+        "so": 9,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 21
+      },
+      "rankings": {
+        "rc": 78,
+        "hits": 50,
+        "hr": 1641,
+        "rbi": 45,
+        "avg": 52
+      }
+    }
+  ]
+}

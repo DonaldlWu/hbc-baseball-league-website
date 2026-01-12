@@ -1,0 +1,44 @@
+{
+  "id": "PMA028",
+  "code": "PMA028",
+  "name": "陳筱勻",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "戊戍本一家"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2016,
+      "team": "戊戍本一家",
+      "number": "PMA028",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 629,
+        "hits": 611,
+        "hr": 110,
+        "rbi": 557,
+        "avg": 349
+      }
+    }
+  ]
+}

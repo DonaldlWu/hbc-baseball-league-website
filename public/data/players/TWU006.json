@@ -1,0 +1,44 @@
+{
+  "id": "TWU006",
+  "code": "TWU006",
+  "name": "張元儒",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczM3eutzTJAjIswUmJyhbEyIaW201r1QN4a4SpGdT4eFSomEYcw4osj-ZTxzBPNC-aR0zsDDqCxkS874_V9WiBDHduhg9PlN8un-ZSykL1wsNe84DqwbaQRkXUjN5SNMGp9NJ0tWvSYAvpjuVAP6bg7W=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "13",
+      "batting": {
+        "games": 5,
+        "pa": 23,
+        "ab": 18,
+        "hits": 11,
+        "singles": 8,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 8,
+        "bb": 6,
+        "so": 2,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 19,
+        "hits": 24,
+        "hr": 1304,
+        "rbi": 8,
+        "avg": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "ALL084",
+  "code": "ALL084",
+  "name": "蕭緯哲",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOChBY6zV9Dlvfm2Y7UivDwuWVDn8unN7XPmMQnQvEBmdN9SPF1-HDGk_0oZn3dgYuedenGPXfN5HGV-okmjii7dVSa9f_ggNnjjnYuXxepp9054XT_V2CQPekcSMZOc_U7qY6KhrRBeJKbDgpUI1-_=w310-h335-no",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "Mechanics",
+      "台大機械",
+      "ALLSTAR"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Mechanics",
+      "number": "17",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 4,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 317,
+        "hits": 296,
+        "hr": 1017,
+        "rbi": 398,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "台大機械",
+      "number": "17",
+      "batting": {
+        "games": 5,
+        "pa": 17,
+        "ab": 13,
+        "hits": 8,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 2,
+        "rbi": 8,
+        "runs": 5,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 25,
+        "hits": 61,
+        "hr": 1,
+        "rbi": 34,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2018,
+      "team": "ALLSTAR",
+      "number": "3",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 544,
+        "hits": 1638,
+        "hr": 1146,
+        "rbi": 1583,
+        "avg": 940
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "TWU030",
+  "code": "TWU030",
+  "name": "沈俊宏",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNtiT9G5l9CTdX3ZQYuOhaLZkhNmJ3JBnmWy62YspOq6W0iF2-T5us-mTK7XFEaFHLpbhYivfQ_2iI5cmfIqsR2CYcVxd9ADjeYKSzCif4mt54zaULEoI2cwYLukdolGdG4Ea0bDv5ZsqVcnwjSX8YH=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "102",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 404,
+        "hits": 356,
+        "hr": 997,
+        "rbi": 269,
+        "avg": 903
+      }
+    }
+  ]
+}

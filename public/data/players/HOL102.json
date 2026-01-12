@@ -1,0 +1,73 @@
+{
+  "id": "HOL102",
+  "code": "HOL102",
+  "name": "張博裕",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPgYyohrCiII6Fh6vB4vqOdPlQwj3w3bzlsCTfd5Svzony40rJyzEyipyv-mBWshosot46kPZUZeXlIRVY4xeZAp-z0h0Tba8bDTQrnrsUNidKMXR0cHgyC-oCaIuUBCkKlj1LiRqQYjlqffrskOJCc=w310-h335",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "HOLYBAT",
+      "number": "101",
+      "batting": {
+        "games": 6,
+        "pa": 7,
+        "ab": 7,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 1028,
+        "hits": 513,
+        "hr": 1115,
+        "rbi": 1489,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "HOLYBAT",
+      "number": "101",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 8,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 289,
+        "hits": 278,
+        "hr": 1128,
+        "rbi": 305,
+        "avg": 903
+      }
+    }
+  ]
+}

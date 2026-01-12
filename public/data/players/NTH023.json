@@ -1,0 +1,44 @@
+{
+  "id": "NTH023",
+  "code": "NTH023",
+  "name": "楊珉笙",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczN8NrEU2u_PEqgu0CBwrvyC_h-EK9ZTtRv5VZxS5t8LfqI-2EERHfG-1rWSMFv15uW566d3Okym6iCPIEnEq73kvbS_KzAx90jQbd10bEIPhUpDdbxVPFbBBAplcfrTpfUJMluBxt6w0ekF6eybTrJp=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "0.01",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 494,
+        "hits": 1441,
+        "hr": 942,
+        "rbi": 1394,
+        "avg": 1123
+      }
+    }
+  ]
+}

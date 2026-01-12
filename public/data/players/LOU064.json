@@ -1,0 +1,44 @@
+{
+  "id": "LOU064",
+  "code": "LOU064",
+  "name": "林約瑟",
+  "photo": "",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "路易莎咖啡"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "路易莎咖啡",
+      "number": "14",
+      "batting": {
+        "games": 5,
+        "pa": 12,
+        "ab": 10,
+        "hits": 4,
+        "singles": 1,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 3,
+        "so": 4,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 181,
+        "hits": 183,
+        "hr": 1228,
+        "rbi": 248,
+        "avg": 943
+      }
+    }
+  ]
+}

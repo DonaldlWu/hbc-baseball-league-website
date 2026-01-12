@@ -1,0 +1,102 @@
+{
+  "id": "NTM064",
+  "code": "NTM064",
+  "name": "陳以哲",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "台大機械"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "台大機械",
+      "number": "5",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 633,
+        "hits": 584,
+        "hr": 203,
+        "rbi": 533,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "台大機械",
+      "number": "5",
+      "batting": {
+        "games": 5,
+        "pa": 20,
+        "ab": 14,
+        "hits": 9,
+        "singles": 3,
+        "doubles": 2,
+        "triples": 3,
+        "hr": 1,
+        "rbi": 10,
+        "runs": 9,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 20
+      },
+      "rankings": {
+        "rc": 11,
+        "hits": 41,
+        "hr": 3,
+        "rbi": 20,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "台大機械",
+      "number": "5",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 420,
+        "hits": 497,
+        "hr": 1104,
+        "rbi": 1566,
+        "avg": 1022
+      }
+    }
+  ]
+}

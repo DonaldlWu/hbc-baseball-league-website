@@ -1,0 +1,102 @@
+{
+  "id": "YCT092",
+  "code": "YCT092",
+  "name": "林柏宇",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "永春TB",
+      "number": "105",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 515,
+        "hits": 532,
+        "hr": 1078,
+        "rbi": 1555,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "永春TB",
+      "number": "105",
+      "batting": {
+        "games": 5,
+        "pa": 21,
+        "ab": 19,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 6,
+        "runs": 7,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 252,
+        "hits": 244,
+        "hr": 11,
+        "rbi": 169,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "永春TB",
+      "number": "105",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 5,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 383,
+        "hits": 357,
+        "hr": 1195,
+        "rbi": 281,
+        "avg": 940
+      }
+    }
+  ]
+}

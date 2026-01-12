@@ -1,0 +1,102 @@
+{
+  "id": "GEO103",
+  "code": "GEO103",
+  "name": "黃凱郁",
+  "photo": "https://lh3.googleusercontent.com/pw/ADCreHfKvYKd1C_ZFiYKV3wU08Ijzsq9h8Cl-YgXdx-mM57PQerU8ylZTCr7bwz7ANx30zC8LoOpMl30jDTMGPRCvTiXQ4kGTykxWB12aP_xn_qhzZK9Ig-WNhMbg_bwaTptqpiULqIayl5fAcHOKy2yf6dahA=w310-h335-no",
+  "career": {
+    "debut": 2023,
+    "teams": [
+      "十號馬"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "十號馬",
+      "number": "103",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 468,
+        "hits": 492,
+        "hr": 1048,
+        "rbi": 1458,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "十號馬",
+      "number": "103",
+      "batting": {
+        "games": 6,
+        "pa": 23,
+        "ab": 21,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 146,
+        "hits": 112,
+        "hr": 1312,
+        "rbi": 348,
+        "avg": 73
+      }
+    },
+    {
+      "year": 2023,
+      "team": "十號馬",
+      "number": "103",
+      "batting": {
+        "games": 4,
+        "pa": 14,
+        "ab": 13,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 0,
+        "so": 3,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 195,
+        "hits": 149,
+        "hr": 1226,
+        "rbi": 1389,
+        "avg": 896
+      }
+    }
+  ]
+}

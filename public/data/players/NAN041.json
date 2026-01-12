@@ -1,0 +1,44 @@
+{
+  "id": "NAN041",
+  "code": "NAN041",
+  "name": "王博玄",
+  "photo": "",
+  "career": {
+    "debut": 2012,
+    "teams": [
+      "ROOKIES"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2012,
+      "team": "ROOKIES",
+      "number": "NAN041",
+      "batting": {
+        "games": 3,
+        "pa": 10,
+        "ab": 10,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 98,
+        "hits": 102,
+        "hr": 198,
+        "rbi": 95,
+        "avg": 358
+      }
+    }
+  ]
+}

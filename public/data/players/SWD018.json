@@ -1,0 +1,44 @@
+{
+  "id": "SWD018",
+  "code": "SWD018",
+  "name": "蔡裕爵",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPlzI9_HbhGkFT4KTj9vtOmHeGV-0bIBVw0TvQRTBhlmBHFEQK27UPo4AHTFrFIur-mhaSzPmQsOrEstxQ7qcK_J8Tv-UPt2ZuEfp6hAPGs4OmY7KcFxi1lHj7D_Cthzd9FDHA8sjCnA1DMkRJsNymH7Q=w463-h678",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "甜心暴龍"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "甜心暴龍",
+      "number": "23",
+      "batting": {
+        "games": 11,
+        "pa": 41,
+        "ab": 30,
+        "hits": 12,
+        "singles": 9,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 13,
+        "bb": 10,
+        "so": 0,
+        "sb": 2,
+        "sf": 1,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 63,
+        "hits": 76,
+        "hr": 1462,
+        "rbi": 83,
+        "avg": 36
+      }
+    }
+  ]
+}

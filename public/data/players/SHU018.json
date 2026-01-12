@@ -1,0 +1,44 @@
+{
+  "id": "SHU018",
+  "code": "SHU018",
+  "name": "張鈞皓",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPmny-HGmeDbWFk1oUvWKsCKRDESkjlYOLglmUc5YFJwzgyoZ4kAWWmAags2M-Y4QUAprczgpaZmaLbbDUgK0z2FfDg86gGiRKtt7f79bu00fsydbyklZnTc9lFFDyJFOV4fcdzyMLPbqvhrYQWA5Rk=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "世新超乙組",
+      "number": "2",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 441,
+        "hits": 1303,
+        "hr": 897,
+        "rbi": 1237,
+        "avg": 903
+      }
+    }
+  ]
+}

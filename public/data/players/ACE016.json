@@ -1,0 +1,73 @@
+{
+  "id": "ACE016",
+  "code": "ACE016",
+  "name": "陳聖方",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczO6hcpN9_zJahgMkkMmP4-S56CAVwlM4OqztlZUzwBMmpnntGVeEOHZqti8HY9yLh9tgiZ4MwPGrlktlTdNJAqf5nR-xAJ0KM2MZ5ERHal7PFIGIWuGjOTBXDGD2HJVh7Ek9uO3ubiuy2LIDggI8S5icA=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "ACES"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "ACES",
+      "number": "15",
+      "batting": {
+        "games": 11,
+        "pa": 30,
+        "ab": 25,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 9,
+        "bb": 0,
+        "so": 7,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 245,
+        "hits": 207,
+        "hr": 1389,
+        "rbi": 115,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "ACES",
+      "number": "102",
+      "batting": {
+        "games": 5,
+        "pa": 8,
+        "ab": 6,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 483,
+        "hits": 1384,
+        "hr": 1099,
+        "rbi": 1355,
+        "avg": 903
+      }
+    }
+  ]
+}

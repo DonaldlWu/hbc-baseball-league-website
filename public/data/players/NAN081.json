@@ -1,0 +1,398 @@
+{
+  "id": "NAN081",
+  "code": "NAN081",
+  "name": "陳立昂",
+  "photo": "https://lh3.googleusercontent.com/AXmEX6YpRLVYrW-MSA3LE8VZe9tBtcaXfzKnuPN2wdrHt8JUmeeThRDF8Pdig-YS7SCkC9mSLSXHTTVR4ZbNfim2nyE3-6G5k0OM2nGIBCBj9cfTuArjmJAOR23pguCosoea6eCi2SW1pNJhrb9-drwkxr7iNVxLfrKIjX0IxOVqhU547tNnmu_Bwlm16sQ7LEZTRWCgljeL1uax0ewu3pFZj-wvkJAYpziL-LFDvGsBZE7uRWJVN_2wv7gYaZItk7aZ6GP6fwNWhvqxqV8JL0OYQo4PdY6sAUiKdDeYzMaTTjPAEqbj6dkM_oJENzOHaw_KMtTaOLZ2YV3Vbn1Fj4lK7GenQhYAmSZFTInmq4RaKnYibDM5jkk5RESiLTfGRDIJrcDLN_iuUxn57ZwO88RpNhaPJxt6Tg1YyxLpHstMly4tKFdDaL-3wybxGNqnRr21q2osV6wGEoVjoMBaSPWu8U88E-xv7o5XxjtQu_xMSOqst7q853SeferzadATd1GBfpNJ8iWDo8raWzMH-ghFnPUmRna51_VPWBqIsi2MbkuQyjuZygWHD_0pzCg5zJOAWqDd-C5fJDwYhXRsqcGCxXEh_HdMdvu0GzcgaXAQB90CgyUSIU3NHONfZVDr-7SJG3BUf7iIsMAX1YLtXI5EJ1QFxsDdvKiy9RZnTVVvBo6kH6IKYkzUpR1YCqhXZcQiOUWU1I0FX3ZIGw=w869-h887-no",
+  "career": {
+    "debut": 2014,
+    "teams": [
+      "Mechanics",
+      "台大機械",
+      "HOLYBAT",
+      "火把老鷹",
+      "Synergy",
+      "北科大",
+      "南港高工OB"
+    ],
+    "totalSeasons": 13
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Mechanics",
+      "number": "100",
+      "batting": {
+        "games": 14,
+        "pa": 59,
+        "ab": 51,
+        "hits": 21,
+        "singles": 19,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 20,
+        "runs": 9,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 23
+      },
+      "rankings": {
+        "rc": 37,
+        "hits": 15,
+        "hr": 1521,
+        "rbi": 7,
+        "avg": 31
+      }
+    },
+    {
+      "year": 2024,
+      "team": "台大機械",
+      "number": "44",
+      "batting": {
+        "games": 6,
+        "pa": 22,
+        "ab": 20,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 7,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 187,
+        "hits": 142,
+        "hr": 1299,
+        "rbi": 59,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "HOLYBAT",
+      "number": "105",
+      "batting": {
+        "games": 4,
+        "pa": 16,
+        "ab": 15,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 4,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 176,
+        "hits": 114,
+        "hr": 1253,
+        "rbi": 99,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2023,
+      "team": "台大機械",
+      "number": "44",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 632,
+        "hits": 583,
+        "hr": 202,
+        "rbi": 532,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "台大機械",
+      "number": "44",
+      "batting": {
+        "games": 6,
+        "pa": 24,
+        "ab": 23,
+        "hits": 11,
+        "singles": 9,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 9,
+        "bb": 0,
+        "so": 2,
+        "sb": 6,
+        "sf": 1,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 51,
+        "hits": 19,
+        "hr": 1395,
+        "rbi": 14,
+        "avg": 14
+      }
+    },
+    {
+      "year": 2021,
+      "team": "台大機械",
+      "number": "44",
+      "batting": {
+        "games": 19,
+        "pa": 83,
+        "ab": 71,
+        "hits": 26,
+        "singles": 25,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 15,
+        "runs": 20,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 2,
+        "totalBases": 27
+      },
+      "rankings": {
+        "rc": 40,
+        "hits": 12,
+        "hr": 1678,
+        "rbi": 37,
+        "avg": 47
+      }
+    },
+    {
+      "year": 2020,
+      "team": "台大機械",
+      "number": "44",
+      "batting": {
+        "games": 20,
+        "pa": 79,
+        "ab": 67,
+        "hits": 30,
+        "singles": 26,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 15,
+        "runs": 25,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 34
+      },
+      "rankings": {
+        "rc": 11,
+        "hits": 8,
+        "hr": 1676,
+        "rbi": 38,
+        "avg": 20
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台大機械",
+      "number": "44",
+      "batting": {
+        "games": 21,
+        "pa": 89,
+        "ab": 79,
+        "hits": 27,
+        "singles": 21,
+        "doubles": 6,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 14,
+        "runs": 19,
+        "bb": 0,
+        "so": 5,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 33
+      },
+      "rankings": {
+        "rc": 38,
+        "hits": 12,
+        "hr": 1678,
+        "rbi": 48,
+        "avg": 50
+      }
+    },
+    {
+      "year": 2018,
+      "team": "火把老鷹",
+      "number": "65",
+      "batting": {
+        "games": 17,
+        "pa": 67,
+        "ab": 58,
+        "hits": 22,
+        "singles": 15,
+        "doubles": 7,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 19,
+        "runs": 16,
+        "bb": 3,
+        "so": 4,
+        "sb": 4,
+        "sf": 2,
+        "totalBases": 29
+      },
+      "rankings": {
+        "rc": 52,
+        "hits": 29,
+        "hr": 1656,
+        "rbi": 23,
+        "avg": 49
+      }
+    },
+    {
+      "year": 2017,
+      "team": "Synergy",
+      "number": "NAN081",
+      "batting": {
+        "games": 18,
+        "pa": 75,
+        "ab": 60,
+        "hits": 25,
+        "singles": 20,
+        "doubles": 3,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 22,
+        "runs": 21,
+        "bb": 0,
+        "so": 5,
+        "sb": 7,
+        "sf": 1,
+        "totalBases": 32
+      },
+      "rankings": {
+        "rc": 29,
+        "hits": 25,
+        "hr": 1005,
+        "rbi": 17,
+        "avg": 42
+      }
+    },
+    {
+      "year": 2016,
+      "team": "Synergy",
+      "number": "NAN081",
+      "batting": {
+        "games": 17,
+        "pa": 69,
+        "ab": 63,
+        "hits": 19,
+        "singles": 10,
+        "doubles": 7,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 20,
+        "runs": 15,
+        "bb": 0,
+        "so": 9,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 30
+      },
+      "rankings": {
+        "rc": 90,
+        "hits": 68,
+        "hr": 925,
+        "rbi": 28,
+        "avg": 96
+      }
+    },
+    {
+      "year": 2015,
+      "team": "北科大",
+      "number": "NAN081",
+      "batting": {
+        "games": 19,
+        "pa": 71,
+        "ab": 57,
+        "hits": 19,
+        "singles": 19,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 14,
+        "runs": 16,
+        "bb": 0,
+        "so": 7,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 19
+      },
+      "rankings": {
+        "rc": 74,
+        "hits": 50,
+        "hr": 889,
+        "rbi": 67,
+        "avg": 73
+      }
+    },
+    {
+      "year": 2014,
+      "team": "南港高工OB",
+      "number": "NAN081",
+      "batting": {
+        "games": 6,
+        "pa": 20,
+        "ab": 18,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 309,
+        "hits": 246,
+        "hr": 459,
+        "rbi": 289,
+        "avg": 327
+      }
+    }
+  ]
+}

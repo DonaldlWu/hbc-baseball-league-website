@@ -1,0 +1,44 @@
+{
+  "id": "SHA011",
+  "code": "SHA011",
+  "name": "管堃翔",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOTv_AW4FlQiprdvNoPsSNkiGnfje0RoUccpHqCVyErnnXmSc288ynXIl8E6Tq6_FGK5YpEWPIIGivwQE7OOBilRuuS_iqaSd-wUtS71f8VtyUIo8Ta4mdsJmnJ6DwTyvmyFVNUaLjDPyo0drnCi-B5=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "少林棒球隊"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "少林棒球隊",
+      "number": "12",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 5,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 316,
+        "hits": 298,
+        "hr": 1080,
+        "rbi": 1476,
+        "avg": 1123
+      }
+    }
+  ]
+}

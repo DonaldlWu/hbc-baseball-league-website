@@ -1,0 +1,44 @@
+{
+  "id": "SCO056",
+  "code": "SCO056",
+  "name": "張栢祐",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczN994tjnP0m0wnELzDM8ViZd4fd8z9QLAHu-xRvbgVVVy2RIMPTBHRYYPAVeQ06y8rsUQA0FsseturWTHfA2OT0OcSHkFJJf53zJ4mjgxwO4qmXN34PFFdxFmQRpHDNAP0JaCrygI9Kzz7tAPgoJcmi1A=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "211",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 348,
+        "hits": 1297,
+        "hr": 890,
+        "rbi": 1231,
+        "avg": 903
+      }
+    }
+  ]
+}

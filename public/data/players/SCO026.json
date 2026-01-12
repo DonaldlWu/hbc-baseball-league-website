@@ -1,0 +1,73 @@
+{
+  "id": "SCO026",
+  "code": "SCO026",
+  "name": "張荃盛",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczM_lPbi7K-WRT1nOW9hkI7aq5BH5-P2-Kk2qzeTllFQyzyhk37TrZJskmo-iLN5QbczE2GTN-hUgTXdIailHfel5lhzcWPw37058Ak7yTjQylfzv55Uzt5LsNYywbYWsHs3r2wAeTy7RqODXa0itbHJtg=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "1",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 685,
+        "hits": 603,
+        "hr": 80,
+        "rbi": 549,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "128",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 392,
+        "hits": 1345,
+        "hr": 967,
+        "rbi": 1287,
+        "avg": 903
+      }
+    }
+  ]
+}

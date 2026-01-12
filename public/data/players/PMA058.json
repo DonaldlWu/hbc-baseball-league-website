@@ -1,0 +1,220 @@
+{
+  "id": "PMA058",
+  "code": "PMA058",
+  "name": "游承軒",
+  "photo": "https://lh3.googleusercontent.com/pw/AM-JKLXGcV3wwqgU1gQpAvZ52twdVlu2m6vfXlsPA3TvLfykpNHoJdbvifblIs8XnnK_T2mi9v3a81rbQSwlwzXqJEAZBc5K9sSnZOGbw7O_TrzdaGV2LvWJFCs-96RYed3U8FNwOFE-rzEONAVcln7coyanLA=w310-h335-no",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "台大經濟OB",
+      "戊戍本一家",
+      "ROOKIES"
+    ],
+    "totalSeasons": 7
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大經濟OB",
+      "number": "87",
+      "batting": {
+        "games": 10,
+        "pa": 24,
+        "ab": 22,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 3,
+        "bb": 5,
+        "so": 11,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 499,
+        "hits": 348,
+        "hr": 1352,
+        "rbi": 172,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "台大經濟OB",
+      "number": "87",
+      "batting": {
+        "games": 5,
+        "pa": 13,
+        "ab": 11,
+        "hits": 6,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 3,
+        "bb": 0,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 71,
+        "hits": 97,
+        "hr": 1194,
+        "rbi": 135,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "台大經濟OB",
+      "number": "87",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 383,
+        "hits": 1282,
+        "hr": 901,
+        "rbi": 1230,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "台大經濟OB",
+      "number": "87",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 416,
+        "hits": 364,
+        "hr": 1001,
+        "rbi": 1353,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "台大經濟OB",
+      "number": "87",
+      "batting": {
+        "games": 3,
+        "pa": 10,
+        "ab": 9,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 559,
+        "hits": 552,
+        "hr": 1262,
+        "rbi": 352,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "戊戍本一家",
+      "number": "87",
+      "batting": {
+        "games": 10,
+        "pa": 29,
+        "ab": 27,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 2,
+        "so": 10,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 1099,
+        "hits": 612,
+        "hr": 1462,
+        "rbi": 521,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "ROOKIES",
+      "number": "587",
+      "batting": {
+        "games": 5,
+        "pa": 9,
+        "ab": 6,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 399,
+        "hits": 428,
+        "hr": 1266,
+        "rbi": 335,
+        "avg": 917
+      }
+    }
+  ]
+}

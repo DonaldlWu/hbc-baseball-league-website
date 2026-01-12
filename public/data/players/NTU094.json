@@ -1,0 +1,44 @@
+{
+  "id": "NTU094",
+  "code": "NTU094",
+  "name": "林元生",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "台大化工OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "台大化工OB",
+      "number": "69",
+      "batting": {
+        "games": 5,
+        "pa": 15,
+        "ab": 14,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 904,
+        "hits": 546,
+        "hr": 1363,
+        "rbi": 457,
+        "avg": 917
+      }
+    }
+  ]
+}

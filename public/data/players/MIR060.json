@@ -1,0 +1,131 @@
+{
+  "id": "MIR060",
+  "code": "MIR060",
+  "name": "呂建鎮",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "MIRACLE"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "MIRACLE",
+      "number": "174",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 948,
+        "hits": 924,
+        "hr": 334,
+        "rbi": 840,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "MIRACLE",
+      "number": "174",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 801,
+        "hits": 771,
+        "hr": 257,
+        "rbi": 704,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "MIRACLE",
+      "number": "174",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 841,
+        "hits": 823,
+        "hr": 321,
+        "rbi": 761,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "MIRACLE",
+      "number": "MIR060",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 1,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 935,
+        "hits": 928,
+        "hr": 425,
+        "rbi": 873,
+        "avg": 340
+      }
+    }
+  ]
+}

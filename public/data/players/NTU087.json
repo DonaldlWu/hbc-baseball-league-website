@@ -1,0 +1,73 @@
+{
+  "id": "NTU087",
+  "code": "NTU087",
+  "name": "李炯德",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "台大化工OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "台大化工OB",
+      "number": "102",
+      "batting": {
+        "games": 3,
+        "pa": 11,
+        "ab": 11,
+        "hits": 7,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 195,
+        "hits": 207,
+        "hr": 1305,
+        "rbi": 342,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "台大化工OB",
+      "number": "102",
+      "batting": {
+        "games": 6,
+        "pa": 12,
+        "ab": 11,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 1,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 280,
+        "hits": 277,
+        "hr": 1328,
+        "rbi": 298,
+        "avg": 940
+      }
+    }
+  ]
+}

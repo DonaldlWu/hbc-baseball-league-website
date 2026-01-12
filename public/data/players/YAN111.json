@@ -1,0 +1,73 @@
+{
+  "id": "YAN111",
+  "code": "YAN111",
+  "name": "洪世軒",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMbNyhhbjeyjkGfzWuAOrdLJMfDVZWPQj3wK-UbfGN8Qri42JD6GftDcK2xd85X2yBFCIaAmOZeOfUo1ILu7Rjvi6tarCYK-EARcnRtGUEtJPg11g20ns2spDnkZUdxLXDIOb0cOynv23gfBSUiYPQ=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "陽明OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "陽明OB",
+      "number": "102",
+      "batting": {
+        "games": 9,
+        "pa": 38,
+        "ab": 35,
+        "hits": 17,
+        "singles": 11,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 10,
+        "runs": 13,
+        "bb": 1,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 25
+      },
+      "rankings": {
+        "rc": 45,
+        "hits": 32,
+        "hr": 18,
+        "rbi": 62,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "陽明OB",
+      "number": "102",
+      "batting": {
+        "games": 3,
+        "pa": 2,
+        "ab": 2,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 274,
+        "hits": 232,
+        "hr": 905,
+        "rbi": 248,
+        "avg": 903
+      }
+    }
+  ]
+}

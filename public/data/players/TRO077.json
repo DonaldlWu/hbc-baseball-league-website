@@ -1,0 +1,73 @@
+{
+  "id": "TRO077",
+  "code": "TRO077",
+  "name": "周正傑",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMKnWk9GLOcfRzsRWI8Gtj_Y-ebvynajbIfy5IIWN7j4DAy5u8A_knv_5SISfx3mMxalZJN-qTsjRd7FPAB2JJczFmCmuef-rkBA9A2ZXKwuMIeS7yBlrCZBGfhDmlDWo1SYkpQyT1lSMfMUkD2AFJjCg=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "楚奧特"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "楚奧特",
+      "number": "21",
+      "batting": {
+        "games": 7,
+        "pa": 15,
+        "ab": 10,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 6,
+        "bb": 27,
+        "so": 1,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 234,
+        "hits": 273,
+        "hr": 1240,
+        "rbi": 160,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "楚奧特",
+      "number": "21",
+      "batting": {
+        "games": 8,
+        "pa": 19,
+        "ab": 15,
+        "hits": 4,
+        "singles": 2,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 26,
+        "so": 3,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 164,
+        "hits": 174,
+        "hr": 1273,
+        "rbi": 231,
+        "avg": 903
+      }
+    }
+  ]
+}

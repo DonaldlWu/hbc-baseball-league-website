@@ -1,0 +1,73 @@
+{
+  "id": "EAG056",
+  "code": "EAG056",
+  "name": "蔡明紘",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "火把老鷹",
+      "number": "EAG056",
+      "batting": {
+        "games": 3,
+        "pa": 12,
+        "ab": 9,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 427,
+        "hits": 461,
+        "hr": 661,
+        "rbi": 492,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "火把老鷹",
+      "number": "EAG056",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 9,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 4,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 282,
+        "hits": 295,
+        "hr": 546,
+        "rbi": 382,
+        "avg": 349
+      }
+    }
+  ]
+}

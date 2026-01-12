@@ -1,0 +1,44 @@
+{
+  "id": "SWD010",
+  "code": "SWD010",
+  "name": "林楷倫",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMnrEMbUrPiOAt8-EXKrsTqjBkmsVLJvTkAOCHSPinc0Ausc_M4W8Q38HaqM4Ov0MVgjWYXLgBR5J4sNdo1R5ZZp6m6W32M2foR5KrzK959RFJh9-e4G1Zf-5Ow3f53sjD7rf29FajdZYxGtLlaCpMVvw=w544-h816",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "甜心暴龍"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "甜心暴龍",
+      "number": "32",
+      "batting": {
+        "games": 7,
+        "pa": 11,
+        "ab": 8,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 9,
+        "so": 5,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1056,
+        "hits": 1531,
+        "hr": 1185,
+        "rbi": 460,
+        "avg": 1123
+      }
+    }
+  ]
+}

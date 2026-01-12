@@ -1,0 +1,451 @@
+{
+  "id": "MOR026",
+  "code": "MOR026",
+  "name": "洪佳揚",
+  "photo": "https://lh3.googleusercontent.com/xjhgDm94mrlahMNuy7lT8EvfPBx04ruZrEf6VCMic8h6rwWRZIBEAvhcaN2EB-WEr_n9Bs3J6OTLD67Aj97gwkaWbO1meUoiw3qdwJsqaZxQtWUMz72lTIPFWZcBHMtmZkzArFL5jDmzMCwHtDIKJB5hCVuF4_f43rCFZqf247RgOedljL_FtARzyd7-vltmXaBsVi8bUKbnPlodeXI6wvief92Bfs14kg40X_eA7sP58Z-NlbszR3YwXkwkqgTmpTXVVmKZ12D2AHmNBqlEECtjZUvzSOyI9g-dhm6YUDTBMAzwKqxJUUxIyfwHVDuyC_mIVmPs3dRt4Rks51g2M53mZz6_oi8QkYOUjeAAurybB2rrh4EPzLQqzQl0s62yTiTYkos4KY6fUF3OvAe9BoVsre8fYXm4It6r7RJKSlkgZre1oPwJXG_i2yyoRlfIztt4YR5dCzVv10HDicNTaktz8hW0fFEcMAKYxdblkt3R_8QTM9a9095FktV3r7xVfbzb9R-p-DXCSBMXG6xEhFlz-ip1dzaQkvldx9OT743COesqI7yc1t_BzztFFe_jVU4O=w310-h335-no",
+  "career": {
+    "debut": 2011,
+    "teams": [
+      "莫拉克",
+      "京盛宇"
+    ],
+    "totalSeasons": 15
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "莫拉克",
+      "number": "81",
+      "batting": {
+        "games": 8,
+        "pa": 30,
+        "ab": 27,
+        "hits": 11,
+        "singles": 10,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 147,
+        "hits": 88,
+        "hr": 1391,
+        "rbi": 146,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "京盛宇",
+      "number": "81",
+      "batting": {
+        "games": 6,
+        "pa": 20,
+        "ab": 17,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 1,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 424,
+        "hits": 313,
+        "hr": 1280,
+        "rbi": 146,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "京盛宇",
+      "number": "81",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 430,
+        "hits": 1357,
+        "hr": 1017,
+        "rbi": 1324,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "京盛宇",
+      "number": "81",
+      "batting": {
+        "games": 3,
+        "pa": 6,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 415,
+        "hits": 1453,
+        "hr": 1094,
+        "rbi": 232,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "京盛宇",
+      "number": "81",
+      "batting": {
+        "games": 6,
+        "pa": 19,
+        "ab": 18,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 7,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 304,
+        "hits": 253,
+        "hr": 1384,
+        "rbi": 121,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "莫拉克",
+      "number": "81",
+      "batting": {
+        "games": 5,
+        "pa": 15,
+        "ab": 13,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 267,
+        "hits": 255,
+        "hr": 1320,
+        "rbi": 499,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "莫拉克",
+      "number": "81",
+      "batting": {
+        "games": 8,
+        "pa": 35,
+        "ab": 31,
+        "hits": 9,
+        "singles": 9,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 7,
+        "bb": 0,
+        "so": 7,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 230,
+        "hits": 177,
+        "hr": 1529,
+        "rbi": 181,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "莫拉克",
+      "number": "81",
+      "batting": {
+        "games": 11,
+        "pa": 44,
+        "ab": 40,
+        "hits": 8,
+        "singles": 7,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 7,
+        "bb": 0,
+        "so": 10,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 312,
+        "hits": 216,
+        "hr": 1578,
+        "rbi": 176,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "莫拉克",
+      "number": "MOR026",
+      "batting": {
+        "games": 11,
+        "pa": 41,
+        "ab": 33,
+        "hits": 10,
+        "singles": 6,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 14,
+        "bb": 0,
+        "so": 5,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 152,
+        "hits": 172,
+        "hr": 897,
+        "rbi": 226,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "莫拉克",
+      "number": "MOR026",
+      "batting": {
+        "games": 12,
+        "pa": 46,
+        "ab": 43,
+        "hits": 17,
+        "singles": 13,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 16,
+        "runs": 13,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 21
+      },
+      "rankings": {
+        "rc": 114,
+        "hits": 79,
+        "hr": 847,
+        "rbi": 45,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "莫拉克",
+      "number": "MOR026",
+      "batting": {
+        "games": 16,
+        "pa": 53,
+        "ab": 42,
+        "hits": 7,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 13,
+        "bb": 0,
+        "so": 11,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 261,
+        "hits": 241,
+        "hr": 844,
+        "rbi": 286,
+        "avg": 125
+      }
+    },
+    {
+      "year": 2014,
+      "team": "莫拉克",
+      "number": "MOR026",
+      "batting": {
+        "games": 12,
+        "pa": 51,
+        "ab": 41,
+        "hits": 12,
+        "singles": 8,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 10,
+        "bb": 0,
+        "so": 10,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 16
+      },
+      "rankings": {
+        "rc": 105,
+        "hits": 94,
+        "hr": 618,
+        "rbi": 88,
+        "avg": 71
+      }
+    },
+    {
+      "year": 2013,
+      "team": "莫拉克",
+      "number": "MOR026",
+      "batting": {
+        "games": 15,
+        "pa": 52,
+        "ab": 43,
+        "hits": 12,
+        "singles": 9,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 15,
+        "runs": 14,
+        "bb": 0,
+        "so": 8,
+        "sb": 3,
+        "sf": 1,
+        "totalBases": 16
+      },
+      "rankings": {
+        "rc": 79,
+        "hits": 67,
+        "hr": 460,
+        "rbi": 25,
+        "avg": 53
+      }
+    },
+    {
+      "year": 2012,
+      "team": "莫拉克",
+      "number": "MOR026",
+      "batting": {
+        "games": 13,
+        "pa": 53,
+        "ab": 42,
+        "hits": 16,
+        "singles": 12,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 12,
+        "runs": 11,
+        "bb": 0,
+        "so": 7,
+        "sb": 5,
+        "sf": 0,
+        "totalBases": 20
+      },
+      "rankings": {
+        "rc": 19,
+        "hits": 28,
+        "hr": 329,
+        "rbi": 30,
+        "avg": 19
+      }
+    },
+    {
+      "year": 2011,
+      "team": "莫拉克",
+      "number": "MOR026",
+      "batting": {
+        "games": 15,
+        "pa": 51,
+        "ab": 34,
+        "hits": 8,
+        "singles": 8,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 13,
+        "bb": 5,
+        "so": 16,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 39,
+        "hits": 44,
+        "hr": 203,
+        "rbi": 44,
+        "avg": 31
+      }
+    }
+  ]
+}

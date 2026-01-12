@@ -1,0 +1,133 @@
+{
+  "id": "MOR067",
+  "code": "MOR067",
+  "name": "蔡渝翔",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "十號馬",
+      "台大地理OB",
+      "莫拉克"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "十號馬",
+      "number": "25",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 3,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1063,
+        "hits": 1609,
+        "hr": 1046,
+        "rbi": 1533,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台大地理OB",
+      "number": "36",
+      "batting": {
+        "games": 4,
+        "pa": 9,
+        "ab": 9,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 7,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 456,
+        "hits": 363,
+        "hr": 1277,
+        "rbi": 337,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "台大地理OB",
+      "number": "103",
+      "batting": {
+        "games": 5,
+        "pa": 6,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 10,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 485,
+        "hits": 503,
+        "hr": 1215,
+        "rbi": 429,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "莫拉克",
+      "number": "MOR067",
+      "batting": {
+        "games": 4,
+        "pa": 8,
+        "ab": 6,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 6,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 418,
+        "hits": 450,
+        "hr": 605,
+        "rbi": 475,
+        "avg": 340
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "GEO074",
+  "code": "GEO074",
+  "name": "陳韋廷",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "台大地理OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "台大地理OB",
+      "number": "66",
+      "batting": {
+        "games": 7,
+        "pa": 10,
+        "ab": 8,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 18,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 417,
+        "hits": 433,
+        "hr": 1282,
+        "rbi": 1656,
+        "avg": 917
+      }
+    }
+  ]
+}

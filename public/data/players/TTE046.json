@@ -1,0 +1,102 @@
+{
+  "id": "TTE046",
+  "code": "TTE046",
+  "name": "吳翔恩",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "北科大"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "北科大",
+      "number": "TTE046",
+      "batting": {
+        "games": 11,
+        "pa": 35,
+        "ab": 28,
+        "hits": 5,
+        "singles": 1,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 1,
+        "rbi": 4,
+        "runs": 8,
+        "bb": 7,
+        "so": 15,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 273,
+        "hits": 318,
+        "hr": 34,
+        "rbi": 300,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "北科大",
+      "number": "TTE046",
+      "batting": {
+        "games": 12,
+        "pa": 47,
+        "ab": 45,
+        "hits": 12,
+        "singles": 11,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 11,
+        "bb": 0,
+        "so": 16,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 302,
+        "hits": 143,
+        "hr": 856,
+        "rbi": 172,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "北科大",
+      "number": "TTE046",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 579,
+        "hits": 522,
+        "hr": 61,
+        "rbi": 479,
+        "avg": 624
+      }
+    }
+  ]
+}

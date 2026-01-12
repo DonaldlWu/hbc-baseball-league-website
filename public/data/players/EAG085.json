@@ -1,0 +1,44 @@
+{
+  "id": "EAG085",
+  "code": "EAG085",
+  "name": "褚承威",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "火把老鷹",
+      "number": "103",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 538,
+        "hits": 494,
+        "hr": 1199,
+        "rbi": 426,
+        "avg": 940
+      }
+    }
+  ]
+}

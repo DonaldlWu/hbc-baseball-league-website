@@ -1,0 +1,44 @@
+{
+  "id": "FET020",
+  "code": "FET020",
+  "name": "吳承恩",
+  "photo": "",
+  "career": {
+    "debut": 2010,
+    "teams": [
+      "FORCE"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "FORCE",
+      "number": "FET020",
+      "batting": {
+        "games": 4,
+        "pa": 7,
+        "ab": 6,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 24,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 116,
+        "hits": 117,
+        "hr": 106,
+        "rbi": 124,
+        "avg": 450
+      }
+    }
+  ]
+}

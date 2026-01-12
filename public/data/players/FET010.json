@@ -1,0 +1,73 @@
+{
+  "id": "FET010",
+  "code": "FET010",
+  "name": "黃俊凱",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "FORCE"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "FORCE",
+      "number": "FET010",
+      "batting": {
+        "games": 20,
+        "pa": 63,
+        "ab": 43,
+        "hits": 15,
+        "singles": 14,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 18,
+        "runs": 26,
+        "bb": 4,
+        "so": 4,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 16
+      },
+      "rankings": {
+        "rc": 22,
+        "hits": 36,
+        "hr": 192,
+        "rbi": 14,
+        "avg": 21
+      }
+    },
+    {
+      "year": 2009,
+      "team": "FORCE",
+      "number": "FET010",
+      "batting": {
+        "games": 18,
+        "pa": 73,
+        "ab": 38,
+        "hits": 11,
+        "singles": 10,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 22,
+        "bb": 1,
+        "so": 8,
+        "sb": 0,
+        "sf": 2,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 16,
+        "hits": 41,
+        "hr": 270,
+        "rbi": 32,
+        "avg": 25
+      }
+    }
+  ]
+}

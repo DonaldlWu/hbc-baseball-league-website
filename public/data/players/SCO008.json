@@ -1,0 +1,73 @@
+{
+  "id": "SCO008",
+  "code": "SCO008",
+  "name": "黃宸瀚",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMdCXcH5S14PCG1tUBpYoyy2ORMWT2GOop5b3V0nM_rivUbUGnFdwh7bBpv67Ivhn7isRE3PvfZoMix7A0O-FNHeicUsrn_bVABtJfpwAZ4hviFefgSHIAu9o0eqOaPAHVkMM4ud1FcRSzLfTABKi_F6Q=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "49",
+      "batting": {
+        "games": 6,
+        "pa": 17,
+        "ab": 16,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 5,
+        "bb": 6,
+        "so": 7,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 349,
+        "hits": 280,
+        "hr": 1288,
+        "rbi": 342,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "107",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 4,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 7,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 279,
+        "hits": 376,
+        "hr": 1045,
+        "rbi": 1334,
+        "avg": 903
+      }
+    }
+  ]
+}

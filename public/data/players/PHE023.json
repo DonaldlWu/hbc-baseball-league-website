@@ -1,0 +1,73 @@
+{
+  "id": "PHE023",
+  "code": "PHE023",
+  "name": "陳苡銜",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPYYj2jP7rkZVIItmMUeCcOpjwDQFGXZPgvlVGIqxYPokLa44fYSBQKbI87ECfKDsf9JG6YUiDcuKwxHAnEwLr0pHo5jULv7wYgwUyROA5AhFdZudAVCaO9UIWEYu6Cw0UsAydxt_u7Q-CAEpj7_07kDA=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "飛尼克斯"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "飛尼克斯",
+      "number": "20",
+      "batting": {
+        "games": 7,
+        "pa": 2,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 6,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 506,
+        "hits": 443,
+        "hr": 910,
+        "rbi": 374,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "飛尼克斯",
+      "number": "20",
+      "batting": {
+        "games": 5,
+        "pa": 1,
+        "ab": 1,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 6,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 357,
+        "hits": 321,
+        "hr": 875,
+        "rbi": 1217,
+        "avg": 903
+      }
+    }
+  ]
+}

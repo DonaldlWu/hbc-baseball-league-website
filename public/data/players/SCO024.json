@@ -1,0 +1,73 @@
+{
+  "id": "SCO024",
+  "code": "SCO024",
+  "name": "賴廷恩",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNNi6BSnEgk8FM-D4u3tK7vz2C_jZtWfwuAkRJEkujJzKEygmslt9WkBMbvq1xAt5dUyhI9IJxPuOq6-p71LcniDpoBSSJzA2KXPq2NoBbfw8Xzr_lpYhrjRsjfscDHp-hY3Yihp9ss1HVBBpO3R0gJUg=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "7",
+      "batting": {
+        "games": 5,
+        "pa": 15,
+        "ab": 13,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 7,
+        "bb": 4,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 364,
+        "hits": 333,
+        "hr": 1246,
+        "rbi": 252,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "129",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 880,
+        "hits": 1335,
+        "hr": 952,
+        "rbi": 1274,
+        "avg": 903
+      }
+    }
+  ]
+}

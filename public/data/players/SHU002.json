@@ -1,0 +1,73 @@
+{
+  "id": "SHU002",
+  "code": "SHU002",
+  "name": "翁紹唐",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNik7Y8z17YkkF5H8lo9JF8s_EqBfXYtxHviISSA2QEs3ba8hCH7phH7csMSDlqJ6PBcQcEFP0Z9Pc8syHgPepscgR7RD6Q2r1VjP_FuuNwGpC6wIBQpVoJsZGNtRojOz5ji8QJVmGllu-JLUN95D0S=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "1",
+      "batting": {
+        "games": 10,
+        "pa": 33,
+        "ab": 30,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 5,
+        "bb": 0,
+        "so": 18,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 300,
+        "hits": 211,
+        "hr": 1416,
+        "rbi": 361,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "世新超乙組",
+      "number": "1",
+      "batting": {
+        "games": 7,
+        "pa": 12,
+        "ab": 9,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 13,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 838,
+        "hits": 1395,
+        "hr": 1171,
+        "rbi": 318,
+        "avg": 903
+      }
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "id": "ROO012",
+  "code": "ROO012",
+  "name": "林劭鈞",
+  "photo": "",
+  "career": {
+    "debut": 2011,
+    "teams": [
+      "ALLSTAR",
+      "亞克鷹",
+      "ROOKIES",
+      "南港高工OB"
+    ],
+    "totalSeasons": 12
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "ALLSTAR",
+      "number": "12",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 3,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 899,
+        "hits": 1387,
+        "hr": 941,
+        "rbi": 1305,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ALLSTAR",
+      "number": "12",
+      "batting": {
+        "games": 11,
+        "pa": 25,
+        "ab": 23,
+        "hits": 2,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 5,
+        "bb": 32,
+        "so": 13,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 562,
+        "hits": 470,
+        "hr": 1460,
+        "rbi": 389,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "ALLSTAR",
+      "number": "12",
+      "batting": {
+        "games": 13,
+        "pa": 32,
+        "ab": 28,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 13,
+        "so": 11,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 379,
+        "hits": 313,
+        "hr": 1492,
+        "rbi": 407,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "ALLSTAR",
+      "number": "12",
+      "batting": {
+        "games": 8,
+        "pa": 30,
+        "ab": 27,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 5,
+        "bb": 6,
+        "so": 12,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 316,
+        "hits": 257,
+        "hr": 1498,
+        "rbi": 145,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "ALLSTAR",
+      "number": "12",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 856,
+        "hits": 838,
+        "hr": 336,
+        "rbi": 776,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "ALLSTAR",
+      "number": "ROO012",
+      "batting": {
+        "games": 5,
+        "pa": 10,
+        "ab": 9,
+        "hits": 2,
+        "singles": 0,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 11,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 435,
+        "hits": 457,
+        "hr": 637,
+        "rbi": 488,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "ALLSTAR",
+      "number": "ROO012",
+      "batting": {
+        "games": 7,
+        "pa": 22,
+        "ab": 18,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 3,
+        "runs": 4,
+        "bb": 9,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 388,
+        "hits": 403,
+        "hr": 16,
+        "rbi": 346,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "亞克鷹",
+      "number": "ROO012",
+      "batting": {
+        "games": 21,
+        "pa": 65,
+        "ab": 58,
+        "hits": 18,
+        "singles": 16,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 15,
+        "runs": 15,
+        "bb": 49,
+        "so": 11,
+        "sb": 0,
+        "sf": 2,
+        "totalBases": 20
+      },
+      "rankings": {
+        "rc": 154,
+        "hits": 61,
+        "hr": 879,
+        "rbi": 51,
+        "avg": 82
+      }
+    },
+    {
+      "year": 2014,
+      "team": "亞克鷹",
+      "number": "ROO012",
+      "batting": {
+        "games": 15,
+        "pa": 14,
+        "ab": 13,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 6,
+        "bb": 44,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 246,
+        "hits": 231,
+        "hr": 401,
+        "rbi": 273,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "ROOKIES",
+      "number": "ROO012",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 5,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 4,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 247,
+        "hits": 247,
+        "hr": 214,
+        "rbi": 197,
+        "avg": 323
+      }
+    },
+    {
+      "year": 2012,
+      "team": "南港高工OB",
+      "number": "ROO012",
+      "batting": {
+        "games": 4,
+        "pa": 17,
+        "ab": 16,
+        "hits": 10,
+        "singles": 7,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 5,
+        "bb": 1,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 66,
+        "hits": 64,
+        "hr": 233,
+        "rbi": 62,
+        "avg": 358
+      }
+    },
+    {
+      "year": 2011,
+      "team": "南港高工OB",
+      "number": "ROO012",
+      "batting": {
+        "games": 6,
+        "pa": 20,
+        "ab": 20,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 6,
+        "bb": 13,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 114,
+        "hits": 64,
+        "hr": 165,
+        "rbi": 87,
+        "avg": 450
+      }
+    }
+  ]
+}

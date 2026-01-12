@@ -1,0 +1,44 @@
+{
+  "id": "NTE008",
+  "code": "NTE008",
+  "name": "謝公騰",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "台大經濟OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "台大經濟OB",
+      "number": "NTE008",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 810,
+        "hits": 823,
+        "hr": 367,
+        "rbi": 779,
+        "avg": 624
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "EAG133",
+  "code": "EAG133",
+  "name": "謝書豪",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMjQQvOowASc6Kfxr91WmPY3hBqml98vkLsgQNPcj_W1hvzZ4gGlfJy1LDVJlLr_A7-s27wHYWSrRpqHZPWgX-Y2kuPws1p3jY8IiicdBtMk2UBaN5SqwE7w81c4viiGjt3iY2L8QDM1-FKYTqJ03Q=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "火把老鷹",
+      "number": "17",
+      "batting": {
+        "games": 6,
+        "pa": 4,
+        "ab": 3,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 4,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 361,
+        "hits": 363,
+        "hr": 1002,
+        "rbi": 297,
+        "avg": 1123
+      }
+    }
+  ]
+}

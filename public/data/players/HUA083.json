@@ -1,0 +1,160 @@
+{
+  "id": "HUA083",
+  "code": "HUA083",
+  "name": "程志祥",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "華江OB"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "華江OB",
+      "number": "71",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 3,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 852,
+        "hits": 1590,
+        "hr": 1078,
+        "rbi": 1523,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "華江OB",
+      "number": "71",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 777,
+        "hits": 759,
+        "hr": 257,
+        "rbi": 697,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "華江OB",
+      "number": "HUA083",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 2,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 566,
+        "hits": 954,
+        "hr": 463,
+        "rbi": 442,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "華江OB",
+      "number": "HUA083",
+      "batting": {
+        "games": 5,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 8,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 564,
+        "hits": 890,
+        "hr": 406,
+        "rbi": 844,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "華江OB",
+      "number": "HUA083",
+      "batting": {
+        "games": 3,
+        "pa": 7,
+        "ab": 7,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 6,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 898,
+        "hits": 887,
+        "hr": 499,
+        "rbi": 868,
+        "avg": 624
+      }
+    }
+  ]
+}

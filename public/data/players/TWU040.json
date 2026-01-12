@@ -1,0 +1,44 @@
+{
+  "id": "TWU040",
+  "code": "TWU040",
+  "name": "鄭凱文",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPeHfg94K4aJVV5OVPCjqzWAl5LIEIMeLvp-pZmjTDEuQ20EiWkFATyssRAm4OWIUPiULdSWOOwP4OCJ6bymmiVLcLQWUgS4YrWs2-GnnMIodMz_GJOkO0l2RzQRqhK2rIOHDdumJjbKBixrmUgMVWL=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "11",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 371,
+        "hits": 1313,
+        "hr": 916,
+        "rbi": 249,
+        "avg": 903
+      }
+    }
+  ]
+}

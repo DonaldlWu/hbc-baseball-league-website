@@ -1,0 +1,44 @@
+{
+  "id": "FET049",
+  "code": "FET049",
+  "name": "張榮芳",
+  "photo": "",
+  "career": {
+    "debut": 2010,
+    "teams": [
+      "FORCE"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "FORCE",
+      "number": "FET049",
+      "batting": {
+        "games": 9,
+        "pa": 29,
+        "ab": 25,
+        "hits": 8,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 10,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 61,
+        "hits": 66,
+        "hr": 166,
+        "rbi": 99,
+        "avg": 450
+      }
+    }
+  ]
+}

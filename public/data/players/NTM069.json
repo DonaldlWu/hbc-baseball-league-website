@@ -1,0 +1,44 @@
+{
+  "id": "NTM069",
+  "code": "NTM069",
+  "name": "許晉儒",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "台大機械"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "台大機械",
+      "number": "107",
+      "batting": {
+        "games": 1,
+        "pa": 7,
+        "ab": 6,
+        "hits": 2,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 373,
+        "hits": 432,
+        "hr": 1195,
+        "rbi": 450,
+        "avg": 1022
+      }
+    }
+  ]
+}

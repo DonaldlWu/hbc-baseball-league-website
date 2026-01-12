@@ -1,0 +1,44 @@
+{
+  "id": "GEO111",
+  "code": "GEO111",
+  "name": "黎宇昕",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOmTUmphkUh-kVs0FIug_--HfH5TPA0YbmdU1dT-DQIhIaG0i9v1bc07SRV12T6eMUOXOtfhBDO7_HbsGneZ0Li4KvTjiR5ZD19dCchr9dERKgluwI2xg_MbEommqlQAAsDA-KAmc8vtpbGvInX9XJCQw=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "十號馬"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "十號馬",
+      "number": "108",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 460,
+        "hits": 460,
+        "hr": 950,
+        "rbi": 1395,
+        "avg": 1123
+      }
+    }
+  ]
+}

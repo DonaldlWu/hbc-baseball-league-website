@@ -1,0 +1,44 @@
+{
+  "id": "DHW062",
+  "code": "DHW062",
+  "name": "謝牧謙",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPp4PwoIf3reydtR8wVZRJ1-HodyDH2mkKyU5BwJSp3pfpARB5wni1-5BRI9UW4087eSa0Cr91ecsTEmD4AVAbj5hKEDzBC8eajuaCFRxiJQggBGaEhnEtb8mdAL_HZ___wSA6INvzNQiW-9e2CWVCS=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "70",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 9,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 2,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 384,
+        "hits": 312,
+        "hr": 1153,
+        "rbi": 196,
+        "avg": 1123
+      }
+    }
+  ]
+}

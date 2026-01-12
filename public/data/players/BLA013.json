@@ -1,0 +1,73 @@
+{
+  "id": "BLA013",
+  "code": "BLA013",
+  "name": "鄭裕耀",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "黑名單"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "黑名單",
+      "number": "BLA013",
+      "batting": {
+        "games": 21,
+        "pa": 89,
+        "ab": 75,
+        "hits": 19,
+        "singles": 14,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 18,
+        "runs": 25,
+        "bb": 3,
+        "so": 11,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 24
+      },
+      "rankings": {
+        "rc": 32,
+        "hits": 22,
+        "hr": 218,
+        "rbi": 17,
+        "avg": 43
+      }
+    },
+    {
+      "year": 2009,
+      "team": "黑名單",
+      "number": "BLA013",
+      "batting": {
+        "games": 18,
+        "pa": 81,
+        "ab": 72,
+        "hits": 19,
+        "singles": 13,
+        "doubles": 6,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 16,
+        "runs": 23,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 25
+      },
+      "rankings": {
+        "rc": 28,
+        "hits": 18,
+        "hr": 296,
+        "rbi": 15,
+        "avg": 30
+      }
+    }
+  ]
+}

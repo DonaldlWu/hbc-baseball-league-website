@@ -1,0 +1,73 @@
+{
+  "id": "SCO023",
+  "code": "SCO023",
+  "name": "黃得城",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNdlVxhggz_xjcrxY0cRRTzd8TIFpqMYy6e-V81Pczj-LSjJZ3C_PzACwZTfSuk_r9DVAUGWAGp1pC5S055oEbNnGaq8fCSYsqzQ4Zcczlielmj7G_2ySqD8M6WPXs6xnHOcXK1RO__5W6Xpc5Y0nmZPQ=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "20",
+      "batting": {
+        "games": 11,
+        "pa": 7,
+        "ab": 6,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 11,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 533,
+        "hits": 509,
+        "hr": 1105,
+        "rbi": 431,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "500",
+      "batting": {
+        "games": 4,
+        "pa": 8,
+        "ab": 7,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 8,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 311,
+        "hits": 270,
+        "hr": 1102,
+        "rbi": 296,
+        "avg": 903
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "SHU023",
+  "code": "SHU023",
+  "name": "陳崇宇",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNscHofMVMgCIDlbSYJohbwnrK4qvVAtRp0hItPZcNRlQ6d_Yy-hJmxnheZXa9DEYaB2LbswzjDCxHUAWc3blpeaFN23otRNfZtDREFBGkOIWTj9aQzLKunmxI-Oo1RaFlhOANiSUJPjl0ByeGewFbO=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "世新超乙組",
+      "number": "105",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 476,
+        "hits": 1356,
+        "hr": 989,
+        "rbi": 1303,
+        "avg": 903
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "NTU100",
+  "code": "NTU100",
+  "name": "曾良霖",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "台大化工OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "台大化工OB",
+      "number": "51",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 681,
+        "hits": 651,
+        "hr": 137,
+        "rbi": 584,
+        "avg": 917
+      }
+    }
+  ]
+}

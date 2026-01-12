@@ -1,0 +1,44 @@
+{
+  "id": "HUA055",
+  "code": "HUA055",
+  "name": "周伯原",
+  "photo": "",
+  "career": {
+    "debut": 2012,
+    "teams": [
+      "華江OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2012,
+      "team": "華江OB",
+      "number": "HUA055",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 169,
+        "hits": 199,
+        "hr": 149,
+        "rbi": 333,
+        "avg": 358
+      }
+    }
+  ]
+}

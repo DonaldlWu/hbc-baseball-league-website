@@ -1,0 +1,44 @@
+{
+  "id": "NTM066",
+  "code": "NTM066",
+  "name": "許睿紋",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "台大機械"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "台大機械",
+      "number": "108",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 765,
+        "hits": 723,
+        "hr": 176,
+        "rbi": 657,
+        "avg": 1022
+      }
+    }
+  ]
+}

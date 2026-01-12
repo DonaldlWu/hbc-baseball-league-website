@@ -1,0 +1,44 @@
+{
+  "id": "NTP052",
+  "code": "NTP052",
+  "name": "林弘辭",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "台北大學"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "台北大學",
+      "number": "97",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1000,
+        "hits": 1629,
+        "hr": 1124,
+        "rbi": 1576,
+        "avg": 1022
+      }
+    }
+  ]
+}

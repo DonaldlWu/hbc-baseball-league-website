@@ -1,0 +1,44 @@
+{
+  "id": "SCO059",
+  "code": "SCO059",
+  "name": "簡偉倫",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczN6TWC-rfSBJKujLF9pYjo9QOzCwHy9aix8TuMPS7-4V4O4h7mOmf4bXckL8dsp1MEHRrCN4woBAdZzMMWjV7bAWXwRmiRnTE_P_IjJy0vF05kSvIGOE-oL_OTn4PupdC6jBhGarnw2_bSOkgL8ULDlQw=w312-h728-s-no-gm?authuser=0",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "62",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 434,
+        "hits": 1300,
+        "hr": 893,
+        "rbi": 1233,
+        "avg": 903
+      }
+    }
+  ]
+}

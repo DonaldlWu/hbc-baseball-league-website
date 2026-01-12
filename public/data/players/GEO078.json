@@ -1,0 +1,74 @@
+{
+  "id": "GEO078",
+  "code": "GEO078",
+  "name": "王宣儒",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "聖騎士",
+      "台大地理OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "聖騎士",
+      "number": "102",
+      "batting": {
+        "games": 7,
+        "pa": 12,
+        "ab": 11,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 22,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 1032,
+        "hits": 595,
+        "hr": 1280,
+        "rbi": 491,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台大地理OB",
+      "number": "101",
+      "batting": {
+        "games": 5,
+        "pa": 14,
+        "ab": 12,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 20,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 284,
+        "hits": 279,
+        "hr": 1344,
+        "rbi": 450,
+        "avg": 917
+      }
+    }
+  ]
+}

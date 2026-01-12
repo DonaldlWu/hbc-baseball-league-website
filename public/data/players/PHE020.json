@@ -1,0 +1,102 @@
+{
+  "id": "PHE020",
+  "code": "PHE020",
+  "name": "吳宇鴻",
+  "photo": "",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "飛尼克斯"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "飛尼克斯",
+      "number": "113",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 817,
+        "hits": 487,
+        "hr": 75,
+        "rbi": 420,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "飛尼克斯",
+      "number": "113",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 804,
+        "hits": 407,
+        "hr": 26,
+        "rbi": 356,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "飛尼克斯",
+      "number": "108",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 3,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 370,
+        "hits": 346,
+        "hr": 930,
+        "rbi": 1294,
+        "avg": 943
+      }
+    }
+  ]
+}

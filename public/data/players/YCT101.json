@@ -1,0 +1,189 @@
+{
+  "id": "YCT101",
+  "code": "YCT101",
+  "name": "陳佑嘉",
+  "photo": "https://lh3.googleusercontent.com/pqH5bse3frGuqU7S6G4Cae53XvmoOi2qV12zfL6kheSQ3wE7l89SoZIoyoV6-nt9GJ3-mmPnn7rx_IM4ao_m5xuDUEFnqvtwVv6bDaurYMCH9InXrw9mEeJo9xeIvw3jlYw4IAohlXBUqQ78xPOTo2N7qOCgNIz6qgbmAB5HzBv91oks809W9FrLLOuYmmS4TtUfte_5fFvWOgTwtGT8NcwEpJ3pS4UmdKamsiwewF1XVty65e6PycVc39oMY5Zf0_Iz-aWD7T6nGBsYVnwvjShL5HIzKKwmXTnyiETVrPQxF01c7czJpWzmZSQtqR10-hyYgiQDVJOwRKUSDi5p8TsAmkoGxDymOQKu133v5Dk-auELN78e9krp0UYN89ka7LD1OR-p11giyDyq3vIBfu1dM2Vt0OOXxiGIPlfNPvyEhpVfm3ImeUAfw0wGjIrmLThpfblPOOoYYyKvn9aTVN4c5Za10Djhco5k7AQCLqXmPYoSsZK4kVxSllUrAiHA8CP_F7XKJG9iyVe1yWW55sBhPe5ZGlXYojE_k2m8Ln-AyE2QK7BCChbHJRxy90Nr7HIAKfLjQPn7yFbJNdFGJy51E9oxaGHQZVK8-9GZmkmraXyzdB4iIMoHEChFbc9kSSP3bn3ghcSTKyXwYJKrmrWD0hTOpqII9fd_Rh_TuVpArB4mZO6PR2s4gHt_1K2BBf9eWHxWgSLntdfOvuBKJjaEBBAHxyXVN9EKa9Wkxe0dN1r-B5iudw=w310-h335-no",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 6
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "永春TB",
+      "number": "10",
+      "batting": {
+        "games": 6,
+        "pa": 20,
+        "ab": 16,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 4,
+        "bb": 0,
+        "so": 6,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 282,
+        "hits": 283,
+        "hr": 1314,
+        "rbi": 264,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "永春TB",
+      "number": "10",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 8,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 0,
+        "bb": 3,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 359,
+        "hits": 273,
+        "hr": 1108,
+        "rbi": 195,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "永春TB",
+      "number": "10",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 296,
+        "hits": 240,
+        "hr": 1027,
+        "rbi": 1329,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "永春TB",
+      "number": "10",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 427,
+        "hits": 408,
+        "hr": 1098,
+        "rbi": 174,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "永春TB",
+      "number": "10",
+      "batting": {
+        "games": 8,
+        "pa": 24,
+        "ab": 18,
+        "hits": 7,
+        "singles": 3,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 6,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 191,
+        "hits": 217,
+        "hr": 1440,
+        "rbi": 212,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "永春TB",
+      "number": "13",
+      "batting": {
+        "games": 4,
+        "pa": 4,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 633,
+        "hits": 1632,
+        "hr": 1082,
+        "rbi": 1559,
+        "avg": 1101
+      }
+    }
+  ]
+}

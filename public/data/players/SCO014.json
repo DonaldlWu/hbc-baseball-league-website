@@ -1,0 +1,73 @@
+{
+  "id": "SCO014",
+  "code": "SCO014",
+  "name": "郭承諺",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNAfg6WBR2cNF-OYeYqXCJ_YpejM80C8tdg2PJ3MU40XV5nv4jiHEg9VE-c2t5aEKwwqVkCEFp9xu3aLcWNyxXW3CjetkQVtgZLaO9mEh_muQUMxgmtW796WSseenSW_AiUArwtXXcyqSMVWfOeISKOFg=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "17",
+      "batting": {
+        "games": 4,
+        "pa": 8,
+        "ab": 5,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 3,
+        "bb": 6,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 266,
+        "hits": 305,
+        "hr": 1121,
+        "rbi": 155,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "146",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 1,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 867,
+        "hits": 1308,
+        "hr": 910,
+        "rbi": 1246,
+        "avg": 903
+      }
+    }
+  ]
+}

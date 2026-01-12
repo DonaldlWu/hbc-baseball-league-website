@@ -1,0 +1,73 @@
+{
+  "id": "SCO029",
+  "code": "SCO029",
+  "name": "陳俊宇",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNH3fjKd1POgyWbKj325wpxabZMSEveUtd9duWybDVMsYrfaVRq2Yp9mfA5jPqhaq2uHcbPZ1dG0xNz0LCpTdsCb2LsPV5x6dwVXTZkJyMXs7PBzNuMHatWGUBRKz-v5XT68Un-Y73GIdGhJD65afW9Mw=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "101",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 3,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 682,
+        "hits": 594,
+        "hr": 71,
+        "rbi": 540,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "138",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 5,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 326,
+        "hits": 245,
+        "hr": 1027,
+        "rbi": 276,
+        "avg": 903
+      }
+    }
+  ]
+}

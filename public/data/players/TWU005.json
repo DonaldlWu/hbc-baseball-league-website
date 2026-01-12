@@ -1,0 +1,44 @@
+{
+  "id": "TWU005",
+  "code": "TWU005",
+  "name": "吳哲賢",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOLMSROCkTggfS_E0Lym2jDAwK4he_t5_qyQeHr3gw2nZUFHMmb_67qZttMybdLJOtAlVjVur3eK_JePFO_JO5Sw2O3vVxtCfSxX2neWo2yNfGgQOcxcFUxZ-f0tSIhgSA50hQfihnoiQsF16eFUqJJ=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "10",
+      "batting": {
+        "games": 9,
+        "pa": 37,
+        "ab": 30,
+        "hits": 12,
+        "singles": 9,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 14,
+        "bb": 6,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 21,
+        "hits": 20,
+        "hr": 1385,
+        "rbi": 123,
+        "avg": 34
+      }
+    }
+  ]
+}

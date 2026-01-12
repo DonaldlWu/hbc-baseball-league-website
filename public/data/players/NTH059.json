@@ -1,0 +1,44 @@
+{
+  "id": "NTH059",
+  "code": "NTH059",
+  "name": "張威仁",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMbu6ZesYdK4XD8kLmQY4fbEe6FY5XnYHiBEnaysrYLOsezOa6guC-5hLLJMJ5eER-92va6gQupuzM3aEZ3hUfwXKJDRnW-of1IoaRs0yH7B6437cV8RooJO9p4nwU_gY8iu2_tjG2lDo1wukUrYIED=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "1",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 655,
+        "hits": 945,
+        "hr": 422,
+        "rbi": 891,
+        "avg": 1123
+      }
+    }
+  ]
+}

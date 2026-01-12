@@ -1,0 +1,73 @@
+{
+  "id": "SCO018",
+  "code": "SCO018",
+  "name": "劉冠傑",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNdSmzBMYe6uMSCwmF85Zmix-erjYLoCC4r_vuEko4KqnpR8g4yD9LwcHVL6i1Su81qZIp8rBggHDen48RjR-0CLg6r7drs8LT8vJvCZP42ZWDhFWJwu2X0I8H8TgQa9ZtIcbjCGwv26slABIBrvic5ug=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "23",
+      "batting": {
+        "games": 3,
+        "pa": 11,
+        "ab": 8,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 7,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 599,
+        "hits": 1532,
+        "hr": 1188,
+        "rbi": 1513,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "401",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 4,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 276,
+        "hits": 390,
+        "hr": 1093,
+        "rbi": 1351,
+        "avg": 903
+      }
+    }
+  ]
+}

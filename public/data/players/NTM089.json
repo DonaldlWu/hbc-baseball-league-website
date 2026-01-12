@@ -1,0 +1,44 @@
+{
+  "id": "NTM089",
+  "code": "NTM089",
+  "name": "陳明儒",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNocUpH97OkGdTYVBG7Ojr1sDEBO8iaGzTqYxKLw8h_DMakVL0ir57IUnb6f7rNdKoxpy7vfaSPJc8LGixO7uak5n9L3GdRCL8pFw28jOS28NcRuDpv3tK5WEANRCPrAn-Y4nvyIxF8H9-GpME67PqJ2A=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "Mechanics"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Mechanics",
+      "number": "78",
+      "batting": {
+        "games": 3,
+        "pa": 12,
+        "ab": 11,
+        "hits": 4,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 263,
+        "hits": 272,
+        "hr": 1204,
+        "rbi": 204,
+        "avg": 1123
+      }
+    }
+  ]
+}

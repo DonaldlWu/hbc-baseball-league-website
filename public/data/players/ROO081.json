@@ -1,0 +1,161 @@
+{
+  "id": "ROO081",
+  "code": "ROO081",
+  "name": "江柏諺",
+  "photo": "https://lh3.googleusercontent.com/pw/ACtC-3e1qcjqegao8Wz3fmW2PESgTx8AJ1Pgr91sh5cFZdmls9Gl-tKgNI1_sg6Yhcrdn_EoUwCq1IiEBrFx0X_IAWlSZaN36_BVvyJL93uzL7BLF5rLldvGKbcGRMPWtE5YPtDJszftQxiHVu4_fDNxIzBvUQ=w310-h335-no",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "Line Drive",
+      "ROOKIES"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Line Drive",
+      "number": "35",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 919,
+        "hits": 817,
+        "hr": 294,
+        "rbi": 763,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "Line Drive",
+      "number": "35",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 717,
+        "hits": 679,
+        "hr": 267,
+        "rbi": 612,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "Line Drive",
+      "number": "35",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 7,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 0,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 366,
+        "hits": 364,
+        "hr": 1105,
+        "rbi": 194,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "Line Drive",
+      "number": "35",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 761,
+        "hits": 720,
+        "hr": 268,
+        "rbi": 633,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ROOKIES",
+      "number": "35",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 529,
+        "hits": 1616,
+        "hr": 1092,
+        "rbi": 1561,
+        "avg": 1022
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "KNI006",
+  "code": "KNI006",
+  "name": "黃聖凱",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "聖騎士"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "聖騎士",
+      "number": "10",
+      "batting": {
+        "games": 11,
+        "pa": 33,
+        "ab": 27,
+        "hits": 9,
+        "singles": 4,
+        "doubles": 4,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 6,
+        "bb": 13,
+        "so": 9,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 146,
+        "hits": 182,
+        "hr": 1496,
+        "rbi": 259,
+        "avg": 1101
+      }
+    }
+  ]
+}

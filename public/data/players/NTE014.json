@@ -1,0 +1,334 @@
+{
+  "id": "NTE014",
+  "code": "NTE014",
+  "name": "陳一德",
+  "photo": "https://lh3.googleusercontent.com/Pz8XGt4bHGhaK6m2ifWWIy-aSJ-UXmaK_KuKmfBweW15GQrffcBP0Am76MC28YuxgtnYUWdi3CKqNF1j8_E1lHt_R17J4AJw9dpzKIJj6eG574oJqTlbQ-DJmkVn4dKUFFJcaTu3zFsoeheXKeUK5jAg_1KTffCwCQczQ1pcAJFa1pffcdrg4aW5w04EBaLM9a9ir_3xGx3IfH3_cM7y9keNnzqw4S3-cuaNjz1LZvGep3iFHGyj2t4p2g25-uNrLzVz4F0gtlMLD5YhLh-cEW_C2Ft4bgS0IKj8efM8szLoVmwf3SF7gaoyqTqLz8v7OFkqXCkZnb2wwP7e0gfPAigyj-C60l9uWRwFbPJefoXFIURGFM7jcjEEQhUd2FY8EIgeJPaGtNLNAPwJCRl9kXfz4kjlVUWuC7t_KXQZgcO6dHuVg7DT0AmS4GcxFD4P5VHslsHuFxOAlocqYP-jLeNvp0qLRnGClr4T_pzSc4ATbUkZnSN5Ne4qgwXQAKDoJ_GGzliIXVF9gdphOgxtNyeyXMRrVs3LyXzyCukE02Nu7lHaf860oaQySILIOrQhhlBd=w310-h335-no",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "台大經濟OB"
+    ],
+    "totalSeasons": 11
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大經濟OB",
+      "number": "31",
+      "batting": {
+        "games": 17,
+        "pa": 68,
+        "ab": 45,
+        "hits": 16,
+        "singles": 13,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 29,
+        "bb": 0,
+        "so": 8,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 20
+      },
+      "rankings": {
+        "rc": 20,
+        "hits": 41,
+        "hr": 1530,
+        "rbi": 154,
+        "avg": 48
+      }
+    },
+    {
+      "year": 2024,
+      "team": "台大經濟OB",
+      "number": "31",
+      "batting": {
+        "games": 10,
+        "pa": 38,
+        "ab": 26,
+        "hits": 13,
+        "singles": 7,
+        "doubles": 5,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 15,
+        "bb": 0,
+        "so": 4,
+        "sb": 5,
+        "sf": 1,
+        "totalBases": 20
+      },
+      "rankings": {
+        "rc": 2,
+        "hits": 15,
+        "hr": 1387,
+        "rbi": 12,
+        "avg": 8
+      }
+    },
+    {
+      "year": 2023,
+      "team": "台大經濟OB",
+      "number": "31",
+      "batting": {
+        "games": 6,
+        "pa": 24,
+        "ab": 21,
+        "hits": 6,
+        "singles": 3,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 7,
+        "bb": 0,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 117,
+        "hits": 98,
+        "hr": 1335,
+        "rbi": 84,
+        "avg": 73
+      }
+    },
+    {
+      "year": 2022,
+      "team": "台大經濟OB",
+      "number": "31",
+      "batting": {
+        "games": 9,
+        "pa": 37,
+        "ab": 28,
+        "hits": 9,
+        "singles": 8,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 12,
+        "runs": 11,
+        "bb": 0,
+        "so": 3,
+        "sb": 5,
+        "sf": 1,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 40,
+        "hits": 56,
+        "hr": 1457,
+        "rbi": 12,
+        "avg": 64
+      }
+    },
+    {
+      "year": 2021,
+      "team": "台大經濟OB",
+      "number": "31",
+      "batting": {
+        "games": 19,
+        "pa": 79,
+        "ab": 68,
+        "hits": 25,
+        "singles": 17,
+        "doubles": 3,
+        "triples": 3,
+        "hr": 2,
+        "rbi": 23,
+        "runs": 18,
+        "bb": 0,
+        "so": 7,
+        "sb": 4,
+        "sf": 3,
+        "totalBases": 40
+      },
+      "rankings": {
+        "rc": 15,
+        "hits": 14,
+        "hr": 6,
+        "rbi": 8,
+        "avg": 45
+      }
+    },
+    {
+      "year": 2020,
+      "team": "台大經濟OB",
+      "number": "31",
+      "batting": {
+        "games": 17,
+        "pa": 69,
+        "ab": 59,
+        "hits": 26,
+        "singles": 21,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 16,
+        "runs": 13,
+        "bb": 0,
+        "so": 7,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 31
+      },
+      "rankings": {
+        "rc": 25,
+        "hits": 16,
+        "hr": 1658,
+        "rbi": 30,
+        "avg": 25
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台大經濟OB",
+      "number": "31",
+      "batting": {
+        "games": 10,
+        "pa": 42,
+        "ab": 36,
+        "hits": 14,
+        "singles": 10,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 11,
+        "bb": 3,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 19
+      },
+      "rankings": {
+        "rc": 96,
+        "hits": 94,
+        "hr": 1563,
+        "rbi": 81,
+        "avg": 962
+      }
+    },
+    {
+      "year": 2018,
+      "team": "台大經濟OB",
+      "number": "31",
+      "batting": {
+        "games": 19,
+        "pa": 83,
+        "ab": 68,
+        "hits": 25,
+        "singles": 21,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 21,
+        "runs": 24,
+        "bb": 2,
+        "so": 10,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 30
+      },
+      "rankings": {
+        "rc": 25,
+        "hits": 18,
+        "hr": 1675,
+        "rbi": 16,
+        "avg": 56
+      }
+    },
+    {
+      "year": 2017,
+      "team": "台大經濟OB",
+      "number": "NTE014",
+      "batting": {
+        "games": 16,
+        "pa": 61,
+        "ab": 52,
+        "hits": 19,
+        "singles": 15,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 14,
+        "runs": 17,
+        "bb": 0,
+        "so": 9,
+        "sb": 6,
+        "sf": 0,
+        "totalBases": 24
+      },
+      "rankings": {
+        "rc": 73,
+        "hits": 58,
+        "hr": 976,
+        "rbi": 64,
+        "avg": 69
+      }
+    },
+    {
+      "year": 2016,
+      "team": "台大經濟OB",
+      "number": "NTE014",
+      "batting": {
+        "games": 14,
+        "pa": 60,
+        "ab": 55,
+        "hits": 27,
+        "singles": 20,
+        "doubles": 4,
+        "triples": 2,
+        "hr": 1,
+        "rbi": 27,
+        "runs": 23,
+        "bb": 0,
+        "so": 4,
+        "sb": 13,
+        "sf": 0,
+        "totalBases": 38
+      },
+      "rankings": {
+        "rc": 22,
+        "hits": 24,
+        "hr": 34,
+        "rbi": 10,
+        "avg": 18
+      }
+    },
+    {
+      "year": 2015,
+      "team": "台大經濟OB",
+      "number": "NTE014",
+      "batting": {
+        "games": 18,
+        "pa": 72,
+        "ab": 56,
+        "hits": 20,
+        "singles": 16,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 27,
+        "bb": 0,
+        "so": 6,
+        "sb": 5,
+        "sf": 0,
+        "totalBases": 25
+      },
+      "rankings": {
+        "rc": 37,
+        "hits": 43,
+        "hr": 890,
+        "rbi": 133,
+        "avg": 65
+      }
+    }
+  ]
+}

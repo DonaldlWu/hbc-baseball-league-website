@@ -1,0 +1,161 @@
+{
+  "id": "LOU033",
+  "code": "LOU033",
+  "name": "任秉軒",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "Tsuyoi",
+      "路易莎咖啡"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "Tsuyoi",
+      "number": "77",
+      "batting": {
+        "games": 4,
+        "pa": 20,
+        "ab": 17,
+        "hits": 9,
+        "singles": 6,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 10,
+        "bb": 1,
+        "so": 2,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 40,
+        "hits": 37,
+        "hr": 1300,
+        "rbi": 34,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "路易莎咖啡",
+      "number": "97",
+      "batting": {
+        "games": 6,
+        "pa": 28,
+        "ab": 21,
+        "hits": 10,
+        "singles": 8,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 16,
+        "runs": 13,
+        "bb": 12,
+        "so": 3,
+        "sb": 5,
+        "sf": 1,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 21,
+        "hits": 33,
+        "hr": 5,
+        "rbi": 2,
+        "avg": 16
+      }
+    },
+    {
+      "year": 2021,
+      "team": "路易莎咖啡",
+      "number": "97",
+      "batting": {
+        "games": 17,
+        "pa": 75,
+        "ab": 57,
+        "hits": 24,
+        "singles": 16,
+        "doubles": 4,
+        "triples": 2,
+        "hr": 2,
+        "rbi": 20,
+        "runs": 28,
+        "bb": 16,
+        "so": 11,
+        "sb": 14,
+        "sf": 1,
+        "totalBases": 38
+      },
+      "rankings": {
+        "rc": 5,
+        "hits": 19,
+        "hr": 5,
+        "rbi": 13,
+        "avg": 23
+      }
+    },
+    {
+      "year": 2020,
+      "team": "路易莎咖啡",
+      "number": "97",
+      "batting": {
+        "games": 14,
+        "pa": 57,
+        "ab": 49,
+        "hits": 23,
+        "singles": 13,
+        "doubles": 7,
+        "triples": 3,
+        "hr": 0,
+        "rbi": 19,
+        "runs": 21,
+        "bb": 7,
+        "so": 12,
+        "sb": 6,
+        "sf": 1,
+        "totalBases": 36
+      },
+      "rankings": {
+        "rc": 17,
+        "hits": 24,
+        "hr": 1628,
+        "rbi": 13,
+        "avg": 16
+      }
+    },
+    {
+      "year": 2019,
+      "team": "路易莎咖啡",
+      "number": "97",
+      "batting": {
+        "games": 11,
+        "pa": 42,
+        "ab": 34,
+        "hits": 15,
+        "singles": 3,
+        "doubles": 6,
+        "triples": 4,
+        "hr": 2,
+        "rbi": 17,
+        "runs": 14,
+        "bb": 0,
+        "so": 8,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 35
+      },
+      "rankings": {
+        "rc": 33,
+        "hits": 78,
+        "hr": 3,
+        "rbi": 20,
+        "avg": 917
+      }
+    }
+  ]
+}

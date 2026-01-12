@@ -1,0 +1,44 @@
+{
+  "id": "NTU086",
+  "code": "NTU086",
+  "name": "甘國瑋",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "台大化工OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "台大化工OB",
+      "number": "44",
+      "batting": {
+        "games": 6,
+        "pa": 8,
+        "ab": 7,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 0,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 933,
+        "hits": 1674,
+        "hr": 1263,
+        "rbi": 356,
+        "avg": 940
+      }
+    }
+  ]
+}

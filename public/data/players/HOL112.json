@@ -1,0 +1,44 @@
+{
+  "id": "HOL112",
+  "code": "HOL112",
+  "name": "施亞辰",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNU7TYTprnzwa_vvFdKn3g3HAzX2SOGXx2IX1Q9AA-m-15jXbHb0NRLdaIO2DlVCOzc05Nk6vt2bzwuzFDCpMPrE31IMicYsyeCoWi7DUxGe7y8RcdznugaEUqcIDssE1z_dRtMDN0X_xqBxW2eGDwrKQ=w310-h335",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "HOLYBAT",
+      "number": "12",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 6,
+        "hits": 3,
+        "singles": 0,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 202,
+        "hits": 310,
+        "hr": 1139,
+        "rbi": 443,
+        "avg": 1123
+      }
+    }
+  ]
+}

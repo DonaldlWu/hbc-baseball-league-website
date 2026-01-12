@@ -1,0 +1,44 @@
+{
+  "id": "MIX086",
+  "code": "MIX086",
+  "name": "陳宏熙",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "MIX",
+      "number": "76",
+      "batting": {
+        "games": 4,
+        "pa": 8,
+        "ab": 8,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 494,
+        "hits": 427,
+        "hr": 1263,
+        "rbi": 1649,
+        "avg": 917
+      }
+    }
+  ]
+}

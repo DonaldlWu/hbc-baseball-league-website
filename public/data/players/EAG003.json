@@ -1,0 +1,131 @@
+{
+  "id": "EAG003",
+  "code": "EAG003",
+  "name": "陳運昌",
+  "photo": "",
+  "career": {
+    "debut": 2014,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "火把老鷹",
+      "number": "EAG003",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 673,
+        "hits": 678,
+        "hr": 172,
+        "rbi": 622,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "火把老鷹",
+      "number": "EAG003",
+      "batting": {
+        "games": 3,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 522,
+        "hits": 487,
+        "hr": 410,
+        "rbi": 429,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "火把老鷹",
+      "number": "EAG003",
+      "batting": {
+        "games": 8,
+        "pa": 17,
+        "ab": 17,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 3,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 480,
+        "hits": 366,
+        "hr": 624,
+        "rbi": 310,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "火把老鷹",
+      "number": "EAG003",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 408,
+        "hits": 629,
+        "hr": 256,
+        "rbi": 602,
+        "avg": 327
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "HOL097",
+  "code": "HOL097",
+  "name": "江柏儀",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOX_hMpkgusteWggGX2PPVufZUW0BIzYGXZH5R6xpel8enuUxnmZj4SOazgHl-iYWL6MWOIwKmau5M1ZGRgLyCYKnyM8yAqO8j8gzlKBreUBgIHzNjoweCqPJ2fgGYS-r5nzM_ZgcW7GQDkLFGiJ0Ji=w310-h335",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "HOLYBAT",
+      "number": "62",
+      "batting": {
+        "games": 14,
+        "pa": 37,
+        "ab": 26,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 10,
+        "bb": 0,
+        "so": 11,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 190,
+        "hits": 293,
+        "hr": 1441,
+        "rbi": 1539,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "HOLYBAT",
+      "number": "62",
+      "batting": {
+        "games": 6,
+        "pa": 14,
+        "ab": 13,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 307,
+        "hits": 214,
+        "hr": 1221,
+        "rbi": 1388,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "HOLYBAT",
+      "number": "62",
+      "batting": {
+        "games": 6,
+        "pa": 14,
+        "ab": 13,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 8,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 394,
+        "hits": 283,
+        "hr": 1224,
+        "rbi": 223,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "HOLYBAT",
+      "number": "62",
+      "batting": {
+        "games": 7,
+        "pa": 24,
+        "ab": 18,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 6,
+        "bb": 0,
+        "so": 7,
+        "sb": 2,
+        "sf": 1,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 390,
+        "hits": 459,
+        "hr": 1385,
+        "rbi": 214,
+        "avg": 106
+      }
+    }
+  ]
+}

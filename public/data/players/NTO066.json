@@ -1,0 +1,102 @@
+{
+  "id": "NTO066",
+  "code": "NTO066",
+  "name": "張竣傑",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "海洋大學",
+      "number": "101",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 469,
+        "hits": 423,
+        "hr": 42,
+        "rbi": 372,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "海洋大學",
+      "number": "45",
+      "batting": {
+        "games": 8,
+        "pa": 30,
+        "ab": 24,
+        "hits": 8,
+        "singles": 5,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 13,
+        "bb": 0,
+        "so": 9,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 73,
+        "hits": 73,
+        "hr": 1430,
+        "rbi": 74,
+        "avg": 60
+      }
+    },
+    {
+      "year": 2021,
+      "team": "海洋大學",
+      "number": "45",
+      "batting": {
+        "games": 10,
+        "pa": 34,
+        "ab": 27,
+        "hits": 10,
+        "singles": 7,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 11,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 131,
+        "hits": 146,
+        "hr": 1532,
+        "rbi": 222,
+        "avg": 1022
+      }
+    }
+  ]
+}

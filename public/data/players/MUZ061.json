@@ -1,0 +1,73 @@
+{
+  "id": "MUZ061",
+  "code": "MUZ061",
+  "name": "王勁翰",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPlWIKbI-_chhacb_lCV2De2zAQ_vmkwTESIBKjFl682QsPuEftMn0wxnGN1hai6ZAecswvcqFnrauLntvtQKxVUFUTdphkYQCid6-tCRGmzuGO8Qb_1fz-UR-5Hh9YoNEW2OxLnia5-BClj-vovXU=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "木柵OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "木柵OB",
+      "number": "87",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 712,
+        "hits": 642,
+        "hr": 119,
+        "rbi": 588,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "木柵OB",
+      "number": "87",
+      "batting": {
+        "games": 7,
+        "pa": 12,
+        "ab": 11,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 1,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 440,
+        "hits": 291,
+        "hr": 1178,
+        "rbi": 97,
+        "avg": 903
+      }
+    }
+  ]
+}

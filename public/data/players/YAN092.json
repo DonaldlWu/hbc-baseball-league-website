@@ -1,0 +1,73 @@
+{
+  "id": "YAN092",
+  "code": "YAN092",
+  "name": "李曜羽",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "陽明OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "陽明OB",
+      "number": "116",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 753,
+        "hits": 711,
+        "hr": 164,
+        "rbi": 645,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "陽明OB",
+      "number": "116",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1020,
+        "hits": 1560,
+        "hr": 972,
+        "rbi": 1477,
+        "avg": 1101
+      }
+    }
+  ]
+}

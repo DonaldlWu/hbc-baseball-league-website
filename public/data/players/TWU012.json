@@ -1,0 +1,44 @@
+{
+  "id": "TWU012",
+  "code": "TWU012",
+  "name": "彭成任",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPWOhH2lYqwluqyeuS29qiSQG13AWkklxuvZdo-TFlXDsgSCDp7Jpeeo2H7rPkd7UNTJ8F_V6uDjvZDe6YQJ4IfZcVkPOsQp1fZLl8K-QuGjRDPYCGQFczrN-70GBmnNZpfbczjoTjjmj42py6NGzd7=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "22",
+      "batting": {
+        "games": 7,
+        "pa": 6,
+        "ab": 6,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 17,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 337,
+        "hits": 251,
+        "hr": 1056,
+        "rbi": 179,
+        "avg": 903
+      }
+    }
+  ]
+}

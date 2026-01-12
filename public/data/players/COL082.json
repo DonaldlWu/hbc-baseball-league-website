@@ -1,0 +1,103 @@
+{
+  "id": "COL082",
+  "code": "COL082",
+  "name": "鄭雁中",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "戊戍本一家",
+      "冷鋒"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "戊戍本一家",
+      "number": "56",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 9,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 546,
+        "hits": 584,
+        "hr": 8,
+        "rbi": 478,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "戊戍本一家",
+      "number": "56",
+      "batting": {
+        "games": 14,
+        "pa": 53,
+        "ab": 44,
+        "hits": 13,
+        "singles": 9,
+        "doubles": 1,
+        "triples": 2,
+        "hr": 1,
+        "rbi": 13,
+        "runs": 9,
+        "bb": 5,
+        "so": 15,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 21
+      },
+      "rankings": {
+        "rc": 90,
+        "hits": 102,
+        "hr": 22,
+        "rbi": 52,
+        "avg": 74
+      }
+    },
+    {
+      "year": 2018,
+      "team": "冷鋒",
+      "number": "31",
+      "batting": {
+        "games": 10,
+        "pa": 25,
+        "ab": 22,
+        "hits": 9,
+        "singles": 8,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 5,
+        "bb": 37,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 207,
+        "hits": 168,
+        "hr": 1462,
+        "rbi": 165,
+        "avg": 940
+      }
+    }
+  ]
+}

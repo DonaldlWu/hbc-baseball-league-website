@@ -1,0 +1,44 @@
+{
+  "id": "YCT140",
+  "code": "YCT140",
+  "name": "謝昕佑",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPdODN3ZNoVAVz6hiPts00cwetySB0WMJq1w8o2-La5sy9U77WUdaINVv1P5s8nSCImlnkdUDqN2byvvao0oTScpoTHcbuC38zB2lciFAjgDCy4DolucB9RNh-ZmgE06hx6v6YTM7_ezmE6THCzVMh2=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "永春TB",
+      "number": "91",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 4,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 597,
+        "hits": 1444,
+        "hr": 952,
+        "rbi": 1397,
+        "avg": 1123
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "PMA029",
+  "code": "PMA029",
+  "name": "林其毅",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "戊戍本一家"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "戊戍本一家",
+      "number": "42",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 608,
+        "hits": 572,
+        "hr": 58,
+        "rbi": 505,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2017,
+      "team": "戊戍本一家",
+      "number": "PMA029",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 6,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 5,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 517,
+        "hits": 546,
+        "hr": 604,
+        "rbi": 474,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "戊戍本一家",
+      "number": "PMA029",
+      "batting": {
+        "games": 7,
+        "pa": 29,
+        "ab": 21,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 11,
+        "bb": 0,
+        "so": 5,
+        "sb": 5,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 202,
+        "hits": 277,
+        "hr": 744,
+        "rbi": 217,
+        "avg": 349
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "SCO078",
+  "code": "SCO078",
+  "name": "馬維佐",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMyHKgKkL50t1--Hg7W0Dzy9Qr00oYGACufGEAxcglXMUUQJRoly4ovxXltVcStmKFwm050xSbMSDto-6ykmqFt8ZxbHsTDeilvh0b04MUmMXPs06pHhK4PGPJc2vGFYeJJOsv-F1PsrI0Pp7xp2o9Vhg=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "707",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 671,
+        "hits": 575,
+        "hr": 52,
+        "rbi": 521,
+        "avg": 1123
+      }
+    }
+  ]
+}

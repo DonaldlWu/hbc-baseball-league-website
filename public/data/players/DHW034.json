@@ -1,0 +1,44 @@
+{
+  "id": "DHW034",
+  "code": "DHW034",
+  "name": "黃佳賀",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOdGqgZBtusINF5Sgelx09YJrFq_GjVfxgvOYRolwpngsB-TAEm3Uvo8daY11G-eiBpK4GYxBfvu1gCsZodClwCsk5YcyxJZMVWYHyWdmPlnT3UXDdqqbWzZYlTL9HN9quJ8BUXS5qA5gGU3QhNUqcg=w141-h136",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "23",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1105,
+        "hits": 1496,
+        "hr": 1061,
+        "rbi": 1467,
+        "avg": 1123
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "HOL099",
+  "code": "HOL099",
+  "name": "蕭丞淵",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOTWm1WwBmfuAj8pqdMWzl18_0NoHH03tNUEv990Zspl-KCA7odVhk6N8h80O9K1slDPl8F5PQCGqV3iJlmCRwOh--uwpk4SkNI1Su8rh90UAWMnEP8k4q-IWRD_r6iWl7AWGYYAhrzxQtJRv5Z66o_=w310-h335",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "HOLYBAT",
+      "number": "16",
+      "batting": {
+        "games": 2,
+        "pa": 2,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 2,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 509,
+        "hits": 445,
+        "hr": 913,
+        "rbi": 377,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "HOLYBAT",
+      "number": "16",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 4,
+        "so": 2,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 456,
+        "hits": 1348,
+        "hr": 970,
+        "rbi": 1290,
+        "avg": 903
+      }
+    }
+  ]
+}

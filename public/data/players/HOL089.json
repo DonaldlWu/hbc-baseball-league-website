@@ -1,0 +1,103 @@
+{
+  "id": "HOL089",
+  "code": "HOL089",
+  "name": "許智涵",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "海洋大學",
+      "HOLYBAT"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "海洋大學",
+      "number": "26",
+      "batting": {
+        "games": 3,
+        "pa": 5,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 410,
+        "hits": 351,
+        "hr": 1048,
+        "rbi": 277,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "海洋大學",
+      "number": "26",
+      "batting": {
+        "games": 6,
+        "pa": 13,
+        "ab": 13,
+        "hits": 5,
+        "singles": 1,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 5,
+        "bb": 0,
+        "so": 6,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 192,
+        "hits": 132,
+        "hr": 1250,
+        "rbi": 135,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "HOLYBAT",
+      "number": "25",
+      "batting": {
+        "games": 10,
+        "pa": 28,
+        "ab": 25,
+        "hits": 7,
+        "singles": 6,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 2,
+        "bb": 5,
+        "so": 9,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 283,
+        "hits": 228,
+        "hr": 1484,
+        "rbi": 258,
+        "avg": 1022
+      }
+    }
+  ]
+}

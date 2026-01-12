@@ -1,0 +1,44 @@
+{
+  "id": "TWU009",
+  "code": "TWU009",
+  "name": "王子銘",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNOe7nsej-iAcCpBidyH3KtwfcVyEhPXvATnkIhWP5_hbqLuV8DYlgGmMkIzc1kXN_GRgMYwOmD5LED0NExCAfpd8c60-Pmpqa6OVTEpxSkSJP2CCqy97kjnBlIVQIikj4i6_wWqUUdIx9Mt9C8K32X=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "18",
+      "batting": {
+        "games": 6,
+        "pa": 22,
+        "ab": 16,
+        "hits": 7,
+        "singles": 7,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 8,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 79,
+        "hits": 83,
+        "hr": 1292,
+        "rbi": 150,
+        "avg": 903
+      }
+    }
+  ]
+}

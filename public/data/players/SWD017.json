@@ -1,0 +1,44 @@
+{
+  "id": "SWD017",
+  "code": "SWD017",
+  "name": "宋誌軒",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMHL33OljkHcVtHqP5UlC1zPq9vqpZPcX5fqtIW8nL1TzJNrU7wbBfwcQGEr5IK8Ag7p8aQs6dzkWPP0on_ErcWRSp7i_ZXJwSD0KhUPqopHgqKzjPhIT3YOEEc2fwdzoGUHJie-OX-8eGAS0Vs2RKg8w=w613-h816",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "甜心暴龍"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "甜心暴龍",
+      "number": "95",
+      "batting": {
+        "games": 9,
+        "pa": 26,
+        "ab": 19,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 0,
+        "so": 11,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 444,
+        "hits": 551,
+        "hr": 1362,
+        "rbi": 494,
+        "avg": 1123
+      }
+    }
+  ]
+}

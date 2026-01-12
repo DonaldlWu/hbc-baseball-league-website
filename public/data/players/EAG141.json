@@ -1,0 +1,44 @@
+{
+  "id": "EAG141",
+  "code": "EAG141",
+  "name": "蔡雲揚",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPX3xvFpocSgzjfWnVgJ6crBMFT2xCJWHJEDqE3BIyJYR4j1fJwO6RQ1cRCOx_KJzRN83kbmPQ6ZXyCNaCYpwvN8MJu_q-ijoJi77WCCI5ftdECI3CRdMC1iiVwVlVbbb3YxlnMbwp9fT7Adut9WWc=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "火把老鷹",
+      "number": "102",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 591,
+        "hits": 1448,
+        "hr": 957,
+        "rbi": 1402,
+        "avg": 1123
+      }
+    }
+  ]
+}

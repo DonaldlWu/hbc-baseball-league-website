@@ -1,0 +1,44 @@
+{
+  "id": "SHA022",
+  "code": "SHA022",
+  "name": "陳躍",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMspXzBTts28phmGrMe3YYGIQ2O5_cOcGjy6TD-dBTmJ0HXmLqCh1SLbOuhHbvbpVSKwV3jaQ99JlR6jCwbUCmuP6bhg8OC2SepBPe0x6pizPyv-k0oSyezDDWbct0arjdWgK4rST_Jt2GCIvYMWWOrSg=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "少林棒球隊"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "少林棒球隊",
+      "number": "50",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 1,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 424,
+        "hits": 439,
+        "hr": 902,
+        "rbi": 1364,
+        "avg": 1123
+      }
+    }
+  ]
+}

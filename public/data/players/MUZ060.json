@@ -1,0 +1,44 @@
+{
+  "id": "MUZ060",
+  "code": "MUZ060",
+  "name": "蘇建禎",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "木柵OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "木柵OB",
+      "number": "29",
+      "batting": {
+        "games": 5,
+        "pa": 12,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 411,
+        "hits": 1671,
+        "hr": 1264,
+        "rbi": 1647,
+        "avg": 1101
+      }
+    }
+  ]
+}

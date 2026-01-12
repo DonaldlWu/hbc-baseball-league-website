@@ -1,0 +1,102 @@
+{
+  "id": "KUP010",
+  "code": "KUP010",
+  "name": "蔡百樺",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "極品酷寶"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "極品酷寶",
+      "number": "24",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 417,
+        "hits": 1338,
+        "hr": 968,
+        "rbi": 1291,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "極品酷寶",
+      "number": "24",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 453,
+        "hits": 380,
+        "hr": 1045,
+        "rbi": 307,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "極品酷寶",
+      "number": "24",
+      "batting": {
+        "games": 14,
+        "pa": 48,
+        "ab": 45,
+        "hits": 12,
+        "singles": 7,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 14,
+        "runs": 9,
+        "bb": 5,
+        "so": 9,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 185,
+        "hits": 119,
+        "hr": 1603,
+        "rbi": 40,
+        "avg": 96
+      }
+    }
+  ]
+}

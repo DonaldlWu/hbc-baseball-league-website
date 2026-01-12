@@ -1,0 +1,248 @@
+{
+  "id": "COL079",
+  "code": "COL079",
+  "name": "陳柏誠",
+  "photo": "https://lh3.googleusercontent.com/VvnJI7b-eEgRGP1PStYJ7djUO9bTDAwapPFgTz-I1kYJdaaF-uKi_hckFpZ4SPeB9K56NoF1jh0RWc38BPKE1r2AtHj_Qq38Bs7VD0RRcByxxgneGM-fysk--HEaKBzPWrezKx_EfD0cYXCr0yp8Ozx5xVXstD3wbLSMhtoLiBx1Tv7h4zxucIpnvVhEfsB7OjYZva6ZxKQrotL1iesgRAesCp02jTH642faax9lW-wkv8U5V8fni6tqlIg-JDnUyOIeAyH07oepIywiBD1GWrbim41F0r2C3kHUD-U1a0cGELJwYPMWZZE9SITJ5EIj7xe2vXiW0iiLmbVh_3obfrdrSDVoOorW4b51hJoYsJZcn6D8gLMeV5g7cFMWqUEQx7GkLtOyVYXVF-45F5T4o0poPslaOAXpOx9dWnV6E_EjDCCipw9uvKinXltWTA0IK6hqSkTouTz_Sf8U0iW8gqtQg_rAdVvoStY06TrK5bhHF9PyR70ZyntIfi6inZmVvRejaAwLNyIS0--C-FRb0rTMYSKK4HbBMEkzmWYrex8oIyZvIOTgmnfFUa9f-DiVWuyA27QZgQrS7KE9tWHDND9YvS2JCl1QF8psMuc3IjdSzJjr3eCg4WvwT7jJ3Q6b4H8cXU1VzeFhnCZS2QKGwu23rSdWaioE2QYFh_3OUs8OV4i4rHUMIVqw1GNRqVWLCzGir65qiNqXsWYiG47K6iHVapUAoM1dmm6iLyNIdx-8UcpH=w310-h335-no",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "飛尼克斯",
+      "冷鋒"
+    ],
+    "totalSeasons": 8
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "飛尼克斯",
+      "number": "7",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 400,
+        "hits": 473,
+        "hr": 998,
+        "rbi": 1432,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "飛尼克斯",
+      "number": "7",
+      "batting": {
+        "games": 3,
+        "pa": 5,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 297,
+        "hits": 366,
+        "hr": 1013,
+        "rbi": 1319,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "飛尼克斯",
+      "number": "7",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 802,
+        "hits": 405,
+        "hr": 24,
+        "rbi": 354,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "飛尼克斯",
+      "number": "7",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 423,
+        "hits": 350,
+        "hr": 958,
+        "rbi": 1320,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "飛尼克斯",
+      "number": "7",
+      "batting": {
+        "games": 18,
+        "pa": 67,
+        "ab": 60,
+        "hits": 24,
+        "singles": 21,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 18,
+        "bb": 0,
+        "so": 8,
+        "sb": 6,
+        "sf": 1,
+        "totalBases": 28
+      },
+      "rankings": {
+        "rc": 37,
+        "hits": 17,
+        "hr": 1659,
+        "rbi": 94,
+        "avg": 34
+      }
+    },
+    {
+      "year": 2020,
+      "team": "飛尼克斯",
+      "number": "7",
+      "batting": {
+        "games": 19,
+        "pa": 42,
+        "ab": 39,
+        "hits": 11,
+        "singles": 10,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 7,
+        "bb": 0,
+        "so": 8,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 215,
+        "hits": 135,
+        "hr": 1558,
+        "rbi": 81,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2018,
+      "team": "冷鋒",
+      "number": "86",
+      "batting": {
+        "games": 10,
+        "pa": 41,
+        "ab": 35,
+        "hits": 16,
+        "singles": 15,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 12,
+        "bb": 0,
+        "so": 10,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 91,
+        "hits": 73,
+        "hr": 1558,
+        "rbi": 150,
+        "avg": 18
+      }
+    },
+    {
+      "year": 2017,
+      "team": "冷鋒",
+      "number": "COL079",
+      "batting": {
+        "games": 5,
+        "pa": 9,
+        "ab": 8,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 362,
+        "hits": 385,
+        "hr": 631,
+        "rbi": 485,
+        "avg": 340
+      }
+    }
+  ]
+}

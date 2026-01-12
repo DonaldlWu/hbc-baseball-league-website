@@ -1,0 +1,190 @@
+{
+  "id": "YAN087",
+  "code": "YAN087",
+  "name": "蔡明佑",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMM_2NKZK0myg2ZBKA79eu4Ld7b1ePI1oopW6kmAJDYMz-iVBscr7omq-BFGsZul4lLLWXvxMHvLHuL3KLT1PKpdpc7xJpO3ETlIHIq0nVr-YPGyVBKz03D3of3MvAZHflsKSJvxHIRuTHsA40fE5p02Q=w310-h335-no",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "ACES",
+      "陽明OB"
+    ],
+    "totalSeasons": 6
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "ACES",
+      "number": "87",
+      "batting": {
+        "games": 12,
+        "pa": 12,
+        "ab": 11,
+        "hits": 2,
+        "singles": 0,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 24,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 452,
+        "hits": 402,
+        "hr": 1206,
+        "rbi": 464,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "ACES",
+      "number": "87",
+      "batting": {
+        "games": 8,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 20,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 398,
+        "hits": 336,
+        "hr": 939,
+        "rbi": 257,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "ACES",
+      "number": "87",
+      "batting": {
+        "games": 5,
+        "pa": 4,
+        "ab": 4,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 15,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 294,
+        "hits": 238,
+        "hr": 1019,
+        "rbi": 180,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "ACES",
+      "number": "87",
+      "batting": {
+        "games": 6,
+        "pa": 14,
+        "ab": 8,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 7,
+        "bb": 5,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 115,
+        "hits": 185,
+        "hr": 1252,
+        "rbi": 190,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ACES",
+      "number": "87",
+      "batting": {
+        "games": 6,
+        "pa": 15,
+        "ab": 13,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 5,
+        "bb": 9,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 249,
+        "hits": 248,
+        "hr": 1331,
+        "rbi": 166,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "陽明OB",
+      "number": "107",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 589,
+        "hits": 533,
+        "hr": 1087,
+        "rbi": 334,
+        "avg": 1101
+      }
+    }
+  ]
+}

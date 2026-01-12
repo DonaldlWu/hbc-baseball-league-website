@@ -1,0 +1,73 @@
+{
+  "id": "NTO079",
+  "code": "NTO079",
+  "name": "周宸緯",
+  "photo": "",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "海洋大學",
+      "number": "99",
+      "batting": {
+        "games": 7,
+        "pa": 9,
+        "ab": 7,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 1,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 257,
+        "hits": 262,
+        "hr": 1125,
+        "rbi": 1369,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "海洋大學",
+      "number": "99",
+      "batting": {
+        "games": 7,
+        "pa": 15,
+        "ab": 11,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 3,
+        "bb": 0,
+        "so": 7,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 338,
+        "hits": 455,
+        "hr": 1276,
+        "rbi": 195,
+        "avg": 943
+      }
+    }
+  ]
+}

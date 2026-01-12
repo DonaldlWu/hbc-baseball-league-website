@@ -1,0 +1,44 @@
+{
+  "id": "HOL111",
+  "code": "HOL111",
+  "name": "李瑋杰",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMVjd349rrSEE-Kd4LLPB4nGESISzO5j-X7RykzcU-oMihm8cskKnp8VJqrV6J6JY2jFMtcNuaWTOjzTHet5U9t6WWafw4O1YYI5JHSYZiruJBQRPkGcOcowH-xvyjX1AGzykHa6ytFXMKYbes18CmWFA=w310-h335",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "HOLYBAT",
+      "number": "20",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 3,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 551,
+        "hits": 1396,
+        "hr": 873,
+        "rbi": 1341,
+        "avg": 1123
+      }
+    }
+  ]
+}

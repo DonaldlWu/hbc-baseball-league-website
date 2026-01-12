@@ -1,0 +1,44 @@
+{
+  "id": "SHU040",
+  "code": "SHU040",
+  "name": "吳柏昇",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMTc_DsW4suHam-lnVzhPfJfUNXxAbeVfM1zEbSXhwHppGQSMf4c2kQ-3nVrl9li03Xfc4R9fap9wdKtGRH6Kx8l_Px_7PFA05draamqHBSyMA8_6-E1SYlMwZ71htOBMUxIcB6uG0PBkWawfYMp6LV=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "110",
+      "batting": {
+        "games": 4,
+        "pa": 7,
+        "ab": 6,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 3,
+        "bb": 3,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 285,
+        "hits": 301,
+        "hr": 1102,
+        "rbi": 241,
+        "avg": 1123
+      }
+    }
+  ]
+}

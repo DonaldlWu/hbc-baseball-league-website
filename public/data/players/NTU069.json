@@ -1,0 +1,102 @@
+{
+  "id": "NTU069",
+  "code": "NTU069",
+  "name": "黃楷文",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "台大化工OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "台大化工OB",
+      "number": "24",
+      "batting": {
+        "games": 4,
+        "pa": 7,
+        "ab": 7,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 487,
+        "hits": 428,
+        "hr": 1250,
+        "rbi": 438,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "台大化工OB",
+      "number": "NTU069",
+      "batting": {
+        "games": 7,
+        "pa": 23,
+        "ab": 21,
+        "hits": 7,
+        "singles": 6,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 4,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 292,
+        "hits": 239,
+        "hr": 781,
+        "rbi": 172,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "台大化工OB",
+      "number": "NTU069",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 2,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 408,
+        "hits": 481,
+        "hr": 400,
+        "rbi": 364,
+        "avg": 349
+      }
+    }
+  ]
+}

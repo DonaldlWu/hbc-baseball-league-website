@@ -1,0 +1,44 @@
+{
+  "id": "TRO082",
+  "code": "TRO082",
+  "name": "林進階",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPsfNCILUGMU2xEVDCKTVme3VJjqESXM3cSyHs84elqh-Q8oL1Ra1nCE8UmhxQTU-TtOnJdRm_mpkf40XItUXE5x8d1dkExT8iTdhsqbqNQzkako80p_5gPcIeZwO2fRQRwIqxHHWv-_OzMeDzAku6TXQ=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "楚奧特"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "楚奧特",
+      "number": "24",
+      "batting": {
+        "games": 4,
+        "pa": 13,
+        "ab": 11,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 5,
+        "bb": 0,
+        "so": 4,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 408,
+        "hits": 407,
+        "hr": 1220,
+        "rbi": 469,
+        "avg": 1123
+      }
+    }
+  ]
+}

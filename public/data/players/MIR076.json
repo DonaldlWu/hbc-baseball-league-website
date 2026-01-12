@@ -1,0 +1,44 @@
+{
+  "id": "MIR076",
+  "code": "MIR076",
+  "name": "王天宣",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPngNRgYrnZBvjnQVJKEAuyJk6BtN21dHKNLPX2yUXPtnltJiu0oynpaOda9KZqOAPBOEMG2fUbP4Y_wkAH9dZjov1FfQaN2wzqZXKLkfZ9maciHTUriN3lMNP_nnmf_Ypn24Dfg-hBMQwg2Gtb9pJS=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "MIRACLE"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "MIRACLE",
+      "number": "102",
+      "batting": {
+        "games": 3,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1092,
+        "hits": 1460,
+        "hr": 977,
+        "rbi": 1416,
+        "avg": 1123
+      }
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "id": "GEO010",
+  "code": "GEO010",
+  "name": "黎世元",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "十號馬",
+      "台大地理OB"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "十號馬",
+      "number": "198",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 7,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 474,
+        "hits": 433,
+        "hr": 1088,
+        "rbi": 442,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台大地理OB",
+      "number": "16",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 7,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 4,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 321,
+        "hits": 314,
+        "hr": 1257,
+        "rbi": 1645,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "台大地理OB",
+      "number": "16",
+      "batting": {
+        "games": 3,
+        "pa": 11,
+        "ab": 9,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 1,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 330,
+        "hits": 378,
+        "hr": 1312,
+        "rbi": 455,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "台大地理OB",
+      "number": "GEO010",
+      "batting": {
+        "games": 7,
+        "pa": 23,
+        "ab": 18,
+        "hits": 11,
+        "singles": 9,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 6,
+        "bb": 14,
+        "so": 3,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 139,
+        "hits": 142,
+        "hr": 778,
+        "rbi": 107,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "台大地理OB",
+      "number": "GEO010",
+      "batting": {
+        "games": 7,
+        "pa": 25,
+        "ab": 25,
+        "hits": 9,
+        "singles": 6,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 8,
+        "bb": 28,
+        "so": 3,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 227,
+        "hits": 191,
+        "hr": 720,
+        "rbi": 182,
+        "avg": 349
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "TWU019",
+  "code": "TWU019",
+  "name": "彭凱威",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMyd03HC8rxuKdzU5f4Xa8gldqkOxeUHlwBeB3kSfLfRqBqxr9uRTrf4cBEO3bMx-S04Pu4k-M2FxM9zZLLdoFpYA7fpxKu_EGZlizcpgP8qEvpF6JmGwiHCsDc7j95geMAzPIkajiPhgDXzoVpPvwj=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "36",
+      "batting": {
+        "games": 2,
+        "pa": 7,
+        "ab": 7,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 1,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 367,
+        "hits": 261,
+        "hr": 1079,
+        "rbi": 185,
+        "avg": 903
+      }
+    }
+  ]
+}

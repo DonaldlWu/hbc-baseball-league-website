@@ -1,0 +1,102 @@
+{
+  "id": "MIX082",
+  "code": "MIX082",
+  "name": "廖奕誠",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "MIX",
+      "number": "17",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 800,
+        "hits": 758,
+        "hr": 211,
+        "rbi": 692,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "MIX",
+      "number": "17",
+      "batting": {
+        "games": 7,
+        "pa": 21,
+        "ab": 19,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 13,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 535,
+        "hits": 418,
+        "hr": 1395,
+        "rbi": 1675,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "MIX",
+      "number": "17",
+      "batting": {
+        "games": 10,
+        "pa": 19,
+        "ab": 14,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 8,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 395,
+        "hits": 455,
+        "hr": 1397,
+        "rbi": 1677,
+        "avg": 917
+      }
+    }
+  ]
+}

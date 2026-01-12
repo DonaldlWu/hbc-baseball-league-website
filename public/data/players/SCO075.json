@@ -1,0 +1,44 @@
+{
+  "id": "SCO075",
+  "code": "SCO075",
+  "name": "施子揚",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPmKMO_xVaqvsNCuygs7niZNTDf0QGzZjsyd8NMntHDBDQugprQPgb26oNLvWmpLj47jxf3voIA2AfRpicg3uFu7kGOfzoAplgT_7uN6YVoPxODivwdtRJVxO7GozaFatnptr82DFkYRjDn657fn54JzQ=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "66",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1071,
+        "hits": 1427,
+        "hr": 925,
+        "rbi": 1378,
+        "avg": 1123
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "TWU016",
+  "code": "TWU016",
+  "name": "蔡政廷",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNKSjH6TnVHT0WaOTqWVOrup9xBe7nAvoBItkvxFefAoBDqzXSLNAwfytBd3Zv2ktpHAtX_n_A1SrDI3JyD3DczaE-XrHhmiqKdTCetbbIh0dxCGAoQlFHC9_AqPNjFjCaLcaPRSPJ1MCo8_mzb6Njf=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "28",
+      "batting": {
+        "games": 6,
+        "pa": 19,
+        "ab": 17,
+        "hits": 9,
+        "singles": 7,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 6,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 62,
+        "hits": 47,
+        "hr": 1274,
+        "rbi": 43,
+        "avg": 903
+      }
+    }
+  ]
+}

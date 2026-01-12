@@ -1,0 +1,44 @@
+{
+  "id": "SCO012",
+  "code": "SCO012",
+  "name": "盧彥辰",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMTt9XmscIkwHgsm34dnKqLhblTlKxJC27WB2Hlq3YAlEcSrwbuL7WOi2cLERXBJWYXyUqTOM2rS_MQll6SR3EJDN11jmPrOLaLZ1fannWengUQh0cLJWwcY-KF3Zj0v3zg_l3JF7dE0LE682bJWn9gvg=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "5",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 462,
+        "hits": 1324,
+        "hr": 930,
+        "rbi": 1258,
+        "avg": 903
+      }
+    }
+  ]
+}

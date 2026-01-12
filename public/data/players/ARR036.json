@@ -1,0 +1,44 @@
+{
+  "id": "ARR036",
+  "code": "ARR036",
+  "name": "邱培修",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "亞克鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "亞克鷹",
+      "number": "ARR036",
+      "batting": {
+        "games": 2,
+        "pa": 9,
+        "ab": 5,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 325,
+        "hits": 416,
+        "hr": 517,
+        "rbi": 352,
+        "avg": 624
+      }
+    }
+  ]
+}

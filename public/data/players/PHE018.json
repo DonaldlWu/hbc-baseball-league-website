@@ -1,0 +1,102 @@
+{
+  "id": "PHE018",
+  "code": "PHE018",
+  "name": "薛宇銓",
+  "photo": "",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "飛尼克斯"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "飛尼克斯",
+      "number": "112",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 818,
+        "hits": 488,
+        "hr": 76,
+        "rbi": 421,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "飛尼克斯",
+      "number": "112",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 4,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 805,
+        "hits": 408,
+        "hr": 27,
+        "rbi": 357,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "飛尼克斯",
+      "number": "111",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 8,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 875,
+        "hits": 470,
+        "hr": 18,
+        "rbi": 383,
+        "avg": 943
+      }
+    }
+  ]
+}

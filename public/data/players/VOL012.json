@@ -1,0 +1,44 @@
+{
+  "id": "VOL012",
+  "code": "VOL012",
+  "name": "遲家慶",
+  "photo": "",
+  "career": {
+    "debut": 2010,
+    "teams": [
+      "志願者"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "志願者",
+      "number": "VOL012",
+      "batting": {
+        "games": 18,
+        "pa": 55,
+        "ab": 44,
+        "hits": 14,
+        "singles": 9,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 2,
+        "rbi": 7,
+        "runs": 9,
+        "bb": 0,
+        "so": 11,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 23
+      },
+      "rankings": {
+        "rc": 31,
+        "hits": 40,
+        "hr": 4,
+        "rbi": 56,
+        "avg": 30
+      }
+    }
+  ]
+}

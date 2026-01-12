@@ -1,0 +1,44 @@
+{
+  "id": "CBC009",
+  "code": "CBC009",
+  "name": "高士凱",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "日促會"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "日促會",
+      "number": "CBC009",
+      "batting": {
+        "games": 9,
+        "pa": 24,
+        "ab": 17,
+        "hits": 3,
+        "singles": 1,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 2,
+        "bb": 3,
+        "so": 3,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 293,
+        "hits": 378,
+        "hr": 685,
+        "rbi": 227,
+        "avg": 624
+      }
+    }
+  ]
+}

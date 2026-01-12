@@ -1,0 +1,44 @@
+{
+  "id": "MIX072",
+  "code": "MIX072",
+  "name": "黃志峯",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "MIX",
+      "number": "MIX072",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 723,
+        "hits": 728,
+        "hr": 222,
+        "rbi": 672,
+        "avg": 340
+      }
+    }
+  ]
+}

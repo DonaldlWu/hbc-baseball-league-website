@@ -1,0 +1,190 @@
+{
+  "id": "NTM047",
+  "code": "NTM047",
+  "name": "蔡宜霖",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMYjsHLQmQc35rvxmK7OBgb0eu-Qs25hveYRCktjlT4mcXayZnvfJyuT5piybOV9gU9SF7QL_aYHOQsMD0A_HQUIRpoO12SftWJwxb0WUB51zTU9uzbfcMrdcWh1t_QOJR0qlqUVjfzxTwJzN2An9yGFQ=w910-h911-s-no-gm?authuser=0",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "Mechanics",
+      "台大機械"
+    ],
+    "totalSeasons": 6
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Mechanics",
+      "number": "10",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 4,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 480,
+        "hits": 434,
+        "hr": 880,
+        "rbi": 1344,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2020,
+      "team": "台大機械",
+      "number": "10",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 12,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 522,
+        "hits": 501,
+        "hr": 1003,
+        "rbi": 423,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台大機械",
+      "number": "10",
+      "batting": {
+        "games": 3,
+        "pa": 5,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 3,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 536,
+        "hits": 1646,
+        "hr": 1189,
+        "rbi": 1609,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "台大機械",
+      "number": "10",
+      "batting": {
+        "games": 5,
+        "pa": 18,
+        "ab": 16,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 12,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 924,
+        "hits": 542,
+        "hr": 1406,
+        "rbi": 390,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "台大機械",
+      "number": "NTM047",
+      "batting": {
+        "games": 5,
+        "pa": 17,
+        "ab": 15,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 3,
+        "bb": 2,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 306,
+        "hits": 253,
+        "hr": 728,
+        "rbi": 235,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "台大機械",
+      "number": "NTM047",
+      "batting": {
+        "games": 5,
+        "pa": 9,
+        "ab": 9,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 4,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 932,
+        "hits": 534,
+        "hr": 549,
+        "rbi": 924,
+        "avg": 349
+      }
+    }
+  ]
+}

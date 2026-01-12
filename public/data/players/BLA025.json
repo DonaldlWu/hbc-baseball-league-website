@@ -1,0 +1,73 @@
+{
+  "id": "BLA025",
+  "code": "BLA025",
+  "name": "陳明德",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "黑名單"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "黑名單",
+      "number": "BLA025",
+      "batting": {
+        "games": 4,
+        "pa": 10,
+        "ab": 7,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 94,
+        "hits": 104,
+        "hr": 118,
+        "rbi": 102,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2009,
+      "team": "黑名單",
+      "number": "BLA025",
+      "batting": {
+        "games": 11,
+        "pa": 39,
+        "ab": 35,
+        "hits": 8,
+        "singles": 6,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 9,
+        "bb": 0,
+        "so": 9,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 68,
+        "hits": 58,
+        "hr": 263,
+        "rbi": 47,
+        "avg": 450
+      }
+    }
+  ]
+}

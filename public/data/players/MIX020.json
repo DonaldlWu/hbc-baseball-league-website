@@ -1,0 +1,44 @@
+{
+  "id": "MIX020",
+  "code": "MIX020",
+  "name": "蕭安順",
+  "photo": "",
+  "career": {
+    "debut": 2013,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2013,
+      "team": "MIX",
+      "number": "MIX020",
+      "batting": {
+        "games": 4,
+        "pa": 7,
+        "ab": 6,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 289,
+        "hits": 301,
+        "hr": 232,
+        "rbi": 203,
+        "avg": 323
+      }
+    }
+  ]
+}

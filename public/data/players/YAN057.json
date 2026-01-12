@@ -1,0 +1,44 @@
+{
+  "id": "YAN057",
+  "code": "YAN057",
+  "name": "施政佑",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "陽明OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2016,
+      "team": "陽明OB",
+      "number": "YAN057",
+      "batting": {
+        "games": 4,
+        "pa": 16,
+        "ab": 14,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 345,
+        "hits": 351,
+        "hr": 642,
+        "rbi": 402,
+        "avg": 349
+      }
+    }
+  ]
+}

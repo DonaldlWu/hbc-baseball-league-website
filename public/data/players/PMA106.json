@@ -1,0 +1,74 @@
+{
+  "id": "PMA106",
+  "code": "PMA106",
+  "name": "馮品維",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "路易莎咖啡",
+      "戊戍本一家"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "路易莎咖啡",
+      "number": "6",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 5,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 3,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 379,
+        "hits": 535,
+        "hr": 1213,
+        "rbi": 270,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "戊戍本一家",
+      "number": "140",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 735,
+        "hits": 713,
+        "hr": 123,
+        "rbi": 629,
+        "avg": 1101
+      }
+    }
+  ]
+}

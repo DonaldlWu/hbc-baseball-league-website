@@ -1,0 +1,73 @@
+{
+  "id": "BLA026",
+  "code": "BLA026",
+  "name": "陳冠羽",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "黑名單"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "黑名單",
+      "number": "BLA026",
+      "batting": {
+        "games": 19,
+        "pa": 65,
+        "ab": 58,
+        "hits": 17,
+        "singles": 16,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 16,
+        "bb": 29,
+        "so": 10,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 18
+      },
+      "rankings": {
+        "rc": 50,
+        "hits": 27,
+        "hr": 206,
+        "rbi": 46,
+        "avg": 36
+      }
+    },
+    {
+      "year": 2009,
+      "team": "黑名單",
+      "number": "BLA026",
+      "batting": {
+        "games": 9,
+        "pa": 30,
+        "ab": 25,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 11,
+        "bb": 44,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 74,
+        "hits": 72,
+        "hr": 250,
+        "rbi": 97,
+        "avg": 450
+      }
+    }
+  ]
+}

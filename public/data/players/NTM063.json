@@ -1,0 +1,73 @@
+{
+  "id": "NTM063",
+  "code": "NTM063",
+  "name": "陳羿帆",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "台大機械"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "台大機械",
+      "number": "17",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 699,
+        "hits": 658,
+        "hr": 206,
+        "rbi": 571,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "台大機械",
+      "number": "17",
+      "batting": {
+        "games": 3,
+        "pa": 15,
+        "ab": 11,
+        "hits": 10,
+        "singles": 5,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 5,
+        "runs": 7,
+        "bb": 4,
+        "so": 0,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 101,
+        "hits": 140,
+        "hr": 8,
+        "rbi": 199,
+        "avg": 1022
+      }
+    }
+  ]
+}

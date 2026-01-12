@@ -1,0 +1,44 @@
+{
+  "id": "TRO086",
+  "code": "TRO086",
+  "name": "楊承霖",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNqagpXOxNDmorANEnsrbIwYSrRJ9MRJGSrerIChpe6d7zFTz2rbYPDLDFe8JOeKW2pjc15DtYvfVZva3ISB55e9up_vZE2pkL8M1Vanmg3B6sAnJqnVYEcwTIOPpotco2IZdhrqnUHYixxwsDD8LQglw=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "楚奧特"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "楚奧特",
+      "number": "77",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 762,
+        "hits": 672,
+        "hr": 149,
+        "rbi": 618,
+        "avg": 1123
+      }
+    }
+  ]
+}

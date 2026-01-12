@@ -1,0 +1,219 @@
+{
+  "id": "HUA105",
+  "code": "HUA105",
+  "name": "陳盈豪",
+  "photo": "https://lh3.googleusercontent.com/pw/AL9nZEU3bgn4KrZWioQGK_aRT3onnoqHWdRoDeUrUIHNQ-lBEQc9Ei6l2wN1LuEZ570P4MEai5qu9Kel0_9jQHPjgvliS1qrNS2H4e1Ws3HQwd1-jg1PWlivy6RojM1H6u5aE9U3_CUNZOpdsg7-fWw0HRyjFw=w310-h335-no",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "Line Drive",
+      "華江OB"
+    ],
+    "totalSeasons": 7
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Line Drive",
+      "number": "71",
+      "batting": {
+        "games": 10,
+        "pa": 22,
+        "ab": 18,
+        "hits": 8,
+        "singles": 4,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 8,
+        "bb": 12,
+        "so": 7,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 145,
+        "hits": 150,
+        "hr": 1333,
+        "rbi": 141,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "Line Drive",
+      "number": "71",
+      "batting": {
+        "games": 4,
+        "pa": 8,
+        "ab": 7,
+        "hits": 4,
+        "singles": 1,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 4,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 142,
+        "hits": 154,
+        "hr": 1101,
+        "rbi": 192,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "Line Drive",
+      "number": "71",
+      "batting": {
+        "games": 5,
+        "pa": 6,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 11,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 333,
+        "hits": 1368,
+        "hr": 1053,
+        "rbi": 185,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "Line Drive",
+      "number": "71",
+      "batting": {
+        "games": 7,
+        "pa": 2,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 20,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 471,
+        "hits": 1398,
+        "hr": 955,
+        "rbi": 1317,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "華江OB",
+      "number": "71",
+      "batting": {
+        "games": 8,
+        "pa": 7,
+        "ab": 7,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 0,
+        "bb": 23,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 494,
+        "hits": 433,
+        "hr": 1203,
+        "rbi": 269,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "華江OB",
+      "number": "71",
+      "batting": {
+        "games": 5,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 15,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 915,
+        "hits": 891,
+        "hr": 301,
+        "rbi": 807,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "華江OB",
+      "number": "1",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 772,
+        "hits": 742,
+        "hr": 228,
+        "rbi": 675,
+        "avg": 917
+      }
+    }
+  ]
+}

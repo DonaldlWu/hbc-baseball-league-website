@@ -1,0 +1,44 @@
+{
+  "id": "NTO089",
+  "code": "NTO089",
+  "name": "周家誠",
+  "photo": "https://lh3.googleusercontent.com/pw/ADCreHcZrBDQ0JS9xcsukqnngreC1owiBJHsEoKW6jTl5I7ZnWSkoJQB6r8hCWXumPcxIF2gZv3kgNvp8bXI_9JWEISGXxW25Tv2xHwCwi7WttUsMZAPddQfEJ6qLn-4Pzh2U8gdHn7ryx_SqxaSAn2RCsN2=w310-h335-no",
+  "career": {
+    "debut": 2023,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "海洋大學",
+      "number": "38",
+      "batting": {
+        "games": 5,
+        "pa": 9,
+        "ab": 8,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 2,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 310,
+        "hits": 264,
+        "hr": 1129,
+        "rbi": 299,
+        "avg": 896
+      }
+    }
+  ]
+}

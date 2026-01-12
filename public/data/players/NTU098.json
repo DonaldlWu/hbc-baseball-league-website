@@ -1,0 +1,44 @@
+{
+  "id": "NTU098",
+  "code": "NTU098",
+  "name": "吳迪勳",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "台大化工OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "台大化工OB",
+      "number": "10",
+      "batting": {
+        "games": 6,
+        "pa": 19,
+        "ab": 17,
+        "hits": 7,
+        "singles": 6,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 241,
+        "hits": 213,
+        "hr": 1405,
+        "rbi": 467,
+        "avg": 917
+      }
+    }
+  ]
+}

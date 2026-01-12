@@ -1,0 +1,44 @@
+{
+  "id": "HOL063",
+  "code": "HOL063",
+  "name": "賴柏融",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "HOLYBAT",
+      "number": "103",
+      "batting": {
+        "games": 5,
+        "pa": 12,
+        "ab": 10,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 2,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 0,
+        "hits": 1022,
+        "hr": 1022,
+        "rbi": 1022,
+        "avg": 1022
+      }
+    }
+  ]
+}

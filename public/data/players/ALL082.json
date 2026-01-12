@@ -1,0 +1,160 @@
+{
+  "id": "ALL082",
+  "code": "ALL082",
+  "name": "林偉志",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "ALLSTAR"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "ALLSTAR",
+      "number": "45",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 850,
+        "hits": 793,
+        "hr": 341,
+        "rbi": 706,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ALLSTAR",
+      "number": "45",
+      "batting": {
+        "games": 12,
+        "pa": 41,
+        "ab": 36,
+        "hits": 10,
+        "singles": 9,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 8,
+        "bb": 0,
+        "so": 8,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 208,
+        "hits": 153,
+        "hr": 1573,
+        "rbi": 191,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "ALLSTAR",
+      "number": "45",
+      "batting": {
+        "games": 12,
+        "pa": 41,
+        "ab": 36,
+        "hits": 12,
+        "singles": 10,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 6,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 2,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 176,
+        "hits": 113,
+        "hr": 1549,
+        "rbi": 95,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "ALLSTAR",
+      "number": "45",
+      "batting": {
+        "games": 4,
+        "pa": 16,
+        "ab": 13,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 5,
+        "bb": 0,
+        "so": 3,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 336,
+        "hits": 331,
+        "hr": 1370,
+        "rbi": 353,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "ALLSTAR",
+      "number": "45",
+      "batting": {
+        "games": 8,
+        "pa": 37,
+        "ab": 31,
+        "hits": 12,
+        "singles": 11,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 15,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 139,
+        "hits": 116,
+        "hr": 1537,
+        "rbi": 127,
+        "avg": 940
+      }
+    }
+  ]
+}

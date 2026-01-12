@@ -1,0 +1,44 @@
+{
+  "id": "HOL098",
+  "code": "HOL098",
+  "name": "唐偉傑",
+  "photo": "https://lh3.googleusercontent.com/pw/AIL4fc-vWB1s4IcSn-e2Gl7bCNWuHwQXJJO9g2RaE-DhsD34-krDdJXnFx4UKP-GsVROvO_9dGwnVlNF60_ND04xKN2keow1J1llaJrYpXKSVV5ybbX3_6Im8mK5F-uhF9QGEhClki2y9Abe49MGH2QzgnfA=w310-h335-s-no?authuser=0",
+  "career": {
+    "debut": 2023,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "HOLYBAT",
+      "number": "103",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 882,
+        "hits": 1359,
+        "hr": 1028,
+        "rbi": 1330,
+        "avg": 896
+      }
+    }
+  ]
+}

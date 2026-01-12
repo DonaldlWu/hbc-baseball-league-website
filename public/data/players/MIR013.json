@@ -1,0 +1,509 @@
+{
+  "id": "MIR013",
+  "code": "MIR013",
+  "name": "粘凱傑",
+  "photo": "https://lh3.googleusercontent.com/fYX59tVa-_3x2i9AJz7DU4j6J-anxaGc4tO5U76XUXIlg_dJmLdikCSo8qBFlY2Fsoxc179IZzOBGW7IQVwdCRec6zznlR8Ln3eL6BAskwqw2r8Abk0zCYFBHuWjRxQfXGAbRvSfoejvnvPCaArhZ2oq5n0bKR_NReiP8zlchKHLrYlCwEhJ3gHOs2Tt6h7L--NBkU4rM4JQYZV0LsHEash2SnifpAODeTiXWbY-8ZCVinPqax0AmXV1dt5eslfCzXi5Qmj9gHttM5T0e2b1q4dmTyaOm0VB2fsdlf_Pci46tX1YW57OYatLrZnLcmLXzTGi7od80GjCiF3-YlCxy7iWTIXyHibDZGwyCHa9xE1CJox3H419XrEwhD-dVbdtJi_26E7YLZrRR8yprQmjs7bjNbh6p-okrVa0293l8zV1233leYkitfaQPH3Qtqj12pcOpMzoXfAhrNJpwlP6vzN58aVAiKpehaYJ7BJq1Rjl0A1sCHpxgeWa2EKehYsDD4diwCxS7NHdZPcBj7GRjimSlyjz_pDeiWk6UacJwbhRYZw_EOdiJtQJHAvVp9dTGe6QAc8t_sxe1f_w1bcHSCRnsiGzgNa3slhYLRb8FoHGwhBVP9ThbABWB6gOEW1tGpaQeJhCWYIo9FC78KnWiXhO0qJZ_3IKHw-kMIdOE5D-m5UAT3NCvVnIgA=w310-h335-no",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "MIRACLE",
+      "Miracle"
+    ],
+    "totalSeasons": 17
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "MIRACLE",
+      "number": "18",
+      "batting": {
+        "games": 3,
+        "pa": 6,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 370,
+        "hits": 501,
+        "hr": 1063,
+        "rbi": 413,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "MIRACLE",
+      "number": "18",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 811,
+        "hits": 773,
+        "hr": 361,
+        "rbi": 706,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "MIRACLE",
+      "number": "18",
+      "batting": {
+        "games": 2,
+        "pa": 7,
+        "ab": 6,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 259,
+        "hits": 254,
+        "hr": 1085,
+        "rbi": 1355,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "MIRACLE",
+      "number": "18",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 399,
+        "hits": 343,
+        "hr": 927,
+        "rbi": 1291,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "MIRACLE",
+      "number": "18",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 936,
+        "hits": 1560,
+        "hr": 1016,
+        "rbi": 1496,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "MIRACLE",
+      "number": "18",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 6,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 416,
+        "hits": 456,
+        "hr": 1186,
+        "rbi": 1611,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "MIRACLE",
+      "number": "18",
+      "batting": {
+        "games": 13,
+        "pa": 58,
+        "ab": 48,
+        "hits": 12,
+        "singles": 11,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 11,
+        "bb": 0,
+        "so": 9,
+        "sb": 5,
+        "sf": 0,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 133,
+        "hits": 118,
+        "hr": 1634,
+        "rbi": 229,
+        "avg": 85
+      }
+    },
+    {
+      "year": 2018,
+      "team": "MIRACLE",
+      "number": "18",
+      "batting": {
+        "games": 11,
+        "pa": 41,
+        "ab": 35,
+        "hits": 11,
+        "singles": 11,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 7,
+        "bb": 0,
+        "so": 6,
+        "sb": 4,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 165,
+        "hits": 136,
+        "hr": 1560,
+        "rbi": 274,
+        "avg": 88
+      }
+    },
+    {
+      "year": 2017,
+      "team": "MIRACLE",
+      "number": "MIR013",
+      "batting": {
+        "games": 7,
+        "pa": 24,
+        "ab": 20,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 2,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 235,
+        "hits": 264,
+        "hr": 786,
+        "rbi": 513,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "MIRACLE",
+      "number": "MIR013",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 818,
+        "hits": 800,
+        "hr": 299,
+        "rbi": 746,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "MIRACLE",
+      "number": "MIR013",
+      "batting": {
+        "games": 7,
+        "pa": 23,
+        "ab": 18,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 8,
+        "bb": 0,
+        "so": 3,
+        "sb": 7,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 288,
+        "hits": 376,
+        "hr": 678,
+        "rbi": 316,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "MIRACLE",
+      "number": "MIR013",
+      "batting": {
+        "games": 16,
+        "pa": 68,
+        "ab": 53,
+        "hits": 23,
+        "singles": 21,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 14,
+        "runs": 23,
+        "bb": 0,
+        "so": 5,
+        "sb": 18,
+        "sf": 0,
+        "totalBases": 25
+      },
+      "rankings": {
+        "rc": 18,
+        "hits": 22,
+        "hr": 654,
+        "rbi": 41,
+        "avg": 23
+      }
+    },
+    {
+      "year": 2013,
+      "team": "MIRACLE",
+      "number": "MIR013",
+      "batting": {
+        "games": 17,
+        "pa": 57,
+        "ab": 50,
+        "hits": 14,
+        "singles": 11,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 13,
+        "bb": 0,
+        "so": 5,
+        "sb": 13,
+        "sf": 0,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 42,
+        "hits": 52,
+        "hr": 468,
+        "rbi": 99,
+        "avg": 52
+      }
+    },
+    {
+      "year": 2012,
+      "team": "MIRACLE",
+      "number": "MIR013",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 185,
+        "hits": 193,
+        "hr": 121,
+        "rbi": 174,
+        "avg": 358
+      }
+    },
+    {
+      "year": 2011,
+      "team": "MIRACLE",
+      "number": "MIR013",
+      "batting": {
+        "games": 6,
+        "pa": 17,
+        "ab": 10,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 4,
+        "bb": 4,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 59,
+        "hits": 89,
+        "hr": 126,
+        "rbi": 73,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2010,
+      "team": "Miracle",
+      "number": "MIR013",
+      "batting": {
+        "games": 11,
+        "pa": 33,
+        "ab": 24,
+        "hits": 9,
+        "singles": 8,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 9,
+        "bb": 6,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 54,
+        "hits": 60,
+        "hr": 164,
+        "rbi": 98,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2009,
+      "team": "Miracle",
+      "number": "MIR013",
+      "batting": {
+        "games": 19,
+        "pa": 67,
+        "ab": 53,
+        "hits": 16,
+        "singles": 14,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 19,
+        "bb": 11,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 18
+      },
+      "rankings": {
+        "rc": 26,
+        "hits": 25,
+        "hr": 283,
+        "rbi": 38,
+        "avg": 23
+      }
+    }
+  ]
+}
