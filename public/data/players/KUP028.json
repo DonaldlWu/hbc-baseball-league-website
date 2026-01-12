@@ -1,0 +1,44 @@
+{
+  "id": "KUP028",
+  "code": "KUP028",
+  "name": "朱偉霆",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "極品酷寶"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "極品酷寶",
+      "number": "30",
+      "batting": {
+        "games": 3,
+        "pa": 10,
+        "ab": 9,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 497,
+        "hits": 447,
+        "hr": 1264,
+        "rbi": 1647,
+        "avg": 1022
+      }
+    }
+  ]
+}

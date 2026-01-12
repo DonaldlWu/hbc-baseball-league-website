@@ -1,0 +1,73 @@
+{
+  "id": "NTM074",
+  "code": "NTM074",
+  "name": "童國葦",
+  "photo": "https://lh3.googleusercontent.com/YY3NTeNoub7fMy74D08aL8BNEWfPtRmD9CgDpSizSpmBsBTZeGjFtoQaz2cTG6oGRCGRS5Ke5rEQ9Ov8Lx85xKPRWFEsK0hL3NGSeR6EF0sbZedAQ9ia1H9KFz4WAw9jM7NZ8-K5XI5_YRqq-e7FpDux-vNqk_se3ji-tJ29vKj51en9t5fZ4dXAFCfvV4QlOF9HSYhggv68Dfm7c1srYDrRhg-xtMtyV45QHoaCTE7IAnn9arle5IpYCTy4lqrVGPFXjuyZSuEom5lAWQqSGbz8mi9Np7at9cX7DD3BlESgQPpVwOm4JMURIjVqBUUyYF2MKbBOKTHUCHLwY1LyxJVmF14uaGnhUZBOq9p9ifqZiA-PUrxQOoOHu8m4G81eIAfXvIaNkPFWENnGxXul35JOjaeN4pogJmX6FXnOoWevkIN1GCvWJ8zmDri-0hdGfUDKAa8oyqysy5iZ7QTqksRc2J9RRP1fYihnOsgmRTB3vQUhUFY514gM8zN9Tq1uf4fgODD933GzbmDq3n3YyITHSDI_q8rTjzA7lLkxRYxdem1bLhxZaruj4QdB9uzLITm1SZ2ngzDTNhiUxZc3Rsax8AMvQ-g_I3g33j7WKH_YkIVDuloaW51dy1gGJreBXz_6GMerUxpRmRQ_ywlocqrH3Ndsa4PycgqMD9rFRIlzNkZxQ8HX3kGGg4nHNw=w450-h650",
+  "career": {
+    "debut": 2023,
+    "teams": [
+      "台大機械"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台大機械",
+      "number": "8",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 694,
+        "hits": 663,
+        "hr": 251,
+        "rbi": 596,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "台大機械",
+      "number": "8",
+      "batting": {
+        "games": 2,
+        "pa": 10,
+        "ab": 5,
+        "hits": 3,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 4,
+        "bb": 0,
+        "so": 0,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 83,
+        "hits": 182,
+        "hr": 1138,
+        "rbi": 89,
+        "avg": 896
+      }
+    }
+  ]
+}

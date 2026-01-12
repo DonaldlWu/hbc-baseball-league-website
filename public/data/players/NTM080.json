@@ -1,0 +1,44 @@
+{
+  "id": "NTM080",
+  "code": "NTM080",
+  "name": "王旭彬",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMGzPMilveiMjKQJwsaYeX6dymkHRqEpfudaEP-3BVRLYRMUagUGZbIECDv43rZAciZORENnu3hpOiSDT6JiTdGJRptvWKuMnAPstWIZ2qKlBsOG1eL47a5EK6LwT7KvvWbHlHk2waWVmc1Zm5ww1MNAg=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "Mechanics"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Mechanics",
+      "number": "6",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 899,
+        "hits": 965,
+        "hr": 442,
+        "rbi": 911,
+        "avg": 1123
+      }
+    }
+  ]
+}

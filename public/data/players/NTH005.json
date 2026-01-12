@@ -1,0 +1,44 @@
+{
+  "id": "NTH005",
+  "code": "NTH005",
+  "name": "朱紹綸",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMOTVuf2eFYrsN2LBtpw37VC0-zZwSONzG5NWWa-IoPsdSuCKeO4RiOKAAOCiQQt4nW_0wXklgLuX1ru3wkOXIeOAmf_Tc6yfGqSlFRSTb6gkQb-3HB7ldWGfPJiDknY0_UejFDrHMQGUEO99VC7dHq=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "18",
+      "batting": {
+        "games": 8,
+        "pa": 16,
+        "ab": 16,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 5,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 1052,
+        "hits": 418,
+        "hr": 1275,
+        "rbi": 337,
+        "avg": 1123
+      }
+    }
+  ]
+}

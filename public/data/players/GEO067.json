@@ -1,0 +1,44 @@
+{
+  "id": "GEO067",
+  "code": "GEO067",
+  "name": "林家慶",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "台大地理OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "台大地理OB",
+      "number": "101",
+      "batting": {
+        "games": 14,
+        "pa": 39,
+        "ab": 30,
+        "hits": 10,
+        "singles": 6,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 6,
+        "bb": 27,
+        "so": 8,
+        "sb": 2,
+        "sf": 1,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 131,
+        "hits": 154,
+        "hr": 1544,
+        "rbi": 206,
+        "avg": 940
+      }
+    }
+  ]
+}

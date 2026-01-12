@@ -1,0 +1,73 @@
+{
+  "id": "ROO047",
+  "code": "ROO047",
+  "name": "鄭芃",
+  "photo": "",
+  "career": {
+    "debut": 2014,
+    "teams": [
+      "ROOKIES"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "ROOKIES",
+      "number": "ROO047",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 734,
+        "hits": 522,
+        "hr": 61,
+        "rbi": 479,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "ROOKIES",
+      "number": "ROO047",
+      "batting": {
+        "games": 5,
+        "pa": 7,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 12,
+        "so": 4,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 647,
+        "hits": 652,
+        "hr": 314,
+        "rbi": 262,
+        "avg": 327
+      }
+    }
+  ]
+}

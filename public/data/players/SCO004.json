@@ -1,0 +1,73 @@
+{
+  "id": "SCO004",
+  "code": "SCO004",
+  "name": "朱均宸",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMkLGmT5nwRIOZuDqZ-dFK4jpRiNz6b_l1zb3z5aYFq_W40CjyX0rmZl1DYt9sF8q4bYjTNkCPRAjh0NsFhY_zJZBq8c27Zzu2zdqTZLX5SH7W7CjMubn9bg1G8Vifl3cRgtZphzUgMUKFbatR9bgHVMw=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "9",
+      "batting": {
+        "games": 4,
+        "pa": 11,
+        "ab": 9,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 0,
+        "so": 3,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 431,
+        "hits": 528,
+        "hr": 1191,
+        "rbi": 323,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "300",
+      "batting": {
+        "games": 4,
+        "pa": 15,
+        "ab": 13,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 4,
+        "bb": 0,
+        "so": 4,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 138,
+        "hits": 129,
+        "hr": 1229,
+        "rbi": 104,
+        "avg": 903
+      }
+    }
+  ]
+}

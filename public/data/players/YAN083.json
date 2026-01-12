@@ -1,0 +1,73 @@
+{
+  "id": "YAN083",
+  "code": "YAN083",
+  "name": "陳俊杰",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "陽明OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "陽明OB",
+      "number": "71",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 761,
+        "hits": 719,
+        "hr": 172,
+        "rbi": 653,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "陽明OB",
+      "number": "71",
+      "batting": {
+        "games": 11,
+        "pa": 21,
+        "ab": 18,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 5,
+        "bb": 0,
+        "so": 7,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 386,
+        "hits": 351,
+        "hr": 1392,
+        "rbi": 388,
+        "avg": 1101
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "ALL040",
+  "code": "ALL040",
+  "name": "陳宗毅",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "ALLSTAR"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "ALLSTAR",
+      "number": "ALL040",
+      "batting": {
+        "games": 3,
+        "pa": 6,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 5,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 125,
+        "hits": 208,
+        "hr": 91,
+        "rbi": 203,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2009,
+      "team": "ALLSTAR",
+      "number": "ALL040",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 7,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 160,
+        "hits": 294,
+        "hr": 210,
+        "rbi": 291,
+        "avg": 450
+      }
+    }
+  ]
+}

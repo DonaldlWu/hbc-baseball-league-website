@@ -1,0 +1,73 @@
+{
+  "id": "SHU009",
+  "code": "SHU009",
+  "name": "許家軒",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOpg00vtHGqdUoMxCGOuKLh5MU1iPz6_CrIj8JXRS5z839hsp24U7IQMMZ7uc79XwKeq4z0OV_dDVoSVVwdRAPiUizzTqTaKtlxJ0lpepMabwRz26v8D4qQpwGu-iGUDkE1oN6JI-jNZlxojh8AkjJd=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "109",
+      "batting": {
+        "games": 16,
+        "pa": 57,
+        "ab": 40,
+        "hits": 11,
+        "singles": 8,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 12,
+        "bb": 29,
+        "so": 4,
+        "sb": 0,
+        "sf": 2,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 74,
+        "hits": 104,
+        "hr": 1514,
+        "rbi": 105,
+        "avg": 80
+      }
+    },
+    {
+      "year": 2024,
+      "team": "世新超乙組",
+      "number": "13",
+      "batting": {
+        "games": 9,
+        "pa": 34,
+        "ab": 31,
+        "hits": 8,
+        "singles": 6,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 5,
+        "bb": 19,
+        "so": 8,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 123,
+        "hits": 75,
+        "hr": 1379,
+        "rbi": 22,
+        "avg": 78
+      }
+    }
+  ]
+}

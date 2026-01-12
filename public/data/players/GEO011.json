@@ -1,0 +1,161 @@
+{
+  "id": "GEO011",
+  "code": "GEO011",
+  "name": "張立信",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "十號馬",
+      "台大地理OB"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "十號馬",
+      "number": "17",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 711,
+        "hits": 689,
+        "hr": 99,
+        "rbi": 605,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台大地理OB",
+      "number": "17",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 602,
+        "hits": 566,
+        "hr": 52,
+        "rbi": 499,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "台大地理OB",
+      "number": "17",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 584,
+        "hits": 566,
+        "hr": 64,
+        "rbi": 504,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "台大地理OB",
+      "number": "GEO011",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 601,
+        "hits": 606,
+        "hr": 100,
+        "rbi": 550,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "台大地理OB",
+      "number": "GEO011",
+      "batting": {
+        "games": 5,
+        "pa": 14,
+        "ab": 12,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 4,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 342,
+        "hits": 345,
+        "hr": 607,
+        "rbi": 937,
+        "avg": 349
+      }
+    }
+  ]
+}

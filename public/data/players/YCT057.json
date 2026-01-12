@@ -1,0 +1,44 @@
+{
+  "id": "YCT057",
+  "code": "YCT057",
+  "name": "陳書浩",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "永春TB",
+      "number": "YCT057",
+      "batting": {
+        "games": 5,
+        "pa": 18,
+        "ab": 16,
+        "hits": 9,
+        "singles": 8,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 6,
+        "bb": 0,
+        "so": 1,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 181,
+        "hits": 171,
+        "hr": 634,
+        "rbi": 159,
+        "avg": 624
+      }
+    }
+  ]
+}

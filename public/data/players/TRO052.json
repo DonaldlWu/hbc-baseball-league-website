@@ -1,0 +1,189 @@
+{
+  "id": "TRO052",
+  "code": "TRO052",
+  "name": "李孟諶",
+  "photo": "https://lh3.googleusercontent.com/kAZ4_OD5VbJy2nJ-pW3ucsmXOTN5ky5dp7wjD9gFyqwakfKWufv2wx7MN2davmwDL8ML07X3UP8iQKw_APluUp68dmvc8cC8j6IWZj7-J7Hp2RGthFHRybQporxlhmxALxst_Sx6UX82EdOqmA5gfqjkIUWEHhvBCZspLgayYsg_YgcPUTvaKam9Mie3SK8naraST9Y2qsLG6eYGcQUaNVM_s6jSvEWILHSdJY1ZaZie_yVnYjtlc1cWNXyE44lUHXzvzCxB8wBDOiTp6KFsMM5-8r0UKMA4zRlauYfM-wLj6TmRNVJpXzE7d5zPz8oM_a7lhz9Gw1WcDEFL7TmeBe_jeQ3zH--l3_9ohbEAopsJboL2PlnqHzFFbGHEhSKpAyGnVEa5Hk5DcXKtzggv_k39bvlvhzYR88DJwkk3iT-iytnpmoAL7dye6b_Ko606m3e6L7jYUS-UxreeB6423l6FPNtA64tJDa0vr38R9dpebUf9MObx0dsgZvc2z6Rvhsl4oQfL8RwXYlRKIeCZf4DiagjRmAVNotFqcGvExjMH4UyVIqO7hvp9HCpT-vlPDuiqketyfUMDmmQkN_brjely-hSFIyfIoWeH4XrEIwnifwoGL9JZb5U30xfGkoa9mPoO6GWD240x0Bk2AAXvfkc2_YnGTfigLgIKZIefl9NE3xzD5m5_N5573NTpScmBNiDM340o2g5D5slbzeqcMMb3vMko_pV7UiFzaOQDCXfr_tM0=w310-h335-no",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "楚奧特"
+    ],
+    "totalSeasons": 6
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "楚奧特",
+      "number": "29",
+      "batting": {
+        "games": 9,
+        "pa": 35,
+        "ab": 27,
+        "hits": 11,
+        "singles": 7,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 15,
+        "bb": 3,
+        "so": 4,
+        "sb": 6,
+        "sf": 1,
+        "totalBases": 16
+      },
+      "rankings": {
+        "rc": 69,
+        "hits": 90,
+        "hr": 1423,
+        "rbi": 77,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "楚奧特",
+      "number": "29",
+      "batting": {
+        "games": 6,
+        "pa": 18,
+        "ab": 15,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 154,
+        "hits": 136,
+        "hr": 1266,
+        "rbi": 228,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "楚奧特",
+      "number": "29",
+      "batting": {
+        "games": 5,
+        "pa": 15,
+        "ab": 12,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 7,
+        "bb": 1,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 115,
+        "hits": 111,
+        "hr": 1236,
+        "rbi": 153,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "楚奧特",
+      "number": "29",
+      "batting": {
+        "games": 3,
+        "pa": 4,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 1,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 351,
+        "hits": 372,
+        "hr": 1023,
+        "rbi": 1365,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "楚奧特",
+      "number": "29",
+      "batting": {
+        "games": 12,
+        "pa": 17,
+        "ab": 9,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 15,
+        "so": 3,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 204,
+        "hits": 278,
+        "hr": 1351,
+        "rbi": 285,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "楚奧特",
+      "number": "29",
+      "batting": {
+        "games": 11,
+        "pa": 21,
+        "ab": 17,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 7,
+        "bb": 7,
+        "so": 2,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 326,
+        "hits": 350,
+        "hr": 1385,
+        "rbi": 304,
+        "avg": 1101
+      }
+    }
+  ]
+}

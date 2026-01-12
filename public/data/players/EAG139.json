@@ -1,0 +1,44 @@
+{
+  "id": "EAG139",
+  "code": "EAG139",
+  "name": "聶保仁",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOaIfIRztEB877evj2tg3zXKm35Q_R3_B21mo3ZU3l7BV2-S8t4zjYINXzXanFKRiTFiwBcZKLbCiocjrELq4kDsTMOF0tDvLDeOoNQrTKZfP5zpe3h86YuwK_mrqnPXc5WX5ZNCZLgPDEd_ziqTTVpsg=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "火把老鷹",
+      "number": "68",
+      "batting": {
+        "games": 5,
+        "pa": 15,
+        "ab": 9,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 0,
+        "so": 3,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 249,
+        "hits": 413,
+        "hr": 1239,
+        "rbi": 477,
+        "avg": 1123
+      }
+    }
+  ]
+}

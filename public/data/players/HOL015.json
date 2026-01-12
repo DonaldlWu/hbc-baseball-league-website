@@ -1,0 +1,218 @@
+{
+  "id": "HOL015",
+  "code": "HOL015",
+  "name": "簡智祥",
+  "photo": "",
+  "career": {
+    "debut": 2013,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 7
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "HOLYBAT",
+      "number": "55",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 885,
+        "hits": 1620,
+        "hr": 1136,
+        "rbi": 1571,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "HOLYBAT",
+      "number": "55",
+      "batting": {
+        "games": 13,
+        "pa": 40,
+        "ab": 30,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 6,
+        "bb": 0,
+        "so": 14,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 263,
+        "hits": 353,
+        "hr": 1549,
+        "rbi": 338,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "HOLYBAT",
+      "number": "HOL015",
+      "batting": {
+        "games": 14,
+        "pa": 51,
+        "ab": 40,
+        "hits": 9,
+        "singles": 6,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 7,
+        "bb": 0,
+        "so": 13,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 201,
+        "hits": 205,
+        "hr": 948,
+        "rbi": 130,
+        "avg": 129
+      }
+    },
+    {
+      "year": 2016,
+      "team": "HOLYBAT",
+      "number": "HOL015",
+      "batting": {
+        "games": 17,
+        "pa": 56,
+        "ab": 42,
+        "hits": 11,
+        "singles": 9,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 13,
+        "bb": 0,
+        "so": 20,
+        "sb": 4,
+        "sf": 0,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 157,
+        "hits": 163,
+        "hr": 895,
+        "rbi": 203,
+        "avg": 110
+      }
+    },
+    {
+      "year": 2015,
+      "team": "HOLYBAT",
+      "number": "HOL015",
+      "batting": {
+        "games": 15,
+        "pa": 46,
+        "ab": 35,
+        "hits": 8,
+        "singles": 8,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 12,
+        "bb": 0,
+        "so": 14,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 245,
+        "hits": 207,
+        "hr": 813,
+        "rbi": 393,
+        "avg": 116
+      }
+    },
+    {
+      "year": 2014,
+      "team": "HOLYBAT",
+      "number": "HOL015",
+      "batting": {
+        "games": 15,
+        "pa": 40,
+        "ab": 31,
+        "hits": 10,
+        "singles": 7,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 9,
+        "bb": 0,
+        "so": 11,
+        "sb": 5,
+        "sf": 0,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 104,
+        "hits": 117,
+        "hr": 572,
+        "rbi": 114,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "HOLYBAT",
+      "number": "HOL015",
+      "batting": {
+        "games": 8,
+        "pa": 31,
+        "ab": 23,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 8,
+        "bb": 0,
+        "so": 6,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 141,
+        "hits": 155,
+        "hr": 393,
+        "rbi": 234,
+        "avg": 323
+      }
+    }
+  ]
+}

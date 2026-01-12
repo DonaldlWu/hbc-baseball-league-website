@@ -1,0 +1,73 @@
+{
+  "id": "YCT135",
+  "code": "YCT135",
+  "name": "莊柏嵩",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMnBAsNnvQqxgXMnVJ2x7fJsvuzk_HwHlNyX_Z838c68azGlLi9KCswXDabVdLRcz7bRk1V8p5UUqN-lmfnCQ8rpdpPGVGCXj9HOe9W-aB8rhovumYSlWM4ZU9wlWjZtIDrOjuYs2ONxGNXAVbOd0k3=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "永春TB",
+      "number": "95",
+      "batting": {
+        "games": 2,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1072,
+        "hits": 1428,
+        "hr": 926,
+        "rbi": 1379,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "永春TB",
+      "number": "97",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 586,
+        "hits": 555,
+        "hr": 143,
+        "rbi": 488,
+        "avg": 903
+      }
+    }
+  ]
+}

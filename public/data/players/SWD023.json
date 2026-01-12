@@ -1,0 +1,44 @@
+{
+  "id": "SWD023",
+  "code": "SWD023",
+  "name": "陳聿愷",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPxSNJ3vlh4idFX40Dqh25nz5C6RtNey4QK2eTMFVT4CWKdgWqfC5uEsjR5rXlSYWJ4CPDNMjgWwUo5D5E7_77oNELRdWIVwnNqR8Vi58fgePiIAjoReZMsEBFF3LFYGpovx1MfK8jjG9bC9t89tuwu-g=w432-h784",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "甜心暴龍"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "甜心暴龍",
+      "number": "6",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 636,
+        "hits": 965,
+        "hr": 442,
+        "rbi": 911,
+        "avg": 1123
+      }
+    }
+  ]
+}

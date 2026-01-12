@@ -1,0 +1,44 @@
+{
+  "id": "NTP049",
+  "code": "NTP049",
+  "name": "許憬濠",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "台北大學"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "台北大學",
+      "number": "17",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 637,
+        "hits": 595,
+        "hr": 48,
+        "rbi": 529,
+        "avg": 1022
+      }
+    }
+  ]
+}

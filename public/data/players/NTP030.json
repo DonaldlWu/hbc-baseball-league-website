@@ -1,0 +1,44 @@
+{
+  "id": "NTP030",
+  "code": "NTP030",
+  "name": "蔡亞倫",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "台北大學"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "台北大學",
+      "number": "94",
+      "batting": {
+        "games": 4,
+        "pa": 6,
+        "ab": 6,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 2,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1095,
+        "hits": 1656,
+        "hr": 1158,
+        "rbi": 1602,
+        "avg": 1101
+      }
+    }
+  ]
+}

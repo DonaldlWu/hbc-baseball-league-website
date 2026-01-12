@@ -1,0 +1,189 @@
+{
+  "id": "HUA120",
+  "code": "HUA120",
+  "name": "黃厚修",
+  "photo": "https://lh3.googleusercontent.com/pw/ACtC-3evTsbRP-qXqFWkouolqGVuTPz_t9uq92JIHifZxSYzhYkF3GWAOLHz_cRkh9GVUFgYjWNPzlJU2E_L71ZMlnRVB0IrBbjrcjvD95gIdOOoLXg781XL9tpVmgW_OL0P5M_02een1B-KFYF4EP6t6Mxs=w310-h335-no",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "華江OB"
+    ],
+    "totalSeasons": 6
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "華江OB",
+      "number": "45",
+      "batting": {
+        "games": 13,
+        "pa": 43,
+        "ab": 39,
+        "hits": 19,
+        "singles": 16,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 13,
+        "runs": 17,
+        "bb": 20,
+        "so": 4,
+        "sb": 4,
+        "sf": 1,
+        "totalBases": 22
+      },
+      "rankings": {
+        "rc": 42,
+        "hits": 21,
+        "hr": 1473,
+        "rbi": 34,
+        "avg": 11
+      }
+    },
+    {
+      "year": 2024,
+      "team": "華江OB",
+      "number": "45",
+      "batting": {
+        "games": 8,
+        "pa": 18,
+        "ab": 17,
+        "hits": 8,
+        "singles": 4,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 4,
+        "bb": 13,
+        "so": 2,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 91,
+        "hits": 62,
+        "hr": 1267,
+        "rbi": 55,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "華江OB",
+      "number": "45",
+      "batting": {
+        "games": 4,
+        "pa": 13,
+        "ab": 11,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 3,
+        "bb": 13,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 109,
+        "hits": 86,
+        "hr": 1198,
+        "rbi": 148,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "華江OB",
+      "number": "45",
+      "batting": {
+        "games": 5,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 9,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 806,
+        "hits": 765,
+        "hr": 313,
+        "rbi": 678,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "華江OB",
+      "number": "1",
+      "batting": {
+        "games": 7,
+        "pa": 6,
+        "ab": 4,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 2,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 447,
+        "hits": 520,
+        "hr": 1162,
+        "rbi": 230,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "華江OB",
+      "number": "5",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 913,
+        "hits": 889,
+        "hr": 299,
+        "rbi": 805,
+        "avg": 1101
+      }
+    }
+  ]
+}

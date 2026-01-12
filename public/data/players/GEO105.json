@@ -1,0 +1,73 @@
+{
+  "id": "GEO105",
+  "code": "GEO105",
+  "name": "林海薇",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNNjE4XDxGwRwW08LwIFNFnA0rm3-3rG_ZrufKrf2MzK8DlYXWNgwRj_2z0xWHAH-Lj9ZJqv8HNOHAaqoLfT_l5U8TCHyhuCwxvfMFvI8R1PNlBl03T_jnrZuppmzKHkf1i7150-zTZ77rnGOc2C_FvcA=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "十號馬"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "十號馬",
+      "number": "196",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 738,
+        "hits": 556,
+        "hr": 33,
+        "rbi": 502,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "十號馬",
+      "number": "101",
+      "batting": {
+        "games": 3,
+        "pa": 5,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 7,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 451,
+        "hits": 371,
+        "hr": 1036,
+        "rbi": 1329,
+        "avg": 903
+      }
+    }
+  ]
+}

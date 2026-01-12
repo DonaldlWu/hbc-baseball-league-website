@@ -1,0 +1,44 @@
+{
+  "id": "NTO097",
+  "code": "NTO097",
+  "name": "遲承寬",
+  "photo": "https://lh3.googleusercontent.com/pw/ADCreHcHUqM-Sfp6QLYrS1DLsLv_k6A1pj1sRLz_51zUQvAPgrx8EX0-ZPVaumAfZ4Phrt2XwwSWdMlrMCWweLTLpSqfQ_NAnFXgmiA232OeAUD3Y6NMl0h0diih7xAKQp97n0pgFClFmHBCIXjCJHFU-suI=w310-h335-no",
+  "career": {
+    "debut": 2023,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "海洋大學",
+      "number": "19",
+      "batting": {
+        "games": 4,
+        "pa": 7,
+        "ab": 7,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 816,
+        "hits": 358,
+        "hr": 1095,
+        "rbi": 1362,
+        "avg": 896
+      }
+    }
+  ]
+}

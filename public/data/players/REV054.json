@@ -1,0 +1,44 @@
+{
+  "id": "REV054",
+  "code": "REV054",
+  "name": "李帥央",
+  "photo": "",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "逆轉星球"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "逆轉星球",
+      "number": "19",
+      "batting": {
+        "games": 6,
+        "pa": 27,
+        "ab": 21,
+        "hits": 10,
+        "singles": 10,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 12,
+        "bb": 0,
+        "so": 5,
+        "sb": 2,
+        "sf": 1,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 54,
+        "hits": 31,
+        "hr": 1411,
+        "rbi": 37,
+        "avg": 17
+      }
+    }
+  ]
+}

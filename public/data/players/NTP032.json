@@ -1,0 +1,73 @@
+{
+  "id": "NTP032",
+  "code": "NTP032",
+  "name": "賴威澄",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "台北大學"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "台北大學",
+      "number": "77",
+      "batting": {
+        "games": 5,
+        "pa": 11,
+        "ab": 8,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 396,
+        "hits": 450,
+        "hr": 1269,
+        "rbi": 472,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "台北大學",
+      "number": "77",
+      "batting": {
+        "games": 6,
+        "pa": 11,
+        "ab": 7,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 436,
+        "hits": 593,
+        "hr": 1252,
+        "rbi": 1643,
+        "avg": 1101
+      }
+    }
+  ]
+}

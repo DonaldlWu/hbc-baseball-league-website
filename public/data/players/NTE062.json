@@ -1,0 +1,102 @@
+{
+  "id": "NTE062",
+  "code": "NTE062",
+  "name": "許泓育",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "台大經濟OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "台大經濟OB",
+      "number": "NTE062",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 626,
+        "hits": 631,
+        "hr": 125,
+        "rbi": 575,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "台大經濟OB",
+      "number": "NTE062",
+      "batting": {
+        "games": 2,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 609,
+        "hits": 591,
+        "hr": 90,
+        "rbi": 537,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "台大經濟OB",
+      "number": "NTE062",
+      "batting": {
+        "games": 3,
+        "pa": 7,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 393,
+        "hits": 488,
+        "hr": 478,
+        "rbi": 418,
+        "avg": 624
+      }
+    }
+  ]
+}

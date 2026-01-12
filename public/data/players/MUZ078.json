@@ -1,0 +1,44 @@
+{
+  "id": "MUZ078",
+  "code": "MUZ078",
+  "name": "廖祥鈞",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczP8ZHlnzQc9lnwthKavCfWmR1xKXHZtm-_uSsMnUu8bOva5MsUlFg_HWO93odxGaK3X-UyJW9ewkcdxBCtkVMh_Zq8o12gBWdcWm2WvlIApTyFHFx9_OCcGAAxON8B5Udn7gkpg5fh1pfdlAInx9E-63w=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "木柵OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "木柵OB",
+      "number": "66",
+      "batting": {
+        "games": 3,
+        "pa": 10,
+        "ab": 9,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 5,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 311,
+        "hits": 265,
+        "hr": 1170,
+        "rbi": 320,
+        "avg": 1123
+      }
+    }
+  ]
+}

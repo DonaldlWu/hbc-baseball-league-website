@@ -1,0 +1,74 @@
+{
+  "id": "SHU025",
+  "code": "SHU025",
+  "name": "郭洛佑",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNtP4de_WKS6H_TiKWknquw3DM2fWE6uy3jcqM5UZj3_26WCEaRqLXC2ni7AfeeuYN2fNo6AslfK2aW68AGx7hyJUME_iQSo1bBvGKcgN4Dqmh3y8ULadMyp_yFHSclpDkBe_FhftNSZ--t0RO-CMPGiw=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "木柵OB",
+      "世新超乙組"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "木柵OB",
+      "number": "55",
+      "batting": {
+        "games": 11,
+        "pa": 41,
+        "ab": 34,
+        "hits": 14,
+        "singles": 11,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 1,
+        "rbi": 10,
+        "runs": 15,
+        "bb": 0,
+        "so": 5,
+        "sb": 3,
+        "sf": 1,
+        "totalBases": 20
+      },
+      "rankings": {
+        "rc": 51,
+        "hits": 57,
+        "hr": 21,
+        "rbi": 65,
+        "avg": 32
+      }
+    },
+    {
+      "year": 2024,
+      "team": "世新超乙組",
+      "number": "97",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 8,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 378,
+        "hits": 272,
+        "hr": 1106,
+        "rbi": 193,
+        "avg": 903
+      }
+    }
+  ]
+}

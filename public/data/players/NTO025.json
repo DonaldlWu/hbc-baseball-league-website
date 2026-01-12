@@ -1,0 +1,131 @@
+{
+  "id": "NTO025",
+  "code": "NTO025",
+  "name": "何智翔",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "海洋大學",
+      "number": "15",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 168,
+        "hits": 168,
+        "hr": 980,
+        "rbi": 1298,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "海洋大學",
+      "number": "15",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 532,
+        "hits": 491,
+        "hr": 39,
+        "rbi": 404,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "海洋大學",
+      "number": "53",
+      "batting": {
+        "games": 13,
+        "pa": 41,
+        "ab": 37,
+        "hits": 17,
+        "singles": 13,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 12,
+        "runs": 13,
+        "bb": 11,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 22
+      },
+      "rankings": {
+        "rc": 83,
+        "hits": 58,
+        "hr": 1574,
+        "rbi": 59,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "海洋大學",
+      "number": "53",
+      "batting": {
+        "games": 6,
+        "pa": 19,
+        "ab": 18,
+        "hits": 8,
+        "singles": 3,
+        "doubles": 4,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 3,
+        "bb": 1,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 195,
+        "hits": 199,
+        "hr": 1363,
+        "rbi": 157,
+        "avg": 1101
+      }
+    }
+  ]
+}

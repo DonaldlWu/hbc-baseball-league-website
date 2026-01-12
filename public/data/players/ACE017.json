@@ -1,0 +1,73 @@
+{
+  "id": "ACE017",
+  "code": "ACE017",
+  "name": "何家銘",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNucbt2cY0Y7Yz9IVafFbmjJiSmjlH87ei2KFOtQf2yL9Bog51StDR5DOh834B_KC-W_hru4Y6K1dRuBIlCbg6rH1yVHHbFfWe7VHc6zTzrEYVwnK6Sw-7wybYJsXc-UFmaIfWqsHdQ2pJ49Z_1NzzhJg=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "ACES"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "ACES",
+      "number": "13",
+      "batting": {
+        "games": 7,
+        "pa": 1,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 16,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 542,
+        "hits": 1388,
+        "hr": 865,
+        "rbi": 1333,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "ACES",
+      "number": "103",
+      "batting": {
+        "games": 4,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 1,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 466,
+        "hits": 1323,
+        "hr": 929,
+        "rbi": 1257,
+        "avg": 903
+      }
+    }
+  ]
+}

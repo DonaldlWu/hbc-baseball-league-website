@@ -1,0 +1,162 @@
+{
+  "id": "REV010",
+  "code": "REV010",
+  "name": "劉定奇",
+  "photo": "",
+  "career": {
+    "debut": 2014,
+    "teams": [
+      "逆轉星球",
+      "自轉棒球",
+      "自轉星球"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "逆轉星球",
+      "number": "17",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 662,
+        "hits": 644,
+        "hr": 142,
+        "rbi": 582,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "自轉棒球",
+      "number": "REV010",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 3,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 684,
+        "hits": 689,
+        "hr": 183,
+        "rbi": 633,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "自轉星球",
+      "number": "REV010",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 5,
+        "hits": 2,
+        "singles": 0,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 389,
+        "hits": 417,
+        "hr": 468,
+        "rbi": 317,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "自轉星球",
+      "number": "REV010",
+      "batting": {
+        "games": 7,
+        "pa": 26,
+        "ab": 22,
+        "hits": 10,
+        "singles": 5,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 11,
+        "bb": 6,
+        "so": 1,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 134,
+        "hits": 154,
+        "hr": 708,
+        "rbi": 139,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "自轉星球",
+      "number": "REV010",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 6,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 12,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 296,
+        "hits": 309,
+        "hr": 330,
+        "rbi": 265,
+        "avg": 327
+      }
+    }
+  ]
+}

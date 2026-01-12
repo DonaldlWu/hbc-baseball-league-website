@@ -1,0 +1,276 @@
+{
+  "id": "MUZ003",
+  "code": "MUZ003",
+  "name": "郭柏熙",
+  "photo": "https://lh3.googleusercontent.com/yhTL-p9Wg_wziOc5aB5imjI6_jjC8jIrQqNsQOeTTUjvnsa41L2Y3-iTaSsOgU-JkaaGxMP2YS88R7NoMfWNguOvjhOamG0iPcTYX0HoZcjAtFd88SULnf-Sy2O9FxldLm8yv_IFfB5NvGdpSHkekMRwPr4lizju79zhqHCflutLNiQ0U7JBiyOUEMhQs_lzdUJm-VSYdWSzRSw8JbRNSroDFg30VmMx5QOKLhs287O8Zqwawe1NDG-ZFUb-YU4zcqLsP8ajMl_9NkkXvf3xDK-JTLHmWfcq7v9VJsD6G115XFtxppXhltUxcAK6uE2r9ukAzLaahC2Mrdo8f6rHesSRSKDLXHSpcSxd_1eEOVz-GS_ptb_iqiPiE0S54a2wl8ZDUaZrbGa8F7DdZVZPiSp9d1dJqlpn-jF-b99Lc9jUaMAs2Au3_LAWVkv84MIa4WCJZlZLLqKXVN1BS5n-RRSDhe4Lz32ALvXqZfaWhD3nubhC8-HqZiBwM5wLnsEdD9nf9tL0s6JyJeE-QVYX92RBtzR0dg4hZLRA5vqdjoVzF2qqwA1tuSC7JZ7wGtRCliOKog9aw6UKiY__1PM4TR_Q0K-_W2N1xTqErGH_Sw_2U7HFvnJL8Q5eQh5xe0ZAvEeOeHu_LjQ7IR1gLmHbl0tEfnSofZn2wuEBXB7PkpNqevez_Lc7yJbVsEJAPAjiRpNkaf43Qd1WNsDm7jhvUrQS-nSTffI0TKE5KJfQlQ5_m1g=w310-h335-no",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "木柵OB"
+    ],
+    "totalSeasons": 9
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "木柵OB",
+      "number": "2",
+      "batting": {
+        "games": 14,
+        "pa": 49,
+        "ab": 41,
+        "hits": 17,
+        "singles": 11,
+        "doubles": 6,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 13,
+        "runs": 17,
+        "bb": 0,
+        "so": 7,
+        "sb": 7,
+        "sf": 2,
+        "totalBases": 23
+      },
+      "rankings": {
+        "rc": 40,
+        "hits": 34,
+        "hr": 1495,
+        "rbi": 35,
+        "avg": 30
+      }
+    },
+    {
+      "year": 2024,
+      "team": "木柵OB",
+      "number": "2",
+      "batting": {
+        "games": 5,
+        "pa": 11,
+        "ab": 8,
+        "hits": 2,
+        "singles": 0,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 7,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 196,
+        "hits": 284,
+        "hr": 1152,
+        "rbi": 134,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "木柵OB",
+      "number": "2",
+      "batting": {
+        "games": 7,
+        "pa": 23,
+        "ab": 17,
+        "hits": 7,
+        "singles": 7,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 5,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 69,
+        "hits": 73,
+        "hr": 1317,
+        "rbi": 164,
+        "avg": 29
+      }
+    },
+    {
+      "year": 2022,
+      "team": "木柵OB",
+      "number": "2",
+      "batting": {
+        "games": 6,
+        "pa": 15,
+        "ab": 11,
+        "hits": 4,
+        "singles": 2,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 5,
+        "so": 3,
+        "sb": 5,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 123,
+        "hits": 190,
+        "hr": 1277,
+        "rbi": 261,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "木柵OB",
+      "number": "2",
+      "batting": {
+        "games": 12,
+        "pa": 35,
+        "ab": 30,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 10,
+        "bb": 22,
+        "so": 7,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 330,
+        "hits": 269,
+        "hr": 1541,
+        "rbi": 186,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "木柵OB",
+      "number": "2",
+      "batting": {
+        "games": 17,
+        "pa": 50,
+        "ab": 41,
+        "hits": 12,
+        "singles": 7,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 12,
+        "bb": 17,
+        "so": 4,
+        "sb": 8,
+        "sf": 0,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 96,
+        "hits": 116,
+        "hr": 1597,
+        "rbi": 83,
+        "avg": 84
+      }
+    },
+    {
+      "year": 2019,
+      "team": "木柵OB",
+      "number": "2",
+      "batting": {
+        "games": 16,
+        "pa": 70,
+        "ab": 59,
+        "hits": 21,
+        "singles": 17,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 15,
+        "runs": 23,
+        "bb": 26,
+        "so": 9,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 26
+      },
+      "rankings": {
+        "rc": 47,
+        "hits": 38,
+        "hr": 1654,
+        "rbi": 40,
+        "avg": 40
+      }
+    },
+    {
+      "year": 2018,
+      "team": "木柵OB",
+      "number": "2",
+      "batting": {
+        "games": 16,
+        "pa": 55,
+        "ab": 51,
+        "hits": 26,
+        "singles": 14,
+        "doubles": 6,
+        "triples": 5,
+        "hr": 1,
+        "rbi": 26,
+        "runs": 19,
+        "bb": 7,
+        "so": 7,
+        "sb": 3,
+        "sf": 1,
+        "totalBases": 45
+      },
+      "rankings": {
+        "rc": 16,
+        "hits": 14,
+        "hr": 33,
+        "rbi": 5,
+        "avg": 12
+      }
+    },
+    {
+      "year": 2017,
+      "team": "木柵OB",
+      "number": "MUZ003",
+      "batting": {
+        "games": 16,
+        "pa": 45,
+        "ab": 38,
+        "hits": 16,
+        "singles": 9,
+        "doubles": 6,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 16,
+        "bb": 22,
+        "so": 10,
+        "sb": 7,
+        "sf": 1,
+        "totalBases": 24
+      },
+      "rankings": {
+        "rc": 79,
+        "hits": 80,
+        "hr": 919,
+        "rbi": 230,
+        "avg": 340
+      }
+    }
+  ]
+}

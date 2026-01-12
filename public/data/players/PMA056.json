@@ -1,0 +1,103 @@
+{
+  "id": "PMA056",
+  "code": "PMA056",
+  "name": "戴佑全",
+  "photo": "https://lh3.googleusercontent.com/EqQHoCvb0WmWX5ViJSuaHth_PQj3phnoHCYsdqawyR7tn2VX8wZmUJ6mM_ceFd8pZGfDqkfKhXOeLtvdxR1j1VT1KYwE-T3yUNClBTteQXvhsLUQTuC7nUu2mc3atZpcJsh95Etr_tRprzaiEM-rpGSKD1-6IoD29XDTmUejYSiUISxCAjgGwZzeWc37iup5gRk0e-on8sSD_t-cybo3Fu5kRJigZPaXFp9lqJXbO9IkmNATfTreFVEw8_vP264OG5HRtIccXJaIE_6Y26EBcHEG5L_OPQfUjKOQmSuCeNIs032fV39-mV0sRYu0AsX2vtOwmwsstsW_8oOiQMkScuhH0g5URsuOEgTNOr9EBobhZPj7ZHUMmD4vDhKjwC9dawAGBExOZ-FLvC8iV4cqrqYhSmc5OV_17faRDElzXIk7jqcF-pFO1i_S6box20zgV5d-txFnsNwhlTIfvBI495bvsnTDWSBLG184oLMUKz5oJd0MjGAc3NHI7Hc6HSKju2iqSL2-4T_fgs2KwGl09Sp2aic7O7eznN1m2eo6oi6D0-Jj0Gcv2-2UL8Li_fTqDHCZ4W_pq--2Cg3cQqk3M158qsASshE5xq5rCKEgPYM-cC18zPdKm727rswzLpgPja-8Du_3ocV2MYQ5BV8TW0Vpw41OYvDWH_vzc_k5OuMki8w5eSk_NxEH62TdVnzbu1Opmr60jioY9rcyFORjvyP8=w310-h335-no",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "ACES",
+      "戊戍本一家"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "ACES",
+      "number": "21",
+      "batting": {
+        "games": 4,
+        "pa": 11,
+        "ab": 10,
+        "hits": 3,
+        "singles": 0,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 6,
+        "runs": 2,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 287,
+        "hits": 322,
+        "hr": 6,
+        "rbi": 132,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "ACES",
+      "number": "97",
+      "batting": {
+        "games": 3,
+        "pa": 6,
+        "ab": 6,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 316,
+        "hits": 249,
+        "hr": 1054,
+        "rbi": 125,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2019,
+      "team": "戊戍本一家",
+      "number": "21",
+      "batting": {
+        "games": 4,
+        "pa": 8,
+        "ab": 8,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 870,
+        "hits": 536,
+        "hr": 1264,
+        "rbi": 1650,
+        "avg": 917
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "GEO030",
+  "code": "GEO030",
+  "name": "王文揚",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "台大地理OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "台大地理OB",
+      "number": "66",
+      "batting": {
+        "games": 12,
+        "pa": 27,
+        "ab": 24,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 13,
+        "so": 9,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 310,
+        "hits": 261,
+        "hr": 1475,
+        "rbi": 481,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "台大地理OB",
+      "number": "GEO030",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 595,
+        "hits": 600,
+        "hr": 94,
+        "rbi": 544,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "台大地理OB",
+      "number": "GEO030",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 870,
+        "hits": 839,
+        "hr": 340,
+        "rbi": 785,
+        "avg": 349
+      }
+    }
+  ]
+}

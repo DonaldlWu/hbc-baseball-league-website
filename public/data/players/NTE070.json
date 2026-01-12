@@ -1,0 +1,103 @@
+{
+  "id": "NTE070",
+  "code": "NTE070",
+  "name": "劉哲銘",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "台大地理OB",
+      "台大經濟OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "台大地理OB",
+      "number": "54",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 573,
+        "hits": 555,
+        "hr": 53,
+        "rbi": 493,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "台大地理OB",
+      "number": "NTE070",
+      "batting": {
+        "games": 5,
+        "pa": 11,
+        "ab": 9,
+        "hits": 3,
+        "singles": 1,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 3,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 336,
+        "hits": 389,
+        "hr": 648,
+        "rbi": 326,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "台大經濟OB",
+      "number": "NTE070",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 895,
+        "hits": 871,
+        "hr": 380,
+        "rbi": 822,
+        "avg": 349
+      }
+    }
+  ]
+}

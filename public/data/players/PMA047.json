@@ -1,0 +1,73 @@
+{
+  "id": "PMA047",
+  "code": "PMA047",
+  "name": "林羽謙",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "戊戍本一家"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "戊戍本一家",
+      "number": "103",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 894,
+        "hits": 1610,
+        "hr": 1109,
+        "rbi": 1547,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "戊戍本一家",
+      "number": "PMA047",
+      "batting": {
+        "games": 4,
+        "pa": 14,
+        "ab": 10,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 1,
+        "bb": 5,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 461,
+        "hits": 564,
+        "hr": 685,
+        "rbi": 272,
+        "avg": 340
+      }
+    }
+  ]
+}

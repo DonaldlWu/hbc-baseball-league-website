@@ -1,0 +1,73 @@
+{
+  "id": "MIX100",
+  "code": "MIX100",
+  "name": "林坤衛",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "MIX",
+      "number": "61",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 793,
+        "hits": 751,
+        "hr": 204,
+        "rbi": 685,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "MIX",
+      "number": "61",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 0,
+        "bb": 1,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 533,
+        "hits": 540,
+        "hr": 1114,
+        "rbi": 338,
+        "avg": 1101
+      }
+    }
+  ]
+}

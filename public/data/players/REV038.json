@@ -1,0 +1,277 @@
+{
+  "id": "REV038",
+  "code": "REV038",
+  "name": "黎東華",
+  "photo": "https://lh3.googleusercontent.com/SNs61qAK-3Rw5u9MHM89s8OOI0N7vxrSBztS8Yj4FM4f0TU663YorkpstEu88HfWSx3iJTNUCC8qHOD-jQSGrV-ZI8tkMfS1oVZT3x4z1vUdFklUzJLpIICKJL4Ljy5m4CV8bCnDE-iVX4HwdDzskPBStMudo3u1fs6WOwQRPHpfewQRf1lCbjYbF_2mUySNwtlHYUIk7QFTwXC-0ew5IQD_ATnEttC8vbTL_x7AOqYeckBeEjoYecYOVoEX1cJXlfyzvVUgSuDQwQdnSH0JUtJCzxOc7H8W9taB88Yucz7maw8RKsvDmiD-A9diRZ9s5zOzwvpbb6trwkPELTJUysJvcwl_EyuNyHZQngiR0wQv3BmOZTjFpS_pfAk-NeICs5rjoBhcFBtADHEhDjq0TiklTltzeb7mOjaNv9aGYIXhpYcF_cnfxnVAHlwhIbD2ytt-l_oLfyY83SxjwizfF2tz-uxauotMagCKtK73v8vvJknLNtNW6_r7jo8vEVVrc2CclyIIZpsLllRw6VsvFR0bnRaLIEqWb43T9mZ8CYz5oNDmsJ6lYX7Lj0fScEwP07ISyIVLASmGhSKXLUlUrzOkMr9WRd-cwTB3QwRqYSMTpg4a1DBVTjvpJujuF9r4c5x6Czw0keqsDqQsF0qCXhdxXuf7o8UqZJPTFgX1DQ=w310-h335-no",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "逆轉星球",
+      "自轉棒球"
+    ],
+    "totalSeasons": 9
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "逆轉星球",
+      "number": "80",
+      "batting": {
+        "games": 13,
+        "pa": 54,
+        "ab": 49,
+        "hits": 17,
+        "singles": 13,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 14,
+        "bb": 0,
+        "so": 6,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 21
+      },
+      "rankings": {
+        "rc": 78,
+        "hits": 37,
+        "hr": 1511,
+        "rbi": 52,
+        "avg": 51
+      }
+    },
+    {
+      "year": 2024,
+      "team": "逆轉星球",
+      "number": "80",
+      "batting": {
+        "games": 4,
+        "pa": 17,
+        "ab": 12,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 6,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 397,
+        "hits": 1399,
+        "hr": 1253,
+        "rbi": 1394,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "逆轉星球",
+      "number": "80",
+      "batting": {
+        "games": 6,
+        "pa": 23,
+        "ab": 20,
+        "hits": 4,
+        "singles": 2,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 5,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 216,
+        "hits": 161,
+        "hr": 1323,
+        "rbi": 251,
+        "avg": 84
+      }
+    },
+    {
+      "year": 2022,
+      "team": "逆轉星球",
+      "number": "80",
+      "batting": {
+        "games": 7,
+        "pa": 27,
+        "ab": 25,
+        "hits": 9,
+        "singles": 7,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 10,
+        "bb": 0,
+        "so": 4,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 98,
+        "hits": 50,
+        "hr": 1414,
+        "rbi": 159,
+        "avg": 50
+      }
+    },
+    {
+      "year": 2021,
+      "team": "逆轉星球",
+      "number": "80",
+      "batting": {
+        "games": 11,
+        "pa": 53,
+        "ab": 43,
+        "hits": 15,
+        "singles": 8,
+        "doubles": 6,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 19,
+        "bb": 0,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 23
+      },
+      "rankings": {
+        "rc": 71,
+        "hits": 79,
+        "hr": 1616,
+        "rbi": 109,
+        "avg": 59
+      }
+    },
+    {
+      "year": 2020,
+      "team": "逆轉星球",
+      "number": "80",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 444,
+        "hits": 434,
+        "hr": 1089,
+        "rbi": 443,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "逆轉星球",
+      "number": "80",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 7,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 510,
+        "hits": 535,
+        "hr": 1260,
+        "rbi": 1648,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "逆轉星球",
+      "number": "80",
+      "batting": {
+        "games": 5,
+        "pa": 14,
+        "ab": 13,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 327,
+        "hits": 282,
+        "hr": 1359,
+        "rbi": 306,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "自轉棒球",
+      "number": "REV038",
+      "batting": {
+        "games": 12,
+        "pa": 49,
+        "ab": 45,
+        "hits": 20,
+        "singles": 17,
+        "doubles": 1,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 14,
+        "bb": 0,
+        "so": 8,
+        "sb": 4,
+        "sf": 1,
+        "totalBases": 25
+      },
+      "rankings": {
+        "rc": 81,
+        "hits": 51,
+        "hr": 942,
+        "rbi": 98,
+        "avg": 31
+      }
+    }
+  ]
+}

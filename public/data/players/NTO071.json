@@ -1,0 +1,44 @@
+{
+  "id": "NTO071",
+  "code": "NTO071",
+  "name": "李翊暘",
+  "photo": "",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "海洋大學",
+      "number": "14",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 918,
+        "hits": 1402,
+        "hr": 963,
+        "rbi": 1325,
+        "avg": 943
+      }
+    }
+  ]
+}

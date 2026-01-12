@@ -1,0 +1,102 @@
+{
+  "id": "ARR001",
+  "code": "ARR001",
+  "name": "陳怡助",
+  "photo": "",
+  "career": {
+    "debut": 2013,
+    "teams": [
+      "亞克鷹"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "亞克鷹",
+      "number": "ARR001",
+      "batting": {
+        "games": 4,
+        "pa": 11,
+        "ab": 9,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 518,
+        "hits": 503,
+        "hr": 547,
+        "rbi": 441,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "亞克鷹",
+      "number": "ARR001",
+      "batting": {
+        "games": 5,
+        "pa": 12,
+        "ab": 11,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 5,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 348,
+        "hits": 321,
+        "hr": 381,
+        "rbi": 269,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "亞克鷹",
+      "number": "ARR001",
+      "batting": {
+        "games": 8,
+        "pa": 20,
+        "ab": 19,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 3,
+        "runs": 5,
+        "bb": 0,
+        "so": 8,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 203,
+        "hits": 172,
+        "hr": 9,
+        "rbi": 181,
+        "avg": 323
+      }
+    }
+  ]
+}

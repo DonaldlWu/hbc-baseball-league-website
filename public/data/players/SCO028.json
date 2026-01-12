@@ -1,0 +1,73 @@
+{
+  "id": "SCO028",
+  "code": "SCO028",
+  "name": "邢浩緯",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczP0zbG5429Dog9u2uW4Z9sVl1a6JfpxcbG_qbn6gt7Uvl8QYFYM62YPAUOpHZXLZM7ZlxV8DGS89DNZTHUhb2YXVRFPX0gRDbCgqQfSga1x2FJTXAnONsrS1hTuOqUdo0pWUvewtYwtrVwpl3jFE6lV-Q=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "99",
+      "batting": {
+        "games": 11,
+        "pa": 35,
+        "ab": 28,
+        "hits": 10,
+        "singles": 9,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 8,
+        "bb": 6,
+        "so": 8,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 130,
+        "hits": 117,
+        "hr": 1424,
+        "rbi": 122,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "99",
+      "batting": {
+        "games": 5,
+        "pa": 18,
+        "ab": 14,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 6,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 158,
+        "hits": 173,
+        "hr": 1264,
+        "rbi": 227,
+        "avg": 903
+      }
+    }
+  ]
+}

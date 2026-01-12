@@ -1,0 +1,44 @@
+{
+  "id": "TWU039",
+  "code": "TWU039",
+  "name": "莊郡凱",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOJIxLoR2i-_idMcP9oTKtMHHfxfUQRvBDze4lsWI4x8vXeaJFU4EMjxxnNKoVJGukejK_77fFp-B-ObJc7UWhUhFvRagRgD8IsAB0V0rF3TQn23RmuNqtvIbnTH8OXAd_ewlkLwkUsVSrt7VF0CCnY=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "23",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 423,
+        "hits": 357,
+        "hr": 998,
+        "rbi": 270,
+        "avg": 903
+      }
+    }
+  ]
+}

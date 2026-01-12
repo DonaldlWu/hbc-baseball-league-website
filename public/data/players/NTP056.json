@@ -1,0 +1,44 @@
+{
+  "id": "NTP056",
+  "code": "NTP056",
+  "name": "邱哲平",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "台北大學"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "台北大學",
+      "number": "98",
+      "batting": {
+        "games": 7,
+        "pa": 19,
+        "ab": 17,
+        "hits": 7,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 6,
+        "bb": 5,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 199,
+        "hits": 213,
+        "hr": 1383,
+        "rbi": 120,
+        "avg": 1022
+      }
+    }
+  ]
+}

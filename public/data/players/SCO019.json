@@ -1,0 +1,44 @@
+{
+  "id": "SCO019",
+  "code": "SCO019",
+  "name": "古永慶彌",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMhOw8C1GlzzUt3MVapxnkUDdsGuzcqIQpwAMvKvPoJkNj48A8DM9O6u22N1sErXvO54puMs3P4H3_013uCHE7kI7VFD4TsB49Frq0Ot28VbdrMvJ7vwy0-y5YKtdsDkAmLMw8j9vOi1Aw9cASoNzGcrQ=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "119",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 391,
+        "hits": 1344,
+        "hr": 966,
+        "rbi": 1286,
+        "avg": 903
+      }
+    }
+  ]
+}

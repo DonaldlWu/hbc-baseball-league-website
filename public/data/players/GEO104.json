@@ -1,0 +1,73 @@
+{
+  "id": "GEO104",
+  "code": "GEO104",
+  "name": "蔡柏元",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOs_Jh3h53eZwFH_09OhFRjLADn8F8B1bOS73PPdcE6m0uu9CPTzQpV2Gx0UPZQ9HpU0YS8pDtIiNzMFq3_-R-EENZ9u5ZblhwvNjky4xTON5kX3tGFOAfC3vXsmivWUhmIjExYhyGXdeR0w8wV-4Xe=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "十號馬"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "十號馬",
+      "number": "18",
+      "batting": {
+        "games": 6,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 12,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1047,
+        "hits": 1401,
+        "hr": 881,
+        "rbi": 1345,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "十號馬",
+      "number": "18",
+      "batting": {
+        "games": 4,
+        "pa": 1,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 9,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 414,
+        "hits": 1274,
+        "hr": 862,
+        "rbi": 1206,
+        "avg": 903
+      }
+    }
+  ]
+}

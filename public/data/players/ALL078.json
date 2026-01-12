@@ -1,0 +1,189 @@
+{
+  "id": "ALL078",
+  "code": "ALL078",
+  "name": "趙昱翔",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "ALLSTAR"
+    ],
+    "totalSeasons": 6
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "ALLSTAR",
+      "number": "30",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 863,
+        "hits": 806,
+        "hr": 354,
+        "rbi": 719,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ALLSTAR",
+      "number": "30",
+      "batting": {
+        "games": 5,
+        "pa": 14,
+        "ab": 11,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 4,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 508,
+        "hits": 564,
+        "hr": 1316,
+        "rbi": 1665,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "ALLSTAR",
+      "number": "30",
+      "batting": {
+        "games": 13,
+        "pa": 35,
+        "ab": 25,
+        "hits": 7,
+        "singles": 6,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 6,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 182,
+        "hits": 241,
+        "hr": 1509,
+        "rbi": 115,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "ALLSTAR",
+      "number": "30",
+      "batting": {
+        "games": 9,
+        "pa": 28,
+        "ab": 20,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 6,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 196,
+        "hits": 253,
+        "hr": 1471,
+        "rbi": 302,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "ALLSTAR",
+      "number": "30",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 453,
+        "hits": 1673,
+        "hr": 1255,
+        "rbi": 1648,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "ALLSTAR",
+      "number": "ALL078",
+      "batting": {
+        "games": 5,
+        "pa": 12,
+        "ab": 11,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 376,
+        "hits": 329,
+        "hr": 668,
+        "rbi": 269,
+        "avg": 340
+      }
+    }
+  ]
+}

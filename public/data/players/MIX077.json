@@ -1,0 +1,73 @@
+{
+  "id": "MIX077",
+  "code": "MIX077",
+  "name": "葉柏志",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "MIX",
+      "number": "22",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 861,
+        "hits": 1587,
+        "hr": 1075,
+        "rbi": 1520,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "MIX",
+      "number": "102",
+      "batting": {
+        "games": 6,
+        "pa": 20,
+        "ab": 18,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 3,
+        "bb": 0,
+        "so": 9,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 316,
+        "hits": 288,
+        "hr": 1421,
+        "rbi": 315,
+        "avg": 940
+      }
+    }
+  ]
+}

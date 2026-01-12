@@ -1,0 +1,44 @@
+{
+  "id": "DHW063",
+  "code": "DHW063",
+  "name": "顏嘉宏",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczM_K2Q1lHJ9lArD-BHhkYMf5B-ZLIHUhcb-ILB-nxqpV9O35UtEwmGO1at3Sav0nt9xlHaprz_tNWIpR98josGTzQu8vq-gVwBfrPQCRLGrmWuEKoK6JqXbGddNB45dDkiDV-utke6j79FjkAKSIqMf=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "60",
+      "batting": {
+        "games": 6,
+        "pa": 17,
+        "ab": 14,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 18,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 578,
+        "hits": 546,
+        "hr": 1282,
+        "rbi": 1527,
+        "avg": 1123
+      }
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "id": "ROO075",
+  "code": "ROO075",
+  "name": "張庭偉",
+  "photo": "https://lh3.googleusercontent.com/wCrXfrVnoCEln681fKZlflBc14M9c12gYRI68UmthAfkPW3mlJONUVK-s5K6I_YK6pRfXKf598Xg60WyHjgESfzKP6bsw7QtWX2eWupmC53cFM1VWtbchNYo6R-45ai81DsN_A7bN7I9-JOqkLBkCTxyuWLkwCR-I_xq8l4BCOb8OmDxrUIZ3xWoFtGj9qGutQDhFUtMXuzTfFc1ApddPpbXl5XUcYttG0ZZ6NelYqrVhvPCU1qzXK7O8LANzbyGtV2s3kgad1G24fnTnIcuuXZlDRT9Jx3AhyovI9nnaZ1K5HwUb6tFVAkG80DTHTNHB2SYe9faeKwpTKzaCwNAEQURrdx6klTGCqF_C7OrgN5A4wT5UkP-zhzvISxM78fKTEC7HHTBBBMryE1Rc-kezmWadMWpAJG8nqMULzdRJuBcWwmj752VdF9Izw3RweTddJNtR2Ba7NHvSOlLYSlldBQ1iu6wbPRIL6T0ILUBATYXsccrHXvI_j4_erZC1r4iPPssB9_4e8mVRa96QwB1dqefxGcDPaTGpiyuqN_mLJoJ_Bu_8sk2gYYhFu-z_ReKXLOPGEpbpAwy2k1bQAQBU_cpJeI5XbqA0JBcqWEDUsmMf-f-3kLLqv0WYqSKQfJ7UMY2iLdFUyWMJlvPt1-NkZLApr2AIPchx8o5eML_6tJrhFfhOiBu5gyf_uOq9I_eUGsGZ0F-oGK0hb-ioS4Uo9wUG2zzYfyBg28UpbP1hju9rfckpMKUiTmO=w310-h335-no",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "Line Drive",
+      "ROOKIES"
+    ],
+    "totalSeasons": 6
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Line Drive",
+      "number": "18",
+      "batting": {
+        "games": 3,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 5,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1062,
+        "hits": 1421,
+        "hr": 911,
+        "rbi": 375,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "Line Drive",
+      "number": "18",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 719,
+        "hits": 681,
+        "hr": 269,
+        "rbi": 614,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "Line Drive",
+      "number": "18",
+      "batting": {
+        "games": 3,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 9,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 416,
+        "hits": 1336,
+        "hr": 965,
+        "rbi": 1288,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "Line Drive",
+      "number": "18",
+      "batting": {
+        "games": 3,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 895,
+        "hits": 1384,
+        "hr": 938,
+        "rbi": 1302,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ROOKIES",
+      "number": "34",
+      "batting": {
+        "games": 8,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 24,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 972,
+        "hits": 1588,
+        "hr": 1048,
+        "rbi": 1525,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "ROOKIES",
+      "number": "34",
+      "batting": {
+        "games": 3,
+        "pa": 3,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 44,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 489,
+        "hits": 512,
+        "hr": 1032,
+        "rbi": 1525,
+        "avg": 1101
+      }
+    }
+  ]
+}

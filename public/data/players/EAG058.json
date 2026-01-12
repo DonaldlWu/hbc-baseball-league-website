@@ -1,0 +1,249 @@
+{
+  "id": "EAG058",
+  "code": "EAG058",
+  "name": "游家銘",
+  "photo": "https://lh3.googleusercontent.com/FQTNVe7Zu0mc2nkXlmt7DMtWVg4YvacP5p7gIDnmYCV7ipOpI607imtBfnXpGTU0tbWCVs_7EEtT8KUHsc5Cvbsu8892-5YJDzIMwgr592USumY9p5TMZUTqIDbKsA6uyniq6peXx9pdcFMKYDP9juNWFJ8YGEfWg-qMyKXQ153pumBvTV6IJiNqWUWuRsr2L6Bg58suozkmnOlsPIcBzY652sooKOUKKl6eoJ2bYzf_xFp0xYW-tG5jQccZENl0_sbGy16uAhFalVtvjG8QgCdXc_pKgModmEPpAHG3opxiD0AnxzL-HURFANt7CAlp7hwsG6I7meuG3fu3rII4AR0wU1hqfBnVxMjE6q8mzmHpF0O3mgh-BtIg0peZl6Nxk8NoxujIsjVoF6Zbo2R1Z2lG7BKGFcfTjire9cRfmG47hV8G30ovF0YSEpKHqUaZIzr1KcGyGwGdyr0sIcwX3Muy8MSfFc2zkKItaPLY3zrDaugg8zMxE01QTdRtKzA-KVgkl6QV7VhIjYycYbUvb1fcK7Ze1vwkH55BaCUwYnB1FyNPF9PzoD5eYtfXJPL8meYKowItaH8L-rDbKpvqMhFoH-s9J7m8-JsDSUhUr_y0om1OFZTsJpO5bqe-bSlKbRU-o9CUs4Ld8n3ermlQ376KmWLRKbbQorYgyAhCJmfVW2ipNZmeprzisfp1wXt76qwp4s0xhj4SRqVmBy7ylQbh=w310-h335-no",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "莫拉克",
+      "京盛宇",
+      "火把老鷹"
+    ],
+    "totalSeasons": 8
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "莫拉克",
+      "number": "21",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 978,
+        "hits": 961,
+        "hr": 438,
+        "rbi": 907,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "京盛宇",
+      "number": "21",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 3,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 784,
+        "hits": 746,
+        "hr": 334,
+        "rbi": 679,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "京盛宇",
+      "number": "21",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 845,
+        "hits": 1370,
+        "hr": 1064,
+        "rbi": 1347,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "京盛宇",
+      "number": "21",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 3,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 349,
+        "hits": 370,
+        "hr": 1018,
+        "rbi": 297,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "京盛宇",
+      "number": "21",
+      "batting": {
+        "games": 16,
+        "pa": 23,
+        "ab": 18,
+        "hits": 7,
+        "singles": 4,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 34,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 192,
+        "hits": 216,
+        "hr": 1427,
+        "rbi": 384,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "莫拉克",
+      "number": "77",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 3,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 927,
+        "hits": 903,
+        "hr": 313,
+        "rbi": 819,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "莫拉克",
+      "number": "104",
+      "batting": {
+        "games": 2,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 6,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 791,
+        "hits": 768,
+        "hr": 254,
+        "rbi": 701,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2016,
+      "team": "火把老鷹",
+      "number": "EAG058",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 3,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 895,
+        "hits": 877,
+        "hr": 386,
+        "rbi": 828,
+        "avg": 349
+      }
+    }
+  ]
+}

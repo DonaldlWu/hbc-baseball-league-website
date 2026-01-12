@@ -1,0 +1,44 @@
+{
+  "id": "SHA014",
+  "code": "SHA014",
+  "name": "詹博宇",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczObhPgC9OWoiC_n9Xv5Zi-Z94QaERaGKxqgh4bdrO3WYAZj6DzNPeWL2-R5mMpFYiUFNw7sAlMwFIiAhYWQjI4f8TD7IemJh2VqVXepOXFm-BXyfOVTNE1BWs0hhZh0hvaSRfzepg1zNllqb98cgud4=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "少林棒球隊"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "少林棒球隊",
+      "number": "18",
+      "batting": {
+        "games": 13,
+        "pa": 40,
+        "ab": 26,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 6,
+        "bb": 8,
+        "so": 12,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 211,
+        "hits": 355,
+        "hr": 1458,
+        "rbi": 288,
+        "avg": 94
+      }
+    }
+  ]
+}

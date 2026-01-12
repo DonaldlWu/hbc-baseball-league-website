@@ -1,0 +1,102 @@
+{
+  "id": "PMA017",
+  "code": "PMA017",
+  "name": "趙啟鈞",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "戊戍本一家"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "戊戍本一家",
+      "number": "37",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 594,
+        "hits": 576,
+        "hr": 74,
+        "rbi": 514,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "戊戍本一家",
+      "number": "PMA017",
+      "batting": {
+        "games": 11,
+        "pa": 29,
+        "ab": 25,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 5,
+        "bb": 0,
+        "so": 10,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 494,
+        "hits": 356,
+        "hr": 821,
+        "rbi": 291,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "戊戍本一家",
+      "number": "PMA017",
+      "batting": {
+        "games": 14,
+        "pa": 38,
+        "ab": 34,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 0,
+        "so": 20,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 923,
+        "hits": 323,
+        "hr": 804,
+        "rbi": 496,
+        "avg": 349
+      }
+    }
+  ]
+}

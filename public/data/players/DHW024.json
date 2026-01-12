@@ -1,0 +1,44 @@
+{
+  "id": "DHW024",
+  "code": "DHW024",
+  "name": "王新博",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPcOrgBsCeZ5il7HYmrACdsWD9wZlebGH3BLqTSfXj40MFf2bQmoQOft8rB1QA-N485jA5bV0Kb3ATkMMF-wYaQqWViRb15U3cFa6y7opu6oZ0FbYNtsd1gbCQGHxkcQUlzzF9BLp_lv913qE05i7iF=w206-h210",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "62",
+      "batting": {
+        "games": 7,
+        "pa": 27,
+        "ab": 21,
+        "hits": 8,
+        "singles": 7,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 7,
+        "bb": 2,
+        "so": 4,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 133,
+        "hits": 155,
+        "hr": 1369,
+        "rbi": 178,
+        "avg": 1123
+      }
+    }
+  ]
+}

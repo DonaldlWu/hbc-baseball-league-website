@@ -1,0 +1,44 @@
+{
+  "id": "FET055",
+  "code": "FET055",
+  "name": "楊景翔",
+  "photo": "",
+  "career": {
+    "debut": 2010,
+    "teams": [
+      "FORCE"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "FORCE",
+      "number": "FET055",
+      "batting": {
+        "games": 9,
+        "pa": 22,
+        "ab": 20,
+        "hits": 8,
+        "singles": 6,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 6,
+        "bb": 19,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 70,
+        "hits": 65,
+        "hr": 151,
+        "rbi": 53,
+        "avg": 450
+      }
+    }
+  ]
+}

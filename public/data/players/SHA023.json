@@ -1,0 +1,44 @@
+{
+  "id": "SHA023",
+  "code": "SHA023",
+  "name": "張瀚文",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczO0a0X-8hY6Z93pIuNma0838KFIraflv3MhGrQ--1Yq3xU4kii9HOOg0oV8pmPVkqsvlfmF6xehxUxWWhMHXIXhYMoMcGlzXDnKmATP_MZev4V2yDMFm5d79Ch2-HH2DBhLCtcsA_luTGmV2t1KQNbn=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "少林棒球隊"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "少林棒球隊",
+      "number": "56",
+      "batting": {
+        "games": 11,
+        "pa": 29,
+        "ab": 23,
+        "hits": 8,
+        "singles": 7,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 6,
+        "bb": 3,
+        "so": 4,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 175,
+        "hits": 158,
+        "hr": 1382,
+        "rbi": 276,
+        "avg": 1123
+      }
+    }
+  ]
+}

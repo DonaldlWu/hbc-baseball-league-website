@@ -1,0 +1,73 @@
+{
+  "id": "TRO008",
+  "code": "TRO008",
+  "name": "宋佶翰",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "楚奧特"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "楚奧特",
+      "number": "TRO008",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 778,
+        "hits": 783,
+        "hr": 277,
+        "rbi": 727,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "楚奧特",
+      "number": "TRO008",
+      "batting": {
+        "games": 8,
+        "pa": 16,
+        "ab": 13,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 482,
+        "hits": 455,
+        "hr": 639,
+        "rbi": 944,
+        "avg": 349
+      }
+    }
+  ]
+}

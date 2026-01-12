@@ -1,0 +1,102 @@
+{
+  "id": "TRO030",
+  "code": "TRO030",
+  "name": "江宇鈞",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "楚奧特"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "楚奧特",
+      "number": "31",
+      "batting": {
+        "games": 7,
+        "pa": 8,
+        "ab": 7,
+        "hits": 2,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 6,
+        "runs": 2,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 364,
+        "hits": 432,
+        "hr": 9,
+        "rbi": 158,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "楚奧特",
+      "number": "TRO030",
+      "batting": {
+        "games": 12,
+        "pa": 31,
+        "ab": 27,
+        "hits": 7,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 8,
+        "bb": 0,
+        "so": 10,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 272,
+        "hits": 241,
+        "hr": 831,
+        "rbi": 246,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "楚奧特",
+      "number": "TRO030",
+      "batting": {
+        "games": 14,
+        "pa": 47,
+        "ab": 41,
+        "hits": 9,
+        "singles": 5,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 11,
+        "bb": 0,
+        "so": 15,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 272,
+        "hits": 205,
+        "hr": 852,
+        "rbi": 104,
+        "avg": 349
+      }
+    }
+  ]
+}

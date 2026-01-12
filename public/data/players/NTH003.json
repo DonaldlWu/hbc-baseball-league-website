@@ -1,0 +1,44 @@
+{
+  "id": "NTH003",
+  "code": "NTH003",
+  "name": "陳冠儒",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMqGjfX0cBsLfAhbMJsRu5mkl2fOwbeExkLGvKAUoAt51e8KDfoTMSUFYI5qrvyQh35UkjxAmz2slGjRA-kskEZOZKw46zZGZQA9ZLTjZT4L2a1l6ETjbO-wIgexhnTgrIo4KCNqIv2A9ecZD40lBFq=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "8",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1054,
+        "hits": 1443,
+        "hr": 946,
+        "rbi": 382,
+        "avg": 1123
+      }
+    }
+  ]
+}

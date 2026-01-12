@@ -1,0 +1,44 @@
+{
+  "id": "BLA003",
+  "code": "BLA003",
+  "name": "盧建羽",
+  "photo": "",
+  "career": {
+    "debut": 2010,
+    "teams": [
+      "黑名單"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "黑名單",
+      "number": "BLA003",
+      "batting": {
+        "games": 4,
+        "pa": 18,
+        "ab": 11,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 3,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 81,
+        "hits": 106,
+        "hr": 132,
+        "rbi": 92,
+        "avg": 450
+      }
+    }
+  ]
+}

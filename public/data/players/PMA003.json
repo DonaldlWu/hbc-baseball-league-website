@@ -1,0 +1,131 @@
+{
+  "id": "PMA003",
+  "code": "PMA003",
+  "name": "黃宗啟",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "戊戍本一家"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "戊戍本一家",
+      "number": "26",
+      "batting": {
+        "games": 3,
+        "pa": 12,
+        "ab": 10,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 370,
+        "hits": 375,
+        "hr": 1313,
+        "rbi": 443,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "戊戍本一家",
+      "number": "26",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 597,
+        "hits": 579,
+        "hr": 77,
+        "rbi": 517,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "戊戍本一家",
+      "number": "PMA003",
+      "batting": {
+        "games": 9,
+        "pa": 39,
+        "ab": 32,
+        "hits": 10,
+        "singles": 9,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 8,
+        "bb": 0,
+        "so": 10,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 238,
+        "hits": 170,
+        "hr": 881,
+        "rbi": 427,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "戊戍本一家",
+      "number": "PMA003",
+      "batting": {
+        "games": 4,
+        "pa": 16,
+        "ab": 10,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 0,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 295,
+        "hits": 392,
+        "hr": 632,
+        "rbi": 481,
+        "avg": 349
+      }
+    }
+  ]
+}

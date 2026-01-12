@@ -1,0 +1,44 @@
+{
+  "id": "SCO031",
+  "code": "SCO031",
+  "name": "吳致奎",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczN4dS6qXioXDIa43b2DXiTCp6KDYBnhBsnBDfYK_DPAwXGZjkZvRt7MFdWONMmEGaKp0NW_xerNg5VupoVSOqZDnOWSDtuihNURJwWJ8GTChp9BlzY17QrHEYX8VfyysVq83C15dzett_DMhRWJcTUcEw=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "101",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 523,
+        "hits": 467,
+        "hr": 55,
+        "rbi": 400,
+        "avg": 903
+      }
+    }
+  ]
+}

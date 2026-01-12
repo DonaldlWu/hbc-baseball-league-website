@@ -1,0 +1,73 @@
+{
+  "id": "EAG088",
+  "code": "EAG088",
+  "name": "廖俊維",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "火把老鷹",
+      "number": "102",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 786,
+        "hits": 763,
+        "hr": 173,
+        "rbi": 679,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "火把老鷹",
+      "number": "102",
+      "batting": {
+        "games": 4,
+        "pa": 9,
+        "ab": 7,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 844,
+        "hits": 1671,
+        "hr": 1269,
+        "rbi": 1652,
+        "avg": 917
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "EAG064",
+  "code": "EAG064",
+  "name": "林聖翰",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "火把老鷹",
+      "number": "EAG064",
+      "batting": {
+        "games": 4,
+        "pa": 15,
+        "ab": 13,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 385,
+        "hits": 334,
+        "hr": 705,
+        "rbi": 234,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "火把老鷹",
+      "number": "EAG064",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 884,
+        "hits": 867,
+        "hr": 374,
+        "rbi": 816,
+        "avg": 349
+      }
+    }
+  ]
+}

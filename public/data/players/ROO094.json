@@ -1,0 +1,73 @@
+{
+  "id": "ROO094",
+  "code": "ROO094",
+  "name": "趙祥雲",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczP9XwBRoLRxU_0mZRjNa8Ik0R910R2W-xJfmuPizhtTZi_lQUyqk7CUhTTqn6eC8cz2ux81mFlFsIVYUTalkbzHqCRoNq71GR4M5lv3mqjcr1u_YG1zdGtSuUsr5CKyAfRVzTVoYIPj12fDrEfcOnJF=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "Line Drive"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Line Drive",
+      "number": "106",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 909,
+        "hits": 807,
+        "hr": 284,
+        "rbi": 753,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "Line Drive",
+      "number": "101",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 5,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 722,
+        "hits": 684,
+        "hr": 272,
+        "rbi": 617,
+        "avg": 903
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "FET032",
+  "code": "FET032",
+  "name": "黃全銘",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "FORCE"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "FORCE",
+      "number": "FET032",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 169,
+        "hits": 148,
+        "hr": 23,
+        "rbi": 139,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2009,
+      "team": "FORCE",
+      "number": "FET032",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 103,
+        "hits": 281,
+        "hr": 188,
+        "rbi": 273,
+        "avg": 450
+      }
+    }
+  ]
+}

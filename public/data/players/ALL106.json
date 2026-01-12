@@ -1,0 +1,73 @@
+{
+  "id": "ALL106",
+  "code": "ALL106",
+  "name": "賴建龍",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "ALLSTAR"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "ALLSTAR",
+      "number": "204",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 838,
+        "hits": 781,
+        "hr": 329,
+        "rbi": 694,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ALLSTAR",
+      "number": "73",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 937,
+        "hits": 1561,
+        "hr": 1017,
+        "rbi": 1497,
+        "avg": 1022
+      }
+    }
+  ]
+}

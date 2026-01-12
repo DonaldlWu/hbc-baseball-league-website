@@ -1,0 +1,365 @@
+{
+  "id": "ROO049",
+  "code": "ROO049",
+  "name": "詹沛軒",
+  "photo": "https://lh3.googleusercontent.com/clFkB6O69lEfIy3Ws7t3641Coi3Fnvnc12C2f3UAweRg9XDOt7ZAiX5SXZOi9ghFVQDCTxO8WJj7ES2k221cHV4i2Q_OXKN-MOjaMrz-4yeDQFaZpPJdwN7TbdIxcGGZDFBD8OsAt7Xh8AEZCHM2nSPV1krxt3PmKkNkBO0etDTU5cQt1rXg7Q_8I4VTRyIMQlbivKiHU4McCMcXy3kdO4MZm3Thn1VutxTp6Cex9_60tFN-mbWQ5s-5H00IFL-ZHPISSB9mujXt83xnK1cxVj_o9zil-Uwamli7HsvVofsJAsAT2iUZ3W0SWgSPbF2O8SJheuL01bs51pFnog-H-2o9QGSlCuFxT-JR7_DlyodbWN0F9fqJSyvSQY-gq8CkFzlVXic-SQi4JZbK4G6SocW9qklfZ9iSY3Cs3mQcturaLjIbk9DMYXXYGT9Gx-6USv6qvccCKRImj7wQNZlku5DXISx0xooefG1c_PDJ5tIfILL0ArOtH-vA2mZ0Oe8chC_-V-dscc9Z5c_EVA40jMpGR6mYyfx92XRUJd2yMyOoyC1ClaGlasVuFGwXYaLkUXii=w310-h335-no",
+  "career": {
+    "debut": 2014,
+    "teams": [
+      "Mechanics",
+      "台大機械",
+      "ROOKIES"
+    ],
+    "totalSeasons": 12
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Mechanics",
+      "number": "2",
+      "batting": {
+        "games": 10,
+        "pa": 43,
+        "ab": 41,
+        "hits": 15,
+        "singles": 13,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 11,
+        "bb": 0,
+        "so": 5,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 106,
+        "hits": 45,
+        "hr": 1474,
+        "rbi": 49,
+        "avg": 46
+      }
+    },
+    {
+      "year": 2024,
+      "team": "台大機械",
+      "number": "2",
+      "batting": {
+        "games": 3,
+        "pa": 14,
+        "ab": 10,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 5,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 135,
+        "hits": 165,
+        "hr": 1202,
+        "rbi": 71,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "台大機械",
+      "number": "2",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 634,
+        "hits": 585,
+        "hr": 204,
+        "rbi": 534,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "台大機械",
+      "number": "2",
+      "batting": {
+        "games": 8,
+        "pa": 36,
+        "ab": 32,
+        "hits": 7,
+        "singles": 6,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 9,
+        "bb": 0,
+        "so": 5,
+        "sb": 3,
+        "sf": 2,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 202,
+        "hits": 96,
+        "hr": 1455,
+        "rbi": 76,
+        "avg": 91
+      }
+    },
+    {
+      "year": 2021,
+      "team": "台大機械",
+      "number": "2",
+      "batting": {
+        "games": 15,
+        "pa": 75,
+        "ab": 62,
+        "hits": 28,
+        "singles": 17,
+        "doubles": 8,
+        "triples": 2,
+        "hr": 1,
+        "rbi": 15,
+        "runs": 30,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 43
+      },
+      "rankings": {
+        "rc": 9,
+        "hits": 6,
+        "hr": 24,
+        "rbi": 36,
+        "avg": 14
+      }
+    },
+    {
+      "year": 2020,
+      "team": "台大機械",
+      "number": "2",
+      "batting": {
+        "games": 16,
+        "pa": 76,
+        "ab": 66,
+        "hits": 30,
+        "singles": 22,
+        "doubles": 7,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 18,
+        "runs": 26,
+        "bb": 0,
+        "so": 5,
+        "sb": 5,
+        "sf": 2,
+        "totalBases": 39
+      },
+      "rankings": {
+        "rc": 10,
+        "hits": 7,
+        "hr": 1670,
+        "rbi": 17,
+        "avg": 18
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台大機械",
+      "number": "2",
+      "batting": {
+        "games": 6,
+        "pa": 22,
+        "ab": 22,
+        "hits": 12,
+        "singles": 8,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 7,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 120,
+        "hits": 107,
+        "hr": 1435,
+        "rbi": 143,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "台大機械",
+      "number": "2",
+      "batting": {
+        "games": 7,
+        "pa": 26,
+        "ab": 26,
+        "hits": 9,
+        "singles": 6,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 6,
+        "bb": 0,
+        "so": 2,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 231,
+        "hits": 170,
+        "hr": 1470,
+        "rbi": 401,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "台大機械",
+      "number": "ROO049",
+      "batting": {
+        "games": 18,
+        "pa": 85,
+        "ab": 74,
+        "hits": 32,
+        "singles": 25,
+        "doubles": 5,
+        "triples": 1,
+        "hr": 1,
+        "rbi": 16,
+        "runs": 38,
+        "bb": 0,
+        "so": 8,
+        "sb": 10,
+        "sf": 1,
+        "totalBases": 42
+      },
+      "rankings": {
+        "rc": 14,
+        "hits": 10,
+        "hr": 66,
+        "rbi": 52,
+        "avg": 36
+      }
+    },
+    {
+      "year": 2016,
+      "team": "台大機械",
+      "number": "ROO049",
+      "batting": {
+        "games": 18,
+        "pa": 85,
+        "ab": 71,
+        "hits": 33,
+        "singles": 20,
+        "doubles": 8,
+        "triples": 3,
+        "hr": 2,
+        "rbi": 25,
+        "runs": 34,
+        "bb": 0,
+        "so": 7,
+        "sb": 3,
+        "sf": 2,
+        "totalBases": 53
+      },
+      "rankings": {
+        "rc": 7,
+        "hits": 7,
+        "hr": 11,
+        "rbi": 14,
+        "avg": 24
+      }
+    },
+    {
+      "year": 2015,
+      "team": "ROOKIES",
+      "number": "ROO049",
+      "batting": {
+        "games": 14,
+        "pa": 59,
+        "ab": 51,
+        "hits": 25,
+        "singles": 16,
+        "doubles": 6,
+        "triples": 0,
+        "hr": 3,
+        "rbi": 11,
+        "runs": 21,
+        "bb": 0,
+        "so": 9,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 40
+      },
+      "rankings": {
+        "rc": 19,
+        "hits": 20,
+        "hr": 3,
+        "rbi": 96,
+        "avg": 11
+      }
+    },
+    {
+      "year": 2014,
+      "team": "ROOKIES",
+      "number": "ROO049",
+      "batting": {
+        "games": 5,
+        "pa": 15,
+        "ab": 13,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 3,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 177,
+        "hits": 185,
+        "hr": 412,
+        "rbi": 232,
+        "avg": 327
+      }
+    }
+  ]
+}

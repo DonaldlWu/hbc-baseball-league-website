@@ -1,0 +1,73 @@
+{
+  "id": "YAN067",
+  "code": "YAN067",
+  "name": "簡正彥",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "陽明OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "陽明OB",
+      "number": "112",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 795,
+        "hits": 772,
+        "hr": 182,
+        "rbi": 688,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2017,
+      "team": "陽明OB",
+      "number": "YAN067",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 697,
+        "hits": 702,
+        "hr": 196,
+        "rbi": 646,
+        "avg": 340
+      }
+    }
+  ]
+}

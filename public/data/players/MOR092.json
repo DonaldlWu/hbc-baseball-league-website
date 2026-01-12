@@ -1,0 +1,74 @@
+{
+  "id": "MOR092",
+  "code": "MOR092",
+  "name": "潘思銳",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczO5Iz991LHQP_JBgwwSjtUQ6cGDOg8R6WPTaS-IUNrkJQnm-v1ikaYReaPcZKXQOQDDrbi30KQdw1LIltDH9IFYrk15pHzoo6DEULpUd1WVs3hRbZHNsBgGJy9z5Xrcl7faTElnrHmxr2ZlpH5IhK1b=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台大醫學院棒",
+      "京盛宇"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "221",
+      "batting": {
+        "games": 3,
+        "pa": 7,
+        "ab": 6,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 12,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 183,
+        "hits": 218,
+        "hr": 1103,
+        "rbi": 310,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "京盛宇",
+      "number": "105",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 6,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 249,
+        "hits": 187,
+        "hr": 1059,
+        "rbi": 182,
+        "avg": 903
+      }
+    }
+  ]
+}

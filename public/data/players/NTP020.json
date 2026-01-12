@@ -1,0 +1,102 @@
+{
+  "id": "NTP020",
+  "code": "NTP020",
+  "name": "蔡承憲",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "台北大學"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "台北大學",
+      "number": "17",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 666,
+        "hits": 644,
+        "hr": 54,
+        "rbi": 560,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2020,
+      "team": "台北大學",
+      "number": "17",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 665,
+        "hits": 643,
+        "hr": 53,
+        "rbi": 559,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台北大學",
+      "number": "17",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 14,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 476,
+        "hits": 469,
+        "hr": 1063,
+        "rbi": 392,
+        "avg": 917
+      }
+    }
+  ]
+}

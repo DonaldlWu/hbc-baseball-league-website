@@ -1,0 +1,161 @@
+{
+  "id": "HUA110",
+  "code": "HUA110",
+  "name": "張博宸",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "海洋大學",
+      "華江OB"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "海洋大學",
+      "number": "49",
+      "batting": {
+        "games": 8,
+        "pa": 16,
+        "ab": 14,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 841,
+        "hits": 386,
+        "hr": 1252,
+        "rbi": 329,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "海洋大學",
+      "number": "49",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 530,
+        "hits": 489,
+        "hr": 37,
+        "rbi": 402,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "華江OB",
+      "number": "49",
+      "batting": {
+        "games": 4,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 539,
+        "hits": 489,
+        "hr": 1070,
+        "rbi": 1541,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "華江OB",
+      "number": "49",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 611,
+        "hits": 553,
+        "hr": 1143,
+        "rbi": 456,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "華江OB",
+      "number": "10",
+      "batting": {
+        "games": 3,
+        "pa": 12,
+        "ab": 10,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 5,
+        "bb": 2,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 218,
+        "hits": 230,
+        "hr": 1311,
+        "rbi": 235,
+        "avg": 917
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "SCO030",
+  "code": "SCO030",
+  "name": "陳柏嶧",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPmTVDk_nsCJd_JMM3V9kXqLAa16cN9DEZynDs61FHKOraAHtEbQ3wp2mGPPDlxZz2erul4RrFDPhMlqHQ-D5RlTIDNHGOR0NfG9m4Qy2aDRBQXymWSkfm491tjwKkLIXN_vF_uvHhWqO6fuXN9I1sZmw=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "4",
+      "batting": {
+        "games": 7,
+        "pa": 23,
+        "ab": 22,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 0,
+        "so": 4,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 342,
+        "hits": 245,
+        "hr": 1348,
+        "rbi": 351,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "132",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 399,
+        "hits": 342,
+        "hr": 950,
+        "rbi": 1272,
+        "avg": 903
+      }
+    }
+  ]
+}

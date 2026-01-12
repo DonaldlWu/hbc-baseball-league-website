@@ -1,0 +1,44 @@
+{
+  "id": "EAG137",
+  "code": "EAG137",
+  "name": "梁宬",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMJ136rHzjMGn36hO2cJdl6bMo_8dDnJ6q3n0WbGiY9bVtoawBKPzE4KZrBWhAAQc4keOPjDxKQTDFgiV3nUIKMvolVhOAut3lKGljpCE5sVw-lCT54suHaTv5DGYa0Hm5Ud-mOW1j5VM-oePavc1s=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "火把老鷹",
+      "number": "8",
+      "batting": {
+        "games": 6,
+        "pa": 25,
+        "ab": 20,
+        "hits": 8,
+        "singles": 4,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 9,
+        "bb": 2,
+        "so": 3,
+        "sb": 5,
+        "sf": 0,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 108,
+        "hits": 153,
+        "hr": 1354,
+        "rbi": 173,
+        "avg": 1123
+      }
+    }
+  ]
+}

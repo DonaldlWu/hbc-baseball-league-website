@@ -1,0 +1,73 @@
+{
+  "id": "MOR070",
+  "code": "MOR070",
+  "name": "張博翔",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "莫拉克"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "莫拉克",
+      "number": "198",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 919,
+        "hits": 895,
+        "hr": 305,
+        "rbi": 811,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "莫拉克",
+      "number": "98",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 530,
+        "hits": 494,
+        "hr": 1141,
+        "rbi": 1576,
+        "avg": 917
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "HOL068",
+  "code": "HOL068",
+  "name": "游建豐",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "HOLYBAT",
+      "number": "3",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 689,
+        "hits": 640,
+        "hr": 259,
+        "rbi": 589,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "HOLYBAT",
+      "number": "3",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 748,
+        "hits": 707,
+        "hr": 255,
+        "rbi": 620,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "HOLYBAT",
+      "number": "3",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 588,
+        "hits": 1596,
+        "hr": 1059,
+        "rbi": 1534,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "HOLYBAT",
+      "number": "3",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 372,
+        "hits": 368,
+        "hr": 1096,
+        "rbi": 1567,
+        "avg": 1101
+      }
+    }
+  ]
+}

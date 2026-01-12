@@ -1,0 +1,102 @@
+{
+  "id": "KUP031",
+  "code": "KUP031",
+  "name": "呂沛紳",
+  "photo": "",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "極品酷寶"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "極品酷寶",
+      "number": "0",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 508,
+        "hits": 516,
+        "hr": 104,
+        "rbi": 449,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "極品酷寶",
+      "number": "0",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 460,
+        "hits": 770,
+        "hr": 389,
+        "rbi": 719,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "極品酷寶",
+      "number": "0",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 462,
+        "hits": 383,
+        "hr": 1050,
+        "rbi": 1382,
+        "avg": 943
+      }
+    }
+  ]
+}

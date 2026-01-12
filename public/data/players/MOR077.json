@@ -1,0 +1,161 @@
+{
+  "id": "MOR077",
+  "code": "MOR077",
+  "name": "謝明清",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "京盛宇",
+      "莫拉克"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "京盛宇",
+      "number": "31",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 758,
+        "hits": 743,
+        "hr": 362,
+        "rbi": 692,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "京盛宇",
+      "number": "31",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 814,
+        "hits": 827,
+        "hr": 375,
+        "rbi": 740,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "京盛宇",
+      "number": "31",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 501,
+        "hits": 494,
+        "hr": 1099,
+        "rbi": 424,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "莫拉克",
+      "number": "31",
+      "batting": {
+        "games": 8,
+        "pa": 28,
+        "ab": 19,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 6,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 262,
+        "hits": 360,
+        "hr": 1443,
+        "rbi": 312,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "莫拉克",
+      "number": "84",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 776,
+        "hits": 753,
+        "hr": 239,
+        "rbi": 686,
+        "avg": 917
+      }
+    }
+  ]
+}

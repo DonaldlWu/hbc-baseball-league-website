@@ -1,0 +1,335 @@
+{
+  "id": "COL058",
+  "code": "COL058",
+  "name": "李家明",
+  "photo": "https://lh5.googleusercontent.com/-cvYdd1qyOF0/VPP3aVx9ArI/AAAAAAAAIDc/yjUD98UA5sY/s485-no/10940602_902164366470647_9112674422990605750_n.jpg",
+  "career": {
+    "debut": 2014,
+    "teams": [
+      "台大機械",
+      "冷鋒"
+    ],
+    "totalSeasons": 11
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台大機械",
+      "number": "27",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 6,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 5,
+        "runs": 4,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 137,
+        "hits": 195,
+        "hr": 4,
+        "rbi": 69,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "台大機械",
+      "number": "27",
+      "batting": {
+        "games": 3,
+        "pa": 16,
+        "ab": 13,
+        "hits": 6,
+        "singles": 2,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 6,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 81,
+        "hits": 88,
+        "hr": 1248,
+        "rbi": 78,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "台大機械",
+      "number": "27",
+      "batting": {
+        "games": 3,
+        "pa": 7,
+        "ab": 7,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 485,
+        "hits": 420,
+        "hr": 1129,
+        "rbi": 1423,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "台大機械",
+      "number": "27",
+      "batting": {
+        "games": 6,
+        "pa": 20,
+        "ab": 15,
+        "hits": 10,
+        "singles": 6,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 8,
+        "bb": 8,
+        "so": 1,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 120,
+        "hits": 142,
+        "hr": 1388,
+        "rbi": 206,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "台大機械",
+      "number": "27",
+      "batting": {
+        "games": 7,
+        "pa": 27,
+        "ab": 22,
+        "hits": 10,
+        "singles": 5,
+        "doubles": 3,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 11,
+        "bb": 1,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 113,
+        "hits": 144,
+        "hr": 1438,
+        "rbi": 65,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台大機械",
+      "number": "27",
+      "batting": {
+        "games": 16,
+        "pa": 77,
+        "ab": 61,
+        "hits": 32,
+        "singles": 18,
+        "doubles": 8,
+        "triples": 2,
+        "hr": 4,
+        "rbi": 35,
+        "runs": 32,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 4,
+        "totalBases": 56
+      },
+      "rankings": {
+        "rc": 2,
+        "hits": 3,
+        "hr": 1,
+        "rbi": 2,
+        "avg": 4
+      }
+    },
+    {
+      "year": 2018,
+      "team": "冷鋒",
+      "number": "14",
+      "batting": {
+        "games": 12,
+        "pa": 49,
+        "ab": 43,
+        "hits": 24,
+        "singles": 14,
+        "doubles": 7,
+        "triples": 2,
+        "hr": 1,
+        "rbi": 17,
+        "runs": 19,
+        "bb": 2,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 38
+      },
+      "rankings": {
+        "rc": 19,
+        "hits": 20,
+        "hr": 30,
+        "rbi": 28,
+        "avg": 3
+      }
+    },
+    {
+      "year": 2017,
+      "team": "冷鋒",
+      "number": "COL058",
+      "batting": {
+        "games": 16,
+        "pa": 63,
+        "ab": 54,
+        "hits": 26,
+        "singles": 17,
+        "doubles": 6,
+        "triples": 1,
+        "hr": 2,
+        "rbi": 17,
+        "runs": 22,
+        "bb": 9,
+        "so": 5,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 40
+      },
+      "rankings": {
+        "rc": 23,
+        "hits": 21,
+        "hr": 15,
+        "rbi": 40,
+        "avg": 20
+      }
+    },
+    {
+      "year": 2016,
+      "team": "冷鋒",
+      "number": "COL058",
+      "batting": {
+        "games": 13,
+        "pa": 52,
+        "ab": 44,
+        "hits": 24,
+        "singles": 15,
+        "doubles": 8,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 17,
+        "runs": 22,
+        "bb": 3,
+        "so": 3,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 35
+      },
+      "rankings": {
+        "rc": 34,
+        "hits": 33,
+        "hr": 30,
+        "rbi": 40,
+        "avg": 7
+      }
+    },
+    {
+      "year": 2015,
+      "team": "冷鋒",
+      "number": "COL058",
+      "batting": {
+        "games": 14,
+        "pa": 58,
+        "ab": 49,
+        "hits": 24,
+        "singles": 15,
+        "doubles": 7,
+        "triples": 1,
+        "hr": 1,
+        "rbi": 18,
+        "runs": 19,
+        "bb": 6,
+        "so": 2,
+        "sb": 5,
+        "sf": 0,
+        "totalBases": 36
+      },
+      "rankings": {
+        "rc": 21,
+        "hits": 25,
+        "hr": 43,
+        "rbi": 34,
+        "avg": 12
+      }
+    },
+    {
+      "year": 2014,
+      "team": "冷鋒",
+      "number": "COL058",
+      "batting": {
+        "games": 15,
+        "pa": 70,
+        "ab": 59,
+        "hits": 27,
+        "singles": 12,
+        "doubles": 9,
+        "triples": 2,
+        "hr": 4,
+        "rbi": 24,
+        "runs": 24,
+        "bb": 1,
+        "so": 4,
+        "sb": 2,
+        "sf": 1,
+        "totalBases": 52
+      },
+      "rankings": {
+        "rc": 6,
+        "hits": 13,
+        "hr": 1,
+        "rbi": 9,
+        "avg": 16
+      }
+    }
+  ]
+}

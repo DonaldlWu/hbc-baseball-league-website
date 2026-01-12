@@ -1,0 +1,44 @@
+{
+  "id": "PMA033",
+  "code": "PMA033",
+  "name": "張景泉",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "戊戍本一家"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2016,
+      "team": "戊戍本一家",
+      "number": "PMA033",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 895,
+        "hits": 875,
+        "hr": 384,
+        "rbi": 826,
+        "avg": 349
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "NTM002",
+  "code": "NTM002",
+  "name": "陳則凱",
+  "photo": "",
+  "career": {
+    "debut": 2014,
+    "teams": [
+      "台大機械"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2016,
+      "team": "台大機械",
+      "number": "NTM002",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 688,
+        "hits": 670,
+        "hr": 169,
+        "rbi": 616,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "台大機械",
+      "number": "NTM002",
+      "batting": {
+        "games": 4,
+        "pa": 16,
+        "ab": 14,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 4,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 289,
+        "hits": 245,
+        "hr": 605,
+        "rbi": 304,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "台大機械",
+      "number": "NTM002",
+      "batting": {
+        "games": 5,
+        "pa": 22,
+        "ab": 16,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 6,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 316,
+        "hits": 405,
+        "hr": 470,
+        "rbi": 290,
+        "avg": 327
+      }
+    }
+  ]
+}

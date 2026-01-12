@@ -1,0 +1,44 @@
+{
+  "id": "CBC008",
+  "code": "CBC008",
+  "name": "劉安庭",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "日促會"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "日促會",
+      "number": "CBC008",
+      "batting": {
+        "games": 17,
+        "pa": 57,
+        "ab": 46,
+        "hits": 10,
+        "singles": 8,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 9,
+        "bb": 0,
+        "so": 19,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 210,
+        "hits": 169,
+        "hr": 855,
+        "rbi": 246,
+        "avg": 119
+      }
+    }
+  ]
+}

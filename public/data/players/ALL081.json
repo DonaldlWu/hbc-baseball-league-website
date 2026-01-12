@@ -1,0 +1,160 @@
+{
+  "id": "ALL081",
+  "code": "ALL081",
+  "name": "何旻剛",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "ALLSTAR"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "ALLSTAR",
+      "number": "55",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 846,
+        "hits": 789,
+        "hr": 337,
+        "rbi": 702,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ALLSTAR",
+      "number": "55",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 900,
+        "hits": 850,
+        "hr": 303,
+        "rbi": 784,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "ALLSTAR",
+      "number": "55",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1013,
+        "hits": 1574,
+        "hr": 986,
+        "rbi": 1491,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "ALLSTAR",
+      "number": "55",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 823,
+        "hits": 793,
+        "hr": 279,
+        "rbi": 726,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "ALLSTAR",
+      "number": "55",
+      "batting": {
+        "games": 7,
+        "pa": 29,
+        "ab": 21,
+        "hits": 13,
+        "singles": 8,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 9,
+        "bb": 0,
+        "so": 3,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 18
+      },
+      "rankings": {
+        "rc": 80,
+        "hits": 101,
+        "hr": 1485,
+        "rbi": 169,
+        "avg": 940
+      }
+    }
+  ]
+}

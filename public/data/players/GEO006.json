@@ -1,0 +1,44 @@
+{
+  "id": "GEO006",
+  "code": "GEO006",
+  "name": "吳世璋",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "台大地理OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2016,
+      "team": "台大地理OB",
+      "number": "GEO006",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 582,
+        "hits": 564,
+        "hr": 63,
+        "rbi": 510,
+        "avg": 349
+      }
+    }
+  ]
+}

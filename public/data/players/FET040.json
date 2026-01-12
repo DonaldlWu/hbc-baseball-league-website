@@ -1,0 +1,73 @@
+{
+  "id": "FET040",
+  "code": "FET040",
+  "name": "趙文德",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "FORCE"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "FORCE",
+      "number": "FET040",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 114,
+        "hits": 132,
+        "hr": 81,
+        "rbi": 197,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2009,
+      "team": "FORCE",
+      "number": "FET040",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 5,
+        "hits": 4,
+        "singles": 2,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 3,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 61,
+        "hits": 73,
+        "hr": 204,
+        "rbi": 53,
+        "avg": 450
+      }
+    }
+  ]
+}

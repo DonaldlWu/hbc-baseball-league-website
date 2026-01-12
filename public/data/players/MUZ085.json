@@ -1,0 +1,44 @@
+{
+  "id": "MUZ085",
+  "code": "MUZ085",
+  "name": "郭佾橋",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczN1lB2oKpORfBr8aGjpP6wYVs5creAD6ESUUlkqbA-e7PHkrgbkTDom1ujnc1Cb-w4byPHmayNA2puF0siYpPhB1G6T_aNN3tTFxqJFHV_voVla4yJQ26FDofq-wbD-vYaSBZo5VCpV3xUzebb_Hcmejw=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "木柵OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "木柵OB",
+      "number": "62",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 718,
+        "hits": 648,
+        "hr": 125,
+        "rbi": 594,
+        "avg": 1123
+      }
+    }
+  ]
+}

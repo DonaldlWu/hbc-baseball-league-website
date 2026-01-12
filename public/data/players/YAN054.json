@@ -1,0 +1,161 @@
+{
+  "id": "YAN054",
+  "code": "YAN054",
+  "name": "林思翰",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "ALLSTAR",
+      "陽明OB"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "ALLSTAR",
+      "number": "46",
+      "batting": {
+        "games": 3,
+        "pa": 4,
+        "ab": 4,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 3,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 335,
+        "hits": 279,
+        "hr": 1039,
+        "rbi": 225,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ALLSTAR",
+      "number": "46",
+      "batting": {
+        "games": 10,
+        "pa": 9,
+        "ab": 8,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 7,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1013,
+        "hits": 1666,
+        "hr": 1247,
+        "rbi": 1643,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "ALLSTAR",
+      "number": "46",
+      "batting": {
+        "games": 5,
+        "pa": 8,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 5,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 537,
+        "hits": 1660,
+        "hr": 1185,
+        "rbi": 1610,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "ALLSTAR",
+      "number": "46",
+      "batting": {
+        "games": 10,
+        "pa": 13,
+        "ab": 11,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 10,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 912,
+        "hits": 1676,
+        "hr": 1333,
+        "rbi": 1669,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2015,
+      "team": "陽明OB",
+      "number": "YAN054",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 625,
+        "hits": 521,
+        "hr": 60,
+        "rbi": 478,
+        "avg": 624
+      }
+    }
+  ]
+}

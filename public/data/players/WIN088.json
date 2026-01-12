@@ -1,0 +1,102 @@
+{
+  "id": "WIN088",
+  "code": "WIN088",
+  "name": "林彥廷",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "颶風"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "颶風",
+      "number": "42",
+      "batting": {
+        "games": 2,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 3,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 848,
+        "hits": 1315,
+        "hr": 940,
+        "rbi": 1266,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "颶風",
+      "number": "42",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 3,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 3,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 334,
+        "hits": 273,
+        "hr": 1005,
+        "rbi": 1357,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "颶風",
+      "number": "42",
+      "batting": {
+        "games": 13,
+        "pa": 20,
+        "ab": 18,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 12,
+        "so": 7,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 408,
+        "hits": 339,
+        "hr": 1399,
+        "rbi": 378,
+        "avg": 1022
+      }
+    }
+  ]
+}

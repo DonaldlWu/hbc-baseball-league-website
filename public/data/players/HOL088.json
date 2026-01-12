@@ -1,0 +1,102 @@
+{
+  "id": "HOL088",
+  "code": "HOL088",
+  "name": "蔡宗諺",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "HOLYBAT",
+      "number": "66",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 672,
+        "hits": 623,
+        "hr": 242,
+        "rbi": 572,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "HOLYBAT",
+      "number": "66",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 730,
+        "hits": 689,
+        "hr": 237,
+        "rbi": 602,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "HOLYBAT",
+      "number": "66",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 989,
+        "hits": 1604,
+        "hr": 1079,
+        "rbi": 1550,
+        "avg": 1022
+      }
+    }
+  ]
+}

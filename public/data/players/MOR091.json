@@ -1,0 +1,74 @@
+{
+  "id": "MOR091",
+  "code": "MOR091",
+  "name": "林凱堉",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPzYaoAJc108RK2tU1p32OxHeZlW0bdv-qfN6-fSRSKF11-6EM5mq1PVlF0Eu6YXgSLg6iZFrON82kp90YCZ-ArNaF1MyAu4cs10BC5WbD6K94S30c2lkuFCEt0gWUJqs_NJdV0Lcuum2VgRqTEk3OT=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "莫拉克",
+      "京盛宇"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "莫拉克",
+      "number": "56",
+      "batting": {
+        "games": 8,
+        "pa": 28,
+        "ab": 25,
+        "hits": 7,
+        "singles": 5,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 9,
+        "bb": 9,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 212,
+        "hits": 184,
+        "hr": 1380,
+        "rbi": 144,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "京盛宇",
+      "number": "56",
+      "batting": {
+        "games": 4,
+        "pa": 11,
+        "ab": 9,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 5,
+        "bb": 2,
+        "so": 1,
+        "sb": 4,
+        "sf": 1,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 106,
+        "hits": 122,
+        "hr": 1159,
+        "rbi": 312,
+        "avg": 903
+      }
+    }
+  ]
+}

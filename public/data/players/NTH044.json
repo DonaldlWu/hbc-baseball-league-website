@@ -1,0 +1,44 @@
+{
+  "id": "NTH044",
+  "code": "NTH044",
+  "name": "朱柏翰",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMZlIEHQMTgOxEcyKJ2Wpw4RrcgEcssNrY201UHoNzy3S3L8fgv5iPfd9mRb1lfTNwFAg9j2ekMNuxgtpZJ5Ix4tcUlRfQXkEfm9R5Gzv6m9ZUppZavZcx1cZZwJAhGQA6XFCUFx9kktmQVv4Um0QnW=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "57",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 643,
+        "hits": 903,
+        "hr": 380,
+        "rbi": 849,
+        "avg": 1123
+      }
+    }
+  ]
+}

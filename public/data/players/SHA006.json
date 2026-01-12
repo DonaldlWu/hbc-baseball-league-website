@@ -1,0 +1,44 @@
+{
+  "id": "SHA006",
+  "code": "SHA006",
+  "name": "林泰立",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPz2ONKv037IUsAp_yVDgbN4IrPNRAVz7Q5csDHPqGjeK9B9eUDUESHRHcEQiEGOXjKeK32hGxNbmTZJj7BzgKA0qE50EpEEQPSlgmRhjP9gdDeZ-6jD8CKLiCxTpGeJElhb6OiOPOIv35AmxSEUh0z=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "少林棒球隊"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "少林棒球隊",
+      "number": "7",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 580,
+        "hits": 497,
+        "hr": 1056,
+        "rbi": 412,
+        "avg": 1123
+      }
+    }
+  ]
+}

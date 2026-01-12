@@ -1,0 +1,73 @@
+{
+  "id": "SCO022",
+  "code": "SCO022",
+  "name": "前本兼辰",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNU8ArrJrU_nbVukx85rTnOl_6NAz88jE5ldipYXn9Y9n691hUMYV1C8HV9VBMnj01dcm9MXW2YmXr-5i7TC9qxJkTzrCKHsMDPGhwaw6ECoS3DGb6B9f-vm-tbYKCEZRM979Atdp_-bdmMgN0M9UjICA=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "25",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 684,
+        "hits": 600,
+        "hr": 77,
+        "rbi": 546,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "145",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 511,
+        "hits": 448,
+        "hr": 36,
+        "rbi": 381,
+        "avg": 903
+      }
+    }
+  ]
+}

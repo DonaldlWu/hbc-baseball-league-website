@@ -1,0 +1,44 @@
+{
+  "id": "MUZ054",
+  "code": "MUZ054",
+  "name": "劉科宏",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "木柵OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "木柵OB",
+      "number": "39",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 587,
+        "hits": 551,
+        "hr": 37,
+        "rbi": 484,
+        "avg": 917
+      }
+    }
+  ]
+}

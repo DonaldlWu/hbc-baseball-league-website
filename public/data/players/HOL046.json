@@ -1,0 +1,73 @@
+{
+  "id": "HOL046",
+  "code": "HOL046",
+  "name": "江明達",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "HOLYBAT",
+      "number": "HOL046",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 8,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 425,
+        "hits": 379,
+        "hr": 613,
+        "rbi": 375,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "HOLYBAT",
+      "number": "HOL046",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 7,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 939,
+        "hits": 937,
+        "hr": 528,
+        "rbi": 916,
+        "avg": 349
+      }
+    }
+  ]
+}

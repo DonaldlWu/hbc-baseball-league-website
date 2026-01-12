@@ -1,0 +1,73 @@
+{
+  "id": "NTO042",
+  "code": "NTO042",
+  "name": "張仕勛",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "海洋大學",
+      "number": "32",
+      "batting": {
+        "games": 5,
+        "pa": 12,
+        "ab": 12,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 476,
+        "hits": 372,
+        "hr": 1288,
+        "rbi": 1655,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "海洋大學",
+      "number": "32",
+      "batting": {
+        "games": 5,
+        "pa": 9,
+        "ab": 9,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 457,
+        "hits": 382,
+        "hr": 1222,
+        "rbi": 1626,
+        "avg": 1101
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "SWD020",
+  "code": "SWD020",
+  "name": "龔敬哲",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczM5RVRYf2_wLOtp2ovvqtDfoyiMTreXo3ouE0_dfxAEqDAnBlTn_dvchpNYmIMjehkSH7tMldq5mYfjEqiONpG0-q4U7zT15FgbksXDgxGcvgQ4SX2TMNB6UpUUh7IdEEW1XnObIgJHbKS2_ah66eFoOA=w510-h733",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "甜心暴龍"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "甜心暴龍",
+      "number": "1",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 584,
+        "hits": 1456,
+        "hr": 965,
+        "rbi": 1410,
+        "avg": 1123
+      }
+    }
+  ]
+}

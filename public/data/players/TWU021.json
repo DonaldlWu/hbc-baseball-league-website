@@ -1,0 +1,44 @@
+{
+  "id": "TWU021",
+  "code": "TWU021",
+  "name": "李幸曉",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczM7MoEcNAdpaib-u_HrHyJkyhWhhtO30TGGRNWHmu4YU3k_U5UIMwm7Ugjur88oii1d1IYeda-FhE6s5TgtMfVqhgtQHqgemsaPVPhid4is_9yMXI7NAlJskbRuZhECbaYX0GAgEmKt1mvYgOsyZ1hv=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "43",
+      "batting": {
+        "games": 8,
+        "pa": 4,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 22,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 892,
+        "hits": 1360,
+        "hr": 1005,
+        "rbi": 1312,
+        "avg": 903
+      }
+    }
+  ]
+}

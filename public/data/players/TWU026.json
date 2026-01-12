@@ -1,0 +1,44 @@
+{
+  "id": "TWU026",
+  "code": "TWU026",
+  "name": "陳湧勗",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMOmrDAzIb7eZ_4Z5OmCKBlZSf_0kU8X1J25X13Z-S-xH7QlDwvLX_C72aSF2UCnFLbN0Dj40VVgXRe0rMN1etzq9C3PydvqZFeK1lo40s5FkXT6j3CXoiEwQ4ANrWGg0VhX_1YJxElFKH1oQR0oWKD=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "99",
+      "batting": {
+        "games": 4,
+        "pa": 13,
+        "ab": 11,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 0,
+        "so": 5,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 232,
+        "hits": 206,
+        "hr": 1195,
+        "rbi": 208,
+        "avg": 903
+      }
+    }
+  ]
+}

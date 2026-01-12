@@ -1,0 +1,73 @@
+{
+  "id": "NTP031",
+  "code": "NTP031",
+  "name": "梁凌佳",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "台北大學"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "台北大學",
+      "number": "27",
+      "batting": {
+        "games": 8,
+        "pa": 24,
+        "ab": 17,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 6,
+        "bb": 0,
+        "so": 8,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 306,
+        "hits": 400,
+        "hr": 1438,
+        "rbi": 386,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "台北大學",
+      "number": "35",
+      "batting": {
+        "games": 3,
+        "pa": 7,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 494,
+        "hits": 560,
+        "hr": 1163,
+        "rbi": 344,
+        "avg": 1101
+      }
+    }
+  ]
+}

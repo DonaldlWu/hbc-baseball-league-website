@@ -1,0 +1,44 @@
+{
+  "id": "BUD027",
+  "code": "BUD027",
+  "name": "陳廷綸",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "The Buddies"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "The Buddies",
+      "number": "11",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 548,
+        "hits": 502,
+        "hr": 1132,
+        "rbi": 1584,
+        "avg": 1022
+      }
+    }
+  ]
+}

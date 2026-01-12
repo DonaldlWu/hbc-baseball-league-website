@@ -1,0 +1,44 @@
+{
+  "id": "YAN112",
+  "code": "YAN112",
+  "name": "陳家熏",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOrxJd020k0kbTcwyAIq0vTPLzEzPXhiLnBPSMLMUGAyFuAVkRfgd9ZviuhcAtTiAq6OCnZC9G81CesZ0Cj6sblMdV3rgA1iDP59jp1hPYqZ6R-PubRlW5wIeDua_lCrkLA29LeCHxN-fK3LLfQJbh2=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "陽明OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "陽明OB",
+      "number": "11",
+      "batting": {
+        "games": 6,
+        "pa": 14,
+        "ab": 11,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 313,
+        "hits": 328,
+        "hr": 1225,
+        "rbi": 331,
+        "avg": 1123
+      }
+    }
+  ]
+}

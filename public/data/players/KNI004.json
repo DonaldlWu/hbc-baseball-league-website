@@ -1,0 +1,44 @@
+{
+  "id": "KNI004",
+  "code": "KNI004",
+  "name": "陳士軒",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "聖騎士"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "聖騎士",
+      "number": "7",
+      "batting": {
+        "games": 15,
+        "pa": 54,
+        "ab": 42,
+        "hits": 11,
+        "singles": 10,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 11,
+        "bb": 0,
+        "so": 14,
+        "sb": 7,
+        "sf": 1,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 120,
+        "hits": 140,
+        "hr": 1614,
+        "rbi": 146,
+        "avg": 99
+      }
+    }
+  ]
+}

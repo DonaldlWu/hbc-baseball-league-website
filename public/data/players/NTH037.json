@@ -1,0 +1,44 @@
+{
+  "id": "NTH037",
+  "code": "NTH037",
+  "name": "周育文",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNrBgwdbeFWWiVTnn7wXY8YqnejNuH5o68QzhBEPdxyBQyrJ3Yf6vGlurZAb8-HZk3uG_aW7_ilSbkXXiB-rRG0_DwSAXysyFB8pWJejUojDLk87qx-FiZAufex2hzLM5Tz4UjJ2CE-lWVxAmf99NEW=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "129",
+      "batting": {
+        "games": 4,
+        "pa": 11,
+        "ab": 10,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 378,
+        "hits": 323,
+        "hr": 1197,
+        "rbi": 461,
+        "avg": 1123
+      }
+    }
+  ]
+}

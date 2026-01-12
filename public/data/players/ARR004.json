@@ -1,0 +1,131 @@
+{
+  "id": "ARR004",
+  "code": "ARR004",
+  "name": "劉彥德",
+  "photo": "",
+  "career": {
+    "debut": 2012,
+    "teams": [
+      "亞克鷹"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "亞克鷹",
+      "number": "ARR004",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 726,
+        "hits": 522,
+        "hr": 61,
+        "rbi": 479,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "亞克鷹",
+      "number": "ARR004",
+      "batting": {
+        "games": 5,
+        "pa": 14,
+        "ab": 14,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 362,
+        "hits": 283,
+        "hr": 406,
+        "rbi": 660,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "亞克鷹",
+      "number": "ARR004",
+      "batting": {
+        "games": 9,
+        "pa": 32,
+        "ab": 25,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 6,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 153,
+        "hits": 156,
+        "hr": 399,
+        "rbi": 111,
+        "avg": 323
+      }
+    },
+    {
+      "year": 2012,
+      "team": "亞克鷹",
+      "number": "ARR004",
+      "batting": {
+        "games": 8,
+        "pa": 22,
+        "ab": 15,
+        "hits": 7,
+        "singles": 5,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 3,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 69,
+        "hits": 97,
+        "hr": 254,
+        "rbi": 78,
+        "avg": 358
+      }
+    }
+  ]
+}

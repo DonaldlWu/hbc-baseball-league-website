@@ -1,0 +1,44 @@
+{
+  "id": "NTE027",
+  "code": "NTE027",
+  "name": "鄭明哲",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "台大經濟OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "台大經濟OB",
+      "number": "NTE027",
+      "batting": {
+        "games": 3,
+        "pa": 4,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 411,
+        "hits": 468,
+        "hr": 421,
+        "rbi": 338,
+        "avg": 624
+      }
+    }
+  ]
+}

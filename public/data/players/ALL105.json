@@ -1,0 +1,73 @@
+{
+  "id": "ALL105",
+  "code": "ALL105",
+  "name": "江育鴻",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "ALLSTAR"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "ALLSTAR",
+      "number": "49",
+      "batting": {
+        "games": 4,
+        "pa": 15,
+        "ab": 12,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 4,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 145,
+        "hits": 137,
+        "hr": 1279,
+        "rbi": 356,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ALLSTAR",
+      "number": "49",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 8,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 0,
+        "bb": 8,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 488,
+        "hits": 444,
+        "hr": 1243,
+        "rbi": 346,
+        "avg": 1022
+      }
+    }
+  ]
+}

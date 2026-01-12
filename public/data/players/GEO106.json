@@ -1,0 +1,73 @@
+{
+  "id": "GEO106",
+  "code": "GEO106",
+  "name": "黃恩賜",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOpkfIna8LfKidaMbbRxpAOB652BaSwt-E8bGHfKyq4PfqQMUhQcwAMyxBUa8x0UUjiPBHRLklVGmWs1vYDOAlx4xSoOwsVI4jqdvwrd15TMMv5L8YYcliWI9p3X6s1-DRoGdhROBKSHb5bFkPmsffaeg=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "十號馬"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "十號馬",
+      "number": "198",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 737,
+        "hits": 555,
+        "hr": 32,
+        "rbi": 501,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "十號馬",
+      "number": "105",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 477,
+        "hits": 1353,
+        "hr": 986,
+        "rbi": 1300,
+        "avg": 903
+      }
+    }
+  ]
+}

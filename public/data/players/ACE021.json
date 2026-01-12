@@ -1,0 +1,44 @@
+{
+  "id": "ACE021",
+  "code": "ACE021",
+  "name": "余亮寬",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczO_HlEehAzwMyKYCCzNOdgeFOCIXXTSfL01ih7QzEqnLFcOpTR-AGwhg7FwI1Y3azSJTcV3KF9N6oqZLVkw5YKVCRuSAve35QLY7jnvQYIhmu8k1X5Q-eYDuRZ-kHg-jh6aNWGdWmWp42u3D7b8D0PvaQ=w772-h917-s-no-gm?authuser=0",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "ACES"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "ACES",
+      "number": "39",
+      "batting": {
+        "games": 15,
+        "pa": 53,
+        "ab": 41,
+        "hits": 14,
+        "singles": 10,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 16,
+        "runs": 18,
+        "bb": 1,
+        "so": 3,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 18
+      },
+      "rankings": {
+        "rc": 54,
+        "hits": 59,
+        "hr": 1506,
+        "rbi": 18,
+        "avg": 53
+      }
+    }
+  ]
+}

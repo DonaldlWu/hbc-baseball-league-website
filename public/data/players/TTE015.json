@@ -1,0 +1,102 @@
+{
+  "id": "TTE015",
+  "code": "TTE015",
+  "name": "潘丞皓",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "北科大"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "北科大",
+      "number": "TTE015",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 930,
+        "hits": 969,
+        "hr": 497,
+        "rbi": 924,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "北科大",
+      "number": "TTE015",
+      "batting": {
+        "games": 18,
+        "pa": 77,
+        "ab": 64,
+        "hits": 24,
+        "singles": 20,
+        "doubles": 1,
+        "triples": 3,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 18,
+        "bb": 1,
+        "so": 21,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 31
+      },
+      "rankings": {
+        "rc": 58,
+        "hits": 38,
+        "hr": 938,
+        "rbi": 113,
+        "avg": 59
+      }
+    },
+    {
+      "year": 2015,
+      "team": "北科大",
+      "number": "TTE015",
+      "batting": {
+        "games": 12,
+        "pa": 38,
+        "ab": 34,
+        "hits": 9,
+        "singles": 5,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 2,
+        "rbi": 8,
+        "runs": 7,
+        "bb": 0,
+        "so": 14,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 192,
+        "hits": 182,
+        "hr": 6,
+        "rbi": 146,
+        "avg": 624
+      }
+    }
+  ]
+}

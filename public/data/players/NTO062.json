@@ -1,0 +1,102 @@
+{
+  "id": "NTO062",
+  "code": "NTO062",
+  "name": "蔡沂辰",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "海洋大學",
+      "number": "102",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 462,
+        "hits": 416,
+        "hr": 35,
+        "rbi": 365,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "海洋大學",
+      "number": "18",
+      "batting": {
+        "games": 8,
+        "pa": 28,
+        "ab": 24,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 6,
+        "bb": 0,
+        "so": 2,
+        "sb": 5,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 179,
+        "hits": 169,
+        "hr": 1418,
+        "rbi": 106,
+        "avg": 95
+      }
+    },
+    {
+      "year": 2021,
+      "team": "海洋大學",
+      "number": "18",
+      "batting": {
+        "games": 9,
+        "pa": 15,
+        "ab": 13,
+        "hits": 7,
+        "singles": 6,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 4,
+        "bb": 19,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 226,
+        "hits": 205,
+        "hr": 1334,
+        "rbi": 283,
+        "avg": 1022
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "NTO080",
+  "code": "NTO080",
+  "name": "蔡忠翰",
+  "photo": "",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "海洋大學",
+      "number": "10",
+      "batting": {
+        "games": 6,
+        "pa": 14,
+        "ab": 14,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 4,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 261,
+        "hits": 150,
+        "hr": 1228,
+        "rbi": 224,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "海洋大學",
+      "number": "10",
+      "batting": {
+        "games": 8,
+        "pa": 9,
+        "ab": 7,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 5,
+        "bb": 9,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 314,
+        "hits": 300,
+        "hr": 1154,
+        "rbi": 239,
+        "avg": 943
+      }
+    }
+  ]
+}

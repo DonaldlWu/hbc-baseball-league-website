@@ -1,0 +1,44 @@
+{
+  "id": "BLA027",
+  "code": "BLA027",
+  "name": "陳冠傑",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "黑名單"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2009,
+      "team": "黑名單",
+      "number": "BLA027",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 171,
+        "hits": 294,
+        "hr": 210,
+        "rbi": 291,
+        "avg": 450
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "SHU036",
+  "code": "SHU036",
+  "name": "蔣承佑",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMZVRjLELbDrQbiK0sMZM9VSHnGXzuhwmQYiAlJhg14Xx0WtH5lWMDXTB6G67lyMeyk2PrH17hh_ceY7hGpezZ1SQsUE8U_oRHrDDkSG3ltIUj7cQTK62lWUVMHNIKMZt3r0v4PxxZPzAxPqTutil3R=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "37",
+      "batting": {
+        "games": 2,
+        "pa": 7,
+        "ab": 5,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 340,
+        "hits": 383,
+        "hr": 1100,
+        "rbi": 1485,
+        "avg": 1123
+      }
+    }
+  ]
+}

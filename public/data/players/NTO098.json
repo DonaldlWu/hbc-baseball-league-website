@@ -1,0 +1,44 @@
+{
+  "id": "NTO098",
+  "code": "NTO098",
+  "name": "郭宇晟",
+  "photo": "https://lh3.googleusercontent.com/pw/AIL4fc_hwXJPCHIbCF9Kxz0JYAfY8qeraWotMhD4BlsqX6vgNZHuTViPAZSfGsVG8PkMXZz4g1LcRAQYnrsdiQk3UYjTzDNvUd1SS0xynjNS-6VI5O8q8HEqnnHIENMPY78H8zPWdyueb8qvjaN_NPCAKTEI=w310-h335-no",
+  "career": {
+    "debut": 2023,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "海洋大學",
+      "number": "21",
+      "batting": {
+        "games": 6,
+        "pa": 13,
+        "ab": 7,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 134,
+        "hits": 197,
+        "hr": 1189,
+        "rbi": 211,
+        "avg": 896
+      }
+    }
+  ]
+}

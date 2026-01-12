@@ -1,0 +1,44 @@
+{
+  "id": "NTO001",
+  "code": "NTO001",
+  "name": "廖晟圻",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "海洋大學",
+      "number": "5",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 658,
+        "hits": 636,
+        "hr": 46,
+        "rbi": 552,
+        "avg": 1101
+      }
+    }
+  ]
+}

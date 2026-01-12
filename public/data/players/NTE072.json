@@ -1,0 +1,73 @@
+{
+  "id": "NTE072",
+  "code": "NTE072",
+  "name": "杜易寰",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "台大經濟OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "台大經濟OB",
+      "number": "NTE072",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 549,
+        "hits": 935,
+        "hr": 434,
+        "rbi": 880,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "台大經濟OB",
+      "number": "NTE072",
+      "batting": {
+        "games": 7,
+        "pa": 26,
+        "ab": 19,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 14,
+        "bb": 0,
+        "so": 2,
+        "sb": 5,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 211,
+        "hits": 274,
+        "hr": 723,
+        "rbi": 301,
+        "avg": 349
+      }
+    }
+  ]
+}

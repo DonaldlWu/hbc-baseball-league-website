@@ -1,0 +1,191 @@
+{
+  "id": "ALL101",
+  "code": "ALL101",
+  "name": "郭欽豪",
+  "photo": "https://lh3.googleusercontent.com/pw/ACtC-3cULntMV2oTV_0yrE17CAnYvPHBkhYyM-46Ulq7VRwFGEoJJynjYZ0QRpzGqh8hkRwl11KiXg94oz0xVtqQefgwOm9VTJ_-BYcH74EpKw3BH67agf1e3JiXivRZ-SIenuZCaKFxp7YFLEb6KFp2Qh_Vfw=w310-h335-no",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "逆轉星球",
+      "台大機械",
+      "ALLSTAR"
+    ],
+    "totalSeasons": 6
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "逆轉星球",
+      "number": "2",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 585,
+        "hits": 1450,
+        "hr": 959,
+        "rbi": 1404,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "逆轉星球",
+      "number": "2",
+      "batting": {
+        "games": 5,
+        "pa": 16,
+        "ab": 13,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 110,
+        "hits": 101,
+        "hr": 1244,
+        "rbi": 339,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "台大機械",
+      "number": "19",
+      "batting": {
+        "games": 3,
+        "pa": 10,
+        "ab": 7,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 4,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 165,
+        "hits": 183,
+        "hr": 1139,
+        "rbi": 90,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "台大機械",
+      "number": "19",
+      "batting": {
+        "games": 8,
+        "pa": 21,
+        "ab": 15,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 5,
+        "bb": 0,
+        "so": 5,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 253,
+        "hits": 338,
+        "hr": 1344,
+        "rbi": 1468,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ALLSTAR",
+      "number": "41",
+      "batting": {
+        "games": 9,
+        "pa": 32,
+        "ab": 20,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 6,
+        "bb": 2,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 320,
+        "hits": 571,
+        "hr": 1508,
+        "rbi": 397,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "ALLSTAR",
+      "number": "41",
+      "batting": {
+        "games": 8,
+        "pa": 18,
+        "ab": 12,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 308,
+        "hits": 409,
+        "hr": 1344,
+        "rbi": 292,
+        "avg": 1101
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "MUZ001",
+  "code": "MUZ001",
+  "name": "陳昊",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "木柵OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "木柵OB",
+      "number": "MUZ001",
+      "batting": {
+        "games": 3,
+        "pa": 6,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 443,
+        "hits": 526,
+        "hr": 552,
+        "rbi": 961,
+        "avg": 340
+      }
+    }
+  ]
+}

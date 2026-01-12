@@ -1,0 +1,276 @@
+{
+  "id": "ROO023",
+  "code": "ROO023",
+  "name": "戴學境",
+  "photo": "",
+  "career": {
+    "debut": 2012,
+    "teams": [
+      "ROOKIES"
+    ],
+    "totalSeasons": 9
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "ROOKIES",
+      "number": "52",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 881,
+        "hits": 857,
+        "hr": 267,
+        "rbi": 773,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "ROOKIES",
+      "number": "52",
+      "batting": {
+        "games": 2,
+        "pa": 7,
+        "ab": 6,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 408,
+        "hits": 420,
+        "hr": 1236,
+        "rbi": 327,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "ROOKIES",
+      "number": "52",
+      "batting": {
+        "games": 8,
+        "pa": 29,
+        "ab": 21,
+        "hits": 10,
+        "singles": 4,
+        "doubles": 3,
+        "triples": 2,
+        "hr": 1,
+        "rbi": 10,
+        "runs": 7,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 20
+      },
+      "rankings": {
+        "rc": 85,
+        "hits": 151,
+        "hr": 17,
+        "rbi": 82,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "ROOKIES",
+      "number": "ROO023",
+      "batting": {
+        "games": 14,
+        "pa": 49,
+        "ab": 36,
+        "hits": 17,
+        "singles": 9,
+        "doubles": 6,
+        "triples": 1,
+        "hr": 1,
+        "rbi": 14,
+        "runs": 18,
+        "bb": 2,
+        "so": 7,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 28
+      },
+      "rankings": {
+        "rc": 47,
+        "hits": 75,
+        "hr": 41,
+        "rbi": 61,
+        "avg": 24
+      }
+    },
+    {
+      "year": 2016,
+      "team": "ROOKIES",
+      "number": "ROO023",
+      "batting": {
+        "games": 15,
+        "pa": 66,
+        "ab": 58,
+        "hits": 29,
+        "singles": 18,
+        "doubles": 10,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 30,
+        "runs": 24,
+        "bb": 0,
+        "so": 3,
+        "sb": 2,
+        "sf": 2,
+        "totalBases": 42
+      },
+      "rankings": {
+        "rc": 23,
+        "hits": 14,
+        "hr": 37,
+        "rbi": 7,
+        "avg": 14
+      }
+    },
+    {
+      "year": 2015,
+      "team": "ROOKIES",
+      "number": "ROO023",
+      "batting": {
+        "games": 17,
+        "pa": 51,
+        "ab": 46,
+        "hits": 15,
+        "singles": 12,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 9,
+        "bb": 2,
+        "so": 6,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 18
+      },
+      "rankings": {
+        "rc": 142,
+        "hits": 92,
+        "hr": 835,
+        "rbi": 110,
+        "avg": 76
+      }
+    },
+    {
+      "year": 2014,
+      "team": "ROOKIES",
+      "number": "ROO023",
+      "batting": {
+        "games": 13,
+        "pa": 58,
+        "ab": 53,
+        "hits": 24,
+        "singles": 16,
+        "doubles": 7,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 16,
+        "runs": 21,
+        "bb": 0,
+        "so": 8,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 34
+      },
+      "rankings": {
+        "rc": 28,
+        "hits": 21,
+        "hr": 19,
+        "rbi": 31,
+        "avg": 19
+      }
+    },
+    {
+      "year": 2013,
+      "team": "ROOKIES",
+      "number": "ROO023",
+      "batting": {
+        "games": 7,
+        "pa": 30,
+        "ab": 28,
+        "hits": 11,
+        "singles": 6,
+        "doubles": 4,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 10,
+        "bb": 14,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 76,
+        "hits": 74,
+        "hr": 387,
+        "rbi": 54,
+        "avg": 323
+      }
+    },
+    {
+      "year": 2012,
+      "team": "ROOKIES",
+      "number": "ROO023",
+      "batting": {
+        "games": 5,
+        "pa": 24,
+        "ab": 23,
+        "hits": 11,
+        "singles": 5,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 8,
+        "runs": 6,
+        "bb": 7,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 19
+      },
+      "rankings": {
+        "rc": 44,
+        "hits": 54,
+        "hr": 8,
+        "rbi": 53,
+        "avg": 358
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "EAG138",
+  "code": "EAG138",
+  "name": "楊譯淯",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOtoNO3yTIuGMksfmf4b1LBOWCmNz6Wic7M9j8FbVAiICODXdhc41T8W12WvIgExiE6-dA7SBazbtEm2ox8WE5UsV2KVmKxVYw_PRtt_h9sj9Cw2YYkYEgmxu8mDVl2KPFw3u-D7j-Zhut58DK3lkI=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "火把老鷹",
+      "number": "69",
+      "batting": {
+        "games": 3,
+        "pa": 15,
+        "ab": 13,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 8,
+        "bb": 1,
+        "so": 0,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 221,
+        "hits": 224,
+        "hr": 1243,
+        "rbi": 162,
+        "avg": 1123
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "NAN068",
+  "code": "NAN068",
+  "name": "蔡睿展",
+  "photo": "",
+  "career": {
+    "debut": 2012,
+    "teams": [
+      "南港高工OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2012,
+      "team": "南港高工OB",
+      "number": "NAN068",
+      "batting": {
+        "games": 3,
+        "pa": 6,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 345,
+        "hits": 351,
+        "hr": 170,
+        "rbi": 342,
+        "avg": 358
+      }
+    }
+  ]
+}

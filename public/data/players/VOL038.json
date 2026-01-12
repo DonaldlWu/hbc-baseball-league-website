@@ -1,0 +1,44 @@
+{
+  "id": "VOL038",
+  "code": "VOL038",
+  "name": "左梧",
+  "photo": "",
+  "career": {
+    "debut": 2010,
+    "teams": [
+      "志願者"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "志願者",
+      "number": "VOL038",
+      "batting": {
+        "games": 3,
+        "pa": 5,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 194,
+        "hits": 212,
+        "hr": 99,
+        "rbi": 206,
+        "avg": 450
+      }
+    }
+  ]
+}

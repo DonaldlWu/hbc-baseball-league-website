@@ -1,0 +1,74 @@
+{
+  "id": "PMA069",
+  "code": "PMA069",
+  "name": "方彥皓",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "台北大學",
+      "戊戍本一家"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "台北大學",
+      "number": "23",
+      "batting": {
+        "games": 7,
+        "pa": 18,
+        "ab": 14,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 5,
+        "bb": 12,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 300,
+        "hits": 331,
+        "hr": 1366,
+        "rbi": 371,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "戊戍本一家",
+      "number": "4",
+      "batting": {
+        "games": 10,
+        "pa": 34,
+        "ab": 31,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 10,
+        "bb": 10,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 359,
+        "hits": 276,
+        "hr": 1508,
+        "rbi": 211,
+        "avg": 1101
+      }
+    }
+  ]
+}

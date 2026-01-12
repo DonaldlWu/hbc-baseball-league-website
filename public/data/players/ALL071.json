@@ -1,0 +1,132 @@
+{
+  "id": "ALL071",
+  "code": "ALL071",
+  "name": "陳俊瑋",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "冷鋒",
+      "ALLSTAR"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "冷鋒",
+      "number": "95",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 808,
+        "hits": 790,
+        "hr": 288,
+        "rbi": 728,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "冷鋒",
+      "number": "ALL071",
+      "batting": {
+        "games": 3,
+        "pa": 13,
+        "ab": 11,
+        "hits": 6,
+        "singles": 3,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 4,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 214,
+        "hits": 247,
+        "hr": 677,
+        "rbi": 200,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "ALLSTAR",
+      "number": "ALL071",
+      "batting": {
+        "games": 9,
+        "pa": 29,
+        "ab": 25,
+        "hits": 13,
+        "singles": 7,
+        "doubles": 6,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 11,
+        "bb": 0,
+        "so": 6,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 19
+      },
+      "rankings": {
+        "rc": 102,
+        "hits": 128,
+        "hr": 749,
+        "rbi": 218,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "ALLSTAR",
+      "number": "ALL071",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 369,
+        "hits": 390,
+        "hr": 435,
+        "rbi": 409,
+        "avg": 624
+      }
+    }
+  ]
+}

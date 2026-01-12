@@ -1,0 +1,44 @@
+{
+  "id": "YAN105",
+  "code": "YAN105",
+  "name": "游少萌",
+  "photo": "https://lh3.googleusercontent.com/pw/AIL4fc-xKLqxdTxZ0nznTxkiUjw7LYfDT1CrHOihiqg3xf2i0vZV_Eug_ktGwJYZgerveesEkIzN5HCWnMTpSC3QHtalkZybQ0UVw7Sphm0a_w2Wzcz9sP6P1HRrswupwmmwdxZWhtfE2fNgMgd7Cvxm8cKk=w310-h335-no",
+  "career": {
+    "debut": 2023,
+    "teams": [
+      "陽明OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "陽明OB",
+      "number": "111",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 874,
+        "hits": 1345,
+        "hr": 989,
+        "rbi": 1307,
+        "avg": 896
+      }
+    }
+  ]
+}

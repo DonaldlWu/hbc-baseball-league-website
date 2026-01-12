@@ -1,0 +1,44 @@
+{
+  "id": "KNI035",
+  "code": "KNI035",
+  "name": "陳坊宇",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "聖騎士"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "聖騎士",
+      "number": "106",
+      "batting": {
+        "games": 5,
+        "pa": 14,
+        "ab": 10,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 1,
+        "bb": 0,
+        "so": 5,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 435,
+        "hits": 482,
+        "hr": 1294,
+        "rbi": 188,
+        "avg": 1101
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "SHU017",
+  "code": "SHU017",
+  "name": "蔡旻燁",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNmIscXrCgHAiWMyJ2nKkkFLNscRPvn9iCMYLjnuUqRMLYB8xHbpEUntTgo5xg5XlzGkk_rgG3ZgqXZUl35nRv2GXRP8ckW1lXM7w4FF0YsBsx_OlYLxcWZlPFhDTig99ynS_4OHzNT6RV7y0xPkSRF=w150-h190-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "世新超乙組",
+      "number": "99",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 853,
+        "hits": 1283,
+        "hr": 876,
+        "rbi": 1218,
+        "avg": 903
+      }
+    }
+  ]
+}

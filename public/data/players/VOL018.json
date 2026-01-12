@@ -1,0 +1,44 @@
+{
+  "id": "VOL018",
+  "code": "VOL018",
+  "name": "章余任",
+  "photo": "",
+  "career": {
+    "debut": 2010,
+    "teams": [
+      "志願者"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "志願者",
+      "number": "VOL018",
+      "batting": {
+        "games": 21,
+        "pa": 81,
+        "ab": 62,
+        "hits": 19,
+        "singles": 15,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 17,
+        "bb": 7,
+        "so": 12,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 24
+      },
+      "rankings": {
+        "rc": 18,
+        "hits": 20,
+        "hr": 211,
+        "rbi": 78,
+        "avg": 32
+      }
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "id": "HUA009",
+  "code": "HUA009",
+  "name": "孫兆逸",
+  "photo": "https://lh3.googleusercontent.com/74G8VcS8bQXZ8zs2NS0w-hykBC_ETylyzGDaCEBx1kN2Iha0NebUjb38lefkfnxyjHOZJlzDo2VujkGiJnLkvxmWosTGnnkRBjlhjS2Z7wkBmU-x9cqiOauPczLEMCBjDRKBXppGo89bXghGnu4L966V00aV51-J-EyzM8j5gtatlhIvvi9aU46CUG1g48G8sHLsaQhcmuRRuRw_aHa4go7f58VTeuNSikSkAoSUIjKt3WBizmxngVm_xXy3MqBEFYqyhqSW_g_x2xHbXLT2Vnezg9QcM0_BKFkO74IAEvcPVd9v3SaLzrsVH1F0YGld4_MBgZaZjzkN2V2FDcvbcI5keLLVuWhQO0AcM3G8AQogfqIaRpCxrOfVZgF4x0mopEtf-QJddUCQRenGNmh4Kogm6Gp-C713T0l4Z_zUOZZGpBAiyAZJbhuie2SjfQW4CgZhJsWpDLRsS9AhEAfOL6MydcSliILi0efBzNnmksr4DnGRkHYI7xi5oqZoLlbWfOF52TXSwteeY6TfYkxBLbAnila6uHsECc9RezLo7ROkdHuo3g6yDYD2ep_AtIAjcnQZ=w310-h335-no",
+  "career": {
+    "debut": 2013,
+    "teams": [
+      "華江OB"
+    ],
+    "totalSeasons": 13
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "華江OB",
+      "number": "35",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 511,
+        "hits": 450,
+        "hr": 919,
+        "rbi": 1372,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "華江OB",
+      "number": "35",
+      "batting": {
+        "games": 3,
+        "pa": 11,
+        "ab": 8,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 329,
+        "hits": 410,
+        "hr": 1156,
+        "rbi": 1377,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "華江OB",
+      "number": "35",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 411,
+        "hits": 1350,
+        "hr": 1001,
+        "rbi": 266,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "華江OB",
+      "number": "35",
+      "batting": {
+        "games": 5,
+        "pa": 22,
+        "ab": 14,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 8,
+        "bb": 0,
+        "so": 2,
+        "sb": 4,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 57,
+        "hits": 109,
+        "hr": 1352,
+        "rbi": 148,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "華江OB",
+      "number": "35",
+      "batting": {
+        "games": 13,
+        "pa": 44,
+        "ab": 31,
+        "hits": 11,
+        "singles": 10,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 12,
+        "runs": 18,
+        "bb": 0,
+        "so": 8,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 102,
+        "hits": 132,
+        "hr": 1585,
+        "rbi": 60,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "華江OB",
+      "number": "35",
+      "batting": {
+        "games": 8,
+        "pa": 30,
+        "ab": 23,
+        "hits": 7,
+        "singles": 5,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 10,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 209,
+        "hits": 236,
+        "hr": 1467,
+        "rbi": 316,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "華江OB",
+      "number": "35",
+      "batting": {
+        "games": 5,
+        "pa": 22,
+        "ab": 21,
+        "hits": 13,
+        "singles": 7,
+        "doubles": 6,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 9,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 19
+      },
+      "rankings": {
+        "rc": 101,
+        "hits": 95,
+        "hr": 1433,
+        "rbi": 170,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "華江OB",
+      "number": "35",
+      "batting": {
+        "games": 5,
+        "pa": 19,
+        "ab": 17,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 4,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 281,
+        "hits": 254,
+        "hr": 1411,
+        "rbi": 1675,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "華江OB",
+      "number": "HUA009",
+      "batting": {
+        "games": 6,
+        "pa": 25,
+        "ab": 19,
+        "hits": 9,
+        "singles": 8,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 12,
+        "bb": 0,
+        "so": 4,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 160,
+        "hits": 186,
+        "hr": 792,
+        "rbi": 209,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "華江OB",
+      "number": "HUA009",
+      "batting": {
+        "games": 7,
+        "pa": 24,
+        "ab": 20,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 6,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 429,
+        "hits": 405,
+        "hr": 709,
+        "rbi": 411,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "華江OB",
+      "number": "HUA009",
+      "batting": {
+        "games": 11,
+        "pa": 51,
+        "ab": 39,
+        "hits": 18,
+        "singles": 17,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 21,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 19
+      },
+      "rankings": {
+        "rc": 55,
+        "hits": 57,
+        "hr": 833,
+        "rbi": 180,
+        "avg": 17
+      }
+    },
+    {
+      "year": 2014,
+      "team": "華江OB",
+      "number": "HUA009",
+      "batting": {
+        "games": 7,
+        "pa": 22,
+        "ab": 18,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 3,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 168,
+        "hits": 187,
+        "hr": 472,
+        "rbi": 133,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "華江OB",
+      "number": "HUA009",
+      "batting": {
+        "games": 3,
+        "pa": 12,
+        "ab": 8,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 5,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 176,
+        "hits": 220,
+        "hr": 273,
+        "rbi": 480,
+        "avg": 323
+      }
+    }
+  ]
+}

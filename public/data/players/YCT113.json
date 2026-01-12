@@ -1,0 +1,160 @@
+{
+  "id": "YCT113",
+  "code": "YCT113",
+  "name": "黃紹宸",
+  "photo": "https://lh3.googleusercontent.com/pw/AM-JKLUBCu4Vpj_2AQR4U33_QVbxAeqpm_dj5Q9PmSdBNmdkalJSO7ODgLdxsTfpNcA4JKByOIyh1sQR0pPtcRubaDYyCnjaBY95Fy-4rb3VPfXhM6h9nP3CnC-imap12vbYlSixyDLB4W-qzHCKrjxjYIL_=w310-h335-no",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "永春TB",
+      "number": "77",
+      "batting": {
+        "games": 7,
+        "pa": 13,
+        "ab": 10,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 386,
+        "hits": 405,
+        "hr": 1215,
+        "rbi": 1518,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "永春TB",
+      "number": "77",
+      "batting": {
+        "games": 4,
+        "pa": 11,
+        "ab": 8,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 231,
+        "hits": 285,
+        "hr": 1155,
+        "rbi": 1376,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "永春TB",
+      "number": "77",
+      "batting": {
+        "games": 4,
+        "pa": 12,
+        "ab": 8,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 4,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 155,
+        "hits": 190,
+        "hr": 1172,
+        "rbi": 77,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "永春TB",
+      "number": "92",
+      "batting": {
+        "games": 5,
+        "pa": 11,
+        "ab": 9,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 4,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 419,
+        "hits": 446,
+        "hr": 1209,
+        "rbi": 1456,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "永春TB",
+      "number": "92",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 527,
+        "hits": 480,
+        "hr": 1031,
+        "rbi": 410,
+        "avg": 1022
+      }
+    }
+  ]
+}

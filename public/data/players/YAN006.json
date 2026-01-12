@@ -1,0 +1,363 @@
+{
+  "id": "YAN006",
+  "code": "YAN006",
+  "name": "鐘文彤",
+  "photo": "https://lh3.googleusercontent.com/k21y4VwHXtfbDmRoxJ52j1DpsbaNbyjbBUDoLAk9PjK0DX2W2HA41hwkKq3xUx7FsZQhrs9arday6UQTSdxpaNqUcut16deEsBsSuJvL4mTrAMpQt1PbH8alHshoWO5UU6ScMUqN7q2aTVB_MKC7KrP4a53knBNNvH1irU8Uo8qtfnbM2OhUalw0RUF90v8izImUjaXUtfCKWwXQyvpJHhCNGkR4Hoc-X6Bj-ncO8b0umdlA0y1CiyJjzVxKcgkXyl-MJjNTCLCtH5xxIVpQyuofgiI3RFrz-y8xR9VpDlrWuwoTOoTQISqDSTZe2ViA7cjSC12Xs4IqdDpEKZcNlXp1l_tbpDMLy9-IapUQ9DCd-o7Ge2cwxZYNBR4dOK1uU9OMVlQVxOJsIEboXmfnTiKVR8cLtWNcZW4jBtem7xRiAibVx289h6RErl3LKUJ82xbuHXXkn4r-7hlqCp-etHqPwshPcJHtHQuXJ-ySbSR3iwGna-3RC_C1ravLkELFj9ak7JJWWV-PukQscpMB8_J7sKfVi83FSadBmkGzqRrZmFog_hxp2fkttDZhqJTLfb6YtZV0oh-qGB431KuuhszyTV5uT9INa6qddG_zNCuTRfk5_DvPRj6C0d8UtjyoFA9newmvgUqIwQmNlAWsW4RpJmRDLdgBhVPHdV1JcZVAavzJXOjMF9Xs3zT5Ce3N2v6-Eoc9RwWTWyRqnA=w310-h335-no",
+  "career": {
+    "debut": 2014,
+    "teams": [
+      "陽明OB"
+    ],
+    "totalSeasons": 12
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "陽明OB",
+      "number": "10",
+      "batting": {
+        "games": 4,
+        "pa": 8,
+        "ab": 4,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 3,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 225,
+        "hits": 304,
+        "hr": 1120,
+        "rbi": 195,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "陽明OB",
+      "number": "10",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 443,
+        "hits": 1302,
+        "hr": 895,
+        "rbi": 1235,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "陽明OB",
+      "number": "10",
+      "batting": {
+        "games": 9,
+        "pa": 29,
+        "ab": 24,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 5,
+        "bb": 0,
+        "so": 7,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 187,
+        "hits": 166,
+        "hr": 1368,
+        "rbi": 121,
+        "avg": 89
+      }
+    },
+    {
+      "year": 2022,
+      "team": "陽明OB",
+      "number": "10",
+      "batting": {
+        "games": 8,
+        "pa": 24,
+        "ab": 19,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 11,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 244,
+        "hits": 204,
+        "hr": 1387,
+        "rbi": 280,
+        "avg": 94
+      }
+    },
+    {
+      "year": 2021,
+      "team": "陽明OB",
+      "number": "10",
+      "batting": {
+        "games": 14,
+        "pa": 41,
+        "ab": 32,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 7,
+        "bb": 0,
+        "so": 16,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 313,
+        "hits": 304,
+        "hr": 1571,
+        "rbi": 327,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "陽明OB",
+      "number": "10",
+      "batting": {
+        "games": 14,
+        "pa": 42,
+        "ab": 34,
+        "hits": 7,
+        "singles": 7,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 6,
+        "bb": 6,
+        "so": 16,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 263,
+        "hits": 245,
+        "hr": 1553,
+        "rbi": 142,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "陽明OB",
+      "number": "10",
+      "batting": {
+        "games": 16,
+        "pa": 56,
+        "ab": 42,
+        "hits": 7,
+        "singles": 5,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 12,
+        "runs": 11,
+        "bb": 4,
+        "so": 25,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 201,
+        "hits": 229,
+        "hr": 1626,
+        "rbi": 72,
+        "avg": 98
+      }
+    },
+    {
+      "year": 2018,
+      "team": "陽明OB",
+      "number": "10",
+      "batting": {
+        "games": 20,
+        "pa": 78,
+        "ab": 48,
+        "hits": 14,
+        "singles": 10,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 23,
+        "bb": 4,
+        "so": 10,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 19
+      },
+      "rankings": {
+        "rc": 32,
+        "hits": 99,
+        "hr": 1671,
+        "rbi": 181,
+        "avg": 100
+      }
+    },
+    {
+      "year": 2017,
+      "team": "陽明OB",
+      "number": "YAN006",
+      "batting": {
+        "games": 17,
+        "pa": 75,
+        "ab": 57,
+        "hits": 15,
+        "singles": 12,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 12,
+        "runs": 17,
+        "bb": 0,
+        "so": 18,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 18
+      },
+      "rankings": {
+        "rc": 107,
+        "hits": 106,
+        "hr": 1004,
+        "rbi": 89,
+        "avg": 117
+      }
+    },
+    {
+      "year": 2016,
+      "team": "陽明OB",
+      "number": "YAN006",
+      "batting": {
+        "games": 18,
+        "pa": 74,
+        "ab": 53,
+        "hits": 10,
+        "singles": 10,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 24,
+        "bb": 0,
+        "so": 15,
+        "sb": 7,
+        "sf": 1,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 152,
+        "hits": 189,
+        "hr": 933,
+        "rbi": 363,
+        "avg": 118
+      }
+    },
+    {
+      "year": 2015,
+      "team": "陽明OB",
+      "number": "YAN006",
+      "batting": {
+        "games": 14,
+        "pa": 53,
+        "ab": 38,
+        "hits": 7,
+        "singles": 7,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 16,
+        "bb": 0,
+        "so": 16,
+        "sb": 4,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 200,
+        "hits": 239,
+        "hr": 842,
+        "rbi": 181,
+        "avg": 122
+      }
+    },
+    {
+      "year": 2014,
+      "team": "陽明OB",
+      "number": "YAN006",
+      "batting": {
+        "games": 14,
+        "pa": 50,
+        "ab": 34,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 10,
+        "bb": 0,
+        "so": 10,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 146,
+        "hits": 201,
+        "hr": 613,
+        "rbi": 180,
+        "avg": 97
+      }
+    }
+  ]
+}

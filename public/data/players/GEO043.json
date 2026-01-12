@@ -1,0 +1,73 @@
+{
+  "id": "GEO043",
+  "code": "GEO043",
+  "name": "鄭志翔",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "台大地理OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "台大地理OB",
+      "number": "GEO043",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 580,
+        "hits": 585,
+        "hr": 79,
+        "rbi": 529,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "台大地理OB",
+      "number": "GEO043",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 555,
+        "hits": 503,
+        "hr": 447,
+        "rbi": 873,
+        "avg": 349
+      }
+    }
+  ]
+}

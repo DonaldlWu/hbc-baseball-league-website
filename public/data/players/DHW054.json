@@ -1,0 +1,44 @@
+{
+  "id": "DHW054",
+  "code": "DHW054",
+  "name": "徐少鵬",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNVclMUu6j3jSfue-NATD0fMTQU89a-mZBiT23plLr68rDuZqyTN43GS8QNY6NACHoX8sgW3R661HFjz8o7b_utjxK8iutRc2T-b5B-LhJ4et3uz0dgfRRXg9nUTkD7qkOtTw0CmtE7_xZ5FWUYEGKx=w191-h258",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "77",
+      "batting": {
+        "games": 7,
+        "pa": 18,
+        "ab": 16,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 0,
+        "bb": 0,
+        "so": 8,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 1094,
+        "hits": 548,
+        "hr": 1300,
+        "rbi": 344,
+        "avg": 1123
+      }
+    }
+  ]
+}

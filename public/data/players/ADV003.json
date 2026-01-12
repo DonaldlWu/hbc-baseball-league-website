@@ -1,0 +1,305 @@
+{
+  "id": "ADV003",
+  "code": "ADV003",
+  "name": "石育昇",
+  "photo": "",
+  "career": {
+    "debut": 2011,
+    "teams": [
+      "冒險家"
+    ],
+    "totalSeasons": 10
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "冒險家",
+      "number": "2",
+      "batting": {
+        "games": 6,
+        "pa": 20,
+        "ab": 18,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 7,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 296,
+        "hits": 298,
+        "hr": 1377,
+        "rbi": 387,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "冒險家",
+      "number": "2",
+      "batting": {
+        "games": 6,
+        "pa": 22,
+        "ab": 18,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 5,
+        "bb": 2,
+        "so": 5,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 309,
+        "hits": 296,
+        "hr": 1430,
+        "rbi": 363,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "冒險家",
+      "number": "2",
+      "batting": {
+        "games": 10,
+        "pa": 17,
+        "ab": 12,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 12,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 401,
+        "hits": 460,
+        "hr": 1390,
+        "rbi": 471,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "冒險家",
+      "number": "ADV003",
+      "batting": {
+        "games": 9,
+        "pa": 34,
+        "ab": 25,
+        "hits": 11,
+        "singles": 8,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 13,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 114,
+        "hits": 147,
+        "hr": 856,
+        "rbi": 218,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "冒險家",
+      "number": "ADV003",
+      "batting": {
+        "games": 8,
+        "pa": 29,
+        "ab": 26,
+        "hits": 10,
+        "singles": 8,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 11,
+        "bb": 0,
+        "so": 3,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 180,
+        "hits": 173,
+        "hr": 750,
+        "rbi": 134,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "冒險家",
+      "number": "ADV003",
+      "batting": {
+        "games": 7,
+        "pa": 6,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 6,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 849,
+        "hits": 877,
+        "hr": 471,
+        "rbi": 857,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "冒險家",
+      "number": "ADV003",
+      "batting": {
+        "games": 9,
+        "pa": 26,
+        "ab": 21,
+        "hits": 9,
+        "singles": 4,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 10,
+        "bb": 2,
+        "so": 5,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 113,
+        "hits": 137,
+        "hr": 504,
+        "rbi": 165,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "冒險家",
+      "number": "ADV003",
+      "batting": {
+        "games": 11,
+        "pa": 25,
+        "ab": 20,
+        "hits": 10,
+        "singles": 2,
+        "doubles": 8,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 11,
+        "bb": 6,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 18
+      },
+      "rankings": {
+        "rc": 47,
+        "hits": 84,
+        "hr": 362,
+        "rbi": 72,
+        "avg": 323
+      }
+    },
+    {
+      "year": 2012,
+      "team": "冒險家",
+      "number": "ADV003",
+      "batting": {
+        "games": 10,
+        "pa": 12,
+        "ab": 11,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 4,
+        "bb": 3,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 96,
+        "hits": 103,
+        "hr": 209,
+        "rbi": 128,
+        "avg": 358
+      }
+    },
+    {
+      "year": 2011,
+      "team": "冒險家",
+      "number": "ADV003",
+      "batting": {
+        "games": 13,
+        "pa": 29,
+        "ab": 23,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 7,
+        "bb": 0,
+        "so": 8,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 86,
+        "hits": 68,
+        "hr": 175,
+        "rbi": 40,
+        "avg": 450
+      }
+    }
+  ]
+}

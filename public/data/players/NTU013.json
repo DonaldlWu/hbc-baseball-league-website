@@ -1,0 +1,218 @@
+{
+  "id": "NTU013",
+  "code": "NTU013",
+  "name": "王英達",
+  "photo": "",
+  "career": {
+    "debut": 2013,
+    "teams": [
+      "台大化工OB"
+    ],
+    "totalSeasons": 7
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "台大化工OB",
+      "number": "21",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 491,
+        "hits": 491,
+        "hr": 1131,
+        "rbi": 1566,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "台大化工OB",
+      "number": "21",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 703,
+        "hits": 685,
+        "hr": 183,
+        "rbi": 623,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "台大化工OB",
+      "number": "NTU013",
+      "batting": {
+        "games": 10,
+        "pa": 30,
+        "ab": 26,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 9,
+        "bb": 3,
+        "so": 6,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 430,
+        "hits": 358,
+        "hr": 825,
+        "rbi": 179,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "台大化工OB",
+      "number": "NTU013",
+      "batting": {
+        "games": 15,
+        "pa": 45,
+        "ab": 29,
+        "hits": 8,
+        "singles": 6,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 14,
+        "runs": 15,
+        "bb": 3,
+        "so": 11,
+        "sb": 1,
+        "sf": 2,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 145,
+        "hits": 230,
+        "hr": 24,
+        "rbi": 58,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "台大化工OB",
+      "number": "NTU013",
+      "batting": {
+        "games": 12,
+        "pa": 34,
+        "ab": 28,
+        "hits": 11,
+        "singles": 7,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 8,
+        "runs": 8,
+        "bb": 0,
+        "so": 7,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 123,
+        "hits": 140,
+        "hr": 29,
+        "rbi": 145,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "台大化工OB",
+      "number": "NTU013",
+      "batting": {
+        "games": 16,
+        "pa": 48,
+        "ab": 36,
+        "hits": 8,
+        "singles": 6,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 10,
+        "bb": 0,
+        "so": 12,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 135,
+        "hits": 160,
+        "hr": 603,
+        "rbi": 76,
+        "avg": 92
+      }
+    },
+    {
+      "year": 2013,
+      "team": "台大化工OB",
+      "number": "NTU013",
+      "batting": {
+        "games": 18,
+        "pa": 52,
+        "ab": 37,
+        "hits": 10,
+        "singles": 6,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 15,
+        "bb": 5,
+        "so": 14,
+        "sb": 1,
+        "sf": 2,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 73,
+        "hits": 92,
+        "hr": 457,
+        "rbi": 61,
+        "avg": 54
+      }
+    }
+  ]
+}

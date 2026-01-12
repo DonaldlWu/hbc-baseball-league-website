@@ -1,0 +1,131 @@
+{
+  "id": "KUP018",
+  "code": "KUP018",
+  "name": "吳啟宏",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "極品酷寶"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "極品酷寶",
+      "number": "29",
+      "batting": {
+        "games": 10,
+        "pa": 25,
+        "ab": 22,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 9,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 350,
+        "hits": 228,
+        "hr": 1325,
+        "rbi": 1399,
+        "avg": 100
+      }
+    },
+    {
+      "year": 2023,
+      "team": "極品酷寶",
+      "number": "29",
+      "batting": {
+        "games": 5,
+        "pa": 15,
+        "ab": 11,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 1,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 140,
+        "hits": 151,
+        "hr": 1234,
+        "rbi": 326,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "極品酷寶",
+      "number": "29",
+      "batting": {
+        "games": 7,
+        "pa": 14,
+        "ab": 12,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 360,
+        "hits": 330,
+        "hr": 1264,
+        "rbi": 258,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "極品酷寶",
+      "number": "29",
+      "batting": {
+        "games": 3,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 586,
+        "hits": 1598,
+        "hr": 1061,
+        "rbi": 1536,
+        "avg": 1022
+      }
+    }
+  ]
+}

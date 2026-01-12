@@ -1,0 +1,73 @@
+{
+  "id": "PMA002",
+  "code": "PMA002",
+  "name": "楊庭彰",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "戊戍本一家"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "戊戍本一家",
+      "number": "PMA002",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 3,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 366,
+        "hits": 433,
+        "hr": 527,
+        "rbi": 362,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "戊戍本一家",
+      "number": "PMA002",
+      "batting": {
+        "games": 11,
+        "pa": 40,
+        "ab": 38,
+        "hits": 14,
+        "singles": 11,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 7,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 177,
+        "hits": 113,
+        "hr": 820,
+        "rbi": 102,
+        "avg": 349
+      }
+    }
+  ]
+}

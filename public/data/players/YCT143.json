@@ -1,0 +1,44 @@
+{
+  "id": "YCT143",
+  "code": "YCT143",
+  "name": "林子豪",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNO8IuytgfO34YQlbc3NkmJedX44M0DYa_IGLk_cxPKSPot6vjbUKM7FekLjVTuWzgi1q4PSgO_DSkdiEx4ETqGDJa91JvoPsThhLDOekuKjvyn2hlF81xxvBsNxDBzh2gkTQMt5SzRv11InsEycJ2u=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "永春TB",
+      "number": "86",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 807,
+        "hits": 717,
+        "hr": 194,
+        "rbi": 663,
+        "avg": 1123
+      }
+    }
+  ]
+}

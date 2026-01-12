@@ -1,0 +1,220 @@
+{
+  "id": "NAN093",
+  "code": "NAN093",
+  "name": "黃上維",
+  "photo": "https://lh3.googleusercontent.com/pw/ACtC-3coXhH7x2pO1gyLYoZSZecyqqq2hox8tSJ3sYCf1gfWCAlchwmztBFZzcL-5mT0k9XE26xITKjrsMtTT6rovsNBpX8p1f22PX5ZQbYQAwa_-mp4njZKOLHJ6LWjy7hISXNoT1eHCfaYZCNlwqF4THkP=w811-h914-no?authuser=0",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "永春TB",
+      "Synergy",
+      "南港高工OB"
+    ],
+    "totalSeasons": 7
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "永春TB",
+      "number": "51",
+      "batting": {
+        "games": 13,
+        "pa": 46,
+        "ab": 38,
+        "hits": 13,
+        "singles": 11,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 13,
+        "bb": 0,
+        "so": 11,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 83,
+        "hits": 71,
+        "hr": 1482,
+        "rbi": 126,
+        "avg": 52
+      }
+    },
+    {
+      "year": 2024,
+      "team": "永春TB",
+      "number": "51",
+      "batting": {
+        "games": 10,
+        "pa": 39,
+        "ab": 33,
+        "hits": 12,
+        "singles": 8,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 5,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 16
+      },
+      "rankings": {
+        "rc": 35,
+        "hits": 21,
+        "hr": 1391,
+        "rbi": 31,
+        "avg": 45
+      }
+    },
+    {
+      "year": 2023,
+      "team": "永春TB",
+      "number": "51",
+      "batting": {
+        "games": 4,
+        "pa": 14,
+        "ab": 13,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 273,
+        "hits": 207,
+        "hr": 1223,
+        "rbi": 222,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "永春TB",
+      "number": "51",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 590,
+        "hits": 549,
+        "hr": 97,
+        "rbi": 462,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "永春TB",
+      "number": "51",
+      "batting": {
+        "games": 17,
+        "pa": 67,
+        "ab": 57,
+        "hits": 18,
+        "singles": 13,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 16,
+        "bb": 0,
+        "so": 10,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 23
+      },
+      "rankings": {
+        "rc": 76,
+        "hits": 56,
+        "hr": 1658,
+        "rbi": 93,
+        "avg": 74
+      }
+    },
+    {
+      "year": 2017,
+      "team": "Synergy",
+      "number": "NAN093",
+      "batting": {
+        "games": 2,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 911,
+        "hits": 926,
+        "hr": 423,
+        "rbi": 871,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2015,
+      "team": "南港高工OB",
+      "number": "NAN093",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 3,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 366,
+        "hits": 388,
+        "hr": 427,
+        "rbi": 826,
+        "avg": 624
+      }
+    }
+  ]
+}

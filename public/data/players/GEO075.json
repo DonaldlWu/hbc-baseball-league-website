@@ -1,0 +1,74 @@
+{
+  "id": "GEO075",
+  "code": "GEO075",
+  "name": "楊祥鶴",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "十號馬",
+      "台大地理OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "十號馬",
+      "number": "93",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 696,
+        "hits": 674,
+        "hr": 84,
+        "rbi": 590,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台大地理OB",
+      "number": "105",
+      "batting": {
+        "games": 14,
+        "pa": 28,
+        "ab": 23,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 8,
+        "bb": 52,
+        "so": 11,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 317,
+        "hits": 303,
+        "hr": 1474,
+        "rbi": 372,
+        "avg": 917
+      }
+    }
+  ]
+}

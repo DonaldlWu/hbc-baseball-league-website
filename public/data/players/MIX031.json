@@ -1,0 +1,102 @@
+{
+  "id": "MIX031",
+  "code": "MIX031",
+  "name": "宋明遠",
+  "photo": "",
+  "career": {
+    "debut": 2013,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "MIX",
+      "number": "MIX031",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 688,
+        "hits": 522,
+        "hr": 61,
+        "rbi": 479,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "MIX",
+      "number": "MIX031",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 7,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 5,
+        "so": 3,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 643,
+        "hits": 660,
+        "hr": 340,
+        "rbi": 332,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "MIX",
+      "number": "MIX031",
+      "batting": {
+        "games": 6,
+        "pa": 19,
+        "ab": 15,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 4,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 219,
+        "hits": 230,
+        "hr": 326,
+        "rbi": 148,
+        "avg": 323
+      }
+    }
+  ]
+}

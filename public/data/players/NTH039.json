@@ -1,0 +1,44 @@
+{
+  "id": "NTH039",
+  "code": "NTH039",
+  "name": "曾裕登",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPlmGToxhgJXpz6ZWU3qcW_69oHn1VezZF3lDpq2YughyDTOfxHW6XffNsLzp1mDKedB1tC4GmJU9k2x7zr2ZtRKvYrh7fMvlL_wrt1sIL7aNvLt5Y8y-Pzt7eklFirYTN_lWk8lMlQfUt8R0IwqP_y=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "48",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 647,
+        "hits": 912,
+        "hr": 389,
+        "rbi": 858,
+        "avg": 1123
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "SCO044",
+  "code": "SCO044",
+  "name": "蔡佳峻",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPNsl0YPK5uPf5L2fTHMTuMOvrzxiyN_JGUCPyrl6hcJrSHfZOFKtfTbEzE7fKuCvwcq0vpsYOslyASGQpS63YllyKEwjiZmlctBWzmADYYuKHmluUCVVsG1-NP_nEUfe7LWPgvbykWobMWT6mVmdW7rw=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "226",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 508,
+        "hits": 451,
+        "hr": 924,
+        "rbi": 1377,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "118",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 528,
+        "hits": 478,
+        "hr": 66,
+        "rbi": 411,
+        "avg": 903
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "MUZ007",
+  "code": "MUZ007",
+  "name": "程彥奇",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "木柵OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "木柵OB",
+      "number": "MUZ007",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 952,
+        "hits": 937,
+        "hr": 437,
+        "rbi": 436,
+        "avg": 340
+      }
+    }
+  ]
+}

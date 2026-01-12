@@ -1,0 +1,161 @@
+{
+  "id": "BUD014",
+  "code": "BUD014",
+  "name": "黃昱豪",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNf-lOsGYDUEr-_v2oYU2CZkMBCB9MrqCOsXtmYJzXd8ZnMzB_XOSy-0ZnHhv2ID5bLH43wOyWJoO5fmqYBGpEhGeRBksv5XbRSXRAP9kubz2a8tO_lrjp0-VGyRz4ni4-6gJ-ERxcFDDi4Yzioxi5p=w310-h335-no",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "MIRACLE",
+      "The Buddies"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "MIRACLE",
+      "number": "69",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 537,
+        "hits": 467,
+        "hr": 981,
+        "rbi": 1420,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "MIRACLE",
+      "number": "69",
+      "batting": {
+        "games": 3,
+        "pa": 6,
+        "ab": 6,
+        "hits": 2,
+        "singles": 0,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 300,
+        "hits": 255,
+        "hr": 1066,
+        "rbi": 1339,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "MIRACLE",
+      "number": "69",
+      "batting": {
+        "games": 3,
+        "pa": 5,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 367,
+        "hits": 1362,
+        "hr": 1032,
+        "rbi": 1332,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "MIRACLE",
+      "number": "69",
+      "batting": {
+        "games": 6,
+        "pa": 13,
+        "ab": 11,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 8,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 285,
+        "hits": 248,
+        "hr": 1247,
+        "rbi": 353,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "The Buddies",
+      "number": "28",
+      "batting": {
+        "games": 10,
+        "pa": 25,
+        "ab": 22,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 18,
+        "so": 9,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 303,
+        "hits": 265,
+        "hr": 1458,
+        "rbi": 499,
+        "avg": 1022
+      }
+    }
+  ]
+}

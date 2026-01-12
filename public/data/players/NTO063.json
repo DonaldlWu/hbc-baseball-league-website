@@ -1,0 +1,73 @@
+{
+  "id": "NTO063",
+  "code": "NTO063",
+  "name": "張書毓",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "海洋大學",
+      "number": "41",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 523,
+        "hits": 482,
+        "hr": 30,
+        "rbi": 395,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "海洋大學",
+      "number": "41",
+      "batting": {
+        "games": 8,
+        "pa": 32,
+        "ab": 27,
+        "hits": 10,
+        "singles": 9,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 7,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 171,
+        "hits": 145,
+        "hr": 1516,
+        "rbi": 398,
+        "avg": 1022
+      }
+    }
+  ]
+}

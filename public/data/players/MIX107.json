@@ -1,0 +1,73 @@
+{
+  "id": "MIX107",
+  "code": "MIX107",
+  "name": "李浩弘",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "MIX",
+      "number": "98",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 772,
+        "hits": 730,
+        "hr": 183,
+        "rbi": 664,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "MIX",
+      "number": "98",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 817,
+        "hits": 793,
+        "hr": 203,
+        "rbi": 709,
+        "avg": 1101
+      }
+    }
+  ]
+}

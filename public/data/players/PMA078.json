@@ -1,0 +1,44 @@
+{
+  "id": "PMA078",
+  "code": "PMA078",
+  "name": "蕭涵中",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "戊戍本一家"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "戊戍本一家",
+      "number": "113",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 603,
+        "hits": 1585,
+        "hr": 997,
+        "rbi": 1499,
+        "avg": 1101
+      }
+    }
+  ]
+}

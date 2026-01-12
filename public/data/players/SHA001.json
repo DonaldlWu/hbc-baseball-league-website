@@ -1,0 +1,44 @@
+{
+  "id": "SHA001",
+  "code": "SHA001",
+  "name": "林均諺",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMgvna1x8_32N8g20K3niYVu5dMWqEwNjl5rwWsh4bNzmqTav49oBtT2Or8wbo7C9PqiLkZobNmSWwaj2QufbiausXJLV7nuOXUfidYsrfRJ9rgfI-zCwNgrWTDWDEVYzhiIYhjGNNjRtKAiejdiVxI=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "少林棒球隊"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "少林棒球隊",
+      "number": "1",
+      "batting": {
+        "games": 6,
+        "pa": 20,
+        "ab": 17,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 4,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 227,
+        "hits": 198,
+        "hr": 1317,
+        "rbi": 170,
+        "avg": 1123
+      }
+    }
+  ]
+}

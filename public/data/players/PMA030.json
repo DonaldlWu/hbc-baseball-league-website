@@ -1,0 +1,160 @@
+{
+  "id": "PMA030",
+  "code": "PMA030",
+  "name": "黃培原",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "戊戍本一家"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "戊戍本一家",
+      "number": "50",
+      "batting": {
+        "games": 13,
+        "pa": 47,
+        "ab": 44,
+        "hits": 14,
+        "singles": 8,
+        "doubles": 3,
+        "triples": 3,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 10,
+        "bb": 0,
+        "so": 10,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 23
+      },
+      "rankings": {
+        "rc": 115,
+        "hits": 94,
+        "hr": 1589,
+        "rbi": 125,
+        "avg": 75
+      }
+    },
+    {
+      "year": 2019,
+      "team": "戊戍本一家",
+      "number": "50",
+      "batting": {
+        "games": 16,
+        "pa": 61,
+        "ab": 51,
+        "hits": 12,
+        "singles": 11,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 8,
+        "bb": 0,
+        "so": 10,
+        "sb": 0,
+        "sf": 2,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 171,
+        "hits": 119,
+        "hr": 1639,
+        "rbi": 94,
+        "avg": 88
+      }
+    },
+    {
+      "year": 2018,
+      "team": "戊戍本一家",
+      "number": "50",
+      "batting": {
+        "games": 13,
+        "pa": 41,
+        "ab": 38,
+        "hits": 15,
+        "singles": 13,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 8,
+        "bb": 0,
+        "so": 4,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 18
+      },
+      "rankings": {
+        "rc": 116,
+        "hits": 83,
+        "hr": 1563,
+        "rbi": 131,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "戊戍本一家",
+      "number": "PMA030",
+      "batting": {
+        "games": 14,
+        "pa": 53,
+        "ab": 42,
+        "hits": 13,
+        "singles": 10,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 14,
+        "bb": 3,
+        "so": 10,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 116,
+        "hits": 127,
+        "hr": 953,
+        "rbi": 192,
+        "avg": 97
+      }
+    },
+    {
+      "year": 2016,
+      "team": "戊戍本一家",
+      "number": "PMA030",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 8,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 351,
+        "hits": 332,
+        "hr": 532,
+        "rbi": 454,
+        "avg": 349
+      }
+    }
+  ]
+}

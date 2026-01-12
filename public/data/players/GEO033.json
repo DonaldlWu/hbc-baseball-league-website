@@ -1,0 +1,102 @@
+{
+  "id": "GEO033",
+  "code": "GEO033",
+  "name": "王立鈞",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "台大地理OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "台大地理OB",
+      "number": "94",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 568,
+        "hits": 550,
+        "hr": 48,
+        "rbi": 488,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "台大地理OB",
+      "number": "GEO033",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 603,
+        "hits": 608,
+        "hr": 102,
+        "rbi": 552,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "台大地理OB",
+      "number": "GEO033",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 913,
+        "hits": 868,
+        "hr": 377,
+        "rbi": 819,
+        "avg": 349
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "VOL030",
+  "code": "VOL030",
+  "name": "程俊翔",
+  "photo": "",
+  "career": {
+    "debut": 2010,
+    "teams": [
+      "志願者"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "志願者",
+      "number": "VOL030",
+      "batting": {
+        "games": 16,
+        "pa": 54,
+        "ab": 46,
+        "hits": 16,
+        "singles": 11,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 13,
+        "runs": 14,
+        "bb": 17,
+        "so": 9,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 23
+      },
+      "rankings": {
+        "rc": 30,
+        "hits": 30,
+        "hr": 17,
+        "rbi": 25,
+        "avg": 22
+      }
+    }
+  ]
+}

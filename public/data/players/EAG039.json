@@ -1,0 +1,102 @@
+{
+  "id": "EAG039",
+  "code": "EAG039",
+  "name": "陳士驄",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "火把老鷹",
+      "number": "EAG039",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 663,
+        "hits": 668,
+        "hr": 162,
+        "rbi": 612,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "火把老鷹",
+      "number": "EAG039",
+      "batting": {
+        "games": 8,
+        "pa": 11,
+        "ab": 11,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 553,
+        "hits": 440,
+        "hr": 574,
+        "rbi": 467,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "火把老鷹",
+      "number": "EAG039",
+      "batting": {
+        "games": 6,
+        "pa": 10,
+        "ab": 6,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 470,
+        "hits": 896,
+        "hr": 529,
+        "rbi": 435,
+        "avg": 624
+      }
+    }
+  ]
+}

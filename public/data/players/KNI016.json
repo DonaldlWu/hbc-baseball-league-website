@@ -1,0 +1,44 @@
+{
+  "id": "KNI016",
+  "code": "KNI016",
+  "name": "鄭家豪",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "聖騎士"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "聖騎士",
+      "number": "25",
+      "batting": {
+        "games": 16,
+        "pa": 55,
+        "ab": 45,
+        "hits": 12,
+        "singles": 11,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 12,
+        "bb": 1,
+        "so": 8,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 136,
+        "hits": 121,
+        "hr": 1617,
+        "rbi": 269,
+        "avg": 98
+      }
+    }
+  ]
+}

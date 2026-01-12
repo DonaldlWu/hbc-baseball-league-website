@@ -1,0 +1,102 @@
+{
+  "id": "MIX088",
+  "code": "MIX088",
+  "name": "林惟揚",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "MIX",
+      "number": "3",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 785,
+        "hits": 743,
+        "hr": 196,
+        "rbi": 677,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "MIX",
+      "number": "3",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 385,
+        "hits": 369,
+        "hr": 1101,
+        "rbi": 1572,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "MIX",
+      "number": "3",
+      "batting": {
+        "games": 5,
+        "pa": 12,
+        "ab": 12,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 328,
+        "hits": 276,
+        "hr": 1322,
+        "rbi": 445,
+        "avg": 917
+      }
+    }
+  ]
+}

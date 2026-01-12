@@ -1,0 +1,44 @@
+{
+  "id": "DHW004",
+  "code": "DHW004",
+  "name": "吳福仁",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczM6YRtWk0DPK_V5mWZLy1Z9z0UJGjY-R-cgXLug5ObaRjAEFUJELyCiwFw_qCeku10SouxRSAMaJHn8A7HjHSytyWIg3mgeozFlH3MSGYq4i4LVMH2v8ZQLSaZkM-AAjnqNXC0niMF_Wvy0m0vyhmkD=w99-h114",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "5",
+      "batting": {
+        "games": 8,
+        "pa": 15,
+        "ab": 13,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 220,
+        "hits": 191,
+        "hr": 1250,
+        "rbi": 334,
+        "avg": 1123
+      }
+    }
+  ]
+}

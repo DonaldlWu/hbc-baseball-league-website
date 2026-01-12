@@ -1,0 +1,44 @@
+{
+  "id": "EAG094",
+  "code": "EAG094",
+  "name": "黃俊瑋",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "火把老鷹",
+      "number": "106",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 9,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 559,
+        "hits": 431,
+        "hr": 1279,
+        "rbi": 429,
+        "avg": 917
+      }
+    }
+  ]
+}

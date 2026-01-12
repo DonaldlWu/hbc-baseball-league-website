@@ -1,0 +1,73 @@
+{
+  "id": "FET006",
+  "code": "FET006",
+  "name": "杜振威",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "FORCE"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "FORCE",
+      "number": "FET006",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 108,
+        "hits": 113,
+        "hr": 82,
+        "rbi": 114,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2009,
+      "team": "FORCE",
+      "number": "FET006",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 5,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 78,
+        "hits": 78,
+        "hr": 205,
+        "rbi": 78,
+        "avg": 450
+      }
+    }
+  ]
+}

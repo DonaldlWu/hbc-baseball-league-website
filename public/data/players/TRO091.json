@@ -1,0 +1,44 @@
+{
+  "id": "TRO091",
+  "code": "TRO091",
+  "name": "黃紹庭",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNzI9O9Ec-ciTW1orJ4mqL_QNftvyezH_kqSQ25RLjN6ZjuzM3QTrlN-lt2mCuIIoLTLRTKDlMIG4okD8aMX0BF_h3Y-JDx5W6keSLv4NhH4OucT4MIGmE9_mtNo3PUanfsK47clhRFpGBNnhc19B9Izg=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "楚奧特"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "楚奧特",
+      "number": "88",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 760,
+        "hits": 670,
+        "hr": 147,
+        "rbi": 616,
+        "avg": 1123
+      }
+    }
+  ]
+}

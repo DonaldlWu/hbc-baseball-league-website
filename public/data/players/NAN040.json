@@ -1,0 +1,44 @@
+{
+  "id": "NAN040",
+  "code": "NAN040",
+  "name": "簡煌偉",
+  "photo": "",
+  "career": {
+    "debut": 2011,
+    "teams": [
+      "南港高工OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2011,
+      "team": "南港高工OB",
+      "number": "NAN040",
+      "batting": {
+        "games": 12,
+        "pa": 49,
+        "ab": 41,
+        "hits": 11,
+        "singles": 10,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 18,
+        "bb": 6,
+        "so": 5,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 40,
+        "hits": 30,
+        "hr": 209,
+        "rbi": 95,
+        "avg": 24
+      }
+    }
+  ]
+}

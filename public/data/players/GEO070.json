@@ -1,0 +1,103 @@
+{
+  "id": "GEO070",
+  "code": "GEO070",
+  "name": "苗文耀",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "十號馬",
+      "台大地理OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "十號馬",
+      "number": "72",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 702,
+        "hits": 680,
+        "hr": 90,
+        "rbi": 596,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台大地理OB",
+      "number": "72",
+      "batting": {
+        "games": 5,
+        "pa": 11,
+        "ab": 10,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 482,
+        "hits": 439,
+        "hr": 1304,
+        "rbi": 1661,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "台大地理OB",
+      "number": "104",
+      "batting": {
+        "games": 3,
+        "pa": 7,
+        "ab": 7,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 486,
+        "hits": 429,
+        "hr": 1251,
+        "rbi": 439,
+        "avg": 940
+      }
+    }
+  ]
+}

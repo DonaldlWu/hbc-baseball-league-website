@@ -1,0 +1,73 @@
+{
+  "id": "YAN110",
+  "code": "YAN110",
+  "name": "劉家維",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNw7QEu3x1K_IjLhx0wrGAKMKWJSFI73h9ZfLgNiHOI6JY106CuM13Vrz4hq7h1zBgXld6aov0pAP9rlVYTp7qJc22FaCeJg-x7D61SZ-Sm47mgc9UgpOLcAzdnV-2y1NSN0toc5PWPEkA-gHiXmQs=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "陽明OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "陽明OB",
+      "number": "101",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1068,
+        "hits": 1432,
+        "hr": 930,
+        "rbi": 1383,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "陽明OB",
+      "number": "101",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 682,
+        "hits": 651,
+        "hr": 239,
+        "rbi": 584,
+        "avg": 903
+      }
+    }
+  ]
+}

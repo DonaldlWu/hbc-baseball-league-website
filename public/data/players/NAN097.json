@@ -1,0 +1,74 @@
+{
+  "id": "NAN097",
+  "code": "NAN097",
+  "name": "顏辰容",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "戊戍本一家",
+      "Synergy"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "戊戍本一家",
+      "number": "12",
+      "batting": {
+        "games": 3,
+        "pa": 10,
+        "ab": 10,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 369,
+        "hits": 315,
+        "hr": 1305,
+        "rbi": 365,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "Synergy",
+      "number": "NAN097",
+      "batting": {
+        "games": 12,
+        "pa": 24,
+        "ab": 19,
+        "hits": 3,
+        "singles": 1,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 8,
+        "bb": 0,
+        "so": 7,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 390,
+        "hits": 421,
+        "hr": 785,
+        "rbi": 243,
+        "avg": 340
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "NTO026",
+  "code": "NTO026",
+  "name": "呂偉鳴",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "海洋大學",
+      "number": "22",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 3,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 431,
+        "hits": 428,
+        "hr": 1042,
+        "rbi": 1529,
+        "avg": 1101
+      }
+    }
+  ]
+}

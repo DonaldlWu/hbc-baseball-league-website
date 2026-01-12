@@ -1,0 +1,44 @@
+{
+  "id": "VOL015",
+  "code": "VOL015",
+  "name": "楊誠璋",
+  "photo": "",
+  "career": {
+    "debut": 2010,
+    "teams": [
+      "志願者"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "志願者",
+      "number": "VOL015",
+      "batting": {
+        "games": 18,
+        "pa": 69,
+        "ab": 57,
+        "hits": 20,
+        "singles": 16,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 17,
+        "runs": 14,
+        "bb": 3,
+        "so": 5,
+        "sb": 0,
+        "sf": 4,
+        "totalBases": 26
+      },
+      "rankings": {
+        "rc": 20,
+        "hits": 17,
+        "hr": 21,
+        "rbi": 18,
+        "avg": 19
+      }
+    }
+  ]
+}

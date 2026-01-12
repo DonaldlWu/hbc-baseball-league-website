@@ -1,0 +1,73 @@
+{
+  "id": "ROO073",
+  "code": "ROO073",
+  "name": "紀廷諭",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "ROOKIES"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "ROOKIES",
+      "number": "106",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 874,
+        "hits": 850,
+        "hr": 260,
+        "rbi": 766,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "ROOKIES",
+      "number": "105",
+      "batting": {
+        "games": 3,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 528,
+        "hits": 489,
+        "hr": 1128,
+        "rbi": 1563,
+        "avg": 917
+      }
+    }
+  ]
+}

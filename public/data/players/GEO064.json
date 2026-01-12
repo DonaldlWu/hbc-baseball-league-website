@@ -1,0 +1,103 @@
+{
+  "id": "GEO064",
+  "code": "GEO064",
+  "name": "崔皓洋",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "十號馬",
+      "台大地理OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "十號馬",
+      "number": "44",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 704,
+        "hits": 682,
+        "hr": 92,
+        "rbi": 598,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台大地理OB",
+      "number": "44",
+      "batting": {
+        "games": 3,
+        "pa": 12,
+        "ab": 12,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 5,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 547,
+        "hits": 444,
+        "hr": 1324,
+        "rbi": 447,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "台大地理OB",
+      "number": "44",
+      "batting": {
+        "games": 7,
+        "pa": 26,
+        "ab": 25,
+        "hits": 8,
+        "singles": 8,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 8,
+        "bb": 10,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 270,
+        "hits": 194,
+        "hr": 1469,
+        "rbi": 258,
+        "avg": 940
+      }
+    }
+  ]
+}

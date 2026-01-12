@@ -1,0 +1,73 @@
+{
+  "id": "MIX099",
+  "code": "MIX099",
+  "name": "劉明豪",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "MIX",
+      "number": "95",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 774,
+        "hits": 732,
+        "hr": 185,
+        "rbi": 666,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "MIX",
+      "number": "102",
+      "batting": {
+        "games": 6,
+        "pa": 20,
+        "ab": 14,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 279,
+        "hits": 346,
+        "hr": 1368,
+        "rbi": 513,
+        "avg": 1101
+      }
+    }
+  ]
+}

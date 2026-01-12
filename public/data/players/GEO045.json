@@ -1,0 +1,132 @@
+{
+  "id": "GEO045",
+  "code": "GEO045",
+  "name": "洪上尚",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "十號馬",
+      "台大地理OB"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "十號馬",
+      "number": "13",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1040,
+        "hits": 1592,
+        "hr": 1012,
+        "rbi": 1508,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台大地理OB",
+      "number": "13",
+      "batting": {
+        "games": 10,
+        "pa": 21,
+        "ab": 18,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 5,
+        "bb": 26,
+        "so": 8,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 356,
+        "hits": 336,
+        "hr": 1419,
+        "rbi": 293,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "台大地理OB",
+      "number": "13",
+      "batting": {
+        "games": 5,
+        "pa": 9,
+        "ab": 7,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 5,
+        "bb": 11,
+        "so": 1,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 225,
+        "hits": 272,
+        "hr": 1280,
+        "rbi": 287,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2016,
+      "team": "台大地理OB",
+      "number": "GEO045",
+      "batting": {
+        "games": 2,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 9,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 870,
+        "hits": 838,
+        "hr": 339,
+        "rbi": 784,
+        "avg": 349
+      }
+    }
+  ]
+}

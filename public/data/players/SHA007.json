@@ -1,0 +1,44 @@
+{
+  "id": "SHA007",
+  "code": "SHA007",
+  "name": "彭柏勳",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNQ07GVJ5MprZT4s-59ZLTk8IasLG4yIYuBPDdZCQI0p8ONE09KYWdW7ZNvpb-l8FWEbwldM44mgKYpp3yHL1wXDEb3rk_xqckEHHf6ldwHUqyrDaImZAHmxKiIRzRIMcYsDNKoFx1GT5_0Rz6n-BHC-A=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "少林棒球隊"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "少林棒球隊",
+      "number": "8",
+      "batting": {
+        "games": 13,
+        "pa": 31,
+        "ab": 28,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 6,
+        "bb": 3,
+        "so": 10,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 335,
+        "hits": 252,
+        "hr": 1401,
+        "rbi": 359,
+        "avg": 1123
+      }
+    }
+  ]
+}

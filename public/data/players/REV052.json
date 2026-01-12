@@ -1,0 +1,160 @@
+{
+  "id": "REV052",
+  "code": "REV052",
+  "name": "黃忠信",
+  "photo": "https://lh3.googleusercontent.com/pw/AM-JKLXiVsKl0Xe-VbaqAyQV6a-pkWJ6kc9d8TmHhW1KTMWWlrki0Nlu3N1D76ka00PlVl_eijJehnicIexPlFhSlD1kI2s2PO-f3_vf9MU6rn-v66xKbR0RiMlW0b4g84YUYflaFhpMbIQ4lroA9FviVl1R5Q=w310-h335-no",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "逆轉星球"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "逆轉星球",
+      "number": "10",
+      "batting": {
+        "games": 9,
+        "pa": 15,
+        "ab": 13,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 1,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 255,
+        "hits": 225,
+        "hr": 1245,
+        "rbi": 208,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "逆轉星球",
+      "number": "10",
+      "batting": {
+        "games": 7,
+        "pa": 24,
+        "ab": 21,
+        "hits": 7,
+        "singles": 6,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 2,
+        "bb": 0,
+        "so": 4,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 109,
+        "hits": 87,
+        "hr": 1318,
+        "rbi": 84,
+        "avg": 57
+      }
+    },
+    {
+      "year": 2023,
+      "team": "逆轉星球",
+      "number": "10",
+      "batting": {
+        "games": 7,
+        "pa": 22,
+        "ab": 20,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 5,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 256,
+        "hits": 159,
+        "hr": 1314,
+        "rbi": 112,
+        "avg": 85
+      }
+    },
+    {
+      "year": 2022,
+      "team": "逆轉星球",
+      "number": "10",
+      "batting": {
+        "games": 7,
+        "pa": 22,
+        "ab": 17,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 0,
+        "so": 4,
+        "sb": 5,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 100,
+        "hits": 110,
+        "hr": 1354,
+        "rbi": 273,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "逆轉星球",
+      "number": "10",
+      "batting": {
+        "games": 6,
+        "pa": 20,
+        "ab": 17,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 413,
+        "hits": 391,
+        "hr": 1396,
+        "rbi": 376,
+        "avg": 1022
+      }
+    }
+  ]
+}

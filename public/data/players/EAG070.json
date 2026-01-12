@@ -1,0 +1,44 @@
+{
+  "id": "EAG070",
+  "code": "EAG070",
+  "name": "林建衡",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "火把老鷹",
+      "number": "EAG070",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 6,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 10,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 349,
+        "hits": 371,
+        "hr": 573,
+        "rbi": 466,
+        "avg": 340
+      }
+    }
+  ]
+}

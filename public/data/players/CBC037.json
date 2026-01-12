@@ -1,0 +1,44 @@
+{
+  "id": "CBC037",
+  "code": "CBC037",
+  "name": "陳智鴻",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "日促會"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "日促會",
+      "number": "CBC037",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 2,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 875,
+        "hits": 870,
+        "hr": 443,
+        "rbi": 838,
+        "avg": 624
+      }
+    }
+  ]
+}

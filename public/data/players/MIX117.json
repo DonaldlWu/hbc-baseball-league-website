@@ -1,0 +1,44 @@
+{
+  "id": "MIX117",
+  "code": "MIX117",
+  "name": "陳秋賢",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "MIX",
+      "number": "94",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 790,
+        "hits": 748,
+        "hr": 201,
+        "rbi": 682,
+        "avg": 1022
+      }
+    }
+  ]
+}

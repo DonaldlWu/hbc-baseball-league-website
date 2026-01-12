@@ -1,0 +1,73 @@
+{
+  "id": "COL044",
+  "code": "COL044",
+  "name": "蕭承杰",
+  "photo": "",
+  "career": {
+    "debut": 2011,
+    "teams": [
+      "冷鋒"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2012,
+      "team": "冷鋒",
+      "number": "COL044",
+      "batting": {
+        "games": 2,
+        "pa": 7,
+        "ab": 5,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 173,
+        "hits": 208,
+        "hr": 176,
+        "rbi": 183,
+        "avg": 358
+      }
+    },
+    {
+      "year": 2011,
+      "team": "冷鋒",
+      "number": "COL044",
+      "batting": {
+        "games": 12,
+        "pa": 37,
+        "ab": 28,
+        "hits": 7,
+        "singles": 5,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 6,
+        "bb": 7,
+        "so": 10,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 54,
+        "hits": 53,
+        "hr": 192,
+        "rbi": 93,
+        "avg": 450
+      }
+    }
+  ]
+}

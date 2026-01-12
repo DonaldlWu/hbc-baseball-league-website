@@ -1,0 +1,44 @@
+{
+  "id": "ROO096",
+  "code": "ROO096",
+  "name": "富樫隆介",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPCl_-_BEjn6HDI6FRN0CHR_NsXb5E9uvkQrLM99qVrwzrjZvojEbTVvpSML9YHmG1gQp-1LtUPqVPqlR4guyYkJzckpNJAdUdCHvd-sLK_szANUjjEnoWvWpAEaL9R8tPF5Oc2KJ3kAdjFm4zCAzIx=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "Line Drive"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Line Drive",
+      "number": "66",
+      "batting": {
+        "games": 8,
+        "pa": 13,
+        "ab": 11,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 450,
+        "hits": 406,
+        "hr": 1218,
+        "rbi": 327,
+        "avg": 1123
+      }
+    }
+  ]
+}

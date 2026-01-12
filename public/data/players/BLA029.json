@@ -1,0 +1,73 @@
+{
+  "id": "BLA029",
+  "code": "BLA029",
+  "name": "陳首亨",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "黑名單"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "黑名單",
+      "number": "BLA029",
+      "batting": {
+        "games": 9,
+        "pa": 28,
+        "ab": 26,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 5,
+        "bb": 27,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 99,
+        "hits": 80,
+        "hr": 168,
+        "rbi": 71,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2009,
+      "team": "黑名單",
+      "number": "BLA029",
+      "batting": {
+        "games": 7,
+        "pa": 24,
+        "ab": 18,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 8,
+        "bb": 16,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 58,
+        "hits": 70,
+        "hr": 240,
+        "rbi": 95,
+        "avg": 450
+      }
+    }
+  ]
+}

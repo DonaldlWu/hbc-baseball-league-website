@@ -1,0 +1,44 @@
+{
+  "id": "DHW005",
+  "code": "DHW005",
+  "name": "王浚亨",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMBhIGvjxEJqgGzKf_CjzWzvpcB_nn3e6Sn04L5WgHdoMP6WrRdI4lF5GiPfZf8cg3ekLfrf-uCNwp84AIjUHar8ZoffcAVBlbjgBXr0aVm5HBQCb8Yp6iGRgwKV63cDjGzmN3Ry-vPAbdzxqOqUTr1=w275-h300",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "9",
+      "batting": {
+        "games": 2,
+        "pa": 9,
+        "ab": 6,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 394,
+        "hits": 521,
+        "hr": 1140,
+        "rbi": 444,
+        "avg": 1123
+      }
+    }
+  ]
+}

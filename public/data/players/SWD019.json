@@ -1,0 +1,44 @@
+{
+  "id": "SWD019",
+  "code": "SWD019",
+  "name": "蔡俊培",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMaCAmfMAhb63x4bk7b7PfUXUg4SkOWO5fJ84D730ll7IMraFdMRe8I2zMZGJoPbQAoZGmm07ggkNZmm4pD5hkjitA9hTs2pXsD1uMuxuMCQ1FHWkHjBG_BlkWwF3ueJXpmZjrLMVa_hFbLhZwiV5Tebw=w389-h600",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "甜心暴龍"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "甜心暴龍",
+      "number": "18",
+      "batting": {
+        "games": 6,
+        "pa": 20,
+        "ab": 14,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 6,
+        "bb": 1,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 302,
+        "hits": 423,
+        "hr": 1310,
+        "rbi": 169,
+        "avg": 1123
+      }
+    }
+  ]
+}

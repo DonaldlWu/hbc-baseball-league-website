@@ -1,0 +1,44 @@
+{
+  "id": "SHU030",
+  "code": "SHU030",
+  "name": "黃科茗",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPrTEy06U84NV0ecQljuetVI1B3lRx-hTHiRf4QCh5EXcQecd5VAfolnAOT_GmsbZV4qfnMdYIPjMlse_D0f0MHVdbfpXWly2_6EQlhcFIGLEzL04M5fQfN4Wpm1oWCFH_rcJoJutn3VYeaC-4MsZ54=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "世新超乙組",
+      "number": "102",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 531,
+        "hits": 517,
+        "hr": 105,
+        "rbi": 450,
+        "avg": 903
+      }
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "REV012",
+  "code": "REV012",
+  "name": "賀立邦",
+  "photo": "",
+  "career": {
+    "debut": 2014,
+    "teams": [
+      "自轉棒球",
+      "自轉星球"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "自轉棒球",
+      "number": "REV012",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 683,
+        "hits": 688,
+        "hr": 182,
+        "rbi": 632,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "自轉星球",
+      "number": "REV012",
+      "batting": {
+        "games": 5,
+        "pa": 15,
+        "ab": 15,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 3,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 421,
+        "hits": 346,
+        "hr": 625,
+        "rbi": 241,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "自轉星球",
+      "number": "REV012",
+      "batting": {
+        "games": 16,
+        "pa": 44,
+        "ab": 34,
+        "hits": 11,
+        "singles": 5,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 13,
+        "runs": 5,
+        "bb": 0,
+        "so": 2,
+        "sb": 4,
+        "sf": 2,
+        "totalBases": 19
+      },
+      "rankings": {
+        "rc": 90,
+        "hits": 147,
+        "hr": 34,
+        "rbi": 69,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "自轉星球",
+      "number": "REV012",
+      "batting": {
+        "games": 13,
+        "pa": 40,
+        "ab": 36,
+        "hits": 9,
+        "singles": 5,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 8,
+        "bb": 0,
+        "so": 7,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 151,
+        "hits": 144,
+        "hr": 574,
+        "rbi": 99,
+        "avg": 327
+      }
+    }
+  ]
+}

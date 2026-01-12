@@ -1,0 +1,44 @@
+{
+  "id": "MUZ093",
+  "code": "MUZ093",
+  "name": "周賢典",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOghZUsORwYDpxOanBGIu_XGvk_NQYAa5f0Ol-h3854DE7kxnhvbXfjVREtAX4_NKOnnKAN3gbVKHloYGPiB5WBkaXw3uTrIED3QDE1OVChVNh8ZL2gDeOaiModq63dVkTOwLjPhZvVrDbfR-2UGXLUzw=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "木柵OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "木柵OB",
+      "number": "65",
+      "batting": {
+        "games": 2,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 6,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 733,
+        "hits": 663,
+        "hr": 140,
+        "rbi": 609,
+        "avg": 1123
+      }
+    }
+  ]
+}

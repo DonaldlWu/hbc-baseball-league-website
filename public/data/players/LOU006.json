@@ -1,0 +1,73 @@
+{
+  "id": "LOU006",
+  "code": "LOU006",
+  "name": "張雍君",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "路易莎咖啡"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "路易莎咖啡",
+      "number": "6",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 684,
+        "hits": 662,
+        "hr": 72,
+        "rbi": 578,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "路易莎咖啡",
+      "number": "6",
+      "batting": {
+        "games": 4,
+        "pa": 16,
+        "ab": 14,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 6,
+        "bb": 0,
+        "so": 1,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 242,
+        "hits": 233,
+        "hr": 1374,
+        "rbi": 285,
+        "avg": 917
+      }
+    }
+  ]
+}

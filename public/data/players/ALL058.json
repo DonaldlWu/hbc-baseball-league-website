@@ -1,0 +1,131 @@
+{
+  "id": "ALL058",
+  "code": "ALL058",
+  "name": "黃則勻",
+  "photo": "",
+  "career": {
+    "debut": 2014,
+    "teams": [
+      "ALLSTAR"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "ALLSTAR",
+      "number": "ALL058",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 875,
+        "hits": 880,
+        "hr": 374,
+        "rbi": 824,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "ALLSTAR",
+      "number": "ALL058",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 835,
+        "hits": 817,
+        "hr": 316,
+        "rbi": 763,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "ALLSTAR",
+      "number": "ALL058",
+      "batting": {
+        "games": 3,
+        "pa": 4,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 888,
+        "hits": 868,
+        "hr": 439,
+        "rbi": 834,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "ALLSTAR",
+      "number": "ALL058",
+      "batting": {
+        "games": 6,
+        "pa": 9,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 291,
+        "hits": 658,
+        "hr": 337,
+        "rbi": 331,
+        "avg": 327
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "NAN062",
+  "code": "NAN062",
+  "name": "曾威豪",
+  "photo": "",
+  "career": {
+    "debut": 2011,
+    "teams": [
+      "ROOKIES",
+      "南港高工OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2012,
+      "team": "ROOKIES",
+      "number": "NAN062",
+      "batting": {
+        "games": 6,
+        "pa": 25,
+        "ab": 20,
+        "hits": 8,
+        "singles": 7,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 4,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 77,
+        "hits": 89,
+        "hr": 264,
+        "rbi": 142,
+        "avg": 358
+      }
+    },
+    {
+      "year": 2011,
+      "team": "南港高工OB",
+      "number": "NAN062",
+      "batting": {
+        "games": 10,
+        "pa": 39,
+        "ab": 30,
+        "hits": 14,
+        "singles": 7,
+        "doubles": 4,
+        "triples": 3,
+        "hr": 0,
+        "rbi": 13,
+        "runs": 14,
+        "bb": 0,
+        "so": 1,
+        "sb": 3,
+        "sf": 1,
+        "totalBases": 24
+      },
+      "rankings": {
+        "rc": 6,
+        "hits": 20,
+        "hr": 196,
+        "rbi": 13,
+        "avg": 450
+      }
+    }
+  ]
+}

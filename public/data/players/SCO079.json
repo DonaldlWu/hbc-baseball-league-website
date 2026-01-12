@@ -1,0 +1,44 @@
+{
+  "id": "SCO079",
+  "code": "SCO079",
+  "name": "謝宥家",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNBrXoVytNrWxhgKON_k442SsCWGAME9Fd02sFYxdrSLyI9Z_HZouDbMVbrS_IJpg3umtD3c09UskNK-CFOXDzd-Iwm6GUo6PT480VOY3WmNN7rR8PzmRsZBOUjze16yAzdPVSbRAiptbYKXmtsuEZK9g=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "888",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 670,
+        "hits": 574,
+        "hr": 51,
+        "rbi": 520,
+        "avg": 1123
+      }
+    }
+  ]
+}

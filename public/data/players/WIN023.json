@@ -1,0 +1,160 @@
+{
+  "id": "WIN023",
+  "code": "WIN023",
+  "name": "謝保俊",
+  "photo": "",
+  "career": {
+    "debut": 2013,
+    "teams": [
+      "颶風"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "颶風",
+      "number": "WIN023",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 738,
+        "hits": 743,
+        "hr": 237,
+        "rbi": 687,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "颶風",
+      "number": "WIN023",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 738,
+        "hits": 720,
+        "hr": 219,
+        "rbi": 666,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "颶風",
+      "number": "WIN023",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 6,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 447,
+        "hits": 400,
+        "hr": 474,
+        "rbi": 343,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "颶風",
+      "number": "WIN023",
+      "batting": {
+        "games": 10,
+        "pa": 38,
+        "ab": 33,
+        "hits": 13,
+        "singles": 11,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 13,
+        "runs": 7,
+        "bb": 0,
+        "so": 5,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 16
+      },
+      "rankings": {
+        "rc": 112,
+        "hits": 87,
+        "hr": 564,
+        "rbi": 42,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "颶風",
+      "number": "WIN023",
+      "batting": {
+        "games": 6,
+        "pa": 23,
+        "ab": 21,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 4,
+        "bb": 0,
+        "so": 5,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 223,
+        "hits": 177,
+        "hr": 353,
+        "rbi": 183,
+        "avg": 323
+      }
+    }
+  ]
+}

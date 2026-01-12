@@ -1,0 +1,103 @@
+{
+  "id": "MUZ065",
+  "code": "MUZ065",
+  "name": "張先祁",
+  "photo": "https://lh3.googleusercontent.com/pw/AL9nZEUXwI4WJn7BM20GzuCK6w1CsUU1rSiO7Q-_OLsR1XvLghkpCEgLLOkHR0TgtwBI_SQknN6bT2MuMmKUpAl9ilnj7hbRTbxpVBkp5k1eRSMfGw-03he_X477MBjHs0WVSPbjLNXGCO8Asso5XZov9ZI=w310-h335-no",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "世新超乙組",
+      "木柵OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "13",
+      "batting": {
+        "games": 4,
+        "pa": 11,
+        "ab": 9,
+        "hits": 4,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 4,
+        "runs": 3,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 208,
+        "hits": 267,
+        "hr": 5,
+        "rbi": 200,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "世新超乙組",
+      "number": "42",
+      "batting": {
+        "games": 2,
+        "pa": 7,
+        "ab": 6,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 218,
+        "hits": 188,
+        "hr": 1074,
+        "rbi": 1341,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2022,
+      "team": "木柵OB",
+      "number": "40",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 546,
+        "hits": 505,
+        "hr": 53,
+        "rbi": 418,
+        "avg": 943
+      }
+    }
+  ]
+}

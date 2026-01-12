@@ -1,0 +1,131 @@
+{
+  "id": "ALL093",
+  "code": "ALL093",
+  "name": "鍾廷武",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "ALLSTAR"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "ALLSTAR",
+      "number": "54",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 847,
+        "hits": 790,
+        "hr": 338,
+        "rbi": 703,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ALLSTAR",
+      "number": "54",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 901,
+        "hits": 851,
+        "hr": 304,
+        "rbi": 785,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "ALLSTAR",
+      "number": "54",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 974,
+        "hits": 950,
+        "hr": 360,
+        "rbi": 866,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "ALLSTAR",
+      "number": "54",
+      "batting": {
+        "games": 6,
+        "pa": 25,
+        "ab": 19,
+        "hits": 9,
+        "singles": 8,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 9,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 138,
+        "hits": 168,
+        "hr": 1453,
+        "rbi": 118,
+        "avg": 917
+      }
+    }
+  ]
+}

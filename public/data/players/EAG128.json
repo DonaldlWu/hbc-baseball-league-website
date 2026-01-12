@@ -1,0 +1,73 @@
+{
+  "id": "EAG128",
+  "code": "EAG128",
+  "name": "鄭淳碩",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczM-kODPMtaLt2OAQYu1ZxAwUYnCGBJd8xlAW2aD3e66N-CwS77CGBQuZo-X-PpqUI62eJ7yiSbjytAlbQmXgnu6xfqFzXlpgo9T8kKulrNGxJav80ecGV4dCxopm_LwlL3nNBM2Q-fWt8oOLGkRPcU=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "火把老鷹",
+      "number": "28",
+      "batting": {
+        "games": 12,
+        "pa": 52,
+        "ab": 45,
+        "hits": 21,
+        "singles": 13,
+        "doubles": 3,
+        "triples": 5,
+        "hr": 0,
+        "rbi": 12,
+        "runs": 22,
+        "bb": 0,
+        "so": 6,
+        "sb": 5,
+        "sf": 0,
+        "totalBases": 34
+      },
+      "rankings": {
+        "rc": 13,
+        "hits": 14,
+        "hr": 1504,
+        "rbi": 42,
+        "avg": 15
+      }
+    },
+    {
+      "year": 2024,
+      "team": "火把老鷹",
+      "number": "33",
+      "batting": {
+        "games": 8,
+        "pa": 32,
+        "ab": 24,
+        "hits": 8,
+        "singles": 4,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 11,
+        "bb": 2,
+        "so": 5,
+        "sb": 5,
+        "sf": 0,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 36,
+        "hits": 73,
+        "hr": 1367,
+        "rbi": 158,
+        "avg": 54
+      }
+    }
+  ]
+}

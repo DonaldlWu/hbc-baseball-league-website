@@ -1,0 +1,190 @@
+{
+  "id": "BLA018",
+  "code": "BLA018",
+  "name": "黃伯超",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "火把老鷹",
+      "黑名單"
+    ],
+    "totalSeasons": 6
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "火把老鷹",
+      "number": "78",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 648,
+        "hits": 607,
+        "hr": 155,
+        "rbi": 520,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "火把老鷹",
+      "number": "78",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 731,
+        "hits": 689,
+        "hr": 142,
+        "rbi": 623,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "火把老鷹",
+      "number": "78",
+      "batting": {
+        "games": 2,
+        "pa": 7,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 434,
+        "hits": 557,
+        "hr": 1160,
+        "rbi": 343,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "火把老鷹",
+      "number": "78",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 391,
+        "hits": 410,
+        "hr": 1153,
+        "rbi": 320,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2010,
+      "team": "黑名單",
+      "number": "BLA018",
+      "batting": {
+        "games": 8,
+        "pa": 25,
+        "ab": 20,
+        "hits": 4,
+        "singles": 1,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 5,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 80,
+        "hits": 102,
+        "hr": 153,
+        "rbi": 94,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2009,
+      "team": "黑名單",
+      "number": "BLA018",
+      "batting": {
+        "games": 16,
+        "pa": 63,
+        "ab": 44,
+        "hits": 11,
+        "singles": 6,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 1,
+        "rbi": 15,
+        "runs": 14,
+        "bb": 0,
+        "so": 13,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 19
+      },
+      "rankings": {
+        "rc": 25,
+        "hits": 43,
+        "hr": 9,
+        "rbi": 18,
+        "avg": 34
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "NTM048",
+  "code": "NTM048",
+  "name": "何光展",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "台大機械"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "台大機械",
+      "number": "20",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 920,
+        "hits": 1645,
+        "hr": 1157,
+        "rbi": 1590,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "台大機械",
+      "number": "NTM048",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 704,
+        "hits": 709,
+        "hr": 203,
+        "rbi": 653,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "台大機械",
+      "number": "NTM048",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 462,
+        "hits": 470,
+        "hr": 348,
+        "rbi": 793,
+        "avg": 349
+      }
+    }
+  ]
+}

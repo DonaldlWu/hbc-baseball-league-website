@@ -1,0 +1,44 @@
+{
+  "id": "KNI026",
+  "code": "KNI026",
+  "name": "王俊傑",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "聖騎士"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "聖騎士",
+      "number": "89",
+      "batting": {
+        "games": 11,
+        "pa": 31,
+        "ab": 25,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 4,
+        "bb": 0,
+        "so": 8,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 366,
+        "hits": 309,
+        "hr": 1473,
+        "rbi": 208,
+        "avg": 1101
+      }
+    }
+  ]
+}

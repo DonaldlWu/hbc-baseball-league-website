@@ -1,0 +1,103 @@
+{
+  "id": "NAN042",
+  "code": "NAN042",
+  "name": "王博玄",
+  "photo": "",
+  "career": {
+    "debut": 2011,
+    "teams": [
+      "ROOKIES",
+      "南港高工OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2012,
+      "team": "ROOKIES",
+      "number": "NAN042",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 228,
+        "hits": 222,
+        "hr": 18,
+        "rbi": 206,
+        "avg": 358
+      }
+    },
+    {
+      "year": 2011,
+      "team": "南港高工OB",
+      "number": "NAN042",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 7,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 128,
+        "hits": 94,
+        "hr": 140,
+        "rbi": 85,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2011,
+      "team": "南港高工OB",
+      "number": "NAN042",
+      "batting": {
+        "games": 6,
+        "pa": 16,
+        "ab": 13,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 0,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 91,
+        "hits": 94,
+        "hr": 140,
+        "rbi": 85,
+        "avg": 450
+      }
+    }
+  ]
+}

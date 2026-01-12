@@ -1,0 +1,103 @@
+{
+  "id": "EAG124",
+  "code": "EAG124",
+  "name": "邱仲磊",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOWKZBynLlS70nX3-yZM9_A2-zAbqFOB2GlXXN8YhIumyJtcU7Jp-q9zfLsjilv24pxMkN2a7BQ0o7G_bjk-bSfMmp0JtkkMjB16som8zWsh45ZfzEK8LeCLgC1vTkqRoBzMWTeGLBkIRpaNOl_0bP6=w310-h335-no",
+  "career": {
+    "debut": 2023,
+    "teams": [
+      "世新超乙組",
+      "火把老鷹"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "112",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1102,
+        "hits": 1482,
+        "hr": 1028,
+        "rbi": 1445,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "世新超乙組",
+      "number": "9",
+      "batting": {
+        "games": 4,
+        "pa": 7,
+        "ab": 5,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 228,
+        "hits": 256,
+        "hr": 1069,
+        "rbi": 291,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "火把老鷹",
+      "number": "17",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 832,
+        "hits": 1291,
+        "hr": 911,
+        "rbi": 1240,
+        "avg": 896
+      }
+    }
+  ]
+}

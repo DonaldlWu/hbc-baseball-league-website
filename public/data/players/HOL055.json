@@ -1,0 +1,73 @@
+{
+  "id": "HOL055",
+  "code": "HOL055",
+  "name": "游本揆",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "HOLYBAT",
+      "number": "57",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 16,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 891,
+        "hits": 1621,
+        "hr": 1137,
+        "rbi": 1572,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "HOLYBAT",
+      "number": "57",
+      "batting": {
+        "games": 5,
+        "pa": 8,
+        "ab": 6,
+        "hits": 3,
+        "singles": 1,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 5,
+        "bb": 26,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 317,
+        "hits": 367,
+        "hr": 1257,
+        "rbi": 221,
+        "avg": 940
+      }
+    }
+  ]
+}

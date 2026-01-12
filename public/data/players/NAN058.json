@@ -1,0 +1,74 @@
+{
+  "id": "NAN058",
+  "code": "NAN058",
+  "name": "陳信彰",
+  "photo": "",
+  "career": {
+    "debut": 2011,
+    "teams": [
+      "ROOKIES",
+      "南港高工OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2012,
+      "team": "ROOKIES",
+      "number": "NAN058",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 215,
+        "hits": 337,
+        "hr": 137,
+        "rbi": 322,
+        "avg": 358
+      }
+    },
+    {
+      "year": 2011,
+      "team": "南港高工OB",
+      "number": "NAN058",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 212,
+        "hits": 207,
+        "hr": 60,
+        "rbi": 192,
+        "avg": 450
+      }
+    }
+  ]
+}

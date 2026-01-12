@@ -1,0 +1,189 @@
+{
+  "id": "GEO090",
+  "code": "GEO090",
+  "name": "王祥威",
+  "photo": "https://lh3.googleusercontent.com/pw/ACtC-3eARPb5lOEHUZ11fLd3soJZLRyiRozcmG3qeuwPFTq1Xd9uCFrGACJ_-JnlAZoyIMhhhN0SiPuaFQle6c8ck2AjS3jABZCS_JV6MB0l7ewREs0VthoH0YVX9O6QFovwSqjTnU-wlEbdMNUJbVLpkv5eYA=w310-h335-no",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "十號馬"
+    ],
+    "totalSeasons": 6
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "十號馬",
+      "number": "105",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 576,
+        "hits": 495,
+        "hr": 1054,
+        "rbi": 410,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "十號馬",
+      "number": "102",
+      "batting": {
+        "games": 5,
+        "pa": 14,
+        "ab": 14,
+        "hits": 8,
+        "singles": 5,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 0,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 80,
+        "hits": 60,
+        "hr": 1223,
+        "rbi": 217,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "十號馬",
+      "number": "102",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 487,
+        "hits": 438,
+        "hr": 57,
+        "rbi": 387,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "十號馬",
+      "number": "103",
+      "batting": {
+        "games": 3,
+        "pa": 10,
+        "ab": 8,
+        "hits": 5,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 5,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 96,
+        "hits": 123,
+        "hr": 1176,
+        "rbi": 80,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "十號馬",
+      "number": "103",
+      "batting": {
+        "games": 3,
+        "pa": 6,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 7,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 973,
+        "hits": 1648,
+        "hr": 1173,
+        "rbi": 1613,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "十號馬",
+      "number": "103",
+      "batting": {
+        "games": 3,
+        "pa": 12,
+        "ab": 9,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 5,
+        "bb": 4,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 258,
+        "hits": 286,
+        "hr": 1268,
+        "rbi": 284,
+        "avg": 1101
+      }
+    }
+  ]
+}

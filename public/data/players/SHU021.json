@@ -1,0 +1,73 @@
+{
+  "id": "SHU021",
+  "code": "SHU021",
+  "name": "張蔚桓",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNrt0Um5k_pwiFdKlcNLH4cj4ZZXQeuVj7b2o0tlglPhjPWyiXulNbhl5rjiGQUwgz6ETufNQ20AfOPiR6dn4vlJ6Bijfx7FBg_9kkv52X9nUScuZdDaTF9Eu7WVQQM8qCfTN--2RHqqikNS-WSf3MWzw=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "42",
+      "batting": {
+        "games": 3,
+        "pa": 11,
+        "ab": 8,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 5,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 339,
+        "hits": 397,
+        "hr": 1186,
+        "rbi": 1511,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "世新超乙組",
+      "number": "110",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 327,
+        "hits": 332,
+        "hr": 924,
+        "rbi": 163,
+        "avg": 903
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "TRO062",
+  "code": "TRO062",
+  "name": "楊侃璋",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "楚奧特"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "楚奧特",
+      "number": "80",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 500,
+        "hits": 451,
+        "hr": 70,
+        "rbi": 400,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "楚奧特",
+      "number": "80",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 564,
+        "hits": 523,
+        "hr": 71,
+        "rbi": 436,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "楚奧特",
+      "number": "80",
+      "batting": {
+        "games": 8,
+        "pa": 20,
+        "ab": 16,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 253,
+        "hits": 254,
+        "hr": 1390,
+        "rbi": 374,
+        "avg": 1022
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "MIX095",
+  "code": "MIX095",
+  "name": "簡明宗",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "MIX",
+      "number": "97",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 773,
+        "hits": 731,
+        "hr": 184,
+        "rbi": 665,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "MIX",
+      "number": "97",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 818,
+        "hits": 794,
+        "hr": 204,
+        "rbi": 710,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "MIX",
+      "number": "105",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 3,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 11,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 474,
+        "hits": 408,
+        "hr": 1133,
+        "rbi": 1568,
+        "avg": 917
+      }
+    }
+  ]
+}

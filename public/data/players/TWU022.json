@@ -1,0 +1,44 @@
+{
+  "id": "TWU022",
+  "code": "TWU022",
+  "name": "王裕祺",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPL_CYgdhzfPyp056KcLytRNkoLtwkEHjYvN_s5Vc3Qa6PFDlZ3DAC1iEr4GLgU-Lw1w-swbeIsYsl7Eo4atQb7lNjTGQsxfd3Ct1hv_W-rIiy8l_6Kyv48TP2NfQnmpFxNSjXIdEx8hPliGFrJGiLn=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "59",
+      "batting": {
+        "games": 6,
+        "pa": 14,
+        "ab": 9,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 9,
+        "so": 1,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 221,
+        "hits": 298,
+        "hr": 1200,
+        "rbi": 330,
+        "avg": 903
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "GEO110",
+  "code": "GEO110",
+  "name": "林祐聖",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMq-OlpOrrCOcx-ZES2V-HkQ5HUKJCWGw-i1YMw8gYId0tpib2j1RMPSYwPSSMaIB3BQoSWMpcczpAF7Y_BG-3wI5SNY1YUvuIXLGmvF1lqMKMPwB8hsfzF1do0o1uEP7sGM4n0FbZ39Eb8NsHHbAworA=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "十號馬"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "十號馬",
+      "number": "13",
+      "batting": {
+        "games": 7,
+        "pa": 17,
+        "ab": 15,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1123,
+        "hits": 1538,
+        "hr": 1284,
+        "rbi": 341,
+        "avg": 1123
+      }
+    }
+  ]
+}

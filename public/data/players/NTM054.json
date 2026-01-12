@@ -1,0 +1,103 @@
+{
+  "id": "NTM054",
+  "code": "NTM054",
+  "name": "周繼平",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOh9hbQYqHPKXADei8gqCVJYQcZwb9yDcsEH4FvtIMbEC3dPhyg7EZIcmSOlVpmjXLB1IiPZ9M4xbGKvu3jCY_nD109GG4FesujBF85L2jXETOdHUxY5GFI9aLZ0cD0C4Zh4PespIf46MJ0cd9upCb9Ug=w532-h674-no",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "ACES",
+      "台大機械"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "ACES",
+      "number": "23",
+      "batting": {
+        "games": 5,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 20,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 705,
+        "hits": 609,
+        "hr": 86,
+        "rbi": 555,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2018,
+      "team": "台大機械",
+      "number": "102",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 548,
+        "hits": 1642,
+        "hr": 1150,
+        "rbi": 1587,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "台大機械",
+      "number": "NTM054",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 546,
+        "hits": 519,
+        "hr": 521,
+        "rbi": 941,
+        "avg": 340
+      }
+    }
+  ]
+}

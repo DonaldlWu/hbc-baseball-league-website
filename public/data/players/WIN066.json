@@ -1,0 +1,102 @@
+{
+  "id": "WIN066",
+  "code": "WIN066",
+  "name": "王維斌",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "颶風"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "颶風",
+      "number": "96",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 837,
+        "hits": 813,
+        "hr": 223,
+        "rbi": 729,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "颶風",
+      "number": "96",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 702,
+        "hits": 672,
+        "hr": 158,
+        "rbi": 605,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "颶風",
+      "number": "96",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 8,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 477,
+        "hits": 485,
+        "hr": 1170,
+        "rbi": 1599,
+        "avg": 940
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "FET045",
+  "code": "FET045",
+  "name": "陳良威",
+  "photo": "",
+  "career": {
+    "debut": 2010,
+    "teams": [
+      "FORCE"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "FORCE",
+      "number": "FET045",
+      "batting": {
+        "games": 17,
+        "pa": 57,
+        "ab": 42,
+        "hits": 12,
+        "singles": 10,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 15,
+        "bb": 2,
+        "so": 10,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 42,
+        "hits": 49,
+        "hr": 190,
+        "rbi": 88,
+        "avg": 37
+      }
+    }
+  ]
+}

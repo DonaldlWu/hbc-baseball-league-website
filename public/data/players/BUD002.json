@@ -1,0 +1,44 @@
+{
+  "id": "BUD002",
+  "code": "BUD002",
+  "name": "陳彥余",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "The Buddies"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "The Buddies",
+      "number": "3",
+      "batting": {
+        "games": 4,
+        "pa": 4,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1001,
+        "hits": 1634,
+        "hr": 1134,
+        "rbi": 1586,
+        "avg": 1022
+      }
+    }
+  ]
+}

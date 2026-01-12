@@ -1,0 +1,219 @@
+{
+  "id": "ALL095",
+  "code": "ALL095",
+  "name": "陳柏彥",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOPT7wrsaViEMiBevjs8yakJnfiIV_uBwyP_HKzxne2EiI8ZcXkG6M3JWlFEU8TVM4noBY7mqMAvqUDcRLfSgTTE1eZ0ngdI3UisShDT7B40mLd3sW8JD8xKo4FzdBBHVVwnQiGLArbhYqsuoeoUJTBWg=w348-h424",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "飛尼克斯",
+      "ALLSTAR"
+    ],
+    "totalSeasons": 7
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "飛尼克斯",
+      "number": "60",
+      "batting": {
+        "games": 16,
+        "pa": 29,
+        "ab": 21,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 6,
+        "bb": 0,
+        "so": 17,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 293,
+        "hits": 352,
+        "hr": 1381,
+        "rbi": 355,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "飛尼克斯",
+      "number": "60",
+      "batting": {
+        "games": 6,
+        "pa": 9,
+        "ab": 8,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 1,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 458,
+        "hits": 401,
+        "hr": 1126,
+        "rbi": 131,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "飛尼克斯",
+      "number": "37",
+      "batting": {
+        "games": 9,
+        "pa": 12,
+        "ab": 10,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 397,
+        "hits": 380,
+        "hr": 1183,
+        "rbi": 1379,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "ALLSTAR",
+      "number": "66",
+      "batting": {
+        "games": 5,
+        "pa": 10,
+        "ab": 8,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 252,
+        "hits": 233,
+        "hr": 1183,
+        "rbi": 1443,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ALLSTAR",
+      "number": "66",
+      "batting": {
+        "games": 9,
+        "pa": 13,
+        "ab": 11,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1009,
+        "hits": 1674,
+        "hr": 1304,
+        "rbi": 1663,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "ALLSTAR",
+      "number": "66",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1012,
+        "hits": 1573,
+        "hr": 985,
+        "rbi": 1490,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "ALLSTAR",
+      "number": "66",
+      "batting": {
+        "games": 5,
+        "pa": 6,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 452,
+        "hits": 520,
+        "hr": 1216,
+        "rbi": 1629,
+        "avg": 917
+      }
+    }
+  ]
+}

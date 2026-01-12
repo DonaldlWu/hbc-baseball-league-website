@@ -1,0 +1,189 @@
+{
+  "id": "ALL079",
+  "code": "ALL079",
+  "name": "駱文山",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "ALLSTAR"
+    ],
+    "totalSeasons": 6
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "ALLSTAR",
+      "number": "99",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 405,
+        "hits": 399,
+        "hr": 1076,
+        "rbi": 1394,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ALLSTAR",
+      "number": "99",
+      "batting": {
+        "games": 5,
+        "pa": 18,
+        "ab": 17,
+        "hits": 7,
+        "singles": 7,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 2,
+        "bb": 7,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 275,
+        "hits": 209,
+        "hr": 1369,
+        "rbi": 144,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "ALLSTAR",
+      "number": "99",
+      "batting": {
+        "games": 11,
+        "pa": 25,
+        "ab": 21,
+        "hits": 10,
+        "singles": 8,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 11,
+        "runs": 6,
+        "bb": 29,
+        "so": 3,
+        "sb": 0,
+        "sf": 3,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 165,
+        "hits": 142,
+        "hr": 13,
+        "rbi": 63,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "ALLSTAR",
+      "number": "99",
+      "batting": {
+        "games": 6,
+        "pa": 21,
+        "ab": 19,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 3,
+        "bb": 4,
+        "so": 2,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 426,
+        "hits": 337,
+        "hr": 1421,
+        "rbi": 204,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "ALLSTAR",
+      "number": "99",
+      "batting": {
+        "games": 14,
+        "pa": 62,
+        "ab": 54,
+        "hits": 25,
+        "singles": 19,
+        "doubles": 6,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 16,
+        "runs": 16,
+        "bb": 3,
+        "so": 4,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 31
+      },
+      "rankings": {
+        "rc": 35,
+        "hits": 16,
+        "hr": 1646,
+        "rbi": 34,
+        "avg": 16
+      }
+    },
+    {
+      "year": 2017,
+      "team": "ALLSTAR",
+      "number": "ALL079",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 546,
+        "hits": 513,
+        "hr": 509,
+        "rbi": 360,
+        "avg": 340
+      }
+    }
+  ]
+}

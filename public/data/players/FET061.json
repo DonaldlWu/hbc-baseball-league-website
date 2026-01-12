@@ -1,0 +1,44 @@
+{
+  "id": "FET061",
+  "code": "FET061",
+  "name": "陳偉成",
+  "photo": "",
+  "career": {
+    "debut": 2010,
+    "teams": [
+      "FORCE"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "FORCE",
+      "number": "FET061",
+      "batting": {
+        "games": 19,
+        "pa": 39,
+        "ab": 30,
+        "hits": 9,
+        "singles": 7,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 7,
+        "runs": 8,
+        "bb": 0,
+        "so": 7,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 53,
+        "hits": 62,
+        "hr": 11,
+        "rbi": 54,
+        "avg": 450
+      }
+    }
+  ]
+}

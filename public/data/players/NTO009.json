@@ -1,0 +1,73 @@
+{
+  "id": "NTO009",
+  "code": "NTO009",
+  "name": "周子翔",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "海洋大學",
+      "number": "16",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 571,
+        "hits": 513,
+        "hr": 1149,
+        "rbi": 437,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "海洋大學",
+      "number": "16",
+      "batting": {
+        "games": 7,
+        "pa": 22,
+        "ab": 14,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 7,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 273,
+        "hits": 419,
+        "hr": 1397,
+        "rbi": 392,
+        "avg": 1101
+      }
+    }
+  ]
+}

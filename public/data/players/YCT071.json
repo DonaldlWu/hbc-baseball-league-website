@@ -1,0 +1,102 @@
+{
+  "id": "YCT071",
+  "code": "YCT071",
+  "name": "林承鈞",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "永春TB",
+      "number": "103",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 617,
+        "hits": 599,
+        "hr": 97,
+        "rbi": 537,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "永春TB",
+      "number": "YCT071",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 613,
+        "hits": 618,
+        "hr": 112,
+        "rbi": 562,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "永春TB",
+      "number": "YCT071",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 5,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 333,
+        "hits": 329,
+        "hr": 471,
+        "rbi": 440,
+        "avg": 349
+      }
+    }
+  ]
+}

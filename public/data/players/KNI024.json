@@ -1,0 +1,44 @@
+{
+  "id": "KNI024",
+  "code": "KNI024",
+  "name": "陳藝鋒",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "聖騎士"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "聖騎士",
+      "number": "69",
+      "batting": {
+        "games": 10,
+        "pa": 38,
+        "ab": 29,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 8,
+        "bb": 0,
+        "so": 7,
+        "sb": 4,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 239,
+        "hits": 279,
+        "hr": 1528,
+        "rbi": 528,
+        "avg": 1101
+      }
+    }
+  ]
+}

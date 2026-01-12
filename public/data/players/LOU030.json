@@ -1,0 +1,102 @@
+{
+  "id": "LOU030",
+  "code": "LOU030",
+  "name": "許凱傑",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "路易莎咖啡"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "路易莎咖啡",
+      "number": "54",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 648,
+        "hits": 606,
+        "hr": 59,
+        "rbi": 540,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "路易莎咖啡",
+      "number": "54",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 673,
+        "hits": 651,
+        "hr": 61,
+        "rbi": 567,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "路易莎咖啡",
+      "number": "54",
+      "batting": {
+        "games": 5,
+        "pa": 6,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 10,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 425,
+        "hits": 1656,
+        "hr": 1211,
+        "rbi": 1624,
+        "avg": 917
+      }
+    }
+  ]
+}

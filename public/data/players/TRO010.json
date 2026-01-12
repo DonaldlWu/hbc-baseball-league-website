@@ -1,0 +1,73 @@
+{
+  "id": "TRO010",
+  "code": "TRO010",
+  "name": "史美圻",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "楚奧特"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "楚奧特",
+      "number": "TRO010",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 773,
+        "hits": 778,
+        "hr": 272,
+        "rbi": 722,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "楚奧特",
+      "number": "TRO010",
+      "batting": {
+        "games": 5,
+        "pa": 6,
+        "ab": 6,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 945,
+        "hits": 927,
+        "hr": 499,
+        "rbi": 903,
+        "avg": 349
+      }
+    }
+  ]
+}

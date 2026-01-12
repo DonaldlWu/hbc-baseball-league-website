@@ -1,0 +1,102 @@
+{
+  "id": "NAN045",
+  "code": "NAN045",
+  "name": "吳俊賢",
+  "photo": "",
+  "career": {
+    "debut": 2011,
+    "teams": [
+      "南港高工OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2012,
+      "team": "南港高工OB",
+      "number": "NAN045",
+      "batting": {
+        "games": 6,
+        "pa": 24,
+        "ab": 22,
+        "hits": 8,
+        "singles": 6,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 4,
+        "bb": 8,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 93,
+        "hits": 88,
+        "hr": 263,
+        "rbi": 81,
+        "avg": 358
+      }
+    },
+    {
+      "year": 2011,
+      "team": "南港高工OB",
+      "number": "NAN045",
+      "batting": {
+        "games": 4,
+        "pa": 15,
+        "ab": 12,
+        "hits": 4,
+        "singles": 1,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 5,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 76,
+        "hits": 87,
+        "hr": 112,
+        "rbi": 221,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2011,
+      "team": "南港高工OB",
+      "number": "NAN045",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 8,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 5,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 106,
+        "hits": 87,
+        "hr": 112,
+        "rbi": 221,
+        "avg": 450
+      }
+    }
+  ]
+}

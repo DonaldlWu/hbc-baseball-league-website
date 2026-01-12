@@ -1,0 +1,44 @@
+{
+  "id": "KNI032",
+  "code": "KNI032",
+  "name": "葉世丰",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "聖騎士"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "聖騎士",
+      "number": "103",
+      "batting": {
+        "games": 7,
+        "pa": 16,
+        "ab": 15,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 0,
+        "so": 5,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 601,
+        "hits": 485,
+        "hr": 1333,
+        "rbi": 1667,
+        "avg": 1101
+      }
+    }
+  ]
+}

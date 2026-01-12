@@ -1,0 +1,102 @@
+{
+  "id": "MIR054",
+  "code": "MIR054",
+  "name": "楊義駿",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "MIRACLE"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "MIRACLE",
+      "number": "102",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 825,
+        "hits": 807,
+        "hr": 305,
+        "rbi": 745,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "MIRACLE",
+      "number": "MIR054",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 849,
+        "hits": 854,
+        "hr": 348,
+        "rbi": 798,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "MIRACLE",
+      "number": "MIR054",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 3,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 365,
+        "hits": 414,
+        "hr": 439,
+        "rbi": 867,
+        "avg": 349
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "HUA132",
+  "code": "HUA132",
+  "name": "李哲倫",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOgvT3AkwEicUhPglxtHgHY0slcpWgATebevPn_v0AEbz2m9mMrBgB2PKDOhc6ZZhink6xZjyV_7Qe9aOZ94PMQ860oxLufzXwKYKTz55GkFEk6bTMeRpFqGvNfARAghzBL6jwUwEmgGc8Awxabdv208A=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "華江OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "華江OB",
+      "number": "24",
+      "batting": {
+        "games": 2,
+        "pa": 10,
+        "ab": 8,
+        "hits": 7,
+        "singles": 5,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 3,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 152,
+        "hits": 170,
+        "hr": 1163,
+        "rbi": 107,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "華江OB",
+      "number": "24",
+      "batting": {
+        "games": 3,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 770,
+        "hits": 732,
+        "hr": 320,
+        "rbi": 665,
+        "avg": 903
+      }
+    }
+  ]
+}

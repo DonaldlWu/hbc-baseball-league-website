@@ -1,0 +1,44 @@
+{
+  "id": "NTP011",
+  "code": "NTP011",
+  "name": "陳利益",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "台北大學"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "台北大學",
+      "number": "27",
+      "batting": {
+        "games": 5,
+        "pa": 13,
+        "ab": 8,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 5,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 340,
+        "hits": 445,
+        "hr": 1326,
+        "rbi": 281,
+        "avg": 917
+      }
+    }
+  ]
+}

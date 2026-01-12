@@ -1,0 +1,44 @@
+{
+  "id": "CBC025",
+  "code": "CBC025",
+  "name": "張大銘",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "日促會"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "日促會",
+      "number": "CBC025",
+      "batting": {
+        "games": 4,
+        "pa": 8,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 1,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 487,
+        "hits": 892,
+        "hr": 507,
+        "rbi": 872,
+        "avg": 624
+      }
+    }
+  ]
+}

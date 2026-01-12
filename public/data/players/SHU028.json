@@ -1,0 +1,73 @@
+{
+  "id": "SHU028",
+  "code": "SHU028",
+  "name": "李承威",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczO4OkIe_N-wbZgPfBf7e5sDYo45g1_kgE7qHYgwJeQb5oQN4zz43wsp8vt27xIrlWruuxKaaHO2RLXTxr_RAfd-RVEeF6Z4zn3ON4R8zJSzfEhiZInG_38tp0nkigqawJIYXw9_MfOsxYjN0u0MolB6=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "24",
+      "batting": {
+        "games": 3,
+        "pa": 11,
+        "ab": 9,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 0,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 251,
+        "hits": 268,
+        "hr": 1192,
+        "rbi": 324,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "世新超乙組",
+      "number": "24",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 533,
+        "hits": 519,
+        "hr": 107,
+        "rbi": 452,
+        "avg": 903
+      }
+    }
+  ]
+}

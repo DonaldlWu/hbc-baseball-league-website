@@ -1,0 +1,131 @@
+{
+  "id": "HUA123",
+  "code": "HUA123",
+  "name": "劉至倫",
+  "photo": "https://lh3.googleusercontent.com/pw/AL9nZEW9EPJeAhF4c-xflm1y-T9M2LdVAqRKnF9uvF8o5TgVoAi4PoazMR_w_-iFAVS1mcG1GhKPnew0vmFcGlbYPRuOlgP59XkMNaR0FoAXBbwgW3LoeN75dK0yGRD_JsuEJVbnaW3oZTvt1FpU7O2CVINK=w310-h335-no",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "華江OB"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "華江OB",
+      "number": "12",
+      "batting": {
+        "games": 11,
+        "pa": 29,
+        "ab": 25,
+        "hits": 8,
+        "singles": 8,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 5,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 188,
+        "hits": 159,
+        "hr": 1384,
+        "rbi": 497,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "華江OB",
+      "number": "12",
+      "batting": {
+        "games": 9,
+        "pa": 31,
+        "ab": 27,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 6,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 161,
+        "hits": 118,
+        "hr": 1365,
+        "rbi": 240,
+        "avg": 86
+      }
+    },
+    {
+      "year": 2023,
+      "team": "華江OB",
+      "number": "12",
+      "batting": {
+        "games": 3,
+        "pa": 6,
+        "ab": 5,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 226,
+        "hits": 250,
+        "hr": 1063,
+        "rbi": 1346,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "華江OB",
+      "number": "12",
+      "batting": {
+        "games": 4,
+        "pa": 6,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 429,
+        "hits": 413,
+        "hr": 1104,
+        "rbi": 1408,
+        "avg": 943
+      }
+    }
+  ]
+}

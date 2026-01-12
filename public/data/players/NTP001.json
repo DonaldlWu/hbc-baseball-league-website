@@ -1,0 +1,44 @@
+{
+  "id": "NTP001",
+  "code": "NTP001",
+  "name": "郭正昕",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "台北大學"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "台北大學",
+      "number": "2",
+      "batting": {
+        "games": 9,
+        "pa": 40,
+        "ab": 32,
+        "hits": 14,
+        "singles": 14,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 9,
+        "bb": 0,
+        "so": 6,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 94,
+        "hits": 88,
+        "hr": 1555,
+        "rbi": 104,
+        "avg": 917
+      }
+    }
+  ]
+}

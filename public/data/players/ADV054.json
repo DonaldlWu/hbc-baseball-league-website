@@ -1,0 +1,44 @@
+{
+  "id": "ADV054",
+  "code": "ADV054",
+  "name": "林東緯",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "冒險家"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2016,
+      "team": "冒險家",
+      "number": "ADV054",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 931,
+        "hits": 899,
+        "hr": 425,
+        "rbi": 858,
+        "avg": 349
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "YAN058",
+  "code": "YAN058",
+  "name": "謝政廷",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "陽明OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2016,
+      "team": "陽明OB",
+      "number": "YAN058",
+      "batting": {
+        "games": 2,
+        "pa": 9,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 434,
+        "hits": 938,
+        "hr": 535,
+        "rbi": 455,
+        "avg": 349
+      }
+    }
+  ]
+}

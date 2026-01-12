@@ -1,0 +1,335 @@
+{
+  "id": "MOR054",
+  "code": "MOR054",
+  "name": "洪英魁",
+  "photo": "https://lh3.googleusercontent.com/kh1jtA2-ivTtI6ySAXNg3Yx1UgfMQNwd6Dx9QIPZ7ElJCgrFqJQiwxd421vUfq6JtHQKUz7wt695__ZTirgU-f5IPslOkwq6z_2EfiU1xaquv4Fus05zfXDNKOwk_0O5Pro2DWvrGcDteg7hXLXXO2-b0upyjAcf3joQ0W6WUsq5Fqp-Si9Zq4fqaTBidfZ7R6PH8yfhNESulb1suDzBGlcWf8GMXS8zLUOK_1NFHJrQZUDAvy3k0fZDJBSVKcAlfzVjxf97Lh75b6yQGH4EL05VhwvzjHi7PVTola00WS6LK5qobmtmZoGHEhQJUlQUPw1QNt8zLdUn4IpWCAq989jzfoBB85k8TDKGJFH9iVDkz3C4NqAq5F1UpuBc8l8yw_Od5iGXWSTzb2CjS8RcoJQneIdLqTOmxLKcL69qlYDcO6C2t3ISP1d3NGTnWHPXvjCa7tiWf0-sM6xkgH3HglZCVF18Q2Ex2kfluaIszB0Yq0sFY1TdlCUj7sEepNDJ5JlTX-EFV9PnWL9GxClJvb0l-G4NHGDsZ7GGAceuV3PTPsYLvBpx5fdYoo_X6rYJGrUuw8zl1djKjotVL5mZJSrhYWwllKnBgS8WfZgXnVQPl8HYuB2Y58FxYwYj1MiLJccyWqyUMbiSHj08mf7UcIWtdAiIXW8ZxD1KYAVZS_0Yhk6DiFHIoXuugy4zasL97-Sdm7mQ8vUvuNau_t-oWUKZaZ3iV5iy4W636htS5gRulxvX=w310-h335-no",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "楚奧特",
+      "莫拉克"
+    ],
+    "totalSeasons": 11
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "楚奧特",
+      "number": "11",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 541,
+        "hits": 1491,
+        "hr": 1043,
+        "rbi": 1457,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "楚奧特",
+      "number": "11",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 579,
+        "hits": 548,
+        "hr": 136,
+        "rbi": 481,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "楚奧特",
+      "number": "11",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 863,
+        "hits": 1320,
+        "hr": 945,
+        "rbi": 1271,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "楚奧特",
+      "number": "11",
+      "batting": {
+        "games": 3,
+        "pa": 10,
+        "ab": 9,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 3,
+        "bb": 2,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 385,
+        "hits": 310,
+        "hr": 1186,
+        "rbi": 129,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "楚奧特",
+      "number": "11",
+      "batting": {
+        "games": 8,
+        "pa": 24,
+        "ab": 21,
+        "hits": 7,
+        "singles": 7,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 6,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 263,
+        "hits": 219,
+        "hr": 1446,
+        "rbi": 213,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "楚奧特",
+      "number": "11",
+      "batting": {
+        "games": 8,
+        "pa": 28,
+        "ab": 26,
+        "hits": 10,
+        "singles": 9,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 7,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 212,
+        "hits": 145,
+        "hr": 1451,
+        "rbi": 110,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "楚奧特",
+      "number": "11",
+      "batting": {
+        "games": 7,
+        "pa": 24,
+        "ab": 20,
+        "hits": 7,
+        "singles": 4,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 6,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 224,
+        "hits": 214,
+        "hr": 1443,
+        "rbi": 83,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "楚奧特",
+      "number": "11",
+      "batting": {
+        "games": 10,
+        "pa": 20,
+        "ab": 17,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 4,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 471,
+        "hits": 464,
+        "hr": 1418,
+        "rbi": 245,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "楚奧特",
+      "number": "MOR054",
+      "batting": {
+        "games": 10,
+        "pa": 28,
+        "ab": 22,
+        "hits": 10,
+        "singles": 9,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 7,
+        "runs": 7,
+        "bb": 0,
+        "so": 1,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 154,
+        "hits": 163,
+        "hr": 28,
+        "rbi": 176,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "楚奧特",
+      "number": "MOR054",
+      "batting": {
+        "games": 7,
+        "pa": 23,
+        "ab": 22,
+        "hits": 7,
+        "singles": 6,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 3,
+        "bb": 0,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 299,
+        "hits": 245,
+        "hr": 705,
+        "rbi": 348,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "莫拉克",
+      "number": "MOR054",
+      "batting": {
+        "games": 3,
+        "pa": 10,
+        "ab": 7,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 421,
+        "hits": 501,
+        "hr": 530,
+        "rbi": 436,
+        "avg": 624
+      }
+    }
+  ]
+}

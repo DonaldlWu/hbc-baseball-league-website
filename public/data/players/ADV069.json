@@ -1,0 +1,44 @@
+{
+  "id": "ADV069",
+  "code": "ADV069",
+  "name": "宋承恩",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "冒險家"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "冒險家",
+      "number": "0",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 600,
+        "hits": 1582,
+        "hr": 994,
+        "rbi": 1496,
+        "avg": 1101
+      }
+    }
+  ]
+}

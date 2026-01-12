@@ -1,0 +1,73 @@
+{
+  "id": "HUA131",
+  "code": "HUA131",
+  "name": "戴晉嘉",
+  "photo": "https://lh3.googleusercontent.com/pw/ABLVV84J2Kcabs6mzWDOsUhHMJBcIIMWAU0JV9yElUd5HyPLF821GQVioLGfKrhndzp3s7rHnjVXLixz4QfYfF0EQjD5-NGsgfj5TkoxMP3xyXT4Y38CjClScBNc_Di7nTTsQ9AHXPhEr5uK-JXU6STzJjwE=w310-h335-no",
+  "career": {
+    "debut": 2023,
+    "teams": [
+      "華江OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "華江OB",
+      "number": "14",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 771,
+        "hits": 733,
+        "hr": 321,
+        "rbi": 666,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "華江OB",
+      "number": "14",
+      "batting": {
+        "games": 3,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 835,
+        "hits": 1300,
+        "hr": 921,
+        "rbi": 1250,
+        "avg": 896
+      }
+    }
+  ]
+}

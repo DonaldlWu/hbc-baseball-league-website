@@ -1,0 +1,73 @@
+{
+  "id": "FET044",
+  "code": "FET044",
+  "name": "王廷書",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "FORCE"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "FORCE",
+      "number": "FET044",
+      "batting": {
+        "games": 16,
+        "pa": 49,
+        "ab": 43,
+        "hits": 16,
+        "singles": 13,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 11,
+        "bb": 0,
+        "so": 7,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 19
+      },
+      "rankings": {
+        "rc": 37,
+        "hits": 29,
+        "hr": 191,
+        "rbi": 40,
+        "avg": 15
+      }
+    },
+    {
+      "year": 2009,
+      "team": "FORCE",
+      "number": "FET044",
+      "batting": {
+        "games": 19,
+        "pa": 68,
+        "ab": 51,
+        "hits": 13,
+        "singles": 9,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 15,
+        "runs": 18,
+        "bb": 3,
+        "so": 18,
+        "sb": 0,
+        "sf": 3,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 36,
+        "hits": 37,
+        "hr": 280,
+        "rbi": 20,
+        "avg": 31
+      }
+    }
+  ]
+}

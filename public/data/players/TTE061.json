@@ -1,0 +1,73 @@
+{
+  "id": "TTE061",
+  "code": "TTE061",
+  "name": "闕誠佑",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "北科大"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "北科大",
+      "number": "TTE061",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 978,
+        "hits": 960,
+        "hr": 481,
+        "rbi": 914,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "北科大",
+      "number": "TTE061",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 621,
+        "hits": 603,
+        "hr": 102,
+        "rbi": 549,
+        "avg": 349
+      }
+    }
+  ]
+}

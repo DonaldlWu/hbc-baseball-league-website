@@ -1,0 +1,44 @@
+{
+  "id": "DHW028",
+  "code": "DHW028",
+  "name": "黃湛閎",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNDisFDfteRuFZSk0t66QQhV6tk8aNh95noc3xxwQz938A3Ohf_Xl_VYyzwQ3PvB38uccvsl_Wt6OF00_qU5xxAzlcfAQepqaLMFtMyhFU0q0LLj-FvMqWv5zVYq2wg_XsOfp89yW-mmfD8bs_p7uwg=w248-h331",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "92",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 5,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 1,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 298,
+        "hits": 388,
+        "hr": 1122,
+        "rbi": 439,
+        "avg": 1123
+      }
+    }
+  ]
+}

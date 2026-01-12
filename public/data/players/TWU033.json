@@ -1,0 +1,44 @@
+{
+  "id": "TWU033",
+  "code": "TWU033",
+  "name": "許偉信",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPkjulVeC8O5pepw8SWCPyldYUgyMkJLJeNTuwQIUbe3hZDuMvdl46ttCepGUUSaxFJDOehRwBK6XxzkJA-v3g-H_0ohsURUlkgx51MdXjmsQg5mdaJllg2NBcDLZoR19TNf4N6cPXOVbQYMOib0dww=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "111",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 407,
+        "hits": 334,
+        "hr": 936,
+        "rbi": 164,
+        "avg": 903
+      }
+    }
+  ]
+}

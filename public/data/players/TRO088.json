@@ -1,0 +1,44 @@
+{
+  "id": "TRO088",
+  "code": "TRO088",
+  "name": "劉秉毅",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPJ_CZQSk8csfYxxCdu2mRJNKSXjVEBgZ5BbguDzjARoDCKTMcx4e2A9-egi0UTZJj5nbtF3KNcvaPNTlB2cFNWAOVX1u9LYZ5PwynCr51wZNAoW8XwLbCi28GTvQjzyax5gjmDsPHrVzej1I651Ko9gg=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "楚奧特"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "楚奧特",
+      "number": "5",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 777,
+        "hits": 687,
+        "hr": 164,
+        "rbi": 633,
+        "avg": 1123
+      }
+    }
+  ]
+}

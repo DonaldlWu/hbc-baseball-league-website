@@ -1,0 +1,132 @@
+{
+  "id": "LOU011",
+  "code": "LOU011",
+  "name": "李政寬",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "Tsuyoi",
+      "路易莎咖啡"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "Tsuyoi",
+      "number": "100",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 309,
+        "hits": 314,
+        "hr": 966,
+        "rbi": 1289,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2021,
+      "team": "路易莎咖啡",
+      "number": "17",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 651,
+        "hits": 609,
+        "hr": 62,
+        "rbi": 543,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "路易莎咖啡",
+      "number": "17",
+      "batting": {
+        "games": 11,
+        "pa": 40,
+        "ab": 30,
+        "hits": 9,
+        "singles": 8,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 6,
+        "bb": 0,
+        "so": 8,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 149,
+        "hits": 188,
+        "hr": 1540,
+        "rbi": 121,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "路易莎咖啡",
+      "number": "17",
+      "batting": {
+        "games": 13,
+        "pa": 52,
+        "ab": 37,
+        "hits": 16,
+        "singles": 9,
+        "doubles": 4,
+        "triples": 3,
+        "hr": 0,
+        "rbi": 13,
+        "runs": 13,
+        "bb": 0,
+        "so": 12,
+        "sb": 0,
+        "sf": 2,
+        "totalBases": 26
+      },
+      "rankings": {
+        "rc": 42,
+        "hits": 70,
+        "hr": 1613,
+        "rbi": 51,
+        "avg": 22
+      }
+    }
+  ]
+}

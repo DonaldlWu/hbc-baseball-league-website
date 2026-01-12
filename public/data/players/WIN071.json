@@ -1,0 +1,102 @@
+{
+  "id": "WIN071",
+  "code": "WIN071",
+  "name": "韋昭平",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "颶風"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "颶風",
+      "number": "102",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 833,
+        "hits": 809,
+        "hr": 219,
+        "rbi": 725,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "颶風",
+      "number": "68",
+      "batting": {
+        "games": 6,
+        "pa": 11,
+        "ab": 9,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 2,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 892,
+        "hits": 1675,
+        "hr": 1301,
+        "rbi": 1660,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "颶風",
+      "number": "97",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 731,
+        "hits": 713,
+        "hr": 211,
+        "rbi": 651,
+        "avg": 940
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "SWD029",
+  "code": "SWD029",
+  "name": "方毓揚",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNa8GFtf9w7C9vmNG3C79KG6gqSgI4pjVZ0SvYS6e-VftI1-et1l7HkeuD-L2P7ZWy7EXoZJ35snjIzczeYYyIyHXmpHZGjMKS43OQkWrIDwJ7zYt5wGXjV5Zi6N8c3DxUXcAJMysesORc15r3kHUjLxQ=w852-h852",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "甜心暴龍"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "甜心暴龍",
+      "number": "100",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 5,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 391,
+        "hits": 376,
+        "hr": 1074,
+        "rbi": 419,
+        "avg": 1123
+      }
+    }
+  ]
+}

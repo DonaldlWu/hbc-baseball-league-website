@@ -1,0 +1,393 @@
+{
+  "id": "COL022",
+  "code": "COL022",
+  "name": "儲旭",
+  "photo": "https://lh3.googleusercontent.com/wv6p54ZZUVDkwkwLGQflP9vGIyzVLHRyDT61Ax7xhp_AqgScojrgHQb9oxjiWMz6d3lqTsdrEtHS0tcIx7sgZtjOA5HbXWADVIHi7erDNd21f3L2GUSuzhs3Cm1Pr7fKIxmCSxrex1BlWSnJTFPfVFl1J7DDyJiHl5vDrY4urEX6d_sXgcC9swx2ZKTSC9pngoxjYEQ82KpJCiJ6pIQN9hW67LaJSK8NulawaUf1l9cETVw42JayS8pg44nMlbiBnqLGywOxywnO34poolpu1SvBdXzBItULc-VBqzvmWsPMWE4xcrhxSe7ZB0TTZVXS_pg6Q9LBlan9GqY8H1_g1qqdmZVAy4Nfbm8YwL_1MUctbTHcxDRHNQA9x7UvH0jVWdjM8x1XUlQSm7O1KdOCAuGLKQQ1KPIxk3GNoCKL-JBbWD8AZOmRZhE1clks_-Zv4rsPQddIKcLaX-sUUifWsIU8QOVHagPDpCLGsBMx-ooatVazoMvE6D6uCPtUi0fuxR5KXwWuVtjXQaend9YG4uIA_tqu2_H2C09sQDcLv_mZvL0FEYmj4eEDJdGtC8ec-VdJ=w310-h335-no",
+  "career": {
+    "debut": 2013,
+    "teams": [
+      "陽明OB",
+      "冷鋒"
+    ],
+    "totalSeasons": 13
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "陽明OB",
+      "number": "17",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 9,
+        "hits": 3,
+        "singles": 1,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 1,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 367,
+        "hits": 313,
+        "hr": 1154,
+        "rbi": 197,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "陽明OB",
+      "number": "17",
+      "batting": {
+        "games": 4,
+        "pa": 13,
+        "ab": 10,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 5,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 145,
+        "hits": 163,
+        "hr": 1193,
+        "rbi": 1385,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "陽明OB",
+      "number": "17",
+      "batting": {
+        "games": 5,
+        "pa": 19,
+        "ab": 12,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 6,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 125,
+        "hits": 219,
+        "hr": 1285,
+        "rbi": 105,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "陽明OB",
+      "number": "17",
+      "batting": {
+        "games": 8,
+        "pa": 25,
+        "ab": 21,
+        "hits": 7,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 9,
+        "bb": 0,
+        "so": 8,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 101,
+        "hits": 94,
+        "hr": 1406,
+        "rbi": 102,
+        "avg": 61
+      }
+    },
+    {
+      "year": 2021,
+      "team": "陽明OB",
+      "number": "17",
+      "batting": {
+        "games": 8,
+        "pa": 24,
+        "ab": 20,
+        "hits": 7,
+        "singles": 5,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 3,
+        "bb": 0,
+        "so": 8,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 232,
+        "hits": 218,
+        "hr": 1444,
+        "rbi": 174,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "陽明OB",
+      "number": "17",
+      "batting": {
+        "games": 10,
+        "pa": 28,
+        "ab": 25,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 3,
+        "bb": 0,
+        "so": 10,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 351,
+        "hits": 306,
+        "hr": 1449,
+        "rbi": 203,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "陽明OB",
+      "number": "17",
+      "batting": {
+        "games": 14,
+        "pa": 29,
+        "ab": 27,
+        "hits": 9,
+        "singles": 6,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 6,
+        "bb": 4,
+        "so": 7,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 217,
+        "hits": 172,
+        "hr": 1488,
+        "rbi": 144,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "陽明OB",
+      "number": "17",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 682,
+        "hits": 664,
+        "hr": 162,
+        "rbi": 602,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "陽明OB",
+      "number": "COL022",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 982,
+        "hits": 982,
+        "hr": 519,
+        "rbi": 939,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "陽明OB",
+      "number": "COL022",
+      "batting": {
+        "games": 9,
+        "pa": 36,
+        "ab": 30,
+        "hits": 10,
+        "singles": 7,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 10,
+        "bb": 0,
+        "so": 7,
+        "sb": 0,
+        "sf": 2,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 203,
+        "hits": 174,
+        "hr": 794,
+        "rbi": 140,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "陽明OB",
+      "number": "COL022",
+      "batting": {
+        "games": 12,
+        "pa": 54,
+        "ab": 47,
+        "hits": 20,
+        "singles": 11,
+        "doubles": 5,
+        "triples": 2,
+        "hr": 2,
+        "rbi": 20,
+        "runs": 15,
+        "bb": 0,
+        "so": 6,
+        "sb": 4,
+        "sf": 1,
+        "totalBases": 35
+      },
+      "rankings": {
+        "rc": 32,
+        "hits": 38,
+        "hr": 9,
+        "rbi": 19,
+        "avg": 29
+      }
+    },
+    {
+      "year": 2014,
+      "team": "陽明OB",
+      "number": "COL022",
+      "batting": {
+        "games": 17,
+        "pa": 66,
+        "ab": 50,
+        "hits": 16,
+        "singles": 11,
+        "doubles": 3,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 17,
+        "runs": 24,
+        "bb": 0,
+        "so": 8,
+        "sb": 6,
+        "sf": 1,
+        "totalBases": 23
+      },
+      "rankings": {
+        "rc": 37,
+        "hits": 56,
+        "hr": 652,
+        "rbi": 28,
+        "avg": 61
+      }
+    },
+    {
+      "year": 2013,
+      "team": "冷鋒",
+      "number": "COL022",
+      "batting": {
+        "games": 11,
+        "pa": 33,
+        "ab": 29,
+        "hits": 9,
+        "singles": 6,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 2,
+        "rbi": 6,
+        "runs": 14,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 16
+      },
+      "rankings": {
+        "rc": 89,
+        "hits": 104,
+        "hr": 3,
+        "rbi": 113,
+        "avg": 323
+      }
+    }
+  ]
+}

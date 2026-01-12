@@ -1,0 +1,73 @@
+{
+  "id": "MIX078",
+  "code": "MIX078",
+  "name": "郭宇承",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "MIX",
+      "number": "96",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 789,
+        "hits": 747,
+        "hr": 200,
+        "rbi": 681,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2018,
+      "team": "MIX",
+      "number": "103",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 9,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 916,
+        "hits": 525,
+        "hr": 1292,
+        "rbi": 446,
+        "avg": 940
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "SCO035",
+  "code": "SCO035",
+  "name": "張倫常",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPwJosluqwLxm8KB5iuOIG3ZPcACc9A0z45744y_vdBqN3idkXWzt7YqxcjYYNDTnbUfHVjIE44bRue6RBxB85toUmKSevrVVow-X20lS8tha7zsE-wasMZ2LAaXNLcTil3RoCpN9YkQCRt2VL6fYd9iA=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "110",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 679,
+        "hits": 588,
+        "hr": 65,
+        "rbi": 534,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "143",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 512,
+        "hits": 449,
+        "hr": 37,
+        "rbi": 382,
+        "avg": 903
+      }
+    }
+  ]
+}

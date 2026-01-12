@@ -1,0 +1,73 @@
+{
+  "id": "YCT056",
+  "code": "YCT056",
+  "name": "彭彥融",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "永春TB",
+      "number": "17",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 708,
+        "hits": 666,
+        "hr": 119,
+        "rbi": 600,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2015,
+      "team": "永春TB",
+      "number": "YCT056",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 531,
+        "hits": 522,
+        "hr": 61,
+        "rbi": 479,
+        "avg": 624
+      }
+    }
+  ]
+}

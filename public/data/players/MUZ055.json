@@ -1,0 +1,102 @@
+{
+  "id": "MUZ055",
+  "code": "MUZ055",
+  "name": "盧韋君",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "木柵OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "木柵OB",
+      "number": "23",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 536,
+        "hits": 522,
+        "hr": 110,
+        "rbi": 455,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "木柵OB",
+      "number": "91",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 477,
+        "hits": 428,
+        "hr": 47,
+        "rbi": 377,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2019,
+      "team": "木柵OB",
+      "number": "91",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 565,
+        "hits": 1612,
+        "hr": 1113,
+        "rbi": 1552,
+        "avg": 917
+      }
+    }
+  ]
+}

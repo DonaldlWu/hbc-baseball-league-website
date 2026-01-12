@@ -1,0 +1,73 @@
+{
+  "id": "SCO027",
+  "code": "SCO027",
+  "name": "鄭庭沅",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczP7JZyu_ZIPZSkeAMGz9RtlyKiLhzwxa66QLJnnP8Yv3zDJPqUZaWiMw9OlLWDXe362pgXq9xQ3TvDrV-JD6NQSoC4Pt_9WIHJBSQmXzi6dHixQ1srnvTohBPxmiMKDkv74lTsZJH8ZJB7A8GYmJTPVPw=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "69",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 683,
+        "hits": 597,
+        "hr": 74,
+        "rbi": 543,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "142",
+      "batting": {
+        "games": 1,
+        "pa": 6,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 258,
+        "hits": 372,
+        "hr": 1039,
+        "rbi": 281,
+        "avg": 903
+      }
+    }
+  ]
+}

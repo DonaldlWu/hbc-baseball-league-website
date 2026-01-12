@@ -1,0 +1,44 @@
+{
+  "id": "NTH008",
+  "code": "NTH008",
+  "name": "楊諺昕",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczP09o91_DM6o1se-WNqIBJl65QWy_wSD8ky_qTEbDAUs3_p4s5Eynqz87lxKRZzs4r7F3DJDpzAwomLj45u-coMRD3zB1c5kB6CNCt0PlDHZarwST6ijkEFwxkr1Rtmxc3pzavK-G-_eyrh8dT2H80W=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "32",
+      "batting": {
+        "games": 8,
+        "pa": 6,
+        "ab": 6,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 22,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 440,
+        "hits": 378,
+        "hr": 1083,
+        "rbi": 307,
+        "avg": 1123
+      }
+    }
+  ]
+}

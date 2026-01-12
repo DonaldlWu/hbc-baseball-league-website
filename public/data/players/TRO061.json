@@ -1,0 +1,131 @@
+{
+  "id": "TRO061",
+  "code": "TRO061",
+  "name": "李宇翔",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "楚奧特"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "楚奧特",
+      "number": "69",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 560,
+        "hits": 529,
+        "hr": 117,
+        "rbi": 462,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "楚奧特",
+      "number": "69",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 525,
+        "hits": 476,
+        "hr": 95,
+        "rbi": 425,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "楚奧特",
+      "number": "69",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 568,
+        "hits": 527,
+        "hr": 75,
+        "rbi": 440,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "楚奧特",
+      "number": "69",
+      "batting": {
+        "games": 7,
+        "pa": 15,
+        "ab": 11,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 5,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 243,
+        "hits": 277,
+        "hr": 1327,
+        "rbi": 280,
+        "avg": 1022
+      }
+    }
+  ]
+}

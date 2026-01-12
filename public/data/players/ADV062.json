@@ -1,0 +1,44 @@
+{
+  "id": "ADV062",
+  "code": "ADV062",
+  "name": "吳國城",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "冒險家"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "冒險家",
+      "number": "102",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 872,
+        "hits": 1610,
+        "hr": 1109,
+        "rbi": 1549,
+        "avg": 917
+      }
+    }
+  ]
+}

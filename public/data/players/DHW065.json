@@ -1,0 +1,44 @@
+{
+  "id": "DHW065",
+  "code": "DHW065",
+  "name": "郭睿凡",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMK0zt0HXrN272kmPiSHbK01h2Ndx3UGz9TFiyhf5Ocu6i3Zf_eaShjjkTafnBZZWgzxJwUi2l9LDLAOzt9FwFkpvnmhzQHckuyb8Q-Dec6iA1LyHfgnDYwuEwCwnsqZrGNubs3Mh2d1k5MAQPppaz7=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "98",
+      "batting": {
+        "games": 2,
+        "pa": 7,
+        "ab": 6,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1078,
+        "hits": 1514,
+        "hr": 1106,
+        "rbi": 432,
+        "avg": 1123
+      }
+    }
+  ]
+}

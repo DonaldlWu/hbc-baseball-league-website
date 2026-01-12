@@ -1,0 +1,44 @@
+{
+  "id": "MUZ033",
+  "code": "MUZ033",
+  "name": "許景淳",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "木柵OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "木柵OB",
+      "number": "MUZ033",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 1,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 490,
+        "hits": 491,
+        "hr": 440,
+        "rbi": 883,
+        "avg": 340
+      }
+    }
+  ]
+}

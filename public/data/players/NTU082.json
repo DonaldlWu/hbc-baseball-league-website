@@ -1,0 +1,44 @@
+{
+  "id": "NTU082",
+  "code": "NTU082",
+  "name": "張朝翔",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "台大化工OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "台大化工OB",
+      "number": "39",
+      "batting": {
+        "games": 4,
+        "pa": 14,
+        "ab": 13,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 3,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 422,
+        "hits": 385,
+        "hr": 1357,
+        "rbi": 229,
+        "avg": 940
+      }
+    }
+  ]
+}

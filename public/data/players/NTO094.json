@@ -1,0 +1,44 @@
+{
+  "id": "NTO094",
+  "code": "NTO094",
+  "name": "李易澄",
+  "photo": "https://lh3.googleusercontent.com/pw/ADCreHewZvNCUqwyOaee6Ze4j6j-wI5M6Em7AmeIzeL0VHDz2XvRKVb9SpkHm_8vgo94_ynlhirBABLPgmPz8n5T7IR0eunpA_1ESrYIu4U1-qBQyOy5wPRo0rtSYbb758omwVtxD-POwnwDmfdPD1fC0ZPc=w310-h335-no",
+  "career": {
+    "debut": 2023,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "海洋大學",
+      "number": "14",
+      "batting": {
+        "games": 6,
+        "pa": 16,
+        "ab": 16,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 4,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 842,
+        "hits": 289,
+        "hr": 1256,
+        "rbi": 235,
+        "avg": 896
+      }
+    }
+  ]
+}

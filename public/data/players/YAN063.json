@@ -1,0 +1,102 @@
+{
+  "id": "YAN063",
+  "code": "YAN063",
+  "name": "游敦凱",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "陽明OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "陽明OB",
+      "number": "64",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 651,
+        "hits": 621,
+        "hr": 107,
+        "rbi": 554,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "陽明OB",
+      "number": "64",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 670,
+        "hits": 652,
+        "hr": 150,
+        "rbi": 590,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "陽明OB",
+      "number": "YAN063",
+      "batting": {
+        "games": 5,
+        "pa": 14,
+        "ab": 13,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 7,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 504,
+        "hits": 403,
+        "hr": 693,
+        "rbi": 394,
+        "avg": 340
+      }
+    }
+  ]
+}

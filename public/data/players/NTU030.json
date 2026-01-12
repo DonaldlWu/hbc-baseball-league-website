@@ -1,0 +1,131 @@
+{
+  "id": "NTU030",
+  "code": "NTU030",
+  "name": "高子鈞",
+  "photo": "",
+  "career": {
+    "debut": 2013,
+    "teams": [
+      "台大化工OB"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2016,
+      "team": "台大化工OB",
+      "number": "NTU030",
+      "batting": {
+        "games": 9,
+        "pa": 41,
+        "ab": 34,
+        "hits": 12,
+        "singles": 7,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 13,
+        "runs": 15,
+        "bb": 0,
+        "so": 0,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 121,
+        "hits": 142,
+        "hr": 823,
+        "rbi": 73,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "台大化工OB",
+      "number": "NTU030",
+      "batting": {
+        "games": 15,
+        "pa": 60,
+        "ab": 54,
+        "hits": 24,
+        "singles": 18,
+        "doubles": 3,
+        "triples": 2,
+        "hr": 1,
+        "rbi": 21,
+        "runs": 19,
+        "bb": 2,
+        "so": 4,
+        "sb": 3,
+        "sf": 3,
+        "totalBases": 34
+      },
+      "rankings": {
+        "rc": 39,
+        "hits": 26,
+        "hr": 45,
+        "rbi": 13,
+        "avg": 21
+      }
+    },
+    {
+      "year": 2014,
+      "team": "台大化工OB",
+      "number": "NTU030",
+      "batting": {
+        "games": 9,
+        "pa": 30,
+        "ab": 28,
+        "hits": 13,
+        "singles": 10,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 7,
+        "bb": 3,
+        "so": 1,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 103,
+        "hits": 85,
+        "hr": 533,
+        "rbi": 138,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "台大化工OB",
+      "number": "NTU030",
+      "batting": {
+        "games": 10,
+        "pa": 45,
+        "ab": 44,
+        "hits": 19,
+        "singles": 11,
+        "doubles": 8,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 17,
+        "runs": 19,
+        "bb": 14,
+        "so": 4,
+        "sb": 11,
+        "sf": 1,
+        "totalBases": 27
+      },
+      "rankings": {
+        "rc": 27,
+        "hits": 24,
+        "hr": 437,
+        "rbi": 17,
+        "avg": 323
+      }
+    }
+  ]
+}

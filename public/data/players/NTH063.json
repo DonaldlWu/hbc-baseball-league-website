@@ -1,0 +1,44 @@
+{
+  "id": "NTH063",
+  "code": "NTH063",
+  "name": "陳奎佑",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOaXY-LgUYiAsvGr0rAlTTT5UgRLpNZPjdX6N6H0qQzulfAknzHKBo8QiKsXk7Ns0uULpDbw83GqFn9iorSAxo0zscLofUXRS6OzLA1F23zpUTJ3rTRhZTC3Ewhw-K9RPNKAK2qluCJW100aWrhFvWS=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "311",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 570,
+        "hits": 1419,
+        "hr": 904,
+        "rbi": 1366,
+        "avg": 1123
+      }
+    }
+  ]
+}

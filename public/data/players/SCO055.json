@@ -1,0 +1,44 @@
+{
+  "id": "SCO055",
+  "code": "SCO055",
+  "name": "陳秉宏",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOY_16jLujvevCM63aYX677lrydDXFADi1IVHsaKoAg_wsEE-2GdEYrw5GSPRDAOTcxbnGsFg-AmZfc6jfFDNd6b99nihxbG14fF94OeqqzL_Jsa_yjPXcisArwrPT-rjujA5my8g3qy4ftxg0YV6yX4w=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "210",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 406,
+        "hits": 340,
+        "hr": 948,
+        "rbi": 1270,
+        "avg": 903
+      }
+    }
+  ]
+}

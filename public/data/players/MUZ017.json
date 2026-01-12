@@ -1,0 +1,102 @@
+{
+  "id": "MUZ017",
+  "code": "MUZ017",
+  "name": "吳柏學",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "木柵OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "木柵OB",
+      "number": "24",
+      "batting": {
+        "games": 5,
+        "pa": 13,
+        "ab": 9,
+        "hits": 3,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 4,
+        "bb": 7,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 256,
+        "hits": 379,
+        "hr": 1327,
+        "rbi": 1668,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "木柵OB",
+      "number": "24",
+      "batting": {
+        "games": 7,
+        "pa": 12,
+        "ab": 11,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 6,
+        "bb": 7,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 243,
+        "hits": 249,
+        "hr": 1327,
+        "rbi": 297,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "木柵OB",
+      "number": "MUZ017",
+      "batting": {
+        "games": 8,
+        "pa": 15,
+        "ab": 14,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 3,
+        "bb": 3,
+        "so": 2,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 323,
+        "hits": 293,
+        "hr": 710,
+        "rbi": 273,
+        "avg": 340
+      }
+    }
+  ]
+}

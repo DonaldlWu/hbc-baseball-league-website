@@ -1,0 +1,131 @@
+{
+  "id": "ARR026",
+  "code": "ARR026",
+  "name": "李昆穎",
+  "photo": "",
+  "career": {
+    "debut": 2012,
+    "teams": [
+      "亞克鷹"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "亞克鷹",
+      "number": "ARR026",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 719,
+        "hits": 522,
+        "hr": 61,
+        "rbi": 479,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "亞克鷹",
+      "number": "ARR026",
+      "batting": {
+        "games": 6,
+        "pa": 22,
+        "ab": 18,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 6,
+        "bb": 0,
+        "so": 8,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 354,
+        "hits": 295,
+        "hr": 474,
+        "rbi": 668,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "亞克鷹",
+      "number": "ARR026",
+      "batting": {
+        "games": 9,
+        "pa": 41,
+        "ab": 32,
+        "hits": 9,
+        "singles": 7,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 10,
+        "runs": 10,
+        "bb": 0,
+        "so": 8,
+        "sb": 5,
+        "sf": 1,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 80,
+        "hits": 106,
+        "hr": 18,
+        "rbi": 60,
+        "avg": 323
+      }
+    },
+    {
+      "year": 2012,
+      "team": "亞克鷹",
+      "number": "ARR026",
+      "batting": {
+        "games": 16,
+        "pa": 60,
+        "ab": 48,
+        "hits": 14,
+        "singles": 10,
+        "doubles": 2,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 21,
+        "bb": 0,
+        "so": 14,
+        "sb": 7,
+        "sf": 1,
+        "totalBases": 20
+      },
+      "rankings": {
+        "rc": 28,
+        "hits": 38,
+        "hr": 341,
+        "rbi": 60,
+        "avg": 40
+      }
+    }
+  ]
+}

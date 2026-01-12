@@ -1,0 +1,44 @@
+{
+  "id": "DHW003",
+  "code": "DHW003",
+  "name": "楊皓辰",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNLpGv2Kb-9wRhj5BAtUA1vc7K8FiEEULTCeH53fZ8raY7yC2k10IZfsa-jaMIW46YtTEnoqx6v7xYoVjSFH3-nloMGLQjorSp3W-_orBPax6ClZhrpymS6-aIvcaiAXsMd8jhGMkxz-lXM1nmHU52-=w250-h266",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "2",
+      "batting": {
+        "games": 12,
+        "pa": 31,
+        "ab": 27,
+        "hits": 8,
+        "singles": 8,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 36,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 193,
+        "hits": 162,
+        "hr": 1400,
+        "rbi": 358,
+        "avg": 1123
+      }
+    }
+  ]
+}

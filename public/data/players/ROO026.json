@@ -1,0 +1,102 @@
+{
+  "id": "ROO026",
+  "code": "ROO026",
+  "name": "簡煌瑋",
+  "photo": "",
+  "career": {
+    "debut": 2012,
+    "teams": [
+      "ROOKIES"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2014,
+      "team": "ROOKIES",
+      "number": "ROO026",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 496,
+        "hits": 409,
+        "hr": 27,
+        "rbi": 378,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "ROOKIES",
+      "number": "ROO026",
+      "batting": {
+        "games": 4,
+        "pa": 16,
+        "ab": 13,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 3,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 2,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 195,
+        "hits": 192,
+        "hr": 303,
+        "rbi": 122,
+        "avg": 323
+      }
+    },
+    {
+      "year": 2012,
+      "team": "ROOKIES",
+      "number": "ROO026",
+      "batting": {
+        "games": 5,
+        "pa": 20,
+        "ab": 15,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 128,
+        "hits": 137,
+        "hr": 243,
+        "rbi": 201,
+        "avg": 358
+      }
+    }
+  ]
+}

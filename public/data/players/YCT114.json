@@ -1,0 +1,102 @@
+{
+  "id": "YCT114",
+  "code": "YCT114",
+  "name": "陳品勳",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNw_MJfv7b_D2LMDaguxoV09nQ2V69RwGpUXCkc9WZP0WMWiZj5LXNBCem1f6JT4IKYTf1B8RoyBAgLHEUo1x48BM7hxHN2D1NyMNjPfkLK6UTwL_8_jZg13p_RbcNSSv70qO6ENqK_pZm_5ARaRDw=w310-h335-no",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "永春TB",
+      "number": "30",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 801,
+        "hits": 711,
+        "hr": 188,
+        "rbi": 657,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "永春TB",
+      "number": "30",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 607,
+        "hits": 576,
+        "hr": 164,
+        "rbi": 509,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2021,
+      "team": "永春TB",
+      "number": "97",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 5,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 0,
+        "hits": 1022,
+        "hr": 1022,
+        "rbi": 1022,
+        "avg": 1022
+      }
+    }
+  ]
+}

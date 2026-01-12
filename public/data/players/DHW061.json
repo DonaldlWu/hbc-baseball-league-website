@@ -1,0 +1,44 @@
+{
+  "id": "DHW061",
+  "code": "DHW061",
+  "name": "曹哲睿",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczN8n5lP5HIxszcWEUbZIUXqvYtMj3Dx3kTSjMtIxmxA4Gj5eMMoGz-3-iVLf692xxqnijm9tgAwNa_wA7h8OFaFqPXEXUxPvF3wLhX9j7LCh-C78ixQ7F7uERma78_rVdhehsWqKD_IQMqzWaFwYSNQ=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "52",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 5,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 475,
+        "hits": 496,
+        "hr": 1055,
+        "rbi": 411,
+        "avg": 1123
+      }
+    }
+  ]
+}

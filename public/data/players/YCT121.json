@@ -1,0 +1,73 @@
+{
+  "id": "YCT121",
+  "code": "YCT121",
+  "name": "吳冠諺",
+  "photo": "",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "永春TB",
+      "number": "52",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 544,
+        "hits": 495,
+        "hr": 114,
+        "rbi": 444,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "永春TB",
+      "number": "52",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 7,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 2,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 336,
+        "hits": 299,
+        "hr": 1138,
+        "rbi": 325,
+        "avg": 943
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "LOU044",
+  "code": "LOU044",
+  "name": "張哲綸",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "路易莎咖啡"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "路易莎咖啡",
+      "number": "41",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 1,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1005,
+        "hits": 1644,
+        "hr": 1120,
+        "rbi": 1579,
+        "avg": 1101
+      }
+    }
+  ]
+}

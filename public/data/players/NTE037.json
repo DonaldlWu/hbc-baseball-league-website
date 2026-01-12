@@ -1,0 +1,102 @@
+{
+  "id": "NTE037",
+  "code": "NTE037",
+  "name": "李政翰",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "台大經濟OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "台大經濟OB",
+      "number": "NTE037",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 629,
+        "hits": 634,
+        "hr": 128,
+        "rbi": 578,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "台大經濟OB",
+      "number": "NTE037",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 870,
+        "hits": 844,
+        "hr": 345,
+        "rbi": 790,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "台大經濟OB",
+      "number": "NTE037",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 558,
+        "hits": 522,
+        "hr": 61,
+        "rbi": 479,
+        "avg": 624
+      }
+    }
+  ]
+}

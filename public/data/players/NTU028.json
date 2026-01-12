@@ -1,0 +1,73 @@
+{
+  "id": "NTU028",
+  "code": "NTU028",
+  "name": "高國荃",
+  "photo": "",
+  "career": {
+    "debut": 2013,
+    "teams": [
+      "台大化工OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2014,
+      "team": "台大化工OB",
+      "number": "NTU028",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 452,
+        "hits": 409,
+        "hr": 27,
+        "rbi": 378,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "台大化工OB",
+      "number": "NTU028",
+      "batting": {
+        "games": 5,
+        "pa": 9,
+        "ab": 7,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 477,
+        "hits": 489,
+        "hr": 253,
+        "rbi": 473,
+        "avg": 323
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "ALL108",
+  "code": "ALL108",
+  "name": "曾威豪",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMYfu6qIn4N---okjKw6jo10a5bTRG-6o80jFMjzEpWS9juPAcAEjSktdbgEyxM0rq3dQ05_QOQHTGQnRAywhYkN8Iig7zOk1nE_HfKQNf3fhx4vPPwNvrz5upIFYVqzxzIzy8rUJC0LOTcJWq--Dm2vw=w310-h335-no",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "ACES",
+      "ALLSTAR"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "ACES",
+      "number": "96",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 703,
+        "hits": 605,
+        "hr": 82,
+        "rbi": 551,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "ACES",
+      "number": "96",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 6,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 286,
+        "hits": 399,
+        "hr": 1121,
+        "rbi": 1361,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2022,
+      "team": "ALLSTAR",
+      "number": "73",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 272,
+        "hits": 275,
+        "hr": 1021,
+        "rbi": 300,
+        "avg": 943
+      }
+    }
+  ]
+}

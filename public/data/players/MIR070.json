@@ -1,0 +1,102 @@
+{
+  "id": "MIR070",
+  "code": "MIR070",
+  "name": "黃志遠",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOrepKN4VcpXw78Lba8T-EMLPAtkFD1RgMO0iGN4AkdeCUYCHZtCkqOJMTjP3sEdxymWnNsVYoEUEVvyNnvHeIR9grhh59A4Eqmwice8EBLGT3kJKvOUw2BMrlSvdVoR15shMMiiq7kbBc1bYI0MXYc=w310-h335-no",
+  "career": {
+    "debut": 2023,
+    "teams": [
+      "MIRACLE"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "MIRACLE",
+      "number": "66",
+      "batting": {
+        "games": 7,
+        "pa": 18,
+        "ab": 16,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 7,
+        "bb": 10,
+        "so": 5,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 368,
+        "hits": 344,
+        "hr": 1299,
+        "rbi": 167,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "MIRACLE",
+      "number": "66",
+      "batting": {
+        "games": 3,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 3,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 808,
+        "hits": 770,
+        "hr": 358,
+        "rbi": 703,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "MIRACLE",
+      "number": "66",
+      "batting": {
+        "games": 4,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 22,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 786,
+        "hits": 722,
+        "hr": 341,
+        "rbi": 671,
+        "avg": 896
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "NTO087",
+  "code": "NTO087",
+  "name": "張宏瑜",
+  "photo": "",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "海洋大學",
+      "number": "110",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 860,
+        "hits": 1317,
+        "hr": 942,
+        "rbi": 1268,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "海洋大學",
+      "number": "101",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 528,
+        "hits": 487,
+        "hr": 35,
+        "rbi": 400,
+        "avg": 943
+      }
+    }
+  ]
+}

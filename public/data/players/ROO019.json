@@ -1,0 +1,452 @@
+{
+  "id": "ROO019",
+  "code": "ROO019",
+  "name": "曹峻豪",
+  "photo": "https://lh3.googleusercontent.com/Rm1FTqWfIrlwJpIT2GkH14SfpcAjnAAcSPlFxszfb8C7OjwpM-hI1-AqVc9PP4eupIfAydng7u53n_iGy7JD36_JA6i7l0zjXcfP1OLmunZNnx2r6MXPE0reGUlDl3MsrJ4-_lAXM-BCscM1d4c4pSpoERnMzM9ysmSMjrjqml7CClBivUdXbQ5pFWnQCEE8inhRZzTt-9A6uGwS_JKvz6a2BuFU9R3gv8kXVihGvH_6JPp4VX13p7KnIfc4LZxktkLN9scJCMjCNZHrY4ViaT7tZqf61AFpet_r8psCPmasqqvoLzelQc5c-2NLaCc9_RcHfZN22e4pr2lYoagGzXJrctR5OrgLsojSD6S-g1hxBjCedwn5ThXXiZiUJBZIZggBuyjn_IvO-PbV7rd2yTGKUxF0bs6KNwz073ygvflYLh-WcONhgLItxViVsoD2IhpWlWZ3RQzVB0oJ6Vt60fcGMf_StJzpxPK2TGiE3bs3PRgQ-SWVdU0MtAELAMmMJQDa4nEk7zvyn1MJWTG5dD-7I79yrVl4pj8YpnOjmKmmht7IhRLHugHbpp5WtKQ2RzgC=w310-h335-no",
+  "career": {
+    "debut": 2011,
+    "teams": [
+      "Line Drive",
+      "ROOKIES",
+      "南港高工OB"
+    ],
+    "totalSeasons": 15
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Line Drive",
+      "number": "32",
+      "batting": {
+        "games": 18,
+        "pa": 57,
+        "ab": 45,
+        "hits": 14,
+        "singles": 13,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 12,
+        "runs": 14,
+        "bb": 0,
+        "so": 5,
+        "sb": 2,
+        "sf": 1,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 71,
+        "hits": 61,
+        "hr": 1515,
+        "rbi": 43,
+        "avg": 62
+      }
+    },
+    {
+      "year": 2024,
+      "team": "Line Drive",
+      "number": "32",
+      "batting": {
+        "games": 4,
+        "pa": 18,
+        "ab": 17,
+        "hits": 7,
+        "singles": 7,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 5,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 125,
+        "hits": 81,
+        "hr": 1268,
+        "rbi": 144,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "Line Drive",
+      "number": "32",
+      "batting": {
+        "games": 5,
+        "pa": 20,
+        "ab": 14,
+        "hits": 7,
+        "singles": 6,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 7,
+        "bb": 0,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 48,
+        "hits": 72,
+        "hr": 1297,
+        "rbi": 246,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "Line Drive",
+      "number": "32",
+      "batting": {
+        "games": 7,
+        "pa": 22,
+        "ab": 18,
+        "hits": 8,
+        "singles": 3,
+        "doubles": 4,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 9,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 71,
+        "hits": 62,
+        "hr": 1357,
+        "rbi": 66,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "ROOKIES",
+      "number": "32",
+      "batting": {
+        "games": 11,
+        "pa": 45,
+        "ab": 35,
+        "hits": 14,
+        "singles": 12,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 15,
+        "runs": 11,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 88,
+        "hits": 94,
+        "hr": 1589,
+        "rbi": 33,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "ROOKIES",
+      "number": "32",
+      "batting": {
+        "games": 14,
+        "pa": 57,
+        "ab": 43,
+        "hits": 11,
+        "singles": 10,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 17,
+        "bb": 0,
+        "so": 4,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 112,
+        "hits": 141,
+        "hr": 1624,
+        "rbi": 148,
+        "avg": 105
+      }
+    },
+    {
+      "year": 2019,
+      "team": "ROOKIES",
+      "number": "32",
+      "batting": {
+        "games": 16,
+        "pa": 73,
+        "ab": 58,
+        "hits": 27,
+        "singles": 23,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 16,
+        "runs": 29,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 33
+      },
+      "rankings": {
+        "rc": 12,
+        "hits": 11,
+        "hr": 30,
+        "rbi": 33,
+        "avg": 10
+      }
+    },
+    {
+      "year": 2018,
+      "team": "ROOKIES",
+      "number": "32",
+      "batting": {
+        "games": 17,
+        "pa": 66,
+        "ab": 49,
+        "hits": 23,
+        "singles": 18,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 18,
+        "runs": 22,
+        "bb": 0,
+        "so": 5,
+        "sb": 4,
+        "sf": 1,
+        "totalBases": 28
+      },
+      "rankings": {
+        "rc": 20,
+        "hits": 25,
+        "hr": 1653,
+        "rbi": 24,
+        "avg": 15
+      }
+    },
+    {
+      "year": 2017,
+      "team": "ROOKIES",
+      "number": "ROO019",
+      "batting": {
+        "games": 19,
+        "pa": 79,
+        "ab": 61,
+        "hits": 25,
+        "singles": 19,
+        "doubles": 5,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 18,
+        "runs": 24,
+        "bb": 0,
+        "so": 3,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 32
+      },
+      "rankings": {
+        "rc": 22,
+        "hits": 26,
+        "hr": 1009,
+        "rbi": 34,
+        "avg": 45
+      }
+    },
+    {
+      "year": 2016,
+      "team": "ROOKIES",
+      "number": "ROO019",
+      "batting": {
+        "games": 17,
+        "pa": 76,
+        "ab": 64,
+        "hits": 28,
+        "singles": 21,
+        "doubles": 5,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 22,
+        "runs": 22,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 37
+      },
+      "rankings": {
+        "rc": 31,
+        "hits": 21,
+        "hr": 937,
+        "rbi": 20,
+        "avg": 35
+      }
+    },
+    {
+      "year": 2015,
+      "team": "ROOKIES",
+      "number": "ROO019",
+      "batting": {
+        "games": 17,
+        "pa": 59,
+        "ab": 45,
+        "hits": 17,
+        "singles": 15,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 17,
+        "bb": 0,
+        "so": 8,
+        "sb": 2,
+        "sf": 2,
+        "totalBases": 19
+      },
+      "rankings": {
+        "rc": 73,
+        "hits": 69,
+        "hr": 864,
+        "rbi": 154,
+        "avg": 49
+      }
+    },
+    {
+      "year": 2014,
+      "team": "ROOKIES",
+      "number": "ROO019",
+      "batting": {
+        "games": 11,
+        "pa": 42,
+        "ab": 32,
+        "hits": 7,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 7,
+        "bb": 0,
+        "so": 8,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 144,
+        "hits": 182,
+        "hr": 581,
+        "rbi": 178,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "ROOKIES",
+      "number": "ROO019",
+      "batting": {
+        "games": 17,
+        "pa": 81,
+        "ab": 59,
+        "hits": 18,
+        "singles": 12,
+        "doubles": 3,
+        "triples": 3,
+        "hr": 0,
+        "rbi": 12,
+        "runs": 28,
+        "bb": 0,
+        "so": 9,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 27
+      },
+      "rankings": {
+        "rc": 14,
+        "hits": 33,
+        "hr": 491,
+        "rbi": 45,
+        "avg": 44
+      }
+    },
+    {
+      "year": 2012,
+      "team": "ROOKIES",
+      "number": "ROO019",
+      "batting": {
+        "games": 15,
+        "pa": 57,
+        "ab": 43,
+        "hits": 11,
+        "singles": 8,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 9,
+        "bb": 0,
+        "so": 10,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 56,
+        "hits": 63,
+        "hr": 333,
+        "rbi": 147,
+        "avg": 51
+      }
+    },
+    {
+      "year": 2011,
+      "team": "南港高工OB",
+      "number": "ROO019",
+      "batting": {
+        "games": 9,
+        "pa": 33,
+        "ab": 28,
+        "hits": 7,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 4,
+        "bb": 0,
+        "so": 12,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 82,
+        "hits": 52,
+        "hr": 189,
+        "rbi": 26,
+        "avg": 450
+      }
+    }
+  ]
+}

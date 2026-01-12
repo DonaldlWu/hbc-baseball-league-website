@@ -1,0 +1,160 @@
+{
+  "id": "EAG111",
+  "code": "EAG111",
+  "name": "李昀龍",
+  "photo": "https://lh3.googleusercontent.com/pw/AM-JKLWwe3oGfV_Xd4TC9FV9d_b5ES6azAJsNWEEuwwkwo_S-cf9OrFomTMmsREPXfsNVY4URBPpD_WcbIoGKZI2GLT3DiXRGJD9lcCZJtiZRaDN-Tx0b1E2NJSIE9kDcE6bhn6O5IOUB36uOmVxYaLl3nk=w310-h335-no",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "火把老鷹",
+      "number": "55",
+      "batting": {
+        "games": 12,
+        "pa": 39,
+        "ab": 32,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 5,
+        "bb": 0,
+        "so": 13,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 231,
+        "hits": 215,
+        "hr": 1457,
+        "rbi": 364,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "火把老鷹",
+      "number": "55",
+      "batting": {
+        "games": 3,
+        "pa": 11,
+        "ab": 7,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 368,
+        "hits": 1392,
+        "hr": 1151,
+        "rbi": 1375,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "火把老鷹",
+      "number": "55",
+      "batting": {
+        "games": 5,
+        "pa": 19,
+        "ab": 10,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 0,
+        "so": 5,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 123,
+        "hits": 295,
+        "hr": 1284,
+        "rbi": 331,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "火把老鷹",
+      "number": "55",
+      "batting": {
+        "games": 8,
+        "pa": 29,
+        "ab": 16,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 5,
+        "bb": 0,
+        "so": 6,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 77,
+        "hits": 207,
+        "hr": 1421,
+        "rbi": 285,
+        "avg": 80
+      }
+    },
+    {
+      "year": 2021,
+      "team": "火把老鷹",
+      "number": "55",
+      "batting": {
+        "games": 9,
+        "pa": 33,
+        "ab": 29,
+        "hits": 7,
+        "singles": 6,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 4,
+        "bb": 2,
+        "so": 13,
+        "sb": 2,
+        "sf": 1,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 289,
+        "hits": 235,
+        "hr": 1526,
+        "rbi": 262,
+        "avg": 1022
+      }
+    }
+  ]
+}

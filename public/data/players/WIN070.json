@@ -1,0 +1,189 @@
+{
+  "id": "WIN070",
+  "code": "WIN070",
+  "name": "高佑達",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "颶風"
+    ],
+    "totalSeasons": 6
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "颶風",
+      "number": "11",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 6,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 3,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 889,
+        "hits": 1375,
+        "hr": 1071,
+        "rbi": 1353,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "颶風",
+      "number": "11",
+      "batting": {
+        "games": 3,
+        "pa": 6,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 428,
+        "hits": 412,
+        "hr": 1102,
+        "rbi": 319,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "颶風",
+      "number": "11",
+      "batting": {
+        "games": 9,
+        "pa": 19,
+        "ab": 15,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 5,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 323,
+        "hits": 334,
+        "hr": 1378,
+        "rbi": 291,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "颶風",
+      "number": "11",
+      "batting": {
+        "games": 12,
+        "pa": 27,
+        "ab": 16,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 5,
+        "bb": 0,
+        "so": 7,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 218,
+        "hits": 359,
+        "hr": 1434,
+        "rbi": 310,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "颶風",
+      "number": "11",
+      "batting": {
+        "games": 19,
+        "pa": 40,
+        "ab": 36,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 5,
+        "bb": 0,
+        "so": 11,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 383,
+        "hits": 268,
+        "hr": 1560,
+        "rbi": 480,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "颶風",
+      "number": "11",
+      "batting": {
+        "games": 16,
+        "pa": 40,
+        "ab": 32,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 6,
+        "bb": 0,
+        "so": 15,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 319,
+        "hits": 306,
+        "hr": 1550,
+        "rbi": 339,
+        "avg": 940
+      }
+    }
+  ]
+}

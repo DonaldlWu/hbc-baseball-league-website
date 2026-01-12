@@ -1,0 +1,73 @@
+{
+  "id": "GEO086",
+  "code": "GEO086",
+  "name": "許少鴻",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "十號馬"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "十號馬",
+      "number": "11",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 582,
+        "hits": 1592,
+        "hr": 1055,
+        "rbi": 412,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "十號馬",
+      "number": "11",
+      "batting": {
+        "games": 11,
+        "pa": 29,
+        "ab": 27,
+        "hits": 7,
+        "singles": 7,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 4,
+        "bb": 0,
+        "so": 10,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 331,
+        "hits": 235,
+        "hr": 1460,
+        "rbi": 111,
+        "avg": 1101
+      }
+    }
+  ]
+}

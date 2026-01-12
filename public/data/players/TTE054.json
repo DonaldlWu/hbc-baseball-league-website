@@ -1,0 +1,161 @@
+{
+  "id": "TTE054",
+  "code": "TTE054",
+  "name": "陳韋辰",
+  "photo": "https://lh3.googleusercontent.com/BUQoIQ4mAytW_9FnUnOCcKixWaQ0qdQ6_ChjIeyoI15fD1OCc5vGqvfree-rhJCL-EXb9txW30ctS_urKLCT66XPX7GZy9MBNI8ty39b_qKd2tevo2WTR5XhOd-eH1L_yJyWU3hxlXs0XicuF08B2J7ldpnmtVRkhalw0UJtOAVrEuvd52C3aSgIEn7UZROyDhxKRhVG66_xFi_KXpxQbSRJ8K54G5xfLonQuksYBhQkp-u3f-OJmiKSrM-LItkxmsWDwE15cDsUbBMwdmELePhspPNeUhlmvc084T_FjvlXj82-Rp5XBYRLncluqQKo9oTKPZxrAhaS0FlXbkHie9V0D4BUMKlmL59kY8wfY2LekF4AkexLtSnXjlq0uSb-AgfM-01icOny32ajfMeHE5zTVKDv5t7NfZuJMWEFmUjEkdS0pX6YsI-fpTjvy9aytTkkTumDe7m8flfwPr_p9N5bi7fFxk4rOGVS5Om2XyfDJCMQrXq3QnLhRdGKi3nhR16PBJaqE9PkYdfGdnCndmF55nQ3AHv2N8eMBbM2pTYu-yvAlfh7QVj2JPD6sVdWOS50=w310-h335-no",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "木柵OB",
+      "北科大"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "木柵OB",
+      "number": "80",
+      "batting": {
+        "games": 10,
+        "pa": 22,
+        "ab": 19,
+        "hits": 7,
+        "singles": 7,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 1,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 197,
+        "hits": 181,
+        "hr": 1335,
+        "rbi": 221,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "木柵OB",
+      "number": "80",
+      "batting": {
+        "games": 4,
+        "pa": 7,
+        "ab": 6,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 296,
+        "hits": 260,
+        "hr": 1076,
+        "rbi": 1343,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "木柵OB",
+      "number": "29",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 357,
+        "hits": 307,
+        "hr": 936,
+        "rbi": 172,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2017,
+      "team": "北科大",
+      "number": "TTE054",
+      "batting": {
+        "games": 7,
+        "pa": 28,
+        "ab": 13,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 9,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 145,
+        "hits": 308,
+        "hr": 808,
+        "rbi": 290,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "北科大",
+      "number": "TTE054",
+      "batting": {
+        "games": 12,
+        "pa": 47,
+        "ab": 39,
+        "hits": 7,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 9,
+        "bb": 0,
+        "so": 12,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 285,
+        "hits": 261,
+        "hr": 850,
+        "rbi": 272,
+        "avg": 349
+      }
+    }
+  ]
+}

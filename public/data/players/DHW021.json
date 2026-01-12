@@ -1,0 +1,44 @@
+{
+  "id": "DHW021",
+  "code": "DHW021",
+  "name": "鄔楷威",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPyfzc6Uz2SjJ22MkRme73vn2rq7OgVzZWo6nRgclhsi1w9ega6vl9wfqwCezfDb_1yBN1LCMU3a9e3twEekfeYwl3cXs3rBcnyuVN7avAp2oXHu2NEY38f5mXUSH4UCz89WqYwxfQB1QUlNVbAhC-2=w242-h322",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "53",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 380,
+        "hits": 475,
+        "hr": 1003,
+        "rbi": 298,
+        "avg": 1123
+      }
+    }
+  ]
+}

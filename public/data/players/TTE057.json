@@ -1,0 +1,132 @@
+{
+  "id": "TTE057",
+  "code": "TTE057",
+  "name": "鄭博駿",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "戊戍本一家",
+      "北科大"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "戊戍本一家",
+      "number": "20",
+      "batting": {
+        "games": 3,
+        "pa": 4,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 902,
+        "hits": 1643,
+        "hr": 1178,
+        "rbi": 1601,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "戊戍本一家",
+      "number": "20",
+      "batting": {
+        "games": 5,
+        "pa": 13,
+        "ab": 12,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 918,
+        "hits": 536,
+        "hr": 1347,
+        "rbi": 1665,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "北科大",
+      "number": "TTE057",
+      "batting": {
+        "games": 12,
+        "pa": 26,
+        "ab": 23,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 6,
+        "bb": 0,
+        "so": 10,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 508,
+        "hits": 352,
+        "hr": 802,
+        "rbi": 288,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "北科大",
+      "number": "TTE057",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 9,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 7,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 950,
+        "hits": 941,
+        "hr": 550,
+        "rbi": 925,
+        "avg": 349
+      }
+    }
+  ]
+}

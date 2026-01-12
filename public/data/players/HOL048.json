@@ -1,0 +1,73 @@
+{
+  "id": "HOL048",
+  "code": "HOL048",
+  "name": "黃子翰",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "HOLYBAT",
+      "number": "HOL048",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 5,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 420,
+        "hits": 447,
+        "hr": 595,
+        "rbi": 472,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "HOLYBAT",
+      "number": "HOL048",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 757,
+        "hits": 739,
+        "hr": 238,
+        "rbi": 685,
+        "avg": 349
+      }
+    }
+  ]
+}

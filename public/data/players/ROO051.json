@@ -1,0 +1,367 @@
+{
+  "id": "ROO051",
+  "code": "ROO051",
+  "name": "鄒年昱",
+  "photo": "https://lh3.googleusercontent.com/U4ULbWjX8IoDuGwr1N3necuoUSOOm0l_LEP2sAhZQFkR9shx4MR5_Acf2T6hGrilYctegCzVnXsKDufgz6vCai9I1QWv6lETWRk10wWlfEKFRw8inXNZaORSHHxGf1OdF6tTe-fkHzhA1nNfTz_2NiWCEVCOq1Al1poXKdJ9Do5XbMughFBKrMbGdB5BVg21Slsl8qeZyW1CDyezDWbjN9jEbrqZeDPyY73jeczLxVU--cG9tAzB-I4DapgarIWkUcCmsaQ6uy2W-Be9bBymiH4Al8xBxAzmQdA5CQhIBT-JDOgGwUatsu4IEIN3BWospbcM3fHLjgm3CZGYd9cxarFFJCYuLNx8oEVQ_ukdEmCPyjS9PWnUhsI85eL1Tlwmprl15aeDkp0_oHpwUJzn_rXMCBg0UvUrE7UANXm2vHIfUt8ejRUTwibzoWIULOY16vfHpaqjJ-7q6WCgJPhL3NlkJlUFz9TNNbqyUY3n24yC7hvWL_W-RH_nGUkkAxx7qaMypci1_lPtIooERYHo9_Hwux9tr2XBuerEHRe98OUGSBEbdef3sz5ZrRoeAVap4eHD=w310-h335-no",
+  "career": {
+    "debut": 2014,
+    "teams": [
+      "逆轉星球",
+      "自轉棒球",
+      "自轉星球",
+      "北科大",
+      "ROOKIES"
+    ],
+    "totalSeasons": 12
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "逆轉星球",
+      "number": "99",
+      "batting": {
+        "games": 6,
+        "pa": 15,
+        "ab": 14,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 22,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 337,
+        "hits": 275,
+        "hr": 1257,
+        "rbi": 256,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "逆轉星球",
+      "number": "99",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 3,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 894,
+        "hits": 1370,
+        "hr": 1028,
+        "rbi": 277,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "逆轉星球",
+      "number": "99",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 9,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 7,
+        "so": 3,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 182,
+        "hits": 135,
+        "hr": 1134,
+        "rbi": 1371,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "逆轉星球",
+      "number": "99",
+      "batting": {
+        "games": 7,
+        "pa": 9,
+        "ab": 8,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 35,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 909,
+        "hits": 432,
+        "hr": 1161,
+        "rbi": 331,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "逆轉星球",
+      "number": "99",
+      "batting": {
+        "games": 9,
+        "pa": 7,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 42,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 546,
+        "hits": 1654,
+        "hr": 1188,
+        "rbi": 1618,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "逆轉星球",
+      "number": "99",
+      "batting": {
+        "games": 11,
+        "pa": 20,
+        "ab": 17,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 3,
+        "bb": 29,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 334,
+        "hits": 348,
+        "hr": 1375,
+        "rbi": 241,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "逆轉星球",
+      "number": "99",
+      "batting": {
+        "games": 17,
+        "pa": 45,
+        "ab": 43,
+        "hits": 13,
+        "singles": 10,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 8,
+        "bb": 24,
+        "so": 5,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 16
+      },
+      "rankings": {
+        "rc": 167,
+        "hits": 99,
+        "hr": 1591,
+        "rbi": 268,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "逆轉星球",
+      "number": "99",
+      "batting": {
+        "games": 15,
+        "pa": 41,
+        "ab": 38,
+        "hits": 8,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 6,
+        "bb": 10,
+        "so": 7,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 269,
+        "hits": 214,
+        "hr": 1564,
+        "rbi": 210,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "自轉棒球",
+      "number": "ROO051",
+      "batting": {
+        "games": 10,
+        "pa": 23,
+        "ab": 15,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 7,
+        "bb": 22,
+        "so": 2,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 274,
+        "hits": 348,
+        "hr": 777,
+        "rbi": 414,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "自轉星球",
+      "number": "ROO051",
+      "batting": {
+        "games": 15,
+        "pa": 50,
+        "ab": 46,
+        "hits": 13,
+        "singles": 10,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 14,
+        "bb": 18,
+        "so": 5,
+        "sb": 6,
+        "sf": 2,
+        "totalBases": 16
+      },
+      "rankings": {
+        "rc": 192,
+        "hits": 135,
+        "hr": 874,
+        "rbi": 107,
+        "avg": 104
+      }
+    },
+    {
+      "year": 2015,
+      "team": "北科大",
+      "number": "ROO051",
+      "batting": {
+        "games": 19,
+        "pa": 69,
+        "ab": 64,
+        "hits": 19,
+        "singles": 15,
+        "doubles": 1,
+        "triples": 2,
+        "hr": 1,
+        "rbi": 10,
+        "runs": 16,
+        "bb": 5,
+        "so": 6,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 27
+      },
+      "rankings": {
+        "rc": 84,
+        "hits": 49,
+        "hr": 50,
+        "rbi": 112,
+        "avg": 91
+      }
+    },
+    {
+      "year": 2014,
+      "team": "ROOKIES",
+      "number": "ROO051",
+      "batting": {
+        "games": 5,
+        "pa": 8,
+        "ab": 7,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 388,
+        "hits": 381,
+        "hr": 335,
+        "rbi": 642,
+        "avg": 327
+      }
+    }
+  ]
+}

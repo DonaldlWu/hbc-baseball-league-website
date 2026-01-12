@@ -1,0 +1,44 @@
+{
+  "id": "TWU017",
+  "code": "TWU017",
+  "name": "林宥丞",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMhTdVV6g3PEDSOK0vCIKUsX78cnIQOInl62HQZ3ExFSsWXWo2nmpfaC03Kpmrtp8IStQEJ_ZtlFlzOMyTsXOYXTRcm6MPxmGPhavqTn880dwMacSv2s7CpN9RsWUHztnQPOpM_ir94_QnQYYYvkzJS=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "30",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 844,
+        "hits": 1279,
+        "hr": 871,
+        "rbi": 1213,
+        "avg": 903
+      }
+    }
+  ]
+}

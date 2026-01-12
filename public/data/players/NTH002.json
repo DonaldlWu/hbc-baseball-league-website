@@ -1,0 +1,44 @@
+{
+  "id": "NTH002",
+  "code": "NTH002",
+  "name": "林睿恩",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOT2XFsAIY-8UOBcwcHC6njAeXozrBj3ci1EBotuHge8J4ODyT1582oNFFg02wds6Wp-c-I5tOEnJlsozgPQUhXBcI_NNa_O0dL3z3d84Ft57ejV8qmoDdSyB6f5QumupNPRITtpocMrjrkQbgfi3La=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "2",
+      "batting": {
+        "games": 8,
+        "pa": 19,
+        "ab": 17,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 3,
+        "bb": 2,
+        "so": 5,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 216,
+        "hits": 195,
+        "hr": 1306,
+        "rbi": 216,
+        "avg": 1123
+      }
+    }
+  ]
+}

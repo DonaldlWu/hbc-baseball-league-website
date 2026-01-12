@@ -1,0 +1,73 @@
+{
+  "id": "MIX097",
+  "code": "MIX097",
+  "name": "陳佳陽",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "MIX",
+      "number": "57",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 794,
+        "hits": 752,
+        "hr": 205,
+        "rbi": 686,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "MIX",
+      "number": "57",
+      "batting": {
+        "games": 4,
+        "pa": 18,
+        "ab": 14,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 1,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 427,
+        "hits": 489,
+        "hr": 1348,
+        "rbi": 381,
+        "avg": 1101
+      }
+    }
+  ]
+}

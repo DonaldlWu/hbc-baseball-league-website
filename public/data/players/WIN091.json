@@ -1,0 +1,73 @@
+{
+  "id": "WIN091",
+  "code": "WIN091",
+  "name": "張宏宇",
+  "photo": "",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "颶風"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "颶風",
+      "number": "76",
+      "batting": {
+        "games": 3,
+        "pa": 7,
+        "ab": 6,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 888,
+        "hits": 1379,
+        "hr": 1081,
+        "rbi": 281,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "颶風",
+      "number": "76",
+      "batting": {
+        "games": 5,
+        "pa": 20,
+        "ab": 14,
+        "hits": 7,
+        "singles": 5,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 3,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 64,
+        "hits": 86,
+        "hr": 1328,
+        "rbi": 94,
+        "avg": 943
+      }
+    }
+  ]
+}

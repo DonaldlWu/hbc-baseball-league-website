@@ -1,0 +1,44 @@
+{
+  "id": "COL090",
+  "code": "COL090",
+  "name": "童紹翔",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "冷鋒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "冷鋒",
+      "number": "103",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 821,
+        "hits": 803,
+        "hr": 301,
+        "rbi": 741,
+        "avg": 940
+      }
+    }
+  ]
+}

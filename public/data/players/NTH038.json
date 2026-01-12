@@ -1,0 +1,44 @@
+{
+  "id": "NTH038",
+  "code": "NTH038",
+  "name": "陳建志",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMu0qvA36XB3eetSlX-5GnFPPDODdRNri9cBlAL8YjaaeAVKzshwy0GLRo4Lhukeqo7VxT4J4L79Q4jHrGnCY3HshgLomFxy5aZd9fP3oQecm2ALOH5sdKi2KV8U6MeM2hX_Ke-zmP_tPJE1A1XnPQG=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "31",
+      "batting": {
+        "games": 4,
+        "pa": 4,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 12,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 397,
+        "hits": 474,
+        "hr": 1001,
+        "rbi": 1435,
+        "avg": 1123
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "MUZ040",
+  "code": "MUZ040",
+  "name": "高梓綸",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "木柵OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "木柵OB",
+      "number": "MUZ040",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 529,
+        "hits": 507,
+        "hr": 478,
+        "rbi": 911,
+        "avg": 340
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "SHA020",
+  "code": "SHA020",
+  "name": "鄭志祥",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNmJZs2d3A7QjzOMKRg17C4Rj-b2GJepINxbBu4JU8NnV2uMDyQigfaGP142jtbX9_OeLZW6So3V8AGhqbNCm-ejubooxwlblUeS_X8KMoLKjXDToaFit3YJhI82PNCKbnSsL5-ypJjPIpgqe_snIp8=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "少林棒球隊"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "少林棒球隊",
+      "number": "32",
+      "batting": {
+        "games": 4,
+        "pa": 12,
+        "ab": 8,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 0,
+        "bb": 4,
+        "so": 1,
+        "sb": 0,
+        "sf": 2,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 491,
+        "hits": 530,
+        "hr": 1200,
+        "rbi": 249,
+        "avg": 1123
+      }
+    }
+  ]
+}

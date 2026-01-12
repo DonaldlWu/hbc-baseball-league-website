@@ -1,0 +1,73 @@
+{
+  "id": "EAG074",
+  "code": "EAG074",
+  "name": "林書賢",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "火把老鷹",
+      "number": "22",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 904,
+        "hits": 1627,
+        "hr": 1128,
+        "rbi": 1566,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "火把老鷹",
+      "number": "EAG074",
+      "batting": {
+        "games": 4,
+        "pa": 6,
+        "ab": 5,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 506,
+        "hits": 529,
+        "hr": 566,
+        "rbi": 464,
+        "avg": 340
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "MIR066",
+  "code": "MIR066",
+  "name": "黃冠熙",
+  "photo": "https://lh3.googleusercontent.com/pw/AM-JKLViJIFAKuG1tJg3laFEyE67hA-Q5fSOntShT3ocZwSGjNlaMMSErhO7NOaNLaffR-_MBiqDZ94aA399ZBi2A8VqLuc-ETB5j2p2_pTT_8wojceXkKgYH96eckHi97ouZ8o-aXLkwpog5A1jIJjHzIIK=w310-h335-no",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "MIRACLE"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "MIRACLE",
+      "number": "39",
+      "batting": {
+        "games": 2,
+        "pa": 2,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 505,
+        "hits": 452,
+        "hr": 933,
+        "rbi": 1386,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "MIRACLE",
+      "number": "39",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 795,
+        "hits": 757,
+        "hr": 345,
+        "rbi": 690,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "MIRACLE",
+      "number": "39",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 787,
+        "hits": 723,
+        "hr": 342,
+        "rbi": 672,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "MIRACLE",
+      "number": "39",
+      "batting": {
+        "games": 5,
+        "pa": 16,
+        "ab": 16,
+        "hits": 7,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 2,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 113,
+        "hits": 81,
+        "hr": 1301,
+        "rbi": 265,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "MIRACLE",
+      "number": "105",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 7,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 3,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 383,
+        "hits": 365,
+        "hr": 1224,
+        "rbi": 1636,
+        "avg": 1022
+      }
+    }
+  ]
+}

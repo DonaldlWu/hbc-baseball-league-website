@@ -1,0 +1,44 @@
+{
+  "id": "SWD001",
+  "code": "SWD001",
+  "name": "俞漢昇",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNlSjUFHPbcbqsXE0gFfeSXSEFbvpBxQBizzQFy6GVpC3c2E8TvexR9C0gDK3PZHWm5Zj5y7zt1fNg_rqmjJZ0ya3jG6usHeWjZxz58UoKPJXs0BtgusZFw3jcbJG41uSjwEuYKRu7oT8WaXKBBFgKkyg=w549-h739",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "甜心暴龍"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "甜心暴龍",
+      "number": "2",
+      "batting": {
+        "games": 11,
+        "pa": 36,
+        "ab": 27,
+        "hits": 9,
+        "singles": 6,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 11,
+        "bb": 0,
+        "so": 10,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 99,
+        "hits": 140,
+        "hr": 1431,
+        "rbi": 79,
+        "avg": 1123
+      }
+    }
+  ]
+}

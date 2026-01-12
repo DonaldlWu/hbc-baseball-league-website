@@ -1,0 +1,44 @@
+{
+  "id": "GEO036",
+  "code": "GEO036",
+  "name": "李育豪",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "台大地理OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2016,
+      "team": "台大地理OB",
+      "number": "GEO036",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 459,
+        "hits": 492,
+        "hr": 416,
+        "rbi": 849,
+        "avg": 349
+      }
+    }
+  ]
+}

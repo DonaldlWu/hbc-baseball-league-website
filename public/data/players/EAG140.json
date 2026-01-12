@@ -1,0 +1,44 @@
+{
+  "id": "EAG140",
+  "code": "EAG140",
+  "name": "藍翊誠",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNDNbdI771gt-Cwk8iQeCeP-0pIgnYmkAWe_vKlTS3stcjjWSKzT3EniHaS8Y8uxar_HhGFz0t7Pxilus15wD3QlABmpbetorSeV4mwMw-9xq8Voi6ZZiH99hhTwAyleCNvkTfrn0UQ50Xw35C6ShQ=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "火把老鷹",
+      "number": "107",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 846,
+        "hits": 756,
+        "hr": 233,
+        "rbi": 702,
+        "avg": 1123
+      }
+    }
+  ]
+}

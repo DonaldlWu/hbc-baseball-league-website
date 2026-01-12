@@ -1,0 +1,131 @@
+{
+  "id": "NTE117",
+  "code": "NTE117",
+  "name": "陳淳和",
+  "photo": "https://lh3.googleusercontent.com/pw/AJFCJaXhy4dsBXUThv_UOVBATnAzGk_NZIxOGsxa4bRFJmNLmbnLHBH2Ab3vC8rgTjOQGVyssSm6SZRijdY6V8gcGuP0YKV0y8EFc_bMbF1RIgGpCJ4_cB4cfYN55dtBTxSnAhiSF8FaBJyJIsi3lxLmt5Z2Gg=w310-h335-no",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "台大經濟OB"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大經濟OB",
+      "number": "73",
+      "batting": {
+        "games": 3,
+        "pa": 6,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1027,
+        "hits": 1502,
+        "hr": 1073,
+        "rbi": 418,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "台大經濟OB",
+      "number": "73",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 1,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 309,
+        "hits": 323,
+        "hr": 898,
+        "rbi": 1238,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "台大經濟OB",
+      "number": "73",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 6,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 3,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 330,
+        "hits": 362,
+        "hr": 1102,
+        "rbi": 290,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "台大經濟OB",
+      "number": "73",
+      "batting": {
+        "games": 2,
+        "pa": 7,
+        "ab": 6,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 300,
+        "hits": 297,
+        "hr": 1117,
+        "rbi": 1414,
+        "avg": 943
+      }
+    }
+  ]
+}

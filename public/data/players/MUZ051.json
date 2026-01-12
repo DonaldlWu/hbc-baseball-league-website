@@ -1,0 +1,73 @@
+{
+  "id": "MUZ051",
+  "code": "MUZ051",
+  "name": "曹軒",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "木柵OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "木柵OB",
+      "number": "57",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 585,
+        "hits": 549,
+        "hr": 35,
+        "rbi": 482,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "木柵OB",
+      "number": "57",
+      "batting": {
+        "games": 7,
+        "pa": 10,
+        "ab": 9,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 5,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 939,
+        "hits": 1679,
+        "hr": 1303,
+        "rbi": 1659,
+        "avg": 940
+      }
+    }
+  ]
+}

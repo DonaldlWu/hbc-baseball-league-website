@@ -1,0 +1,160 @@
+{
+  "id": "HUA121",
+  "code": "HUA121",
+  "name": "蔡宗頷",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMPxJKs8zzOxtj60vtDpmIN_-nos7MReN_9S-6-YVfBxld2G49RDs_dJJdPYGt6xKVNIQifyHyBfnvEsT_niO1I6b5JeK3wRh_MTJeqYk1hBjSeE68HDMT_rv3_Dc6djdFyhtyn78Y3ZaT6QRz_G7cbOg=w310-h335-no",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "華江OB"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "華江OB",
+      "number": "50",
+      "batting": {
+        "games": 11,
+        "pa": 34,
+        "ab": 28,
+        "hits": 13,
+        "singles": 10,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 4,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 16
+      },
+      "rankings": {
+        "rc": 87,
+        "hits": 66,
+        "hr": 1422,
+        "rbi": 59,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "華江OB",
+      "number": "50",
+      "batting": {
+        "games": 4,
+        "pa": 10,
+        "ab": 8,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 208,
+        "hits": 199,
+        "hr": 1140,
+        "rbi": 199,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "華江OB",
+      "number": "50",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 275,
+        "hits": 361,
+        "hr": 1101,
+        "rbi": 289,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "華江OB",
+      "number": "50",
+      "batting": {
+        "games": 6,
+        "pa": 10,
+        "ab": 8,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 5,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 251,
+        "hits": 232,
+        "hr": 1180,
+        "rbi": 242,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "華江OB",
+      "number": "3",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 6,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 594,
+        "hits": 525,
+        "hr": 1176,
+        "rbi": 441,
+        "avg": 1022
+      }
+    }
+  ]
+}

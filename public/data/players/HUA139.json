@@ -1,0 +1,44 @@
+{
+  "id": "HUA139",
+  "code": "HUA139",
+  "name": "馬可",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczN2d__uIWtj_V04L1PfWhiWVhHxV6Nz0zisuusBDtI9Y40Vu_tBMDSHnhmrMHBT9oAa9EDGnECNTtsjy6E0wrnQKlLJn-FtLpWFpKqKynCacF8MnhjDAdNEaID4jHGRAj3Vf7waulH88xxGq1xdqdvHtQ=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "華江OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "華江OB",
+      "number": "1",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1063,
+        "hits": 1423,
+        "hr": 920,
+        "rbi": 1373,
+        "avg": 1123
+      }
+    }
+  ]
+}

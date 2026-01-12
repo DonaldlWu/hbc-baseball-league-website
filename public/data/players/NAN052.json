@@ -1,0 +1,44 @@
+{
+  "id": "NAN052",
+  "code": "NAN052",
+  "name": "蕭進吉",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "南港高工OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "南港高工OB",
+      "number": "NAN052",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 816,
+        "hits": 805,
+        "hr": 348,
+        "rbi": 762,
+        "avg": 624
+      }
+    }
+  ]
+}

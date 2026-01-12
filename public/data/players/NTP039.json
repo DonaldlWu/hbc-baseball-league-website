@@ -1,0 +1,73 @@
+{
+  "id": "NTP039",
+  "code": "NTP039",
+  "name": "黃亮臻",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "台北大學"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "台北大學",
+      "number": "20",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 636,
+        "hits": 594,
+        "hr": 47,
+        "rbi": 528,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "台北大學",
+      "number": "97",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 663,
+        "hits": 641,
+        "hr": 51,
+        "rbi": 557,
+        "avg": 1101
+      }
+    }
+  ]
+}

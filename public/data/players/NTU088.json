@@ -1,0 +1,73 @@
+{
+  "id": "NTU088",
+  "code": "NTU088",
+  "name": "舒柏騏",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "台大化工OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "台大化工OB",
+      "number": "19",
+      "batting": {
+        "games": 12,
+        "pa": 35,
+        "ab": 30,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 6,
+        "bb": 7,
+        "so": 13,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 424,
+        "hits": 344,
+        "hr": 1528,
+        "rbi": 476,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "台大化工OB",
+      "number": "19",
+      "batting": {
+        "games": 5,
+        "pa": 3,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 456,
+        "hits": 476,
+        "hr": 1142,
+        "rbi": 1579,
+        "avg": 940
+      }
+    }
+  ]
+}

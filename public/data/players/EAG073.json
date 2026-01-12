@@ -1,0 +1,73 @@
+{
+  "id": "EAG073",
+  "code": "EAG073",
+  "name": "鄭又仁",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "火把老鷹",
+      "number": "81",
+      "batting": {
+        "games": 2,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 913,
+        "hits": 1628,
+        "hr": 1129,
+        "rbi": 1567,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "火把老鷹",
+      "number": "EAG073",
+      "batting": {
+        "games": 9,
+        "pa": 12,
+        "ab": 9,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 360,
+        "hits": 397,
+        "hr": 662,
+        "rbi": 995,
+        "avg": 340
+      }
+    }
+  ]
+}

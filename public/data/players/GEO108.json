@@ -1,0 +1,44 @@
+{
+  "id": "GEO108",
+  "code": "GEO108",
+  "name": "劉得誼",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczM37jXqBlRJZnz8AsIUzLQPn038tiNaP8c7qhfciKjFNbFN4GEJjj-ZVL7YUfYYnt4SCodZwIjby2ypPfD7lk3UTPqtqEOyRt1BjHzIzbHxUxjZjQs3aYDbh9nAxYRz7qD38ssFJckIrtxK-NgwhKLe=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "十號馬"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "十號馬",
+      "number": "34",
+      "batting": {
+        "games": 7,
+        "pa": 23,
+        "ab": 20,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 267,
+        "hits": 244,
+        "hr": 1346,
+        "rbi": 270,
+        "avg": 1123
+      }
+    }
+  ]
+}

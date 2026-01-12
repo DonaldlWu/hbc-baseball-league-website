@@ -1,0 +1,73 @@
+{
+  "id": "MOR050",
+  "code": "MOR050",
+  "name": "李柏漢",
+  "photo": "",
+  "career": {
+    "debut": 2013,
+    "teams": [
+      "莫拉克"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2014,
+      "team": "莫拉克",
+      "number": "MOR050",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 543,
+        "hits": 409,
+        "hr": 27,
+        "rbi": 378,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "莫拉克",
+      "number": "MOR050",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 396,
+        "hits": 322,
+        "hr": 27,
+        "rbi": 285,
+        "avg": 323
+      }
+    }
+  ]
+}

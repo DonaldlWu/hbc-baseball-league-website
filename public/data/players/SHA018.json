@@ -1,0 +1,44 @@
+{
+  "id": "SHA018",
+  "code": "SHA018",
+  "name": "黃重霖",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNRIUL96KgGpoOZzbc4Tq6V7Az0_pnLWKA42ATltjbtBp_6Ckupp1Jjq3ELUjcRYiz2Qj2jtPexaTET-j_DUxEQxkX-xdVlHtgfy0GnQeBnX5pxnr1ZBgwIT3fEyAIT9NW3EUCeaHJ0EJ4uT0QOiVVt=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "少林棒球隊"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "少林棒球隊",
+      "number": "25",
+      "batting": {
+        "games": 8,
+        "pa": 26,
+        "ab": 23,
+        "hits": 13,
+        "singles": 12,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 15,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 86,
+        "hits": 63,
+        "hr": 1365,
+        "rbi": 495,
+        "avg": 1123
+      }
+    }
+  ]
+}

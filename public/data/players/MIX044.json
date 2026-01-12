@@ -1,0 +1,160 @@
+{
+  "id": "MIX044",
+  "code": "MIX044",
+  "name": "謝士彥",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "MIX",
+      "number": "16",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 694,
+        "hits": 664,
+        "hr": 150,
+        "rbi": 597,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "MIX",
+      "number": "16",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 5,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 900,
+        "hits": 1622,
+        "hr": 1122,
+        "rbi": 1560,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "MIX",
+      "number": "MIX044",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 904,
+        "hits": 957,
+        "hr": 470,
+        "rbi": 908,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "MIX",
+      "number": "MIX044",
+      "batting": {
+        "games": 10,
+        "pa": 29,
+        "ab": 23,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 4,
+        "bb": 0,
+        "so": 9,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 330,
+        "hits": 319,
+        "hr": 746,
+        "rbi": 256,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "MIX",
+      "number": "MIX044",
+      "batting": {
+        "games": 8,
+        "pa": 24,
+        "ab": 19,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 0,
+        "so": 9,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 517,
+        "hits": 447,
+        "hr": 689,
+        "rbi": 321,
+        "avg": 624
+      }
+    }
+  ]
+}

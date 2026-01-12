@@ -1,0 +1,102 @@
+{
+  "id": "NAN006",
+  "code": "NAN006",
+  "name": "王奕鈞",
+  "photo": "",
+  "career": {
+    "debut": 2013,
+    "teams": [
+      "南港高工OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "南港高工OB",
+      "number": "NAN006",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 749,
+        "hits": 522,
+        "hr": 61,
+        "rbi": 479,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "南港高工OB",
+      "number": "NAN006",
+      "batting": {
+        "games": 2,
+        "pa": 7,
+        "ab": 7,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 324,
+        "hits": 307,
+        "hr": 324,
+        "rbi": 639,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "南港高工OB",
+      "number": "NAN006",
+      "batting": {
+        "games": 5,
+        "pa": 17,
+        "ab": 16,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 11,
+        "so": 4,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 238,
+        "hits": 195,
+        "hr": 312,
+        "rbi": 487,
+        "avg": 323
+      }
+    }
+  ]
+}

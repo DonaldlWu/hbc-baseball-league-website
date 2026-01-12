@@ -1,0 +1,44 @@
+{
+  "id": "COL053",
+  "code": "COL053",
+  "name": "簡輔均",
+  "photo": "",
+  "career": {
+    "debut": 2012,
+    "teams": [
+      "冷鋒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2012,
+      "team": "冷鋒",
+      "number": "COL053",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 4,
+        "hits": 3,
+        "singles": 1,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 126,
+        "hits": 145,
+        "hr": 156,
+        "rbi": 178,
+        "avg": 358
+      }
+    }
+  ]
+}

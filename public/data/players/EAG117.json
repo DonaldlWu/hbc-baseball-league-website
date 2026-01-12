@@ -1,0 +1,131 @@
+{
+  "id": "EAG117",
+  "code": "EAG117",
+  "name": "王教臻",
+  "photo": "https://lh3.googleusercontent.com/YEZIaak5KJCt_XZQiCLGDme7VJbqDX0KIGeXSQg_YwnQDQlqVNTjiAxMekfjGTsw6fmdvhIf90mk53Q8_CAjp3y7v0qBT-nD6BF9p7W2OZ69iYJQzs7PMCumT6cnQKprV7tLO2oQG-adKJj5t3FEGXh_AzzvLVqS8CDm8ZR1cYbGROXmng_R7k03a0LnP-hKtXfcYebjXYzu4zuTfc1gNF3hVmY3AjGIlpqC_SuMnJ4yQj2ntiCBr_PVxjYSl3KQ4XanwEGOD3NqoS2wywQ7yJ79ySp4xTPrO8Fgvw5_E2ut1HIRJgrKB3_8k0da5orcYLonPWKi3rxEClOX8tpyCFT96N8uS7QM-yjtK5StJ4wa6dVLa4vEyvOWKkWA1mLoDdVg7DCgqUZXy651ckVyprgapZeubqtlIDGEeoWeUL-Hs_daYAxlPLYpqCyk30R-eosSvMrwlaLn9T4Qt_3524UBdrvQ7QUch94URdvk95GFdw9LNHJB6wa5Oepw-HZIm8CH2FGwq_VdQr_i7232KXtyAETtsrIJYl8NWj0HDtc-08KIuIYEqIvkRyBjqTeFtwiaiAnhm0OzyvVXTCqJf8N2sdsuFqtqjFq6bO9HvKs0lN5ZPOTPDxXBtSUIyzBhB0m-_YZANBglVSs0VZvc1tOOL9Wr9QGaZVI52Xvp76CLZ2dJiANXQl4vz7866MWSAzMXAIJTMoPh1Ewc0HOS9ibOLwMS7HEnZ-ZzihTKOyAiA5eZolKrD7NbTvVpboXad38mGzf1coyUL6HQA3gbeXW0BNckp-ZL5Ma4RWajEXS81mJ8GBGvX66XxI78YTyXFm2I9HIQLn7aBSQXi05P9yooTtnPO5VkZxuEnv1XX4RXSEUJmlljFZyFV7mecEz_xmvJwpqll1uUHkmc80AaVrw4pepBpGM-1x6snkk=w310-h335-no",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "火把老鷹",
+      "number": "49",
+      "batting": {
+        "games": 10,
+        "pa": 25,
+        "ab": 20,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 1,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 224,
+        "hits": 203,
+        "hr": 1355,
+        "rbi": 225,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "火把老鷹",
+      "number": "49",
+      "batting": {
+        "games": 3,
+        "pa": 7,
+        "ab": 6,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 160,
+        "hits": 151,
+        "hr": 1073,
+        "rbi": 292,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "火把老鷹",
+      "number": "49",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 856,
+        "hits": 1325,
+        "hr": 950,
+        "rbi": 1276,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "火把老鷹",
+      "number": "49",
+      "batting": {
+        "games": 5,
+        "pa": 16,
+        "ab": 16,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 421,
+        "hits": 255,
+        "hr": 1300,
+        "rbi": 198,
+        "avg": 943
+      }
+    }
+  ]
+}

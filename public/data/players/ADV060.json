@@ -1,0 +1,44 @@
+{
+  "id": "ADV060",
+  "code": "ADV060",
+  "name": "游浩霆",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "冒險家"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "冒險家",
+      "number": "56",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 836,
+        "hits": 806,
+        "hr": 292,
+        "rbi": 739,
+        "avg": 917
+      }
+    }
+  ]
+}

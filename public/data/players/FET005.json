@@ -1,0 +1,44 @@
+{
+  "id": "FET005",
+  "code": "FET005",
+  "name": "盧偉中",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "FORCE"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2009,
+      "team": "FORCE",
+      "number": "FET005",
+      "batting": {
+        "games": 4,
+        "pa": 7,
+        "ab": 5,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 72,
+        "hits": 79,
+        "hr": 213,
+        "rbi": 79,
+        "avg": 450
+      }
+    }
+  ]
+}

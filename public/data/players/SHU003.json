@@ -1,0 +1,44 @@
+{
+  "id": "SHU003",
+  "code": "SHU003",
+  "name": "王亞",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMY307gyAXgojulbsmbwbA_OoYnWagT1nXasRlxiajAdr-oauNf1Jj4c-RUlIXK97i0Lki5xN5Gl2ew_eUd96RBbe7zYzGkphEh6lRQ7jmAacLzVM5dqfR3OMJENz8a-d7EGrtN1wGjneBNmjnaZEjr=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "世新超乙組",
+      "number": "6",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 878,
+        "hits": 1338,
+        "hr": 956,
+        "rbi": 1278,
+        "avg": 903
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "MIX064",
+  "code": "MIX064",
+  "name": "謝文健",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "MIX",
+      "number": "97",
+      "batting": {
+        "games": 3,
+        "pa": 11,
+        "ab": 8,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 2,
+        "so": 4,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 420,
+        "hits": 541,
+        "hr": 1294,
+        "rbi": 434,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "MIX",
+      "number": "48",
+      "batting": {
+        "games": 6,
+        "pa": 23,
+        "ab": 18,
+        "hits": 7,
+        "singles": 4,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 6,
+        "bb": 11,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 205,
+        "hits": 230,
+        "hr": 1446,
+        "rbi": 478,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "MIX",
+      "number": "MIX064",
+      "batting": {
+        "games": 5,
+        "pa": 18,
+        "ab": 14,
+        "hits": 6,
+        "singles": 7,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 2,
+        "so": 5,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 247,
+        "hits": 255,
+        "hr": 738,
+        "rbi": 503,
+        "avg": 340
+      }
+    }
+  ]
+}

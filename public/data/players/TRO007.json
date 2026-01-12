@@ -1,0 +1,73 @@
+{
+  "id": "TRO007",
+  "code": "TRO007",
+  "name": "王敏力",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "楚奧特"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "楚奧特",
+      "number": "TRO007",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 779,
+        "hits": 784,
+        "hr": 278,
+        "rbi": 728,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "楚奧特",
+      "number": "TRO007",
+      "batting": {
+        "games": 2,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 5,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 759,
+        "hits": 741,
+        "hr": 240,
+        "rbi": 687,
+        "avg": 349
+      }
+    }
+  ]
+}

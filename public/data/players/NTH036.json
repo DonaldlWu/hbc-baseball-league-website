@@ -1,0 +1,44 @@
+{
+  "id": "NTH036",
+  "code": "NTH036",
+  "name": "陳泓仁",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczM3ZPg0LQY5EMH2xOVIIndeND13KY--wWUHp-Kpq_MymytshpHMj3IJBSRcnNGN_-3uzWlw4V7l809D5Pn-SpJLU0AJo7ygXPm_LLLJmB7DbFKtRmEqB8nCwmWVZZTzgKWrhOCgd8vE0fFuBtkMt0yT=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "27",
+      "batting": {
+        "games": 17,
+        "pa": 49,
+        "ab": 40,
+        "hits": 6,
+        "singles": 3,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 8,
+        "bb": 0,
+        "so": 15,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 219,
+        "hits": 216,
+        "hr": 1494,
+        "rbi": 193,
+        "avg": 92
+      }
+    }
+  ]
+}

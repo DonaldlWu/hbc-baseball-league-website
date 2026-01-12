@@ -1,0 +1,73 @@
+{
+  "id": "SCO021",
+  "code": "SCO021",
+  "name": "許嘉富",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMdQQZQolxRLSWPLwDxJO-bbEPTvUvXeVl6prp7YjHrUWKyroHdmCrQpLa_dHjjOKKnNHZ4Q15QNaYREK9YJMZcF4c7cG2C76QZwwYpuX4-deinGnTEJspc96qlagZSPDpXBsqfBx_BHkFp73xwgnu1cg=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "21",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 1,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 426,
+        "hits": 437,
+        "hr": 897,
+        "rbi": 292,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "24",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 280,
+        "hits": 1385,
+        "hr": 1113,
+        "rbi": 299,
+        "avg": 903
+      }
+    }
+  ]
+}

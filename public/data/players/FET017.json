@@ -1,0 +1,44 @@
+{
+  "id": "FET017",
+  "code": "FET017",
+  "name": "鄭晉亦",
+  "photo": "",
+  "career": {
+    "debut": 2010,
+    "teams": [
+      "FORCE"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "FORCE",
+      "number": "FET017",
+      "batting": {
+        "games": 5,
+        "pa": 7,
+        "ab": 6,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 148,
+        "hits": 140,
+        "hr": 106,
+        "rbi": 124,
+        "avg": 450
+      }
+    }
+  ]
+}

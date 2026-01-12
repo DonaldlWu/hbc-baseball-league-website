@@ -1,0 +1,102 @@
+{
+  "id": "YAN065",
+  "code": "YAN065",
+  "name": "張家誠",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "陽明OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "陽明OB",
+      "number": "67",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 650,
+        "hits": 620,
+        "hr": 106,
+        "rbi": 553,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "陽明OB",
+      "number": "67",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 668,
+        "hits": 650,
+        "hr": 148,
+        "rbi": 588,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "陽明OB",
+      "number": "YAN065",
+      "batting": {
+        "games": 4,
+        "pa": 15,
+        "ab": 14,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 4,
+        "bb": 1,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 523,
+        "hits": 469,
+        "hr": 713,
+        "rbi": 1004,
+        "avg": 340
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "MUZ073",
+  "code": "MUZ073",
+  "name": "顏群峰",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNaIN5iJ07Wtsi2P3d1k2HC3jsngCqQF5Ig9rx7VcXMwcdebm8bSx6QHhGZeCE7-_ysfvQe3cITcyItrp-X15YQSrGHNgkL_HjNh5o0TRK73QkRhXq4VpCpLPZssFaOfpAiuehiPZOJ1IPOfxM2i6364A=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "木柵OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "木柵OB",
+      "number": "79",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 716,
+        "hits": 646,
+        "hr": 123,
+        "rbi": 592,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "木柵OB",
+      "number": "79",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 538,
+        "hits": 524,
+        "hr": 112,
+        "rbi": 457,
+        "avg": 903
+      }
+    }
+  ]
+}

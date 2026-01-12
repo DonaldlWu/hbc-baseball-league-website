@@ -1,0 +1,44 @@
+{
+  "id": "SWD015",
+  "code": "SWD015",
+  "name": "李澤民",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPVbffduc75YII2zPzWd8jES-kgY9WpYAJM3FCXuXkBfSd764ul9fsvhf-GFXIGMsx8lLbb8VV55PZHFr5bO8DLb4ljR03rGNSS7Nt82Ito79abtMV_RybuCeAdSYL0e92UsAjrytdEhilzqBrfxWlzAQ=w597-h816",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "甜心暴龍"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "甜心暴龍",
+      "number": "99",
+      "batting": {
+        "games": 4,
+        "pa": 16,
+        "ab": 13,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 1030,
+        "hits": 543,
+        "hr": 1269,
+        "rbi": 484,
+        "avg": 1123
+      }
+    }
+  ]
+}

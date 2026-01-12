@@ -1,0 +1,73 @@
+{
+  "id": "BLA007",
+  "code": "BLA007",
+  "name": "方元利",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "黑名單"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "黑名單",
+      "number": "BLA007",
+      "batting": {
+        "games": 17,
+        "pa": 67,
+        "ab": 55,
+        "hits": 12,
+        "singles": 11,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 13,
+        "bb": 23,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 57,
+        "hits": 50,
+        "hr": 204,
+        "rbi": 34,
+        "avg": 47
+      }
+    },
+    {
+      "year": 2009,
+      "team": "黑名單",
+      "number": "BLA007",
+      "batting": {
+        "games": 6,
+        "pa": 24,
+        "ab": 18,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 5,
+        "bb": 7,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 56,
+        "hits": 66,
+        "hr": 239,
+        "rbi": 50,
+        "avg": 450
+      }
+    }
+  ]
+}

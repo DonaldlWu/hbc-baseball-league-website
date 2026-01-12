@@ -1,0 +1,73 @@
+{
+  "id": "LOU018",
+  "code": "LOU018",
+  "name": "賴柏晉",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "路易莎咖啡"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "路易莎咖啡",
+      "number": "36",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 677,
+        "hits": 655,
+        "hr": 65,
+        "rbi": 571,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "路易莎咖啡",
+      "number": "36",
+      "batting": {
+        "games": 2,
+        "pa": 1,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 534,
+        "hits": 1574,
+        "hr": 1060,
+        "rbi": 1507,
+        "avg": 917
+      }
+    }
+  ]
+}

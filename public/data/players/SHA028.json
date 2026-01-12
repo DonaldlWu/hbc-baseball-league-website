@@ -1,0 +1,44 @@
+{
+  "id": "SHA028",
+  "code": "SHA028",
+  "name": "田則安",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOKTgJUDidP259ci5d9uUjt-tkKmRFq6cAScL1r0m6lNZ7kKnwWyGKxp6_87Qh85rAlXfhDd06mp4sKMeppLQk229DX3ABXmU-UAknF_xUCQ5MtpmqQ6nVm1nI0e5Lc-Iw28vu44ASilZr-5uwH4uM9zA=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "少林棒球隊"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "少林棒球隊",
+      "number": "86",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 5,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1043,
+        "hits": 1411,
+        "hr": 893,
+        "rbi": 1357,
+        "avg": 1123
+      }
+    }
+  ]
+}

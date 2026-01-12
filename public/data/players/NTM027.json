@@ -1,0 +1,102 @@
+{
+  "id": "NTM027",
+  "code": "NTM027",
+  "name": "盧羿文",
+  "photo": "",
+  "career": {
+    "debut": 2014,
+    "teams": [
+      "台大機械"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2016,
+      "team": "台大機械",
+      "number": "NTM027",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 686,
+        "hits": 668,
+        "hr": 167,
+        "rbi": 614,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "台大機械",
+      "number": "NTM027",
+      "batting": {
+        "games": 8,
+        "pa": 18,
+        "ab": 16,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 10,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 452,
+        "hits": 370,
+        "hr": 635,
+        "rbi": 463,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "台大機械",
+      "number": "NTM027",
+      "batting": {
+        "games": 6,
+        "pa": 9,
+        "ab": 8,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 1,
+        "bb": 8,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 270,
+        "hits": 267,
+        "hr": 345,
+        "rbi": 224,
+        "avg": 327
+      }
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "ROO001",
+  "code": "ROO001",
+  "name": "張宏禎",
+  "photo": "",
+  "career": {
+    "debut": 2011,
+    "teams": [
+      "ROOKIES",
+      "南港高工OB"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2014,
+      "team": "ROOKIES",
+      "number": "ROO001",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 506,
+        "hits": 409,
+        "hr": 27,
+        "rbi": 378,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "ROOKIES",
+      "number": "ROO001",
+      "batting": {
+        "games": 5,
+        "pa": 18,
+        "ab": 16,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 7,
+        "bb": 0,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 170,
+        "hits": 167,
+        "hr": 321,
+        "rbi": 103,
+        "avg": 323
+      }
+    },
+    {
+      "year": 2012,
+      "team": "南港高工OB",
+      "number": "ROO001",
+      "batting": {
+        "games": 5,
+        "pa": 19,
+        "ab": 17,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 5,
+        "bb": 0,
+        "so": 4,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 153,
+        "hits": 135,
+        "hr": 241,
+        "rbi": 356,
+        "avg": 358
+      }
+    },
+    {
+      "year": 2011,
+      "team": "南港高工OB",
+      "number": "ROO001",
+      "batting": {
+        "games": 8,
+        "pa": 29,
+        "ab": 25,
+        "hits": 11,
+        "singles": 6,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 6,
+        "bb": 3,
+        "so": 5,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 16
+      },
+      "rankings": {
+        "rc": 26,
+        "hits": 27,
+        "hr": 182,
+        "rbi": 41,
+        "avg": 450
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "GEO073",
+  "code": "GEO073",
+  "name": "方凱平",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "台大地理OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "台大地理OB",
+      "number": "34",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 856,
+        "hits": 1576,
+        "hr": 1064,
+        "rbi": 1509,
+        "avg": 917
+      }
+    }
+  ]
+}

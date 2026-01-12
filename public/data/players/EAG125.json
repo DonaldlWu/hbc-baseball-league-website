@@ -1,0 +1,102 @@
+{
+  "id": "EAG125",
+  "code": "EAG125",
+  "name": "周暐宸",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPSS_dyAKWcTWvT9kusUN9pRuBpQHAW_0tDbhaH_88WP-EQN40XYo_BqE4oZDJ5jzImbbRn-vSMU_-U9Lxd0yPHGberkGYaw2_EfmcK142xL9zSpIyhOTC1q4rX72tqFWcDvexoygOgoSOwSiQr5h4=w310-h335-no",
+  "career": {
+    "debut": 2023,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "火把老鷹",
+      "number": "74",
+      "batting": {
+        "games": 5,
+        "pa": 16,
+        "ab": 13,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 10,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 411,
+        "hits": 417,
+        "hr": 1268,
+        "rbi": 336,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "火把老鷹",
+      "number": "101",
+      "batting": {
+        "games": 5,
+        "pa": 9,
+        "ab": 6,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 18,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 347,
+        "hits": 397,
+        "hr": 1118,
+        "rbi": 302,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "火把老鷹",
+      "number": "101",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 596,
+        "hits": 547,
+        "hr": 166,
+        "rbi": 496,
+        "avg": 896
+      }
+    }
+  ]
+}

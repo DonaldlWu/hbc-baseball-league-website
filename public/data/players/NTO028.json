@@ -1,0 +1,73 @@
+{
+  "id": "NTO028",
+  "code": "NTO028",
+  "name": "謝譯",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "海洋大學",
+      "number": "74",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 933,
+        "hits": 1553,
+        "hr": 1008,
+        "rbi": 1488,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "海洋大學",
+      "number": "74",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 410,
+        "hits": 1659,
+        "hr": 1181,
+        "rbi": 347,
+        "avg": 1101
+      }
+    }
+  ]
+}

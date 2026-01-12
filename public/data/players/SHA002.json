@@ -1,0 +1,44 @@
+{
+  "id": "SHA002",
+  "code": "SHA002",
+  "name": "曾栢暐",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPvPyWI1AoI790sZSpiOEuU8Oth4-Q94nJ9Mx0oq6-l5MI44gP2p2R69UzfzD72kizsEn4rJ9oTfG-0DcwNUOU83CRYSoVmXofO5cHQMzIOcZkb6uv_JK7ps4u26Qi3a8lUweu2Drsk5n9BHA-8wFW8=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "少林棒球隊"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "少林棒球隊",
+      "number": "2",
+      "batting": {
+        "games": 7,
+        "pa": 20,
+        "ab": 16,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 228,
+        "hits": 238,
+        "hr": 1315,
+        "rbi": 1531,
+        "avg": 1123
+      }
+    }
+  ]
+}

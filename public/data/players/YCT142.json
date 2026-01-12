@@ -1,0 +1,44 @@
+{
+  "id": "YCT142",
+  "code": "YCT142",
+  "name": "林俊雄",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOeGBSWBQB_TVqht-m6wY60CPCocpxjx7htyZowPM3T4qFSFAHIsk8bKH2515cZWgbVh6xZVnrTUFR8em_gHBK_qjbz6THJnvteHGbigFPPyq954aJKpIhXMvDGJqCmVNdE899ob5MhYs-G8ceyYBKS=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "永春TB",
+      "number": "85",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 789,
+        "hits": 699,
+        "hr": 176,
+        "rbi": 645,
+        "avg": 1123
+      }
+    }
+  ]
+}

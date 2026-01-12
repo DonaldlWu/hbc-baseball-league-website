@@ -1,0 +1,44 @@
+{
+  "id": "TWU024",
+  "code": "TWU024",
+  "name": "吳旻羲",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPpLVuYFLNwz7m9JlQE1nMC0oMkoMhklxWpUt-s-ImjdUADwxGQJhR0mx_HtRs_caChVAfqPGs2lwmdL4YsDUGu116VBbkzbeJn8SCXBwk0oxizqB2UupGSa-YeeYeIfzqSnT2CO3-1mcGGOt44Cpe4=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "83",
+      "batting": {
+        "games": 4,
+        "pa": 15,
+        "ab": 12,
+        "hits": 3,
+        "singles": 1,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 6,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 216,
+        "hits": 217,
+        "hr": 1227,
+        "rbi": 102,
+        "avg": 903
+      }
+    }
+  ]
+}

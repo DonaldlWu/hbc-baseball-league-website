@@ -1,0 +1,131 @@
+{
+  "id": "MIX075",
+  "code": "MIX075",
+  "name": "鄭輝垣",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "MIX",
+      "number": "1",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 786,
+        "hits": 744,
+        "hr": 197,
+        "rbi": 678,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "MIX",
+      "number": "1",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1065,
+        "hits": 1617,
+        "hr": 1058,
+        "rbi": 1545,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "MIX",
+      "number": "1",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 697,
+        "hits": 667,
+        "hr": 153,
+        "rbi": 600,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "MIX",
+      "number": "104",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 501,
+        "hits": 471,
+        "hr": 1131,
+        "rbi": 1569,
+        "avg": 940
+      }
+    }
+  ]
+}

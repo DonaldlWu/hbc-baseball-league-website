@@ -1,0 +1,44 @@
+{
+  "id": "MIX034",
+  "code": "MIX034",
+  "name": "周敬淳",
+  "photo": "",
+  "career": {
+    "debut": 2013,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2013,
+      "team": "MIX",
+      "number": "MIX034",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 332,
+        "hits": 322,
+        "hr": 27,
+        "rbi": 285,
+        "avg": 323
+      }
+    }
+  ]
+}

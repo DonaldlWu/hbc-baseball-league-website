@@ -1,0 +1,44 @@
+{
+  "id": "MUZ064",
+  "code": "MUZ064",
+  "name": "郭柏亨",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "木柵OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "木柵OB",
+      "number": "26",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 541,
+        "hits": 1551,
+        "hr": 1004,
+        "rbi": 1485,
+        "avg": 1022
+      }
+    }
+  ]
+}

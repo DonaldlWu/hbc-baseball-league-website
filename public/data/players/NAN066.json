@@ -1,0 +1,73 @@
+{
+  "id": "NAN066",
+  "code": "NAN066",
+  "name": "黃柏勳",
+  "photo": "",
+  "career": {
+    "debut": 2011,
+    "teams": [
+      "南港高工OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2012,
+      "team": "南港高工OB",
+      "number": "NAN066",
+      "batting": {
+        "games": 5,
+        "pa": 15,
+        "ab": 11,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 5,
+        "bb": 15,
+        "so": 0,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 89,
+        "hits": 115,
+        "hr": 223,
+        "rbi": 197,
+        "avg": 358
+      }
+    },
+    {
+      "year": 2011,
+      "team": "南港高工OB",
+      "number": "NAN066",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 220,
+        "hits": 225,
+        "hr": 87,
+        "rbi": 214,
+        "avg": 450
+      }
+    }
+  ]
+}

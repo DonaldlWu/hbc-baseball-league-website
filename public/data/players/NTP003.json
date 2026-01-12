@@ -1,0 +1,44 @@
+{
+  "id": "NTP003",
+  "code": "NTP003",
+  "name": "陳博凱",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "台北大學"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "台北大學",
+      "number": "9",
+      "batting": {
+        "games": 12,
+        "pa": 41,
+        "ab": 35,
+        "hits": 11,
+        "singles": 11,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 12,
+        "bb": 0,
+        "so": 10,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 172,
+        "hits": 129,
+        "hr": 1564,
+        "rbi": 125,
+        "avg": 917
+      }
+    }
+  ]
+}

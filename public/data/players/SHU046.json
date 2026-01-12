@@ -1,0 +1,44 @@
+{
+  "id": "SHU046",
+  "code": "SHU046",
+  "name": "王華正",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOvf7w0HoFT2FYb-IEtqp52qxrZSFa6KGxxLbY1krLXi-bor4D3XYP21icU-HkLXeIPIwV2mFhw3zhTqso-z8T2YbAGvS-gPrdEzy8wDloktfzSw49RCJSXPQIWom0_FMOwV-w9vROLuhFpzHX0GkyF=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "2",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1057,
+        "hits": 1505,
+        "hr": 1081,
+        "rbi": 1477,
+        "avg": 1123
+      }
+    }
+  ]
+}

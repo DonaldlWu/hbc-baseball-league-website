@@ -1,0 +1,73 @@
+{
+  "id": "ADV037",
+  "code": "ADV037",
+  "name": "陳信彰",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "冒險家"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "冒險家",
+      "number": "ADV037",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 195,
+        "hits": 191,
+        "hr": 66,
+        "rbi": 182,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2009,
+      "team": "冒險家",
+      "number": "ADV037",
+      "batting": {
+        "games": 16,
+        "pa": 43,
+        "ab": 32,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 5,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 51,
+        "hits": 67,
+        "hr": 258,
+        "rbi": 35,
+        "avg": 450
+      }
+    }
+  ]
+}

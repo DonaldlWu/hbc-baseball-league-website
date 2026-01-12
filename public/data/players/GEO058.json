@@ -1,0 +1,73 @@
+{
+  "id": "GEO058",
+  "code": "GEO058",
+  "name": "郭嘉道",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "台大地理OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "台大地理OB",
+      "number": "42",
+      "batting": {
+        "games": 3,
+        "pa": 2,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 19,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 533,
+        "hits": 1619,
+        "hr": 1119,
+        "rbi": 1557,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "台大地理OB",
+      "number": "GEO058",
+      "batting": {
+        "games": 4,
+        "pa": 9,
+        "ab": 6,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 501,
+        "hits": 552,
+        "hr": 623,
+        "rbi": 481,
+        "avg": 340
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "HOL110",
+  "code": "HOL110",
+  "name": "孫伯汶",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMV6s0WG_h5ibwiUsEXpKukG4Rnu7QX8QORciUOEkBgT60HuDm2ITZBRaY9x7AKDt-O_oogVXSIAkSiPQVKL9OC56pAkl3QuqBx6VcWyMNFWq68nCTDKko8oft-v21vq3zxMZLcOdihE2ryJl_9Knkv2w=w310-h335",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "HOLYBAT",
+      "number": "23",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 4,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 549,
+        "hits": 1395,
+        "hr": 872,
+        "rbi": 1340,
+        "avg": 1123
+      }
+    }
+  ]
+}

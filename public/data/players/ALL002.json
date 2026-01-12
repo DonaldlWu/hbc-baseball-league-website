@@ -1,0 +1,160 @@
+{
+  "id": "ALL002",
+  "code": "ALL002",
+  "name": "林華人",
+  "photo": "",
+  "career": {
+    "debut": 2013,
+    "teams": [
+      "ALLSTAR"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "ALLSTAR",
+      "number": "ALL002",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 880,
+        "hits": 885,
+        "hr": 379,
+        "rbi": 829,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "ALLSTAR",
+      "number": "ALL002",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 839,
+        "hits": 821,
+        "hr": 320,
+        "rbi": 767,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "ALLSTAR",
+      "number": "ALL002",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 802,
+        "hits": 522,
+        "hr": 61,
+        "rbi": 479,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "ALLSTAR",
+      "number": "ALL002",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 4,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 5,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 383,
+        "hits": 360,
+        "hr": 280,
+        "rbi": 310,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "ALLSTAR",
+      "number": "ALL002",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 4,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 10,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 278,
+        "hits": 288,
+        "hr": 201,
+        "rbi": 449,
+        "avg": 323
+      }
+    }
+  ]
+}

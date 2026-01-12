@@ -1,0 +1,280 @@
+{
+  "id": "ROO041",
+  "code": "ROO041",
+  "name": "廖昱翔",
+  "photo": "",
+  "career": {
+    "debut": 2013,
+    "teams": [
+      "木柵OB",
+      "台北大學",
+      "ROOKIES",
+      "Synergy",
+      "南港高工OB"
+    ],
+    "totalSeasons": 9
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "木柵OB",
+      "number": "7",
+      "batting": {
+        "games": 4,
+        "pa": 7,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 468,
+        "hits": 527,
+        "hr": 1184,
+        "rbi": 446,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "木柵OB",
+      "number": "7",
+      "batting": {
+        "games": 11,
+        "pa": 25,
+        "ab": 22,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 3,
+        "bb": 0,
+        "so": 7,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 278,
+        "hits": 268,
+        "hr": 1423,
+        "rbi": 162,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台北大學",
+      "number": "19",
+      "batting": {
+        "games": 6,
+        "pa": 27,
+        "ab": 25,
+        "hits": 10,
+        "singles": 5,
+        "doubles": 3,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 6,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 140,
+        "hits": 140,
+        "hr": 1470,
+        "rbi": 208,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "ROOKIES",
+      "number": "22",
+      "batting": {
+        "games": 15,
+        "pa": 31,
+        "ab": 27,
+        "hits": 7,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 8,
+        "bb": 0,
+        "so": 7,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 256,
+        "hits": 236,
+        "hr": 1506,
+        "rbi": 123,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "Synergy",
+      "number": "ROO041",
+      "batting": {
+        "games": 18,
+        "pa": 68,
+        "ab": 56,
+        "hits": 15,
+        "singles": 11,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 1,
+        "rbi": 11,
+        "runs": 13,
+        "bb": 0,
+        "so": 25,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 22
+      },
+      "rankings": {
+        "rc": 125,
+        "hits": 105,
+        "hr": 56,
+        "rbi": 103,
+        "avg": 115
+      }
+    },
+    {
+      "year": 2016,
+      "team": "Synergy",
+      "number": "ROO041",
+      "batting": {
+        "games": 15,
+        "pa": 60,
+        "ab": 54,
+        "hits": 16,
+        "singles": 12,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 16,
+        "runs": 12,
+        "bb": 0,
+        "so": 16,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 20
+      },
+      "rankings": {
+        "rc": 179,
+        "hits": 94,
+        "hr": 908,
+        "rbi": 48,
+        "avg": 99
+      }
+    },
+    {
+      "year": 2015,
+      "team": "南港高工OB",
+      "number": "ROO041",
+      "batting": {
+        "games": 18,
+        "pa": 64,
+        "ab": 59,
+        "hits": 16,
+        "singles": 13,
+        "doubles": 1,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 11,
+        "bb": 0,
+        "so": 13,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 21
+      },
+      "rankings": {
+        "rc": 141,
+        "hits": 83,
+        "hr": 878,
+        "rbi": 155,
+        "avg": 104
+      }
+    },
+    {
+      "year": 2014,
+      "team": "南港高工OB",
+      "number": "ROO041",
+      "batting": {
+        "games": 14,
+        "pa": 47,
+        "ab": 43,
+        "hits": 19,
+        "singles": 14,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 20,
+        "runs": 13,
+        "bb": 0,
+        "so": 8,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 26
+      },
+      "rankings": {
+        "rc": 48,
+        "hits": 39,
+        "hr": 15,
+        "rbi": 16,
+        "avg": 21
+      }
+    },
+    {
+      "year": 2013,
+      "team": "ROOKIES",
+      "number": "ROO041",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 355,
+        "hits": 322,
+        "hr": 27,
+        "rbi": 285,
+        "avg": 323
+      }
+    }
+  ]
+}

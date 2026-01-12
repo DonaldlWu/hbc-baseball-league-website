@@ -1,0 +1,44 @@
+{
+  "id": "SWD007",
+  "code": "SWD007",
+  "name": "張漢偉",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczO2BBW8VcIFvMeddHOugfOBBx7uMWEcCKkxoYLcSM_sX23UDFTx-E1_p91s6R9U780babH1fuAHkphy8ZaLTKBxN_26LnrxtTtCXeEBj-XZVvDVd0A4Uood-s5uXgZromUgoJ7FaVkr7fnk8fT292mPUA=w198-h241",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "甜心暴龍"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "甜心暴龍",
+      "number": "16",
+      "batting": {
+        "games": 5,
+        "pa": 13,
+        "ab": 10,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 489,
+        "hits": 535,
+        "hr": 1216,
+        "rbi": 1519,
+        "avg": 1123
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "SHA026",
+  "code": "SHA026",
+  "name": "李威廷",
+  "photo": "https://lh3.googleusercontent.com/YY3NTeNoub7fMy74D08aL8BNEWfPtRmD9CgDpSizSpmBsBTZeGjFtoQaz2cTG6oGRCGRS5Ke5rEQ9Ov8Lx85xKPRWFEsK0hL3NGSeR6EF0sbZedAQ9ia1H9KFz4WAw9jM7NZ8-K5XI5_YRqq-e7FpDux-vNqk_se3ji-tJ29vKj51en9t5fZ4dXAFCfvV4QlOF9HSYhggv68Dfm7c1srYDrRhg-xtMtyV45QHoaCTE7IAnn9arle5IpYCTy4lqrVGPFXjuyZSuEom5lAWQqSGbz8mi9Np7at9cX7DD3BlESgQPpVwOm4JMURIjVqBUUyYF2MKbBOKTHUCHLwY1LyxJVmF14uaGnhUZBOq9p9ifqZiA-PUrxQOoOHu8m4G81eIAfXvIaNkPFWENnGxXul35JOjaeN4pogJmX6FXnOoWevkIN1GCvWJ8zmDri-0hdGfUDKAa8oyqysy5iZ7QTqksRc2J9RRP1fYihnOsgmRTB3vQUhUFY514gM8zN9Tq1uf4fgODD933GzbmDq3n3YyITHSDI_q8rTjzA7lLkxRYxdem1bLhxZaruj4QdB9uzLITm1SZ2ngzDTNhiUxZc3Rsax8AMvQ-g_I3g33j7WKH_YkIVDuloaW51dy1gGJreBXz_6GMerUxpRmRQ_ywlocqrH3Ndsa4PycgqMD9rFRIlzNkZxQ8HX3kGGg4nHNw=w450-h650",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "少林棒球隊"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "少林棒球隊",
+      "number": "139",
+      "batting": {
+        "games": 6,
+        "pa": 14,
+        "ab": 12,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 347,
+        "hits": 329,
+        "hr": 1230,
+        "rbi": 474,
+        "avg": 1123
+      }
+    }
+  ]
+}

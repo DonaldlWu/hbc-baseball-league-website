@@ -1,0 +1,44 @@
+{
+  "id": "HOL107",
+  "code": "HOL107",
+  "name": "陳育銘",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPjxHaGLPk-BJMWDWrpdcl-zZnAcYX7VQWQ28tGmvkg8dtoUFOIruwe5vzskxuIVFl7__sPh7vHJt-H1UeU1TZiJjhA2pl5yl4mIBTTfTmiTFcxNGRmVw5_9wz6mqqDIBWHfzKvNTVPWNo6MesuiLC9qw=w310-h335",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "HOLYBAT",
+      "number": "34",
+      "batting": {
+        "games": 9,
+        "pa": 25,
+        "ab": 23,
+        "hits": 11,
+        "singles": 7,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 7,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 120,
+        "hits": 85,
+        "hr": 1361,
+        "rbi": 175,
+        "avg": 1123
+      }
+    }
+  ]
+}

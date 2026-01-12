@@ -1,0 +1,73 @@
+{
+  "id": "HUA037",
+  "code": "HUA037",
+  "name": "王暐凱",
+  "photo": "",
+  "career": {
+    "debut": 2012,
+    "teams": [
+      "華江OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2013,
+      "team": "華江OB",
+      "number": "HUA037",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 373,
+        "hits": 322,
+        "hr": 27,
+        "rbi": 285,
+        "avg": 323
+      }
+    },
+    {
+      "year": 2012,
+      "team": "華江OB",
+      "number": "HUA037",
+      "batting": {
+        "games": 5,
+        "pa": 20,
+        "ab": 18,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 6,
+        "bb": 4,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 320,
+        "hits": 190,
+        "hr": 246,
+        "rbi": 137,
+        "avg": 358
+      }
+    }
+  ]
+}

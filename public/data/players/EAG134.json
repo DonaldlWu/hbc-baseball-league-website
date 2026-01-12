@@ -1,0 +1,44 @@
+{
+  "id": "EAG134",
+  "code": "EAG134",
+  "name": "朱品睿",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOVFsw45p3iFE110lSzRbEwtJBBDr6JjYoIlj07MHbTv6YozZjwONBUj2uvqizRSj9r_iDmExhn-LRUrXq-W1AfrLIXe11aVZir9ax1gAl3dQboly9e6DddJDxEv-OTXIQpNbQMG7WMy-SwnBEFl3A=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "火把老鷹",
+      "number": "63",
+      "batting": {
+        "games": 7,
+        "pa": 32,
+        "ab": 26,
+        "hits": 18,
+        "singles": 13,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 12,
+        "bb": 2,
+        "so": 0,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 23
+      },
+      "rankings": {
+        "rc": 24,
+        "hits": 24,
+        "hr": 1405,
+        "rbi": 46,
+        "avg": 1123
+      }
+    }
+  ]
+}

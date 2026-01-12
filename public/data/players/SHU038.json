@@ -1,0 +1,44 @@
+{
+  "id": "SHU038",
+  "code": "SHU038",
+  "name": "連承皓",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNNtqIVi6hNJ7wxX0agRsMi6SDfu6pArv8Sv2dA8oh9WfPqegNpIxN-4SIPYUE8sgCDfAjdKwhyOq5jqjcc2ZJxkPXr_RnDdCRDoGf7Tl92GU_wMDO-lb5cFboCUT-iXDz6C4WPL8LeM-WJw5jGgblI=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "6",
+      "batting": {
+        "games": 4,
+        "pa": 5,
+        "ab": 4,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 6,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 354,
+        "hits": 373,
+        "hr": 1050,
+        "rbi": 1460,
+        "avg": 1123
+      }
+    }
+  ]
+}

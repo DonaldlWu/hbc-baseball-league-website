@@ -1,0 +1,44 @@
+{
+  "id": "NTO056",
+  "code": "NTO056",
+  "name": "游斯惟",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "海洋大學",
+      "number": "92",
+      "batting": {
+        "games": 3,
+        "pa": 5,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 616,
+        "hits": 544,
+        "hr": 1126,
+        "rbi": 1582,
+        "avg": 1101
+      }
+    }
+  ]
+}

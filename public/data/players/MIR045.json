@@ -1,0 +1,103 @@
+{
+  "id": "MIR045",
+  "code": "MIR045",
+  "name": "林大森",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "MIRACLE",
+      "Miracle"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2011,
+      "team": "MIRACLE",
+      "number": "MIR045",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 175,
+        "hits": 160,
+        "hr": 12,
+        "rbi": 146,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2010,
+      "team": "Miracle",
+      "number": "MIR045",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 137,
+        "hits": 189,
+        "hr": 64,
+        "rbi": 180,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2009,
+      "team": "Miracle",
+      "number": "MIR045",
+      "batting": {
+        "games": 3,
+        "pa": 4,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 170,
+        "hits": 290,
+        "hr": 200,
+        "rbi": 284,
+        "avg": 450
+      }
+    }
+  ]
+}

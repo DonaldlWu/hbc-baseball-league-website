@@ -1,0 +1,131 @@
+{
+  "id": "YAN101",
+  "code": "YAN101",
+  "name": "郭煥為",
+  "photo": "https://lh3.googleusercontent.com/pw/AL9nZEWq1VyJqaVnVc6ztB5c21v7WzWhuTkPBlgckP9_lVkOrjdBV069yXykAfQKqsxYi6Hm2cCPWXKkIJRfZDyEQkoc9gn2IGfRLzVHh_g7IMe6sJUpgM3J8zxY_3SRv80jtkbLuW8dgHGMM5r0_yef_SL7=w310-h335-no",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "陽明OB"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "陽明OB",
+      "number": "27",
+      "batting": {
+        "games": 13,
+        "pa": 36,
+        "ab": 30,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 6,
+        "bb": 0,
+        "so": 9,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 478,
+        "hits": 354,
+        "hr": 1434,
+        "rbi": 185,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "陽明OB",
+      "number": "27",
+      "batting": {
+        "games": 5,
+        "pa": 16,
+        "ab": 16,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 4,
+        "bb": 0,
+        "so": 2,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 237,
+        "hits": 133,
+        "hr": 1251,
+        "rbi": 75,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "陽明OB",
+      "number": "102",
+      "batting": {
+        "games": 4,
+        "pa": 10,
+        "ab": 7,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 5,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 164,
+        "hits": 184,
+        "hr": 1141,
+        "rbi": 302,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "陽明OB",
+      "number": "102",
+      "batting": {
+        "games": 10,
+        "pa": 21,
+        "ab": 20,
+        "hits": 9,
+        "singles": 8,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 6,
+        "bb": 0,
+        "so": 5,
+        "sb": 6,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 75,
+        "hits": 44,
+        "hr": 1349,
+        "rbi": 368,
+        "avg": 943
+      }
+    }
+  ]
+}

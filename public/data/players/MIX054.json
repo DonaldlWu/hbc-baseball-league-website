@@ -1,0 +1,44 @@
+{
+  "id": "MIX054",
+  "code": "MIX054",
+  "name": "孫仁祥",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2016,
+      "team": "MIX",
+      "number": "MIX054",
+      "batting": {
+        "games": 5,
+        "pa": 12,
+        "ab": 12,
+        "hits": 7,
+        "singles": 3,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 3,
+        "bb": 19,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 204,
+        "hits": 234,
+        "hr": 589,
+        "rbi": 238,
+        "avg": 349
+      }
+    }
+  ]
+}

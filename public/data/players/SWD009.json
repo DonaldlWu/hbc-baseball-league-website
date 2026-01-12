@@ -1,0 +1,44 @@
+{
+  "id": "SWD009",
+  "code": "SWD009",
+  "name": "褚澤羲",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNs3kVKlJMqxIhIz1QZPe28WvKhVhHWv89E05c9wQ5Dx6bqp4t-HHrUai5R-Vf2IW8mH-Uv31y1rKj10gjhNxHDlQoj1nZa4jmk0KdzNYUs-QpsB7LWzzWNAJ8N3YO3x22YShlS_SmhS15JPJ9CgI7heQ=w816-h816",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "甜心暴龍"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "甜心暴龍",
+      "number": "26",
+      "batting": {
+        "games": 5,
+        "pa": 16,
+        "ab": 13,
+        "hits": 3,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 1,
+        "rbi": 6,
+        "runs": 5,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 262,
+        "hits": 337,
+        "hr": 8,
+        "rbi": 138,
+        "avg": 1123
+      }
+    }
+  ]
+}

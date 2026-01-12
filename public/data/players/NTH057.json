@@ -1,0 +1,44 @@
+{
+  "id": "NTH057",
+  "code": "NTH057",
+  "name": "賴昱璁",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczN2kE1SC5uUKw1k7VvOTeBfepYLe0tsBXffub20cVQivMS4I-0f4IZmnem6G3tLhBcFLA3DvqH7Ax34wvDkgL--Pp_MBr2SiXwnCoyhwRTzRq8gYdkdJGj8GzZ9-i0BLqu7oauW9vTn8WQyIrPywdDe=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "68",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 360,
+        "hits": 364,
+        "hr": 1008,
+        "rbi": 1437,
+        "avg": 1123
+      }
+    }
+  ]
+}

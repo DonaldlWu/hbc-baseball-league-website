@@ -1,0 +1,132 @@
+{
+  "id": "MOR088",
+  "code": "MOR088",
+  "name": "盧家駒",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNbtu8M17z0DPpa26hmXTDlfgq-OfL09C0uNmGq5fe_Jfu0AnwIpHR79W9HnW4NUmf5gIe3E_GAdSbZKr_-CKLPNwnP3s1QspGngYfGpSPzfn8yj_LMgAlMtV2b558ORwcqj6lz2rG8trZr9SkkXuR-=w310-h335-no",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "莫拉克",
+      "京盛宇"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "莫拉克",
+      "number": "136",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 964,
+        "hits": 910,
+        "hr": 387,
+        "rbi": 856,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "京盛宇",
+      "number": "103",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 779,
+        "hits": 741,
+        "hr": 329,
+        "rbi": 674,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "京盛宇",
+      "number": "103",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 407,
+        "hits": 1313,
+        "hr": 934,
+        "rbi": 1262,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "京盛宇",
+      "number": "103",
+      "batting": {
+        "games": 2,
+        "pa": 1,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 446,
+        "hits": 1376,
+        "hr": 924,
+        "rbi": 1289,
+        "avg": 943
+      }
+    }
+  ]
+}

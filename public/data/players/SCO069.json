@@ -1,0 +1,44 @@
+{
+  "id": "SCO069",
+  "code": "SCO069",
+  "name": "陳柏均",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPY3ae9tJ_u3gw_3kIInVHVYZLoGZYo2x2VQ8rIXXDjtntoul_s2lNFnD8Z79OvbLJ322l7vTxv1uXA9BY-QRQGYByZLJ2qe7qCEHEfW9ks-x3Uu9rmpfeZJ7SnI6I-9Ui6mjKOhWwALQnjiqZdC8uABA=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "27",
+      "batting": {
+        "games": 3,
+        "pa": 11,
+        "ab": 8,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 5,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 403,
+        "hits": 525,
+        "hr": 1181,
+        "rbi": 246,
+        "avg": 1123
+      }
+    }
+  ]
+}

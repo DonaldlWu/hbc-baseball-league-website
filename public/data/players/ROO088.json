@@ -1,0 +1,131 @@
+{
+  "id": "ROO088",
+  "code": "ROO088",
+  "name": "楊舜宇",
+  "photo": "https://lh3.googleusercontent.com/pw/AJFCJaU12Y0oHuMKqCybB4vsfKLKNurf0tGUxypniT20Vyckn5RduvYT9aqBmQEjdJwbfuA5Zbm6-k39QIg-0U_fWaw7QxzULYGmP8ms0hFQAhjwN8z_IAPEiiMuVtI0j0Y32dhre72tLBtOoD8_Cut1rYmm=w310-h335-no",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "Line Drive"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Line Drive",
+      "number": "69",
+      "batting": {
+        "games": 7,
+        "pa": 7,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 3,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 462,
+        "hits": 507,
+        "hr": 1098,
+        "rbi": 429,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "Line Drive",
+      "number": "69",
+      "batting": {
+        "games": 4,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 723,
+        "hits": 685,
+        "hr": 273,
+        "rbi": 618,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "Line Drive",
+      "number": "100",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 698,
+        "hits": 649,
+        "hr": 268,
+        "rbi": 598,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "Line Drive",
+      "number": "100",
+      "batting": {
+        "games": 2,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 3,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 769,
+        "hits": 728,
+        "hr": 276,
+        "rbi": 641,
+        "avg": 943
+      }
+    }
+  ]
+}

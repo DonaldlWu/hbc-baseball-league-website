@@ -1,0 +1,219 @@
+{
+  "id": "MOR076",
+  "code": "MOR076",
+  "name": "黃三江",
+  "photo": "https://lh3.googleusercontent.com/pw/AJFCJaVRil_0Z67vRVj68l2GJsSsLuiFHSyg1WIdVFpTxrla3Sb3uAzAEAy7yDBYqjPWagL_cJ60v-XWTsGxA6DtnxRQLccwBGwPMu4HpVhLmPSIhipGOMaQPDRHWhu3WbljyxOHW00kWdXs-ENTVH_UjZgn=w310-h335-no",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "莫拉克",
+      "京盛宇"
+    ],
+    "totalSeasons": 7
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "莫拉克",
+      "number": "32",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 972,
+        "hits": 937,
+        "hr": 414,
+        "rbi": 883,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "京盛宇",
+      "number": "32",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 783,
+        "hits": 745,
+        "hr": 333,
+        "rbi": 678,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "京盛宇",
+      "number": "32",
+      "batting": {
+        "games": 2,
+        "pa": 10,
+        "ab": 4,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 4,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 99,
+        "hits": 181,
+        "hr": 1137,
+        "rbi": 137,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "京盛宇",
+      "number": "32",
+      "batting": {
+        "games": 4,
+        "pa": 9,
+        "ab": 7,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 1,
+        "bb": 1,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 379,
+        "hits": 430,
+        "hr": 1153,
+        "rbi": 180,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "京盛宇",
+      "number": "32",
+      "batting": {
+        "games": 5,
+        "pa": 19,
+        "ab": 10,
+        "hits": 3,
+        "singles": 1,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 7,
+        "bb": 2,
+        "so": 4,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 219,
+        "hits": 388,
+        "hr": 1371,
+        "rbi": 491,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "莫拉克",
+      "number": "32",
+      "batting": {
+        "games": 9,
+        "pa": 29,
+        "ab": 20,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 9,
+        "bb": 3,
+        "so": 8,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 221,
+        "hits": 307,
+        "hr": 1453,
+        "rbi": 402,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "莫拉克",
+      "number": "101",
+      "batting": {
+        "games": 6,
+        "pa": 16,
+        "ab": 13,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 3,
+        "bb": 1,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 254,
+        "hits": 282,
+        "hr": 1369,
+        "rbi": 199,
+        "avg": 917
+      }
+    }
+  ]
+}

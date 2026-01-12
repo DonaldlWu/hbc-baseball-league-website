@@ -1,0 +1,44 @@
+{
+  "id": "NTU111",
+  "code": "NTU111",
+  "name": "蘇鼎元",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "台大化工OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "台大化工OB",
+      "number": "103",
+      "batting": {
+        "games": 1,
+        "pa": 6,
+        "ab": 3,
+        "hits": 3,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 6,
+        "bb": 5,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 238,
+        "hits": 353,
+        "hr": 1212,
+        "rbi": 326,
+        "avg": 917
+      }
+    }
+  ]
+}

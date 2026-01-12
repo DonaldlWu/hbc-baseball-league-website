@@ -1,0 +1,73 @@
+{
+  "id": "TTE056",
+  "code": "TTE056",
+  "name": "楊富全",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "北科大"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "北科大",
+      "number": "TTE056",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 638,
+        "hits": 643,
+        "hr": 137,
+        "rbi": 587,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "北科大",
+      "number": "TTE056",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 860,
+        "hits": 845,
+        "hr": 346,
+        "rbi": 791,
+        "avg": 349
+      }
+    }
+  ]
+}

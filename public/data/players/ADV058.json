@@ -1,0 +1,132 @@
+{
+  "id": "ADV058",
+  "code": "ADV058",
+  "name": "張柏彥",
+  "photo": "https://lh3.googleusercontent.com/Byd0koGfFPMLhDtO1YlvabfMowhEgiBb2npLvk6IJJ0pNnhtZr5cEgNt2g415jBOCGT4JI_m2oqUsQ6dg8VN1PouPWefGxOibP99m7rW-XM140ra1X6WENE3dfbQGfQsYS2uLxen8t8vRzBf5WZ-XlRdMt5xAQCk004hfR69qZa_0fwj6PNz8FdaVeWhxbNZw_w-IApAebjBmr5F6MERu2sUzebROdUn_wXvMndme98Vff2GbNhCLYK37QHdZyzZWQ84RwVBy-vSsi4ActxK6sDMDO9upMY3cMWw8Ilr64S4fYB_iDwLvdK8Ob5h70wTDkyh621F16t0u1iN97yReqlG-iA3Gy9ziIy7vMAIbeBjqzL3f74ZIX7bB6RgxFbCnSDASoDEWaI8uydNKkQBQ_3fxjAA3OAdQK0TaLigUbEjL_UTyV0Wzc15O7ts-pVOYK3QN_WNkE9DYMLcTQT4Ingga_dKWGvUR2gEyu6bsmAVRyBrZeqYqI1zY7RhVH8Owm-F8ZcmeSMMKb0yKy4jJe92l-w3VTZrisYk3gQNszJFdpohIAxUrJS-G7x9lnxRbRAfwJXYL2hopgLfSmPlSBhzXoSlEMpGvvXy6_9uRUd8YGtuZgiQYiibMKKcVDvTBWl926PYmveTWSPOu2ZEQlJeFPiycfQ-aQ=w310-h335-no",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "逆轉星球",
+      "冒險家"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "逆轉星球",
+      "number": "53",
+      "batting": {
+        "games": 14,
+        "pa": 5,
+        "ab": 4,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 39,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 372,
+        "hits": 371,
+        "hr": 1045,
+        "rbi": 304,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "逆轉星球",
+      "number": "53",
+      "batting": {
+        "games": 7,
+        "pa": 3,
+        "ab": 3,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 15,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 292,
+        "hits": 234,
+        "hr": 940,
+        "rbi": 258,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "逆轉星球",
+      "number": "53",
+      "batting": {
+        "games": 5,
+        "pa": 1,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 24,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 384,
+        "hits": 1283,
+        "hr": 902,
+        "rbi": 1231,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2018,
+      "team": "冒險家",
+      "number": "98",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 892,
+        "hits": 1618,
+        "hr": 1117,
+        "rbi": 1555,
+        "avg": 940
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "MIR064",
+  "code": "MIR064",
+  "name": "林忠勇",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "MIRACLE"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "MIRACLE",
+      "number": "103",
+      "batting": {
+        "games": 7,
+        "pa": 12,
+        "ab": 11,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 499,
+        "hits": 449,
+        "hr": 1332,
+        "rbi": 464,
+        "avg": 940
+      }
+    }
+  ]
+}

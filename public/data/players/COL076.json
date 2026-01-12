@@ -1,0 +1,102 @@
+{
+  "id": "COL076",
+  "code": "COL076",
+  "name": "陳政安",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "冷鋒"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "冷鋒",
+      "number": "58",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 810,
+        "hits": 792,
+        "hr": 290,
+        "rbi": 730,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "冷鋒",
+      "number": "COL076",
+      "batting": {
+        "games": 6,
+        "pa": 22,
+        "ab": 15,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 5,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 228,
+        "hits": 258,
+        "hr": 765,
+        "rbi": 240,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "冷鋒",
+      "number": "COL076",
+      "batting": {
+        "games": 8,
+        "pa": 30,
+        "ab": 27,
+        "hits": 11,
+        "singles": 6,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 9,
+        "runs": 10,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 18
+      },
+      "rankings": {
+        "rc": 149,
+        "hits": 154,
+        "hr": 18,
+        "rbi": 136,
+        "avg": 349
+      }
+    }
+  ]
+}

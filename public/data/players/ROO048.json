@@ -1,0 +1,161 @@
+{
+  "id": "ROO048",
+  "code": "ROO048",
+  "name": "黃裕皓",
+  "photo": "https://lh3.googleusercontent.com/IlFhbezBHbDojApV2V15h_HlDyG2qPb06On8ZVWAtCE=w310-h335-no",
+  "career": {
+    "debut": 2014,
+    "teams": [
+      "ACES",
+      "ROOKIES"
+    ],
+    "totalSeasons": 5
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "ACES",
+      "number": "4",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 701,
+        "hits": 602,
+        "hr": 79,
+        "rbi": 548,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "ACES",
+      "number": "4",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 493,
+        "hits": 470,
+        "hr": 58,
+        "rbi": 403,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "ACES",
+      "number": "104",
+      "batting": {
+        "games": 3,
+        "pa": 6,
+        "ab": 5,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 229,
+        "hits": 247,
+        "hr": 1059,
+        "rbi": 187,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2015,
+      "team": "ROOKIES",
+      "number": "ROO048",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 856,
+        "hits": 831,
+        "hr": 380,
+        "rbi": 789,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "ROOKIES",
+      "number": "ROO048",
+      "batting": {
+        "games": 5,
+        "pa": 10,
+        "ab": 9,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 369,
+        "hits": 316,
+        "hr": 355,
+        "rbi": 648,
+        "avg": 327
+      }
+    }
+  ]
+}

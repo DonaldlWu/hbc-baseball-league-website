@@ -1,0 +1,44 @@
+{
+  "id": "SHA025",
+  "code": "SHA025",
+  "name": "卜冠綸",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNwEzeQhU9pRiq1kuH65H73d_sSuDNJm6OkMtZLZeT2igCE7TpEMGXHYouB7Skuxh9qxt7cmjkSSya4bU4_9WIWRXXivTuTDmIttpDCnQxWt_z4FKIBJ6g7nnDQBycemiFWY6R_gJZGueMfzBJNRFbC=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "少林棒球隊"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "少林棒球隊",
+      "number": "52",
+      "batting": {
+        "games": 3,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 594,
+        "hits": 1453,
+        "hr": 962,
+        "rbi": 1407,
+        "avg": 1123
+      }
+    }
+  ]
+}

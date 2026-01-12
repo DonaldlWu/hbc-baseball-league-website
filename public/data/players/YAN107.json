@@ -1,0 +1,102 @@
+{
+  "id": "YAN107",
+  "code": "YAN107",
+  "name": "柯有韋",
+  "photo": "https://lh3.googleusercontent.com/pw/ABLVV84PXOF8gx2tCby2r9aRwgzNMV2zNqmVS77N_JjtEjKGpU4pp-HaLgG2tyglaJlAkvzsNjHmYoN5h0LIXPZekUfE2AoqGUTmsN0v-4WuTY_R-oEt-YpN2guCcpbN634e6aRiv07snv9Cw5uf2sXL0RxR=w310-h335-no",
+  "career": {
+    "debut": 2023,
+    "teams": [
+      "陽明OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "陽明OB",
+      "number": "45",
+      "batting": {
+        "games": 6,
+        "pa": 19,
+        "ab": 17,
+        "hits": 10,
+        "singles": 6,
+        "doubles": 3,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 5,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 102,
+        "hits": 106,
+        "hr": 1305,
+        "rbi": 111,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "陽明OB",
+      "number": "45",
+      "batting": {
+        "games": 6,
+        "pa": 14,
+        "ab": 13,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 9,
+        "runs": 4,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 169,
+        "hits": 126,
+        "hr": 1217,
+        "rbi": 23,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "陽明OB",
+      "number": "97",
+      "batting": {
+        "games": 3,
+        "pa": 7,
+        "ab": 7,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 3,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 299,
+        "hits": 255,
+        "hr": 1090,
+        "rbi": 132,
+        "avg": 896
+      }
+    }
+  ]
+}

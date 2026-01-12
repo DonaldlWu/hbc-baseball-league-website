@@ -1,0 +1,44 @@
+{
+  "id": "FET008",
+  "code": "FET008",
+  "name": "謝佳育",
+  "photo": "",
+  "career": {
+    "debut": 2010,
+    "teams": [
+      "FORCE"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "FORCE",
+      "number": "FET008",
+      "batting": {
+        "games": 18,
+        "pa": 45,
+        "ab": 35,
+        "hits": 11,
+        "singles": 9,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 6,
+        "bb": 0,
+        "so": 12,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 13
+      },
+      "rankings": {
+        "rc": 52,
+        "hits": 51,
+        "hr": 180,
+        "rbi": 52,
+        "avg": 450
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "NAN049",
+  "code": "NAN049",
+  "name": "鍾誠瑋",
+  "photo": "",
+  "career": {
+    "debut": 2012,
+    "teams": [
+      "南港高工OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2012,
+      "team": "南港高工OB",
+      "number": "NAN049",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 258,
+        "hits": 222,
+        "hr": 18,
+        "rbi": 206,
+        "avg": 358
+      }
+    }
+  ]
+}

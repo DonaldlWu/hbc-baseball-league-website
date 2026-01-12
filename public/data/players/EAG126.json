@@ -1,0 +1,44 @@
+{
+  "id": "EAG126",
+  "code": "EAG126",
+  "name": "張寓靖",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOQw9brnJUf7h9N72kBNWSu95RMx3cGBhD11bKiGqIj4tTniYYXryePgjd_KF83eUiVmdV5q6AMv143uyAUho9b0NfdcMksLwppug2GAtVEeMeEfX72y0SV2UGQkklHkBSeQxL2UHzFSaduvc4_zVM=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "火把老鷹",
+      "number": "106",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 393,
+        "hits": 1346,
+        "hr": 968,
+        "rbi": 1288,
+        "avg": 903
+      }
+    }
+  ]
+}

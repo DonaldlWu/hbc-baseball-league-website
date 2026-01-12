@@ -1,0 +1,44 @@
+{
+  "id": "VOL016",
+  "code": "VOL016",
+  "name": "梁華年",
+  "photo": "",
+  "career": {
+    "debut": 2010,
+    "teams": [
+      "志願者"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "志願者",
+      "number": "VOL016",
+      "batting": {
+        "games": 12,
+        "pa": 42,
+        "ab": 39,
+        "hits": 13,
+        "singles": 9,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 7,
+        "bb": 4,
+        "so": 13,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 59,
+        "hits": 45,
+        "hr": 185,
+        "rbi": 31,
+        "avg": 450
+      }
+    }
+  ]
+}

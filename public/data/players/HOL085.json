@@ -1,0 +1,102 @@
+{
+  "id": "HOL085",
+  "code": "HOL085",
+  "name": "胡家瑋",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "HOLYBAT",
+      "number": "43",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 676,
+        "hits": 627,
+        "hr": 246,
+        "rbi": 576,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "HOLYBAT",
+      "number": "43",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 734,
+        "hits": 693,
+        "hr": 241,
+        "rbi": 606,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "HOLYBAT",
+      "number": "43",
+      "batting": {
+        "games": 9,
+        "pa": 25,
+        "ab": 18,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 3,
+        "bb": 1,
+        "so": 9,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 315,
+        "hits": 402,
+        "hr": 1453,
+        "rbi": 176,
+        "avg": 1022
+      }
+    }
+  ]
+}

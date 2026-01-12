@@ -1,0 +1,44 @@
+{
+  "id": "CBC015",
+  "code": "CBC015",
+  "name": "陳俊諺",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "日促會"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "日促會",
+      "number": "CBC015",
+      "batting": {
+        "games": 16,
+        "pa": 57,
+        "ab": 49,
+        "hits": 11,
+        "singles": 7,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 10,
+        "bb": 9,
+        "so": 7,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 187,
+        "hits": 152,
+        "hr": 858,
+        "rbi": 153,
+        "avg": 118
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "NTU067",
+  "code": "NTU067",
+  "name": "高淂聿",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "台大化工OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "台大化工OB",
+      "number": "20",
+      "batting": {
+        "games": 5,
+        "pa": 12,
+        "ab": 10,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 0,
+        "bb": 2,
+        "so": 4,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 940,
+        "hits": 1680,
+        "hr": 1326,
+        "rbi": 296,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "台大化工OB",
+      "number": "NTU067",
+      "batting": {
+        "games": 3,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 10,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 718,
+        "hits": 723,
+        "hr": 217,
+        "rbi": 667,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "台大化工OB",
+      "number": "NTU067",
+      "batting": {
+        "games": 3,
+        "pa": 5,
+        "ab": 5,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 5,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 379,
+        "hits": 367,
+        "hr": 472,
+        "rbi": 441,
+        "avg": 349
+      }
+    }
+  ]
+}

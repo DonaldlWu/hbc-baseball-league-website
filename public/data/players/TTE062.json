@@ -1,0 +1,73 @@
+{
+  "id": "TTE062",
+  "code": "TTE062",
+  "name": "趙崇名",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "北科大"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "北科大",
+      "number": "TTE062",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 902,
+        "hits": 1001,
+        "hr": 559,
+        "rbi": 963,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "北科大",
+      "number": "TTE062",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 618,
+        "hits": 600,
+        "hr": 99,
+        "rbi": 546,
+        "avg": 349
+      }
+    }
+  ]
+}

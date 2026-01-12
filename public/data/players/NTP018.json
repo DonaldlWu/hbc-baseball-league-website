@@ -1,0 +1,102 @@
+{
+  "id": "NTP018",
+  "code": "NTP018",
+  "name": "吳崧任",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "台北大學"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "台北大學",
+      "number": "72",
+      "batting": {
+        "games": 4,
+        "pa": 6,
+        "ab": 6,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 11,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 355,
+        "hits": 357,
+        "hr": 1177,
+        "rbi": 442,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "台北大學",
+      "number": "72",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1039,
+        "hits": 1590,
+        "hr": 1010,
+        "rbi": 1506,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台北大學",
+      "number": "72",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 578,
+        "hits": 594,
+        "hr": 80,
+        "rbi": 527,
+        "avg": 917
+      }
+    }
+  ]
+}

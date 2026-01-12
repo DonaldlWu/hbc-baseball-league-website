@@ -1,0 +1,44 @@
+{
+  "id": "HUA137",
+  "code": "HUA137",
+  "name": "蔡厚德",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPVFupXo50Ooj8EN_ge-s6xLlKFTd7f3Z21dO-GcZtgUSoo71JGyfDeJk1hQCtzQLyfulsCYXIP_64wUQ9t6VQA9Opct_7ComWYGz_SWC3WgLvXjtqQZnkOyT-hkjnU-v351V2l48pFpiM9xv7XWsMgnQ=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "華江OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "華江OB",
+      "number": "9",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 553,
+        "hits": 1386,
+        "hr": 863,
+        "rbi": 1331,
+        "avg": 1123
+      }
+    }
+  ]
+}

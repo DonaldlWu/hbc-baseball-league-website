@@ -1,0 +1,44 @@
+{
+  "id": "TTE055",
+  "code": "TTE055",
+  "name": "胡鈞然",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "北科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2016,
+      "team": "北科大",
+      "number": "TTE055",
+      "batting": {
+        "games": 4,
+        "pa": 13,
+        "ab": 9,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 5,
+        "bb": 7,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 445,
+        "hits": 543,
+        "hr": 594,
+        "rbi": 934,
+        "avg": 349
+      }
+    }
+  ]
+}

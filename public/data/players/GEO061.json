@@ -1,0 +1,44 @@
+{
+  "id": "GEO061",
+  "code": "GEO061",
+  "name": "潘庭豐",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "台大地理OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "台大地理OB",
+      "number": "GEO061",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 12,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 566,
+        "hits": 956,
+        "hr": 469,
+        "rbi": 907,
+        "avg": 340
+      }
+    }
+  ]
+}

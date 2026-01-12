@@ -1,0 +1,73 @@
+{
+  "id": "NTP041",
+  "code": "NTP041",
+  "name": "黃俊為",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "台北大學"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "台北大學",
+      "number": "88",
+      "batting": {
+        "games": 6,
+        "pa": 24,
+        "ab": 17,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 8,
+        "bb": 0,
+        "so": 8,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 375,
+        "hits": 469,
+        "hr": 1437,
+        "rbi": 385,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "台北大學",
+      "number": "88",
+      "batting": {
+        "games": 4,
+        "pa": 11,
+        "ab": 9,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 462,
+        "hits": 475,
+        "hr": 1255,
+        "rbi": 360,
+        "avg": 1101
+      }
+    }
+  ]
+}

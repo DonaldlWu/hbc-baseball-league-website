@@ -1,0 +1,103 @@
+{
+  "id": "GEO068",
+  "code": "GEO068",
+  "name": "華英傑",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "十號馬",
+      "台大地理OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "十號馬",
+      "number": "88",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 699,
+        "hits": 677,
+        "hr": 87,
+        "rbi": 593,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台大地理OB",
+      "number": "88",
+      "batting": {
+        "games": 10,
+        "pa": 24,
+        "ab": 22,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 5,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 415,
+        "hits": 340,
+        "hr": 1450,
+        "rbi": 473,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "台大地理OB",
+      "number": "102",
+      "batting": {
+        "games": 10,
+        "pa": 28,
+        "ab": 27,
+        "hits": 7,
+        "singles": 6,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 6,
+        "bb": 4,
+        "so": 7,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 332,
+        "hits": 234,
+        "hr": 1484,
+        "rbi": 1678,
+        "avg": 940
+      }
+    }
+  ]
+}

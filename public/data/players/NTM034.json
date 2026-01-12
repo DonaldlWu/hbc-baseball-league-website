@@ -1,0 +1,44 @@
+{
+  "id": "NTM034",
+  "code": "NTM034",
+  "name": "楊帛諺",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "台大機械"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "台大機械",
+      "number": "104",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 5,
+        "hits": 2,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 1,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 379,
+        "hits": 417,
+        "hr": 1201,
+        "rbi": 1616,
+        "avg": 940
+      }
+    }
+  ]
+}

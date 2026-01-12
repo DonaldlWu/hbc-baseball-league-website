@@ -1,0 +1,102 @@
+{
+  "id": "NTU077",
+  "code": "NTU077",
+  "name": "張睿哲",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "台大化工OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "台大化工OB",
+      "number": "77",
+      "batting": {
+        "games": 6,
+        "pa": 16,
+        "ab": 16,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 495,
+        "hits": 391,
+        "hr": 1378,
+        "rbi": 357,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "台大化工OB",
+      "number": "77",
+      "batting": {
+        "games": 5,
+        "pa": 18,
+        "ab": 14,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 4,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 260,
+        "hits": 286,
+        "hr": 1405,
+        "rbi": 310,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "台大化工OB",
+      "number": "NTU077",
+      "batting": {
+        "games": 6,
+        "pa": 16,
+        "ab": 11,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 4,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 325,
+        "hits": 412,
+        "hr": 720,
+        "rbi": 1006,
+        "avg": 340
+      }
+    }
+  ]
+}

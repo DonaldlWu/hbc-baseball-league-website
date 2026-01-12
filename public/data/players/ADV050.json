@@ -1,0 +1,131 @@
+{
+  "id": "ADV050",
+  "code": "ADV050",
+  "name": "洪振皓",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "冒險家"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "冒險家",
+      "number": "5",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 879,
+        "hits": 861,
+        "hr": 359,
+        "rbi": 799,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "冒險家",
+      "number": "ADV050",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 892,
+        "hits": 897,
+        "hr": 391,
+        "rbi": 841,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "冒險家",
+      "number": "ADV050",
+      "batting": {
+        "games": 3,
+        "pa": 11,
+        "ab": 8,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 350,
+        "hits": 376,
+        "hr": 562,
+        "rbi": 386,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "冒險家",
+      "number": "ADV050",
+      "batting": {
+        "games": 15,
+        "pa": 45,
+        "ab": 42,
+        "hits": 13,
+        "singles": 9,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 2,
+        "rbi": 16,
+        "runs": 9,
+        "bb": 2,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 21
+      },
+      "rankings": {
+        "rc": 129,
+        "hits": 113,
+        "hr": 7,
+        "rbi": 47,
+        "avg": 624
+      }
+    }
+  ]
+}

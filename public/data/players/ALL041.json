@@ -1,0 +1,73 @@
+{
+  "id": "ALL041",
+  "code": "ALL041",
+  "name": "高浩宸",
+  "photo": "",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "ALLSTAR"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "ALLSTAR",
+      "number": "ALL041",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 188,
+        "hits": 148,
+        "hr": 23,
+        "rbi": 139,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2009,
+      "team": "ALLSTAR",
+      "number": "ALL041",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 4,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 99,
+        "hits": 100,
+        "hr": 199,
+        "rbi": 283,
+        "avg": 450
+      }
+    }
+  ]
+}

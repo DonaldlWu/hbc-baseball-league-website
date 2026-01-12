@@ -1,0 +1,423 @@
+{
+  "id": "COL009",
+  "code": "COL009",
+  "name": "盛煥昌",
+  "photo": "https://lh3.googleusercontent.com/3ALldMHinX3O5ARvDvizHC2exFIgcjDHhLNYmCH8yyHJhvIXgCtajBS11ba7rt6Evu8KK0FFB9F2h9lFtsQr3nyUMtOHvSy1loh8su2hwCOMdkRdx43cqlfQ3yfxzHwOKLXJUcR2Es137trnbfB7XWApdwjufZq4aHthYdpPxUMpbjOd6ege9UEs2GmSG3y6-dHzvFOUd-RQWMzagLWciLavjvOzwgreDUmNEoizn2xP5aTa5OUvVxOL-k5paX7vrS71BhmBm497NxMA1EDjhRknHz_Ug_OiplkphLNL1FohTKX5yz9GAbcD4OcI6SaxFFoxqruSs9GJLurOUXAZHl9b0A0NaJ19uGu5b0ZjfFugPnda520keEcd9oVsUHVlWzulVZ3TOV_AQrGOymnSSTcb5aSe_hkZ5AyTC4EkVwv1mKvqmvAQLWJaayTuxiHDi7z_p__ZcChaeSUKEcLIIWJGXSsH-oeYPvi0x3Ddm7nAB0kK_A83LHBC8PDam2TD1gVlXx76rNBpNGuH1QvuYwmVS1iN4LpDP2JqfYAIjnKcgCrToqMt6dabWexTj70JSYNDNkL2YaHrix_cqvYEWLdKe73exZaULbqL7Lf2smC7HS42KwDgws1QMy7aWfGC-26l8A7Moq4259ZFgDX4naa7Edbtt86Nu2gKmOOLbM8XT5erECT5AJiL9M5m61Bkoh667stLnLs37w7XDPxR5unPd4vQYnJBp6ESLRKAkTCX61aU=w310-h335-no",
+  "career": {
+    "debut": 2012,
+    "teams": [
+      "飛尼克斯",
+      "HOLYBAT",
+      "冷鋒"
+    ],
+    "totalSeasons": 14
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "飛尼克斯",
+      "number": "22",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1020,
+        "hits": 628,
+        "hr": 105,
+        "rbi": 574,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "飛尼克斯",
+      "number": "22",
+      "batting": {
+        "games": 3,
+        "pa": 4,
+        "ab": 2,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 3,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 200,
+        "hits": 235,
+        "hr": 964,
+        "rbi": 260,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "飛尼克斯",
+      "number": "22",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 8,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 181,
+        "hits": 132,
+        "hr": 1111,
+        "rbi": 197,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "飛尼克斯",
+      "number": "22",
+      "batting": {
+        "games": 5,
+        "pa": 5,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 10,
+        "so": 1,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 450,
+        "hits": 392,
+        "hr": 1065,
+        "rbi": 312,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "飛尼克斯",
+      "number": "22",
+      "batting": {
+        "games": 5,
+        "pa": 8,
+        "ab": 6,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 4,
+        "so": 1,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 358,
+        "hits": 363,
+        "hr": 1217,
+        "rbi": 454,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "飛尼克斯",
+      "number": "22",
+      "batting": {
+        "games": 15,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 32,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 624,
+        "hits": 1602,
+        "hr": 1026,
+        "rbi": 1519,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "HOLYBAT",
+      "number": "22",
+      "batting": {
+        "games": 6,
+        "pa": 16,
+        "ab": 13,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 41,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 372,
+        "hits": 389,
+        "hr": 1372,
+        "rbi": 460,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "冷鋒",
+      "number": "22",
+      "batting": {
+        "games": 4,
+        "pa": 13,
+        "ab": 11,
+        "hits": 6,
+        "singles": 3,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 17,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 216,
+        "hits": 250,
+        "hr": 1342,
+        "rbi": 371,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "HOLYBAT",
+      "number": "COL009",
+      "batting": {
+        "games": 7,
+        "pa": 16,
+        "ab": 12,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 6,
+        "bb": 40,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 324,
+        "hits": 413,
+        "hr": 721,
+        "rbi": 502,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "冷鋒",
+      "number": "COL009",
+      "batting": {
+        "games": 13,
+        "pa": 5,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 38,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 474,
+        "hits": 509,
+        "hr": 465,
+        "rbi": 886,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "冷鋒",
+      "number": "COL009",
+      "batting": {
+        "games": 13,
+        "pa": 9,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 2,
+        "bb": 46,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 522,
+        "hits": 893,
+        "hr": 516,
+        "rbi": 250,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "冷鋒",
+      "number": "COL009",
+      "batting": {
+        "games": 18,
+        "pa": 14,
+        "ab": 11,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 8,
+        "bb": 41,
+        "so": 1,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 233,
+        "hits": 282,
+        "hr": 398,
+        "rbi": 272,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "冷鋒",
+      "number": "COL009",
+      "batting": {
+        "games": 5,
+        "pa": 6,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 54,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 288,
+        "hits": 298,
+        "hr": 224,
+        "rbi": 462,
+        "avg": 323
+      }
+    },
+    {
+      "year": 2012,
+      "team": "冷鋒",
+      "number": "COL009",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 11,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 188,
+        "hits": 200,
+        "hr": 150,
+        "rbi": 176,
+        "avg": 358
+      }
+    }
+  ]
+}

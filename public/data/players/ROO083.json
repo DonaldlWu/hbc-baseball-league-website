@@ -1,0 +1,44 @@
+{
+  "id": "ROO083",
+  "code": "ROO083",
+  "name": "駱泰傑",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "ROOKIES"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "ROOKIES",
+      "number": "101",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 838,
+        "hits": 796,
+        "hr": 249,
+        "rbi": 730,
+        "avg": 1022
+      }
+    }
+  ]
+}

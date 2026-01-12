@@ -1,0 +1,103 @@
+{
+  "id": "NTM073",
+  "code": "NTM073",
+  "name": "李仁洙",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPKrh_NkYSnLt2uRgFxZ0gNxiJtfoIoC9webckcRJzVjQQiOOwbhJU_jxW1Mn0-N2xGWwe7InZxsxi8WzWkUtHnqHIACaXK2-aaWFZz3vokqPn5LTN3xhFVTsiFp1kIFjx3PKpb71EHnR1R53sW6_VY4Q=w310-h335-no",
+  "career": {
+    "debut": 2023,
+    "teams": [
+      "Mechanics",
+      "台大機械"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Mechanics",
+      "number": "99",
+      "batting": {
+        "games": 9,
+        "pa": 7,
+        "ab": 6,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 18,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 387,
+        "hits": 384,
+        "hr": 1104,
+        "rbi": 430,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "台大機械",
+      "number": "99",
+      "batting": {
+        "games": 4,
+        "pa": 6,
+        "ab": 5,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 5,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 263,
+        "hits": 247,
+        "hr": 1047,
+        "rbi": 176,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "台大機械",
+      "number": "99",
+      "batting": {
+        "games": 5,
+        "pa": 17,
+        "ab": 16,
+        "hits": 3,
+        "singles": 1,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 6,
+        "bb": 8,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 292,
+        "hits": 218,
+        "hr": 1270,
+        "rbi": 158,
+        "avg": 896
+      }
+    }
+  ]
+}

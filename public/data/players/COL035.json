@@ -1,0 +1,73 @@
+{
+  "id": "COL035",
+  "code": "COL035",
+  "name": "翁坤淋",
+  "photo": "",
+  "career": {
+    "debut": 2012,
+    "teams": [
+      "冷鋒"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2013,
+      "team": "冷鋒",
+      "number": "COL035",
+      "batting": {
+        "games": 3,
+        "pa": 7,
+        "ab": 6,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 4,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 192,
+        "hits": 216,
+        "hr": 231,
+        "rbi": 167,
+        "avg": 323
+      }
+    },
+    {
+      "year": 2012,
+      "team": "冷鋒",
+      "number": "COL035",
+      "batting": {
+        "games": 6,
+        "pa": 11,
+        "ab": 7,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 151,
+        "hits": 179,
+        "hr": 200,
+        "rbi": 158,
+        "avg": 358
+      }
+    }
+  ]
+}

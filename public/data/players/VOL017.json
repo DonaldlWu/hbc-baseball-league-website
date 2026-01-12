@@ -1,0 +1,44 @@
+{
+  "id": "VOL017",
+  "code": "VOL017",
+  "name": "嚴云農",
+  "photo": "",
+  "career": {
+    "debut": 2010,
+    "teams": [
+      "志願者"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "志願者",
+      "number": "VOL017",
+      "batting": {
+        "games": 10,
+        "pa": 20,
+        "ab": 15,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 11,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 97,
+        "hits": 110,
+        "hr": 141,
+        "rbi": 108,
+        "avg": 450
+      }
+    }
+  ]
+}

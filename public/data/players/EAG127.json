@@ -1,0 +1,44 @@
+{
+  "id": "EAG127",
+  "code": "EAG127",
+  "name": "蘇柏臣",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOQw9brnJUf7h9N72kBNWSu95RMx3cGBhD11bKiGqIj4tTniYYXryePgjd_KF83eUiVmdV5q6AMv143uyAUho9b0NfdcMksLwppug2GAtVEeMeEfX72y0SV2UGQkklHkBSeQxL2UHzFSaduvc4_zVM=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "火把老鷹",
+      "number": "198",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 293,
+        "hits": 233,
+        "hr": 937,
+        "rbi": 165,
+        "avg": 903
+      }
+    }
+  ]
+}

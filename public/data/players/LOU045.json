@@ -1,0 +1,102 @@
+{
+  "id": "LOU045",
+  "code": "LOU045",
+  "name": "呂紹銘",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "路易莎咖啡"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "路易莎咖啡",
+      "number": "101",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 6,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 2,
+        "so": 1,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 433,
+        "hits": 1463,
+        "hr": 1133,
+        "rbi": 1425,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "路易莎咖啡",
+      "number": "101",
+      "batting": {
+        "games": 9,
+        "pa": 27,
+        "ab": 22,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 5,
+        "bb": 4,
+        "so": 8,
+        "sb": 3,
+        "sf": 1,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 340,
+        "hits": 348,
+        "hr": 1472,
+        "rbi": 390,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "路易莎咖啡",
+      "number": "101",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 8,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 1033,
+        "hits": 575,
+        "hr": 1197,
+        "rbi": 280,
+        "avg": 1101
+      }
+    }
+  ]
+}

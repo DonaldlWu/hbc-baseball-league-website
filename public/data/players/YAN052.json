@@ -1,0 +1,190 @@
+{
+  "id": "YAN052",
+  "code": "YAN052",
+  "name": "彭俊維",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "戊戍本一家",
+      "陽明OB"
+    ],
+    "totalSeasons": 6
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "戊戍本一家",
+      "number": "77",
+      "batting": {
+        "games": 6,
+        "pa": 10,
+        "ab": 10,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 37,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 588,
+        "hits": 474,
+        "hr": 1251,
+        "rbi": 1642,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "戊戍本一家",
+      "number": "77",
+      "batting": {
+        "games": 11,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 38,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 611,
+        "hits": 575,
+        "hr": 61,
+        "rbi": 508,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "戊戍本一家",
+      "number": "77",
+      "batting": {
+        "games": 7,
+        "pa": 9,
+        "ab": 7,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 9,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 495,
+        "hits": 522,
+        "hr": 1283,
+        "rbi": 443,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "戊戍本一家",
+      "number": "YAN052",
+      "batting": {
+        "games": 13,
+        "pa": 26,
+        "ab": 22,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 4,
+        "bb": 30,
+        "so": 8,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 317,
+        "hits": 267,
+        "hr": 800,
+        "rbi": 174,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "戊戍本一家",
+      "number": "YAN052",
+      "batting": {
+        "games": 6,
+        "pa": 12,
+        "ab": 10,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 17,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 348,
+        "hits": 339,
+        "hr": 583,
+        "rbi": 392,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "陽明OB",
+      "number": "YAN052",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 623,
+        "hits": 522,
+        "hr": 61,
+        "rbi": 479,
+        "avg": 624
+      }
+    }
+  ]
+}

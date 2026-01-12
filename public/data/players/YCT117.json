@@ -1,0 +1,102 @@
+{
+  "id": "YCT117",
+  "code": "YCT117",
+  "name": "古孟庭",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "永春TB",
+      "number": "41",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 548,
+        "hits": 499,
+        "hr": 118,
+        "rbi": 448,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "永春TB",
+      "number": "42",
+      "batting": {
+        "games": 2,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 6,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 592,
+        "hits": 551,
+        "hr": 99,
+        "rbi": 464,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "永春TB",
+      "number": "42",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 5,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 545,
+        "hits": 510,
+        "hr": 1146,
+        "rbi": 331,
+        "avg": 1022
+      }
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "id": "YCT032",
+  "code": "YCT032",
+  "name": "沈信廷",
+  "photo": "https://lh3.googleusercontent.com/ybM0tGAZPO57KqN1v8v08QKZ4soVVDaB-tVd83GrP2c9miA_bZlzWpslFsaCHAT0-6scOfFXIRLybQMaqALl3TFwLQEmhWJG2QNecHljRbf9XcymSUoLM-lfCiv8GmBj_gGn17NfOAJAfFEQM9bApMx9dQ-ParqLT644LST8v-Z6iZRhScwBb3qtbSu76uF-OQSCxIYgM5IaN5mblUgH_ElDNRRZp4AqEqcReGamLmiJ1tXZJjCCydw_gwXD6SApeqpyvT9iCB7VR-6irJRp-unZvMFteSK8GUpFDmbyImUIDEk_ReVQIMxYIY7XXkjnzaWOrMz3lShcocroR0oUA23DV1A09NjuaIUfc74XGrg73gwaFvI57-Yjz8kM0e9xc04hU61WS3s2HJhUQRzeI9pGQs3Eucl60jIst5mEorgpIKBLphmVi_95YzKyapIMnlk9oZj8zxnU_LiEOKH2SYLFf_qoj9hSa5GECMSv8qN7BHPO4vMEXg_IsovHtwnwCa0nVIJF0QMPnwqLkXpyXq8WmdwLTl0aRtzUdYGzxB85rCuHNDSFp7ZoOms9f5fKyFCF=w310-h335-no",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 11
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "永春TB",
+      "number": "82",
+      "batting": {
+        "games": 4,
+        "pa": 11,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 363,
+        "hits": 1530,
+        "hr": 1179,
+        "rbi": 456,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "永春TB",
+      "number": "82",
+      "batting": {
+        "games": 4,
+        "pa": 10,
+        "ab": 9,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 472,
+        "hits": 405,
+        "hr": 1147,
+        "rbi": 1373,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "永春TB",
+      "number": "82",
+      "batting": {
+        "games": 6,
+        "pa": 17,
+        "ab": 16,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 3,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 139,
+        "hits": 92,
+        "hr": 1269,
+        "rbi": 44,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "永春TB",
+      "number": "82",
+      "batting": {
+        "games": 3,
+        "pa": 4,
+        "ab": 4,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 355,
+        "hits": 277,
+        "hr": 1037,
+        "rbi": 168,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "永春TB",
+      "number": "82",
+      "batting": {
+        "games": 9,
+        "pa": 28,
+        "ab": 22,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 5,
+        "bb": 0,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 281,
+        "hits": 293,
+        "hr": 1479,
+        "rbi": 393,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "永春TB",
+      "number": "28",
+      "batting": {
+        "games": 11,
+        "pa": 35,
+        "ab": 27,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 6,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 253,
+        "hits": 277,
+        "hr": 1511,
+        "rbi": 321,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "永春TB",
+      "number": "28",
+      "batting": {
+        "games": 15,
+        "pa": 55,
+        "ab": 41,
+        "hits": 16,
+        "singles": 12,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 15,
+        "runs": 16,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 20
+      },
+      "rankings": {
+        "rc": 54,
+        "hits": 71,
+        "hr": 1619,
+        "rbi": 37,
+        "avg": 28
+      }
+    },
+    {
+      "year": 2018,
+      "team": "永春TB",
+      "number": "28",
+      "batting": {
+        "games": 13,
+        "pa": 49,
+        "ab": 40,
+        "hits": 14,
+        "singles": 11,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 6,
+        "runs": 11,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 19
+      },
+      "rankings": {
+        "rc": 90,
+        "hits": 95,
+        "hr": 29,
+        "rbi": 178,
+        "avg": 64
+      }
+    },
+    {
+      "year": 2017,
+      "team": "永春TB",
+      "number": "YCT032",
+      "batting": {
+        "games": 10,
+        "pa": 38,
+        "ab": 30,
+        "hits": 6,
+        "singles": 4,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 7,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 284,
+        "hits": 278,
+        "hr": 874,
+        "rbi": 426,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "永春TB",
+      "number": "YCT032",
+      "batting": {
+        "games": 11,
+        "pa": 44,
+        "ab": 30,
+        "hits": 10,
+        "singles": 5,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 12,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 15
+      },
+      "rankings": {
+        "rc": 101,
+        "hits": 182,
+        "hr": 838,
+        "rbi": 197,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "永春TB",
+      "number": "YCT032",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 835,
+        "hits": 831,
+        "hr": 380,
+        "rbi": 789,
+        "avg": 624
+      }
+    }
+  ]
+}

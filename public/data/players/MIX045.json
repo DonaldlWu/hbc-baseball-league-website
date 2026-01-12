@@ -1,0 +1,44 @@
+{
+  "id": "MIX045",
+  "code": "MIX045",
+  "name": "郭哲宇",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "MIX",
+      "number": "MIX045",
+      "batting": {
+        "games": 4,
+        "pa": 11,
+        "ab": 11,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 3,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 894,
+        "hits": 505,
+        "hr": 554,
+        "rbi": 884,
+        "avg": 624
+      }
+    }
+  ]
+}

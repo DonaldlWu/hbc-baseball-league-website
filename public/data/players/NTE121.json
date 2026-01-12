@@ -1,0 +1,73 @@
+{
+  "id": "NTE121",
+  "code": "NTE121",
+  "name": "黃新岳",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMyG4GdYvlLw6CGrqDIJfO3O-kN05LIBXmEkiFym83IlWEloSCNdOan4kyNI4f_IK4uehISHjXm5IDFyfqpkp8L3tYIBy4QvTca_tOaEKrjIQjEsWtKrq9wDWtogqpNHDfMS4GQTTOEs8OK9Vi3lVD9=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台大經濟OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大經濟OB",
+      "number": "19",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 845,
+        "hits": 755,
+        "hr": 232,
+        "rbi": 701,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "台大經濟OB",
+      "number": "103",
+      "batting": {
+        "games": 2,
+        "pa": 2,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 5,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 358,
+        "hits": 325,
+        "hr": 902,
+        "rbi": 245,
+        "avg": 903
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "SCO060",
+  "code": "SCO060",
+  "name": "鐘子琦",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMOYnnqJAPYFB884s7v_xhW5ggHlXyzU_8GSf8Qi7OAXN2BVexNeXAwRrOHXbUo0QZrpwB7f-qHeiv--z6iqOTE1aaq3X7PXkZMEL-4cnsUSlM_c3oFMWHREktZryB6m3dmht4xPSpIs8hwYTUcw6z4kg=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "200",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 4,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 409,
+        "hits": 341,
+        "hr": 949,
+        "rbi": 1271,
+        "avg": 903
+      }
+    }
+  ]
+}

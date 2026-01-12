@@ -1,0 +1,44 @@
+{
+  "id": "HOL105",
+  "code": "HOL105",
+  "name": "簡乙慶",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMtCUglwo75BAsz8Aa93JiqDBWN1tAm8wYqfqIs7dJynK1SO67Pu-zToxWECPo2L10QZK9IMtkiqS1jvLsicHMIWXoR2OdjkM2oBT5rA8WDBk_RrYbAwQGnzVZLfJnQgSiLb40xT_skjc6-ZNZn5IrBvA=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "HOLYBAT",
+      "number": "24",
+      "batting": {
+        "games": 12,
+        "pa": 22,
+        "ab": 19,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 0,
+        "so": 11,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 284,
+        "hits": 241,
+        "hr": 1336,
+        "rbi": 269,
+        "avg": 1123
+      }
+    }
+  ]
+}

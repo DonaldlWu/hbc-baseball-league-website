@@ -1,0 +1,73 @@
+{
+  "id": "SCO047",
+  "code": "SCO047",
+  "name": "古庭任",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPbGtVzSC19_6I7IAI4QSqDFNXsXyRyTujj6j3J9VU9zC-hpy4MtPeQ_bI_GBC0KZLKM-pdAmby-7UHyE5DvSSQHK0ZkHakncn0sJuHxPwKyTrTkedXmSQ7JEGU03mQnYEopLGAK4RkXaW8QQ2kViHbVw=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "127",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 4,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 3,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 374,
+        "hits": 372,
+        "hr": 1046,
+        "rbi": 408,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "實踐OB",
+      "number": "125",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 525,
+        "hits": 475,
+        "hr": 63,
+        "rbi": 408,
+        "avg": 903
+      }
+    }
+  ]
+}

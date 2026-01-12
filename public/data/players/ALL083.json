@@ -1,0 +1,73 @@
+{
+  "id": "ALL083",
+  "code": "ALL083",
+  "name": "森榮鴻",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "ALLSTAR"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "ALLSTAR",
+      "number": "42",
+      "batting": {
+        "games": 9,
+        "pa": 38,
+        "ab": 32,
+        "hits": 15,
+        "singles": 9,
+        "doubles": 4,
+        "triples": 1,
+        "hr": 1,
+        "rbi": 7,
+        "runs": 13,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 24
+      },
+      "rankings": {
+        "rc": 60,
+        "hits": 77,
+        "hr": 16,
+        "rbi": 154,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "ALLSTAR",
+      "number": "42",
+      "batting": {
+        "games": 13,
+        "pa": 40,
+        "ab": 30,
+        "hits": 13,
+        "singles": 9,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 2,
+        "rbi": 9,
+        "runs": 12,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 4,
+        "totalBases": 22
+      },
+      "rankings": {
+        "rc": 81,
+        "hits": 102,
+        "hr": 3,
+        "rbi": 105,
+        "avg": 27
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ARR038",
+  "code": "ARR038",
+  "name": "鄭竣暉",
+  "photo": "",
+  "career": {
+    "debut": 2015,
+    "teams": [
+      "亞克鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "亞克鷹",
+      "number": "ARR038",
+      "batting": {
+        "games": 7,
+        "pa": 30,
+        "ab": 24,
+        "hits": 10,
+        "singles": 8,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 9,
+        "bb": 5,
+        "so": 2,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 127,
+        "hits": 157,
+        "hr": 727,
+        "rbi": 274,
+        "avg": 624
+      }
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "EAG024",
+  "code": "EAG024",
+  "name": "陳泓屹",
+  "photo": "https://lh6.googleusercontent.com/2YUTHaKNXYSpuhz0hpeJd1IdkZUx5yDU79vN6O3GMJ0=w310-h335-no",
+  "career": {
+    "debut": 2014,
+    "teams": [
+      "少林棒球隊",
+      "火把老鷹"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "少林棒球隊",
+      "number": "75",
+      "batting": {
+        "games": 7,
+        "pa": 24,
+        "ab": 20,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 4,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 271,
+        "hits": 246,
+        "hr": 1349,
+        "rbi": 271,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2016,
+      "team": "火把老鷹",
+      "number": "EAG024",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 635,
+        "hits": 617,
+        "hr": 116,
+        "rbi": 563,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "火把老鷹",
+      "number": "EAG024",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 860,
+        "hits": 877,
+        "hr": 471,
+        "rbi": 857,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "火把老鷹",
+      "number": "EAG024",
+      "batting": {
+        "games": 5,
+        "pa": 17,
+        "ab": 17,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 0,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 666,
+        "hits": 399,
+        "hr": 438,
+        "rbi": 282,
+        "avg": 327
+      }
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "id": "TTE053",
+  "code": "TTE053",
+  "name": "葉安育",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "台大機械",
+      "戊戍本一家",
+      "火把老鷹",
+      "Synergy",
+      "北科大"
+    ],
+    "totalSeasons": 7
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "台大機械",
+      "number": "103",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 694,
+        "hits": 653,
+        "hr": 201,
+        "rbi": 566,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "台大機械",
+      "number": "103",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 4,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 492,
+        "hits": 507,
+        "hr": 1141,
+        "rbi": 1591,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "戊戍本一家",
+      "number": "15",
+      "batting": {
+        "games": 6,
+        "pa": 19,
+        "ab": 16,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 1,
+        "rbi": 9,
+        "runs": 4,
+        "bb": 4,
+        "so": 5,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 252,
+        "hits": 294,
+        "hr": 10,
+        "rbi": 90,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "戊戍本一家",
+      "number": "15",
+      "batting": {
+        "games": 2,
+        "pa": 7,
+        "ab": 6,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 305,
+        "hits": 312,
+        "hr": 1237,
+        "rbi": 328,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "火把老鷹",
+      "number": "8",
+      "batting": {
+        "games": 6,
+        "pa": 9,
+        "ab": 6,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 0,
+        "bb": 4,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 435,
+        "hits": 521,
+        "hr": 1278,
+        "rbi": 359,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "Synergy",
+      "number": "TTE053",
+      "batting": {
+        "games": 11,
+        "pa": 50,
+        "ab": 43,
+        "hits": 13,
+        "singles": 7,
+        "doubles": 2,
+        "triples": 3,
+        "hr": 1,
+        "rbi": 18,
+        "runs": 13,
+        "bb": 0,
+        "so": 10,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 24
+      },
+      "rankings": {
+        "rc": 118,
+        "hits": 125,
+        "hr": 42,
+        "rbi": 29,
+        "avg": 100
+      }
+    },
+    {
+      "year": 2016,
+      "team": "北科大",
+      "number": "TTE053",
+      "batting": {
+        "games": 17,
+        "pa": 66,
+        "ab": 61,
+        "hits": 25,
+        "singles": 16,
+        "doubles": 3,
+        "triples": 6,
+        "hr": 0,
+        "rbi": 19,
+        "runs": 17,
+        "bb": 5,
+        "so": 13,
+        "sb": 8,
+        "sf": 1,
+        "totalBases": 40
+      },
+      "rankings": {
+        "rc": 41,
+        "hits": 31,
+        "hr": 921,
+        "rbi": 32,
+        "avg": 45
+      }
+    }
+  ]
+}

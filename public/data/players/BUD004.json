@@ -1,0 +1,44 @@
+{
+  "id": "BUD004",
+  "code": "BUD004",
+  "name": "司立偉",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "The Buddies"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "The Buddies",
+      "number": "8",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 621,
+        "hits": 881,
+        "hr": 334,
+        "rbi": 815,
+        "avg": 1022
+      }
+    }
+  ]
+}

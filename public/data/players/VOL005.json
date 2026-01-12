@@ -1,0 +1,44 @@
+{
+  "id": "VOL005",
+  "code": "VOL005",
+  "name": "林煜尊",
+  "photo": "",
+  "career": {
+    "debut": 2010,
+    "teams": [
+      "志願者"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "志願者",
+      "number": "VOL005",
+      "batting": {
+        "games": 18,
+        "pa": 69,
+        "ab": 59,
+        "hits": 14,
+        "singles": 7,
+        "doubles": 6,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 19,
+        "bb": 13,
+        "so": 6,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 22
+      },
+      "rankings": {
+        "rc": 39,
+        "hits": 43,
+        "hr": 209,
+        "rbi": 35,
+        "avg": 44
+      }
+    }
+  ]
+}

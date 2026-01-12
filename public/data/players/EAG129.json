@@ -1,0 +1,44 @@
+{
+  "id": "EAG129",
+  "code": "EAG129",
+  "name": "許宇晨",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPKvNaNTS-qCR4J3k_meC2n3NSI7Ov0s7UbBda0PKJrYBqegRTSrFyGQ5z26DZ8wh1M3Qkx3E_E4gpovr4A1ckhLGNbUZtFZSEAT4EQ3Q0pP4MdeD7uxQJr6Dy40dplLcf_t-VWfZd1M6VzR_rRBnY=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "火把老鷹",
+      "number": "17",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 857,
+        "hits": 1288,
+        "hr": 881,
+        "rbi": 1223,
+        "avg": 903
+      }
+    }
+  ]
+}

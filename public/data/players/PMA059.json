@@ -1,0 +1,44 @@
+{
+  "id": "PMA059",
+  "code": "PMA059",
+  "name": "張力仁",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "戊戍本一家"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "戊戍本一家",
+      "number": "17",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 4,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 409,
+        "hits": 440,
+        "hr": 1117,
+        "rbi": 450,
+        "avg": 1101
+      }
+    }
+  ]
+}

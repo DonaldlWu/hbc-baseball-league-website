@@ -1,0 +1,44 @@
+{
+  "id": "PMA071",
+  "code": "PMA071",
+  "name": "陳奕勳",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "戊戍本一家"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "戊戍本一家",
+      "number": "103",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 8,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 594,
+        "hits": 535,
+        "hr": 1092,
+        "rbi": 1563,
+        "avg": 1101
+      }
+    }
+  ]
+}

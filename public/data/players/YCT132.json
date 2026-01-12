@@ -1,0 +1,73 @@
+{
+  "id": "YCT132",
+  "code": "YCT132",
+  "name": "楊皓文",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMeZ6Q4eeMkul7TmJ3e7j0mdYtyBxLx7EsXiiEiVm8pKV4RTNw7gjGu2KliJ_7GuBFZxYtSwVdtu6GLLUWVKAOplFwvRyX9xIZpeu1yqUf6GsXqx7_PHHlHIzKJJ8T1HAyHUdMruS5neEJ7L8wmDJLw=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "永春TB",
+      "number": "26",
+      "batting": {
+        "games": 4,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 8,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 808,
+        "hits": 718,
+        "hr": 195,
+        "rbi": 664,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "永春TB",
+      "number": "95",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 480,
+        "hits": 1357,
+        "hr": 991,
+        "rbi": 1305,
+        "avg": 903
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "YAN099",
+  "code": "YAN099",
+  "name": "李唯愷",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "陽明OB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "陽明OB",
+      "number": "108",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 676,
+        "hits": 635,
+        "hr": 183,
+        "rbi": 548,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "陽明OB",
+      "number": "108",
+      "batting": {
+        "games": 2,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 755,
+        "hits": 713,
+        "hr": 166,
+        "rbi": 647,
+        "avg": 1022
+      }
+    }
+  ]
+}

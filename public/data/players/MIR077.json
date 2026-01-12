@@ -1,0 +1,44 @@
+{
+  "id": "MIR077",
+  "code": "MIR077",
+  "name": "江柏璋",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPwQbTLjYb42U4-kO9BaIA6jM-Yvwsk1Kr5bEQ5Ipv7zAzbxCSEXe_6X2xekwErMHt5YDuQ-ocDOTdwQwFsW8BpeCSHKMYYIHsIUzdeWZ7w0yuU39CEV31Dr7nWvuq9WLNPjJrHMqxvFd4mOAa6P8jv=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "MIRACLE"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "MIRACLE",
+      "number": "105",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 532,
+        "hits": 465,
+        "hr": 974,
+        "rbi": 1413,
+        "avg": 1123
+      }
+    }
+  ]
+}

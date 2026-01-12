@@ -1,0 +1,102 @@
+{
+  "id": "NTU076",
+  "code": "NTU076",
+  "name": "黃柏勳",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "台大化工OB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "台大化工OB",
+      "number": "18",
+      "batting": {
+        "games": 2,
+        "pa": 2,
+        "ab": 2,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 4,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 475,
+        "hits": 474,
+        "hr": 1095,
+        "rbi": 316,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "台大化工OB",
+      "number": "18",
+      "batting": {
+        "games": 6,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 14,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 514,
+        "hits": 480,
+        "hr": 1154,
+        "rbi": 415,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "台大化工OB",
+      "number": "NTU076",
+      "batting": {
+        "games": 5,
+        "pa": 8,
+        "ab": 8,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 454,
+        "hits": 380,
+        "hr": 614,
+        "rbi": 478,
+        "avg": 340
+      }
+    }
+  ]
+}

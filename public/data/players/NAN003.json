@@ -1,0 +1,132 @@
+{
+  "id": "NAN003",
+  "code": "NAN003",
+  "name": "藍皓騰",
+  "photo": "",
+  "career": {
+    "debut": 2012,
+    "teams": [
+      "南港高工OB",
+      "ROOKIES"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "南港高工OB",
+      "number": "NAN003",
+      "batting": {
+        "games": 5,
+        "pa": 22,
+        "ab": 20,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 4,
+        "bb": 0,
+        "so": 6,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 886,
+        "hits": 445,
+        "hr": 670,
+        "rbi": 225,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "南港高工OB",
+      "number": "NAN003",
+      "batting": {
+        "games": 12,
+        "pa": 51,
+        "ab": 51,
+        "hits": 19,
+        "singles": 15,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 15,
+        "runs": 12,
+        "bb": 0,
+        "so": 8,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 23
+      },
+      "rankings": {
+        "rc": 96,
+        "hits": 40,
+        "hr": 622,
+        "rbi": 35,
+        "avg": 40
+      }
+    },
+    {
+      "year": 2013,
+      "team": "南港高工OB",
+      "number": "NAN003",
+      "batting": {
+        "games": 6,
+        "pa": 18,
+        "ab": 18,
+        "hits": 8,
+        "singles": 7,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 7,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 158,
+        "hits": 113,
+        "hr": 325,
+        "rbi": 488,
+        "avg": 323
+      }
+    },
+    {
+      "year": 2012,
+      "team": "ROOKIES",
+      "number": "NAN003",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 220,
+        "hits": 222,
+        "hr": 18,
+        "rbi": 206,
+        "avg": 358
+      }
+    }
+  ]
+}

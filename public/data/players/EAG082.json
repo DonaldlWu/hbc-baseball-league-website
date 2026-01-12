@@ -1,0 +1,190 @@
+{
+  "id": "EAG082",
+  "code": "EAG082",
+  "name": "詹子宜",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "永春TB",
+      "火把老鷹"
+    ],
+    "totalSeasons": 6
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "永春TB",
+      "number": "88",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 368,
+        "hits": 315,
+        "hr": 972,
+        "rbi": 261,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "永春TB",
+      "number": "88",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 439,
+        "hits": 1454,
+        "hr": 1097,
+        "rbi": 1406,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2020,
+      "team": "永春TB",
+      "number": "8",
+      "batting": {
+        "games": 8,
+        "pa": 26,
+        "ab": 20,
+        "hits": 8,
+        "singles": 6,
+        "doubles": 1,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 5,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 11
+      },
+      "rankings": {
+        "rc": 160,
+        "hits": 202,
+        "hr": 1428,
+        "rbi": 247,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "永春TB",
+      "number": "8",
+      "batting": {
+        "games": 14,
+        "pa": 62,
+        "ab": 43,
+        "hits": 10,
+        "singles": 9,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 17,
+        "bb": 0,
+        "so": 16,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 85,
+        "hits": 162,
+        "hr": 1643,
+        "rbi": 230,
+        "avg": 89
+      }
+    },
+    {
+      "year": 2018,
+      "team": "永春TB",
+      "number": "8",
+      "batting": {
+        "games": 14,
+        "pa": 68,
+        "ab": 52,
+        "hits": 20,
+        "singles": 14,
+        "doubles": 4,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 23,
+        "bb": 0,
+        "so": 7,
+        "sb": 8,
+        "sf": 0,
+        "totalBases": 28
+      },
+      "rankings": {
+        "rc": 24,
+        "hits": 43,
+        "hr": 1657,
+        "rbi": 95,
+        "avg": 48
+      }
+    },
+    {
+      "year": 2017,
+      "team": "火把老鷹",
+      "number": "EAG082",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 2,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 350,
+        "hits": 430,
+        "hr": 487,
+        "rbi": 446,
+        "avg": 340
+      }
+    }
+  ]
+}

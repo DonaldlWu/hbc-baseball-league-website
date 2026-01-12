@@ -1,0 +1,102 @@
+{
+  "id": "YCT090",
+  "code": "YCT090",
+  "name": "何明翰",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "永春TB",
+      "number": "15",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 760,
+        "hits": 737,
+        "hr": 147,
+        "rbi": 653,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "永春TB",
+      "number": "15",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 625,
+        "hits": 589,
+        "hr": 75,
+        "rbi": 522,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "永春TB",
+      "number": "15",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 637,
+        "hits": 619,
+        "hr": 117,
+        "rbi": 557,
+        "avg": 940
+      }
+    }
+  ]
+}

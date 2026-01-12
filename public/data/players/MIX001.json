@@ -1,0 +1,189 @@
+{
+  "id": "MIX001",
+  "code": "MIX001",
+  "name": "林泓曄",
+  "photo": "",
+  "career": {
+    "debut": 2013,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 6
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "MIX",
+      "number": "2",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 726,
+        "hits": 708,
+        "hr": 206,
+        "rbi": 646,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "MIX",
+      "number": "MIX001",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 3,
+        "hits": 3,
+        "singles": 1,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 295,
+        "hits": 362,
+        "hr": 495,
+        "rbi": 449,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "MIX",
+      "number": "MIX001",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 725,
+        "hits": 707,
+        "hr": 206,
+        "rbi": 653,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "MIX",
+      "number": "MIX001",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 453,
+        "hits": 845,
+        "hr": 397,
+        "rbi": 806,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "MIX",
+      "number": "MIX001",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 5,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 5,
+        "bb": 0,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 206,
+        "hits": 266,
+        "hr": 327,
+        "rbi": 264,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "MIX",
+      "number": "MIX001",
+      "batting": {
+        "games": 13,
+        "pa": 45,
+        "ab": 31,
+        "hits": 8,
+        "singles": 8,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 9,
+        "bb": 0,
+        "so": 3,
+        "sb": 1,
+        "sf": 3,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 97,
+        "hits": 117,
+        "hr": 434,
+        "rbi": 240,
+        "avg": 323
+      }
+    }
+  ]
+}

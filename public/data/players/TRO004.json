@@ -1,0 +1,102 @@
+{
+  "id": "TRO004",
+  "code": "TRO004",
+  "name": "劉宜鑫",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "楚奧特"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "楚奧特",
+      "number": "7",
+      "batting": {
+        "games": 3,
+        "pa": 1,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 19,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 516,
+        "hits": 1604,
+        "hr": 1102,
+        "rbi": 1541,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "楚奧特",
+      "number": "TRO004",
+      "batting": {
+        "games": 6,
+        "pa": 4,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 24,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 930,
+        "hits": 978,
+        "hr": 506,
+        "rbi": 933,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "楚奧特",
+      "number": "TRO004",
+      "batting": {
+        "games": 9,
+        "pa": 15,
+        "ab": 15,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 2,
+        "bb": 32,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 534,
+        "hits": 390,
+        "hr": 627,
+        "rbi": 331,
+        "avg": 349
+      }
+    }
+  ]
+}

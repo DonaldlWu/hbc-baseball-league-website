@@ -1,0 +1,102 @@
+{
+  "id": "LOU032",
+  "code": "LOU032",
+  "name": "曾詠誠",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "路易莎咖啡"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "路易莎咖啡",
+      "number": "55",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 660,
+        "hits": 618,
+        "hr": 71,
+        "rbi": 552,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "路易莎咖啡",
+      "number": "55",
+      "batting": {
+        "games": 10,
+        "pa": 32,
+        "ab": 27,
+        "hits": 10,
+        "singles": 6,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 8,
+        "bb": 3,
+        "so": 2,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 14
+      },
+      "rankings": {
+        "rc": 166,
+        "hits": 153,
+        "hr": 1491,
+        "rbi": 138,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "路易莎咖啡",
+      "number": "55",
+      "batting": {
+        "games": 6,
+        "pa": 15,
+        "ab": 13,
+        "hits": 5,
+        "singles": 2,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 3,
+        "bb": 8,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 253,
+        "hits": 281,
+        "hr": 1359,
+        "rbi": 165,
+        "avg": 917
+      }
+    }
+  ]
+}

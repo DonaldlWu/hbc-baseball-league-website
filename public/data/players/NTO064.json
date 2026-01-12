@@ -1,0 +1,102 @@
+{
+  "id": "NTO064",
+  "code": "NTO064",
+  "name": "陳禹翰",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "海洋大學",
+      "number": "13",
+      "batting": {
+        "games": 8,
+        "pa": 22,
+        "ab": 21,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 5,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 377,
+        "hits": 224,
+        "hr": 1315,
+        "rbi": 249,
+        "avg": 93
+      }
+    },
+    {
+      "year": 2022,
+      "team": "海洋大學",
+      "number": "58",
+      "batting": {
+        "games": 6,
+        "pa": 20,
+        "ab": 16,
+        "hits": 7,
+        "singles": 7,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 9,
+        "bb": 0,
+        "so": 5,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 90,
+        "hits": 87,
+        "hr": 1332,
+        "rbi": 144,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "海洋大學",
+      "number": "58",
+      "batting": {
+        "games": 8,
+        "pa": 24,
+        "ab": 19,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 7,
+        "bb": 0,
+        "so": 8,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 298,
+        "hits": 288,
+        "hr": 1443,
+        "rbi": 301,
+        "avg": 1022
+      }
+    }
+  ]
+}

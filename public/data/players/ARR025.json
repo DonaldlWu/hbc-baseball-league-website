@@ -1,0 +1,131 @@
+{
+  "id": "ARR025",
+  "code": "ARR025",
+  "name": "李正藍",
+  "photo": "",
+  "career": {
+    "debut": 2012,
+    "teams": [
+      "亞克鷹"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "team": "亞克鷹",
+      "number": "ARR025",
+      "batting": {
+        "games": 15,
+        "pa": 35,
+        "ab": 34,
+        "hits": 5,
+        "singles": 3,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 6,
+        "bb": 30,
+        "so": 10,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 872,
+        "hits": 288,
+        "hr": 765,
+        "rbi": 391,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "亞克鷹",
+      "number": "ARR025",
+      "batting": {
+        "games": 17,
+        "pa": 12,
+        "ab": 8,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 34,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 405,
+        "hits": 666,
+        "hr": 375,
+        "rbi": 347,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "亞克鷹",
+      "number": "ARR025",
+      "batting": {
+        "games": 5,
+        "pa": 12,
+        "ab": 10,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 45,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 220,
+        "hits": 221,
+        "hr": 274,
+        "rbi": 211,
+        "avg": 323
+      }
+    },
+    {
+      "year": 2012,
+      "team": "亞克鷹",
+      "number": "ARR025",
+      "batting": {
+        "games": 12,
+        "pa": 17,
+        "ab": 15,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 9,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 346,
+        "hits": 220,
+        "hr": 232,
+        "rbi": 355,
+        "avg": 358
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "MIX079",
+  "code": "MIX079",
+  "name": "吳思佑",
+  "photo": "",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "MIX",
+      "number": "95",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 871,
+        "hits": 1606,
+        "hr": 1103,
+        "rbi": 1543,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "MIX",
+      "number": "105",
+      "batting": {
+        "games": 3,
+        "pa": 6,
+        "ab": 5,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 4,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 437,
+        "hits": 507,
+        "hr": 1222,
+        "rbi": 1630,
+        "avg": 940
+      }
+    }
+  ]
+}

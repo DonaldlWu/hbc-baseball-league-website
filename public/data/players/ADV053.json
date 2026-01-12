@@ -1,0 +1,44 @@
+{
+  "id": "ADV053",
+  "code": "ADV053",
+  "name": "施昭同",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "冒險家"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2016,
+      "team": "冒險家",
+      "number": "ADV053",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 841,
+        "hits": 823,
+        "hr": 322,
+        "rbi": 769,
+        "avg": 349
+      }
+    }
+  ]
+}

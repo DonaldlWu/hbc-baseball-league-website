@@ -1,0 +1,73 @@
+{
+  "id": "TRO076",
+  "code": "TRO076",
+  "name": "黃韋齊",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOc_1f9NEBJuJDZQKP_BRhKpQfMeX0nPfwL02RM7_S3te_1VjdHrB2KDdytQ_EgyAWb36uocUGHt22NKJ_vBmRKKtsBfh0uvNp6aVOYOD3m_wfzXLQqC_cqJB0TyThHvNlBUj5reUg5ZOMxvpZs-ehAKQ=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "楚奧特"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "楚奧特",
+      "number": "31",
+      "batting": {
+        "games": 7,
+        "pa": 31,
+        "ab": 24,
+        "hits": 12,
+        "singles": 7,
+        "doubles": 5,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 16,
+        "bb": 1,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 17
+      },
+      "rankings": {
+        "rc": 70,
+        "hits": 73,
+        "hr": 1394,
+        "rbi": 147,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "楚奧特",
+      "number": "31",
+      "batting": {
+        "games": 5,
+        "pa": 17,
+        "ab": 14,
+        "hits": 4,
+        "singles": 1,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 153,
+        "hits": 171,
+        "hr": 1255,
+        "rbi": 223,
+        "avg": 903
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "NTO065",
+  "code": "NTO065",
+  "name": "呂維正",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "海洋大學",
+      "number": "19",
+      "batting": {
+        "games": 4,
+        "pa": 7,
+        "ab": 5,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 3,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 459,
+        "hits": 1458,
+        "hr": 1110,
+        "rbi": 320,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "海洋大學",
+      "number": "19",
+      "batting": {
+        "games": 5,
+        "pa": 12,
+        "ab": 12,
+        "hits": 4,
+        "singles": 2,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 4,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 409,
+        "hits": 315,
+        "hr": 1287,
+        "rbi": 477,
+        "avg": 1022
+      }
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "id": "GEO083",
+  "code": "GEO083",
+  "name": "徐繹喆",
+  "photo": "https://lh3.googleusercontent.com/-k1XLwJ7SGJ9eoSToQMnc4KTx7TZaDpozVfjqNXld-Od7izmZEE9nfOrg5DBacWjAx6CzSivs3QgGneDYmj-xP4h99wtilyYXyuDL3fkTemr21z0tIZ2XeNIWLXyPUmiQaWVhNqwxxoiaTWbZYYkYNKci-_EhLhvwhqAp3EhqOiypKvRYXSYeD-dkBfSwaUUCXJBLlkLiEUSz321sJQ26eEN0nyaALho9AHcjmBrOyk2uXdxxvzaO26pe4-SRjNEsrV_FIoywpMrcf3z8xtD2ONzIHxgMceyoid80aaIe0Ir-7cCg4ePRWJU2Tx5vwvfLie2P6uxq1giDDtJgWF-EJXEgp9tspQJCWfStiUkjaHifhvJGc5T-AOqngwDym_gEwmo3cFF47kBEJoDlmGtmNPG4XS40DqVVIZw8nIeFeMfdxL30w2xTvZDIsl-OARlRvt7AleP8UKJbYLfIvY69k0hxRDdkT1ltEJ6Sx6BrDFKY-y5qg8lraX5O-Qcuf-WMsvKvOvw70IXSRF9sXrVmvOuqepVOga5ptI2U0mfmF4ZE3QAogGQ6WE1XVQlzEMvKUjZ6Lk2G7MlU0pmGoBrDOyLwBoL7MYD4dfZm6WlkFWDrx8i4qzFHJoLfv064-3P3pb0TjAE-SVhDoGxj8H6uBY86sxbeBZ8J9EZ1oPQrohaJn_JH9EbYS3GLC1vmFJBYvfvVDIYXCPmKh-XwU6JmBsUi2NvOh6f3RFTyClOvGvTaGs=w310-h335-no",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "十號馬"
+    ],
+    "totalSeasons": 6
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "十號馬",
+      "number": "2",
+      "batting": {
+        "games": 9,
+        "pa": 29,
+        "ab": 25,
+        "hits": 7,
+        "singles": 6,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 8,
+        "bb": 9,
+        "so": 3,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 8
+      },
+      "rankings": {
+        "rc": 226,
+        "hits": 185,
+        "hr": 1383,
+        "rbi": 277,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "十號馬",
+      "number": "2",
+      "batting": {
+        "games": 4,
+        "pa": 11,
+        "ab": 9,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 2,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 281,
+        "hits": 287,
+        "hr": 1160,
+        "rbi": 313,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "十號馬",
+      "number": "2",
+      "batting": {
+        "games": 4,
+        "pa": 8,
+        "ab": 7,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 4,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 363,
+        "hits": 365,
+        "hr": 1108,
+        "rbi": 292,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "十號馬",
+      "number": "2",
+      "batting": {
+        "games": 7,
+        "pa": 25,
+        "ab": 19,
+        "hits": 8,
+        "singles": 5,
+        "doubles": 2,
+        "triples": 1,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 6,
+        "bb": 7,
+        "so": 4,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 12
+      },
+      "rankings": {
+        "rc": 37,
+        "hits": 69,
+        "hr": 1402,
+        "rbi": 216,
+        "avg": 34
+      }
+    },
+    {
+      "year": 2021,
+      "team": "十號馬",
+      "number": "2",
+      "batting": {
+        "games": 11,
+        "pa": 35,
+        "ab": 28,
+        "hits": 8,
+        "singles": 6,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 9,
+        "bb": 18,
+        "so": 6,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 207,
+        "hits": 197,
+        "hr": 1538,
+        "rbi": 321,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "十號馬",
+      "number": "2",
+      "batting": {
+        "games": 3,
+        "pa": 11,
+        "ab": 10,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 2,
+        "bb": 5,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 428,
+        "hits": 389,
+        "hr": 1256,
+        "rbi": 234,
+        "avg": 1101
+      }
+    }
+  ]
+}

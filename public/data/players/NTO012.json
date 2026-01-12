@@ -1,0 +1,44 @@
+{
+  "id": "NTO012",
+  "code": "NTO012",
+  "name": "蕭郁倫",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "海洋大學",
+      "number": "19",
+      "batting": {
+        "games": 4,
+        "pa": 15,
+        "ab": 11,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 4,
+        "bb": 1,
+        "so": 5,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 369,
+        "hits": 401,
+        "hr": 1313,
+        "rbi": 1660,
+        "avg": 1101
+      }
+    }
+  ]
+}

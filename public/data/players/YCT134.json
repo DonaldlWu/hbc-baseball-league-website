@@ -1,0 +1,73 @@
+{
+  "id": "YCT134",
+  "code": "YCT134",
+  "name": "魏郡廷",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNPUkH1wytzikcN0Mw-AGSZUabLzgegg-gtN-aFK31KO6X9XoAd3NQRwfOnmnDQSKZZY6_2jqQxHD58bm74vRNdgSqYE-OweaQJMkgnZ9fdVbJikM1zbjg3_n3O3a5BvXCM0qXB4fNY1oSLzTW-zpOM=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "永春TB",
+      "number": "20",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 5,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 804,
+        "hits": 714,
+        "hr": 191,
+        "rbi": 660,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "永春TB",
+      "number": "98",
+      "batting": {
+        "games": 3,
+        "pa": 8,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 1,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 290,
+        "hits": 391,
+        "hr": 1095,
+        "rbi": 1353,
+        "avg": 903
+      }
+    }
+  ]
+}

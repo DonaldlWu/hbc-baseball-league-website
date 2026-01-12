@@ -1,0 +1,44 @@
+{
+  "id": "DHW053",
+  "code": "DHW053",
+  "name": "巫啟生",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMMHnVU_8nIvT-I807otbqaVF8rg-gCmv4n6nXSda8MhMieruslKoLcMPUCWdT_fcqRL0z4QJ4uWm4h1JCb1wsR6LTg366zgXkaxy028HhnIf5dF9grHCJT4cttXm9Pin3O6D5B3mGqgDh8ao_qM7Lf=w267-h289",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "28",
+      "batting": {
+        "games": 2,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1058,
+        "hits": 1424,
+        "hr": 921,
+        "rbi": 1374,
+        "avg": 1123
+      }
+    }
+  ]
+}

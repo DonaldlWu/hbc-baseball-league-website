@@ -1,0 +1,219 @@
+{
+  "id": "COL088",
+  "code": "COL088",
+  "name": "黃魁文",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMEorM90gkI0fx9CVilM8BoZ_1_4jWCf2LyRVD2C4RPUmJYECHyLrXdOCOBqWRDfltp4aVUVEV2vfvjlWCmCjOTYhYKixF3UGqBXY9mo8ZtHbrCYukRuhV3crGCtyntdm7iQUioY_apmTaalu1RZlce9g=w409-h502",
+  "career": {
+    "debut": 2018,
+    "teams": [
+      "飛尼克斯",
+      "冷鋒"
+    ],
+    "totalSeasons": 7
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "飛尼克斯",
+      "number": "99",
+      "batting": {
+        "games": 14,
+        "pa": 41,
+        "ab": 29,
+        "hits": 9,
+        "singles": 9,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 10,
+        "runs": 18,
+        "bb": 0,
+        "so": 5,
+        "sb": 2,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 94,
+        "hits": 141,
+        "hr": 1461,
+        "rbi": 64,
+        "avg": 64
+      }
+    },
+    {
+      "year": 2024,
+      "team": "飛尼克斯",
+      "number": "99",
+      "batting": {
+        "games": 4,
+        "pa": 14,
+        "ab": 8,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 7,
+        "bb": 0,
+        "so": 1,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 176,
+        "hits": 415,
+        "hr": 1198,
+        "rbi": 209,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "飛尼克斯",
+      "number": "99",
+      "batting": {
+        "games": 3,
+        "pa": 10,
+        "ab": 4,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 3,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 66,
+        "hits": 136,
+        "hr": 1136,
+        "rbi": 74,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "飛尼克斯",
+      "number": "99",
+      "batting": {
+        "games": 7,
+        "pa": 23,
+        "ab": 18,
+        "hits": 6,
+        "singles": 3,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 7,
+        "bb": 0,
+        "so": 1,
+        "sb": 4,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 88,
+        "hits": 114,
+        "hr": 1380,
+        "rbi": 278,
+        "avg": 63
+      }
+    },
+    {
+      "year": 2021,
+      "team": "飛尼克斯",
+      "number": "99",
+      "batting": {
+        "games": 19,
+        "pa": 52,
+        "ab": 49,
+        "hits": 20,
+        "singles": 12,
+        "doubles": 6,
+        "triples": 2,
+        "hr": 0,
+        "rbi": 23,
+        "runs": 13,
+        "bb": 0,
+        "so": 8,
+        "sb": 3,
+        "sf": 1,
+        "totalBases": 30
+      },
+      "rankings": {
+        "rc": 63,
+        "hits": 35,
+        "hr": 1614,
+        "rbi": 5,
+        "avg": 29
+      }
+    },
+    {
+      "year": 2020,
+      "team": "飛尼克斯",
+      "number": "99",
+      "batting": {
+        "games": 17,
+        "pa": 29,
+        "ab": 26,
+        "hits": 8,
+        "singles": 6,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 6,
+        "bb": 2,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 10
+      },
+      "rankings": {
+        "rc": 244,
+        "hits": 207,
+        "hr": 1459,
+        "rbi": 403,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2018,
+      "team": "冷鋒",
+      "number": "104",
+      "batting": {
+        "games": 3,
+        "pa": 11,
+        "ab": 9,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 323,
+        "hits": 316,
+        "hr": 1311,
+        "rbi": 367,
+        "avg": 940
+      }
+    }
+  ]
+}

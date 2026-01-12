@@ -1,0 +1,44 @@
+{
+  "id": "NTH030",
+  "code": "NTH030",
+  "name": "羅畤瑄",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMhzR41m2XBbUA9CkvSGFYmn7VpXVwrQjblf7fVDBOMqa0pQWI-3snrzfcuLqgMvB4fXF6LWZrFPGSNPawF6-c1jXU45jaLjWtT8cvYT6fxLGtXetV4LYLlE63vwdcHzGulmKk0w0rP9GGrqtCAZu0y=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "15",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 7,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1099,
+        "hits": 1485,
+        "hr": 1033,
+        "rbi": 1450,
+        "avg": 1123
+      }
+    }
+  ]
+}

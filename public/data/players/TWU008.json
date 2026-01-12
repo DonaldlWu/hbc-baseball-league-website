@@ -1,0 +1,44 @@
+{
+  "id": "TWU008",
+  "code": "TWU008",
+  "name": "林敬恒",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNGwVEmzHMMTSV0ee5jnbW-aCcByrSIMLR3QZSGHyhk3VMZNcWRth3ccMsl4l6v6FrmG4ss0ho5vx51DjiTO2LxXQOotgfn3Y1G-J17B1-0cDZthSz_qdEPRGz0DJg_CBPvXls7UUYpZ3sHucz9ype-=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "台科大"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "台科大",
+      "number": "17",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 5,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 323,
+        "hits": 244,
+        "hr": 1026,
+        "rbi": 173,
+        "avg": 903
+      }
+    }
+  ]
+}

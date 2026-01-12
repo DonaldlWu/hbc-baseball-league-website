@@ -1,0 +1,510 @@
+{
+  "id": "ADV002",
+  "code": "ADV002",
+  "name": "杜鴻德",
+  "photo": "https://lh3.googleusercontent.com/pw/AM-JKLXGv8SuONClj0K39DacVWyduqljnyk52O1h5VpM9fMhnH9yM02XhxNOOt_0IkckuZG5v4jltLPE5QMY9-7gDBp7jY3g2wYCQJkIQ0MHdVjMvHL9pC4pSmISqjXK8MGXIKOxZiedsNd6XMdsh4IsJFBJbw=w310-h335-no",
+  "career": {
+    "debut": 2009,
+    "teams": [
+      "十號馬",
+      "冒險家",
+      "永春TB"
+    ],
+    "totalSeasons": 17
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "十號馬",
+      "number": "17",
+      "batting": {
+        "games": 10,
+        "pa": 4,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 37,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 1095,
+        "hits": 1481,
+        "hr": 1027,
+        "rbi": 1444,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "十號馬",
+      "number": "17",
+      "batting": {
+        "games": 7,
+        "pa": 4,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 23,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 394,
+        "hits": 1347,
+        "hr": 969,
+        "rbi": 1289,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "十號馬",
+      "number": "17",
+      "batting": {
+        "games": 4,
+        "pa": 5,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 11,
+        "so": 0,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 387,
+        "hits": 348,
+        "hr": 1043,
+        "rbi": 1336,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "十號馬",
+      "number": "17",
+      "batting": {
+        "games": 9,
+        "pa": 7,
+        "ab": 6,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 19,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 413,
+        "hits": 415,
+        "hr": 1119,
+        "rbi": 1416,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "十號馬",
+      "number": "17",
+      "batting": {
+        "games": 7,
+        "pa": 8,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 0,
+        "bb": 10,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 478,
+        "hits": 1661,
+        "hr": 1211,
+        "rbi": 337,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "冒險家",
+      "number": "11",
+      "batting": {
+        "games": 5,
+        "pa": 4,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 29,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 637,
+        "hits": 1628,
+        "hr": 1074,
+        "rbi": 441,
+        "avg": 1101
+      }
+    },
+    {
+      "year": 2019,
+      "team": "永春TB",
+      "number": "11",
+      "batting": {
+        "games": 12,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 23,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 517,
+        "hits": 486,
+        "hr": 1125,
+        "rbi": 1560,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "永春TB",
+      "number": "11",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 633,
+        "hits": 615,
+        "hr": 113,
+        "rbi": 553,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "永春TB",
+      "number": "ADV002",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 618,
+        "hits": 623,
+        "hr": 117,
+        "rbi": 567,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "永春TB",
+      "number": "ADV002",
+      "batting": {
+        "games": 6,
+        "pa": 2,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 16,
+        "so": 0,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 507,
+        "hits": 854,
+        "hr": 357,
+        "rbi": 422,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "永春TB",
+      "number": "ADV002",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 10,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 814,
+        "hits": 861,
+        "hr": 422,
+        "rbi": 339,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "冒險家",
+      "number": "ADV002",
+      "batting": {
+        "games": 17,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 22,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 620,
+        "hits": 612,
+        "hr": 230,
+        "rbi": 581,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "冒險家",
+      "number": "ADV002",
+      "batting": {
+        "games": 13,
+        "pa": 4,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 5,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 454,
+        "hits": 476,
+        "hr": 195,
+        "rbi": 446,
+        "avg": 323
+      }
+    },
+    {
+      "year": 2012,
+      "team": "冒險家",
+      "number": "ADV002",
+      "batting": {
+        "games": 10,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 9,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 198,
+        "hits": 197,
+        "hr": 139,
+        "rbi": 323,
+        "avg": 358
+      }
+    },
+    {
+      "year": 2011,
+      "team": "冒險家",
+      "number": "ADV002",
+      "batting": {
+        "games": 15,
+        "pa": 1,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 19,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 151,
+        "hits": 204,
+        "hr": 56,
+        "rbi": 190,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2010,
+      "team": "冒險家",
+      "number": "ADV002",
+      "batting": {
+        "games": 15,
+        "pa": 6,
+        "ab": 6,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 0,
+        "bb": 31,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 120,
+        "hits": 115,
+        "hr": 103,
+        "rbi": 101,
+        "avg": 450
+      }
+    },
+    {
+      "year": 2009,
+      "team": "冒險家",
+      "number": "ADV002",
+      "batting": {
+        "games": 7,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 12,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 163,
+        "hits": 284,
+        "hr": 192,
+        "rbi": 276,
+        "avg": 450
+      }
+    }
+  ]
+}

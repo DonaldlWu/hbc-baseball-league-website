@@ -1,0 +1,131 @@
+{
+  "id": "EAG102",
+  "code": "EAG102",
+  "name": "黃柏曄",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 4
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "team": "火把老鷹",
+      "number": "39",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 314,
+        "hits": 1361,
+        "hr": 1030,
+        "rbi": 272,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2022,
+      "team": "火把老鷹",
+      "number": "39",
+      "batting": {
+        "games": 3,
+        "pa": 12,
+        "ab": 8,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 237,
+        "hits": 320,
+        "hr": 1221,
+        "rbi": 247,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2021,
+      "team": "火把老鷹",
+      "number": "39",
+      "batting": {
+        "games": 2,
+        "pa": 4,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 994,
+        "hits": 1631,
+        "hr": 1127,
+        "rbi": 1579,
+        "avg": 1022
+      }
+    },
+    {
+      "year": 2020,
+      "team": "火把老鷹",
+      "number": "104",
+      "batting": {
+        "games": 3,
+        "pa": 10,
+        "ab": 9,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 509,
+        "hits": 469,
+        "hr": 1239,
+        "rbi": 483,
+        "avg": 1101
+      }
+    }
+  ]
+}

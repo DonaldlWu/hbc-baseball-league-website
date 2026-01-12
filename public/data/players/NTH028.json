@@ -1,0 +1,44 @@
+{
+  "id": "NTH028",
+  "code": "NTH028",
+  "name": "鄭皓文",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczM5447pGvR41f0nn4LEV7bl9dkJ5swpKZICyNRHBz5HyEqD5T-axa6I-GY1y9mNp-s5EjX27I34YqmeFgUn2g8qq1wpIb8AWFbXmDrfvSfrzbpNYLI3uVGSnzwwrA4NV8RkAQ-zuwim-Tr78h2RwAjE=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "台大醫學院棒",
+      "number": "11",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 652,
+        "hits": 927,
+        "hr": 404,
+        "rbi": 873,
+        "avg": 1123
+      }
+    }
+  ]
+}

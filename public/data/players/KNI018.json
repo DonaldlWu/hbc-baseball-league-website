@@ -1,0 +1,44 @@
+{
+  "id": "KNI018",
+  "code": "KNI018",
+  "name": "洪偉峰",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "聖騎士"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "聖騎士",
+      "number": "37",
+      "batting": {
+        "games": 4,
+        "pa": 13,
+        "ab": 13,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 4,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "rankings": {
+        "rc": 526,
+        "hits": 395,
+        "hr": 1291,
+        "rbi": 1655,
+        "avg": 1101
+      }
+    }
+  ]
+}

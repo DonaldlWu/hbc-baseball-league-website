@@ -1,0 +1,102 @@
+{
+  "id": "MIX055",
+  "code": "MIX055",
+  "name": "蔡文杰",
+  "photo": "",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "MIX"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "MIX",
+      "number": "11",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 722,
+        "hits": 704,
+        "hr": 202,
+        "rbi": 642,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "MIX",
+      "number": "MIX055",
+      "batting": {
+        "games": 11,
+        "pa": 23,
+        "ab": 20,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 8,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 1012,
+        "hits": 572,
+        "hr": 780,
+        "rbi": 512,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "MIX",
+      "number": "MIX055",
+      "batting": {
+        "games": 5,
+        "pa": 5,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 486,
+        "hits": 507,
+        "hr": 460,
+        "rbi": 438,
+        "avg": 349
+      }
+    }
+  ]
+}

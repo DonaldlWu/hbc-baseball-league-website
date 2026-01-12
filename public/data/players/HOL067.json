@@ -1,0 +1,102 @@
+{
+  "id": "HOL067",
+  "code": "HOL067",
+  "name": "陳柏齊",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczM1I9znj_hiyGCKDSMaSqL468F3eekyUqWT-ZNgs7ZGjtiDtzub49QL61F-0YLtyLV_x_QFQypYsYlnKFvT4ikxRchY86sUxtASBvs-hm8rriNPTReSQTA-4_KT4plSWiqU-mYOYyOau2w-egzG1Ga0=w310-h335",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 3
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "HOLYBAT",
+      "number": "71",
+      "batting": {
+        "games": 12,
+        "pa": 31,
+        "ab": 29,
+        "hits": 6,
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 4,
+        "bb": 5,
+        "so": 13,
+        "sb": 4,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "rankings": {
+        "rc": 334,
+        "hits": 208,
+        "hr": 1403,
+        "rbi": 360,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2022,
+      "team": "HOLYBAT",
+      "number": "103",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 0,
+        "so": 1,
+        "sb": 3,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 239,
+        "hits": 387,
+        "hr": 1056,
+        "rbi": 1387,
+        "avg": 943
+      }
+    },
+    {
+      "year": 2019,
+      "team": "HOLYBAT",
+      "number": "107",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 0,
+        "hits": 1022,
+        "hr": 1022,
+        "rbi": 1022,
+        "avg": 1022
+      }
+    }
+  ]
+}

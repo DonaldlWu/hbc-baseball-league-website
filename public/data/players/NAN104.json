@@ -1,0 +1,44 @@
+{
+  "id": "NAN104",
+  "code": "NAN104",
+  "name": "潘禾脩",
+  "photo": "",
+  "career": {
+    "debut": 2017,
+    "teams": [
+      "Synergy"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2017,
+      "team": "Synergy",
+      "number": "NAN104",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 6,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 5,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 281,
+        "hits": 320,
+        "hr": 598,
+        "rbi": 232,
+        "avg": 340
+      }
+    }
+  ]
+}

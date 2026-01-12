@@ -1,0 +1,73 @@
+{
+  "id": "ACE018",
+  "code": "ACE018",
+  "name": "李秉哲",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNUWdTIrCN0lYifcVNUxOIleB6AO91rJf3pm0m8ZtDqeilievp-T3IDhbpGqCk9LqfJpDpd_fIIc-B1eHErhntttBZP_d0tzxb1ZAyHa749sqcDcMynAAy7OZVlEHZIpRsQLLbq5jW106N3FNR1AzAA5A=w310-h335-no",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "ACES"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "ACES",
+      "number": "55",
+      "batting": {
+        "games": 5,
+        "pa": 20,
+        "ab": 14,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 1,
+        "rbi": 5,
+        "runs": 9,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 150,
+        "hits": 197,
+        "hr": 10,
+        "rbi": 168,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "ACES",
+      "number": "98",
+      "batting": {
+        "games": 6,
+        "pa": 21,
+        "ab": 19,
+        "hits": 5,
+        "singles": 5,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 1,
+        "bb": 0,
+        "so": 5,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "rankings": {
+        "rc": 198,
+        "hits": 141,
+        "hr": 1289,
+        "rbi": 148,
+        "avg": 903
+      }
+    }
+  ]
+}

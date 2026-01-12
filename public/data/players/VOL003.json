@@ -1,0 +1,44 @@
+{
+  "id": "VOL003",
+  "code": "VOL003",
+  "name": "游章渭",
+  "photo": "",
+  "career": {
+    "debut": 2010,
+    "teams": [
+      "志願者"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2010,
+      "team": "志願者",
+      "number": "VOL003",
+      "batting": {
+        "games": 14,
+        "pa": 49,
+        "ab": 47,
+        "hits": 18,
+        "singles": 14,
+        "doubles": 4,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 11,
+        "runs": 12,
+        "bb": 13,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 22
+      },
+      "rankings": {
+        "rc": 36,
+        "hits": 23,
+        "hr": 195,
+        "rbi": 33,
+        "avg": 12
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "NTP025",
+  "code": "NTP025",
+  "name": "谷﨑玄",
+  "photo": "",
+  "career": {
+    "debut": 2019,
+    "teams": [
+      "台北大學"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2019,
+      "team": "台北大學",
+      "number": "26",
+      "batting": {
+        "games": 2,
+        "pa": 9,
+        "ab": 6,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 5,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "rankings": {
+        "rc": 407,
+        "hits": 537,
+        "hr": 1267,
+        "rbi": 1651,
+        "avg": 917
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "HUA136",
+  "code": "HUA136",
+  "name": "諶廷恩",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNX0Vl6VUITh7tD7Y1mPDEJvBYEZ5isqBUz-dGKMYO9hLq8Ep6XYMVXNMg5R5HClJqnufTS1FwVQBNjlFh6S6LoqnpyiY36jPjkDGK6oQJIWn7qRlQZIuufLArALL0YLpZRyC5NlslY5zKSMVmriUQfug=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "華江OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "華江OB",
+      "number": "10",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 573,
+        "hits": 1500,
+        "hr": 1070,
+        "rbi": 1472,
+        "avg": 1123
+      }
+    }
+  ]
+}

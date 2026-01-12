@@ -1,0 +1,189 @@
+{
+  "id": "COL003",
+  "code": "COL003",
+  "name": "黃文志",
+  "photo": "",
+  "career": {
+    "debut": 2013,
+    "teams": [
+      "冷鋒"
+    ],
+    "totalSeasons": 6
+  },
+  "seasons": [
+    {
+      "year": 2018,
+      "team": "冷鋒",
+      "number": "5",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 461,
+        "hits": 477,
+        "hr": 1144,
+        "rbi": 1581,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "冷鋒",
+      "number": "COL003",
+      "batting": {
+        "games": 9,
+        "pa": 21,
+        "ab": 20,
+        "hits": 6,
+        "singles": 5,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 6,
+        "bb": 4,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 337,
+        "hits": 257,
+        "hr": 764,
+        "rbi": 413,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "冷鋒",
+      "number": "COL003",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 799,
+        "hits": 781,
+        "hr": 280,
+        "rbi": 727,
+        "avg": 349
+      }
+    },
+    {
+      "year": 2015,
+      "team": "冷鋒",
+      "number": "COL003",
+      "batting": {
+        "games": 9,
+        "pa": 20,
+        "ab": 18,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 7,
+        "bb": 6,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "rankings": {
+        "rc": 416,
+        "hits": 373,
+        "hr": 651,
+        "rbi": 192,
+        "avg": 624
+      }
+    },
+    {
+      "year": 2014,
+      "team": "冷鋒",
+      "number": "COL003",
+      "batting": {
+        "games": 15,
+        "pa": 26,
+        "ab": 22,
+        "hits": 7,
+        "singles": 5,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 7,
+        "runs": 8,
+        "bb": 5,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 9
+      },
+      "rankings": {
+        "rc": 165,
+        "hits": 171,
+        "hr": 505,
+        "rbi": 108,
+        "avg": 327
+      }
+    },
+    {
+      "year": 2013,
+      "team": "冷鋒",
+      "number": "COL003",
+      "batting": {
+        "games": 14,
+        "pa": 50,
+        "ab": 46,
+        "hits": 14,
+        "singles": 12,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 8,
+        "bb": 9,
+        "so": 4,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 16
+      },
+      "rankings": {
+        "rc": 94,
+        "hits": 51,
+        "hr": 454,
+        "rbi": 80,
+        "avg": 45
+      }
+    }
+  ]
+}

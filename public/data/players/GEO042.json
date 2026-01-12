@@ -1,0 +1,219 @@
+{
+  "id": "GEO042",
+  "code": "GEO042",
+  "name": "吳家禎",
+  "photo": "https://lh3.googleusercontent.com/pw/ADCreHeF0qT_yD8HT0GzUlP8ngQz5NulZsPRwYckmnaJ5_pRSd4ZiHRZXWXzX4TV0VOD11kGFEXp3alDs-rIcG1bMM1vEFVeeNZ-5Itr7Ex7ysMiu62thC7tOxm3faI27FMoDZW8IVVqQ9nJJ0HSEnpfLVrr9A=w310-h335-no",
+  "career": {
+    "debut": 2016,
+    "teams": [
+      "十號馬",
+      "台大地理OB"
+    ],
+    "totalSeasons": 7
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "十號馬",
+      "number": "12",
+      "batting": {
+        "games": 13,
+        "pa": 32,
+        "ab": 28,
+        "hits": 7,
+        "singles": 7,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 6,
+        "runs": 6,
+        "bb": 26,
+        "so": 8,
+        "sb": 4,
+        "sf": 0,
+        "totalBases": 7
+      },
+      "rankings": {
+        "rc": 203,
+        "hits": 186,
+        "hr": 1409,
+        "rbi": 149,
+        "avg": 1123
+      }
+    },
+    {
+      "year": 2024,
+      "team": "十號馬",
+      "number": "12",
+      "batting": {
+        "games": 7,
+        "pa": 16,
+        "ab": 14,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 15,
+        "so": 7,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "rankings": {
+        "rc": 839,
+        "hits": 421,
+        "hr": 1248,
+        "rbi": 1393,
+        "avg": 903
+      }
+    },
+    {
+      "year": 2023,
+      "team": "十號馬",
+      "number": "12",
+      "batting": {
+        "games": 3,
+        "pa": 7,
+        "ab": 6,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 8,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 868,
+        "hits": 1380,
+        "hr": 1087,
+        "rbi": 1357,
+        "avg": 896
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台大地理OB",
+      "number": "46",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 594,
+        "hits": 558,
+        "hr": 44,
+        "rbi": 491,
+        "avg": 917
+      }
+    },
+    {
+      "year": 2018,
+      "team": "台大地理OB",
+      "number": "46",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 576,
+        "hits": 558,
+        "hr": 56,
+        "rbi": 496,
+        "avg": 940
+      }
+    },
+    {
+      "year": 2017,
+      "team": "台大地理OB",
+      "number": "GEO042",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 591,
+        "hits": 596,
+        "hr": 90,
+        "rbi": 540,
+        "avg": 340
+      }
+    },
+    {
+      "year": 2016,
+      "team": "台大地理OB",
+      "number": "GEO042",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 20,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "rankings": {
+        "rc": 870,
+        "hits": 840,
+        "hr": 341,
+        "rbi": 786,
+        "avg": 349
+      }
+    }
+  ]
+}
