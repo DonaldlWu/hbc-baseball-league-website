@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { parse } from 'csv-parse/sync';
-import type { Player, PlayerSeason, LeagueStats } from '../src/types';
+import type { Player, LeagueStats } from '../src/types';
 
 // 解析 CSV 行
 export function parseCSVRow(row: any): any {

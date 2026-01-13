@@ -168,10 +168,10 @@ describe('statsCalculator', () => {
 
   describe('calculateWRC', () => {
     it('應該正確計算 wRC', () => {
-      const woba = calculateWOBA(sampleBatting, sampleLeague);
       const lgWOBA = 0.340; // 假設聯盟平均
 
       // wRC = ((wOBA - lgwOBA) / wOBAScale) × PA
+      // wOBA = 0.431 (from sampleBatting)
       // = ((0.431 - 0.340) / 1.20) × 50
       // = 0.0758 × 50 = 3.79
       const result = calculateWRC(sampleBatting, sampleLeague, lgWOBA);
@@ -186,10 +186,10 @@ describe('statsCalculator', () => {
 
   describe('calculateWRCPlus', () => {
     it('應該正確計算 wRC+', () => {
-      const wrc = calculateWRC(sampleBatting, sampleLeague, 0.340);
       const lgRunsPerPA = 0.12; // 假設聯盟平均
 
       // wRC+ = ((wRC/PA) / lgRunsPerPA) × 100
+      // wRC = 3.79 (from calculateWRC)
       // = ((3.79/50) / 0.12) × 100 = 0.0758 / 0.12 × 100 = 63.17
       const result = calculateWRCPlus(sampleBatting, sampleLeague, 0.340, lgRunsPerPA);
       expect(result).toBeCloseTo(63.17, 1);
