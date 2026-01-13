@@ -2,6 +2,8 @@
 
 import { useEffect } from 'react';
 import Image from 'next/image';
+import { calculateAVG, calculateOBP, calculateSLG, calculateOPS } from '@/src/lib/statsCalculator';
+import { formatAvg } from '@/src/lib/formatters';
 import type { Player } from '@/src/types';
 
 export interface PlayerModalProps {
@@ -125,21 +127,49 @@ export function PlayerModal({ player, isOpen, onClose }: PlayerModalProps) {
                 className="rounded-lg border border-gray-200 bg-gray-50 p-5"
               >
                 {/* 賽季標題 */}
-                <div className="mb-4 flex items-center justify-between border-b border-gray-300 pb-3">
+                <div className="mb-4 flex items-center justify-between border-b-2 border-gray-400 pb-3">
                   <div className="flex items-center gap-3">
-                    <span className="text-2xl font-bold text-primary-600">
+                    <span className="text-2xl font-bold text-gray-900">
                       {season.year}
                     </span>
-                    <span className="text-lg font-semibold text-gray-700">
+                    <span className="text-lg font-bold text-gray-800">
                       {season.team}
                     </span>
-                    <span className="rounded bg-gray-200 px-2 py-1 text-sm font-medium text-gray-700">
+                    <span className="rounded bg-gray-300 px-2 py-1 text-sm font-bold text-gray-800">
                       #{season.number}
                     </span>
                   </div>
                 </div>
 
-                {/* 統計數據 */}
+                {/* 進階數據 */}
+                <div className="mb-4 grid grid-cols-4 gap-3 rounded-lg border-2 border-gray-400 bg-blue-50 p-4">
+                  <div>
+                    <div className="text-xs font-bold uppercase text-gray-900">AVG</div>
+                    <div className="text-xl font-bold text-gray-900">
+                      {formatAvg(calculateAVG(season.batting))}
+                    </div>
+                  </div>
+                  <div>
+                    <div className="text-xs font-bold uppercase text-gray-900">OBP</div>
+                    <div className="text-xl font-bold text-gray-900">
+                      {formatAvg(calculateOBP(season.batting))}
+                    </div>
+                  </div>
+                  <div>
+                    <div className="text-xs font-bold uppercase text-gray-900">SLG</div>
+                    <div className="text-xl font-bold text-gray-900">
+                      {formatAvg(calculateSLG(season.batting))}
+                    </div>
+                  </div>
+                  <div>
+                    <div className="text-xs font-bold uppercase text-gray-900">OPS</div>
+                    <div className="text-xl font-bold text-blue-600">
+                      {formatAvg(calculateOPS(season.batting))}
+                    </div>
+                  </div>
+                </div>
+
+                {/* 基礎統計數據 */}
                 <div className="grid grid-cols-2 gap-4 sm:grid-cols-4 md:grid-cols-6">
                   <div>
                     <div className="text-xs text-gray-500">打席</div>

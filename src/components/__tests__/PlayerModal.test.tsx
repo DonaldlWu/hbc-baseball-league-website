@@ -176,6 +176,25 @@ describe('PlayerModal', () => {
       const hitCounts = screen.getAllByText('2');
       expect(hitCounts.length).toBeGreaterThan(0); // Hits (會有多個2)
     });
+
+    it('應該顯示進階數據標籤', () => {
+      render(<PlayerModal player={mockPlayer} isOpen={true} onClose={mockOnClose} />);
+
+      // 每個賽季都會顯示進階數據
+      expect(screen.getAllByText('AVG').length).toBeGreaterThan(0);
+      expect(screen.getAllByText('OBP').length).toBeGreaterThan(0);
+      expect(screen.getAllByText('SLG').length).toBeGreaterThan(0);
+      expect(screen.getAllByText('OPS').length).toBeGreaterThan(0);
+    });
+
+    it('應該顯示正確的進階數據數值', () => {
+      render(<PlayerModal player={mockPlayer} isOpen={true} onClose={mockOnClose} />);
+
+      // 2025 賽季：AVG = 2/16 = 0.125
+      // 應該顯示為 .125
+      const avgValues = screen.getAllByText('.125');
+      expect(avgValues.length).toBeGreaterThan(0);
+    });
   });
 
   describe('關閉功能', () => {
