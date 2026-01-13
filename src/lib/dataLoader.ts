@@ -328,3 +328,40 @@ export async function getTeamIconsByIds(teamIds: string[]): Promise<Map<string, 
 
   return iconMap;
 }
+
+/**
+ * 載入公告資料
+ * @returns 公告資料
+ */
+export async function loadAnnouncements(): Promise<import('@/src/types').AnnouncementsData> {
+  const response = await fetch('/data/announcements.json');
+
+  if (!response.ok) {
+    throw new Error(`Failed to load announcements: ${response.status}`);
+  }
+
+  return response.json();
+}
+
+/**
+ * 取得置頂公告
+ * @returns 置頂公告列表（依優先級排序）
+ */
+export async function getPinnedAnnouncements(): Promise<import('@/src/types').Announcement[]> {
+  const data = await loadAnnouncements();
+  return data.announcements
+    .filter(ann => ann.pinned)
+    .sort((a, b) => a.priority - b.priority);
+}
+
+/**
+ * 取得最新公告
+ * @param limit 數量限制
+ * @returns 最新公告列表
+ */
+export async function getLatestAnnouncements(limit: number = 5): Promise<import('@/src/types').Announcement[]> {
+  const data = await loadAnnouncements();
+  return data.announcements
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+    .slice(0, limit);
+}

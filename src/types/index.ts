@@ -198,3 +198,38 @@ export interface LeagueStandings {
   lastUpdated: string;
   teams: TeamRecord[];
 }
+
+// 公告圖片
+export interface AnnouncementImage {
+  url: string;
+  alt: string;
+}
+
+// 公告連結
+export interface AnnouncementLink {
+  label: string;
+  url: string;
+}
+
+// 公告資料
+export interface Announcement {
+  id: string;
+  title: string;
+  content: string;
+  publishedAt: string;  // ISO 8601 格式
+  images: AnnouncementImage[];
+  links: AnnouncementLink[];
+  category: string;
+  priority: number;     // 數字越小優先級越高
+  pinned: boolean;      // 是否置頂
+}
+
+// 公告列表（含 metadata）
+export interface AnnouncementsData {
+  announcements: Announcement[];
+  meta: {
+    lastUpdated: string;
+    totalCount: number;
+    categories: string[];
+  };
+}

@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
-import { loadStandings } from '@/src/lib/dataLoader';
-import StandingsTable from '@/src/components/StandingsTable';
-import LeagueLeaders from '@/src/components/LeagueLeaders';
-import type { LeagueStandings } from '@/src/types';
+import { useState, useEffect } from "react";
+import { loadStandings } from "@/src/lib/dataLoader";
+import StandingsTable from "@/src/components/StandingsTable";
+import AnnouncementCarousel from "@/src/components/AnnouncementCarousel";
+import type { LeagueStandings } from "@/src/types";
 
 export default function Home() {
   const [standings, setStandings] = useState<LeagueStandings | null>(null);
@@ -18,8 +18,8 @@ export default function Home() {
         const data = await loadStandings(2025);
         setStandings(data);
       } catch (err) {
-        console.error('Failed to load standings:', err);
-        setError('無法載入排名資料');
+        console.error("Failed to load standings:", err);
+        setError("無法載入排名資料");
       } finally {
         setLoading(false);
       }
@@ -33,11 +33,9 @@ export default function Home() {
       {/* Header */}
       <header className="bg-white shadow">
         <div className="container mx-auto px-4 py-6">
-          <h1 className="text-3xl font-bold text-gray-900">
-            HBC 棒球聯盟統計網站
-          </h1>
+          <h1 className="text-3xl font-bold text-gray-900">新和棒球聯盟</h1>
           <p className="mt-2 text-gray-600">
-            {standings ? `${standings.year} 賽季統計` : '載入中...'}
+            {standings ? `${standings.year} 賽季` : "載入中..."}
           </p>
         </div>
       </header>
@@ -61,12 +59,14 @@ export default function Home() {
 
         {standings && !loading && !error && (
           <div className="space-y-8">
-            {/* League Leaders */}
-            <LeagueLeaders teams={standings.teams} />
+            {/* Announcements */}
+            <AnnouncementCarousel />
 
             {/* Standings Table */}
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">聯盟排名</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">
+                聯盟排名
+              </h2>
               <StandingsTable teams={standings.teams} year={standings.year} />
             </div>
 
@@ -87,7 +87,9 @@ export default function Home() {
                 <div>
                   <span className="font-medium">最後更新：</span>
                   <span className="ml-2">
-                    {new Date(standings.lastUpdated).toLocaleDateString('zh-TW')}
+                    {new Date(standings.lastUpdated).toLocaleDateString(
+                      "zh-TW"
+                    )}
                   </span>
                 </div>
               </div>
@@ -100,9 +102,7 @@ export default function Home() {
       <footer className="mt-16 bg-white border-t">
         <div className="container mx-auto px-4 py-6 text-center text-gray-600">
           <p>HBC 棒球聯盟統計網站</p>
-          <p className="text-sm mt-1">
-            Co-Authored-By: Claude Sonnet 4.5
-          </p>
+          <p className="text-sm mt-1">Co-Authored-By: Claude Sonnet 4.5</p>
         </div>
       </footer>
     </div>
