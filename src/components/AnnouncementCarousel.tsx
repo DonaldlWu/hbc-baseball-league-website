@@ -159,9 +159,116 @@ export default function AnnouncementCarousel() {
           )}
 
           {/* Content */}
-          <p className="text-gray-700 leading-relaxed mb-6">
-            {currentAnnouncement.content}
-          </p>
+          <div
+            className="announcement-content text-gray-700 leading-relaxed mb-6"
+            dangerouslySetInnerHTML={{ __html: currentAnnouncement.content }}
+          />
+          <style jsx>{`
+            .announcement-content {
+              line-height: 1.75;
+            }
+            .announcement-content p {
+              margin-bottom: 1rem;
+            }
+            .announcement-content p:last-child {
+              margin-bottom: 0;
+            }
+            .announcement-content h1,
+            .announcement-content h2,
+            .announcement-content h3,
+            .announcement-content h4 {
+              font-weight: 700;
+              margin-top: 1.5rem;
+              margin-bottom: 0.75rem;
+              color: #1f2937;
+            }
+            .announcement-content h1 {
+              font-size: 1.5rem;
+            }
+            .announcement-content h2 {
+              font-size: 1.25rem;
+            }
+            .announcement-content h3 {
+              font-size: 1.125rem;
+            }
+            .announcement-content strong,
+            .announcement-content b {
+              font-weight: 600;
+              color: #111827;
+            }
+            .announcement-content em,
+            .announcement-content i {
+              font-style: italic;
+            }
+            .announcement-content ul,
+            .announcement-content ol {
+              margin-left: 1.5rem;
+              margin-bottom: 1rem;
+            }
+            .announcement-content ul {
+              list-style-type: disc;
+            }
+            .announcement-content ol {
+              list-style-type: decimal;
+            }
+            .announcement-content li {
+              margin-bottom: 0.5rem;
+            }
+            .announcement-content a {
+              color: #2563eb;
+              text-decoration: underline;
+            }
+            .announcement-content a:hover {
+              color: #1d4ed8;
+            }
+            .announcement-content blockquote {
+              border-left: 4px solid #e5e7eb;
+              padding-left: 1rem;
+              margin: 1rem 0;
+              color: #6b7280;
+              font-style: italic;
+            }
+            .announcement-content code {
+              background-color: #f3f4f6;
+              padding: 0.125rem 0.25rem;
+              border-radius: 0.25rem;
+              font-family: monospace;
+              font-size: 0.875em;
+            }
+            .announcement-content pre {
+              background-color: #1f2937;
+              color: #f9fafb;
+              padding: 1rem;
+              border-radius: 0.5rem;
+              overflow-x: auto;
+              margin-bottom: 1rem;
+            }
+            .announcement-content pre code {
+              background-color: transparent;
+              padding: 0;
+              color: inherit;
+            }
+            .announcement-content hr {
+              border: 0;
+              border-top: 1px solid #e5e7eb;
+              margin: 1.5rem 0;
+            }
+            .announcement-content table {
+              width: 100%;
+              border-collapse: collapse;
+              margin-bottom: 1rem;
+            }
+            .announcement-content th,
+            .announcement-content td {
+              border: 1px solid #e5e7eb;
+              padding: 0.5rem;
+              text-align: left;
+            }
+            .announcement-content th {
+              background-color: #f9fafb;
+              font-weight: 600;
+            }
+          `}</style>
 
           {/* Links */}
           {currentAnnouncement.links.length > 0 && (
