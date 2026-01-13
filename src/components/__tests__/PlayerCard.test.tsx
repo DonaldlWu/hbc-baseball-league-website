@@ -86,7 +86,9 @@ describe('PlayerCard', () => {
     it('應該顯示格式化的打擊率', () => {
       render(<PlayerCard player={mockPlayer} />);
 
-      expect(screen.getByText('.125')).toBeInTheDocument();
+      // AVG 和 SLG 都是 .125，所以會有兩個
+      const avgElements = screen.getAllByText('.125');
+      expect(avgElements.length).toBeGreaterThanOrEqual(1);
     });
 
     it('應該顯示全壘打數', () => {
@@ -119,6 +121,29 @@ describe('PlayerCard', () => {
       expect(screen.getByText('.315')).toBeInTheDocument();
       expect(screen.getByText('25')).toBeInTheDocument();
       expect(screen.getByText('88')).toBeInTheDocument();
+    });
+
+    it('應該顯示 OPS 進階數據', () => {
+      render(<PlayerCard player={mockPlayer} />);
+
+      expect(screen.getByText('OPS')).toBeInTheDocument();
+      expect(screen.getByText('.388')).toBeInTheDocument();
+    });
+
+    it('應該顯示 OBP 進階數據', () => {
+      render(<PlayerCard player={mockPlayer} />);
+
+      expect(screen.getByText('OBP')).toBeInTheDocument();
+      expect(screen.getByText('.263')).toBeInTheDocument();
+    });
+
+    it('應該顯示 SLG 進階數據', () => {
+      render(<PlayerCard player={mockPlayer} />);
+
+      expect(screen.getByText('SLG')).toBeInTheDocument();
+      // SLG 值是 .125，但 AVG 也是 .125，所以會有兩個
+      const slgElements = screen.getAllByText('.125');
+      expect(slgElements.length).toBe(2);
     });
   });
 
