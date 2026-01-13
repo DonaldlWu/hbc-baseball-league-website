@@ -1,5 +1,5 @@
 // Jest globals (describe, it, expect) are automatically available
-import { renderHook, waitFor, act } from '@testing-library/react';
+import { renderHook, act } from '@testing-library/react';
 import { usePlayerSearch } from '../usePlayerSearch';
 import type { PlayerSummary } from '@/src/types';
 
