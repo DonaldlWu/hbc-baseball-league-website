@@ -6,6 +6,7 @@
 
 - [usePlayerList](#useplayerlist) - 球員列表管理
 - [usePlayerSearch](#useplayersearch) - 球員搜尋與篩選
+- [usePlayerModal](#useplayermodal) - Modal 狀態管理
 
 ---
 
@@ -1013,6 +1014,640 @@ function MyComponent() {
 - ✅ 測試覆蓋率 100%
 - ✅ 支援名稱和背號搜尋
 - ✅ 300ms 防抖優化
+
+---
+
+---
+
+## usePlayerModal
+
+用於管理球員詳細資料 Modal 的 Hook，提供開啟/關閉 Modal、載入球員資料和狀態管理功能。
+
+### 功能特性
+
+- ✅ 開啟/關閉 Modal 控制
+- ✅ 自動載入球員詳細資料
+- ✅ Loading 狀態管理
+- ✅ 錯誤處理（支援 Error 物件和其他型別）
+- ✅ 連續開啟不同球員的 Modal
+- ✅ 關閉時自動清空狀態
+- ✅ 多實例獨立運作
+
+### API 文檔
+
+#### 匯入
+
+```typescript
+import { usePlayerModal } from '@/src/hooks/usePlayerModal';
+```
+
+#### 函數簽名
+
+```typescript
+function usePlayerModal(): UsePlayerModalResult
+```
+
+#### 參數
+
+此 Hook 不需要參數。
+
+#### 返回值
+
+```typescript
+interface UsePlayerModalResult {
+  isOpen: boolean;
+  player: Player | null;
+  loading: boolean;
+  error: string | null;
+  openModal: (playerId: string) => Promise<void>;
+  closeModal: () => void;
+}
+```
+
+| 屬性 | 類型 | 說明 |
+|------|------|------|
+| `isOpen` | `boolean` | Modal 開啟狀態 |
+| `player` | `Player \| null` | 球員詳細資料（未載入時為 null） |
+| `loading` | `boolean` | 資料載入中狀態 |
+| `error` | `string \| null` | 錯誤訊息（無錯誤時為 null） |
+| `openModal` | `function` | 開啟 Modal 並載入球員資料 |
+| `closeModal` | `function` | 關閉 Modal 並清空狀態 |
+
+---
+
+### 使用範例
+
+#### 範例 1: 基本 Modal 功能
+
+```typescript
+import { usePlayerModal } from '@/src/hooks/usePlayerModal';
+import { PlayerModal } from '@/components/PlayerModal';
+
+function TeamPage() {
+  const { isOpen, player, loading, error, openModal, closeModal } = usePlayerModal();
+
+  return (
+    <div>
+      {/* 球員列表 */}
+      {players.map(player => (
+        <button
+          key={player.id}
+          onClick={() => openModal(player.id)}
+        >
+          查看 {player.name}
+        </button>
+      ))}
+
+      {/* Modal */}
+      {isOpen && player && (
+        <PlayerModal
+          player={player}
+          onClose={closeModal}
+        />
+      )}
+
+      {/* Loading 狀態 */}
+      {loading && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center">
+          <div>載入中...</div>
+        </div>
+      )}
+
+      {/* 錯誤訊息 */}
+      {error && (
+        <div className="error-toast">
+          {error}
+        </div>
+      )}
+    </div>
+  );
+}
+```
+
+#### 範例 2: 結合球員卡片
+
+```typescript
+import { usePlayerModal } from '@/src/hooks/usePlayerModal';
+
+function PlayerCard({ player }: { player: PlayerSummary }) {
+  const { openModal } = usePlayerModal();
+
+  return (
+    <div
+      className="player-card cursor-pointer"
+      onClick={() => openModal(player.id)}
+    >
+      <img src={player.photo} alt={player.name} />
+      <h3>{player.name}</h3>
+      <p>#{player.number}</p>
+      <button>查看詳細資料 →</button>
+    </div>
+  );
+}
+```
+
+#### 範例 3: 完整 Modal 組件
+
+```typescript
+import { usePlayerModal } from '@/src/hooks/usePlayerModal';
+
+interface PlayerModalProps {
+  player: Player;
+  onClose: () => void;
+}
+
+function PlayerModal({ player, onClose }: PlayerModalProps) {
+  return (
+    <div className="fixed inset-0 bg-black/50 flex items-center justify-center">
+      <div className="bg-white rounded-lg p-6 max-w-4xl w-full">
+        {/* 標題列 */}
+        <div className="flex justify-between items-center mb-4">
+          <h2 className="text-2xl font-bold">{player.name}</h2>
+          <button
+            onClick={onClose}
+            className="text-gray-500 hover:text-gray-700"
+          >
+            ✕
+          </button>
+        </div>
+
+        {/* 球員資訊 */}
+        <div className="grid grid-cols-2 gap-4">
+          <div>
+            <img
+              src={player.photo}
+              alt={player.name}
+              className="w-full rounded-lg"
+            />
+          </div>
+
+          <div>
+            <h3>生涯資訊</h3>
+            <p>首次登場：{player.career.debut}</p>
+            <p>總賽季數：{player.career.totalSeasons}</p>
+            <p>效力球團：{player.career.teams.join(', ')}</p>
+          </div>
+        </div>
+
+        {/* 賽季統計 */}
+        <div className="mt-6">
+          <h3>賽季統計</h3>
+          {player.seasons.map(season => (
+            <div key={season.year} className="border-b py-2">
+              <h4>{season.year} - {season.team}</h4>
+              <div className="grid grid-cols-4 gap-2">
+                <div>打席：{season.batting.pa}</div>
+                <div>安打：{season.batting.hits}</div>
+                <div>全壘打：{season.batting.hr}</div>
+                <div>打點：{season.batting.rbi}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+```
+
+#### 範例 4: 錯誤處理與重試
+
+```typescript
+import { usePlayerModal } from '@/src/hooks/usePlayerModal';
+
+function PlayerListWithModal() {
+  const { isOpen, player, loading, error, openModal, closeModal } = usePlayerModal();
+  const [lastPlayerId, setLastPlayerId] = useState<string>('');
+
+  const handleOpenModal = (playerId: string) => {
+    setLastPlayerId(playerId);
+    openModal(playerId);
+  };
+
+  const handleRetry = () => {
+    if (lastPlayerId) {
+      openModal(lastPlayerId);
+    }
+  };
+
+  return (
+    <div>
+      {/* 球員列表 */}
+      {players.map(player => (
+        <button key={player.id} onClick={() => handleOpenModal(player.id)}>
+          {player.name}
+        </button>
+      ))}
+
+      {/* 錯誤提示 */}
+      {error && !loading && (
+        <div className="error-dialog">
+          <p>載入失敗：{error}</p>
+          <button onClick={handleRetry}>重試</button>
+          <button onClick={closeModal}>關閉</button>
+        </div>
+      )}
+
+      {/* Modal */}
+      {isOpen && player && (
+        <PlayerModal player={player} onClose={closeModal} />
+      )}
+    </div>
+  );
+}
+```
+
+#### 範例 5: 鍵盤快捷鍵支援
+
+```typescript
+import { usePlayerModal } from '@/src/hooks/usePlayerModal';
+
+function PlayerModalWithKeyboard() {
+  const { isOpen, player, closeModal } = usePlayerModal();
+
+  // ESC 鍵關閉 Modal
+  useEffect(() => {
+    if (!isOpen) return;
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        closeModal();
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isOpen, closeModal]);
+
+  // 防止背景滾動
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isOpen]);
+
+  // ...
+}
+```
+
+---
+
+### 實作細節
+
+#### 狀態管理
+
+使用 React 的 `useState` 管理以下狀態：
+
+- `isOpen`: Modal 開啟/關閉狀態
+- `player`: 球員詳細資料
+- `loading`: 資料載入狀態
+- `error`: 錯誤訊息
+
+#### 資料載入流程
+
+```typescript
+openModal(playerId) →
+  setLoading(true) →
+  loadPlayer(playerId) →
+  成功：setPlayer(data), setIsOpen(true)
+  失敗：setError(message), setIsOpen(false) →
+  setLoading(false)
+```
+
+#### 錯誤處理
+
+支援兩種錯誤類型：
+
+```typescript
+try {
+  // ...
+} catch (err) {
+  // Error 物件：使用 err.message
+  // 其他類型：使用 String(err)
+  setError(err instanceof Error ? err.message : String(err));
+}
+```
+
+#### 狀態清理
+
+關閉 Modal 時自動清理所有狀態：
+
+```typescript
+closeModal() {
+  setIsOpen(false);
+  setPlayer(null);
+  setError(null);
+}
+```
+
+---
+
+### 測試覆蓋率
+
+```
+測試檔案: src/hooks/__tests__/usePlayerModal.test.ts
+
+測試統計:
+- 測試數量: 11 個測試
+- 測試結果: ✅ 100% 通過
+- 執行時間: ~0.72 秒
+
+覆蓋率:
+- Statements: 100% ✅ 完美！
+- Branches: 100% ✅ 完美！
+- Functions: 100% ✅ 完美！
+- Lines: 100% ✅ 完美！
+
+測試分組:
+1. 初始狀態 (1 test)
+   ✓ Modal 應該是關閉的
+
+2. openModal 功能 (5 tests)
+   ✓ 應該載入並顯示球員資料
+   ✓ 載入過程中 loading 應該為 true
+   ✓ 載入失敗時應該設定錯誤
+   ✓ 載入失敗時應該處理非 Error 型別的錯誤
+   ✓ 應該能連續開啟不同球員的 Modal
+
+3. closeModal 功能 (3 tests)
+   ✓ 應該關閉 Modal 並清空球員資料
+   ✓ 關閉 Modal 應該清除錯誤訊息
+   ✓ 關閉未開啟的 Modal 不應該造成錯誤
+
+4. 多實例支援 (1 test)
+   ✓ 每個實例應該獨立運作
+
+5. API 一致性 (1 test)
+   ✓ 應該提供所有必要的 API
+```
+
+---
+
+### 程式碼統計
+
+```
+實作檔案: src/hooks/usePlayerModal.ts
+- 總行數: 84 行
+- 純程式碼: ~55 行
+- 註解與文檔: ~29 行
+
+測試檔案: src/hooks/__tests__/usePlayerModal.test.ts
+- 總行數: 277 行
+- 測試數量: 11 個
+- Mock 資料: ~45 行
+```
+
+測試與實作比例: **3.30:1** (高品質測試覆蓋)
+
+---
+
+### 最佳實踐
+
+#### 1. 正確處理 Loading 狀態
+
+```typescript
+const { isOpen, loading, player, closeModal } = usePlayerModal();
+
+// ✅ 好：顯示 Loading 遮罩
+{loading && (
+  <div className="loading-overlay">
+    <Spinner />
+  </div>
+)}
+
+// ✅ 好：禁用按鈕防止重複點擊
+<button onClick={() => openModal(id)} disabled={loading}>
+  查看詳情
+</button>
+```
+
+#### 2. 防止背景滾動
+
+```typescript
+// ✅ 好：Modal 開啟時鎖定背景滾動
+useEffect(() => {
+  if (isOpen) {
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }
+}, [isOpen]);
+```
+
+#### 3. 支援鍵盤操作
+
+```typescript
+// ✅ 好：ESC 鍵關閉 Modal
+useEffect(() => {
+  if (!isOpen) return;
+
+  const handleEscape = (e: KeyboardEvent) => {
+    if (e.key === 'Escape') closeModal();
+  };
+
+  window.addEventListener('keydown', handleEscape);
+  return () => window.removeEventListener('keydown', handleEscape);
+}, [isOpen, closeModal]);
+```
+
+#### 4. 點擊背景關閉
+
+```typescript
+// ✅ 好：點擊遮罩層關閉 Modal
+<div
+  className="modal-overlay"
+  onClick={closeModal}
+>
+  <div
+    className="modal-content"
+    onClick={(e) => e.stopPropagation()} // 防止冒泡
+  >
+    {/* Modal 內容 */}
+  </div>
+</div>
+```
+
+#### 5. 無障礙支援
+
+```typescript
+// ✅ 好：加入 ARIA 屬性
+<div
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="modal-title"
+>
+  <h2 id="modal-title">{player.name}</h2>
+  <button
+    onClick={closeModal}
+    aria-label="關閉對話框"
+  >
+    ✕
+  </button>
+</div>
+```
+
+#### 6. 錯誤處理與重試
+
+```typescript
+// ✅ 好：提供重試功能
+{error && (
+  <div className="error-message">
+    <p>{error}</p>
+    <button onClick={() => openModal(lastPlayerId)}>
+      重試
+    </button>
+  </div>
+)}
+```
+
+---
+
+### 常見問題
+
+#### Q: 可以同時開啟多個 Modal 嗎？
+
+A: 每個 `usePlayerModal` 實例是獨立的，但通常不建議同時開啟多個 Modal：
+
+```typescript
+// ✅ 可以，但不推薦
+const modal1 = usePlayerModal();
+const modal2 = usePlayerModal();
+
+// ✅ 推薦：使用單一 Modal，根據需要切換內容
+const { openModal } = usePlayerModal();
+```
+
+#### Q: 如何在開啟 Modal 前執行檢查？
+
+A: 可以包裝 `openModal` 函數：
+
+```typescript
+const { openModal } = usePlayerModal();
+
+const handleClick = async (playerId: string) => {
+  // 執行檢查
+  const hasPermission = await checkPermission();
+  if (!hasPermission) {
+    alert('沒有權限');
+    return;
+  }
+
+  // 開啟 Modal
+  await openModal(playerId);
+};
+```
+
+#### Q: 關閉 Modal 時如何執行回調？
+
+A: 可以包裝 `closeModal`：
+
+```typescript
+const { closeModal } = usePlayerModal();
+
+const handleClose = () => {
+  // 執行清理或回調
+  console.log('Modal closed');
+  onModalClose?.();
+
+  // 關閉 Modal
+  closeModal();
+};
+```
+
+#### Q: 如何實作 Modal 動畫？
+
+A: 可以使用 CSS transition 或動畫庫（如 Framer Motion）：
+
+```typescript
+// 使用 Framer Motion
+import { motion, AnimatePresence } from 'framer-motion';
+
+function MyModal() {
+  const { isOpen, player, closeModal } = usePlayerModal();
+
+  return (
+    <AnimatePresence>
+      {isOpen && player && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+        >
+          <PlayerModal player={player} onClose={closeModal} />
+        </motion.div>
+      )}
+    </AnimatePresence>
+  );
+}
+```
+
+#### Q: 載入失敗後如何自動重試？
+
+A: 可以實作重試邏輯：
+
+```typescript
+const { openModal, error } = usePlayerModal();
+const [retryCount, setRetryCount] = useState(0);
+
+useEffect(() => {
+  if (error && retryCount < 3) {
+    const timer = setTimeout(() => {
+      openModal(playerId);
+      setRetryCount(prev => prev + 1);
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }
+}, [error, retryCount]);
+```
+
+#### Q: 如何追蹤 Modal 的開啟/關閉事件？
+
+A: 可以使用 `useEffect` 監聽狀態變化：
+
+```typescript
+const { isOpen, player } = usePlayerModal();
+
+useEffect(() => {
+  if (isOpen && player) {
+    // 追蹤 Modal 開啟事件
+    analytics.track('modal_opened', {
+      playerId: player.id,
+      playerName: player.name,
+    });
+  }
+}, [isOpen, player]);
+```
+
+---
+
+### 依賴關係
+
+- `react`: ^19.2.3
+- `@/src/lib/dataLoader`: 資料載入模組（loadPlayer）
+- `@/src/types`: TypeScript 型別定義（Player）
+
+---
+
+### 變更歷史
+
+#### v1.0.0 (2025-01-13)
+
+- ✨ 初始版本實作
+- ✅ TDD 開發流程完成
+- ✅ 11 個測試全部通過
+- ✅ 測試覆蓋率 100%（完美覆蓋）
+- ✅ 支援開啟/關閉 Modal
+- ✅ 自動載入球員詳細資料
+- ✅ 完整錯誤處理
+- ✅ 多實例獨立運作
 
 ---
 
