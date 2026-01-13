@@ -365,3 +365,30 @@ export async function getLatestAnnouncements(limit: number = 5): Promise<import(
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
     .slice(0, limit);
 }
+
+/**
+ * 載入月賽程資料
+ * @param year 年份
+ * @param month 月份 (1-12)
+ * @returns 月賽程資料
+ */
+export async function loadMonthSchedule(year: number, month: number): Promise<import('@/src/types').ScheduleData> {
+  // 格式化月份為兩位數 (例如: 01, 02, ..., 12)
+  const monthStr = month.toString().padStart(2, '0');
+  const response = await fetch(`/data/schedules/${year}-${monthStr}.json`);
+
+  if (!response.ok) {
+    throw new Error(`Failed to load schedule for ${year}-${monthStr}: ${response.status}`);
+  }
+
+  return response.json();
+}
+
+/**
+ * 取得當月賽程
+ * @returns 當月賽程資料
+ */
+export async function getCurrentMonthSchedule(): Promise<import('@/src/types').ScheduleData> {
+  const now = new Date();
+  return loadMonthSchedule(now.getFullYear(), now.getMonth() + 1);
+}

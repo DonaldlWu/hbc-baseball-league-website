@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { loadStandings } from "@/src/lib/dataLoader";
 import StandingsTable from "@/src/components/StandingsTable";
 import AnnouncementCarousel from "@/src/components/AnnouncementCarousel";
+import { ScheduleCalendar } from "@/src/components/ScheduleCalendar";
 import type { LeagueStandings } from "@/src/types";
 
 export default function Home() {
@@ -61,6 +62,11 @@ export default function Home() {
           <div className="space-y-8">
             {/* Announcements */}
             <AnnouncementCarousel />
+
+            {/* Schedule Calendar */}
+            <div>
+              <ScheduleCalendar />
+            </div>
 
             {/* Standings Table */}
             <div className="bg-white rounded-lg shadow-md p-6">

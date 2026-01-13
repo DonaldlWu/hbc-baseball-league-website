@@ -233,3 +233,47 @@ export interface AnnouncementsData {
     categories: string[];
   };
 }
+
+// 賽程時段
+export type TimeSlot = '上午' | '中午' | '下午';
+
+// 單場比賽
+export interface Game {
+  gameNumber: string;      // 賽程編號 (如 "No.201")
+  homeTeam: string;        // 主隊名稱
+  awayTeam: string;        // 客隊名稱
+  venue: string;           // 場地 (如 "中正A")
+  timeSlot: TimeSlot;      // 時段
+  startTime: string;       // 開始時間 (如 "08:00")
+  endTime: string;         // 結束時間 (如 "11:00")
+  result?: {               // 比賽結果（選填，未開打則無）
+    homeScore: number;
+    awayScore: number;
+    status: 'finished' | 'in_progress' | 'postponed' | 'cancelled';
+  };
+}
+
+// 單日賽程（按場地分組）
+export interface DaySchedule {
+  date: string;            // 日期 (ISO 8601: "2026-01-03")
+  venues: {
+    [venueName: string]: Game[];  // 場地名稱 -> 該場地的比賽列表
+  };
+}
+
+// 月賽程
+export interface MonthSchedule {
+  year: number;            // 年份 (如 2026)
+  month: number;           // 月份 (1-12)
+  days: DaySchedule[];     // 該月所有有賽程的日期
+}
+
+// 賽程資料（含 metadata）
+export interface ScheduleData {
+  schedule: MonthSchedule;
+  meta: {
+    lastUpdated: string;
+    totalGames: number;
+    venues: string[];      // 所有場地列表
+  };
+}
