@@ -108,13 +108,13 @@ export async function getTeamPlayers(
 
 /**
  * 取得所有可用的年份列表
- * 從 2020 年開始往後檢查，直到找不到資料為止
+ * 從 2009 年開始往後檢查，直到找不到資料為止
  * @returns 年份陣列（降序排列）
  */
 export async function getAvailableYears(): Promise<number[]> {
   const years: number[] = [];
   const currentYear = new Date().getFullYear();
-  const startYear = 2020; // 假設從 2020 年開始有資料
+  const startYear = 2009; // 資料從 2009 年開始
 
   // 從當前年份往回查詢到起始年份
   for (let year = currentYear; year >= startYear; year--) {
