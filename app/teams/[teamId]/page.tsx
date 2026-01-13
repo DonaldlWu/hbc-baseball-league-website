@@ -16,8 +16,8 @@ export default function TeamDetailPage() {
   // 解碼 URL 參數（處理中文球團名稱）
   const teamId = decodeURIComponent(params.teamId as string);
 
-  // 從 URL query params 取得年份，如果沒有則使用當前年份
-  const year = Number(searchParams.get('year')) || new Date().getFullYear();
+  // 從 URL query params 取得年份，如果沒有則使用 2025（最新資料年份）
+  const year = Number(searchParams.get('year')) || 2025;
 
   const [team, setTeam] = useState<TeamSummary | null>(null);
   const [players, setPlayers] = useState<PlayerSummary[]>([]);

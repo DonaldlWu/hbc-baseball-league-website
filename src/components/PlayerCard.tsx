@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Image from 'next/image';
 import { formatAvg } from '@/src/lib/formatters';
 import type { PlayerSummary } from '@/src/types';
@@ -24,6 +25,7 @@ interface PlayerCardProps {
  * ```
  */
 export function PlayerCard({ player, onClick }: PlayerCardProps) {
+  const [imageError, setImageError] = useState(false);
   return (
     <button
       onClick={() => onClick?.(player)}
@@ -32,13 +34,20 @@ export function PlayerCard({ player, onClick }: PlayerCardProps) {
       <div className="flex items-start gap-3">
         {/* 球員照片 */}
         <div className="relative h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-gray-100">
-          <Image
-            src={player.photo || '/default-avatar.png'}
-            alt={player.name}
-            fill
-            className="object-cover"
-            sizes="64px"
-          />
+          {player.photo && !imageError ? (
+            <Image
+              src={player.photo}
+              alt={player.name}
+              fill
+              className="object-cover"
+              sizes="64px"
+              onError={() => setImageError(true)}
+            />
+          ) : (
+            <div className="flex h-full w-full items-center justify-center bg-primary-100 text-primary-600 text-xl font-bold">
+              {player.name.charAt(0)}
+            </div>
+          )}
         </div>
 
         {/* 球員資訊 */}

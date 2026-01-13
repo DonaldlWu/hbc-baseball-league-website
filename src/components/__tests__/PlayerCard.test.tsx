@@ -67,12 +67,29 @@ describe('PlayerCard', () => {
       expect(image).toHaveAttribute('src', 'https://example.com/photo.jpg');
     });
 
-    it('照片不存在時應該使用預設頭像', () => {
+    it('照片不存在時應該顯示球員名字首字母', () => {
       const playerWithoutPhoto = { ...mockPlayer, photo: '' };
       render(<PlayerCard player={playerWithoutPhoto} />);
 
+      // 應該顯示球員名字的第一個字
+      expect(screen.getByText('陳')).toBeInTheDocument();
+      // 不應該有 img 元素（因為沒有照片）
+      expect(screen.queryByAltText('陳重任')).not.toBeInTheDocument();
+    });
+
+    it('照片載入失敗時應該顯示球員名字首字母', () => {
+      render(<PlayerCard player={mockPlayer} />);
+
       const image = screen.getByAltText('陳重任');
-      expect(image).toHaveAttribute('src', '/default-avatar.png');
+      expect(image).toBeInTheDocument();
+
+      // 模擬圖片載入失敗
+      fireEvent.error(image);
+
+      // 應該顯示球員名字的第一個字作為 fallback
+      expect(screen.getByText('陳')).toBeInTheDocument();
+      // 圖片應該被移除
+      expect(screen.queryByAltText('陳重任')).not.toBeInTheDocument();
     });
   });
 
