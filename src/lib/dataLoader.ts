@@ -8,6 +8,7 @@ import type {
   Team,
   SeasonSummary,
   LeagueStats,
+  TeamSummary,
   PlayerSummary,
 } from '@/src/types';
 
@@ -103,4 +104,52 @@ export async function getTeamPlayers(
 ): Promise<SeasonSummary['teams'][string] | undefined> {
   const summary = await loadSeasonSummary(year);
   return summary.teams[teamId];
+}
+
+/**
+ * 取得所有可用的年份列表
+ * 從 2020 年開始往後檢查，直到找不到資料為止
+ * @returns 年份陣列（降序排列）
+ */
+export async function getAvailableYears(): Promise<number[]> {
+  const years: number[] = [];
+  const currentYear = new Date().getFullYear();
+  const startYear = 2020; // 假設從 2020 年開始有資料
+
+  // 從當前年份往回查詢到起始年份
+  for (let year = currentYear; year >= startYear; year--) {
+    try {
+      const response = await fetch(`/data/seasons/${year}_summary.json`);
+      if (response.ok) {
+        years.push(year);
+      }
+    } catch (error) {
+      // 檔案不存在，繼續查詢下一年
+      continue;
+    }
+  }
+
+  return years;
+}
+
+/**
+ * 從年度摘要中提取球隊列表
+ * @param summary 年度摘要資料
+ * @returns 球隊摘要陣列（按名稱排序）
+ */
+export function extractTeamsFromSeason(summary: SeasonSummary): TeamSummary[] {
+  const teams: TeamSummary[] = [];
+
+  for (const [, teamData] of Object.entries(summary.teams)) {
+    teams.push({
+      teamId: teamData.teamId,
+      teamName: teamData.teamName,
+      year: summary.year,
+      stats: teamData.stats,
+      playerCount: teamData.players.length,
+    });
+  }
+
+  // 按球隊名稱排序
+  return teams.sort((a, b) => a.teamName.localeCompare(b.teamName));
 }

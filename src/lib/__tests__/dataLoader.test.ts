@@ -6,6 +6,8 @@ import {
   loadLeagueStats,
   getPlayersByTeam,
   getTeamPlayers,
+  getAvailableYears,
+  extractTeamsFromSeason,
 } from '../dataLoader';
 
 // Mock fetch
@@ -298,6 +300,132 @@ describe('dataLoader', () => {
       const result = await getTeamPlayers(2025, 'nonexistent');
 
       expect(result).toBeUndefined();
+    });
+  });
+
+  describe('getAvailableYears', () => {
+    it('應該返回所有可用的年份列表', async () => {
+      // 從 2026 往回查：2026(fail), 2025(ok), 2024(ok), 2023(fail)...
+      (global.fetch as jest.Mock)
+        .mockResolvedValueOnce({ ok: false })  // 2026
+        .mockResolvedValueOnce({ ok: true, json: async () => ({ year: 2025 }) })  // 2025
+        .mockResolvedValueOnce({ ok: true, json: async () => ({ year: 2024 }) })  // 2024
+        .mockResolvedValueOnce({ ok: false })  // 2023
+        .mockResolvedValueOnce({ ok: false })  // 2022
+        .mockResolvedValueOnce({ ok: false })  // 2021
+        .mockResolvedValueOnce({ ok: false }); // 2020
+
+      const result = await getAvailableYears();
+
+      expect(result).toEqual([2025, 2024]);
+      expect(result).toHaveLength(2);
+    });
+
+    it('應該按降序排列年份', async () => {
+      // 從 2026 往回查：2026(ok), 2025(ok), 2024(ok), 2023(fail), 2022(fail), 2021(fail), 2020(fail)
+      (global.fetch as jest.Mock)
+        .mockResolvedValueOnce({ ok: true, json: async () => ({ year: 2026 }) })  // 2026
+        .mockResolvedValueOnce({ ok: true, json: async () => ({ year: 2025 }) })  // 2025
+        .mockResolvedValueOnce({ ok: true, json: async () => ({ year: 2024 }) })  // 2024
+        .mockResolvedValueOnce({ ok: false })  // 2023
+        .mockResolvedValueOnce({ ok: false })  // 2022
+        .mockResolvedValueOnce({ ok: false })  // 2021
+        .mockResolvedValueOnce({ ok: false }); // 2020
+
+      const result = await getAvailableYears();
+
+      expect(result).toEqual([2026, 2025, 2024]);
+      expect(result[0]).toBeGreaterThan(result[1]);
+      expect(result[1]).toBeGreaterThan(result[2]);
+    });
+
+    it('沒有可用年份時應該返回空陣列', async () => {
+      (global.fetch as jest.Mock)
+        .mockResolvedValue({ ok: false });
+
+      const result = await getAvailableYears();
+
+      expect(result).toEqual([]);
+    });
+  });
+
+  describe('extractTeamsFromSeason', () => {
+    it('應該從年度摘要中提取球隊列表', () => {
+      const mockSummary = {
+        year: 2025,
+        lastUpdated: '2025-01-01',
+        teams: {
+          '飛尼克斯': {
+            teamId: '飛尼克斯',
+            teamName: '飛尼克斯',
+            stats: { totalPlayers: 43, avgBattingAvg: 0.218, totalHomeRuns: 5 },
+            players: [{}, {}, {}] as any,
+          },
+          'miracle': {
+            teamId: 'miracle',
+            teamName: 'MIRACLE',
+            stats: { totalPlayers: 25, avgBattingAvg: 0.250, totalHomeRuns: 10 },
+            players: [{}, {}] as any,
+          },
+        },
+      };
+
+      const result = extractTeamsFromSeason(mockSummary);
+
+      expect(result).toHaveLength(2);
+      // 按 localeCompare 排序，MIRACLE 會排在飛尼克斯前面
+      expect(result[0]).toEqual({
+        teamId: 'miracle',
+        teamName: 'MIRACLE',
+        year: 2025,
+        stats: { totalPlayers: 25, avgBattingAvg: 0.250, totalHomeRuns: 10 },
+        playerCount: 2,
+      });
+      expect(result[1]).toEqual({
+        teamId: '飛尼克斯',
+        teamName: '飛尼克斯',
+        year: 2025,
+        stats: { totalPlayers: 43, avgBattingAvg: 0.218, totalHomeRuns: 5 },
+        playerCount: 3,
+      });
+    });
+
+    it('應該按球隊名稱排序', () => {
+      const mockSummary = {
+        year: 2025,
+        lastUpdated: '2025-01-01',
+        teams: {
+          'z-team': {
+            teamId: 'z-team',
+            teamName: 'Z Team',
+            stats: { totalPlayers: 10, avgBattingAvg: 0.200, totalHomeRuns: 2 },
+            players: [] as any,
+          },
+          'a-team': {
+            teamId: 'a-team',
+            teamName: 'A Team',
+            stats: { totalPlayers: 15, avgBattingAvg: 0.300, totalHomeRuns: 5 },
+            players: [] as any,
+          },
+        },
+      };
+
+      const result = extractTeamsFromSeason(mockSummary);
+
+      expect(result[0].teamName).toBe('A Team');
+      expect(result[1].teamName).toBe('Z Team');
+    });
+
+    it('空的年度摘要應該返回空陣列', () => {
+      const mockSummary = {
+        year: 2025,
+        lastUpdated: '2025-01-01',
+        teams: {},
+      };
+
+      const result = extractTeamsFromSeason(mockSummary);
+
+      expect(result).toEqual([]);
     });
   });
 });

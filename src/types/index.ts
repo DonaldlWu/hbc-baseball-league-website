@@ -88,6 +88,19 @@ export interface Team {
   };
 }
 
+// 球團摘要（用於列表）
+export interface TeamSummary {
+  teamId: string;
+  teamName: string;
+  year: number;
+  stats: {
+    totalPlayers: number;
+    avgBattingAvg: number;
+    totalHomeRuns: number;
+  };
+  playerCount: number;
+}
+
 // 賽季摘要
 export interface SeasonSummary {
   year: number;
