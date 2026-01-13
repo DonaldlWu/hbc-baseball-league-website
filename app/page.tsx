@@ -3,15 +3,20 @@
 import { useState } from 'react';
 import { PlayerCard } from '@/src/components/PlayerCard';
 import { PlayerModal } from '@/src/components/PlayerModal';
+import { loadPlayerDetail } from '@/src/lib/dataLoader';
 import type { Player, PlayerSummary } from '@/src/types';
+import seasonData from '@/public/data/seasons/2025_summary.json';
 
-// 測試資料
-const mockPlayers: PlayerSummary[] = [
+// 從 JSON 檔案取得球員資料
+const mockPlayers: PlayerSummary[] = seasonData.teams['飛尼克斯'].players.slice(0, 3);
+
+// 原本的 mock 資料（保留作為備用）
+const mockPlayersOld: PlayerSummary[] = [
   {
     id: 'COL064',
     name: '陳重任',
     number: '0',
-    photo: 'https://via.placeholder.com/150/0066cc/ffffff?text=CH',
+    photo: '/default-avatar.svg',
     team: '飛尼克斯',
     seasonStats: {
       games: 9,
@@ -43,7 +48,7 @@ const mockPlayers: PlayerSummary[] = [
     id: 'COL065',
     name: '林坤泰',
     number: '1',
-    photo: 'https://via.placeholder.com/150/00cc66/ffffff?text=LK',
+    photo: '/default-avatar.svg',
     team: '飛尼克斯',
     seasonStats: {
       games: 10,
@@ -72,7 +77,7 @@ const mockPlayers: PlayerSummary[] = [
     id: 'COL066',
     name: '孔睦驊',
     number: '10',
-    photo: 'https://via.placeholder.com/150/cc6600/ffffff?text=KM',
+    photo: '/default-avatar.svg',
     team: '老鷹',
     seasonStats: {
       games: 8,
@@ -104,7 +109,7 @@ const mockCompletePlayer: Player = {
   id: 'COL064',
   code: 'COL064',
   name: '陳重任',
-  photo: 'https://via.placeholder.com/150/0066cc/ffffff?text=CH',
+  photo: '/default-avatar.svg',
   career: {
     debut: 2024,
     teams: ['飛尼克斯', '老鷹'],
@@ -162,16 +167,26 @@ const mockCompletePlayer: Player = {
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedPlayer, setSelectedPlayer] = useState<Player | null>(null);
+  const [loading, setLoading] = useState(false);
 
-  const handlePlayerClick = (clickedPlayer: PlayerSummary) => {
-    // 點擊球員卡片時打開 Modal
-    // 在實際應用中，會根據 clickedPlayer.id 載入完整資料
-    // 目前為了展示，我們使用 mockCompletePlayer
-    setIsModalOpen(true);
+  const handlePlayerClick = async (clickedPlayer: PlayerSummary) => {
+    // 載入球員完整資料
+    setLoading(true);
+    try {
+      const playerData = await loadPlayerDetail(clickedPlayer.id);
+      setSelectedPlayer(playerData);
+      setIsModalOpen(true);
+    } catch (error) {
+      console.error('Failed to load player data:', error);
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleCloseModal = () => {
     setIsModalOpen(false);
+    setSelectedPlayer(null);
   };
 
   return (
@@ -252,11 +267,25 @@ export default function Home() {
       </footer>
 
       {/* Player Modal */}
-      <PlayerModal
-        player={mockCompletePlayer}
-        isOpen={isModalOpen}
-        onClose={handleCloseModal}
-      />
+      {selectedPlayer && (
+        <PlayerModal
+          player={selectedPlayer}
+          isOpen={isModalOpen}
+          onClose={handleCloseModal}
+        />
+      )}
+
+      {/* Loading indicator */}
+      {loading && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+          <div className="rounded-lg bg-white p-6 shadow-xl">
+            <div className="text-center">
+              <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-primary-600 border-r-transparent"></div>
+              <p className="mt-2 text-gray-700">載入中...</p>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
