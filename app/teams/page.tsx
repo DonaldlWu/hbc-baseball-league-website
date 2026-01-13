@@ -1,10 +1,12 @@
 'use client';
 
+import { useRouter } from 'next/navigation';
 import { useTeamsList } from '@/src/hooks/useTeamsList';
 import { TeamCard } from '@/src/components/TeamCard';
 import type { TeamSummary } from '@/src/types';
 
 export default function TeamsPage() {
+  const router = useRouter();
   const { year, teams, availableYears, loading, error, setYear } = useTeamsList(2025);
 
   if (loading && teams.length === 0) {
@@ -34,8 +36,7 @@ export default function TeamsPage() {
   }
 
   const handleTeamClick = (team: TeamSummary) => {
-    // TODO: 導航到球隊詳細頁面
-    console.log('Navigate to team:', team.teamId);
+    router.push(`/teams/${team.teamId}`);
   };
 
   return (
