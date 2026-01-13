@@ -15,6 +15,8 @@
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "convert-data": "tsx scripts/csv-to-json.ts",
+    "download-images": "tsx scripts/download-player-images.ts",
+    "prepare-data": "npm run convert-data && npm run download-images",
     "analyze": "npx ts-prune",
     "unused": "npx depcheck"
   },

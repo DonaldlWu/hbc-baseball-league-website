@@ -45,3 +45,7 @@ data/raw/*.csv
 
 # processed data (keep in git for deployment)
 # data/processed/
+
+# player images (本地開發 cache，不提交到 git)
+# 使用遠端圖片 + Next.js Image Optimization cache
+public/images/players/

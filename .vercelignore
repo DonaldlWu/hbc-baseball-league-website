@@ -1,0 +1,28 @@
+# Vercel 部署時忽略的檔案
+# 這些檔案不會上傳到 Vercel，減少部署大小和時間
+
+# 測試相關
+/coverage
+/__tests__
+**/*.test.ts
+**/*.test.tsx
+**/*.spec.ts
+**/*.spec.tsx
+/e2e
+
+# 開發工具設定
+.vscode
+.idea
+*.swp
+*.swo
+
+# 文件
+*.md
+!README.md
+
+# 原始資料（已轉換為 JSON）
+data/raw
+
+# 不需要的腳本（build 不需要）
+scripts/csv-to-json.ts
+scripts/download-player-images.ts
