@@ -153,3 +153,18 @@ export function extractTeamsFromSeason(summary: SeasonSummary): TeamSummary[] {
   // 按球隊名稱排序
   return teams.sort((a, b) => a.teamName.localeCompare(b.teamName));
 }
+
+/**
+ * 載入聯盟排名資料
+ * @param year 年份
+ * @returns 聯盟排名資料
+ */
+export async function loadStandings(year: number): Promise<import('@/src/types').LeagueStandings> {
+  const response = await fetch(`/data/standings_${year}.json`);
+
+  if (!response.ok) {
+    throw new Error(`Failed to load standings for ${year}: ${response.status}`);
+  }
+
+  return response.json();
+}

@@ -169,3 +169,23 @@ export interface LeagueStats {
     HR: number;
   };
 }
+
+// 球隊戰績
+export interface TeamRecord {
+  rank: number;             // 排名
+  teamId: string;           // 球隊 ID
+  teamName: string;         // 球隊名稱
+  wins: number;             // 勝場
+  losses: number;           // 敗場
+  draws: number;            // 和局
+  runsAllowed: number;      // 均失（平均失分）
+  runsScored: number;       // 均得（平均得分）
+}
+
+// 聯盟戰績排名
+export interface LeagueStandings {
+  year: number;
+  league: string;           // 聯盟名稱
+  lastUpdated: string;
+  teams: TeamRecord[];
+}

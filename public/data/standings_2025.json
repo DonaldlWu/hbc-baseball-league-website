@@ -1,0 +1,227 @@
+{
+  "year": 2025,
+  "league": "新和聯盟",
+  "lastUpdated": "2025-01-13T00:00:00.000Z",
+  "teams": [
+    {
+      "rank": 1,
+      "teamId": "line-drive",
+      "teamName": "Line Drive",
+      "wins": 16,
+      "losses": 3,
+      "draws": 1,
+      "runsAllowed": 4.0,
+      "runsScored": 14.2
+    },
+    {
+      "rank": 2,
+      "teamId": "飛尼克斯",
+      "teamName": "飛尼克斯",
+      "wins": 13,
+      "losses": 5,
+      "draws": 0,
+      "runsAllowed": 5.1,
+      "runsScored": 11.2
+    },
+    {
+      "rank": 3,
+      "teamId": "永春tb",
+      "teamName": "永春TB",
+      "wins": 12,
+      "losses": 4,
+      "draws": 1,
+      "runsAllowed": 6.6,
+      "runsScored": 8.2
+    },
+    {
+      "rank": 4,
+      "teamId": "楚奧特",
+      "teamName": "楚奧特",
+      "wins": 12,
+      "losses": 5,
+      "draws": 1,
+      "runsAllowed": 6.3,
+      "runsScored": 12.2
+    },
+    {
+      "rank": 5,
+      "teamId": "aces",
+      "teamName": "ACES",
+      "wins": 12,
+      "losses": 5,
+      "draws": 1,
+      "runsAllowed": 7.6,
+      "runsScored": 13.2
+    },
+    {
+      "rank": 6,
+      "teamId": "華江ob",
+      "teamName": "華江OB",
+      "wins": 11,
+      "losses": 4,
+      "draws": 2,
+      "runsAllowed": 5.8,
+      "runsScored": 9.2
+    },
+    {
+      "rank": 7,
+      "teamId": "mechanical",
+      "teamName": "Mechanical",
+      "wins": 11,
+      "losses": 7,
+      "draws": 1,
+      "runsAllowed": 6.3,
+      "runsScored": 8.2
+    },
+    {
+      "rank": 8,
+      "teamId": "木柵ob",
+      "teamName": "木柵OB",
+      "wins": 10,
+      "losses": 6,
+      "draws": 1,
+      "runsAllowed": 6.5,
+      "runsScored": 10.2
+    },
+    {
+      "rank": 9,
+      "teamId": "甜心暴龍",
+      "teamName": "甜心暴龍",
+      "wins": 10,
+      "losses": 7,
+      "draws": 1,
+      "runsAllowed": 7.4,
+      "runsScored": 8.2
+    },
+    {
+      "rank": 10,
+      "teamId": "逆轉星球",
+      "teamName": "逆轉星球",
+      "wins": 10,
+      "losses": 9,
+      "draws": 0,
+      "runsAllowed": 6.1,
+      "runsScored": 7.2
+    },
+    {
+      "rank": 11,
+      "teamId": "陽明ob",
+      "teamName": "陽明OB",
+      "wins": 9,
+      "losses": 6,
+      "draws": 1,
+      "runsAllowed": 6.4,
+      "runsScored": 11.2
+    },
+    {
+      "rank": 12,
+      "teamId": "世新超",
+      "teamName": "世新超",
+      "wins": 9,
+      "losses": 8,
+      "draws": 1,
+      "runsAllowed": 5.7,
+      "runsScored": 7.2
+    },
+    {
+      "rank": 13,
+      "teamId": "莫拉克",
+      "teamName": "莫拉克",
+      "wins": 9,
+      "losses": 9,
+      "draws": 0,
+      "runsAllowed": 8.5,
+      "runsScored": 7.2
+    },
+    {
+      "rank": 14,
+      "teamId": "火把老鷹",
+      "teamName": "火把老鷹",
+      "wins": 8,
+      "losses": 9,
+      "draws": 1,
+      "runsAllowed": 8.1,
+      "runsScored": 8.2
+    },
+    {
+      "rank": 15,
+      "teamId": "dh戰將",
+      "teamName": "DH戰將",
+      "wins": 8,
+      "losses": 9,
+      "draws": 1,
+      "runsAllowed": 9.6,
+      "runsScored": 7.2
+    },
+    {
+      "rank": 16,
+      "teamId": "實踐ob",
+      "teamName": "實踐OB",
+      "wins": 8,
+      "losses": 8,
+      "draws": 0,
+      "runsAllowed": 7.9,
+      "runsScored": 8.2
+    },
+    {
+      "rank": 17,
+      "teamId": "台大",
+      "teamName": "台大",
+      "wins": 7,
+      "losses": 10,
+      "draws": 1,
+      "runsAllowed": 9.6,
+      "runsScored": 9.2
+    },
+    {
+      "rank": 18,
+      "teamId": "miracle",
+      "teamName": "MIRACLE",
+      "wins": 6,
+      "losses": 11,
+      "draws": 0,
+      "runsAllowed": 10.1,
+      "runsScored": 7.2
+    },
+    {
+      "rank": 19,
+      "teamId": "少林棒",
+      "teamName": "少林棒",
+      "wins": 2,
+      "losses": 14,
+      "draws": 1,
+      "runsAllowed": 12.3,
+      "runsScored": 5.2
+    },
+    {
+      "rank": 20,
+      "teamId": "holyball",
+      "teamName": "HOLYBALL",
+      "wins": 2,
+      "losses": 15,
+      "draws": 1,
+      "runsAllowed": 14.1,
+      "runsScored": 5.2
+    },
+    {
+      "rank": 21,
+      "teamId": "十號馬",
+      "teamName": "十號馬",
+      "wins": 2,
+      "losses": 16,
+      "draws": 0,
+      "runsAllowed": 15.4,
+      "runsScored": 5.2
+    },
+    {
+      "rank": 22,
+      "teamId": "台大醫",
+      "teamName": "台大醫",
+      "wins": 1,
+      "losses": 16,
+      "draws": 0,
+      "runsAllowed": 14.4,
+      "runsScored": 5.2
+    }
+  ]
+}
