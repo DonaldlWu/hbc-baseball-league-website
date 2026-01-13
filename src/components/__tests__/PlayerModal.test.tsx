@@ -1,6 +1,7 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import { PlayerModal } from '../PlayerModal';
-import type { Player } from '@/src/types';
+import type { Player, LeagueStats } from '@/src/types';
+import { loadLeagueStats } from '@/src/lib/dataLoader';
 
 // Mock Next.js Image component
 jest.mock('next/image', () => ({
@@ -10,6 +11,11 @@ jest.mock('next/image', () => ({
     // eslint-disable-next-line @next/next/no-img-element, jsx-a11y/alt-text
     return <img {...rest} />;
   },
+}));
+
+// Mock dataLoader
+jest.mock('@/src/lib/dataLoader', () => ({
+  loadLeagueStats: jest.fn(),
 }));
 
 describe('PlayerModal', () => {
@@ -75,8 +81,28 @@ describe('PlayerModal', () => {
 
   const mockOnClose = jest.fn();
 
+  const mockLeagueStats: LeagueStats = {
+    year: 2025,
+    avgBattingAvg: 0.250,
+    avgOBP: 0.320,
+    avgSLG: 0.400,
+    avgOPS: 0.720,
+    totalPA: 10000,
+    totalAB: 9000,
+    wOBAScale: 1.2,
+    wOBAWeights: {
+      BB: 0.69,
+      HBP: 0.72,
+      '1B': 0.88,
+      '2B': 1.24,
+      '3B': 1.56,
+      HR: 1.95,
+    },
+  };
+
   beforeEach(() => {
     jest.clearAllMocks();
+    (loadLeagueStats as jest.Mock).mockResolvedValue(mockLeagueStats);
   });
 
   describe('基本渲染', () => {
@@ -185,6 +211,7 @@ describe('PlayerModal', () => {
       expect(screen.getAllByText('OBP').length).toBeGreaterThan(0);
       expect(screen.getAllByText('SLG').length).toBeGreaterThan(0);
       expect(screen.getAllByText('OPS').length).toBeGreaterThan(0);
+      expect(screen.getAllByText('OPS+').length).toBeGreaterThan(0);
     });
 
     it('應該顯示正確的進階數據數值', () => {

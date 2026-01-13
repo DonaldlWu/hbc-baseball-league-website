@@ -1,10 +1,11 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
-import { calculateAVG, calculateOBP, calculateSLG, calculateOPS } from '@/src/lib/statsCalculator';
+import { calculateAVG, calculateOBP, calculateSLG, calculateOPS, calculateOPSPlus } from '@/src/lib/statsCalculator';
 import { formatAvg } from '@/src/lib/formatters';
-import type { Player } from '@/src/types';
+import { loadLeagueStats } from '@/src/lib/dataLoader';
+import type { Player, LeagueStats } from '@/src/types';
 
 export interface PlayerModalProps {
   player: Player;
@@ -13,6 +14,29 @@ export interface PlayerModalProps {
 }
 
 export function PlayerModal({ player, isOpen, onClose }: PlayerModalProps) {
+  // 聯盟數據 state
+  const [leagueStats, setLeagueStats] = useState<Record<number, LeagueStats>>({});
+
+  // 載入聯盟數據
+  useEffect(() => {
+    if (!isOpen) return;
+
+    const loadAllLeagueStats = async () => {
+      const stats: Record<number, LeagueStats> = {};
+      for (const season of player.seasons) {
+        try {
+          const data = await loadLeagueStats(season.year);
+          stats[season.year] = data;
+        } catch (error) {
+          console.error(`Failed to load league stats for ${season.year}:`, error);
+        }
+      }
+      setLeagueStats(stats);
+    };
+
+    loadAllLeagueStats();
+  }, [isOpen, player.seasons]);
+
   // ESC 鍵關閉
   useEffect(() => {
     if (!isOpen) return;
@@ -142,7 +166,7 @@ export function PlayerModal({ player, isOpen, onClose }: PlayerModalProps) {
                 </div>
 
                 {/* 進階數據 */}
-                <div className="mb-4 grid grid-cols-4 gap-3 rounded-lg border-2 border-gray-400 bg-blue-50 p-4">
+                <div className="mb-4 grid grid-cols-5 gap-3 rounded-lg border-2 border-gray-400 bg-blue-50 p-4">
                   <div>
                     <div className="text-xs font-bold uppercase text-gray-900">AVG</div>
                     <div className="text-xl font-bold text-gray-900">
@@ -165,6 +189,14 @@ export function PlayerModal({ player, isOpen, onClose }: PlayerModalProps) {
                     <div className="text-xs font-bold uppercase text-gray-900">OPS</div>
                     <div className="text-xl font-bold text-blue-600">
                       {formatAvg(calculateOPS(season.batting))}
+                    </div>
+                  </div>
+                  <div>
+                    <div className="text-xs font-bold uppercase text-gray-900">OPS+</div>
+                    <div className="text-xl font-bold text-orange-600">
+                      {leagueStats[season.year]
+                        ? Math.round(calculateOPSPlus(season.batting, leagueStats[season.year]) || 0)
+                        : '-'}
                     </div>
                   </div>
                 </div>
