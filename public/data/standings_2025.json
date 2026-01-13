@@ -5,7 +5,7 @@
   "teams": [
     {
       "rank": 1,
-      "teamId": "line-drive",
+      "teamId": "ROO",
       "teamName": "Line Drive",
       "wins": 16,
       "losses": 3,
@@ -15,7 +15,7 @@
     },
     {
       "rank": 2,
-      "teamId": "飛尼克斯",
+      "teamId": "PHE",
       "teamName": "飛尼克斯",
       "wins": 13,
       "losses": 5,
@@ -25,7 +25,7 @@
     },
     {
       "rank": 3,
-      "teamId": "永春tb",
+      "teamId": "YCT",
       "teamName": "永春TB",
       "wins": 12,
       "losses": 4,
@@ -35,7 +35,7 @@
     },
     {
       "rank": 4,
-      "teamId": "楚奧特",
+      "teamId": "TRO",
       "teamName": "楚奧特",
       "wins": 12,
       "losses": 5,
@@ -45,7 +45,7 @@
     },
     {
       "rank": 5,
-      "teamId": "aces",
+      "teamId": "ACE",
       "teamName": "ACES",
       "wins": 12,
       "losses": 5,
@@ -55,7 +55,7 @@
     },
     {
       "rank": 6,
-      "teamId": "華江ob",
+      "teamId": "HUA",
       "teamName": "華江OB",
       "wins": 11,
       "losses": 4,
@@ -65,8 +65,8 @@
     },
     {
       "rank": 7,
-      "teamId": "mechanical",
-      "teamName": "Mechanical",
+      "teamId": "NTM",
+      "teamName": "Mechanics",
       "wins": 11,
       "losses": 7,
       "draws": 1,
@@ -75,7 +75,7 @@
     },
     {
       "rank": 8,
-      "teamId": "木柵ob",
+      "teamId": "MUZ",
       "teamName": "木柵OB",
       "wins": 10,
       "losses": 6,
@@ -85,7 +85,7 @@
     },
     {
       "rank": 9,
-      "teamId": "甜心暴龍",
+      "teamId": "SWD",
       "teamName": "甜心暴龍",
       "wins": 10,
       "losses": 7,
@@ -95,7 +95,7 @@
     },
     {
       "rank": 10,
-      "teamId": "逆轉星球",
+      "teamId": "REV",
       "teamName": "逆轉星球",
       "wins": 10,
       "losses": 9,
@@ -105,7 +105,7 @@
     },
     {
       "rank": 11,
-      "teamId": "陽明ob",
+      "teamId": "YAN",
       "teamName": "陽明OB",
       "wins": 9,
       "losses": 6,
@@ -115,8 +115,8 @@
     },
     {
       "rank": 12,
-      "teamId": "世新超",
-      "teamName": "世新超",
+      "teamId": "SHU",
+      "teamName": "世新超乙組",
       "wins": 9,
       "losses": 8,
       "draws": 1,
@@ -125,7 +125,7 @@
     },
     {
       "rank": 13,
-      "teamId": "莫拉克",
+      "teamId": "MOR",
       "teamName": "莫拉克",
       "wins": 9,
       "losses": 9,
@@ -135,7 +135,7 @@
     },
     {
       "rank": 14,
-      "teamId": "火把老鷹",
+      "teamId": "EAG",
       "teamName": "火把老鷹",
       "wins": 8,
       "losses": 9,
@@ -145,7 +145,7 @@
     },
     {
       "rank": 15,
-      "teamId": "dh戰將",
+      "teamId": "DHW",
       "teamName": "DH戰將",
       "wins": 8,
       "losses": 9,
@@ -155,7 +155,7 @@
     },
     {
       "rank": 16,
-      "teamId": "實踐ob",
+      "teamId": "SCO",
       "teamName": "實踐OB",
       "wins": 8,
       "losses": 8,
@@ -165,8 +165,8 @@
     },
     {
       "rank": 17,
-      "teamId": "台大",
-      "teamName": "台大",
+      "teamId": "NTE",
+      "teamName": "台大經濟OB",
       "wins": 7,
       "losses": 10,
       "draws": 1,
@@ -175,7 +175,7 @@
     },
     {
       "rank": 18,
-      "teamId": "miracle",
+      "teamId": "MIR",
       "teamName": "MIRACLE",
       "wins": 6,
       "losses": 11,
@@ -185,8 +185,8 @@
     },
     {
       "rank": 19,
-      "teamId": "少林棒",
-      "teamName": "少林棒",
+      "teamId": "SHA",
+      "teamName": "少林棒球隊",
       "wins": 2,
       "losses": 14,
       "draws": 1,
@@ -195,8 +195,8 @@
     },
     {
       "rank": 20,
-      "teamId": "holyball",
-      "teamName": "HOLYBALL",
+      "teamId": "HOL",
+      "teamName": "HOLYBAT",
       "wins": 2,
       "losses": 15,
       "draws": 1,
@@ -205,7 +205,7 @@
     },
     {
       "rank": 21,
-      "teamId": "十號馬",
+      "teamId": "GEO",
       "teamName": "十號馬",
       "wins": 2,
       "losses": 16,
@@ -215,8 +215,8 @@
     },
     {
       "rank": 22,
-      "teamId": "台大醫",
-      "teamName": "台大醫",
+      "teamId": "NTH",
+      "teamName": "台大醫學院棒",
       "wins": 1,
       "losses": 16,
       "draws": 0,

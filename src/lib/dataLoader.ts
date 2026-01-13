@@ -6,6 +6,7 @@
 import type {
   Player,
   Team,
+  TeamInfo,
   SeasonSummary,
   LeagueStats,
   TeamSummary,
@@ -167,4 +168,163 @@ export async function loadStandings(year: number): Promise<import('@/src/types')
   }
 
   return response.json();
+}
+
+/**
+ * 載入所有球隊資訊（all_teams.json）
+ * @returns 所有球隊資訊陣列
+ */
+export async function loadAllTeams(): Promise<TeamInfo[]> {
+  const response = await fetch('/data/all_teams.json');
+
+  if (!response.ok) {
+    throw new Error(`Failed to load all teams: ${response.status}`);
+  }
+
+  return response.json();
+}
+
+// 快取球隊資訊
+let teamsCache: TeamInfo[] | null = null;
+
+/**
+ * 根據球隊名稱取得球隊 ID
+ * @param teamName 球隊名稱
+ * @returns 球隊 ID，如果找不到則返回球隊名稱本身
+ */
+export async function getTeamIdByName(teamName: string): Promise<string> {
+  try {
+    // 如果快取不存在，載入球隊資訊
+    if (!teamsCache) {
+      teamsCache = await loadAllTeams();
+    }
+
+    // 根據球隊名稱尋找對應的球隊資訊
+    const team = teamsCache.find(t => t.name === teamName);
+
+    // 如果找到就返回 id，否則返回原始名稱
+    return team?.id || teamName;
+  } catch (error) {
+    console.error(`Failed to get team id for ${teamName}:`, error);
+    return teamName;
+  }
+}
+
+/**
+ * 根據球隊 ID 取得球隊名稱
+ * @param teamId 球隊 ID
+ * @returns 球隊名稱，如果找不到則返回球隊 ID 本身
+ */
+export async function getTeamNameById(teamId: string): Promise<string> {
+  try {
+    // 如果快取不存在，載入球隊資訊
+    if (!teamsCache) {
+      teamsCache = await loadAllTeams();
+    }
+
+    // 根據球隊 ID 尋找對應的球隊資訊
+    const team = teamsCache.find(t => t.id === teamId);
+
+    // 如果找到就返回 name，否則返回原始 ID
+    return team?.name || teamId;
+  } catch (error) {
+    console.error(`Failed to get team name for ${teamId}:`, error);
+    return teamId;
+  }
+}
+
+/**
+ * 根據球隊名稱取得球隊圖標 URL
+ * @param teamName 球隊名稱
+ * @returns 球隊圖標 URL，如果找不到則返回 undefined
+ */
+export async function getTeamIcon(teamName: string): Promise<string | undefined> {
+  try {
+    // 如果快取不存在，載入球隊資訊
+    if (!teamsCache) {
+      teamsCache = await loadAllTeams();
+    }
+
+    // 根據球隊名稱尋找對應的球隊資訊
+    const team = teamsCache.find(t => t.name === teamName);
+
+    return team?.iconUrl;
+  } catch (error) {
+    console.error(`Failed to get team icon for ${teamName}:`, error);
+    return undefined;
+  }
+}
+
+/**
+ * 批量取得多個球隊的圖標 URL
+ * @param teamNames 球隊名稱陣列
+ * @returns 球隊名稱到圖標 URL 的映射
+ */
+export async function getTeamIcons(teamNames: string[]): Promise<Map<string, string>> {
+  const iconMap = new Map<string, string>();
+
+  try {
+    if (!teamsCache) {
+      teamsCache = await loadAllTeams();
+    }
+
+    for (const teamName of teamNames) {
+      const team = teamsCache.find(t => t.name === teamName);
+      if (team?.iconUrl) {
+        iconMap.set(teamName, team.iconUrl);
+      }
+    }
+  } catch (error) {
+    console.error('Failed to get team icons:', error);
+  }
+
+  return iconMap;
+}
+
+/**
+ * 根據球隊 ID 取得球隊圖標 URL
+ * @param teamId 球隊 ID
+ * @returns 球隊圖標 URL，如果找不到則返回 undefined
+ */
+export async function getTeamIconById(teamId: string): Promise<string | undefined> {
+  try {
+    // 如果快取不存在，載入球隊資訊
+    if (!teamsCache) {
+      teamsCache = await loadAllTeams();
+    }
+
+    // 根據球隊 ID 尋找對應的球隊資訊
+    const team = teamsCache.find(t => t.id === teamId);
+
+    return team?.iconUrl;
+  } catch (error) {
+    console.error(`Failed to get team icon for ${teamId}:`, error);
+    return undefined;
+  }
+}
+
+/**
+ * 批量取得多個球隊的圖標 URL（根據 ID）
+ * @param teamIds 球隊 ID 陣列
+ * @returns 球隊 ID 到圖標 URL 的映射
+ */
+export async function getTeamIconsByIds(teamIds: string[]): Promise<Map<string, string>> {
+  const iconMap = new Map<string, string>();
+
+  try {
+    if (!teamsCache) {
+      teamsCache = await loadAllTeams();
+    }
+
+    for (const teamId of teamIds) {
+      const team = teamsCache.find(t => t.id === teamId);
+      if (team?.iconUrl) {
+        iconMap.set(teamId, team.iconUrl);
+      }
+    }
+  } catch (error) {
+    console.error('Failed to get team icons by ids:', error);
+  }
+
+  return iconMap;
 }

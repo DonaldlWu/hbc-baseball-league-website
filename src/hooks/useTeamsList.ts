@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { getAvailableYears, loadSeasonSummary, extractTeamsFromSeason } from '@/src/lib/dataLoader';
+import { getAvailableYears, loadSeasonSummary, extractTeamsFromSeason, getTeamIcons } from '@/src/lib/dataLoader';
 import type { TeamSummary } from '@/src/types';
 
 export interface UseTeamsListReturn {
@@ -79,8 +79,18 @@ export function useTeamsList(initialYear?: number): UseTeamsListReturn {
         const summary = await loadSeasonSummary(year);
         const teamsList = extractTeamsFromSeason(summary);
 
+        // 載入球隊圖標
+        const teamNames = teamsList.map(t => t.teamName);
+        const iconMap = await getTeamIcons(teamNames);
+
+        // 將圖標資訊整合到球隊列表
+        const teamsWithIcons = teamsList.map(team => ({
+          ...team,
+          iconUrl: iconMap.get(team.teamName),
+        }));
+
         if (mounted) {
-          setTeams(teamsList);
+          setTeams(teamsWithIcons);
           setLoading(false);
         }
       } catch (err) {

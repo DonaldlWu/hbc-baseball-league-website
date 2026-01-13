@@ -1,9 +1,9 @@
 {
   "year": 2009,
-  "lastUpdated": "2026-01-13T06:52:52.086Z",
+  "lastUpdated": "2026-01-13T13:09:05.251Z",
   "teams": {
-    "冒險家": {
-      "teamId": "冒險家",
+    "ADV": {
+      "teamId": "ADV",
       "teamName": "冒險家",
       "stats": {
         "totalPlayers": 29,
@@ -1534,8 +1534,8 @@
         }
       ]
     },
-    "allstar": {
-      "teamId": "allstar",
+    "ALL": {
+      "teamId": "ALL",
       "teamName": "ALLSTAR",
       "stats": {
         "totalPlayers": 41,
@@ -3630,8 +3630,8 @@
         }
       ]
     },
-    "黑名單": {
-      "teamId": "黑名單",
+    "BLA": {
+      "teamId": "BLA",
       "teamName": "黑名單",
       "stats": {
         "totalPlayers": 29,
@@ -5234,8 +5234,8 @@
         }
       ]
     },
-    "force": {
-      "teamId": "force",
+    "FET": {
+      "teamId": "FET",
       "teamName": "FORCE",
       "stats": {
         "totalPlayers": 42,
@@ -7447,8 +7447,8 @@
         }
       ]
     },
-    "miracle": {
-      "teamId": "miracle",
+    "Miracle": {
+      "teamId": "Miracle",
       "teamName": "Miracle",
       "stats": {
         "totalPlayers": 34,

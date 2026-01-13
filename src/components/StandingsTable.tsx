@@ -1,6 +1,8 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
+import { getTeamIconsByIds } from '@/src/lib/dataLoader';
 import type { TeamRecord } from '@/src/types';
 
 interface StandingsTableProps {
@@ -10,6 +12,20 @@ interface StandingsTableProps {
 
 export default function StandingsTable({ teams, year }: StandingsTableProps) {
   const router = useRouter();
+  const [teamIcons, setTeamIcons] = useState<Map<string, string>>(new Map());
+  const [imageErrors, setImageErrors] = useState<Record<string, boolean>>({});
+
+  useEffect(() => {
+    async function loadIcons() {
+      if (teams.length === 0) return;
+
+      const teamIds = teams.map(t => t.teamId);
+      const iconMap = await getTeamIconsByIds(teamIds);
+      setTeamIcons(iconMap);
+    }
+
+    loadIcons();
+  }, [teams]);
 
   if (teams.length === 0) {
     return (
@@ -21,6 +37,10 @@ export default function StandingsTable({ teams, year }: StandingsTableProps) {
 
   const handleRowClick = (teamId: string) => {
     router.push(`/teams/${teamId}?year=${year}`);
+  };
+
+  const handleImageError = (teamId: string) => {
+    setImageErrors(prev => ({ ...prev, [teamId]: true }));
   };
 
   return (
@@ -60,7 +80,23 @@ export default function StandingsTable({ teams, year }: StandingsTableProps) {
             >
               <td className="px-4 py-3 text-sm text-gray-900">{team.rank}</td>
               <td className="px-4 py-3 text-sm font-medium text-gray-900">
-                {team.teamName}
+                <div className="flex items-center gap-2">
+                  {teamIcons.get(team.teamId) && !imageErrors[team.teamId] ? (
+                    <img
+                      src={`/${teamIcons.get(team.teamId)}`}
+                      alt={`${team.teamName} 圖標`}
+                      className="h-6 w-6 object-contain"
+                      onError={() => handleImageError(team.teamId)}
+                    />
+                  ) : (
+                    <div className="h-6 w-6 rounded bg-gray-100 flex items-center justify-center flex-shrink-0">
+                      <span className="text-xs font-bold text-gray-400">
+                        {team.teamName.substring(0, 1)}
+                      </span>
+                    </div>
+                  )}
+                  <span>{team.teamName}</span>
+                </div>
               </td>
               <td className="px-4 py-3 text-sm text-center text-gray-900">
                 {team.wins}

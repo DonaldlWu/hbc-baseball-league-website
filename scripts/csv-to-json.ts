@@ -184,6 +184,21 @@ export function calculateLeagueStats(players: any[], year: number): LeagueStats 
 async function main() {
   console.log('🚀 開始轉換 CSV 到 JSON...');
 
+  // 讀取 all_teams.json 建立名稱到 ID 的映射
+  const allTeamsPath = path.join(process.cwd(), 'public/data/all_teams.json');
+  let teamNameToIdMap: Map<string, string> = new Map();
+
+  try {
+    const allTeamsContent = await fs.readFile(allTeamsPath, 'utf-8');
+    const allTeams = JSON.parse(allTeamsContent);
+    allTeams.forEach((team: any) => {
+      teamNameToIdMap.set(team.name, team.id);
+    });
+    console.log(`✅ 載入 ${teamNameToIdMap.size} 個球隊映射`);
+  } catch (error) {
+    console.warn('⚠️ 無法載入 all_teams.json，將使用球隊名稱作為 ID');
+  }
+
   // 讀取 CSV
   const csvPath = path.join(process.cwd(), 'data/raw/data.csv');
   const csvContent = await fs.readFile(csvPath, 'utf-8');
@@ -240,7 +255,8 @@ async function main() {
     };
 
     for (const [teamName, teamPlayers] of Object.entries(byTeam)) {
-      const teamId = teamName.toLowerCase().replace(/\s+/g, '-');
+      // 使用 all_teams.json 中的正確 teamId
+      const teamId = teamNameToIdMap.get(teamName) || teamName;
       summary.teams[teamId] = {
         teamId,
         teamName,

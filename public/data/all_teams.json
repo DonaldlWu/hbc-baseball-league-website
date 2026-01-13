@@ -1,0 +1,655 @@
+[
+  {
+    "id": "GEO",
+    "name": "十號馬",
+    "iconUrl": "assets/teams/GEO.png",
+    "yearsActive": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  {
+    "id": "SHA",
+    "name": "少林棒球隊",
+    "iconUrl": "assets/teams/SHA.png",
+    "yearsActive": [
+      2025
+    ]
+  },
+  {
+    "id": "CBC",
+    "name": "日促會",
+    "iconUrl": "assets/teams/CBC.png",
+    "yearsActive": [
+      2015
+    ]
+  },
+  {
+    "id": "MUZ",
+    "name": "木柵OB",
+    "iconUrl": "assets/teams/MUZ.png",
+    "yearsActive": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  {
+    "id": "EAG",
+    "name": "火把老鷹",
+    "iconUrl": "assets/teams/EAG.png",
+    "yearsActive": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  {
+    "id": "SHU",
+    "name": "世新超乙組",
+    "iconUrl": "assets/teams/SHU.png",
+    "yearsActive": [
+      2024,
+      2025
+    ]
+  },
+  {
+    "id": "TTE",
+    "name": "北科大",
+    "iconUrl": "assets/teams/TTE.png",
+    "yearsActive": [
+      2015,
+      2016,
+      2017
+    ]
+  },
+  {
+    "id": "NTU",
+    "name": "台大化工OB",
+    "iconUrl": "assets/teams/NTU.png",
+    "yearsActive": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ]
+  },
+  {
+    "id": "GEO-2016",
+    "name": "台大地理OB",
+    "iconUrl": "assets/teams/GEO-2016.png",
+    "yearsActive": [
+      2016,
+      2017,
+      2018,
+      2019
+    ]
+  },
+  {
+    "id": "NTE",
+    "name": "台大經濟OB",
+    "iconUrl": "assets/teams/NTE.png",
+    "yearsActive": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  {
+    "id": "NTM-2014",
+    "name": "台大機械",
+    "iconUrl": "assets/teams/NTM-2014.png",
+    "yearsActive": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  },
+  {
+    "id": "NTH",
+    "name": "台大醫學院棒",
+    "iconUrl": "assets/teams/NTH.png",
+    "yearsActive": [
+      2025
+    ]
+  },
+  {
+    "id": "NTP",
+    "name": "台北大學",
+    "iconUrl": "assets/teams/NTP.png",
+    "yearsActive": [
+      2019,
+      2020,
+      2021
+    ]
+  },
+  {
+    "id": "TWU",
+    "name": "台科大",
+    "iconUrl": "assets/teams/TWU.png",
+    "yearsActive": [
+      2024
+    ]
+  },
+  {
+    "id": "PMA",
+    "name": "戊戍本一家",
+    "iconUrl": "assets/teams/PMA.png",
+    "yearsActive": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ]
+  },
+  {
+    "id": "YCT",
+    "name": "永春TB",
+    "iconUrl": "assets/teams/YCT.png",
+    "yearsActive": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  {
+    "id": "REV-2014",
+    "name": "自轉星球",
+    "iconUrl": "assets/teams/REV-2014.png",
+    "yearsActive": [
+      2014,
+      2015,
+      2016
+    ]
+  },
+  {
+    "id": "REV-2017",
+    "name": "自轉棒球",
+    "iconUrl": "assets/teams/REV-2017.png",
+    "yearsActive": [
+      2017
+    ]
+  },
+  {
+    "id": "COL",
+    "name": "冷鋒",
+    "iconUrl": "assets/teams/COL.png",
+    "yearsActive": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018
+    ]
+  },
+  {
+    "id": "VOL",
+    "name": "志願者",
+    "iconUrl": "assets/teams/VOL.png",
+    "yearsActive": [
+      2010
+    ]
+  },
+  {
+    "id": "ARR",
+    "name": "亞克鷹",
+    "iconUrl": "assets/teams/ARR.png",
+    "yearsActive": [
+      2012,
+      2013,
+      2014,
+      2015
+    ]
+  },
+  {
+    "id": "MOR-2021",
+    "name": "京盛宇",
+    "iconUrl": "assets/teams/MOR-2021.png",
+    "yearsActive": [
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  },
+  {
+    "id": "ADV",
+    "name": "冒險家",
+    "iconUrl": "assets/teams/ADV.png",
+    "yearsActive": [
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ]
+  },
+  {
+    "id": "NAN-2011",
+    "name": "南港高工OB",
+    "iconUrl": "assets/teams/NAN-2011.png",
+    "yearsActive": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+    ]
+  },
+  {
+    "id": "PHE",
+    "name": "飛尼克斯",
+    "iconUrl": "assets/teams/PHE.png",
+    "yearsActive": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  {
+    "id": "NTO",
+    "name": "海洋大學",
+    "iconUrl": "assets/teams/NTO.png",
+    "yearsActive": [
+      2020,
+      2021,
+      2022,
+      2023
+    ]
+  },
+  {
+    "id": "REV",
+    "name": "逆轉星球",
+    "iconUrl": "assets/teams/REV.png",
+    "yearsActive": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  {
+    "id": "SWD",
+    "name": "甜心暴龍",
+    "iconUrl": "assets/teams/SWD.png",
+    "yearsActive": [
+      2025
+    ]
+  },
+  {
+    "id": "MOR",
+    "name": "莫拉克",
+    "iconUrl": "assets/teams/MOR.png",
+    "yearsActive": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2025
+    ]
+  },
+  {
+    "id": "HUA",
+    "name": "華江OB",
+    "iconUrl": "assets/teams/HUA.png",
+    "yearsActive": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  {
+    "id": "YAN",
+    "name": "陽明OB",
+    "iconUrl": "assets/teams/YAN.png",
+    "yearsActive": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  {
+    "id": "BLA",
+    "name": "黑名單",
+    "iconUrl": "assets/teams/BLA.png",
+    "yearsActive": [
+      2009,
+      2010
+    ]
+  },
+  {
+    "id": "TRO",
+    "name": "楚奧特",
+    "iconUrl": "assets/teams/TRO.png",
+    "yearsActive": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  {
+    "id": "KUP",
+    "name": "極品酷寶",
+    "iconUrl": "assets/teams/KUP.png",
+    "yearsActive": [
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  },
+  {
+    "id": "KNI",
+    "name": "聖騎士",
+    "iconUrl": "assets/teams/KNI.png",
+    "yearsActive": [
+      2020
+    ]
+  },
+  {
+    "id": "LOU-2019",
+    "name": "路易莎咖啡",
+    "iconUrl": "assets/teams/LOU-2019.png",
+    "yearsActive": [
+      2019,
+      2020,
+      2021,
+      2022
+    ]
+  },
+  {
+    "id": "SCO",
+    "name": "實踐OB",
+    "iconUrl": "assets/teams/SCO.png",
+    "yearsActive": [
+      2024,
+      2025
+    ]
+  },
+  {
+    "id": "WIN",
+    "name": "颶風",
+    "iconUrl": "assets/teams/WIN.png",
+    "yearsActive": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ]
+  },
+  {
+    "id": "ACE",
+    "name": "ACES",
+    "iconUrl": "assets/teams/ACE.png",
+    "yearsActive": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  {
+    "id": "ALL",
+    "name": "ALLSTAR",
+    "iconUrl": "assets/teams/ALL.png",
+    "yearsActive": [
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ]
+  },
+  {
+    "id": "DHW",
+    "name": "DH戰將",
+    "iconUrl": "assets/teams/DHW.png",
+    "yearsActive": [
+      2025
+    ]
+  },
+  {
+    "id": "FET",
+    "name": "FORCE",
+    "iconUrl": "assets/teams/FET.png",
+    "yearsActive": [
+      2009,
+      2010
+    ]
+  },
+  {
+    "id": "HOL",
+    "name": "HOLYBAT",
+    "iconUrl": "assets/teams/HOL.png",
+    "yearsActive": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  {
+    "id": "ROO",
+    "name": "Line Drive",
+    "iconUrl": "assets/teams/ROO.png",
+    "yearsActive": [
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  {
+    "id": "NTM",
+    "name": "Mechanics",
+    "iconUrl": "assets/teams/NTM.png",
+    "yearsActive": [
+      2025
+    ]
+  },
+  {
+    "id": "MIR",
+    "name": "MIRACLE",
+    "iconUrl": "assets/teams/MIR.png",
+    "yearsActive": [
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  {
+    "id": "MIX",
+    "name": "MIX",
+    "iconUrl": "assets/teams/MIX.png",
+    "yearsActive": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ]
+  },
+  {
+    "id": "ROO-2012",
+    "name": "ROOKIES",
+    "iconUrl": "assets/teams/ROO-2012.png",
+    "yearsActive": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ]
+  },
+  {
+    "id": "NAN-2016",
+    "name": "Synergy",
+    "iconUrl": "assets/teams/NAN-2016.png",
+    "yearsActive": [
+      2016,
+      2017
+    ]
+  },
+  {
+    "id": "BUD",
+    "name": "The Buddies",
+    "iconUrl": "assets/teams/BUD.png",
+    "yearsActive": [
+      2021
+    ]
+  },
+  {
+    "id": "LOU-2023",
+    "name": "Tsuyoi",
+    "iconUrl": "assets/teams/LOU-2023.png",
+    "yearsActive": [
+      2023
+    ]
+  }
+]

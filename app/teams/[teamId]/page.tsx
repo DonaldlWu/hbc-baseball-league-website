@@ -5,7 +5,7 @@ import { useParams, useRouter, useSearchParams } from 'next/navigation';
 import { TeamHeader } from '@/src/components/TeamHeader';
 import { PlayerCard } from '@/src/components/PlayerCard';
 import { PlayerModal } from '@/src/components/PlayerModal';
-import { getTeamPlayers, extractTeamsFromSeason, loadSeasonSummary, loadPlayerDetail } from '@/src/lib/dataLoader';
+import { getTeamPlayers, extractTeamsFromSeason, loadSeasonSummary, loadPlayerDetail, getTeamIcon } from '@/src/lib/dataLoader';
 import type { TeamSummary, PlayerSummary, Player, SeasonSummary } from '@/src/types';
 
 export default function TeamDetailPage() {
@@ -52,7 +52,10 @@ export default function TeamDetailPage() {
           throw new Error('無法載入球團資訊');
         }
 
-        setTeam(teamSummary);
+        // 載入球隊圖標
+        const iconUrl = await getTeamIcon(teamSummary.teamName);
+
+        setTeam({ ...teamSummary, iconUrl });
         setPlayers(teamData.players);
       } catch (err) {
         setError(err as Error);
