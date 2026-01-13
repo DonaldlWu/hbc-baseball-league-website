@@ -1,5 +1,5 @@
 // Jest globals (describe, it, expect) are automatically available
-import { renderHook, waitFor } from '@testing-library/react';
+import { renderHook, waitFor, act } from '@testing-library/react';
 import { usePlayerList } from '../usePlayerList';
 import { loadSeasonSummary } from '@/src/lib/dataLoader';
 import type { SeasonSummary } from '@/src/types';
@@ -245,7 +245,9 @@ describe('usePlayerList', () => {
         expect(result.current.loading).toBe(false);
       });
 
-      result.current.sortBy('avg', 'desc');
+      act(() => {
+        result.current.sortBy('avg', 'desc');
+      });
 
       await waitFor(() => {
         expect(result.current.players[0].seasonStats.avg).toBe(0.375);
@@ -262,7 +264,9 @@ describe('usePlayerList', () => {
         expect(result.current.loading).toBe(false);
       });
 
-      result.current.sortBy('avg', 'asc');
+      act(() => {
+        result.current.sortBy('avg', 'asc');
+      });
 
       await waitFor(() => {
         expect(result.current.players[0].seasonStats.avg).toBe(0.25);
@@ -279,7 +283,9 @@ describe('usePlayerList', () => {
         expect(result.current.loading).toBe(false);
       });
 
-      result.current.sortBy('hr', 'desc');
+      act(() => {
+        result.current.sortBy('hr', 'desc');
+      });
 
       await waitFor(() => {
         expect(result.current.players[0].seasonStats.hr).toBe(1);
@@ -299,7 +305,9 @@ describe('usePlayerList', () => {
 
       expect(mockLoadSeasonSummary).toHaveBeenCalledTimes(1);
 
-      result.current.refresh();
+      act(() => {
+        result.current.refresh();
+      });
 
       await waitFor(() => {
         expect(mockLoadSeasonSummary).toHaveBeenCalledTimes(2);
