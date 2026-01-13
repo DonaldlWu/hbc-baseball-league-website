@@ -32,12 +32,20 @@
         "sf": 0,
         "totalBases": 0
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 371,
         "hits": 1313,
         "hr": 916,
         "rbi": 249,
-        "avg": 903
+        "avg": 903,
+        "w": 120,
+        "sv": 90,
+        "so": 212,
+        "era": 903,
+        "whip": 903,
+        "fip": 0
       }
     }
   ]

@@ -33,12 +33,20 @@
         "sf": 0,
         "totalBases": 10
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 105,
         "hits": 139,
         "hr": 1430,
         "rbi": 60,
-        "avg": 1123
+        "avg": 1123,
+        "w": 210,
+        "sv": 160,
+        "so": 377,
+        "era": 1123,
+        "whip": 1123,
+        "fip": 0
       }
     },
     {
@@ -62,12 +70,20 @@
         "sf": 0,
         "totalBases": 2
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 439,
         "hits": 312,
         "hr": 1275,
         "rbi": 56,
-        "avg": 903
+        "avg": 903,
+        "w": 252,
+        "sv": 222,
+        "so": 344,
+        "era": 903,
+        "whip": 903,
+        "fip": 0
       }
     },
     {
@@ -91,12 +107,20 @@
         "sf": 0,
         "totalBases": 3
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 266,
         "hits": 214,
         "hr": 1251,
         "rbi": 234,
-        "avg": 896
+        "avg": 896,
+        "w": 82,
+        "sv": 53,
+        "so": 170,
+        "era": 896,
+        "whip": 896,
+        "fip": 0
       }
     },
     {
@@ -120,12 +144,44 @@
         "sf": 0,
         "totalBases": 5
       },
+      "pitching": {
+        "games": 2,
+        "ip": 2,
+        "bf": 18,
+        "so": 2,
+        "bb": 3,
+        "h": 9,
+        "hr": 0,
+        "r": 9,
+        "er": 9,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 40.5,
+        "whip": 6,
+        "fip": null,
+        "kPer9": 9,
+        "bbPer9": 13.5,
+        "hPer9": 40.5,
+        "csPercentage": 0
+      },
       "rankings": {
         "rc": 169,
         "hits": 246,
         "hr": 1240,
         "rbi": 351,
-        "avg": 943
+        "avg": 943,
+        "w": 1400,
+        "sv": 1359,
+        "so": 131,
+        "era": 943,
+        "whip": 226,
+        "fip": 0
       }
     },
     {
@@ -149,12 +205,44 @@
         "sf": 0,
         "totalBases": 9
       },
+      "pitching": {
+        "games": 2,
+        "ip": 4,
+        "bf": 26,
+        "so": 1,
+        "bb": 4,
+        "h": 9,
+        "hr": 0,
+        "r": 9,
+        "er": 4,
+        "w": 1,
+        "l": 1,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 9,
+        "whip": 3.25,
+        "fip": null,
+        "kPer9": 2.25,
+        "bbPer9": 9,
+        "hPer9": 20.25,
+        "csPercentage": 0
+      },
       "rankings": {
         "rc": 221,
         "hits": 188,
         "hr": 1481,
         "rbi": 217,
-        "avg": 1022
+        "avg": 1022,
+        "w": 56,
+        "sv": 1566,
+        "so": 229,
+        "era": 1022,
+        "whip": 259,
+        "fip": 0
       }
     },
     {
@@ -178,12 +266,20 @@
         "sf": 0,
         "totalBases": 1
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 587,
         "hits": 572,
         "hr": 1189,
         "rbi": 348,
-        "avg": 1101
+        "avg": 1101,
+        "w": 891,
+        "sv": 832,
+        "so": 1033,
+        "era": 1101,
+        "whip": 1101,
+        "fip": 0
       }
     },
     {
@@ -207,12 +303,44 @@
         "sf": 0,
         "totalBases": 3
       },
+      "pitching": {
+        "games": 1,
+        "ip": 1,
+        "bf": 10,
+        "so": 1,
+        "bb": 1,
+        "h": 3,
+        "hr": 0,
+        "r": 5,
+        "er": 3,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 27,
+        "whip": 4,
+        "fip": null,
+        "kPer9": 9,
+        "bbPer9": 9,
+        "hPer9": 27,
+        "csPercentage": 0
+      },
       "rankings": {
         "rc": 335,
         "hits": 370,
         "hr": 1293,
         "rbi": 341,
-        "avg": 917
+        "avg": 917,
+        "w": 1552,
+        "sv": 1519,
+        "so": 198,
+        "era": 917,
+        "whip": 235,
+        "fip": 0
       }
     },
     {
@@ -236,12 +364,20 @@
         "sf": 0,
         "totalBases": 4
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 361,
         "hits": 335,
         "hr": 1381,
         "rbi": 236,
-        "avg": 940
+        "avg": 940,
+        "w": 765,
+        "sv": 712,
+        "so": 876,
+        "era": 940,
+        "whip": 940,
+        "fip": 0
       }
     },
     {
@@ -265,12 +401,44 @@
         "sf": 2,
         "totalBases": 8
       },
+      "pitching": {
+        "games": 3,
+        "ip": 5.333333333,
+        "bf": 25,
+        "so": 6,
+        "bb": 3,
+        "h": 3,
+        "hr": 0,
+        "r": 5,
+        "er": 1,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 1.6875000001054687,
+        "whip": 1.1250000000703126,
+        "fip": null,
+        "kPer9": 10.125000000632813,
+        "bbPer9": 5.0625000003164065,
+        "hPer9": 5.0625000003164065,
+        "csPercentage": 0
+      },
       "rankings": {
         "rc": 169,
         "hits": 221,
         "hr": 854,
         "rbi": 144,
-        "avg": 340
+        "avg": 340,
+        "w": 635,
+        "sv": 583,
+        "so": 129,
+        "era": 139,
+        "whip": 139,
+        "fip": 0
       }
     },
     {
@@ -294,12 +462,44 @@
         "sf": 0,
         "totalBases": 4
       },
+      "pitching": {
+        "games": 4,
+        "ip": 7,
+        "bf": 40,
+        "so": 7,
+        "bb": 6,
+        "h": 12,
+        "hr": 1,
+        "r": 12,
+        "er": 10,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 12.857142857142858,
+        "whip": 2.5714285714285716,
+        "fip": null,
+        "kPer9": 9,
+        "bbPer9": 7.714285714285714,
+        "hPer9": 15.428571428571429,
+        "csPercentage": 0
+      },
       "rankings": {
         "rc": 328,
         "hits": 383,
         "hr": 602,
         "rbi": 328,
-        "avg": 349
+        "avg": 349,
+        "w": 629,
+        "sv": 590,
+        "so": 111,
+        "era": 119,
+        "whip": 119,
+        "fip": 0
       }
     },
     {
@@ -323,12 +523,44 @@
         "sf": 0,
         "totalBases": 4
       },
+      "pitching": {
+        "games": 9,
+        "ip": 21.33333333,
+        "bf": 136,
+        "so": 18,
+        "bb": 18,
+        "h": 33,
+        "hr": 0,
+        "r": 36,
+        "er": 16,
+        "w": 1,
+        "l": 1,
+        "sv": 2,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 6.750000001054688,
+        "whip": 2.3906250003735354,
+        "fip": 4.044,
+        "kPer9": 7.593750001186524,
+        "bbPer9": 7.593750001186524,
+        "hPer9": 13.921875002175295,
+        "csPercentage": 0
+      },
       "rankings": {
         "rc": 807,
         "hits": 374,
         "hr": 652,
         "rbi": 223,
-        "avg": 624
+        "avg": 624,
+        "w": 84,
+        "sv": 6,
+        "so": 47,
+        "era": 28,
+        "whip": 31,
+        "fip": 34
       }
     },
     {
@@ -352,12 +584,44 @@
         "sf": 0,
         "totalBases": 13
       },
+      "pitching": {
+        "games": 7,
+        "ip": 27.667,
+        "bf": 168,
+        "so": 11,
+        "bb": 35,
+        "h": 44,
+        "hr": 1,
+        "r": 43,
+        "er": 24,
+        "w": 0,
+        "l": 4,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 7.807134853796942,
+        "whip": 2.8553872844905483,
+        "fip": 6.67,
+        "kPer9": 3.5782701413235984,
+        "bbPer9": 11.38540499512054,
+        "hPer9": 14.313080565294394,
+        "csPercentage": 0
+      },
       "rankings": {
         "rc": 120,
         "hits": 103,
         "hr": 608,
         "rbi": 104,
-        "avg": 73
+        "avg": 73,
+        "w": 508,
+        "sv": 493,
+        "so": 60,
+        "era": 29,
+        "whip": 35,
+        "fip": 60
       }
     },
     {
@@ -381,12 +645,44 @@
         "sf": 1,
         "totalBases": 23
       },
+      "pitching": {
+        "games": 3,
+        "ip": 4.666666667,
+        "bf": 18,
+        "so": 3,
+        "bb": 2,
+        "h": 1,
+        "hr": 0,
+        "r": 3,
+        "er": 1,
+        "w": 1,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 1.9285714284336732,
+        "whip": 0.6428571428112244,
+        "fip": null,
+        "kPer9": 5.78571428530102,
+        "bbPer9": 3.8571428568673465,
+        "hPer9": 1.9285714284336732,
+        "csPercentage": 0
+      },
       "rankings": {
         "rc": 32,
         "hits": 29,
         "hr": 485,
         "rbi": 7,
-        "avg": 38
+        "avg": 38,
+        "w": 32,
+        "sv": 341,
+        "so": 93,
+        "era": 115,
+        "whip": 115,
+        "fip": 0
       }
     },
     {
@@ -410,12 +706,44 @@
         "sf": 1,
         "totalBases": 24
       },
+      "pitching": {
+        "games": 3,
+        "ip": 13.33333333,
+        "bf": 84,
+        "so": 8,
+        "bb": 14,
+        "h": 27,
+        "hr": 0,
+        "r": 23,
+        "er": 14,
+        "w": 1,
+        "l": 1,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 9.4500000023625,
+        "whip": 3.07500000076875,
+        "fip": 5.15,
+        "kPer9": 5.40000000135,
+        "bbPer9": 9.4500000023625,
+        "hPer9": 18.22500000455625,
+        "csPercentage": 0
+      },
       "rankings": {
         "rc": 23,
         "hits": 24,
         "hr": 352,
         "rbi": 12,
-        "avg": 38
+        "avg": 38,
+        "w": 31,
+        "sv": 252,
+        "so": 48,
+        "era": 102,
+        "whip": 102,
+        "fip": 34
       }
     },
     {
@@ -439,12 +767,44 @@
         "sf": 1,
         "totalBases": 22
       },
+      "pitching": {
+        "games": 4,
+        "ip": 5.333333333,
+        "bf": 36,
+        "so": 3,
+        "bb": 8,
+        "h": 10,
+        "hr": 0,
+        "r": 14,
+        "er": 5,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 8.437500000527344,
+        "whip": 3.3750000002109375,
+        "fip": null,
+        "kPer9": 5.0625000003164065,
+        "bbPer9": 13.50000000084375,
+        "hPer9": 16.875000001054687,
+        "csPercentage": 0
+      },
       "rankings": {
         "rc": 7,
         "hits": 13,
         "hr": 216,
         "rbi": 7,
-        "avg": 14
+        "avg": 14,
+        "w": 109,
+        "sv": 95,
+        "so": 48,
+        "era": 120,
+        "whip": 120,
+        "fip": 0
       }
     },
     {
@@ -468,12 +828,44 @@
         "sf": 1,
         "totalBases": 41
       },
+      "pitching": {
+        "games": 3,
+        "ip": 11,
+        "bf": 60,
+        "so": 5,
+        "bb": 7,
+        "h": 11,
+        "hr": 0,
+        "r": 12,
+        "er": 3,
+        "w": 0,
+        "l": 0,
+        "sv": 1,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 2.4545454545454546,
+        "whip": 1.6363636363636365,
+        "fip": 4.2,
+        "kPer9": 4.090909090909091,
+        "bbPer9": 5.7272727272727275,
+        "hPer9": 9,
+        "csPercentage": 0
+      },
       "rankings": {
         "rc": 3,
         "hits": 1,
         "hr": 216,
         "rbi": 10,
-        "avg": 6
+        "avg": 6,
+        "w": 114,
+        "sv": 13,
+        "so": 41,
+        "era": 120,
+        "whip": 120,
+        "fip": 17
       }
     },
     {
@@ -497,12 +889,44 @@
         "sf": 0,
         "totalBases": 19
       },
+      "pitching": {
+        "games": 9,
+        "ip": 27.00033333,
+        "bf": 144,
+        "so": 21,
+        "bb": 19,
+        "h": 35,
+        "hr": 1,
+        "r": 28,
+        "er": 15,
+        "w": 2,
+        "l": 1,
+        "sv": 1,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 4.999938272984276,
+        "whip": 1.9999753091937107,
+        "fip": 4.237,
+        "kPer9": 6.999913582177987,
+        "bbPer9": 6.333255145780083,
+        "hPer9": 11.666522636963311,
+        "csPercentage": 0
+      },
       "rankings": {
         "rc": 12,
         "hits": 19,
         "hr": 273,
         "rbi": 29,
-        "avg": 5
+        "avg": 5,
+        "w": 8,
+        "sv": 7,
+        "so": 12,
+        "era": 3,
+        "whip": 4,
+        "fip": 8
       }
     }
   ]

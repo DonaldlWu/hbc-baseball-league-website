@@ -59,8 +59,14 @@ export function PlayerCard({ player, onClick }: PlayerCardProps) {
             <span className="text-sm text-gray-500">#{player.number}</span>
           </div>
 
-          {/* 統計數據 - 第一行：打擊三圍 */}
-          <div className="mt-2 grid grid-cols-3 gap-2 text-sm">
+          {/* 統計數據 - 第一行：基本資訊 */}
+          <div className="mt-2 grid grid-cols-4 gap-2 text-sm">
+            <div>
+              <div className="text-xs text-gray-500">出賽</div>
+              <div className="font-semibold text-gray-900">
+                {player.seasonStats.games}
+              </div>
+            </div>
             <div>
               <div className="text-xs text-gray-500">AVG</div>
               <div className="font-semibold text-gray-900">

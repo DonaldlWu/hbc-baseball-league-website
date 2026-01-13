@@ -32,12 +32,44 @@
         "sf": 0,
         "totalBases": 14
       },
+      "pitching": {
+        "games": 1,
+        "ip": 2,
+        "bf": 12,
+        "so": 4,
+        "bb": 0,
+        "h": 4,
+        "hr": 0,
+        "r": 3,
+        "er": 1,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 4.5,
+        "whip": 2,
+        "fip": null,
+        "kPer9": 18,
+        "bbPer9": 0,
+        "hPer9": 18,
+        "csPercentage": 0
+      },
       "rankings": {
         "rc": 15,
         "hits": 8,
         "hr": 1311,
         "rbi": 21,
-        "avg": 1
+        "avg": 1,
+        "w": 1338,
+        "sv": 1306,
+        "so": 77,
+        "era": 896,
+        "whip": 241,
+        "fip": 0
       }
     },
     {
@@ -61,12 +93,20 @@
         "sf": 0,
         "totalBases": 0
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 700,
         "hits": 659,
         "hr": 207,
         "rbi": 572,
-        "avg": 943
+        "avg": 943,
+        "w": 465,
+        "sv": 425,
+        "so": 576,
+        "era": 943,
+        "whip": 943,
+        "fip": 0
       }
     },
     {
@@ -90,12 +130,44 @@
         "sf": 0,
         "totalBases": 0
       },
+      "pitching": {
+        "games": 1,
+        "ip": 4,
+        "bf": 19,
+        "so": 5,
+        "bb": 2,
+        "h": 4,
+        "hr": 0,
+        "r": 3,
+        "er": 0,
+        "w": 1,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 0,
+        "whip": 1.5,
+        "fip": null,
+        "kPer9": 11.25,
+        "bbPer9": 4.5,
+        "hPer9": 9,
+        "csPercentage": 0
+      },
       "rankings": {
         "rc": 770,
         "hits": 728,
         "hr": 181,
         "rbi": 662,
-        "avg": 1022
+        "avg": 1022,
+        "w": 54,
+        "sv": 1561,
+        "so": 134,
+        "era": 1022,
+        "whip": 197,
+        "fip": 0
       }
     }
   ]

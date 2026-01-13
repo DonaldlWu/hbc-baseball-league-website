@@ -15,6 +15,48 @@ export function parseCSVRow(row: any): any {
     return isNaN(parsed) ? 0 : parsed;
   };
 
+  // 投手數據
+  const ip = safeParseFloat(row['局數']);
+  const bf = safeParseInt(row['人次']);
+  const pitchingSO = safeParseInt(row['奪三振']);
+  const pitchingBB = safeParseInt(row['四死']);  // 投手的保送（被四死球）
+  const h = safeParseInt(row['被安打']);
+  const pitchingHR = safeParseInt(row['被HR']);
+  const r = safeParseInt(row['失分']);
+  const er = safeParseInt(row['責失']);
+  const pitchingGames = safeParseInt(row['出場']);
+  const w = safeParseInt(row['勝']);
+  const l = safeParseInt(row['負']);
+  const sv = safeParseInt(row['救援點']);
+  const hld = safeParseInt(row['和']);
+  const cs = safeParseInt(row['阻殺成功']);
+  const csAttempts = cs + safeParseInt(row['阻殺失敗']);
+
+  // 判斷是否有投球數據（局數 > 0）
+  const hasPitchingData = ip > 0;
+
+  // 計算投球數據
+  let pitchingCalculated = null;
+  if (hasPitchingData) {
+    const era = ip > 0 ? (er * 9) / ip : 0;
+    const whip = ip > 0 ? (h + pitchingBB) / ip : 0;
+    const fip = safeParseFloat(row['FIP數據']);
+    const kPer9 = ip > 0 ? (pitchingSO * 9) / ip : 0;
+    const bbPer9 = ip > 0 ? (pitchingBB * 9) / ip : 0;
+    const hPer9 = ip > 0 ? (h * 9) / ip : 0;
+    const csPercentage = csAttempts > 0 ? cs / csAttempts : 0;
+
+    pitchingCalculated = {
+      era,
+      whip,
+      fip: fip > 0 ? fip : null,
+      kPer9,
+      bbPer9,
+      hPer9,
+      csPercentage,
+    };
+  }
+
   return {
     id: row['聯盟編碼'] + row['年份'],
     code: row['聯盟編碼'],
@@ -40,6 +82,24 @@ export function parseCSVRow(row: any): any {
       sf: safeParseInt(row['犧打']),
       totalBases: safeParseInt(row['壘打數']),
     },
+    pitching: hasPitchingData ? {
+      games: pitchingGames,
+      ip,
+      bf,
+      so: pitchingSO,
+      bb: pitchingBB,
+      h,
+      hr: pitchingHR,
+      r,
+      er,
+      w,
+      l,
+      sv,
+      hld,
+      cs,
+      csAttempts,
+    } : null,
+    pitchingCalculated,
     advanced: {
       rc: safeParseFloat(row['RC數據']),
     },
@@ -49,6 +109,13 @@ export function parseCSVRow(row: any): any {
       hr: safeParseInt(row['全壘打排名']),
       rbi: safeParseInt(row['打點排名']),
       avg: safeParseInt(row['打擊率排名']),
+      // 投手排名
+      w: safeParseInt(row['勝排名']),
+      sv: safeParseInt(row['救援排名']),
+      so: safeParseInt(row['奪三振排名']),
+      era: safeParseInt(row['防禦率排名']),
+      whip: safeParseInt(row['WHIP排名']),
+      fip: safeParseInt(row['FIP排名']),
     },
   };
 }
@@ -60,6 +127,8 @@ export function transformPlayerData(rows: any[]): Player {
     team: row.team,
     number: row.number,
     batting: row.batting,
+    pitching: row.pitching,
+    pitchingCalculated: row.pitchingCalculated,
     rankings: row.rankings,
   }));
 
@@ -197,6 +266,10 @@ async function main() {
             kPct: 0,
             bbPct: 0,
           },
+          pitchingStats: p.pitching && p.pitchingCalculated ? {
+            ...p.pitching,
+            ...p.pitchingCalculated,
+          } : undefined,
           rankings: p.rankings,
         })),
       };

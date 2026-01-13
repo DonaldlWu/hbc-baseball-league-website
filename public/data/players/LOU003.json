@@ -32,12 +32,20 @@
         "sf": 0,
         "totalBases": 0
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 657,
         "hits": 615,
         "hr": 68,
         "rbi": 549,
-        "avg": 1022
+        "avg": 1022,
+        "w": 203,
+        "sv": 146,
+        "so": 333,
+        "era": 1022,
+        "whip": 1022,
+        "fip": 0
       }
     },
     {
@@ -61,12 +69,44 @@
         "sf": 0,
         "totalBases": 0
       },
+      "pitching": {
+        "games": 2,
+        "ip": 1.663,
+        "bf": 12,
+        "so": 2,
+        "bb": 1,
+        "h": 4,
+        "hr": 0,
+        "r": 4,
+        "er": 3,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 16.235718580877933,
+        "whip": 3.006614552014432,
+        "fip": null,
+        "kPer9": 10.823812387251953,
+        "bbPer9": 5.411906193625977,
+        "hPer9": 21.647624774503907,
+        "csPercentage": 0
+      },
       "rankings": {
         "rc": 1058,
         "hits": 1607,
         "hr": 1044,
         "rbi": 1531,
-        "avg": 1101
+        "avg": 1101,
+        "w": 1574,
+        "sv": 1514,
+        "so": 184,
+        "era": 1101,
+        "whip": 65,
+        "fip": 0
       }
     },
     {
@@ -90,12 +130,44 @@
         "sf": 2,
         "totalBases": 5
       },
+      "pitching": {
+        "games": 2,
+        "ip": 2.333,
+        "bf": 16,
+        "so": 2,
+        "bb": 4,
+        "h": 4,
+        "hr": 0,
+        "r": 3,
+        "er": 0,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 0,
+        "whip": 3.4290612944706385,
+        "fip": null,
+        "kPer9": 7.715387912558937,
+        "bbPer9": 15.430775825117873,
+        "hPer9": 15.430775825117873,
+        "csPercentage": 0
+      },
       "rankings": {
         "rc": 405,
         "hits": 338,
         "hr": 1439,
         "rbi": 253,
-        "avg": 917
+        "avg": 917,
+        "w": 1586,
+        "sv": 1551,
+        "so": 174,
+        "era": 917,
+        "whip": 96,
+        "fip": 0
       }
     }
   ]

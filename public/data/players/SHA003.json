@@ -32,12 +32,44 @@
         "sf": 0,
         "totalBases": 7
       },
+      "pitching": {
+        "games": 1,
+        "ip": 0.6666666667,
+        "bf": 6,
+        "so": 0,
+        "bb": 4,
+        "h": 0,
+        "hr": 0,
+        "r": 1,
+        "er": 0,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 0,
+        "whip": 5.9999999997,
+        "fip": null,
+        "kPer9": 0,
+        "bbPer9": 53.9999999973,
+        "hPer9": 0,
+        "csPercentage": 0
+      },
       "rankings": {
         "rc": 264,
         "hits": 248,
         "hr": 1364,
         "rbi": 226,
-        "avg": 1123
+        "avg": 1123,
+        "w": 1360,
+        "sv": 1310,
+        "so": 1520,
+        "era": 1123,
+        "whip": 121,
+        "fip": 0
       }
     }
   ]

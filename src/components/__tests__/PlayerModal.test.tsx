@@ -344,8 +344,10 @@ describe('PlayerModal', () => {
 
       render(<PlayerModal player={playerWithoutPhoto} isOpen={true} onClose={mockOnClose} />);
 
-      const image = screen.getByAltText('陳重任');
-      expect(image).toHaveAttribute('src', '/default-avatar.png');
+      // 應該顯示球員名字首字母作為頭像
+      expect(screen.getByText('陳')).toBeInTheDocument();
+      // 不應該有 img 元素（因為沒有照片）
+      expect(screen.queryByAltText('陳重任')).not.toBeInTheDocument();
     });
 
     it('應該處理長球團名稱列表', () => {

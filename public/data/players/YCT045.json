@@ -32,12 +32,20 @@
         "sf": 0,
         "totalBases": 0
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 784,
         "hits": 694,
         "hr": 171,
         "rbi": 640,
-        "avg": 1123
+        "avg": 1123,
+        "w": 356,
+        "sv": 306,
+        "so": 523,
+        "era": 1123,
+        "whip": 1123,
+        "fip": 0
       }
     },
     {
@@ -61,12 +69,20 @@
         "sf": 0,
         "totalBases": 0
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 600,
         "hits": 569,
         "hr": 157,
         "rbi": 502,
-        "avg": 903
+        "avg": 903,
+        "w": 383,
+        "sv": 353,
+        "so": 475,
+        "era": 903,
+        "whip": 903,
+        "fip": 0
       }
     },
     {
@@ -90,12 +106,20 @@
         "sf": 0,
         "totalBases": 4
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 172,
         "hits": 134,
         "hr": 1126,
         "rbi": 136,
-        "avg": 896
+        "avg": 896,
+        "w": 270,
+        "sv": 241,
+        "so": 358,
+        "era": 896,
+        "whip": 896,
+        "fip": 0
       }
     },
     {
@@ -119,12 +143,20 @@
         "sf": 0,
         "totalBases": 0
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 632,
         "hits": 614,
         "hr": 112,
         "rbi": 552,
-        "avg": 940
+        "avg": 940,
+        "w": 251,
+        "sv": 198,
+        "so": 362,
+        "era": 940,
+        "whip": 940,
+        "fip": 0
       }
     },
     {
@@ -148,12 +180,20 @@
         "sf": 0,
         "totalBases": 0
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 543,
         "hits": 522,
         "hr": 61,
         "rbi": 479,
-        "avg": 624
+        "avg": 624,
+        "w": 0,
+        "sv": 0,
+        "so": 0,
+        "era": 0,
+        "whip": 0,
+        "fip": 0
       }
     }
   ]

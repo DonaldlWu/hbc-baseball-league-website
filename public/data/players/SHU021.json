@@ -32,12 +32,20 @@
         "sf": 0,
         "totalBases": 3
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 339,
         "hits": 397,
         "hr": 1186,
         "rbi": 1511,
-        "avg": 1123
+        "avg": 1123,
+        "w": 243,
+        "sv": 193,
+        "so": 410,
+        "era": 1123,
+        "whip": 1123,
+        "fip": 0
       }
     },
     {
@@ -61,12 +69,20 @@
         "sf": 0,
         "totalBases": 1
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 327,
         "hits": 332,
         "hr": 924,
         "rbi": 163,
-        "avg": 903
+        "avg": 903,
+        "w": 270,
+        "sv": 240,
+        "so": 362,
+        "era": 903,
+        "whip": 903,
+        "fip": 0
       }
     }
   ]

@@ -33,12 +33,20 @@
         "sf": 0,
         "totalBases": 3
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 148,
         "hits": 200,
         "hr": 1214,
         "rbi": 322,
-        "avg": 896
+        "avg": 896,
+        "w": 765,
+        "sv": 736,
+        "so": 853,
+        "era": 896,
+        "whip": 896,
+        "fip": 0
       }
     },
     {
@@ -62,12 +70,20 @@
         "sf": 1,
         "totalBases": 5
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 256,
         "hits": 217,
         "hr": 1116,
         "rbi": 177,
-        "avg": 943
+        "avg": 943,
+        "w": 150,
+        "sv": 110,
+        "so": 261,
+        "era": 943,
+        "whip": 943,
+        "fip": 0
       }
     },
     {
@@ -91,12 +107,20 @@
         "sf": 0,
         "totalBases": 14
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 229,
         "hits": 191,
         "hr": 1502,
         "rbi": 48,
-        "avg": 1022
+        "avg": 1022,
+        "w": 220,
+        "sv": 163,
+        "so": 350,
+        "era": 1022,
+        "whip": 1022,
+        "fip": 0
       }
     },
     {
@@ -120,12 +144,20 @@
         "sf": 0,
         "totalBases": 0
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 1067,
         "hits": 1658,
         "hr": 1176,
         "rbi": 1605,
-        "avg": 1101
+        "avg": 1101,
+        "w": 253,
+        "sv": 194,
+        "so": 395,
+        "era": 1101,
+        "whip": 1101,
+        "fip": 0
       }
     },
     {
@@ -149,12 +181,20 @@
         "sf": 0,
         "totalBases": 3
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 324,
         "hits": 400,
         "hr": 1452,
         "rbi": 367,
-        "avg": 917
+        "avg": 917,
+        "w": 609,
+        "sv": 575,
+        "so": 745,
+        "era": 917,
+        "whip": 917,
+        "fip": 0
       }
     }
   ]

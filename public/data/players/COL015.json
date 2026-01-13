@@ -33,12 +33,20 @@
         "sf": 0,
         "totalBases": 16
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 97,
         "hits": 74,
         "hr": 15,
         "rbi": 47,
-        "avg": 1123
+        "avg": 1123,
+        "w": 208,
+        "sv": 158,
+        "so": 375,
+        "era": 1123,
+        "whip": 1123,
+        "fip": 0
       }
     },
     {
@@ -62,12 +70,20 @@
         "sf": 1,
         "totalBases": 13
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 29,
         "hits": 18,
         "hr": 1362,
         "rbi": 10,
-        "avg": 17
+        "avg": 17,
+        "w": 248,
+        "sv": 218,
+        "so": 340,
+        "era": 903,
+        "whip": 903,
+        "fip": 0
       }
     },
     {
@@ -91,12 +107,44 @@
         "sf": 0,
         "totalBases": 12
       },
+      "pitching": {
+        "games": 1,
+        "ip": 1,
+        "bf": 11,
+        "so": 0,
+        "bb": 3,
+        "h": 5,
+        "hr": 0,
+        "r": 5,
+        "er": 5,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 45,
+        "whip": 8,
+        "fip": null,
+        "kPer9": 0,
+        "bbPer9": 27,
+        "hPer9": 45,
+        "csPercentage": 0
+      },
       "rankings": {
         "rc": 39,
         "hits": 32,
         "hr": 1393,
         "rbi": 29,
-        "avg": 55
+        "avg": 55,
+        "w": 1324,
+        "sv": 1293,
+        "so": 1393,
+        "era": 896,
+        "whip": 188,
+        "fip": 0
       }
     },
     {
@@ -120,12 +168,20 @@
         "sf": 0,
         "totalBases": 7
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 203,
         "hits": 142,
         "hr": 1298,
         "rbi": 91,
-        "avg": 943
+        "avg": 943,
+        "w": 88,
+        "sv": 48,
+        "so": 199,
+        "era": 943,
+        "whip": 943,
+        "fip": 0
       }
     },
     {
@@ -149,12 +205,20 @@
         "sf": 2,
         "totalBases": 22
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 66,
         "hits": 55,
         "hr": 1648,
         "rbi": 78,
-        "avg": 60
+        "avg": 60,
+        "w": 120,
+        "sv": 63,
+        "so": 250,
+        "era": 1022,
+        "whip": 1022,
+        "fip": 0
       }
     },
     {
@@ -178,12 +242,20 @@
         "sf": 1,
         "totalBases": 7
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 194,
         "hits": 275,
         "hr": 1482,
         "rbi": 209,
-        "avg": 1101
+        "avg": 1101,
+        "w": 144,
+        "sv": 85,
+        "so": 286,
+        "era": 1101,
+        "whip": 1101,
+        "fip": 0
       }
     },
     {
@@ -207,12 +279,20 @@
         "sf": 0,
         "totalBases": 18
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 156,
         "hits": 93,
         "hr": 1580,
         "rbi": 152,
-        "avg": 71
+        "avg": 71,
+        "w": 686,
+        "sv": 633,
+        "so": 797,
+        "era": 940,
+        "whip": 940,
+        "fip": 0
       }
     },
     {
@@ -236,12 +316,20 @@
         "sf": 0,
         "totalBases": 17
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 239,
         "hits": 235,
         "hr": 49,
         "rbi": 131,
-        "avg": 133
+        "avg": 133,
+        "w": 0,
+        "sv": 0,
+        "so": 0,
+        "era": 0,
+        "whip": 0,
+        "fip": 0
       }
     },
     {
@@ -265,12 +353,20 @@
         "sf": 0,
         "totalBases": 23
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 56,
         "hits": 59,
         "hr": 915,
         "rbi": 154,
-        "avg": 58
+        "avg": 58,
+        "w": 0,
+        "sv": 0,
+        "so": 0,
+        "era": 0,
+        "whip": 0,
+        "fip": 0
       }
     },
     {
@@ -294,12 +390,20 @@
         "sf": 3,
         "totalBases": 26
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 62,
         "hits": 71,
         "hr": 48,
         "rbi": 63,
-        "avg": 71
+        "avg": 71,
+        "w": 0,
+        "sv": 0,
+        "so": 0,
+        "era": 0,
+        "whip": 0,
+        "fip": 0
       }
     },
     {
@@ -323,12 +427,20 @@
         "sf": 3,
         "totalBases": 33
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 12,
         "hits": 12,
         "hr": 676,
         "rbi": 2,
-        "avg": 38
+        "avg": 38,
+        "w": 0,
+        "sv": 0,
+        "so": 0,
+        "era": 0,
+        "whip": 0,
+        "fip": 0
       }
     },
     {
@@ -352,12 +464,20 @@
         "sf": 0,
         "totalBases": 31
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 29,
         "hits": 19,
         "hr": 20,
         "rbi": 69,
-        "avg": 22
+        "avg": 22,
+        "w": 0,
+        "sv": 0,
+        "so": 0,
+        "era": 0,
+        "whip": 0,
+        "fip": 0
       }
     },
     {
@@ -381,12 +501,20 @@
         "sf": 0,
         "totalBases": 31
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 6,
         "hits": 8,
         "hr": 353,
         "rbi": 101,
-        "avg": 15
+        "avg": 15,
+        "w": 0,
+        "sv": 0,
+        "so": 0,
+        "era": 0,
+        "whip": 0,
+        "fip": 0
       }
     },
     {
@@ -410,12 +538,20 @@
         "sf": 0,
         "totalBases": 14
       },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 48,
         "hits": 39,
         "hr": 7,
         "rbi": 52,
-        "avg": 450
+        "avg": 450,
+        "w": 0,
+        "sv": 0,
+        "so": 0,
+        "era": 0,
+        "whip": 0,
+        "fip": 0
       }
     }
   ]

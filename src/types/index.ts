@@ -37,13 +37,45 @@ export interface WeightedStats {
   opsPlus: number | null; // OPS+
 }
 
+// 球員投球數據
+export interface PitchingStats {
+  games: number;          // 出場（投手）
+  ip: number;             // 局數
+  bf: number;             // 面對打者（人次）
+  so: number;             // 奪三振
+  bb: number;             // 四死球（保送）
+  h: number;              // 被安打
+  hr: number;             // 被全壘打
+  r: number;              // 失分
+  er: number;             // 責任失分
+  w: number;              // 勝
+  l: number;              // 敗
+  sv: number;             // 救援成功
+  hld: number;            // 中繼成功（和局）
+  cs: number;             // 阻殺成功
+  csAttempts: number;     // 阻殺嘗試
+}
+
+// 投球計算數據
+export interface PitchingCalculatedStats {
+  era: number;            // 防禦率
+  whip: number;           // WHIP
+  fip: number | null;     // FIP
+  kPer9: number;          // K/9
+  bbPer9: number;         // BB/9
+  hPer9: number;          // H/9
+  csPercentage: number;   // 阻殺率
+}
+
 // 球員單季數據
 export interface PlayerSeason {
   year: number;
   team: string;
   number: string;
   batting: BattingStats;
+  pitching?: PitchingStats;
   calculated?: CalculatedStats;
+  pitchingCalculated?: PitchingCalculatedStats;
   weighted?: WeightedStats;
   rankings: Record<string, number>;
 }
@@ -71,6 +103,7 @@ export interface PlayerSummary {
   photo: string;
   team: string;
   seasonStats: BattingStats & CalculatedStats;
+  pitchingStats?: PitchingStats & PitchingCalculatedStats;
   rankings: Record<string, number>;
 }
 
