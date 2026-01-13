@@ -1,5 +1,6 @@
-import { formatAvg } from '@/src/lib/formatters';
-import type { TeamSummary } from '@/src/types';
+import { useState } from "react";
+import { formatAvg } from "@/src/lib/formatters";
+import type { TeamSummary } from "@/src/types";
 
 interface TeamCardProps {
   team: TeamSummary;
@@ -23,16 +24,30 @@ interface TeamCardProps {
  * ```
  */
 export function TeamCard({ team, onClick }: TeamCardProps) {
+  const [imageError, setImageError] = useState(false);
+
   return (
     <button
       onClick={() => onClick?.(team)}
       className="w-full rounded-lg border border-gray-200 bg-white p-6 text-left shadow-sm transition-all hover:shadow-md hover:border-primary-500"
     >
-      {/* 球隊名稱 */}
-      <div className="mb-4">
-        <h3 className="text-2xl font-bold text-gray-900">
-          {team.teamName}
-        </h3>
+      {/* 球隊名稱與圖標 */}
+      <div className="mb-4 flex items-center gap-3">
+        {team.iconUrl && !imageError ? (
+          <img
+            src={`/${team.iconUrl}`}
+            alt={`${team.teamName} 圖標`}
+            className="h-12 w-12 object-contain"
+            onError={() => setImageError(true)}
+          />
+        ) : (
+          <div className="h-12 w-12 rounded-lg bg-gray-100 flex items-center justify-center">
+            <span className="text-xl font-bold text-gray-400">
+              {team.teamName.substring(0, 1)}
+            </span>
+          </div>
+        )}
+        <h3 className="text-2xl font-bold text-gray-900">{team.teamName}</h3>
       </div>
 
       {/* 統計數據 */}
@@ -45,7 +60,11 @@ export function TeamCard({ team, onClick }: TeamCardProps) {
         </div>
         <div>
           <div className="text-sm text-gray-500">隊平均</div>
-          <div className="text-2xl font-bold text-primary-600">
+          <div
+            className={`text-2xl font-bold ${
+              team.stats.avgBattingAvg > 0.25 ? "text-red-500" : "text-black"
+            }`}
+          >
             {formatAvg(team.stats.avgBattingAvg)}
           </div>
         </div>

@@ -107,7 +107,7 @@ export interface PlayerSummary {
   rankings: Record<string, number>;
 }
 
-// 球團資料
+// 球團資料（舊格式，保留向下相容）
 export interface Team {
   id: string;
   name: string;
@@ -121,6 +121,14 @@ export interface Team {
   };
 }
 
+// 球團資料（all_teams.json 格式）
+export interface TeamInfo {
+  id: string;
+  name: string;
+  iconUrl: string;
+  yearsActive: number[];
+}
+
 // 球團摘要（用於列表）
 export interface TeamSummary {
   teamId: string;
@@ -132,6 +140,7 @@ export interface TeamSummary {
     totalHomeRuns: number;
   };
   playerCount: number;
+  iconUrl?: string;  // 球隊圖標 URL
 }
 
 // 賽季摘要
