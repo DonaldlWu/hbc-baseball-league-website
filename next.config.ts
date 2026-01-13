@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'lh3.googleusercontent.com',
         port: '',
-        pathname: '/pw/**',
+        pathname: '/**', // 允許所有 Google Photos 路徑
       },
     ],
   },
