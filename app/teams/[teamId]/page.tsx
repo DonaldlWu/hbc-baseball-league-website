@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useParams, useRouter } from 'next/navigation';
+import { useParams, useRouter, useSearchParams } from 'next/navigation';
 import { TeamHeader } from '@/src/components/TeamHeader';
 import { PlayerCard } from '@/src/components/PlayerCard';
 import { PlayerModal } from '@/src/components/PlayerModal';
@@ -11,9 +11,13 @@ import type { TeamSummary, PlayerSummary, Player, SeasonSummary } from '@/src/ty
 export default function TeamDetailPage() {
   const params = useParams();
   const router = useRouter();
+  const searchParams = useSearchParams();
+
   // 解碼 URL 參數（處理中文球團名稱）
   const teamId = decodeURIComponent(params.teamId as string);
-  const year = 2025; // TODO: 從 query params 或 context 取得年份
+
+  // 從 URL query params 取得年份，如果沒有則使用當前年份
+  const year = Number(searchParams.get('year')) || new Date().getFullYear();
 
   const [team, setTeam] = useState<TeamSummary | null>(null);
   const [players, setPlayers] = useState<PlayerSummary[]>([]);

@@ -36,7 +36,8 @@ export default function TeamsPage() {
   }
 
   const handleTeamClick = (team: TeamSummary) => {
-    router.push(`/teams/${team.teamId}`);
+    // 帶上當前選擇的年份
+    router.push(`/teams/${team.teamId}?year=${year}`);
   };
 
   return (
