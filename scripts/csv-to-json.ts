@@ -241,7 +241,7 @@ async function main() {
   await fs.mkdir(path.join(outputDir, 'players'), { recursive: true });
 
   // 1. 生成各年度摘要
-  for (const [year, rows] of Object.entries(byYear)) {
+  for (const [year, rows] of Object.entries(byYear) as [string, any[]][]) {
     const byTeam = rows.reduce((acc, row) => {
       if (!acc[row.team]) acc[row.team] = [];
       acc[row.team].push(row);
@@ -254,7 +254,7 @@ async function main() {
       teams: {},
     };
 
-    for (const [teamName, teamPlayers] of Object.entries(byTeam)) {
+    for (const [teamName, teamPlayers] of Object.entries(byTeam) as [string, any[]][]) {
       // 使用 all_teams.json 中的正確 teamId
       const teamId = teamNameToIdMap.get(teamName) || teamName;
       summary.teams[teamId] = {
@@ -300,7 +300,7 @@ async function main() {
   }
 
   // 2. 生成球員詳細資料
-  for (const [code, rows] of Object.entries(byPlayer)) {
+  for (const [code, rows] of Object.entries(byPlayer) as [string, any[]][]) {
     const player = transformPlayerData(rows);
 
     await fs.writeFile(

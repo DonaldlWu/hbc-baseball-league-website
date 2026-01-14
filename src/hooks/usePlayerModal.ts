@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { loadPlayer } from '@/src/lib/dataLoader';
+import { loadPlayerDetail } from '@/src/lib/dataLoader';
 import type { Player } from '@/src/types';
 
 interface UsePlayerModalResult {
@@ -53,7 +53,7 @@ export function usePlayerModal(): UsePlayerModalResult {
       setLoading(true);
       setError(null);
 
-      const data = await loadPlayer(playerId);
+      const data = await loadPlayerDetail(playerId);
 
       setPlayer(data);
       setIsOpen(true);
