@@ -8,6 +8,9 @@ import {
   formatSeasonYear,
   formatPlayerName,
   formatStatValue,
+  parseGameNumber,
+  formatGameNumber,
+  displayGameNumber,
 } from '../formatters';
 
 describe('formatters', () => {
@@ -214,6 +217,65 @@ describe('formatters', () => {
     it('應該處理 null 值', () => {
       expect(formatStatValue('avg', null)).toBe('-');
       expect(formatStatValue('hr', null)).toBe('-');
+    });
+  });
+
+  // ============ gameNumber 格式化函數 ============
+
+  describe('parseGameNumber', () => {
+    it('應該正確解析 gameNumber 字串', () => {
+      const result = parseGameNumber('2025201');
+      expect(result).toEqual({ season: 2025, number: 201 });
+    });
+
+    it('應該正確解析不同場次編號', () => {
+      expect(parseGameNumber('202552')).toEqual({ season: 2025, number: 52 });
+      expect(parseGameNumber('2025142')).toEqual({ season: 2025, number: 142 });
+      expect(parseGameNumber('20241')).toEqual({ season: 2024, number: 1 });
+    });
+
+    it('應該處理無效的 gameNumber (返回 null)', () => {
+      expect(parseGameNumber('')).toBeNull();
+      expect(parseGameNumber('invalid')).toBeNull();
+      expect(parseGameNumber('123')).toBeNull(); // 太短
+    });
+
+    it('應該處理舊格式 "No.XXX" (返回 null)', () => {
+      expect(parseGameNumber('No.201')).toBeNull();
+      expect(parseGameNumber('No.52')).toBeNull();
+    });
+  });
+
+  describe('formatGameNumber', () => {
+    it('應該正確組合 season 和 number', () => {
+      expect(formatGameNumber(2025, 201)).toBe('2025201');
+      expect(formatGameNumber(2025, 52)).toBe('202552');
+      expect(formatGameNumber(2024, 1)).toBe('20241');
+    });
+
+    it('應該處理無效參數', () => {
+      expect(formatGameNumber(0, 201)).toBe('');
+      expect(formatGameNumber(2025, 0)).toBe('');
+      expect(formatGameNumber(-1, 201)).toBe('');
+      expect(formatGameNumber(2025, -1)).toBe('');
+    });
+  });
+
+  describe('displayGameNumber', () => {
+    it('應該將 gameNumber 轉換為友善顯示格式', () => {
+      expect(displayGameNumber('2025201')).toBe('No.201');
+      expect(displayGameNumber('202552')).toBe('No.52');
+      expect(displayGameNumber('2025142')).toBe('No.142');
+    });
+
+    it('應該處理無效的 gameNumber', () => {
+      expect(displayGameNumber('')).toBe('-');
+      expect(displayGameNumber('invalid')).toBe('-');
+    });
+
+    it('應該處理已是舊格式的 gameNumber（直接返回）', () => {
+      expect(displayGameNumber('No.201')).toBe('No.201');
+      expect(displayGameNumber('No.52')).toBe('No.52');
     });
   });
 });

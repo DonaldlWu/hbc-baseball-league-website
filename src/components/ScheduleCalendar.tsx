@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { useSchedule } from '@/src/hooks/useSchedule';
+import { displayGameNumber } from '@/src/lib/formatters';
 import type { Game, DaySchedule } from '@/src/types';
 
 /**
@@ -415,7 +416,7 @@ function GameCard({ game, highlightTeam }: { game: Game; highlightTeam?: string 
         <div className="flex-1">
           <div className="mb-2 flex items-center gap-2">
             <span className="text-xs font-medium text-gray-500">
-              {game.gameNumber}
+              {displayGameNumber(game.gameNumber)}
             </span>
             <span
               className={`rounded-full border px-2 py-0.5 text-xs font-medium ${timeSlotColors[game.timeSlot]}`}

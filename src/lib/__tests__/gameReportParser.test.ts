@@ -20,24 +20,24 @@ const mockCSV = `"","","","","","","","","","","","","","2026/1/10","","","","",
 describe('gameReportParser', () => {
   describe('parseGameReportCSV', () => {
     it('應該正確解析日期', () => {
-      const result = parseGameReportCSV(mockCSV, 'No.142', '中正A');
+      const result = parseGameReportCSV(mockCSV, '2025142', '中正A');
       expect(result.date).toBe('2026-1-10');
     });
 
     it('應該正確解析比賽編號和場地', () => {
-      const result = parseGameReportCSV(mockCSV, 'No.142', '中正A');
-      expect(result.gameNumber).toBe('No.142');
+      const result = parseGameReportCSV(mockCSV, '2025142', '中正A');
+      expect(result.gameNumber).toBe('2025142');
       expect(result.venue).toBe('中正A');
     });
 
     it('應該正確解析隊名', () => {
-      const result = parseGameReportCSV(mockCSV, 'No.142');
+      const result = parseGameReportCSV(mockCSV, '2025142');
       expect(result.homeTeam.name).toBe('永春TB');
       expect(result.awayTeam.name).toBe('台大經濟OB');
     });
 
     it('應該正確解析 R/H/E', () => {
-      const result = parseGameReportCSV(mockCSV, 'No.142');
+      const result = parseGameReportCSV(mockCSV, '2025142');
       expect(result.homeTeam.runs).toBe(16);
       expect(result.homeTeam.hits).toBe(18);
       expect(result.homeTeam.errors).toBe(2);
@@ -47,7 +47,7 @@ describe('gameReportParser', () => {
     });
 
     it('應該正確解析逐局得分（跳過空欄 column 10）', () => {
-      const result = parseGameReportCSV(mockCSV, 'No.142');
+      const result = parseGameReportCSV(mockCSV, '2025142');
 
       // 主隊: 6-1-0-1-6-0-2 (7局)
       expect(result.innings.home).toEqual([6, 1, 0, 1, 6, 0, 2, null, null]);
@@ -57,7 +57,7 @@ describe('gameReportParser', () => {
     });
 
     it('應該正確解析投手數據', () => {
-      const result = parseGameReportCSV(mockCSV, 'No.142');
+      const result = parseGameReportCSV(mockCSV, '2025142');
 
       // 投手格式: 背號, 名字, 局數(IP), 人次(NP), 奪三振(K), 四死(BB), 被安打(H), 被HR, 失分
       // 楊鈞睿: 46, 楊鈞睿, 7, 32, 7, 2, 8, 0, 4
@@ -90,7 +90,7 @@ describe('gameReportParser', () => {
     });
 
     it('應該正確解析打者數據（林倫齊）', () => {
-      const result = parseGameReportCSV(mockCSV, 'No.142');
+      const result = parseGameReportCSV(mockCSV, '2025142');
 
       // 打者格式: 背號, 名字, 打席(PA), 安打(H), 三振(SO), 四死(BB), 打點(RBI), 得分(R), 盜壘(SB)
       // 林倫齊: 39, 林倫齊, 6, 3, 0, 1, 1, 2, 0
@@ -110,7 +110,7 @@ describe('gameReportParser', () => {
     });
 
     it('應該正確解析客隊打者數據', () => {
-      const result = parseGameReportCSV(mockCSV, 'No.142');
+      const result = parseGameReportCSV(mockCSV, '2025142');
 
       // 陳一德: 31, 陳一德, 4, 2, 0, 0, 0, 1, 0
       expect(result.awayTeam.batters).toHaveLength(3);
@@ -129,7 +129,7 @@ describe('gameReportParser', () => {
     });
 
     it('應該正確解析打擊率', () => {
-      const result = parseGameReportCSV(mockCSV, 'No.142');
+      const result = parseGameReportCSV(mockCSV, '2025142');
       expect(result.homeTeam.battingAvg).toBe(0.315);
     });
 
@@ -145,7 +145,7 @@ describe('gameReportParser', () => {
 "","","","","","","","","","","","","","","","","",""
 "","","","","","","","","","","","","","","","","",""`;
 
-      const result = parseGameReportCSV(emptyCSV, 'No.999');
+      const result = parseGameReportCSV(emptyCSV, '2025999');
 
       expect(result.homeTeam.runs).toBe(0);
       expect(result.homeTeam.hits).toBe(0);
@@ -198,9 +198,9 @@ describe('gameReportParser', () => {
         text: () => Promise.resolve(mockCSV),
       });
 
-      const result = await getGameReport('test-id', 'No.142', '中正A');
+      const result = await getGameReport('test-id', '2025142', '中正A');
 
-      expect(result.gameNumber).toBe('No.142');
+      expect(result.gameNumber).toBe('2025142');
       expect(result.venue).toBe('中正A');
       expect(result.homeTeam.name).toBe('永春TB');
       expect(result.awayTeam.name).toBe('台大經濟OB');

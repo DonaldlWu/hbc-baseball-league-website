@@ -14,7 +14,7 @@
 
 | 參數 | 類型 | 說明 |
 |------|------|------|
-| `gameNumber` | string | 比賽編號，如 `No.142` |
+| `gameNumber` | string | 比賽編號，格式為 `YYYYNNN`（賽季年度+場次編號），如 `2025142` |
 
 #### 回應格式
 
@@ -22,7 +22,7 @@
 
 ```json
 {
-  "gameNumber": "No.142",
+  "gameNumber": "2025142",
   "date": "2026-1-10",
   "venue": "中正A",
   "innings": {
@@ -103,7 +103,7 @@
 ```json
 {
   "games": {
-    "No.142": {
+    "2025142": {
       "sheetId": "1rXHJwsXGEp4ir1Nqm40258atNnXJ2U8tgcFTN_v6Hb4",
       "date": "2026-01-10",
       "homeTeam": "永春TB",
@@ -113,6 +113,9 @@
   }
 }
 ```
+
+- **gameNumber 格式**：`YYYYNNN`（賽季年度 + 場次編號）
+  - 範例：`2025142` = 2025 賽季第 142 場
 
 - `sheetId`: Google Sheet ID（從 URL 的 `/d/` 和 `/edit` 之間取得）
 - 若 `sheetId` 為空字串，API 會回傳 404
@@ -170,7 +173,7 @@
 
 ```typescript
 // 前端呼叫
-const res = await fetch(`/api/game-reports/${encodeURIComponent('No.142')}`);
+const res = await fetch(`/api/game-reports/${encodeURIComponent('2025142')}`);
 const data = await res.json();
 
 if (!res.ok) {
@@ -181,3 +184,12 @@ if (!res.ok) {
 // data 即為 GameReport 型別
 console.log(data.homeTeam.name, data.homeTeam.runs);
 ```
+
+## gameNumber 格式說明
+
+| 格式 | 說明 | 範例 |
+|------|------|------|
+| 儲存格式 | `YYYYNNN`（賽季年度+場次編號） | `2025142` |
+| 顯示格式 | `No.NNN`（友善顯示） | `No.142` |
+
+使用 `displayGameNumber()` 函數可將儲存格式轉換為顯示格式。

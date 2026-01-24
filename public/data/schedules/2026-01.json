@@ -2,13 +2,14 @@
   "schedule": {
     "year": 2026,
     "month": 1,
+    "season": 2025,
     "days": [
       {
         "date": "2026-01-03",
         "venues": {
           "中正A": [
             {
-              "gameNumber": "No.201",
+              "gameNumber": "2025201",
               "homeTeam": "Line Drive",
               "awayTeam": "陽明OB",
               "venue": "中正A",
@@ -17,7 +18,7 @@
               "endTime": "11:00"
             },
             {
-              "gameNumber": "No.194",
+              "gameNumber": "2025194",
               "homeTeam": "楚奧特",
               "awayTeam": "世新超乙組",
               "venue": "中正A",
@@ -26,7 +27,7 @@
               "endTime": "14:00"
             },
             {
-              "gameNumber": "No.209",
+              "gameNumber": "2025209",
               "homeTeam": "莫拉克",
               "awayTeam": "甜心暴龍",
               "venue": "中正A",
@@ -42,7 +43,7 @@
         "venues": {
           "中正A": [
             {
-              "gameNumber": "No.142",
+              "gameNumber": "2025142",
               "homeTeam": "永春TB",
               "awayTeam": "台大經濟OB",
               "venue": "中正A",
@@ -51,7 +52,7 @@
               "endTime": "10:30"
             },
             {
-              "gameNumber": "No.52",
+              "gameNumber": "202552",
               "homeTeam": "華江OB",
               "awayTeam": "逆轉星球",
               "venue": "中正A",
@@ -62,7 +63,7 @@
           ],
           "清溪": [
             {
-              "gameNumber": "No.135",
+              "gameNumber": "2025135",
               "homeTeam": "甜心暴龍",
               "awayTeam": "MIRACLE",
               "venue": "清溪",
@@ -71,7 +72,7 @@
               "endTime": "14:30"
             },
             {
-              "gameNumber": "No.129",
+              "gameNumber": "2025129",
               "homeTeam": "火把老鷹",
               "awayTeam": "飛尼克斯",
               "venue": "清溪",
@@ -82,7 +83,7 @@
           ],
           "三鶯A": [
             {
-              "gameNumber": "No.23",
+              "gameNumber": "202523",
               "homeTeam": "世新超乙組",
               "awayTeam": "十號馬",
               "venue": "三鶯A",
@@ -91,7 +92,7 @@
               "endTime": "10:30"
             },
             {
-              "gameNumber": "No.187",
+              "gameNumber": "2025187",
               "homeTeam": "莫拉克",
               "awayTeam": "HOLYBAT",
               "venue": "三鶯A",
@@ -107,7 +108,7 @@
         "venues": {
           "中正A": [
             {
-              "gameNumber": "No.77",
+              "gameNumber": "202577",
               "homeTeam": "DH戰將",
               "awayTeam": "台大醫學院棒",
               "venue": "中正A",
@@ -116,7 +117,7 @@
               "endTime": "10:30"
             },
             {
-              "gameNumber": "No.195",
+              "gameNumber": "2025195",
               "homeTeam": "台大經濟OB",
               "awayTeam": "實踐OB",
               "venue": "中正A",
@@ -132,7 +133,7 @@
         "venues": {
           "中正A": [
             {
-              "gameNumber": "No.93",
+              "gameNumber": "202593",
               "homeTeam": "火把老鷹",
               "awayTeam": "台大經濟OB",
               "venue": "中正A",
@@ -141,7 +142,7 @@
               "endTime": "11:00"
             },
             {
-              "gameNumber": "No.90",
+              "gameNumber": "202590",
               "homeTeam": "少林棒球隊",
               "awayTeam": "木柵OB",
               "venue": "中正A",
@@ -150,7 +151,7 @@
               "endTime": "14:00"
             },
             {
-              "gameNumber": "No.57",
+              "gameNumber": "202557",
               "homeTeam": "飛尼克斯",
               "awayTeam": "實踐OB",
               "venue": "中正A",
@@ -161,7 +162,7 @@
           ],
           "清溪": [
             {
-              "gameNumber": "No.163",
+              "gameNumber": "2025163",
               "homeTeam": "逆轉星球",
               "awayTeam": "MIRACLE",
               "venue": "清溪",
@@ -170,7 +171,7 @@
               "endTime": "14:30"
             },
             {
-              "gameNumber": "No.76",
+              "gameNumber": "202576",
               "homeTeam": "甜心暴龍",
               "awayTeam": "陽明OB",
               "venue": "清溪",
@@ -186,7 +187,7 @@
         "venues": {
           "中正A": [
             {
-              "gameNumber": "No.180",
+              "gameNumber": "2025180",
               "homeTeam": "MIRACLE",
               "awayTeam": "陽明OB",
               "venue": "中正A",
@@ -195,7 +196,7 @@
               "endTime": "10:30"
             },
             {
-              "gameNumber": "No.150",
+              "gameNumber": "2025150",
               "homeTeam": "十號馬",
               "awayTeam": "實踐OB",
               "venue": "中正A",
@@ -209,7 +210,7 @@
     ]
   },
   "meta": {
-    "lastUpdated": "2026-01-01T00:00:00Z",
+    "lastUpdated": "2026-01-24T00:00:00Z",
     "totalGames": 19,
     "venues": ["中正A", "清溪", "三鶯A"]
   }

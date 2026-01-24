@@ -187,3 +187,77 @@ export function formatStatValue(
   // 預設為整數
   return formatNumber(value, 0);
 }
+
+// ============ gameNumber 格式化函數 ============
+
+import type { ParsedGameNumber } from '@/types';
+
+/**
+ * 解析 gameNumber 字串
+ * @param gameNumber 格式為 "YYYYNNN"，例如 "2025201" 表示 2025 賽季第 201 場
+ * @returns 解析結果，若無效則返回 null
+ */
+export function parseGameNumber(gameNumber: string): ParsedGameNumber | null {
+  if (!gameNumber || typeof gameNumber !== 'string') {
+    return null;
+  }
+
+  // 檢查是否為舊格式 "No.XXX"
+  if (gameNumber.startsWith('No.')) {
+    return null;
+  }
+
+  // 檢查是否為純數字且長度至少為 5（4 位年份 + 至少 1 位場次）
+  if (!/^\d{5,}$/.test(gameNumber)) {
+    return null;
+  }
+
+  // 前 4 位為賽季年度，其餘為場次編號
+  const season = parseInt(gameNumber.substring(0, 4), 10);
+  const number = parseInt(gameNumber.substring(4), 10);
+
+  // 驗證解析結果
+  if (isNaN(season) || isNaN(number) || season < 2000 || number <= 0) {
+    return null;
+  }
+
+  return { season, number };
+}
+
+/**
+ * 組合 season 和 number 為 gameNumber 字串
+ * @param season 賽季年度，例如 2025
+ * @param number 場次編號，例如 201
+ * @returns gameNumber 字串，例如 "2025201"，若參數無效則返回空字串
+ */
+export function formatGameNumber(season: number, number: number): string {
+  if (!season || !number || season <= 0 || number <= 0) {
+    return '';
+  }
+
+  return `${season}${number}`;
+}
+
+/**
+ * 將 gameNumber 轉換為友善顯示格式
+ * @param gameNumber 格式為 "YYYYNNN" 或 "No.XXX"
+ * @returns 友善顯示格式，例如 "No.201"
+ */
+export function displayGameNumber(gameNumber: string): string {
+  if (!gameNumber || typeof gameNumber !== 'string') {
+    return '-';
+  }
+
+  // 如果已是舊格式，直接返回
+  if (gameNumber.startsWith('No.')) {
+    return gameNumber;
+  }
+
+  // 嘗試解析新格式
+  const parsed = parseGameNumber(gameNumber);
+  if (!parsed) {
+    return '-';
+  }
+
+  return `No.${parsed.number}`;
+}

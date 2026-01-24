@@ -48,13 +48,14 @@ public/data/schedules/YYYY-MM.json
   "schedule": {
     "year": 2026,
     "month": 1,
+    "season": 2025,
     "days": [
       {
         "date": "2026-01-03",
         "venues": {
           "中正A": [
             {
-              "gameNumber": "No.201",
+              "gameNumber": "2025201",
               "homeTeam": "Line Drive",
               "awayTeam": "陽明OB",
               "venue": "中正A",
@@ -82,10 +83,20 @@ public/data/schedules/YYYY-MM.json
 
 ### 欄位說明
 
+#### Schedule 層級
+
+| 欄位 | 型別 | 說明 | 範例 |
+|------|------|------|------|
+| `year` | number | 日曆年份 | 2026 |
+| `month` | number | 月份 | 1 |
+| `season` | number | 賽季年度（比賽所屬的賽季） | 2025 |
+
+#### Game 層級
+
 | 欄位 | 型別 | 說明 | 範例 |
 |------|------|------|------|
 | `date` | string | 日期 (ISO 8601) | "2026-01-03" |
-| `gameNumber` | string | 賽程編號 | "No.201" |
+| `gameNumber` | string | 賽程編號（格式：賽季年度+場次編號） | "2025201" |
 | `homeTeam` | string | 主隊名稱 | "Line Drive" |
 | `awayTeam` | string | 客隊名稱 | "陽明OB" |
 | `venue` | string | 場地 | "中正A" |
@@ -96,6 +107,13 @@ public/data/schedules/YYYY-MM.json
 | `result.homeScore` | number | 主隊得分 | 5 |
 | `result.awayScore` | number | 客隊得分 | 3 |
 | `result.status` | string | 狀態 | "finished" / "in_progress" / "postponed" / "cancelled" |
+
+#### gameNumber 格式說明
+
+- **格式**：`YYYYNNN`（賽季年度 + 場次編號）
+- **範例**：`"2025201"` = 2025 賽季第 201 場
+- **顯示格式**：UI 顯示時會轉換為 `No.201`
+- **用途**：作為比賽的唯一識別碼，用於 URL 路由和 API 查詢
 
 ## 使用方式
 

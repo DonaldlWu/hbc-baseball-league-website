@@ -1119,3 +1119,81 @@ npm run convert-data          # CSV 轉 JSON
 ## 版本歷史
 
 - **v0.1.0** - 初始版本，包含專案架構和開發指南
+
+---
+
+## 當前任務：gameNumber 加入賽季年度
+
+### 背景
+- 目前 `schedule/2026-01.json` 的 `year: 2026` 是日曆年，但比賽屬於 2025 賽季
+- 需要新增 `season` 欄位區分「賽季年度」與「日曆年度」
+- `gameNumber` 從 `"No.201"` 格式改為 `"2025201"`（賽季年度 + 場次編號）
+
+### 任務清單 (TDD 流程)
+
+#### Phase 1: Model Layer (類型與工具函數)
+
+- [x] **1.1** 更新 TypeScript 類型定義 (`src/types/index.ts`) ✅
+  - [x] `Game` interface 新增 `season?: number` 欄位
+  - [x] `GameReport` interface 新增 `season?: number` 欄位
+  - [x] `MonthSchedule` interface 新增 `season?: number` 欄位
+  - [x] 新增 `ParsedGameNumber` interface
+
+- [x] **1.2** 新增 gameNumber 格式化函數 (TDD) ✅
+  - [x] 🔴 Red: 撰寫 `src/lib/__tests__/formatters.test.ts` 測試
+    - `parseGameNumber('2025201')` → `{ season: 2025, number: 201 }`
+    - `formatGameNumber(2025, 201)` → `'2025201'`
+    - `displayGameNumber('2025201')` → `'No.201'`
+  - [x] 🟢 Green: 實作 `src/lib/formatters.ts`
+  - [x] 🔵 Refactor: 優化程式碼（已簡潔，無需重構）
+
+#### Phase 2: Data Layer (JSON 資料)
+
+- [x] **2.1** 更新 `public/data/schedules/2026-01.json` ✅
+  - [x] 新增 `season: 2025` 欄位
+  - [x] 所有 `gameNumber` 從 `"No.XXX"` 改為 `"2025XXX"`
+
+- [x] **2.2** 更新 `public/data/game-reports/index.json` ✅
+  - [x] 所有 key 從 `"No.XXX"` 改為 `"2025XXX"`
+
+- [x] **2.3** 更新 `public/data/game-reports/sample.json` ✅
+  - [x] `gameNumber` 欄位更新
+
+#### Phase 3: Parser Layer (解析器)
+
+- [x] **3.1** 更新 gameReportParser (TDD) ✅
+  - [x] 🔴 Red: 更新 `src/lib/__tests__/gameReportParser.test.ts` 測試（gameNumber 格式）
+  - [x] 🟢 Green: 測試通過（解析器本身不需修改，只傳遞 gameNumber）
+  - [x] 🔵 Refactor: 無需重構
+
+#### Phase 4: View Layer (UI 元件)
+
+- [x] **4.1** 更新 `src/components/GameReport.tsx` ✅
+  - [x] 新增 `displayGameNumber` import
+  - [x] 使用 `displayGameNumber()` 顯示友善格式
+
+- [x] **4.2** 更新 `src/components/ScheduleCalendar.tsx` ✅
+  - [x] 新增 `displayGameNumber` import
+  - [x] 連結 href 使用新格式（自動，gameNumber 已是新格式）
+  - [x] 顯示使用 `displayGameNumber()` 友善格式
+
+#### Phase 5: Documentation
+
+- [x] **5.1** 更新 `docs/SCHEDULE_FEATURE.md` ✅
+  - [x] 新增 `season` 欄位說明
+  - [x] 更新 `gameNumber` 格式說明
+
+- [x] **5.2** 更新 `docs/api/game-reports.md` ✅
+  - [x] 更新請求參數格式
+  - [x] 更新 index.json 範例
+  - [x] 新增 gameNumber 格式說明表格
+
+### 進度追蹤
+
+| Phase | 狀態 | 完成日期 |
+|-------|------|---------|
+| Phase 1 | ✅ 完成 | 2026-01-24 |
+| Phase 2 | ✅ 完成 | 2026-01-24 |
+| Phase 3 | ✅ 完成 | 2026-01-24 |
+| Phase 4 | ✅ 完成 | 2026-01-24 |
+| Phase 5 | ✅ 完成 | 2026-01-24 |

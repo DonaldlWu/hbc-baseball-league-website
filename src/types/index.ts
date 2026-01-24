@@ -239,13 +239,14 @@ export type TimeSlot = '上午' | '中午' | '下午';
 
 // 單場比賽
 export interface Game {
-  gameNumber: string;      // 賽程編號 (如 "No.201")
+  gameNumber: string;      // 賽程編號 (如 "2025201"，格式：賽季年度+場次編號)
   homeTeam: string;        // 主隊名稱
   awayTeam: string;        // 客隊名稱
   venue: string;           // 場地 (如 "中正A")
   timeSlot: TimeSlot;      // 時段
   startTime: string;       // 開始時間 (如 "08:00")
   endTime: string;         // 結束時間 (如 "11:00")
+  season?: number;         // 賽季年度 (如 2025)，可從 gameNumber 解析
   result?: {               // 比賽結果（選填，未開打則無）
     homeScore: number;
     awayScore: number;
@@ -263,8 +264,9 @@ export interface DaySchedule {
 
 // 月賽程
 export interface MonthSchedule {
-  year: number;            // 年份 (如 2026)
+  year: number;            // 日曆年份 (如 2026)
   month: number;           // 月份 (1-12)
+  season?: number;         // 賽季年度 (如 2025)，比賽所屬的賽季
   days: DaySchedule[];     // 該月所有有賽程的日期
 }
 
@@ -320,13 +322,20 @@ export interface TeamGameStats {
 
 // 比賽戰報
 export interface GameReport {
-  gameNumber: string;
+  gameNumber: string;      // 賽程編號 (如 "2025201"，格式：賽季年度+場次編號)
   date: string;
   venue?: string;
+  season?: number;         // 賽季年度 (如 2025)，可從 gameNumber 解析
   innings: {
     home: (number | null)[];
     away: (number | null)[];
   };
   homeTeam: TeamGameStats;
   awayTeam: TeamGameStats;
+}
+
+// gameNumber 解析結果
+export interface ParsedGameNumber {
+  season: number;          // 賽季年度 (如 2025)
+  number: number;          // 場次編號 (如 201)
 }

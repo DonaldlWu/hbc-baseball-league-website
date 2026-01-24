@@ -1,6 +1,7 @@
 "use client";
 
 import type { GameReport as GameReportType } from "@/src/types";
+import { displayGameNumber } from "@/src/lib/formatters";
 
 interface GameReportProps {
   data: GameReportType;
@@ -20,7 +21,7 @@ export default function GameReport({ data }: GameReportProps) {
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
           <div>
             <div className="text-sm text-gray-400 mb-1">
-              {gameNumber} | {date} | {venue}
+              {displayGameNumber(gameNumber)} | {date} | {venue}
             </div>
             <h1 className="text-2xl md:text-3xl font-bold text-gray-100">
               {homeTeam.name} vs {awayTeam.name}
