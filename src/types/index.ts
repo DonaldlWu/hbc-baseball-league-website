@@ -297,6 +297,7 @@ export interface PitcherStats {
 export interface BatterStats {
   number: string;
   name: string;
+  pa: number;      // 打席
   ab: number;      // 打數
   r: number;       // 得分
   h: number;       // 安打

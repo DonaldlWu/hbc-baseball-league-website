@@ -176,6 +176,7 @@ function TeamStatsCard({ team, isWinner, label }: TeamStatsCardProps) {
               <tr className="text-xs text-gray-500">
                 <th className="px-3 py-2 text-left">#</th>
                 <th className="px-3 py-2 text-left">打者</th>
+                <th className="px-3 py-2 text-center">PA</th>
                 <th className="px-3 py-2 text-center">AB</th>
                 <th className="px-3 py-2 text-center">R</th>
                 <th className="px-3 py-2 text-center">H</th>
@@ -190,6 +191,7 @@ function TeamStatsCard({ team, isWinner, label }: TeamStatsCardProps) {
                 <tr key={idx} className="border-t hover:bg-gray-50">
                   <td className="px-3 py-2 text-gray-500">{b.number}</td>
                   <td className="px-3 py-2 font-medium text-gray-900">{b.name}</td>
+                  <td className="px-3 py-2 text-center text-gray-700">{b.pa}</td>
                   <td className="px-3 py-2 text-center text-gray-700">{b.ab}</td>
                   <td className="px-3 py-2 text-center text-gray-700">{b.r > 0 ? <span className="text-green-600 font-semibold">{b.r}</span> : b.r}</td>
                   <td className="px-3 py-2 text-center text-gray-700">{b.h > 0 ? <span className="text-blue-600 font-semibold">{b.h}</span> : b.h}</td>
@@ -203,6 +205,7 @@ function TeamStatsCard({ team, isWinner, label }: TeamStatsCardProps) {
               <tr className="border-t bg-gray-100 font-semibold text-gray-900">
                 <td className="px-3 py-2"></td>
                 <td className="px-3 py-2">合計</td>
+                <td className="px-3 py-2 text-center">{team.batters.reduce((sum, b) => sum + b.pa, 0)}</td>
                 <td className="px-3 py-2 text-center">{team.batters.reduce((sum, b) => sum + b.ab, 0)}</td>
                 <td className="px-3 py-2 text-center">{team.batters.reduce((sum, b) => sum + b.r, 0)}</td>
                 <td className="px-3 py-2 text-center">{team.batters.reduce((sum, b) => sum + b.h, 0)}</td>

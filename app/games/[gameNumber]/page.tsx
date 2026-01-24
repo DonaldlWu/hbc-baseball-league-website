@@ -17,16 +17,17 @@ export default function GameDetailPage() {
     async function loadReport() {
       try {
         setLoading(true);
-        // 目前使用範例資料，之後可以根據 gameNumber 載入對應的戰報
-        const res = await fetch("/data/game-reports/sample.json");
-        if (!res.ok) {
-          throw new Error("Failed to load game report");
-        }
+        setError(null);
+        const res = await fetch(`/api/game-reports/${encodeURIComponent(gameNumber)}`);
         const data = await res.json();
-        // 用 URL 的 gameNumber 覆蓋範例資料的 gameNumber
-        setReport({ ...data, gameNumber: decodeURIComponent(gameNumber) });
+
+        if (!res.ok) {
+          throw new Error(data.error || "Failed to load game report");
+        }
+
+        setReport(data);
       } catch (err) {
-        setError("無法載入戰報資料");
+        setError(err instanceof Error ? err.message : "無法載入戰報資料");
       } finally {
         setLoading(false);
       }
