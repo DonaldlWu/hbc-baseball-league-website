@@ -1,8 +1,17 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, waitFor } from '@testing-library/react';
 import LeagueLeaders from '../LeagueLeaders';
 import type { TeamRecord } from '@/src/types';
+import * as dataLoader from '@/src/lib/dataLoader';
+
+// Mock dataLoader
+jest.mock('@/src/lib/dataLoader');
 
 describe('LeagueLeaders', () => {
+  beforeEach(() => {
+    // Mock getTeamIcon to return undefined (no icon)
+    (dataLoader.getTeamIcon as jest.Mock).mockResolvedValue(undefined);
+  });
+
   const mockTeams: TeamRecord[] = [
     {
       rank: 1,
@@ -36,26 +45,38 @@ describe('LeagueLeaders', () => {
     },
   ];
 
-  it('應該顯示勝場王', () => {
+  it('應該顯示勝場王', async () => {
     render(<LeagueLeaders teams={mockTeams} />);
 
-    expect(screen.getByText('勝場王')).toBeInTheDocument();
+    // 等待異步載入完成
+    await waitFor(() => {
+      expect(screen.getByText('勝場王')).toBeInTheDocument();
+    });
+
     const teamNames = screen.getAllByText('Line Drive');
     expect(teamNames.length).toBeGreaterThan(0);
     expect(screen.getByText('16')).toBeInTheDocument();
   });
 
-  it('應該顯示最佳防守', () => {
+  it('應該顯示最佳防守', async () => {
     render(<LeagueLeaders teams={mockTeams} />);
 
-    expect(screen.getByText('最佳防守')).toBeInTheDocument();
+    // 等待異步載入完成
+    await waitFor(() => {
+      expect(screen.getByText('最佳防守')).toBeInTheDocument();
+    });
+
     expect(screen.getByText('4.0')).toBeInTheDocument();
   });
 
-  it('應該顯示最強火力', () => {
+  it('應該顯示最強火力', async () => {
     render(<LeagueLeaders teams={mockTeams} />);
 
-    expect(screen.getByText('最強火力')).toBeInTheDocument();
+    // 等待異步載入完成
+    await waitFor(() => {
+      expect(screen.getByText('最強火力')).toBeInTheDocument();
+    });
+
     expect(screen.getByText('14.2')).toBeInTheDocument();
   });
 
@@ -65,8 +86,11 @@ describe('LeagueLeaders', () => {
     expect(screen.getByText(/目前沒有數據/i)).toBeInTheDocument();
   });
 
-  it('應該顯示標題', () => {
+  it('應該顯示標題', async () => {
     render(<LeagueLeaders teams={mockTeams} />);
+
+    // 等待 useEffect 完成
+    await screen.findByText('聯盟領先者');
 
     expect(screen.getByText('聯盟領先者')).toBeInTheDocument();
   });

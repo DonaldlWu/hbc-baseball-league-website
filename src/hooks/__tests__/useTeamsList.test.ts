@@ -48,6 +48,7 @@ describe('useTeamsList', () => {
     (dataLoader.getAvailableYears as jest.Mock).mockResolvedValue([2025, 2024, 2023]);
     (dataLoader.loadSeasonSummary as jest.Mock).mockResolvedValue(mockSummary);
     (dataLoader.extractTeamsFromSeason as jest.Mock).mockReturnValue(mockTeams);
+    (dataLoader.getTeamIcons as jest.Mock).mockResolvedValue(new Map());
   });
 
   describe('初始化', () => {

@@ -5,7 +5,7 @@ import type { Player } from '@/src/types';
 
 // Mock dataLoader module
 jest.mock('@/src/lib/dataLoader', () => ({
-  loadPlayer: jest.fn(),
+  loadPlayerDetail: jest.fn(),
 }));
 
 describe('usePlayerModal', () => {
@@ -46,8 +46,8 @@ describe('usePlayerModal', () => {
     ],
   };
 
-  const mockLoadPlayer = dataLoader.loadPlayer as jest.MockedFunction<
-    typeof dataLoader.loadPlayer
+  const mockLoadPlayer = dataLoader.loadPlayerDetail as jest.MockedFunction<
+    typeof dataLoader.loadPlayerDetail
   >;
 
   beforeEach(() => {
