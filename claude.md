@@ -1043,9 +1043,21 @@ Co-Authored-By: Claude <noreply@anthropic.com>"
 ### 合併前
 - [ ] 所有測試通過
 - [ ] Lint 檢查通過
-- [ ] Build 成功
+- [ ] TypeScript 編譯檢查通過（`npx tsc --noEmit`）
+- [ ] Build 成功（`npm run build`）
 - [ ] E2E 測試通過（如有）
 - [ ] 確認沒有提交不該提交的檔案
+
+### 部署前 ⚠️ 重要
+- [ ] **TypeScript 編譯檢查**：執行 `npx tsc --noEmit` 確保無編譯錯誤
+- [ ] **Production Build 測試**：執行 `npm run build` 確保建置成功
+- [ ] **Import 路徑檢查**：確認所有 import 使用正確路徑（`@/src/...` 而非 `@/...`）
+- [ ] **檢查 Vercel 部署預覽**：確認預覽環境無錯誤
+
+**常見編譯錯誤：**
+1. Import 路徑錯誤：應使用 `@/src/types` 而非 `@/types`
+2. Import 位置錯誤：所有 import 必須在檔案最上方
+3. 類型缺失：確保所有必要的 interface 屬性都有提供
 
 ---
 

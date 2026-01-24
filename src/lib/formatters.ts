@@ -3,6 +3,8 @@
  * 格式化數據顯示的純函數
  */
 
+import type { ParsedGameNumber } from '@/src/types';
+
 /**
  * 格式化打擊率 (AVG, OBP, SLG 等)
  * @param value 數值
@@ -189,8 +191,6 @@ export function formatStatValue(
 }
 
 // ============ gameNumber 格式化函數 ============
-
-import type { ParsedGameNumber } from '@/types';
 
 /**
  * 解析 gameNumber 字串
