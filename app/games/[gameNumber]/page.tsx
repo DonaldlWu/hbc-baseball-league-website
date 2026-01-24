@@ -1,40 +1,32 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
+import { useRequest } from "ahooks";
 import GameReport from "@/src/components/GameReport";
 import type { GameReport as GameReportType } from "@/src/types";
+
+async function fetchGameReport(gameNumber: string): Promise<GameReportType> {
+  const res = await fetch(`/api/game-reports/${encodeURIComponent(gameNumber)}`);
+  const data = await res.json();
+
+  if (!res.ok) {
+    throw new Error(data.error || "Failed to load game report");
+  }
+
+  return data;
+}
 
 export default function GameDetailPage() {
   const params = useParams();
   const gameNumber = params.gameNumber as string;
-  const [report, setReport] = useState<GameReportType | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
 
-  useEffect(() => {
-    async function loadReport() {
-      try {
-        setLoading(true);
-        setError(null);
-        const res = await fetch(`/api/game-reports/${encodeURIComponent(gameNumber)}`);
-        const data = await res.json();
-
-        if (!res.ok) {
-          throw new Error(data.error || "Failed to load game report");
-        }
-
-        setReport(data);
-      } catch (err) {
-        setError(err instanceof Error ? err.message : "無法載入戰報資料");
-      } finally {
-        setLoading(false);
-      }
+  const { data: report, loading, error } = useRequest(
+    () => fetchGameReport(gameNumber),
+    {
+      refreshDeps: [gameNumber],
     }
-
-    loadReport();
-  }, [gameNumber]);
+  );
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -76,7 +68,7 @@ export default function GameDetailPage() {
         {/* 錯誤狀態 */}
         {error && (
           <div className="rounded-lg bg-red-50 p-6 text-center">
-            <p className="text-red-700">{error}</p>
+            <p className="text-red-700">{error.message || "無法載入戰報資料"}</p>
           </div>
         )}
 
