@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useMemo } from 'react';
+import Link from 'next/link';
 import { useSchedule } from '@/src/hooks/useSchedule';
 import type { Game, DaySchedule } from '@/src/types';
 
@@ -405,7 +406,10 @@ function GameCard({ game, highlightTeam }: { game: Game; highlightTeam?: string 
   const isAwayTeamHighlighted = highlightTeam && game.awayTeam === highlightTeam;
 
   return (
-    <div className="rounded-lg border border-gray-200 bg-gray-50 p-4 transition-all hover:border-primary-300 hover:shadow-md">
+    <Link
+      href={`/games/${encodeURIComponent(game.gameNumber)}`}
+      className="block rounded-lg border border-gray-200 bg-gray-50 p-4 transition-all hover:border-primary-300 hover:shadow-md cursor-pointer"
+    >
       <div className="flex items-center justify-between">
         {/* 左側：球隊資訊 */}
         <div className="flex-1">
@@ -442,18 +446,34 @@ function GameCard({ game, highlightTeam }: { game: Game; highlightTeam?: string 
           </div>
         </div>
 
-        {/* 右側：時間 */}
-        <div className="text-right">
-          <div className="text-sm font-medium text-gray-900">
-            {game.startTime} - {game.endTime}
-          </div>
-          {game.result && (
-            <div className="mt-1 text-xs font-semibold text-primary-600">
-              {game.result.homeScore} : {game.result.awayScore}
+        {/* 右側：時間與箭頭 */}
+        <div className="flex items-center gap-3">
+          <div className="text-right">
+            <div className="text-sm font-medium text-gray-900">
+              {game.startTime} - {game.endTime}
             </div>
-          )}
+            {game.result && (
+              <div className="mt-1 text-xs font-semibold text-primary-600">
+                {game.result.homeScore} : {game.result.awayScore}
+              </div>
+            )}
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-5 w-5 text-gray-400"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
