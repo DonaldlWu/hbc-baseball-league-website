@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getGameReport } from '@/src/lib/gameReportParser';
+import { CACHE_CONFIG } from '@/src/lib/config';
 
 // 比賽對應 Google Sheet ID 的索引
 interface GameIndex {
@@ -55,7 +56,12 @@ export async function GET(
       gameInfo.venue
     );
 
-    return NextResponse.json(report);
+    // 設定 CDN 快取 headers
+    return NextResponse.json(report, {
+      headers: {
+        'Cache-Control': CACHE_CONFIG.getCacheControlHeader(),
+      },
+    });
   } catch (error) {
     console.error('Error fetching game report:', error);
     return NextResponse.json(
