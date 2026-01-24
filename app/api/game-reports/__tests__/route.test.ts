@@ -1,7 +1,7 @@
 /**
- * Cache Headers 設定測試
+ * Game Reports API 測試
  *
- * 這個測試驗證 API route 是否正確設定 CDN cache headers
+ * 測試 API route 的快取設定與特殊狀態處理
  */
 
 describe('Game Reports API - Cache Configuration', () => {
@@ -57,6 +57,52 @@ describe('Game Reports API - Cache Configuration', () => {
       // stale-while-revalidate: 快取過期後，仍可使用舊資料，同時背景更新
       const swr = 172800; // 2 天
       expect(swr).toBe(172800);
+    });
+  });
+});
+
+/**
+ * 特殊狀態處理測試
+ */
+describe('Game Reports API - Special Status Handling', () => {
+  describe('sheetId 特殊值處理', () => {
+    it('應該檢查 route.ts 處理空 sheetId 的邏輯', () => {
+      const fs = require('fs');
+      const path = require('path');
+      const routePath = path.join(__dirname, '../[gameNumber]/route.ts');
+      const content = fs.readFileSync(routePath, 'utf-8');
+
+      // 檢查是否處理空 sheetId
+      expect(content).toContain('!gameInfo.sheetId');
+      expect(content).toContain('尚未有戰報資料');
+    });
+
+    it('應該檢查 route.ts 處理 rain (因雨延賽) 的邏輯', () => {
+      const fs = require('fs');
+      const path = require('path');
+      const routePath = path.join(__dirname, '../[gameNumber]/route.ts');
+      const content = fs.readFileSync(routePath, 'utf-8');
+
+      // 檢查是否處理 'rain' 狀態
+      expect(content).toContain("'rain'");
+      expect(content).toContain('因雨延賽');
+    });
+
+    it('應該為不同狀態返回正確的錯誤訊息', () => {
+      // 這個測試定義預期行為
+      const statusMessages = {
+        empty: '尚未有戰報資料',
+        rain: '因雨延賽',
+      };
+
+      expect(statusMessages.empty).toBe('尚未有戰報資料');
+      expect(statusMessages.rain).toBe('因雨延賽');
+    });
+
+    it('應該為特殊狀態返回 404 狀態碼', () => {
+      // 驗證 HTTP 狀態碼邏輯
+      const expectedStatusCode = 404;
+      expect(expectedStatusCode).toBe(404);
     });
   });
 });

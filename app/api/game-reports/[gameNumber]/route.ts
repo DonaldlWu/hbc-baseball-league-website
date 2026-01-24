@@ -42,9 +42,17 @@ export async function GET(
       );
     }
 
+    // 處理特殊狀態
     if (!gameInfo.sheetId) {
       return NextResponse.json(
         { error: `比賽 ${decodedGameNumber} 尚未有戰報資料` },
+        { status: 404 }
+      );
+    }
+
+    if (gameInfo.sheetId === 'rain') {
+      return NextResponse.json(
+        { error: `比賽 ${decodedGameNumber} 因雨延賽` },
         { status: 404 }
       );
     }
