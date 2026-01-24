@@ -31,16 +31,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="bg-white shadow">
-        <div className="container mx-auto px-4 py-6">
-          <h1 className="text-3xl font-bold text-gray-900">新和棒球聯盟</h1>
-          <p className="mt-2 text-gray-600">
-            {standings ? `${standings.year} 賽季` : "載入中..."}
-          </p>
-        </div>
-      </header>
-
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8">
         {loading && (
@@ -64,17 +54,17 @@ export default function Home() {
             <AnnouncementCarousel />
 
             {/* Schedule Calendar */}
-            <div>
+            <section id="schedule">
               <ScheduleCalendar />
-            </div>
+            </section>
 
             {/* Standings Table */}
-            <div className="bg-white rounded-lg shadow-md p-6">
+            <section id="standings" className="bg-white rounded-lg shadow-md p-6">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">
                 聯盟排名
               </h2>
               <StandingsTable teams={standings.teams} year={standings.year} />
-            </div>
+            </section>
 
             {/* Season Info */}
             <div className="bg-white rounded-lg shadow-md p-6">
