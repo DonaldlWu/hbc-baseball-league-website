@@ -277,3 +277,55 @@ export interface ScheduleData {
     venues: string[];      // 所有場地列表
   };
 }
+
+// ============ 比賽戰報 ============
+
+// 投手數據
+export interface PitcherStats {
+  number: string;
+  name: string;
+  ip: string;      // 投球局數
+  np: number;      // 投球數
+  h: number;       // 被安打
+  r: number;       // 失分
+  er: number;      // 自責分
+  bb: number;      // 保送
+  k: number;       // 三振
+}
+
+// 打者數據
+export interface BatterStats {
+  number: string;
+  name: string;
+  ab: number;      // 打數
+  r: number;       // 得分
+  h: number;       // 安打
+  rbi: number;     // 打點
+  bb: number;      // 保送
+  so: number;      // 三振
+  sb: number;      // 盜壘
+}
+
+// 球隊戰報數據
+export interface TeamGameStats {
+  name: string;
+  runs: number;
+  hits: number;
+  errors: number;
+  battingAvg?: number;
+  pitchers: PitcherStats[];
+  batters: BatterStats[];
+}
+
+// 比賽戰報
+export interface GameReport {
+  gameNumber: string;
+  date: string;
+  venue?: string;
+  innings: {
+    home: (number | null)[];
+    away: (number | null)[];
+  };
+  homeTeam: TeamGameStats;
+  awayTeam: TeamGameStats;
+}

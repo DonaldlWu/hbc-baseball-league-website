@@ -1,0 +1,64 @@
+{
+  "gameNumber": "No.201",
+  "date": "2026-01-17",
+  "venue": "中正A",
+  "innings": {
+    "home": [0, 1, 1, 1, 0, 1, 0, null, null],
+    "away": [0, 1, 1, 0, 6, 1, null, null, null]
+  },
+  "homeTeam": {
+    "name": "猛虎隊",
+    "runs": 4,
+    "hits": 6,
+    "errors": 2,
+    "battingAvg": 0.315,
+    "pitchers": [
+      {
+        "number": "18",
+        "name": "王大明",
+        "ip": "6",
+        "np": 33,
+        "h": 11,
+        "r": 3,
+        "er": 10,
+        "bb": 0,
+        "k": 9
+      }
+    ],
+    "batters": [
+      { "number": "18", "name": "王大明", "ab": 5, "r": 0, "h": 2, "rbi": 0, "bb": 1, "so": 0, "sb": 0 },
+      { "number": "7", "name": "李小華", "ab": 4, "r": 1, "h": 1, "rbi": 1, "bb": 0, "so": 1, "sb": 0 },
+      { "number": "23", "name": "張志豪", "ab": 4, "r": 1, "h": 0, "rbi": 1, "bb": 0, "so": 0, "sb": 0 },
+      { "number": "11", "name": "陳建安", "ab": 4, "r": 0, "h": 2, "rbi": 1, "bb": 0, "so": 0, "sb": 0 },
+      { "number": "5", "name": "林俊傑", "ab": 4, "r": 0, "h": 1, "rbi": 0, "bb": 1, "so": 0, "sb": 0 },
+      { "number": "32", "name": "黃國峰", "ab": 4, "r": 0, "h": 0, "rbi": 0, "bb": 0, "so": 0, "sb": 0 },
+      { "number": "44", "name": "劉文彬", "ab": 4, "r": 1, "h": 1, "rbi": 1, "bb": 0, "so": 2, "sb": 2 },
+      { "number": "9", "name": "吳政宏", "ab": 4, "r": 1, "h": 2, "rbi": 0, "bb": 0, "so": 0, "sb": 0 },
+      { "number": "15", "name": "周育德", "ab": 4, "r": 2, "h": 0, "rbi": 2, "bb": 1, "so": 1, "sb": 0 }
+    ]
+  },
+  "awayTeam": {
+    "name": "飛鷹隊",
+    "runs": 9,
+    "hits": 10,
+    "errors": 4,
+    "pitchers": [
+      { "number": "21", "name": "蔡明宏", "ip": "3 1/3", "np": 19, "h": 4, "r": 4, "er": 3, "bb": 0, "k": 3 },
+      { "number": "36", "name": "許家瑋", "ip": "3 2/3", "np": 18, "h": 5, "r": 2, "er": 3, "bb": 0, "k": 1 }
+    ],
+    "batters": [
+      { "number": "2", "name": "趙志明", "ab": 2, "r": 0, "h": 0, "rbi": 1, "bb": 0, "so": 1, "sb": 0 },
+      { "number": "8", "name": "孫偉翔", "ab": 2, "r": 1, "h": 1, "rbi": 0, "bb": 0, "so": 0, "sb": 0 },
+      { "number": "14", "name": "楊家豪", "ab": 4, "r": 2, "h": 1, "rbi": 0, "bb": 1, "so": 1, "sb": 0 },
+      { "number": "27", "name": "鄭宇翔", "ab": 3, "r": 1, "h": 1, "rbi": 1, "bb": 1, "so": 2, "sb": 0 },
+      { "number": "33", "name": "謝承恩", "ab": 4, "r": 1, "h": 2, "rbi": 0, "bb": 2, "so": 1, "sb": 0 },
+      { "number": "19", "name": "簡志偉", "ab": 4, "r": 1, "h": 1, "rbi": 0, "bb": 1, "so": 1, "sb": 0 },
+      { "number": "45", "name": "羅建中", "ab": 3, "r": 1, "h": 0, "rbi": 0, "bb": 2, "so": 0, "sb": 0 },
+      { "number": "6", "name": "蕭明德", "ab": 3, "r": 1, "h": 2, "rbi": 0, "bb": 1, "so": 0, "sb": 0 },
+      { "number": "12", "name": "傅俊豪", "ab": 3, "r": 1, "h": 1, "rbi": 0, "bb": 0, "so": 1, "sb": 0 },
+      { "number": "28", "name": "范文軒", "ab": 2, "r": 0, "h": 2, "rbi": 0, "bb": 0, "so": 0, "sb": 0 },
+      { "number": "41", "name": "曾國榮", "ab": 2, "r": 1, "h": 0, "rbi": 1, "bb": 0, "so": 2, "sb": 0 },
+      { "number": "55", "name": "洪志成", "ab": 1, "r": 0, "h": 0, "rbi": 0, "bb": 0, "so": 0, "sb": 0 }
+    ]
+  }
+}

@@ -1,11 +1,39 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
+import GameReport from "@/src/components/GameReport";
+import type { GameReport as GameReportType } from "@/src/types";
 
 export default function GameDetailPage() {
   const params = useParams();
   const gameNumber = params.gameNumber as string;
+  const [report, setReport] = useState<GameReportType | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    async function loadReport() {
+      try {
+        setLoading(true);
+        // 目前使用範例資料，之後可以根據 gameNumber 載入對應的戰報
+        const res = await fetch("/data/game-reports/sample.json");
+        if (!res.ok) {
+          throw new Error("Failed to load game report");
+        }
+        const data = await res.json();
+        // 用 URL 的 gameNumber 覆蓋範例資料的 gameNumber
+        setReport({ ...data, gameNumber: decodeURIComponent(gameNumber) });
+      } catch (err) {
+        setError("無法載入戰報資料");
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    loadReport();
+  }, [gameNumber]);
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -34,20 +62,25 @@ export default function GameDetailPage() {
           </Link>
         </div>
 
-        {/* 比賽編號顯示 */}
-        <div className="bg-white rounded-lg shadow-md p-8">
-          <div className="text-center">
-            <h1 className="text-3xl font-bold text-gray-900 mb-4">
-              比賽戰報
-            </h1>
-            <div className="inline-block bg-primary-100 text-primary-800 text-2xl font-bold px-6 py-3 rounded-lg">
-              {decodeURIComponent(gameNumber)}
+        {/* Loading 狀態 */}
+        {loading && (
+          <div className="flex items-center justify-center py-12">
+            <div className="text-center">
+              <div className="inline-block h-12 w-12 animate-spin rounded-full border-4 border-solid border-primary-600 border-r-transparent"></div>
+              <p className="mt-4 text-gray-700">載入戰報中...</p>
             </div>
-            <p className="mt-6 text-gray-500">
-              戰報內容開發中...
-            </p>
           </div>
-        </div>
+        )}
+
+        {/* 錯誤狀態 */}
+        {error && (
+          <div className="rounded-lg bg-red-50 p-6 text-center">
+            <p className="text-red-700">{error}</p>
+          </div>
+        )}
+
+        {/* 戰報內容 */}
+        {report && !loading && !error && <GameReport data={report} />}
       </main>
     </div>
   );
