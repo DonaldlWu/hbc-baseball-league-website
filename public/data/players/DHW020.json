@@ -16,11 +16,11 @@
       "team": "DH戰將",
       "number": "49",
       "batting": {
-        "games": 4,
-        "pa": 16,
-        "ab": 15,
-        "hits": 8,
-        "singles": 4,
+        "games": 5,
+        "pa": 20,
+        "ab": 18,
+        "hits": 9,
+        "singles": 5,
         "doubles": 4,
         "triples": 0,
         "hr": 0,
@@ -30,21 +30,21 @@
         "so": 2,
         "sb": 0,
         "sf": 1,
-        "totalBases": 12
+        "totalBases": 13
       },
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 173,
-        "hits": 147,
-        "hr": 1272,
-        "rbi": 210,
-        "avg": 1123,
-        "w": 866,
+        "rc": 156,
+        "hits": 138,
+        "hr": 1308,
+        "rbi": 218,
+        "avg": 1124,
+        "w": 868,
         "sv": 816,
-        "so": 1033,
-        "era": 1123,
-        "whip": 1123,
+        "so": 1035,
+        "era": 1124,
+        "whip": 1124,
         "fip": 0
       }
     }

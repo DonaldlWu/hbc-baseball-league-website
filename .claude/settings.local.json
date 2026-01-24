@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(npm test:*)",
+      "Bash(wc:*)",
+      "Bash(ls:*)",
+      "Bash(npm run test:*)",
+      "Bash(npm run build:*)",
+      "Bash(source ~/.nvm/nvm.sh)",
+      "Bash(nvm use:*)",
+      "Bash(npm run lint)",
+      "Bash(git restore:*)",
+      "WebFetch(domain:docs.google.com)"
+    ]
+  }
+}

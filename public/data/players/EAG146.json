@@ -1,0 +1,76 @@
+{
+  "id": "EAG146",
+  "code": "EAG146",
+  "name": "邱杰霖",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczO1avO8TMv3XO_TY3OLfISti1nGTieSIFLnJLBLr3lEdIytkCdmi87F3ELzd0Xg-_MIxomENCpmg6i0wUX4B5FGzg05MOn1g7uQJVMPnJZZTHIrWS38eYgv2EsqwR7buIfagE3qqxPvTT24UDeJieA=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "火把老鷹",
+      "number": "33",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 3,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 5,
+        "bf": 26,
+        "so": 6,
+        "bb": 3,
+        "h": 7,
+        "hr": 0,
+        "r": 4,
+        "er": 2,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 3.6,
+        "whip": 2,
+        "fip": null,
+        "kPer9": 10.8,
+        "bbPer9": 5.4,
+        "hPer9": 12.6,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 1076,
+        "hits": 1429,
+        "hr": 910,
+        "rbi": 1374,
+        "avg": 1124,
+        "w": 1484,
+        "sv": 1438,
+        "so": 113,
+        "era": 1124,
+        "whip": 262,
+        "fip": 0
+      }
+    }
+  ]
+}

@@ -16,21 +16,21 @@
       "team": "HOLYBAT",
       "number": "18",
       "batting": {
-        "games": 11,
-        "pa": 15,
-        "ab": 13,
-        "hits": 2,
-        "singles": 2,
+        "games": 12,
+        "pa": 17,
+        "ab": 14,
+        "hits": 3,
+        "singles": 3,
         "doubles": 0,
         "triples": 0,
         "hr": 0,
         "rbi": 1,
-        "runs": 3,
+        "runs": 4,
         "bb": 16,
         "so": 3,
         "sb": 0,
         "sf": 0,
-        "totalBases": 2
+        "totalBases": 3
       },
       "pitching": {
         "games": 9,
@@ -52,24 +52,24 @@
       "pitchingCalculated": {
         "era": 7.8387096799479705,
         "whip": 3.4838709688657645,
-        "fip": 6.974193911,
+        "fip": 6.974193912,
         "kPer9": 9.580645164380853,
         "bbPer9": 13.935483875463058,
         "hPer9": 17.419354844328822,
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 484,
-        "hits": 415,
-        "hr": 1251,
-        "rbi": 479,
-        "avg": 1123,
-        "w": 29,
-        "sv": 1488,
-        "so": 69,
-        "era": 1123,
-        "whip": 263,
-        "fip": 87
+        "rc": 361,
+        "hits": 349,
+        "hr": 1268,
+        "rbi": 498,
+        "avg": 1124,
+        "w": 30,
+        "sv": 1489,
+        "so": 71,
+        "era": 1124,
+        "whip": 282,
+        "fip": 84
       }
     },
     {

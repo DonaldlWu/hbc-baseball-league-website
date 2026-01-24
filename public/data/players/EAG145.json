@@ -16,9 +16,9 @@
       "team": "火把老鷹",
       "number": "67",
       "batting": {
-        "games": 0,
-        "pa": 0,
-        "ab": 0,
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
         "hits": 0,
         "singles": 0,
         "doubles": 0,
@@ -27,7 +27,7 @@
         "rbi": 0,
         "runs": 0,
         "bb": 0,
-        "so": 0,
+        "so": 3,
         "sb": 0,
         "sf": 0,
         "totalBases": 0
@@ -35,16 +35,16 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 848,
-        "hits": 758,
-        "hr": 235,
-        "rbi": 704,
-        "avg": 1123,
-        "w": 461,
-        "sv": 411,
-        "so": 628,
-        "era": 1123,
-        "whip": 1123,
+        "rc": 1028,
+        "hits": 1482,
+        "hr": 1002,
+        "rbi": 1443,
+        "avg": 1124,
+        "w": 464,
+        "sv": 412,
+        "so": 631,
+        "era": 1124,
+        "whip": 1124,
         "fip": 0
       }
     }
