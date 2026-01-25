@@ -14,8 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "新和棒球聯盟",
-  description: "新和棒球聯盟統計網站 - 球員資料查詢、統計排行榜、數據視覺化",
+  title: "新和週六野球聯盟",
+  description:
+    "新和週六野球聯盟統計網站 - 球員資料查詢、統計排行榜、數據視覺化",
   icons: {
     icon: [
       { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
@@ -26,14 +27,15 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    title: "新和棒球聯盟",
-    description: "新和棒球聯盟統計網站 - 球員資料查詢、統計排行榜、數據視覺化",
+    title: "新和週六野球聯盟",
+    description:
+      "新和週六野球聯盟統計網站 - 球員資料查詢、統計排行榜、數據視覺化",
     images: [
       {
         url: "/XYG.png",
         width: 714,
         height: 598,
-        alt: "新和棒球聯盟",
+        alt: "新和週六野球聯盟",
       },
     ],
     locale: "zh_TW",
@@ -41,8 +43,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "新和棒球聯盟",
-    description: "新和棒球聯盟統計網站 - 球員資料查詢、統計排行榜、數據視覺化",
+    title: "新和週六野球聯盟",
+    description:
+      "新和週六野球聯盟統計網站 - 球員資料查詢、統計排行榜、數據視覺化",
     images: ["/XYG.png"],
   },
 };

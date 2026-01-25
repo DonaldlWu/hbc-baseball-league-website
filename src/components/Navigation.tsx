@@ -22,7 +22,7 @@ const defaultItems: NavItem[] = [
 ];
 
 export default function Navigation({
-  siteTitle = "新和棒球聯盟",
+  siteTitle = "新和週六野球聯盟",
   items = defaultItems,
 }: NavigationProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -61,10 +61,7 @@ export default function Navigation({
   };
 
   return (
-    <nav
-      className="sticky top-0 z-50 bg-white shadow-md"
-      aria-label="主要導航"
-    >
+    <nav className="sticky top-0 z-50 bg-white shadow-md" aria-label="主要導航">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo / Site Title */}

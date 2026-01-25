@@ -16,7 +16,7 @@ describe("Navigation", () => {
   it("應該顯示網站標題", () => {
     render(<Navigation />);
 
-    expect(screen.getByText("新和棒球聯盟")).toBeInTheDocument();
+    expect(screen.getByText("新和週六野球聯盟")).toBeInTheDocument();
   });
 
   it("應該顯示所有導航項目", () => {
@@ -65,7 +65,9 @@ describe("Navigation", () => {
   it("應該有漢堡選單按鈕（手機版）", () => {
     render(<Navigation />);
 
-    const menuButton = screen.getByRole("button", { name: /開啟選單|關閉選單/i });
+    const menuButton = screen.getByRole("button", {
+      name: /開啟選單|關閉選單/i,
+    });
     expect(menuButton).toBeInTheDocument();
   });
 
@@ -117,7 +119,9 @@ describe("Navigation", () => {
     const nav = screen.getByRole("navigation");
     expect(nav).toHaveAttribute("aria-label", "主要導航");
 
-    const menuButton = screen.getByRole("button", { name: /開啟選單|關閉選單/i });
+    const menuButton = screen.getByRole("button", {
+      name: /開啟選單|關閉選單/i,
+    });
     expect(menuButton).toHaveAttribute("aria-expanded");
   });
 

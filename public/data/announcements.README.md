@@ -90,7 +90,7 @@ const latest = await getLatestAnnouncements(5);
 {
   "id": "ann-2025-01-001",
   "title": "2025 賽季開幕戰資訊",
-  "content": "新和聯盟 2025 賽季將於 2 月 15 日正式開打！",
+  "content": "新和週六野球聯盟 2025 賽季將於 2 月 15 日正式開打！",
   "publishedAt": "2025-01-10T10:00:00+08:00",
   "images": [
     {
