@@ -46,28 +46,34 @@ export default function StandingsTable({ teams, year }: StandingsTableProps) {
   return (
     <div className="overflow-x-auto">
       <table className="min-w-full bg-white border border-gray-200">
-        <thead className="bg-gray-50">
+        <thead className="bg-gray-800 text-white">
           <tr>
-            <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+            <th className="px-3 py-3 text-center text-xs font-medium uppercase tracking-wider">
               排名
             </th>
-            <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+            <th className="px-3 py-3 text-left text-xs font-medium uppercase tracking-wider">
               球隊
             </th>
-            <th className="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
+            <th className="px-3 py-3 text-center text-xs font-medium uppercase tracking-wider">
+              已賽
+            </th>
+            <th className="px-3 py-3 text-center text-xs font-medium uppercase tracking-wider">
               勝
             </th>
-            <th className="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
+            <th className="px-3 py-3 text-center text-xs font-medium uppercase tracking-wider">
               敗
             </th>
-            <th className="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
+            <th className="px-3 py-3 text-center text-xs font-medium uppercase tracking-wider">
               和
             </th>
-            <th className="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
-              均失
+            <th className="px-3 py-3 text-center text-xs font-medium uppercase tracking-wider">
+              積分
             </th>
-            <th className="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
-              均得
+            <th className="px-3 py-3 text-center text-xs font-medium uppercase tracking-wider">
+              勝率
+            </th>
+            <th className="px-3 py-3 text-center text-xs font-medium uppercase tracking-wider">
+              勝差
             </th>
           </tr>
         </thead>
@@ -78,8 +84,10 @@ export default function StandingsTable({ teams, year }: StandingsTableProps) {
               onClick={() => handleRowClick(team.teamId)}
               className="hover:bg-gray-50 cursor-pointer transition-colors"
             >
-              <td className="px-4 py-3 text-sm text-gray-900">{team.rank}</td>
-              <td className="px-4 py-3 text-sm font-medium text-gray-900">
+              <td className="px-3 py-3 text-sm text-center text-gray-900">
+                {team.rank}
+              </td>
+              <td className="px-3 py-3 text-sm font-medium text-gray-900">
                 <div className="flex items-center gap-2">
                   {teamIcons.get(team.teamId) && !imageErrors[team.teamId] ? (
                     <img
@@ -98,20 +106,26 @@ export default function StandingsTable({ teams, year }: StandingsTableProps) {
                   <span>{team.teamName}</span>
                 </div>
               </td>
-              <td className="px-4 py-3 text-sm text-center text-gray-900">
+              <td className="px-3 py-3 text-sm text-center text-gray-900">
+                {team.gamesPlayed}
+              </td>
+              <td className="px-3 py-3 text-sm text-center text-gray-900">
                 {team.wins}
               </td>
-              <td className="px-4 py-3 text-sm text-center text-gray-900">
+              <td className="px-3 py-3 text-sm text-center text-gray-900">
                 {team.losses}
               </td>
-              <td className="px-4 py-3 text-sm text-center text-gray-900">
+              <td className="px-3 py-3 text-sm text-center text-gray-900">
                 {team.draws}
               </td>
-              <td className="px-4 py-3 text-sm text-center text-gray-900">
-                {team.runsAllowed.toFixed(1)}
+              <td className="px-3 py-3 text-sm text-center font-semibold text-gray-900">
+                {team.points}
               </td>
-              <td className="px-4 py-3 text-sm text-center text-gray-900">
-                {team.runsScored.toFixed(1)}
+              <td className="px-3 py-3 text-sm text-center text-gray-900">
+                {(team.winRate * 100).toFixed(1)}%
+              </td>
+              <td className="px-3 py-3 text-sm text-center text-gray-900">
+                {team.gamesBehind === null ? '-' : team.gamesBehind.toFixed(1)}
               </td>
             </tr>
           ))}

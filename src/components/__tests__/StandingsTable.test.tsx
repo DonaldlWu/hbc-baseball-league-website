@@ -22,6 +22,10 @@ describe('StandingsTable', () => {
       draws: 1,
       runsAllowed: 4.0,
       runsScored: 14.2,
+      gamesPlayed: 20,
+      points: 49,
+      winRate: 0.842,
+      gamesBehind: null,
     },
     {
       rank: 2,
@@ -32,6 +36,10 @@ describe('StandingsTable', () => {
       draws: 1,
       runsAllowed: 6.4,
       runsScored: 11.2,
+      gamesPlayed: 16,
+      points: 28,
+      winRate: 0.6,
+      gamesBehind: 5,
     },
   ];
 
@@ -53,15 +61,34 @@ describe('StandingsTable', () => {
   it('應該顯示勝敗場數', () => {
     render(<StandingsTable teams={mockTeams} year={2025} />);
 
-    expect(screen.getByText('16')).toBeInTheDocument();
+    // 檢查勝場（16）和敗場（3）存在
+    // 注意：16 可能出現多次（勝場和已賽場數），所以用 getAllByText
+    const wins16 = screen.getAllByText('16');
+    expect(wins16.length).toBeGreaterThan(0);
     expect(screen.getByText('3')).toBeInTheDocument();
   });
 
-  it('應該顯示均得均失', () => {
+  it('應該顯示積分', () => {
     render(<StandingsTable teams={mockTeams} year={2025} />);
 
-    expect(screen.getByText('14.2')).toBeInTheDocument();
-    expect(screen.getByText('4.0')).toBeInTheDocument();
+    expect(screen.getByText('49')).toBeInTheDocument();
+    expect(screen.getByText('28')).toBeInTheDocument();
+  });
+
+  it('應該顯示勝率', () => {
+    render(<StandingsTable teams={mockTeams} year={2025} />);
+
+    expect(screen.getByText('84.2%')).toBeInTheDocument();
+    expect(screen.getByText('60.0%')).toBeInTheDocument();
+  });
+
+  it('應該顯示勝差', () => {
+    render(<StandingsTable teams={mockTeams} year={2025} />);
+
+    // 第一名顯示 '-'
+    expect(screen.getByText('-')).toBeInTheDocument();
+    // 第二名顯示勝差
+    expect(screen.getByText('5.0')).toBeInTheDocument();
   });
 
   it('應該顯示和局數', () => {

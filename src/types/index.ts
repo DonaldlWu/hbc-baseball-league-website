@@ -179,9 +179,9 @@ export interface LeagueStats {
   };
 }
 
-// 球隊戰績
-export interface TeamRecord {
-  rank: number;             // 排名
+// 球隊戰績（原始資料）
+export interface TeamRecordRaw {
+  rank: number;             // 排名（原始資料用）
   teamId: string;           // 球隊 ID
   teamName: string;         // 球隊名稱
   wins: number;             // 勝場
@@ -189,6 +189,14 @@ export interface TeamRecord {
   draws: number;            // 和局
   runsAllowed: number;      // 均失（平均失分）
   runsScored: number;       // 均得（平均得分）
+}
+
+// 球隊戰績（含計算欄位）
+export interface TeamRecord extends TeamRecordRaw {
+  gamesPlayed: number;      // 已賽場數
+  points: number;           // 積分（勝3分、和1分、敗0分）
+  winRate: number;          // 勝率 = 勝 / (勝 + 敗)
+  gamesBehind: number | null; // 勝差（第一名為 null）
 }
 
 // 聯盟戰績排名

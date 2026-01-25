@@ -11,7 +11,10 @@ import type {
   LeagueStats,
   TeamSummary,
   PlayerSummary,
+  LeagueStandings,
+  TeamRecordRaw,
 } from '@/src/types';
+import { calculateStandings } from './standingsCalculator';
 
 /**
  * 載入年度摘要
@@ -160,14 +163,25 @@ export function extractTeamsFromSeason(summary: SeasonSummary): TeamSummary[] {
  * @param year 年份
  * @returns 聯盟排名資料
  */
-export async function loadStandings(year: number): Promise<import('@/src/types').LeagueStandings> {
+export async function loadStandings(year: number): Promise<LeagueStandings> {
   const response = await fetch(`/data/standings_${year}.json`);
 
   if (!response.ok) {
     throw new Error(`Failed to load standings for ${year}: ${response.status}`);
   }
 
-  return response.json();
+  const rawData: { year: number; league: string; lastUpdated: string; teams: TeamRecordRaw[] } =
+    await response.json();
+
+  // 計算積分、勝率、勝差並排序
+  const teamsWithStats = calculateStandings(rawData.teams);
+
+  return {
+    year: rawData.year,
+    league: rawData.league,
+    lastUpdated: rawData.lastUpdated,
+    teams: teamsWithStats,
+  };
 }
 
 /**
