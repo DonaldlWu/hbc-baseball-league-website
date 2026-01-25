@@ -2,10 +2,14 @@ import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import Navigation from "../Navigation";
 
-// Mock usePathname
+// Mock next/navigation
 const mockPathname = jest.fn();
+const mockPush = jest.fn();
 jest.mock("next/navigation", () => ({
   usePathname: () => mockPathname(),
+  useRouter: () => ({
+    push: mockPush,
+  }),
 }));
 
 describe("Navigation", () => {
@@ -50,8 +54,8 @@ describe("Navigation", () => {
 
     const teamsLinks = screen.getAllByRole("link", { name: "球團" });
     // Both desktop and mobile links should be highlighted
-    expect(teamsLinks[0]).toHaveClass("text-primary-600");
-    expect(teamsLinks[0]).toHaveClass("font-semibold");
+    expect(teamsLinks[0]).toHaveClass("text-green-600");
+    expect(teamsLinks[0]).toHaveClass("font-bold");
   });
 
   it("首頁連結在首頁時應該高亮", () => {
@@ -59,7 +63,7 @@ describe("Navigation", () => {
     render(<Navigation />);
 
     const homeLinks = screen.getAllByRole("link", { name: "首頁" });
-    expect(homeLinks[0]).toHaveClass("text-primary-600");
+    expect(homeLinks[0]).toHaveClass("text-green-600");
   });
 
   it("應該有漢堡選單按鈕（手機版）", () => {

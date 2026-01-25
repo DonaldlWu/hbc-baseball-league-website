@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 interface NavItem {
   label: string;
@@ -27,12 +27,14 @@ export default function Navigation({
 }: NavigationProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
+  const router = useRouter();
 
   const isActive = (href: string): boolean => {
-    if (href === "/") {
-      return pathname === "/";
-    }
+    // 錨點連結不參與高亮（它們是首頁內的導航）
     if (href.startsWith("/#")) {
+      return false;
+    }
+    if (href === "/") {
       return pathname === "/";
     }
     return pathname.startsWith(href);
@@ -42,21 +44,52 @@ export default function Navigation({
     const baseClasses =
       "px-3 py-2 rounded-md text-sm transition-colors duration-200";
     if (isActive(href)) {
-      return `${baseClasses} text-primary-600 bg-primary-50 font-semibold`;
+      return `${baseClasses} text-green-600 font-bold`;
     }
-    return `${baseClasses} text-gray-700 hover:text-primary-600 hover:bg-gray-50`;
+    return `${baseClasses} text-gray-900 hover:text-green-600`;
   };
 
   const getMobileLinkClasses = (href: string): string => {
     const baseClasses =
       "block px-4 py-3 text-base transition-colors duration-200";
     if (isActive(href)) {
-      return `${baseClasses} text-primary-600 bg-primary-50 font-semibold`;
+      return `${baseClasses} text-green-600 font-bold`;
     }
-    return `${baseClasses} text-gray-700 hover:text-primary-600 hover:bg-gray-50`;
+    return `${baseClasses} text-gray-900 hover:text-green-600`;
   };
 
-  const handleMobileLinkClick = () => {
+  // 處理錨點連結滾動
+  const handleLinkClick = useCallback(
+    (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+      // 處理錨點連結（如 /#schedule）
+      if (href.startsWith("/#")) {
+        const targetId = href.substring(2); // 移除 /#
+        const targetElement = document.getElementById(targetId);
+
+        if (pathname === "/" && targetElement) {
+          // 已在首頁，直接滾動
+          e.preventDefault();
+          targetElement.scrollIntoView({ behavior: "smooth" });
+        } else if (pathname !== "/") {
+          // 不在首頁，先導航再滾動
+          e.preventDefault();
+          router.push("/");
+          // 等待頁面載入後再滾動
+          setTimeout(() => {
+            const element = document.getElementById(targetId);
+            element?.scrollIntoView({ behavior: "smooth" });
+          }, 100);
+        }
+      }
+    },
+    [pathname, router]
+  );
+
+  const handleMobileLinkClick = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    href: string
+  ) => {
+    handleLinkClick(e, href);
     setIsMenuOpen(false);
   };
 
@@ -79,6 +112,7 @@ export default function Navigation({
                 key={item.href}
                 href={item.href}
                 className={getLinkClasses(item.href)}
+                onClick={(e) => handleLinkClick(e, item.href)}
               >
                 {item.label}
               </Link>
@@ -143,7 +177,7 @@ export default function Navigation({
               key={item.href}
               href={item.href}
               className={getMobileLinkClasses(item.href)}
-              onClick={handleMobileLinkClick}
+              onClick={(e) => handleMobileLinkClick(e, item.href)}
             >
               {item.label}
             </Link>
