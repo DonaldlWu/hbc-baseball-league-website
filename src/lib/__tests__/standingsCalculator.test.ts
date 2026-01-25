@@ -68,7 +68,6 @@ describe('standingsCalculator', () => {
   describe('calculateStandings', () => {
     const mockTeams: TeamRecordRaw[] = [
       {
-        rank: 2,
         teamId: 'PHE',
         teamName: '飛尼克斯',
         wins: 13,
@@ -78,7 +77,6 @@ describe('standingsCalculator', () => {
         runsScored: 11.2,
       },
       {
-        rank: 1,
         teamId: 'ROO',
         teamName: 'Line Drive',
         wins: 16,
@@ -88,7 +86,6 @@ describe('standingsCalculator', () => {
         runsScored: 14.2,
       },
       {
-        rank: 3,
         teamId: 'YCT',
         teamName: '永春TB',
         wins: 12,
@@ -150,7 +147,6 @@ describe('standingsCalculator', () => {
     it('積分相同時應依勝率排序', () => {
       const teamsWithSamePoints: TeamRecordRaw[] = [
         {
-          rank: 1,
           teamId: 'A',
           teamName: 'Team A',
           wins: 12,
@@ -160,7 +156,6 @@ describe('standingsCalculator', () => {
           runsScored: 10,
         },
         {
-          rank: 2,
           teamId: 'B',
           teamName: 'Team B',
           wins: 12,

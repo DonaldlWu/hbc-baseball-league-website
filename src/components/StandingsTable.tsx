@@ -75,6 +75,12 @@ export default function StandingsTable({ teams, year }: StandingsTableProps) {
             <th className="px-3 py-3 text-center text-xs font-medium uppercase tracking-wider">
               勝差
             </th>
+            <th className="px-3 py-3 text-center text-xs font-medium uppercase tracking-wider">
+              均失
+            </th>
+            <th className="px-3 py-3 text-center text-xs font-medium uppercase tracking-wider">
+              均得
+            </th>
           </tr>
         </thead>
         <tbody className="divide-y divide-gray-200">
@@ -126,6 +132,12 @@ export default function StandingsTable({ teams, year }: StandingsTableProps) {
               </td>
               <td className="px-3 py-3 text-sm text-center text-gray-900">
                 {team.gamesBehind === null ? '-' : team.gamesBehind.toFixed(1)}
+              </td>
+              <td className="px-3 py-3 text-sm text-center text-gray-900">
+                {team.runsAllowed.toFixed(1)}
+              </td>
+              <td className="px-3 py-3 text-sm text-center text-gray-900">
+                {team.runsScored.toFixed(1)}
               </td>
             </tr>
           ))}

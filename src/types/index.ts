@@ -179,9 +179,8 @@ export interface LeagueStats {
   };
 }
 
-// 球隊戰績（原始資料）
+// 球隊戰績（原始資料，從 JSON 讀取）
 export interface TeamRecordRaw {
-  rank: number;             // 排名（原始資料用）
   teamId: string;           // 球隊 ID
   teamName: string;         // 球隊名稱
   wins: number;             // 勝場
@@ -193,6 +192,7 @@ export interface TeamRecordRaw {
 
 // 球隊戰績（含計算欄位）
 export interface TeamRecord extends TeamRecordRaw {
+  rank: number;             // 排名（計算後）
   gamesPlayed: number;      // 已賽場數
   points: number;           // 積分（勝3分、和1分、敗0分）
   winRate: number;          // 勝率 = 勝 / (勝 + 敗)
