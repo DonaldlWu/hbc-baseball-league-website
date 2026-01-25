@@ -77,12 +77,42 @@ const nextConfig: NextConfig = {
     removeConsole: process.env.NODE_ENV === 'production',
   },
 
-  // Headers 優化（可選，Vercel 會自動設定）
+  // Headers 優化：為靜態資源設定瀏覽器快取
   async headers() {
     return [
       {
-        // 為靜態資源設定長期快取
-        source: '/images/:path*',
+        // 球隊 logo、公告圖片等
+        source: '/assets/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+      {
+        // favicon 和 icon
+        source: '/:path*.png',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+      {
+        // SVG 圖片
+        source: '/:path*.svg',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+      {
+        // JPG/JPEG 圖片
+        source: '/:path*.jpg',
         headers: [
           {
             key: 'Cache-Control',
