@@ -3,6 +3,23 @@ import path from 'path';
 import { parse } from 'csv-parse/sync';
 import type { Player, LeagueStats } from '../src/types';
 
+// 處理重複欄位名稱的函數
+export function handleDuplicateColumns(columns: string[]): string[] {
+  const seen = new Map<string, number>();
+  return columns.map((col) => {
+    const count = seen.get(col) || 0;
+    seen.set(col, count + 1);
+    if (count === 0) {
+      return col;
+    }
+    // 第二個 '四死' 欄位重新命名為 '投手四死'
+    if (col === '四死') {
+      return '投手四死';
+    }
+    return `${col}_${count + 1}`;
+  });
+}
+
 // 解析 CSV 行
 export function parseCSVRow(row: any): any {
   const safeParseInt = (value: string): number => {
@@ -19,7 +36,7 @@ export function parseCSVRow(row: any): any {
   const ip = safeParseFloat(row['局數']);
   const bf = safeParseInt(row['人次']);
   const pitchingSO = safeParseInt(row['奪三振']);
-  const pitchingBB = safeParseInt(row['四死']);  // 投手的保送（被四死球）
+  const pitchingBB = safeParseInt(row['投手四死']);  // 投手的保送（被四死球）- 使用重新命名的欄位
   const h = safeParseInt(row['被安打']);
   const pitchingHR = safeParseInt(row['被HR']);
   const r = safeParseInt(row['失分']);
@@ -204,8 +221,9 @@ async function main() {
   const csvContent = await fs.readFile(csvPath, 'utf-8');
 
   // 解析 CSV (跳過第一行聯盟統計，從第二行標題開始)
+  // 使用自訂 columns 函數處理重複的欄位名稱 (如 '四死' 出現兩次)
   const records = parse(csvContent, {
-    columns: true,
+    columns: (header) => handleDuplicateColumns(header),
     skip_empty_lines: true,
     trim: true,
     from_line: 2, // 從第2行開始讀取（第1行是聯盟統計）
