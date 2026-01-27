@@ -13,6 +13,7 @@
 7. [TDD 實施指南](#tdd)
 8. [效能優化](#performance)
 9. [程式碼品質標準](#code-quality)
+10. [賽程資料產生指引](#schedule-generation)
 
 ---
 
@@ -1454,3 +1455,198 @@ SearchBar
 4. **Rule of Three** - 重複三次才抽象
 
 遵循這些原則，可以寫出乾淨、可維護、可測試的程式碼。
+
+---
+
+## 賽程資料產生指引 {#schedule-generation}
+
+當使用者說「利用以下資訊幫我產生本月賽程資料」時，根據提供的原始賽程文字自動產生對應的 JSON 檔案。
+
+### 觸發條件
+
+使用者提供類似以下格式的賽程資訊：
+
+```
+2026/2/7
+中正A
+No.95 世新超乙組 VS 華江OB--中正A--中午(12:00~14:30)
+No.99 台大醫學院棒 VS 莫拉克--中正A--下午(14:30~17:00)
+
+2026/2/21
+新年快樂!
+```
+
+### 需要產生的檔案
+
+| 檔案 | 路徑 | 用途 |
+|------|------|------|
+| 月賽程 | `public/data/schedules/YYYY-MM.json` | 賽程表顯示 |
+| 戰報索引 | `public/data/game-reports/index.json` | 戰報連結 |
+
+### 解析規則
+
+#### 1. 日期解析
+
+```
+2026/2/7 → "2026-02-07"
+2026/2/14 → "2026-02-14"
+```
+
+#### 2. 比賽資訊解析
+
+```
+No.95 世新超乙組 VS 華江OB--中正A--中午(12:00~14:30)
+```
+
+解析為：
+- `gameNumber`: `"202595"` (賽季年度 2025 + 場次 95)
+- `homeTeam`: `"世新超乙組"` (VS 前面的隊伍)
+- `awayTeam`: `"華江OB"` (VS 後面的隊伍)
+- `venue`: `"中正A"`
+- `timeSlot`: `"中午"`
+- `startTime`: `"12:00"`
+- `endTime`: `"14:30"`
+
+#### 3. gameNumber 轉換規則
+
+```
+賽季年度 (從 schedule.season 取得，通常是日曆年-1) + 場次編號
+
+No.95  → 202595   (2025 賽季)
+No.201 → 2025201  (2025 賽季)
+```
+
+#### 4. 時段判斷
+
+| 時間範圍 | 時段 |
+|----------|------|
+| 08:00~11:00 | 上午 |
+| 10:30~13:00 | 中午 |
+| 11:00~14:00 | 中午 |
+| 12:00~14:30 | 中午 |
+| 14:00~17:00 | 下午 |
+| 14:30~17:00 | 下午 |
+
+#### 5. 備註處理
+
+- 比賽備註：`*開賽時間暫定` → `note: "開賽時間暫定"`
+- 當日備註：`新年快樂!` (無比賽) → `note: "新年快樂！"`
+
+### 產出範本
+
+#### 月賽程檔案 (schedules/YYYY-MM.json)
+
+```json
+{
+  "schedule": {
+    "year": 2026,
+    "month": 2,
+    "season": 2025,
+    "days": [
+      {
+        "date": "2026-02-07",
+        "venues": {
+          "中正A": [
+            {
+              "gameNumber": "202595",
+              "homeTeam": "世新超乙組",
+              "awayTeam": "華江OB",
+              "venue": "中正A",
+              "timeSlot": "中午",
+              "startTime": "12:00",
+              "endTime": "14:30",
+              "note": "開賽時間暫定，待確認場地後調整"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-02-21",
+        "venues": {},
+        "note": "新年快樂！"
+      }
+    ]
+  },
+  "meta": {
+    "lastUpdated": "2026-01-28T00:00:00Z",
+    "totalGames": 11,
+    "venues": ["中正A", "清溪", "三鶯B"]
+  }
+}
+```
+
+#### 戰報索引更新 (game-reports/index.json)
+
+在 `games` 物件中新增每場比賽：
+
+```json
+{
+  "games": {
+    "202595": {
+      "sheetId": "",
+      "date": "2026-02-07",
+      "homeTeam": "世新超乙組",
+      "awayTeam": "華江OB",
+      "venue": "中正A"
+    }
+  }
+}
+```
+
+### 隊伍名稱對照
+
+參考 `public/data/all_teams.json` 確保隊伍名稱正確：
+
+| 常見輸入 | 正確名稱 |
+|----------|----------|
+| 飛尼克斯 | 飛尼克斯 |
+| 華江OB | 華江OB |
+| 台大醫學院棒 | 台大醫學院棒 |
+| Mechanics | Mechanics |
+| HOLYBAT | HOLYBAT |
+| ACES | ACES |
+| DH戰將 | DH戰將 |
+
+### 執行步驟
+
+1. **解析原始資料**
+   - 識別日期、場地、比賽資訊
+   - 轉換 gameNumber 格式
+   - 識別備註文字
+
+2. **產生 schedules/YYYY-MM.json**
+   - 建立完整的月賽程結構
+   - 計算 totalGames 和 venues
+
+3. **更新 game-reports/index.json**
+   - 新增每場比賽的基本資訊
+   - sheetId 留空 `""`
+
+4. **驗證 JSON 格式**
+   ```bash
+   cat public/data/schedules/2026-02.json | python3 -m json.tool > /dev/null
+   cat public/data/game-reports/index.json | python3 -m json.tool > /dev/null
+   ```
+
+### 範例對話
+
+**使用者輸入：**
+```
+利用以下資訊幫我產生本月賽程資料
+
+2026/3/1
+中正A
+No.100 火把老鷹 VS 飛尼克斯--中正A--中午(12:00~14:30)
+```
+
+**Claude 執行：**
+1. 建立 `public/data/schedules/2026-03.json`
+2. 更新 `public/data/game-reports/index.json` 新增 `"2025100"` 條目
+3. 驗證 JSON 格式
+4. 回報完成摘要
+
+### 相關文件
+
+- [賽程更新指南](docs/SCHEDULE_UPDATE_GUIDE.md) - 完整操作說明
+- [賽程功能說明](docs/SCHEDULE_FEATURE.md) - UI 與元件說明
+- [戰報 API 文件](docs/api/game-reports.md) - API 格式說明

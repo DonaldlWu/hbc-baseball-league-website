@@ -1,0 +1,156 @@
+{
+  "schedule": {
+    "year": 2026,
+    "month": 2,
+    "season": 2025,
+    "days": [
+      {
+        "date": "2026-02-07",
+        "venues": {
+          "中正A": [
+            {
+              "gameNumber": "202595",
+              "homeTeam": "世新超乙組",
+              "awayTeam": "華江OB",
+              "venue": "中正A",
+              "timeSlot": "中午",
+              "startTime": "12:00",
+              "endTime": "14:30",
+              "note": "開賽時間暫定，待拿到二月完整場地會再微調"
+            },
+            {
+              "gameNumber": "202599",
+              "homeTeam": "台大醫學院棒",
+              "awayTeam": "莫拉克",
+              "venue": "中正A",
+              "timeSlot": "下午",
+              "startTime": "14:30",
+              "endTime": "17:00",
+              "note": "開賽時間暫定，待拿到二月完整場地會再微調"
+            }
+          ],
+          "三鶯B": [
+            {
+              "gameNumber": "2025133",
+              "homeTeam": "楚奧特",
+              "awayTeam": "Mechanics",
+              "venue": "三鶯B",
+              "timeSlot": "上午",
+              "startTime": "08:00",
+              "endTime": "10:30",
+              "note": "開賽時間暫定，待拿到二月完整場地會再微調"
+            },
+            {
+              "gameNumber": "2025120",
+              "homeTeam": "木柵OB",
+              "awayTeam": "陽明OB",
+              "venue": "三鶯B",
+              "timeSlot": "中午",
+              "startTime": "10:30",
+              "endTime": "13:00",
+              "note": "開賽時間暫定，待拿到二月完整場地會再微調"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-02-14",
+        "venues": {
+          "中正A": [
+            {
+              "gameNumber": "2025121",
+              "homeTeam": "莫拉克",
+              "awayTeam": "永春TB",
+              "venue": "中正A",
+              "timeSlot": "中午",
+              "startTime": "12:00",
+              "endTime": "14:30",
+              "note": "開賽時間暫定，待拿到二月完整場地會再微調"
+            },
+            {
+              "gameNumber": "2025215",
+              "homeTeam": "華江OB",
+              "awayTeam": "HOLYBAT",
+              "venue": "中正A",
+              "timeSlot": "下午",
+              "startTime": "14:30",
+              "endTime": "17:00",
+              "note": "開賽時間暫定，待拿到二月完整場地會再微調"
+            }
+          ],
+          "清溪": [
+            {
+              "gameNumber": "202550",
+              "homeTeam": "ACES",
+              "awayTeam": "木柵OB",
+              "venue": "清溪",
+              "timeSlot": "中午",
+              "startTime": "12:00",
+              "endTime": "14:30",
+              "note": "開賽時間暫定，待拿到二月完整場地會再微調"
+            },
+            {
+              "gameNumber": "202584",
+              "homeTeam": "飛尼克斯",
+              "awayTeam": "楚奧特",
+              "venue": "清溪",
+              "timeSlot": "下午",
+              "startTime": "14:30",
+              "endTime": "17:00",
+              "note": "開賽時間暫定，待拿到二月完整場地會再微調"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-02-21",
+        "venues": {},
+        "note": "新年快樂！"
+      },
+      {
+        "date": "2026-02-28",
+        "venues": {
+          "中正A": [
+            {
+              "gameNumber": "202545",
+              "homeTeam": "火把老鷹",
+              "awayTeam": "DH戰將",
+              "venue": "中正A",
+              "timeSlot": "中午",
+              "startTime": "12:00",
+              "endTime": "14:30",
+              "note": "開賽時間暫定，待拿到二月完整場地會再微調"
+            },
+            {
+              "gameNumber": "202591",
+              "homeTeam": "十號馬",
+              "awayTeam": "永春TB",
+              "venue": "中正A",
+              "timeSlot": "下午",
+              "startTime": "14:30",
+              "endTime": "17:00",
+              "note": "開賽時間暫定，待拿到二月完整場地會再微調"
+            }
+          ],
+          "清溪": [
+            {
+              "gameNumber": "202566",
+              "homeTeam": "少林棒球隊",
+              "awayTeam": "甜心暴龍",
+              "venue": "清溪",
+              "timeSlot": "中午",
+              "startTime": "12:00",
+              "endTime": "14:30",
+              "note": "開賽時間暫定，待拿到二月完整場地會再微調"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "meta": {
+    "lastUpdated": "2026-01-27T00:00:00Z",
+    "totalGames": 11,
+    "venues": ["中正A", "清溪", "三鶯B"]
+  }
+}

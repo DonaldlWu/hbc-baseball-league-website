@@ -328,6 +328,9 @@ function DayScheduleCard({
   const weekday = weekdays[date.getDay()];
   const dateStr = `${date.getMonth() + 1}/${date.getDate()}`;
 
+  // 檢查是否有比賽
+  const hasGames = Object.keys(daySchedule.venues).length > 0;
+
   return (
     <div className="p-6">
       {/* 日期標題 */}
@@ -336,7 +339,20 @@ function DayScheduleCard({
           <span className="text-2xl font-bold text-gray-900">{dateStr}</span>
           <span className="text-lg text-gray-600">週{weekday}</span>
         </div>
+        {/* 當日備註 */}
+        {daySchedule.note && (
+          <span className="rounded-full bg-amber-100 px-3 py-1 text-sm font-medium text-amber-700">
+            {daySchedule.note}
+          </span>
+        )}
       </div>
+
+      {/* 無比賽時顯示備註 */}
+      {!hasGames && daySchedule.note && (
+        <div className="rounded-lg border border-amber-200 bg-amber-50 p-4 text-center">
+          <p className="text-amber-700">{daySchedule.note}</p>
+        </div>
+      )}
 
       {/* 按場地分組 */}
       <div className="space-y-6">
@@ -475,6 +491,26 @@ function GameCard({ game, highlightTeam }: { game: Game; highlightTeam?: string 
           </svg>
         </div>
       </div>
+      {/* 比賽備註 */}
+      {game.note && (
+        <div className="mt-2 flex items-center gap-1.5 text-xs text-amber-600">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-3.5 w-3.5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+          <span>{game.note}</span>
+        </div>
+      )}
     </Link>
   );
 }

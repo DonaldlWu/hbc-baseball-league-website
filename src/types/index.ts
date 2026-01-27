@@ -255,6 +255,7 @@ export interface Game {
   startTime: string;       // 開始時間 (如 "08:00")
   endTime: string;         // 結束時間 (如 "11:00")
   season?: number;         // 賽季年度 (如 2025)，可從 gameNumber 解析
+  note?: string;           // 備註（選填，如 "開賽時間暫定"）
   result?: {               // 比賽結果（選填，未開打則無）
     homeScore: number;
     awayScore: number;
@@ -268,6 +269,7 @@ export interface DaySchedule {
   venues: {
     [venueName: string]: Game[];  // 場地名稱 -> 該場地的比賽列表
   };
+  note?: string;           // 當日備註（選填，如 "新年快樂！"）
 }
 
 // 月賽程

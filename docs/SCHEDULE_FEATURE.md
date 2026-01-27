@@ -213,25 +213,40 @@ export default function CustomSchedule() {
 
 ### 新增新月份賽程
 
-1. **建立 JSON 檔案**
+> **完整操作指南請參考 [SCHEDULE_UPDATE_GUIDE.md](./SCHEDULE_UPDATE_GUIDE.md)**
+
+新增賽程需要更新 **2 個檔案**：
+
+| 檔案 | 用途 |
+|------|------|
+| `public/data/schedules/YYYY-MM.json` | 月賽程表顯示 |
+| `public/data/game-reports/index.json` | 戰報連結與載入 |
+
+**快速步驟：**
+
+1. **建立月賽程 JSON 檔案**
    ```bash
    cp public/data/schedules/2026-01.json public/data/schedules/2026-02.json
    ```
 
-2. **更新資料**
+2. **更新月賽程資料**
    - 修改 `year` 和 `month`
    - 更新 `days` 陣列中的日期和賽程
    - 更新 `meta` 中的統計資訊
 
-3. **驗證格式**
+3. **更新戰報索引** (重要！)
+   - 編輯 `public/data/game-reports/index.json`
+   - 新增每場比賽的資訊（sheetId 先留空）
+
+4. **驗證格式**
    ```bash
-   # 使用 JSON validator 檢查格式
-   cat public/data/schedules/2026-02.json | jq .
+   cat public/data/schedules/2026-02.json | python3 -m json.tool > /dev/null && echo "OK"
+   cat public/data/game-reports/index.json | python3 -m json.tool > /dev/null && echo "OK"
    ```
 
-4. **提交**
+5. **提交**
    ```bash
-   git add public/data/schedules/2026-02.json
+   git add public/data/schedules/ public/data/game-reports/
    git commit -m "feat: 新增 2026 年 2 月賽程"
    ```
 
