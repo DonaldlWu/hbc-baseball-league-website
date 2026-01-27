@@ -1331,3 +1331,157 @@ npm run convert-data          # CSV 轉 JSON
 ✅ **成本優化：** 大幅減少 API 呼叫，遠低於 Google Sheets 免費配額（500 次/天）
 
 ✅ **效能提升：** CDN 快取提供毫秒級回應速度
+
+---
+
+## TODO：球隊近況功能（連勝/連敗、名次變化）
+
+### 背景
+- 使用者希望在排行榜看到每隊的「近況」資訊
+- 例如：三連勝中 🔥、二連敗、名次上升 ▲ / 下降 ▼
+- 需要結合 `standings` 和 `schedule` (或 `game-reports`) 的資料
+
+### 現有資料結構
+
+| 資料來源 | 內容 | 問題 |
+|----------|------|------|
+| `standings_2025.json` | 累計戰績 (勝/敗/和) | 沒有逐場記錄 |
+| `schedules/*.json` | 賽程與比分 | `result` 字段大多未填 |
+| `game-reports/` | 戰報詳細比分 | 可作為結果來源 |
+
+### 任務清單 (TDD 流程)
+
+#### Phase 1: 資料結構擴展
+
+- [ ] **1.1** 更新 `TeamRecord` 類型 (`src/types/index.ts`)
+  ```typescript
+  export interface TeamRecord extends TeamRecordRaw {
+    // ... 現有欄位 ...
+    streak?: {
+      type: 'W' | 'L' | 'D';  // Win/Loss/Draw
+      count: number;           // 連續場數
+    };
+    lastFive?: ('W' | 'L' | 'D')[];  // 近 5 場結果
+    rankChange?: number;       // 名次變化: +2=上升, -1=下降, 0=不變
+  }
+  ```
+
+- [ ] **1.2** 更新 `standings_2025.json` 格式
+  - 新增 `streak`, `lastFive`, `rankChange` 欄位
+  - 範例：
+    ```json
+    {
+      "teamId": "ROO",
+      "teamName": "Line Drive",
+      "wins": 16,
+      "losses": 3,
+      "streak": { "type": "W", "count": 3 },
+      "lastFive": ["W", "W", "W", "L", "W"],
+      "rankChange": 0
+    }
+    ```
+
+#### Phase 2: 比賽結果歷史（可選但建議）
+
+- [ ] **2.1** 新增 `public/data/game-results/2025.json`
+  ```json
+  {
+    "season": 2025,
+    "results": [
+      {
+        "gameNumber": "2025201",
+        "date": "2026-01-03",
+        "homeTeam": "Line Drive",
+        "awayTeam": "陽明OB",
+        "homeScore": 10,
+        "awayScore": 3,
+        "winner": "Line Drive"
+      }
+    ]
+  }
+  ```
+
+- [ ] **2.2** 新增 `GameResult` 類型 (`src/types/index.ts`)
+
+#### Phase 3: 計算工具 (TDD)
+
+- [ ] **3.1** 建立 `src/lib/streakCalculator.ts`
+  - [ ] 🔴 Red: 撰寫測試 `src/lib/__tests__/streakCalculator.test.ts`
+  - [ ] 🟢 Green: 實作函數
+    - `calculateStreak(results, teamName)` → `{ type: 'W', count: 3 }`
+    - `calculateLastFive(results, teamName)` → `['W', 'W', 'W', 'L', 'W']`
+    - `calculateRankChange(current, previous)` → `Map<teamId, number>`
+  - [ ] 🔵 Refactor: 優化
+
+#### Phase 4: UI 元件
+
+- [ ] **4.1** 更新排行榜表格 (`src/components/StandingsTable.tsx` 或新建)
+  - [ ] 名次變化圖示
+    ```tsx
+    {rankChange > 0 && <span className="text-green-500">▲{rankChange}</span>}
+    {rankChange < 0 && <span className="text-red-500">▼{Math.abs(rankChange)}</span>}
+    {rankChange === 0 && <span className="text-gray-400">-</span>}
+    ```
+  - [ ] 連勝/連敗顯示
+    ```tsx
+    {streak.type === 'W' && streak.count >= 3 && '🔥'}
+    {streak.count}{streak.type === 'W' ? '連勝' : '連敗'}
+    ```
+  - [ ] 近 5 場圖示
+    ```tsx
+    {lastFive.map(r => r === 'W' ? '●' : r === 'L' ? '○' : '△')}
+    ```
+
+- [ ] **4.2** 響應式設計
+  - 桌面版：顯示所有欄位
+  - 手機版：隱藏近 5 場，只顯示連勝/敗
+
+#### Phase 5: 資料更新流程
+
+- [ ] **5.1** 決定資料來源
+  | 選項 | 說明 | 優點 | 缺點 |
+  |------|------|------|------|
+  | A | 手動維護 standings | 簡單 | 容易出錯 |
+  | B | 從 game-reports 計算 | 自動化 | 依賴戰報上傳 |
+  | C | 從 schedule.result 計算 | 資料集中 | 需確保 result 有填 |
+
+- [ ] **5.2** 更新 `docs/STANDINGS_FEATURE.md`
+  - 新增近況功能說明
+  - 資料更新流程
+
+### UI 設計參考
+
+| 排名 | 球隊 | 戰績 | 近況 | 近 5 場 |
+|------|------|------|------|---------|
+| ▲1 | Line Drive | 16-3-1 | 🔥 3連勝 | ●●●○● |
+| ▼2 | 飛尼克斯 | 13-5-0 | 2連敗 | ○○●●● |
+| -3 | 永春TB | 12-4-1 | 1勝 | ●○●●○ |
+
+### 圖示說明
+
+| 圖示 | 意義 |
+|------|------|
+| ▲ | 名次上升 (綠色) |
+| ▼ | 名次下降 (紅色) |
+| - | 名次不變 (灰色) |
+| 🔥 | 3 連勝以上 |
+| ● | 勝 |
+| ○ | 敗 |
+| △ | 和 |
+
+### 進度追蹤
+
+| Phase | 狀態 | 完成日期 |
+|-------|------|---------|
+| Phase 1 | ⏳ 待開始 | - |
+| Phase 2 | ⏳ 待開始 | - |
+| Phase 3 | ⏳ 待開始 | - |
+| Phase 4 | ⏳ 待開始 | - |
+| Phase 5 | ⏳ 待開始 | - |
+
+### 相關檔案
+
+- `src/types/index.ts` - TeamRecord 類型
+- `public/data/standings_2025.json` - 排行榜資料
+- `src/lib/standingsCalculator.ts` - 現有排名計算
+- `src/components/LeagueLeaders.tsx` - 現有排行榜元件
