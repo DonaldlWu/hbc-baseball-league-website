@@ -1,10 +1,31 @@
 {
   "games": {
-    "202545": {
+    "202523": {
+      "sheetId": "1L_l4GkaG5B8e5EMBfBKtBSi3lBOdd9cmJk8oSv-lj8M",
+      "date": "2026-01-10",
+      "homeTeam": "世新超乙組",
+      "awayTeam": "十號馬",
+      "venue": "三鶯A"
+    },
+    "202532": {
       "sheetId": "",
       "date": "2026-02-28",
+      "homeTeam": "HOLYBAT",
+      "awayTeam": "陽明OB",
+      "venue": "清溪"
+    },
+    "202545": {
+      "sheetId": "",
+      "date": "2026-02-14",
       "homeTeam": "火把老鷹",
       "awayTeam": "DH戰將",
+      "venue": "中正A"
+    },
+    "202547": {
+      "sheetId": "",
+      "date": "2026-02-28",
+      "homeTeam": "世新超乙組",
+      "awayTeam": "台大醫學院棒",
       "venue": "中正A"
     },
     "202550": {
@@ -12,14 +33,7 @@
       "date": "2026-02-14",
       "homeTeam": "ACES",
       "awayTeam": "木柵OB",
-      "venue": "清溪"
-    },
-    "202523": {
-      "sheetId": "1L_l4GkaG5B8e5EMBfBKtBSi3lBOdd9cmJk8oSv-lj8M",
-      "date": "2026-01-10",
-      "homeTeam": "世新超乙組",
-      "awayTeam": "十號馬",
-      "venue": "三鶯A"
+      "venue": "三鶯B"
     },
     "202552": {
       "sheetId": "1pMLlfdHtA_8yTT5XGN9P_CVUhECPbnynu-DTt2P_8Gk",
@@ -29,11 +43,11 @@
       "venue": "中正A"
     },
     "202557": {
-      "sheetId": "rain",
-      "date": "2026-01-24",
+      "sheetId": "",
+      "date": "2026-02-14",
       "homeTeam": "飛尼克斯",
       "awayTeam": "實踐OB",
-      "venue": "中正A"
+      "venue": "三鶯B"
     },
     "202566": {
       "sheetId": "",
@@ -56,6 +70,13 @@
       "awayTeam": "台大醫學院棒",
       "venue": "中正A"
     },
+    "202584": {
+      "sheetId": "",
+      "date": "2026-02-28",
+      "homeTeam": "飛尼克斯",
+      "awayTeam": "楚奧特",
+      "venue": "中正A"
+    },
     "202590": {
       "sheetId": "rain",
       "date": "2026-01-24",
@@ -63,25 +84,18 @@
       "awayTeam": "木柵OB",
       "venue": "中正A"
     },
-    "202593": {
-      "sheetId": "rain",
-      "date": "2026-01-24",
-      "homeTeam": "火把老鷹",
-      "awayTeam": "台大經濟OB",
-      "venue": "中正A"
-    },
-    "202584": {
-      "sheetId": "",
-      "date": "2026-02-14",
-      "homeTeam": "飛尼克斯",
-      "awayTeam": "楚奧特",
-      "venue": "清溪"
-    },
     "202591": {
       "sheetId": "",
       "date": "2026-02-28",
       "homeTeam": "十號馬",
       "awayTeam": "永春TB",
+      "venue": "三鶯A"
+    },
+    "202593": {
+      "sheetId": "",
+      "date": "2026-02-28",
+      "homeTeam": "火把老鷹",
+      "awayTeam": "台大經濟OB",
       "venue": "中正A"
     },
     "202595": {
@@ -161,6 +175,13 @@
       "awayTeam": "陽明OB",
       "venue": "中正A"
     },
+    "2025181": {
+      "sheetId": "",
+      "date": "2026-02-28",
+      "homeTeam": "華江OB",
+      "awayTeam": "ACES",
+      "venue": "三鶯A"
+    },
     "2025187": {
       "sheetId": "1Hq0sffmDUAXm6FCYCusSkSczNnfBXN0txTS8-BIqoXg",
       "date": "2026-01-10",
@@ -189,6 +210,13 @@
       "awayTeam": "陽明OB",
       "venue": "中正A"
     },
+    "2025207": {
+      "sheetId": "",
+      "date": "2026-02-07",
+      "homeTeam": "永春TB",
+      "awayTeam": "少林棒球隊",
+      "venue": "中正A"
+    },
     "2025209": {
       "sheetId": "1ZewM7Qgyo_2zJa_HA7DaBAd3mmXwtJbDMPdHBIkRNJ4",
       "date": "2026-01-03",
@@ -202,6 +230,34 @@
       "homeTeam": "華江OB",
       "awayTeam": "HOLYBAT",
       "venue": "中正A"
+    },
+    "2026018": {
+      "sheetId": "",
+      "date": "2026-02-14",
+      "homeTeam": "楚奧特",
+      "awayTeam": "櫻砲魂",
+      "venue": "三鶯B"
+    },
+    "2026066": {
+      "sheetId": "",
+      "date": "2026-02-14",
+      "homeTeam": "少林棒球隊",
+      "awayTeam": "十號馬",
+      "venue": "三鶯A"
+    },
+    "2026072": {
+      "sheetId": "",
+      "date": "2026-02-14",
+      "homeTeam": "Line Drive",
+      "awayTeam": "逆轉星球",
+      "venue": "三鶯A"
+    },
+    "2026211": {
+      "sheetId": "",
+      "date": "2026-02-28",
+      "homeTeam": "Aaron Prosecutor",
+      "awayTeam": "MIRACLE",
+      "venue": "三鶯A"
     }
   }
 }
