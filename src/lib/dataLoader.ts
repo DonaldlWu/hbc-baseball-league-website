@@ -13,6 +13,7 @@ import type {
   PlayerSummary,
   LeagueStandings,
   TeamRecordRaw,
+  SeasonGames,
 } from '@/src/types';
 import { calculateStandings } from './standingsCalculator';
 
@@ -405,4 +406,43 @@ export async function loadMonthSchedule(year: number, month: number): Promise<im
 export async function getCurrentMonthSchedule(): Promise<import('@/src/types').ScheduleData> {
   const now = new Date();
   return loadMonthSchedule(now.getFullYear(), now.getMonth() + 1);
+}
+
+/**
+ * 載入賽季比賽資料
+ * @param season 賽季年度 (如 2025)
+ * @returns 賽季比賽資料
+ */
+export async function loadSeasonGames(season: number): Promise<SeasonGames> {
+  const response = await fetch(`/data/season_games/${season}.json`);
+
+  if (!response.ok) {
+    throw new Error(`Failed to load season games for ${season}: ${response.status}`);
+  }
+
+  return response.json();
+}
+
+/**
+ * 取得可用的賽季列表
+ * @returns 賽季年份陣列（降序排列）
+ */
+export async function getAvailableSeasons(): Promise<number[]> {
+  // 目前硬編碼可用的賽季，未來可改為動態取得
+  const seasons = [2026, 2025];
+  const available: number[] = [];
+
+  for (const season of seasons) {
+    try {
+      const response = await fetch(`/data/season_games/${season}.json`);
+      if (response.ok) {
+        available.push(season);
+      }
+    } catch {
+      // 檔案不存在，繼續查詢下一個
+      continue;
+    }
+  }
+
+  return available;
 }

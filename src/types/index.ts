@@ -349,3 +349,26 @@ export interface ParsedGameNumber {
   season: number;          // 賽季年度 (如 2025)
   number: number;          // 場次編號 (如 201)
 }
+
+// ============ 賽季對戰紀錄 ============
+
+// 比賽狀態
+export type GameStatus = 'finished' | 'scheduled' | 'rain';
+
+// 賽季比賽紀錄（單場）
+export interface SeasonGameRecord {
+  gameNumber: string;      // 賽程編號 (如 "2025201")
+  date: string;            // 比賽日期 (ISO 8601: "2026-01-03")
+  homeTeam: string;        // 主隊名稱
+  awayTeam: string;        // 客隊名稱
+  venue: string;           // 場地
+  status: GameStatus;      // 比賽狀態
+}
+
+// 賽季比賽資料
+export interface SeasonGames {
+  season: number;          // 賽季年度 (如 2025)
+  lastUpdated: string;     // 最後更新時間 (ISO 8601)
+  totalGames: number;      // 總比賽場數
+  games: SeasonGameRecord[]; // 比賽列表
+}

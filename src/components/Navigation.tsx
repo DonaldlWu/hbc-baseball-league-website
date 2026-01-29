@@ -19,6 +19,7 @@ const defaultItems: NavItem[] = [
   { label: "球團", href: "/teams" },
   { label: "賽程", href: "/#schedule" },
   { label: "排行榜", href: "/#standings" },
+  { label: "賽季紀錄", href: "/seasons/2025" },
 ];
 
 export default function Navigation({

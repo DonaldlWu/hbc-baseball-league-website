@@ -1485,3 +1485,203 @@ npm run convert-data          # CSV 轉 JSON
 - `public/data/standings_2025.json` - 排行榜資料
 - `src/lib/standingsCalculator.ts` - 現有排名計算
 - `src/components/LeagueLeaders.tsx` - 現有排行榜元件
+
+---
+
+## TODO：賽季對戰紀錄功能（Season Filter + 紀錄頁面）
+
+### 背景
+- 2026 賽季比賽開始，同一個月份可能有不同賽季的比賽
+- 例如：2026 年 2 月有 2025 賽季 (No.207) 和 2026 賽季 (No.2026018) 的比賽
+- 需要 filter 可以分類資料，並建立賽季對戰紀錄資料表
+
+### 功能需求
+1. **ScheduleCalendar 賽季 Filter**: 在現有球團篩選旁加入賽季下拉選單
+2. **賽季對戰紀錄頁面**: 新頁面 `/seasons/[year]` 顯示該賽季所有比賽
+3. **第一階段**: 基礎資訊 + 點連結進戰報（與現有行為一致）
+
+### 資料結構
+
+#### 新增 `public/data/season_games/2025.json`
+```json
+{
+  "season": 2025,
+  "lastUpdated": "2026-01-29T00:00:00Z",
+  "totalGames": 216,
+  "games": [
+    {
+      "gameNumber": "2025201",
+      "date": "2026-01-03",
+      "homeTeam": "Line Drive",
+      "awayTeam": "陽明OB",
+      "venue": "中正A",
+      "status": "finished"
+    }
+  ]
+}
+```
+
+#### 狀態值
+| 狀態 | 說明 |
+|------|------|
+| `finished` | 已完賽（有戰報） |
+| `scheduled` | 待比賽 |
+| `rain` | 雨天延賽 |
+
+### 任務清單 (TDD 流程)
+
+#### Phase 1: 類型定義
+
+- [ ] **1.1** 新增 TypeScript 類型 (`src/types/index.ts`)
+  ```typescript
+  // 賽季比賽紀錄
+  export interface SeasonGameRecord {
+    gameNumber: string;
+    date: string;
+    homeTeam: string;
+    awayTeam: string;
+    venue: string;
+    status: 'finished' | 'scheduled' | 'rain';
+  }
+
+  // 賽季比賽資料
+  export interface SeasonGames {
+    season: number;
+    lastUpdated: string;
+    totalGames: number;
+    games: SeasonGameRecord[];
+  }
+  ```
+
+#### Phase 2: 資料層
+
+- [ ] **2.1** 建立資料目錄 `public/data/season_games/`
+- [ ] **2.2** 建立 `public/data/season_games/2025.json`
+  - 從現有 schedules/*.json 整理 2025 賽季比賽
+  - 依日期排序
+- [ ] **2.3** 建立 `public/data/season_games/2026.json`
+  - 從現有 schedules/*.json 整理 2026 賽季比賽
+- [ ] **2.4** 新增 `loadSeasonGames()` 函數 (`src/lib/dataLoader.ts`)
+  - [ ] 🔴 Red: 撰寫測試
+  - [ ] 🟢 Green: 實作函數
+  - [ ] 🔵 Refactor: 優化
+
+#### Phase 3: ScheduleCalendar 賽季 Filter
+
+- [ ] **3.1** 新增賽季篩選狀態
+  ```typescript
+  const [selectedSeason, setSelectedSeason] = useState<number | 'all'>('all');
+  ```
+- [ ] **3.2** 計算可用賽季 (useMemo)
+  ```typescript
+  const availableSeasons = useMemo(() => {
+    // 從 games 的 gameNumber 解析出賽季
+    // 使用 parseGameNumber() 函數
+  }, [data]);
+  ```
+- [ ] **3.3** 更新篩選邏輯
+  - 結合現有球團篩選 + 新的賽季篩選
+- [ ] **3.4** 新增 UI 下拉選單
+  ```tsx
+  <select value={selectedSeason} onChange={...}>
+    <option value="all">全部賽季</option>
+    <option value={2025}>2025 賽季</option>
+    <option value={2026}>2026 賽季</option>
+  </select>
+  ```
+- [ ] **3.5** 新增統計顯示
+  ```
+  共 21 場比賽 (2025賽季: 17場, 2026賽季: 4場)
+  ```
+
+#### Phase 4: 賽季紀錄頁面
+
+- [ ] **4.1** 建立頁面 `src/app/seasons/[year]/page.tsx`
+  - 路由：`/seasons/2025`、`/seasons/2026`
+- [ ] **4.2** 建立 `useSeasonGames` hook (`src/hooks/useSeasonGames.ts`)
+  - 載入 season_games/YYYY.json
+  - 支援球團篩選
+- [ ] **4.3** 建立表格元件
+  | 欄位 | 說明 |
+  |------|------|
+  | 場次 | No.201 (點擊進戰報) |
+  | 日期 | 2026-01-03 |
+  | 對戰 | Line Drive vs 陽明OB |
+  | 場地 | 中正A |
+  | 狀態 | 已完賽 / 待比賽 / 延賽 |
+- [ ] **4.4** 球團篩選功能
+- [ ] **4.5** 響應式設計
+
+#### Phase 5: 導航更新
+
+- [ ] **5.1** 更新 `src/components/Navigation.tsx`
+  - 新增「賽季紀錄」選項
+  - 下拉選單選擇賽季年度
+
+#### Phase 6: 文件更新
+
+- [ ] **6.1** 建立 `docs/SEASON_GAMES_FEATURE.md`
+- [ ] **6.2** 更新 `docs/SCHEDULE_UPDATE_GUIDE.md`
+  - 新增 season_games 資料更新說明
+
+### UI 設計
+
+#### ScheduleCalendar Header (更新後)
+```
+┌──────────────────────────────────────────────────────────┐
+│  2026 年 2 月賽程                                         │
+│                                                          │
+│  [賽季: 全部 ▼] [球團: 全部球團 ▼]  [今天] [<] [>]        │
+│                                                          │
+│  共 21 場比賽 (2025賽季: 17場, 2026賽季: 4場)             │
+└──────────────────────────────────────────────────────────┘
+```
+
+#### 賽季紀錄頁面
+```
+┌──────────────────────────────────────────────────────────┐
+│  2025 賽季對戰紀錄                                        │
+│                                                          │
+│  [球團篩選: 全部 ▼]                     共 216 場比賽     │
+│                                                          │
+│  ┌────────┬────────────┬─────────────────────┬──────┬────┐
+│  │ 場次   │ 日期       │ 對戰                │ 場地 │狀態│
+│  ├────────┼────────────┼─────────────────────┼──────┼────┤
+│  │ No.201 │ 2026-01-03 │ Line Drive vs 陽明OB│ 中正A│ → │
+│  │ No.194 │ 2026-01-03 │ 楚奧特 vs 世新超乙組│ 中正A│ → │
+│  │ No.207 │ 2026-02-07 │ 永春TB vs 少林棒球隊│ 中正A│待賽│
+│  └────────┴────────────┴─────────────────────┴──────┴────┘
+└──────────────────────────────────────────────────────────┘
+```
+
+### 進度追蹤
+
+| Phase | 狀態 | 完成日期 |
+|-------|------|---------|
+| Phase 1: 類型定義 | ✅ 完成 | 2026-01-29 |
+| Phase 2: 資料層 | ✅ 完成 | 2026-01-29 |
+| Phase 3: 賽季 Filter | ✅ 完成 | 2026-01-29 |
+| Phase 4: 賽季紀錄頁面 | ✅ 完成 | 2026-01-29 |
+| Phase 5: 導航更新 | ✅ 完成 | 2026-01-29 |
+| Phase 6: 文件更新 | ⏳ 待開始 | - |
+
+### 關鍵檔案
+
+| 檔案 | 動作 | 說明 |
+|------|------|------|
+| `src/types/index.ts` | ✅ 修改 | 新增 SeasonGameRecord, SeasonGames, GameStatus |
+| `src/lib/dataLoader.ts` | ✅ 修改 | 新增 loadSeasonGames(), getAvailableSeasons() |
+| `src/lib/formatters.ts` | ✅ 參考 | 使用 parseGameNumber() |
+| `src/components/ScheduleCalendar.tsx` | ✅ 修改 | 加入賽季 filter |
+| `app/seasons/[year]/page.tsx` | ✅ 新增 | 賽季紀錄頁面 |
+| `src/components/Navigation.tsx` | ✅ 修改 | 加導航項目「賽季紀錄」 |
+| `public/data/season_games/2025.json` | ✅ 新增 | 2025 賽季資料 (33 場) |
+| `public/data/season_games/2026.json` | ✅ 新增 | 2026 賽季資料 (4 場) |
+| `public/data/season_games/2026.json` | 新增 | 2026 賽季資料 |
+
+### 未來擴展（第二階段）
+
+- [ ] 顯示比賽比分（需整合戰報資料）
+- [ ] 各隊勝負統計摘要
+- [ ] 對戰組合統計（A 隊 vs B 隊歷史戰績）
+- [ ] 賽季總覽儀表板

@@ -1,0 +1,39 @@
+{
+  "season": 2026,
+  "lastUpdated": "2026-01-29T00:00:00Z",
+  "totalGames": 4,
+  "games": [
+    {
+      "gameNumber": "2026018",
+      "date": "2026-02-14",
+      "homeTeam": "楚奧特",
+      "awayTeam": "櫻砲魂",
+      "venue": "三鶯B",
+      "status": "scheduled"
+    },
+    {
+      "gameNumber": "2026066",
+      "date": "2026-02-14",
+      "homeTeam": "少林棒球隊",
+      "awayTeam": "十號馬",
+      "venue": "三鶯A",
+      "status": "scheduled"
+    },
+    {
+      "gameNumber": "2026072",
+      "date": "2026-02-14",
+      "homeTeam": "Line Drive",
+      "awayTeam": "逆轉星球",
+      "venue": "三鶯A",
+      "status": "scheduled"
+    },
+    {
+      "gameNumber": "2026211",
+      "date": "2026-02-28",
+      "homeTeam": "Aaron Prosecutor",
+      "awayTeam": "MIRACLE",
+      "venue": "三鶯A",
+      "status": "scheduled"
+    }
+  ]
+}

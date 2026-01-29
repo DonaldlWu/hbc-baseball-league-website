@@ -3,7 +3,7 @@
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { useSchedule } from '@/src/hooks/useSchedule';
-import { displayGameNumber } from '@/src/lib/formatters';
+import { displayGameNumber, parseGameNumber } from '@/src/lib/formatters';
 import type { Game, DaySchedule } from '@/src/types';
 
 /**
@@ -28,8 +28,9 @@ export function ScheduleCalendar() {
     goToToday,
   } = useSchedule();
 
-  // 球團篩選狀態
+  // 篩選狀態
   const [selectedTeam, setSelectedTeam] = useState<string>('全部');
+  const [selectedSeason, setSelectedSeason] = useState<string>('全部');
 
   // 從賽程資料中提取所有球團名稱
   const allTeams = useMemo(() => {
@@ -48,19 +49,75 @@ export function ScheduleCalendar() {
     return ['全部', ...Array.from(teamSet).sort()];
   }, [data]);
 
-  // 篩選賽程資料
+  // 從賽程資料中提取所有賽季
+  const availableSeasons = useMemo(() => {
+    if (!data || !data.schedule.days.length) return [];
+
+    const seasonSet = new Set<number>();
+    data.schedule.days.forEach((day) => {
+      Object.values(day.venues).forEach((games) => {
+        games.forEach((game) => {
+          const parsed = parseGameNumber(game.gameNumber);
+          if (parsed) {
+            seasonSet.add(parsed.season);
+          }
+        });
+      });
+    });
+
+    return ['全部', ...Array.from(seasonSet).sort((a, b) => b - a).map(String)];
+  }, [data]);
+
+  // 計算各賽季比賽數量
+  const seasonCounts = useMemo(() => {
+    if (!data || !data.schedule.days.length) return new Map<string, number>();
+
+    const counts = new Map<string, number>();
+    data.schedule.days.forEach((day) => {
+      Object.values(day.venues).forEach((games) => {
+        games.forEach((game) => {
+          const parsed = parseGameNumber(game.gameNumber);
+          if (parsed) {
+            const seasonStr = String(parsed.season);
+            counts.set(seasonStr, (counts.get(seasonStr) || 0) + 1);
+          }
+        });
+      });
+    });
+
+    return counts;
+  }, [data]);
+
+  // 篩選賽程資料（同時支援球團和賽季篩選）
   const filteredDays = useMemo(() => {
-    if (!data || selectedTeam === '全部') return data?.schedule.days || [];
+    if (!data) return [];
+
+    // 如果兩個篩選都是「全部」，直接返回所有資料
+    if (selectedTeam === '全部' && selectedSeason === '全部') {
+      return data.schedule.days;
+    }
 
     return data.schedule.days
       .map((day) => {
         const filteredVenues: DaySchedule['venues'] = {};
 
         Object.entries(day.venues).forEach(([venueName, games]) => {
-          const filteredGames = games.filter(
-            (game) =>
-              game.homeTeam === selectedTeam || game.awayTeam === selectedTeam
-          );
+          const filteredGames = games.filter((game) => {
+            // 球團篩選條件
+            const teamMatch =
+              selectedTeam === '全部' ||
+              game.homeTeam === selectedTeam ||
+              game.awayTeam === selectedTeam;
+
+            // 賽季篩選條件
+            let seasonMatch = selectedSeason === '全部';
+            if (!seasonMatch) {
+              const parsed = parseGameNumber(game.gameNumber);
+              seasonMatch = parsed !== null && String(parsed.season) === selectedSeason;
+            }
+
+            return teamMatch && seasonMatch;
+          });
 
           if (filteredGames.length > 0) {
             filteredVenues[venueName] = filteredGames;
@@ -73,7 +130,7 @@ export function ScheduleCalendar() {
         };
       })
       .filter((day) => Object.keys(day.venues).length > 0);
-  }, [data, selectedTeam]);
+  }, [data, selectedTeam, selectedSeason]);
 
   // 計算篩選後的比賽數量
   const filteredGamesCount = useMemo(() => {
@@ -202,7 +259,24 @@ export function ScheduleCalendar() {
           </h2>
 
           {/* 右側：篩選與導航 */}
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
+            {/* 賽季篩選 */}
+            {availableSeasons.length > 1 && (
+              <div className="relative">
+                <select
+                  value={selectedSeason}
+                  onChange={(e) => setSelectedSeason(e.target.value)}
+                  className="rounded-md border border-gray-300 bg-white px-3 py-1.5 pr-8 text-sm font-medium text-gray-700 shadow-sm transition-colors hover:bg-gray-50 focus:border-primary-500 focus:outline-none focus:ring-2 focus:ring-primary-500"
+                >
+                  {availableSeasons.map((season) => (
+                    <option key={season} value={season}>
+                      {season === '全部' ? '全部賽季' : `${season} 賽季`}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            )}
+
             {/* 球團篩選 */}
             {allTeams.length > 0 && (
               <div className="relative">
@@ -213,7 +287,7 @@ export function ScheduleCalendar() {
                 >
                   {allTeams.map((team) => (
                     <option key={team} value={team}>
-                      {team === '全部' ? '🏆 全部球團' : team}
+                      {team === '全部' ? '全部球團' : team}
                     </option>
                   ))}
                 </select>
@@ -272,9 +346,9 @@ export function ScheduleCalendar() {
           </div>
         </div>
         {/* 統計資訊 */}
-        <div className="mt-3 flex items-center gap-4 text-sm text-gray-600">
+        <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-gray-600">
           <span>
-            {selectedTeam === '全部' ? (
+            {selectedTeam === '全部' && selectedSeason === '全部' ? (
               <>共 {data.meta.totalGames} 場比賽</>
             ) : (
               <>
@@ -285,6 +359,18 @@ export function ScheduleCalendar() {
               </>
             )}
           </span>
+          {/* 顯示賽季分布（只在有多賽季且選擇「全部」時顯示） */}
+          {selectedSeason === '全部' && seasonCounts.size > 1 && (
+            <>
+              <span className="text-gray-400">•</span>
+              <span className="text-gray-500">
+                {Array.from(seasonCounts.entries())
+                  .sort((a, b) => Number(b[0]) - Number(a[0]))
+                  .map(([season, count]) => `${season}賽季: ${count}場`)
+                  .join(', ')}
+              </span>
+            </>
+          )}
           <span className="text-gray-400">•</span>
           <span>{data.meta.venues.join('、')}</span>
         </div>
