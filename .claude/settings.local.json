@@ -21,7 +21,8 @@
       "Bash(npx vitest:*)",
       "Bash(grep:*)",
       "Bash(python3:*)",
-      "Bash(npx eslint:*)"
+      "Bash(npx eslint:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
