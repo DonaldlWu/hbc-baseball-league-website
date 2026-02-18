@@ -21,14 +21,22 @@
 
 ### `/update-game [gameNumber]`
 
-更新比賽結果：填入比分、狀態、戰報 sheetId。
+更新比賽結果：填入比分、狀態、戰報 sheetId，**自動偵測延賽情境**。
 
 ```
 /update-game 202523        # 指定場次
 /update-game               # 互動式詢問
 ```
 
-顯示目前比賽資料後，逐步收集 `status`、`homeScore`、`awayScore`、`sheetId`，寫入後詢問是否 commit。
+顯示目前比賽資料（含延賽歷史），**自動判斷情境**後引導更新：
+
+| 情境 | 自動偵測條件 | 操作 |
+|------|------------|------|
+| 一般比賽 | 無 `rescheduledDates` | 收集 status / 比分 / sheetId |
+| 雨延並安排補賽 | status 改為 `rain` | 額外詢問補賽日 → 寫入 `rescheduledDates` |
+| 補賽日又延賽 | 已有 `rescheduledDates`，又延 | append 新補賽日到陣列 |
+| 補賽完成 | 已有 `rescheduledDates`，已賽 | 更新 status + 比分（不動陣列） |
+| 補充補賽日 | status 已是 `rain`，補填日期 | 寫入 `rescheduledDates` |
 
 **sheetId 取得方式：**
 ```
