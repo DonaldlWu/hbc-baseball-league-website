@@ -145,19 +145,36 @@ No.2025122  Mechanics  7:8  逆轉星球  (逆轉星球勝)
 https://docs.google.com/spreadsheets/d/1Xy8-e0YJfO89HgbmmeK-JMlArs0x8-hCjDPifLCKRm8
 ```
 
-### 操作方式
+### 操作方式（批量模式）
 
-逐場執行 `/update-game`：
+直接將週報全文貼給 Claude，不需逐場操作：
 
 ```
-/update-game 2025147
+/update-game
+
+（貼上週報全文）
 ```
 
-skill 顯示目前資料後，填入：
-- status: `finished`
-- homeScore: `1`（甜心暴龍為主隊）
-- awayScore: `19`（Line Drive 為客隊）
-- sheetId: `1mnB7SasgknR--XxuKYR2TED5x5pLU-EXqWjkzwnro1M`
+skill 自動解析所有場次，顯示摘要讓使用者一次確認：
+
+```
+解析完成，共 3 場：
+
+  gameNumber  主隊           比分    客隊           sheetId
+  ──────────────────────────────────────────────────────────
+  2025147     甜心暴龍        1:19   Line Drive     ✅ 1mnB7Sa...
+  2025030     台大經濟OB      3:21   木柵OB         ✅ 14Wfern...
+  2025122     Mechanics      7:8    逆轉星球        ✅ 1Xy8-e0...
+
+全部 status 更新為 finished。
+
+確認寫入？
+```
+
+確認後一次寫入，一個 commit：
+```
+chore: 更新 3 場比賽結果 (2025-12-20 週報)
+```
 
 ### 如何從比賽記錄判斷主客隊
 
@@ -170,23 +187,15 @@ homeTeam         awayTeam
 homeScore=1   awayScore=19
 ```
 
-### 如何取得 sheetId
+### 戰報連結不完整時
 
-從 Google Sheet 網址擷取 `/d/` 後、`/edit` 前的那段：
+部分週報的連結會顯示為截斷格式（如 `https://docs.google.com/....../1cPH7y-gcLVqLwtJK......`），skill 無法取得完整 sheetId：
 
 ```
-https://docs.google.com/spreadsheets/d/1mnB7SasgknR--XxuKYR2TED5x5pLU-EXqWjkzwnro1M/edit
-                                        ↑
-sheetId = "1mnB7SasgknR--XxuKYR2TED5x5pLU-EXqWjkzwnro1M"
+  2025098     Mechanics      6:14   陽明OB         ⚠️ 待補（連結不完整）
 ```
 
-### 本週三場戰報整理
-
-| gameNumber | 主隊 | 比分 | 客隊 | sheetId |
-|-----------|------|------|------|---------|
-| 2025147 | 甜心暴龍 | 1:19 | Line Drive | `1mnB7SasgknR--XxuKYR2TED5x5pLU-EXqWjkzwnro1M` |
-| 2025030 | 台大經濟OB | 3:21 | 木柵OB | `14Wfernibi419hnN6uGlsRMRtYhPWWjyzpvR-nEHn4Hc` |
-| 2025122 | Mechanics | 7:8 | 逆轉星球 | `1Xy8-e0YJfO89HgbmmeK-JMlArs0x8-hCjDPifLCKRm8` |
+這類場次的 `sheetId` 暫時維持 `""`，之後取得完整連結再單獨執行一次 `/update-game 2025098` 補填。
 
 ### 更新後的 JSON 結果
 
@@ -198,8 +207,7 @@ sheetId = "1mnB7SasgknR--XxuKYR2TED5x5pLU-EXqWjkzwnro1M"
   "status": "finished",
   "homeScore": 1,
   "awayScore": 19,
-  "sheetId": "1mnB7SasgknR--XxuKYR2TED5x5pLU-EXqWjkzwnro1M",
-  ...
+  "sheetId": "1mnB7SasgknR--XxuKYR2TED5x5pLU-EXqWjkzwnro1M"
 }
 ```
 
