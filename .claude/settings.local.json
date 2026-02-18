@@ -11,7 +11,8 @@
       "Bash(nvm use:*)",
       "Bash(npm run lint)",
       "Bash(git restore:*)",
-      "WebFetch(domain:docs.google.com)"
+      "WebFetch(domain:docs.google.com)",
+      "Bash(xargs:*)"
     ]
   }
 }

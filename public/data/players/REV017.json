@@ -2,7 +2,7 @@
   "id": "REV017",
   "code": "REV017",
   "name": "江家源",
-  "photo": "https://lh5.googleusercontent.com/crg5l06ePWKFVrMXHAyc9-nAPRLTVU6mkN7qpu9lSbQ=w310-h335-no",
+  "photo": "",
   "career": {
     "debut": 2014,
     "teams": [
@@ -10,46 +10,9 @@
       "自轉棒球",
       "自轉星球"
     ],
-    "totalSeasons": 11
+    "totalSeasons": 10
   },
   "seasons": [
-    {
-      "year": 2025,
-      "team": "逆轉星球",
-      "number": "97",
-      "batting": {
-        "games": 0,
-        "pa": 0,
-        "ab": 0,
-        "hits": 0,
-        "singles": 0,
-        "doubles": 0,
-        "triples": 0,
-        "hr": 0,
-        "rbi": 0,
-        "runs": 0,
-        "bb": 0,
-        "so": 0,
-        "sb": 0,
-        "sf": 0,
-        "totalBases": 0
-      },
-      "pitching": null,
-      "pitchingCalculated": null,
-      "rankings": {
-        "rc": 858,
-        "hits": 769,
-        "hr": 234,
-        "rbi": 712,
-        "avg": 1124,
-        "w": 481,
-        "sv": 429,
-        "so": 648,
-        "era": 1124,
-        "whip": 1124,
-        "fip": 0
-      }
-    },
     {
       "year": 2024,
       "team": "逆轉星球",
