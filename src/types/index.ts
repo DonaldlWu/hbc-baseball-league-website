@@ -361,6 +361,15 @@ export interface SeasonGames {
 // 比賽狀態（擴展版）
 export type GameStatusExtended = 'finished' | 'scheduled' | 'rain' | 'cancelled';
 
+// 補賽場次資訊
+export interface RescheduledGame {
+  date: string;         // 補賽日期（ISO 8601）
+  venue?: string;       // 補賽場地（若與原賽相同可省略）
+  timeSlot?: TimeSlot;  // 補賽時段（若與原賽相同可省略）
+  startTime?: string;   // 補賽開始時間（若與原賽相同可省略）
+  endTime?: string;     // 補賽結束時間（若與原賽相同可省略）
+}
+
 // 統一比賽資料（合併 schedule + game-reports + season_games）
 export interface SeasonGame {
   date: string;              // 比賽日期 (ISO 8601: "2026-01-03")
@@ -374,7 +383,7 @@ export interface SeasonGame {
   homeScore: number | null;  // 主隊得分（未比賽為 null）
   awayScore: number | null;  // 客隊得分（未比賽為 null）
   sheetId: string;           // 戰報 Google Sheet ID（空字串表示無戰報）
-  rescheduledDates?: string[]; // 補賽日期序列（ISO 8601 陣列）；索引 0..n-2 為失敗補賽日，最後一筆為最終補賽日；未補賽時不存在此欄位
+  rescheduledDates?: RescheduledGame[]; // 補賽場次序列；索引 0..n-2 為失敗補賽日，最後一筆為最終補賽日；未補賽時不存在此欄位
   note?: string;             // 備註（選填）
 }
 

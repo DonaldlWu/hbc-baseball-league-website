@@ -83,7 +83,7 @@ const mockSeasonData: SeasonData = {
       homeScore: 5,
       awayScore: 3,
       sheetId: 'abc123',
-      rescheduledDates: ['2026-03-07'],
+      rescheduledDates: [{ date: '2026-03-07' }],
     },
     '2025209': {
       date: '2026-01-10',
@@ -110,7 +110,10 @@ const mockSeasonData: SeasonData = {
       homeScore: 4,
       awayScore: 2,
       sheetId: 'xyz789',
-      rescheduledDates: ['2025-03-21', '2025-05-10'],
+      rescheduledDates: [
+        { date: '2025-03-21', venue: '清溪', timeSlot: '中午', startTime: '12:00', endTime: '14:30' },
+        { date: '2025-05-10', venue: '中正A', timeSlot: '下午', startTime: '14:00', endTime: '17:00' },
+      ],
     },
     '2025211': {
       date: '2025-02-01',

@@ -248,11 +248,9 @@ skill 偵測到尚無 `rescheduledDates`，詢問後：
 
 **補賽日確認後補填：**
 
-```
-/update-game 2025209
-```
+補賽通常不會單獨公告，而是排入下個月的賽程公告中。直接把公告貼給 Claude 執行批次新增，`/add-game` 會自動偵測補賽場次（gameNumber 已存在且為雨延），並詢問確認後 append `rescheduledDates`。
 
-skill 偵測到 `status: rain` 且無 `rescheduledDates`（情境 D），填入補賽日：
+若要手動補填（`/update-game`），skill 偵測情境 D，填入補賽日與場地：
 
 ```json
 "2025209": {
@@ -263,13 +261,18 @@ skill 偵測到 `status: rain` 且無 `rescheduledDates`（情境 D），填入�
   "homeScore": null,
   "awayScore": null,
   "sheetId": "",
-  "rescheduledDates": ["2026-02-01"]
+  "rescheduledDates": [
+    { "date": "2026-02-01", "venue": "中正A", "timeSlot": "上午", "startTime": "08:00", "endTime": "11:00" }
+  ]
 }
 ```
 
+> 補賽場地、時間若與原賽相同，可省略只填日期：
+> `{ "date": "2026-02-01" }`
+
 月曆效果：
-- 12/25：顯示「雨延」
-- 2/1：顯示「待賽」（scheduled-like，等比賽結束後更新）
+- 12/25：顯示「雨延」（原定場地 中正A 上午）
+- 2/1：顯示「待賽」（補賽場地 中正A 上午，等比賽結束後更新）
 
 ---
 
@@ -352,13 +355,15 @@ skill 顯示延賽歷史後，自動偵測：
   "homeScore": 5,
   "awayScore": 3,
   "sheetId": "1abc...",
-  "rescheduledDates": ["2026-02-01"]
+  "rescheduledDates": [
+    { "date": "2026-02-01", "venue": "中正A", "timeSlot": "上午", "startTime": "08:00", "endTime": "11:00" }
+  ]
 }
 ```
 
 月曆效果：
-- 12/25：顯示「雨延」
-- 2/1：顯示「已完賽 5:3」
+- 12/25：顯示「雨延」（原定場地 中正A 上午）
+- 2/1：顯示「已完賽 5:3」（補賽場地 中正A 上午）
 
 ---
 
@@ -400,19 +405,23 @@ skill 顯示：
   "homeScore": null,
   "awayScore": null,
   "sheetId": "",
-  "rescheduledDates": ["2026-02-01", "2026-03-15"]
+  "rescheduledDates": [
+    { "date": "2026-02-01", "venue": "中正A", "timeSlot": "上午", "startTime": "08:00", "endTime": "11:00" },
+    { "date": "2026-03-15", "venue": "清溪", "timeSlot": "中午", "startTime": "12:00", "endTime": "14:30" }
+  ]
 }
 ```
 
 月曆效果：
-- 12/25：「雨延」（原定日）
-- 2/1：「雨延」（補賽日又延賽）
-- 3/15：「待賽」（最新補賽日）
+- 12/25：「雨延」（原定 中正A 上午）
+- 2/1：「雨延」（補賽日又延賽，清溪 中午）
+- 3/15：「待賽」（最新補賽日，清溪 中午）
 
 > **`rescheduledDates` 陣列規則**：
 > - 陣列最後一筆 = 最新補賽日（目前計畫比賽的日期）
 > - 中間每筆 = 曾嘗試補賽但又延賽的日期
-> - **只能 append 新日期，不修改歷史記錄**
+> - **只能 append 新物件，不修改歷史記錄**
+> - 場地、時間若與原賽相同，對應欄位可省略
 
 ---
 

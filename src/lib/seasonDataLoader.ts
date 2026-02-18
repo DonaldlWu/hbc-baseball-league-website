@@ -46,13 +46,17 @@ export function getGamesByMonth(
       });
     }
     if (game.rescheduledDates && game.rescheduledDates.length > 0) {
-      game.rescheduledDates.forEach((reschedDate, index) => {
-        if (reschedDate.startsWith(prefix)) {
+      game.rescheduledDates.forEach((reschedule, index) => {
+        if (reschedule.date.startsWith(prefix)) {
           const isLast = index === game.rescheduledDates!.length - 1;
           result.push({
             gameNumber,
             ...game,
-            date: reschedDate,
+            date: reschedule.date,
+            ...(reschedule.venue && { venue: reschedule.venue }),
+            ...(reschedule.timeSlot && { timeSlot: reschedule.timeSlot }),
+            ...(reschedule.startTime && { startTime: reschedule.startTime }),
+            ...(reschedule.endTime && { endTime: reschedule.endTime }),
             status: isLast ? game.status : 'rain',
           });
         }
