@@ -49,14 +49,14 @@ https://docs.google.com/spreadsheets/d/【這段】/edit
 
 ### `/add-game`
 
-新增預定比賽場次，支援批次輸入整月賽程。
+新增預定比賽場次，支援**貼上公告全文批量新增**，自動偵測補賽情境。
 
 ```
-/add-game
-/add-game 2026/3/7 No.100 Line Drive VS 飛尼克斯--中正A--下午(14:30~17:00)
+/add-game                  # 批量：貼上月賽程公告全文
+/add-game 2026/3/7 No.100 Line Drive VS 飛尼克斯--中正A--下午(14:30~17:00)  # 單場
 ```
 
-自動解析格式 `No.場次 主隊 VS 客隊--場地--時段(開始~結束)`，確認 gameNumber 不重複後寫入，詢問是否 commit。
+解析所有 `No.XXX 主隊 VS 客隊--場地--時段(開始~結束)` 場次，自動偵測補賽（gameNumber 已存在且為雨延），顯示摘要確認後一次寫入，一個 commit。
 
 ---
 
