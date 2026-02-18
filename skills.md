@@ -103,6 +103,7 @@ No.101 世新超乙組 VS 華江OB--中正A--中午(12:00~14:30)
 
 ## 相關文件
 
+- [Skill 實戰操作範例](docs/SKILL_USAGE_EXAMPLES.md) - 以真實聯盟公告示範新增賽程、更新結果、處理延賽的完整流程
 - [賽季資料更新指南](docs/SEASON_DATA_UPDATE_GUIDE.md) - 完整欄位說明與手動更新情境
 - [球員統計資料更新指南](docs/DATA_UPDATE_GUIDE.md) - CSV 轉換流程詳細說明
 - [開發模式參考](docs/DEV_PATTERNS.md) - 程式碼範例與最佳實踐
