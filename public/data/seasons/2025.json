@@ -1,6 +1,6 @@
 {
   "season": 2025,
-  "lastUpdated": "2026-02-19T00:00:00.000Z",
+  "lastUpdated": "2026-02-19T12:00:00.000Z",
   "calendarRange": {
     "start": "2025-04",
     "end": "2026-02"
@@ -233,10 +233,10 @@
       "timeSlot": "下午",
       "startTime": "14:30",
       "endTime": "17:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 3,
+      "awayScore": 21,
+      "sheetId": "14Wfernibi419hnN6uGlsRMRtYhPWWjyzpvR-nEHn4Hc"
     },
     "202532": {
       "date": "2025-12-27",
@@ -440,10 +440,10 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 6,
+      "awayScore": 14,
+      "sheetId": "1cPH7y-gcLVqLwtJK_-91FYMNF4alQud4m3HDcZIpq-M"
     },
     "202599": {
       "date": "2026-02-07",
@@ -505,10 +505,10 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 7,
+      "awayScore": 8,
+      "sheetId": "1Xy8-e0YJfO89HgbmmeK-JMlArs0x8-hCjDPifLCKRm8"
     },
     "2025129": {
       "date": "2026-01-10",
@@ -570,10 +570,10 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 19,
+      "sheetId": "1mnB7SasgknR--XxuKYR2TED5x5pLU-EXqWjkzwnro1M"
     },
     "2025150": {
       "date": "2026-01-31",
@@ -690,10 +690,10 @@
       "timeSlot": "下午",
       "startTime": "14:30",
       "endTime": "17:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 16,
+      "sheetId": "1cemclQ3TiEplZ8AfVYcUVzA_lnZMMRXRzEyd1McG8WQ"
     },
     "2025207": {
       "date": "2025-12-27",
