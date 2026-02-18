@@ -80,6 +80,20 @@ const mockSeasonData: SeasonData = {
       startTime: '14:00',
       endTime: '17:00',
       status: 'rain',
+      homeScore: 5,
+      awayScore: 3,
+      sheetId: 'abc123',
+      rescheduledDate: '2026-03-07',
+    },
+    '2025209': {
+      date: '2026-01-10',
+      homeTeam: '少林棒球隊',
+      awayTeam: '楚奧特',
+      venue: '中正B',
+      timeSlot: '上午',
+      startTime: '08:00',
+      endTime: '11:00',
+      status: 'rain',
       homeScore: null,
       awayScore: null,
       sheetId: '',
@@ -107,7 +121,7 @@ describe('loadSeasonData', () => {
 
     expect(result.season).toBe(2025);
     expect(result.standings.source).toBe('manual');
-    expect(Object.keys(result.games)).toHaveLength(4);
+    expect(Object.keys(result.games)).toHaveLength(5);
     expect(global.fetch).toHaveBeenCalledWith('/data/seasons/2025.json');
   });
 
@@ -127,12 +141,12 @@ describe('getGamesByMonth', () => {
   it('應該回傳指定月份的比賽', () => {
     const result = getGamesByMonth(mockSeasonData, 2026, 1);
 
-    expect(result).toHaveLength(3);
+    expect(result).toHaveLength(4);
     expect(result.map((g) => g.gameNumber)).toContain('2025201');
   });
 
   it('無比賽時應回傳空陣列', () => {
-    const result = getGamesByMonth(mockSeasonData, 2026, 3);
+    const result = getGamesByMonth(mockSeasonData, 2026, 4);
 
     expect(result).toHaveLength(0);
   });
@@ -142,6 +156,33 @@ describe('getGamesByMonth', () => {
 
     expect(result).toHaveLength(1);
     expect(result[0].gameNumber).toBe('2025207');
+  });
+
+  it('雨延且有補賽日期的比賽，在原定月份應出現，status 為 rain', () => {
+    const result = getGamesByMonth(mockSeasonData, 2026, 1);
+
+    const rainGame = result.find((g) => g.gameNumber === '2025208');
+    expect(rainGame).toBeDefined();
+    expect(rainGame?.status).toBe('rain');
+    expect(rainGame?.date).toBe('2026-01-03');
+  });
+
+  it('雨延且有補賽日期的比賽，在補賽月份也應出現，date 為 rescheduledDate，status 為 finished', () => {
+    const result = getGamesByMonth(mockSeasonData, 2026, 3);
+
+    const makeupGame = result.find((g) => g.gameNumber === '2025208');
+    expect(makeupGame).toBeDefined();
+    expect(makeupGame?.date).toBe('2026-03-07');
+    expect(makeupGame?.status).toBe('finished');
+    expect(makeupGame?.homeScore).toBe(5);
+  });
+
+  it('雨延但尚未補賽（無 rescheduledDate），不應在其他月份出現', () => {
+    // 2025209 is rain with no rescheduledDate, original date 2026-01-10
+    const resultMarch = getGamesByMonth(mockSeasonData, 2026, 3);
+
+    const noMakeupGame = resultMarch.find((g) => g.gameNumber === '2025209');
+    expect(noMakeupGame).toBeUndefined();
   });
 });
 
@@ -285,8 +326,8 @@ describe('loadGamesByCalendarMonth', () => {
 
     const result = await loadGamesByCalendarMonth(2026, 1);
 
-    // 2026-01 has 3 games: 2025201 and 2025202 and 2025208 all on 2026-01-03
-    expect(result).toHaveLength(1);
+    // 2026-01 has games on 2026-01-03 (2025201, 2025202, 2025208) and 2026-01-10 (2025209)
+    expect(result).toHaveLength(2);
     expect(result[0].date).toBe('2026-01-03');
   });
 

@@ -34,10 +34,23 @@ export function getGamesByMonth(
   month: number
 ): Array<SeasonGame & { gameNumber: string }> {
   const prefix = `${year}-${month.toString().padStart(2, '0')}`;
+  const result: Array<SeasonGame & { gameNumber: string }> = [];
 
-  return Object.entries(data.games)
-    .filter(([, game]) => game.date.startsWith(prefix))
-    .map(([gameNumber, game]) => ({ gameNumber, ...game }));
+  for (const [gameNumber, game] of Object.entries(data.games)) {
+    if (game.date.startsWith(prefix)) {
+      result.push({ gameNumber, ...game });
+    }
+    if (game.rescheduledDate?.startsWith(prefix)) {
+      result.push({
+        gameNumber,
+        ...game,
+        date: game.rescheduledDate,
+        status: 'finished',
+      });
+    }
+  }
+
+  return result;
 }
 
 /**

@@ -374,6 +374,7 @@ export interface SeasonGame {
   homeScore: number | null;  // 主隊得分（未比賽為 null）
   awayScore: number | null;  // 客隊得分（未比賽為 null）
   sheetId: string;           // 戰報 Google Sheet ID（空字串表示無戰報）
+  rescheduledDate?: string;  // 補賽實際日期（ISO 8601）；僅雨延且已補賽時存在
   note?: string;             // 備註（選填）
 }
 
