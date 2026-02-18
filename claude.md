@@ -1134,554 +1134,276 @@ npm run convert-data          # CSV 轉 JSON
 
 ---
 
-## 當前任務：gameNumber 加入賽季年度
+## TODO：統一賽季資料結構重構
+
+> 📅 建立日期：2026-02-18
+> 📁 舊 TODO 備份：`docs/archive/CLAUDE_TODO_BACKUP_20260218.md`
 
 ### 背景
-- 目前 `schedule/2026-01.json` 的 `year: 2026` 是日曆年，但比賽屬於 2025 賽季
-- 需要新增 `season` 欄位區分「賽季年度」與「日曆年度」
-- `gameNumber` 從 `"No.201"` 格式改為 `"2025201"`（賽季年度 + 場次編號）
 
-### 任務清單 (TDD 流程)
+目前賽季相關資料分散在多個 JSON 檔案中，造成：
+1. **資料冗餘**：同一場比賽的資訊重複存在多處
+2. **維護困難**：更新資料需要改多個檔案
+3. **無法計算**：standings 是手動維護，無法自動從比賽結果計算
 
-#### Phase 1: Model Layer (類型與工具函數)
+### 現有問題
 
-- [x] **1.1** 更新 TypeScript 類型定義 (`src/types/index.ts`) ✅
-  - [x] `Game` interface 新增 `season?: number` 欄位
-  - [x] `GameReport` interface 新增 `season?: number` 欄位
-  - [x] `MonthSchedule` interface 新增 `season?: number` 欄位
-  - [x] 新增 `ParsedGameNumber` interface
+| 檔案 | 內容 | 問題 |
+|------|------|------|
+| `standings_2025.json` | 累計戰績 (W/L/D)、平均得失分 | 手動維護，與比賽結果脫鉤 |
+| `season_games/2025.json` | 比賽清單、狀態 | 沒有比分 |
+| `schedules/2026-01.json` | 月曆賽程、時間 | 與 season_games 重複 |
+| `game-reports/index.json` | 戰報連結 (sheetId) | 與其他檔案重複基本資訊 |
 
-- [x] **1.2** 新增 gameNumber 格式化函數 (TDD) ✅
-  - [x] 🔴 Red: 撰寫 `src/lib/__tests__/formatters.test.ts` 測試
-    - `parseGameNumber('2025201')` → `{ season: 2025, number: 201 }`
-    - `formatGameNumber(2025, 201)` → `'2025201'`
-    - `displayGameNumber('2025201')` → `'No.201'`
-  - [x] 🟢 Green: 實作 `src/lib/formatters.ts`
-  - [x] 🔵 Refactor: 優化程式碼（已簡潔，無需重構）
-
-#### Phase 2: Data Layer (JSON 資料)
-
-- [x] **2.1** 更新 `public/data/schedules/2026-01.json` ✅
-  - [x] 新增 `season: 2025` 欄位
-  - [x] 所有 `gameNumber` 從 `"No.XXX"` 改為 `"2025XXX"`
-
-- [x] **2.2** 更新 `public/data/game-reports/index.json` ✅
-  - [x] 所有 key 從 `"No.XXX"` 改為 `"2025XXX"`
-
-- [x] **2.3** 更新 `public/data/game-reports/sample.json` ✅
-  - [x] `gameNumber` 欄位更新
-
-#### Phase 3: Parser Layer (解析器)
-
-- [x] **3.1** 更新 gameReportParser (TDD) ✅
-  - [x] 🔴 Red: 更新 `src/lib/__tests__/gameReportParser.test.ts` 測試（gameNumber 格式）
-  - [x] 🟢 Green: 測試通過（解析器本身不需修改，只傳遞 gameNumber）
-  - [x] 🔵 Refactor: 無需重構
-
-#### Phase 4: View Layer (UI 元件)
-
-- [x] **4.1** 更新 `src/components/GameReport.tsx` ✅
-  - [x] 新增 `displayGameNumber` import
-  - [x] 使用 `displayGameNumber()` 顯示友善格式
-
-- [x] **4.2** 更新 `src/components/ScheduleCalendar.tsx` ✅
-  - [x] 新增 `displayGameNumber` import
-  - [x] 連結 href 使用新格式（自動，gameNumber 已是新格式）
-  - [x] 顯示使用 `displayGameNumber()` 友善格式
-
-#### Phase 5: Documentation
-
-- [x] **5.1** 更新 `docs/SCHEDULE_FEATURE.md` ✅
-  - [x] 新增 `season` 欄位說明
-  - [x] 更新 `gameNumber` 格式說明
-
-- [x] **5.2** 更新 `docs/api/game-reports.md` ✅
-  - [x] 更新請求參數格式
-  - [x] 更新 index.json 範例
-  - [x] 新增 gameNumber 格式說明表格
-
-### 進度追蹤
-
-| Phase | 狀態 | 完成日期 |
-|-------|------|---------|
-| Phase 1 | ✅ 完成 | 2026-01-24 |
-| Phase 2 | ✅ 完成 | 2026-01-24 |
-| Phase 3 | ✅ 完成 | 2026-01-24 |
-| Phase 4 | ✅ 完成 | 2026-01-24 |
-| Phase 5 | ✅ 完成 | 2026-01-24 |
+**冗餘欄位：**
+- `gameNumber`, `date`, `homeTeam`, `awayTeam`, `venue` 在 3-4 個檔案中重複
 
 ---
 
-## 任務：實作 CDN 快取減少 API 呼叫
+### 目標：單一賽季資料檔
 
-### 背景
-- Google Sheets API 每天有呼叫配額限制
-- 1000 個使用者同一天呼叫同一場戰報，可能打 100-1000 次 API
-- 需要使用 Vercel Edge Network CDN 快取減少 API 呼叫
+將所有賽季相關資料合併至 `seasons/YYYY.json`：
 
-### 解決方案：CDN Cache Headers
-
-使用 Next.js `Cache-Control` headers，透過 Vercel Edge Network 實現分散式快取。
-
-**快取設定：**
-- CDN 快取時間：1 天（86400 秒）
-- Stale-While-Revalidate：2 天（172800 秒）
-
-**效果：**
-- 1000 個使用者（同一天）= **1 次 Google Sheets API 呼叫** ✅
-
-### 任務清單 (TDD 流程)
-
-#### Phase 1: 環境檢查
-
-- [x] **1.1** 確認 Next.js 版本 >= 14 ✅
-- [x] **1.2** 確認 Node.js 版本 >= 18 ✅
-
-#### Phase 2: TDD 實作 Cache Headers
-
-- [x] **2.1** 🔴 Red: 撰寫測試 ✅
-  - [x] 建立 `app/api/game-reports/__tests__/route.test.ts`
-  - [x] 測試檢查 Cache-Control header 設定
-  - [x] 測試失敗（1 failed, 4 passed）
-
-- [x] **2.2** 🟢 Green: 實作快取 headers ✅
-  - [x] 修改 `app/api/game-reports/[gameNumber]/route.ts`
-  - [x] 加入 `Cache-Control: public, s-maxage=86400, stale-while-revalidate=172800`
-  - [x] 測試通過（5 passed）
-
-- [x] **2.3** 🔵 Refactor: 設定檔管理 ✅
-  - [x] 建立 `src/lib/config.ts`
-  - [x] 提取 CACHE_CONFIG 常數
-  - [x] 更新 route.ts 使用 CACHE_CONFIG
-  - [x] 測試仍然通過（5 passed）
-
-#### Phase 3: 文件更新
-
-- [x] **3.1** 建立 API 快取策略文件 ✅
-  - [x] 建立 `docs/api/cache-strategy.md`
-  - [x] 說明快取機制、行為、監控方法
-  - [x] 費用估算與注意事項
-
-- [x] **3.2** 更新 CLAUDE.md ✅
-  - [x] 記錄實作過程與結果
-
-### 進度追蹤
-
-| Phase | 狀態 | 完成日期 |
-|-------|------|---------|
-| Phase 1 | ✅ 完成 | 2026-01-24 |
-| Phase 2 | ✅ 完成 | 2026-01-24 |
-| Phase 3 | ✅ 完成 | 2026-01-24 |
-
-### 實作摘要
-
-**完成內容：**
-
-1. **設定檔** (src/lib/config.ts)
-   ```typescript
-   export const CACHE_CONFIG = {
-     CDN_MAX_AGE: 86400,              // 1 天
-     STALE_WHILE_REVALIDATE: 172800,  // 2 天
-     getCacheControlHeader(): string { ... }
-   };
-   ```
-
-2. **API Route** (app/api/game-reports/[gameNumber]/route.ts:60-64)
-   ```typescript
-   return NextResponse.json(report, {
-     headers: {
-       'Cache-Control': CACHE_CONFIG.getCacheControlHeader(),
-     },
-   });
-   ```
-
-3. **測試** (app/api/game-reports/__tests__/route.test.ts)
-   - ✅ 驗證 Cache-Control header 設定
-   - ✅ 驗證快取時間常數正確
-   - **測試結果：5/5 通過**
-
-4. **文件** (docs/api/cache-strategy.md)
-   - 快取策略說明
-   - 使用者請求流程
-   - 監控與除錯方法
-
-### 快取效果驗證
-
-**測試場景：**
-- 場景：1000 個使用者在同一天內呼叫同一場戰報
-
-**預期結果：**
-- ✅ 第 1 位使用者：呼叫 Google Sheets API（Cache Miss）
-- ✅ 第 2-1000 位使用者：從 Vercel Edge CDN 讀取（Cache Hit）
-- ✅ **總計：1 次 Google Sheets API 呼叫**
-
-**Cache Hit Rate：** > 95%
-
-### 部署後驗證清單
-
-- [ ] 部署到 Vercel
-- [ ] 檢查 Vercel Dashboard → Analytics
-- [ ] 使用 Network tab 檢查 `X-Vercel-Cache: HIT` header
-- [ ] 監控 Google Sheets API 呼叫次數
-
-### 注意事項
-
-⚠️ **資料延遲：** 戰報更新後，最多需要 1 天才會在前端反映
-
-✅ **成本優化：** 大幅減少 API 呼叫，遠低於 Google Sheets 免費配額（500 次/天）
-
-✅ **效能提升：** CDN 快取提供毫秒級回應速度
-
----
-
-## TODO：球隊近況功能（連勝/連敗、名次變化）
-
-### 背景
-- 使用者希望在排行榜看到每隊的「近況」資訊
-- 例如：三連勝中 🔥、二連敗、名次上升 ▲ / 下降 ▼
-- 需要結合 `standings` 和 `schedule` (或 `game-reports`) 的資料
-
-### 現有資料結構
-
-| 資料來源 | 內容 | 問題 |
-|----------|------|------|
-| `standings_2025.json` | 累計戰績 (勝/敗/和) | 沒有逐場記錄 |
-| `schedules/*.json` | 賽程與比分 | `result` 字段大多未填 |
-| `game-reports/` | 戰報詳細比分 | 可作為結果來源 |
-
-### 任務清單 (TDD 流程)
-
-#### Phase 1: 資料結構擴展
-
-- [ ] **1.1** 更新 `TeamRecord` 類型 (`src/types/index.ts`)
-  ```typescript
-  export interface TeamRecord extends TeamRecordRaw {
-    // ... 現有欄位 ...
-    streak?: {
-      type: 'W' | 'L' | 'D';  // Win/Loss/Draw
-      count: number;           // 連續場數
-    };
-    lastFive?: ('W' | 'L' | 'D')[];  // 近 5 場結果
-    rankChange?: number;       // 名次變化: +2=上升, -1=下降, 0=不變
-  }
-  ```
-
-- [ ] **1.2** 更新 `standings_2025.json` 格式
-  - 新增 `streak`, `lastFive`, `rankChange` 欄位
-  - 範例：
-    ```json
-    {
-      "teamId": "ROO",
-      "teamName": "Line Drive",
-      "wins": 16,
-      "losses": 3,
-      "streak": { "type": "W", "count": 3 },
-      "lastFive": ["W", "W", "W", "L", "W"],
-      "rankChange": 0
-    }
-    ```
-
-#### Phase 2: 比賽結果歷史（可選但建議）
-
-- [ ] **2.1** 新增 `public/data/game-results/2025.json`
-  ```json
-  {
-    "season": 2025,
-    "results": [
-      {
-        "gameNumber": "2025201",
-        "date": "2026-01-03",
-        "homeTeam": "Line Drive",
-        "awayTeam": "陽明OB",
-        "homeScore": 10,
-        "awayScore": 3,
-        "winner": "Line Drive"
-      }
-    ]
-  }
-  ```
-
-- [ ] **2.2** 新增 `GameResult` 類型 (`src/types/index.ts`)
-
-#### Phase 3: 計算工具 (TDD)
-
-- [ ] **3.1** 建立 `src/lib/streakCalculator.ts`
-  - [ ] 🔴 Red: 撰寫測試 `src/lib/__tests__/streakCalculator.test.ts`
-  - [ ] 🟢 Green: 實作函數
-    - `calculateStreak(results, teamName)` → `{ type: 'W', count: 3 }`
-    - `calculateLastFive(results, teamName)` → `['W', 'W', 'W', 'L', 'W']`
-    - `calculateRankChange(current, previous)` → `Map<teamId, number>`
-  - [ ] 🔵 Refactor: 優化
-
-#### Phase 4: UI 元件
-
-- [ ] **4.1** 更新排行榜表格 (`src/components/StandingsTable.tsx` 或新建)
-  - [ ] 名次變化圖示
-    ```tsx
-    {rankChange > 0 && <span className="text-green-500">▲{rankChange}</span>}
-    {rankChange < 0 && <span className="text-red-500">▼{Math.abs(rankChange)}</span>}
-    {rankChange === 0 && <span className="text-gray-400">-</span>}
-    ```
-  - [ ] 連勝/連敗顯示
-    ```tsx
-    {streak.type === 'W' && streak.count >= 3 && '🔥'}
-    {streak.count}{streak.type === 'W' ? '連勝' : '連敗'}
-    ```
-  - [ ] 近 5 場圖示
-    ```tsx
-    {lastFive.map(r => r === 'W' ? '●' : r === 'L' ? '○' : '△')}
-    ```
-
-- [ ] **4.2** 響應式設計
-  - 桌面版：顯示所有欄位
-  - 手機版：隱藏近 5 場，只顯示連勝/敗
-
-#### Phase 5: 資料更新流程
-
-- [ ] **5.1** 決定資料來源
-  | 選項 | 說明 | 優點 | 缺點 |
-  |------|------|------|------|
-  | A | 手動維護 standings | 簡單 | 容易出錯 |
-  | B | 從 game-reports 計算 | 自動化 | 依賴戰報上傳 |
-  | C | 從 schedule.result 計算 | 資料集中 | 需確保 result 有填 |
-
-- [ ] **5.2** 更新 `docs/STANDINGS_FEATURE.md`
-  - 新增近況功能說明
-  - 資料更新流程
-
-### UI 設計參考
-
-| 排名 | 球隊 | 戰績 | 近況 | 近 5 場 |
-|------|------|------|------|---------|
-| ▲1 | Line Drive | 16-3-1 | 🔥 3連勝 | ●●●○● |
-| ▼2 | 飛尼克斯 | 13-5-0 | 2連敗 | ○○●●● |
-| -3 | 永春TB | 12-4-1 | 1勝 | ●○●●○ |
-
-### 圖示說明
-
-| 圖示 | 意義 |
-|------|------|
-| ▲ | 名次上升 (綠色) |
-| ▼ | 名次下降 (紅色) |
-| - | 名次不變 (灰色) |
-| 🔥 | 3 連勝以上 |
-| ● | 勝 |
-| ○ | 敗 |
-| △ | 和 |
-
-### 進度追蹤
-
-| Phase | 狀態 | 完成日期 |
-|-------|------|---------|
-| Phase 1 | ⏳ 待開始 | - |
-| Phase 2 | ⏳ 待開始 | - |
-| Phase 3 | ⏳ 待開始 | - |
-| Phase 4 | ⏳ 待開始 | - |
-| Phase 5 | ⏳ 待開始 | - |
-
-### 相關檔案
-
-- `src/types/index.ts` - TeamRecord 類型
-- `public/data/standings_2025.json` - 排行榜資料
-- `src/lib/standingsCalculator.ts` - 現有排名計算
-- `src/components/LeagueLeaders.tsx` - 現有排行榜元件
-
----
-
-## TODO：賽季對戰紀錄功能（Season Filter + 紀錄頁面）
-
-### 背景
-- 2026 賽季比賽開始，同一個月份可能有不同賽季的比賽
-- 例如：2026 年 2 月有 2025 賽季 (No.207) 和 2026 賽季 (No.2026018) 的比賽
-- 需要 filter 可以分類資料，並建立賽季對戰紀錄資料表
-
-### 功能需求
-1. **ScheduleCalendar 賽季 Filter**: 在現有球團篩選旁加入賽季下拉選單
-2. **賽季對戰紀錄頁面**: 新頁面 `/seasons/[year]` 顯示該賽季所有比賽
-3. **第一階段**: 基礎資訊 + 點連結進戰報（與現有行為一致）
-
-### 資料結構
-
-#### 新增 `public/data/season_games/2025.json`
 ```json
 {
   "season": 2025,
-  "lastUpdated": "2026-01-29T00:00:00Z",
-  "totalGames": 216,
-  "games": [
-    {
-      "gameNumber": "2025201",
+  "lastUpdated": "2026-02-03T00:00:00Z",
+
+  "standings": {
+    "source": "manual",
+    "teams": [
+      {
+        "teamId": "ROO",
+        "teamName": "Line Drive",
+        "wins": 16,
+        "losses": 3,
+        "draws": 1,
+        "runsAllowed": 4.0,
+        "runsScored": 13.75
+      }
+    ]
+  },
+
+  "games": {
+    "2025201": {
       "date": "2026-01-03",
       "homeTeam": "Line Drive",
       "awayTeam": "陽明OB",
       "venue": "中正A",
-      "status": "finished"
+      "timeSlot": "上午",
+      "startTime": "08:00",
+      "endTime": "11:00",
+      "status": "finished",
+      "homeScore": 10,
+      "awayScore": 3,
+      "sheetId": "1dM8woBhSnNPms3YKPEptfw3o4F3neBWa-JrbRoW1iak"
     }
-  ]
+  }
 }
 ```
 
-#### 狀態值
-| 狀態 | 說明 |
-|------|------|
-| `finished` | 已完賽（有戰報） |
-| `scheduled` | 待比賽 |
-| `rain` | 雨天延賽 |
+---
+
+### 檔案結構變化
+
+```
+舊結構 (5+ 檔案/賽季):
+├── standings_2025.json
+├── season_games/2025.json
+├── game-reports/index.json
+├── schedules/2026-01.json
+├── schedules/2026-02.json
+└── ...
+
+新結構 (1 檔案/賽季):
+└── seasons/
+    ├── 2025.json    ← 所有 2025 賽季資料
+    └── 2026.json    ← 所有 2026 賽季資料
+```
+
+---
+
+### 過渡方案：standings.source
+
+由於目前比賽資料尚未完整（缺少比分），採用混合模式：
+
+| 階段 | standings.source | 說明 |
+|------|------------------|------|
+| **現在** | `"manual"` | 手動維護 standings，games 逐步補齊 |
+| **過渡** | `"partial"` | 部分從 games 計算，部分手動補差 |
+| **完成** | `"calculated"` | 完全從 games 計算，standings 變成快取 |
+
+```typescript
+function getStandings(seasonData) {
+  if (seasonData.standings.source === "manual") {
+    return seasonData.standings.teams;
+  }
+  if (seasonData.standings.source === "calculated") {
+    return calculateStandingsFromGames(seasonData.games);
+  }
+  // partial: 混合模式
+}
+```
+
+---
+
+### 各功能資料來源
+
+| 功能 | 取得方式 |
+|------|----------|
+| 📅 月曆賽程 | `Object.values(games).filter(g => g.date.startsWith('2026-01'))` |
+| 🏆 戰績排行 | `standings.teams` (現階段) → 未來從 games 計算 |
+| 📊 賽季紀錄 | `Object.entries(games)` |
+| 📝 戰報連結 | `games[gameNumber].sheetId` |
+| 🔥 連勝連敗 | 從 `status: finished` 的比賽比分計算 |
+| 📈 平均得失分 | 從 `homeScore/awayScore` 計算 |
+
+---
 
 ### 任務清單 (TDD 流程)
 
 #### Phase 1: 類型定義
 
-- [ ] **1.1** 新增 TypeScript 類型 (`src/types/index.ts`)
+- [ ] **1.1** 定義新的 TypeScript 類型 (`src/types/index.ts`)
   ```typescript
-  // 賽季比賽紀錄
-  export interface SeasonGameRecord {
-    gameNumber: string;
+  // 統一比賽資料
+  export interface SeasonGame {
     date: string;
     homeTeam: string;
     awayTeam: string;
     venue: string;
-    status: 'finished' | 'scheduled' | 'rain';
+    timeSlot: TimeSlot;
+    startTime: string;
+    endTime: string;
+    status: 'finished' | 'scheduled' | 'rain' | 'cancelled';
+    homeScore: number | null;
+    awayScore: number | null;
+    sheetId: string;
   }
 
-  // 賽季比賽資料
-  export interface SeasonGames {
+  // 戰績來源類型
+  export type StandingsSource = 'manual' | 'partial' | 'calculated';
+
+  // 統一賽季資料
+  export interface SeasonData {
     season: number;
     lastUpdated: string;
-    totalGames: number;
-    games: SeasonGameRecord[];
+    standings: {
+      source: StandingsSource;
+      teams: TeamRecordRaw[];
+    };
+    games: Record<string, SeasonGame>;
   }
   ```
 
-#### Phase 2: 資料層
+- [ ] **1.2** 撰寫類型測試（確保向後相容）
 
-- [ ] **2.1** 建立資料目錄 `public/data/season_games/`
-- [ ] **2.2** 建立 `public/data/season_games/2025.json`
-  - 從現有 schedules/*.json 整理 2025 賽季比賽
-  - 依日期排序
-- [ ] **2.3** 建立 `public/data/season_games/2026.json`
-  - 從現有 schedules/*.json 整理 2026 賽季比賽
-- [ ] **2.4** 新增 `loadSeasonGames()` 函數 (`src/lib/dataLoader.ts`)
-  - [ ] 🔴 Red: 撰寫測試
-  - [ ] 🟢 Green: 實作函數
-  - [ ] 🔵 Refactor: 優化
+#### Phase 2: 資料遷移
 
-#### Phase 3: ScheduleCalendar 賽季 Filter
+- [ ] **2.1** 建立 `public/data/seasons/` 目錄
+- [ ] **2.2** 建立遷移腳本 `scripts/migrate-season-data.ts`
+  - 合併 standings + season_games + schedules + game-reports
+  - 處理重複資料衝突
+- [ ] **2.3** 執行遷移，產生 `seasons/2025.json`
+- [ ] **2.4** 執行遷移，產生 `seasons/2026.json`
+- [ ] **2.5** 驗證遷移結果
 
-- [ ] **3.1** 新增賽季篩選狀態
+#### Phase 3: 資料載入層 (TDD)
+
+- [ ] **3.1** 🔴 Red: 撰寫測試 `src/lib/__tests__/seasonDataLoader.test.ts`
   ```typescript
-  const [selectedSeason, setSelectedSeason] = useState<number | 'all'>('all');
+  describe('loadSeasonData', () => {
+    it('應該載入完整賽季資料');
+    it('應該正確解析 games 物件');
+    it('應該支援篩選特定月份的比賽');
+  });
   ```
-- [ ] **3.2** 計算可用賽季 (useMemo)
+- [ ] **3.2** 🟢 Green: 實作 `src/lib/seasonDataLoader.ts`
   ```typescript
-  const availableSeasons = useMemo(() => {
-    // 從 games 的 gameNumber 解析出賽季
-    // 使用 parseGameNumber() 函數
-  }, [data]);
+  export async function loadSeasonData(year: number): Promise<SeasonData>;
+  export function getGamesByMonth(data: SeasonData, year: number, month: number): SeasonGame[];
+  export function getGamesByTeam(data: SeasonData, teamName: string): SeasonGame[];
   ```
-- [ ] **3.3** 更新篩選邏輯
-  - 結合現有球團篩選 + 新的賽季篩選
-- [ ] **3.4** 新增 UI 下拉選單
-  ```tsx
-  <select value={selectedSeason} onChange={...}>
-    <option value="all">全部賽季</option>
-    <option value={2025}>2025 賽季</option>
-    <option value={2026}>2026 賽季</option>
-  </select>
-  ```
-- [ ] **3.5** 新增統計顯示
-  ```
-  共 21 場比賽 (2025賽季: 17場, 2026賽季: 4場)
-  ```
+- [ ] **3.3** 🔵 Refactor: 優化與快取
 
-#### Phase 4: 賽季紀錄頁面
+#### Phase 4: 更新現有元件
 
-- [ ] **4.1** 建立頁面 `src/app/seasons/[year]/page.tsx`
-  - 路由：`/seasons/2025`、`/seasons/2026`
-- [ ] **4.2** 建立 `useSeasonGames` hook (`src/hooks/useSeasonGames.ts`)
-  - 載入 season_games/YYYY.json
-  - 支援球團篩選
-- [ ] **4.3** 建立表格元件
-  | 欄位 | 說明 |
-  |------|------|
-  | 場次 | No.201 (點擊進戰報) |
-  | 日期 | 2026-01-03 |
-  | 對戰 | Line Drive vs 陽明OB |
-  | 場地 | 中正A |
-  | 狀態 | 已完賽 / 待比賽 / 延賽 |
-- [ ] **4.4** 球團篩選功能
-- [ ] **4.5** 響應式設計
+- [ ] **4.1** 更新 `ScheduleCalendar.tsx`
+  - 改用新的 `loadSeasonData()` + `getGamesByMonth()`
+- [ ] **4.2** 更新 `app/seasons/[year]/page.tsx`
+  - 改用新的資料結構
+- [ ] **4.3** 更新 `StandingsTable` / `LeagueLeaders`
+  - 從 `seasonData.standings.teams` 取得資料
+- [ ] **4.4** 更新戰報相關元件
+  - 從 `seasonData.games[gameNumber].sheetId` 取得連結
 
-#### Phase 5: 導航更新
+#### Phase 5: 清理舊檔案
 
-- [ ] **5.1** 更新 `src/components/Navigation.tsx`
-  - 新增「賽季紀錄」選項
-  - 下拉選單選擇賽季年度
+- [ ] **5.1** 確認所有功能正常運作
+- [ ] **5.2** 移除舊檔案（或移至 archive）
+  - `standings_2025.json`
+  - `season_games/*.json`
+  - `game-reports/index.json`
+  - `schedules/*.json` (保留或合併)
+- [ ] **5.3** 更新 `.gitignore`
 
 #### Phase 6: 文件更新
 
-- [ ] **6.1** 建立 `docs/SEASON_GAMES_FEATURE.md`
-- [ ] **6.2** 更新 `docs/SCHEDULE_UPDATE_GUIDE.md`
-  - 新增 season_games 資料更新說明
+- [ ] **6.1** 更新 `docs/SCHEDULE_FEATURE.md`
+- [ ] **6.2** 更新 `docs/api/game-reports.md`
+- [ ] **6.3** 建立 `docs/SEASON_DATA_STRUCTURE.md`
+- [ ] **6.4** 更新 `docs/SCHEDULE_UPDATE_GUIDE.md`
 
-### UI 設計
-
-#### ScheduleCalendar Header (更新後)
-```
-┌──────────────────────────────────────────────────────────┐
-│  2026 年 2 月賽程                                         │
-│                                                          │
-│  [賽季: 全部 ▼] [球團: 全部球團 ▼]  [今天] [<] [>]        │
-│                                                          │
-│  共 21 場比賽 (2025賽季: 17場, 2026賽季: 4場)             │
-└──────────────────────────────────────────────────────────┘
-```
-
-#### 賽季紀錄頁面
-```
-┌──────────────────────────────────────────────────────────┐
-│  2025 賽季對戰紀錄                                        │
-│                                                          │
-│  [球團篩選: 全部 ▼]                     共 216 場比賽     │
-│                                                          │
-│  ┌────────┬────────────┬─────────────────────┬──────┬────┐
-│  │ 場次   │ 日期       │ 對戰                │ 場地 │狀態│
-│  ├────────┼────────────┼─────────────────────┼──────┼────┤
-│  │ No.201 │ 2026-01-03 │ Line Drive vs 陽明OB│ 中正A│ → │
-│  │ No.194 │ 2026-01-03 │ 楚奧特 vs 世新超乙組│ 中正A│ → │
-│  │ No.207 │ 2026-02-07 │ 永春TB vs 少林棒球隊│ 中正A│待賽│
-│  └────────┴────────────┴─────────────────────┴──────┴────┘
-└──────────────────────────────────────────────────────────┘
-```
+---
 
 ### 進度追蹤
 
 | Phase | 狀態 | 完成日期 |
 |-------|------|---------|
-| Phase 1: 類型定義 | ✅ 完成 | 2026-01-29 |
-| Phase 2: 資料層 | ✅ 完成 | 2026-01-29 |
-| Phase 3: 賽季 Filter | ✅ 完成 | 2026-01-29 |
-| Phase 4: 賽季紀錄頁面 | ✅ 完成 | 2026-01-29 |
-| Phase 5: 導航更新 | ✅ 完成 | 2026-01-29 |
+| Phase 1: 類型定義 | ⏳ 待開始 | - |
+| Phase 2: 資料遷移 | ⏳ 待開始 | - |
+| Phase 3: 資料載入層 | ⏳ 待開始 | - |
+| Phase 4: 更新元件 | ⏳ 待開始 | - |
+| Phase 5: 清理舊檔案 | ⏳ 待開始 | - |
 | Phase 6: 文件更新 | ⏳ 待開始 | - |
 
-### 關鍵檔案
+---
 
-| 檔案 | 動作 | 說明 |
-|------|------|------|
-| `src/types/index.ts` | ✅ 修改 | 新增 SeasonGameRecord, SeasonGames, GameStatus |
-| `src/lib/dataLoader.ts` | ✅ 修改 | 新增 loadSeasonGames(), getAvailableSeasons() |
-| `src/lib/formatters.ts` | ✅ 參考 | 使用 parseGameNumber() |
-| `src/components/ScheduleCalendar.tsx` | ✅ 修改 | 加入賽季 filter |
-| `app/seasons/[year]/page.tsx` | ✅ 新增 | 賽季紀錄頁面 |
-| `src/components/Navigation.tsx` | ✅ 修改 | 加導航項目「賽季紀錄」 |
-| `public/data/season_games/2025.json` | ✅ 新增 | 2025 賽季資料 (33 場) |
-| `public/data/season_games/2026.json` | ✅ 新增 | 2026 賽季資料 (4 場) |
-| `public/data/season_games/2026.json` | 新增 | 2026 賽季資料 |
+### 相關檔案
 
-### 未來擴展（第二階段）
+**新增：**
+- `public/data/seasons/2025.json`
+- `public/data/seasons/2026.json`
+- `src/lib/seasonDataLoader.ts`
+- `scripts/migrate-season-data.ts`
 
-- [ ] 顯示比賽比分（需整合戰報資料）
-- [ ] 各隊勝負統計摘要
-- [ ] 對戰組合統計（A 隊 vs B 隊歷史戰績）
-- [ ] 賽季總覽儀表板
+**修改：**
+- `src/types/index.ts`
+- `src/components/ScheduleCalendar.tsx`
+- `app/seasons/[year]/page.tsx`
+- `src/components/LeagueLeaders.tsx`
+
+**刪除（遷移後）：**
+- `public/data/standings_2025.json`
+- `public/data/season_games/`
+- `public/data/game-reports/index.json`
+- `public/data/schedules/`
+
+---
+
+### 未來擴展（資料完整後）
+
+完成資料遷移後，可以實作：
+
+- [ ] **球隊近況功能**
+  - 連勝/連敗計算（從 games 比分）
+  - 近 5 場結果
+  - 名次變化
+
+- [ ] **自動計算 standings**
+  - 當 `standings.source === "calculated"` 時
+  - 從 `games` 中 `status: finished` 的比賽計算 W/L/D
+
+- [ ] **對戰統計**
+  - A 隊 vs B 隊歷史戰績
+  - 各場地勝率
