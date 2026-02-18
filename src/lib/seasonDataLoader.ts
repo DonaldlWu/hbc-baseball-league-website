@@ -38,14 +38,24 @@ export function getGamesByMonth(
 
   for (const [gameNumber, game] of Object.entries(data.games)) {
     if (game.date.startsWith(prefix)) {
-      result.push({ gameNumber, ...game });
-    }
-    if (game.rescheduledDate?.startsWith(prefix)) {
+      const hasReschedule = game.rescheduledDates && game.rescheduledDates.length > 0;
       result.push({
         gameNumber,
         ...game,
-        date: game.rescheduledDate,
-        status: 'finished',
+        status: hasReschedule ? 'rain' : game.status,
+      });
+    }
+    if (game.rescheduledDates && game.rescheduledDates.length > 0) {
+      game.rescheduledDates.forEach((reschedDate, index) => {
+        if (reschedDate.startsWith(prefix)) {
+          const isLast = index === game.rescheduledDates!.length - 1;
+          result.push({
+            gameNumber,
+            ...game,
+            date: reschedDate,
+            status: isLast ? game.status : 'rain',
+          });
+        }
       });
     }
   }

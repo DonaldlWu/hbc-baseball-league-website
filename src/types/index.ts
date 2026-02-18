@@ -370,11 +370,11 @@ export interface SeasonGame {
   timeSlot: TimeSlot;        // 時段
   startTime: string;         // 開始時間 (如 "08:00")
   endTime: string;           // 結束時間 (如 "11:00")
-  status: GameStatusExtended; // 比賽狀態
+  status: GameStatusExtended; // 比賽的最終結果（finished、cancelled 等）；有 rescheduledDates 的 game，原定日期在月曆上永遠顯示 rain
   homeScore: number | null;  // 主隊得分（未比賽為 null）
   awayScore: number | null;  // 客隊得分（未比賽為 null）
   sheetId: string;           // 戰報 Google Sheet ID（空字串表示無戰報）
-  rescheduledDate?: string;  // 補賽實際日期（ISO 8601）；僅雨延且已補賽時存在
+  rescheduledDates?: string[]; // 補賽日期序列（ISO 8601 陣列）；索引 0..n-2 為失敗補賽日，最後一筆為最終補賽日；未補賽時不存在此欄位
   note?: string;             // 備註（選填）
 }
 

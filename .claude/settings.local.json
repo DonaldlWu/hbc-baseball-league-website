@@ -23,7 +23,9 @@
       "Bash(python3:*)",
       "Bash(npx eslint:*)",
       "Bash(git commit:*)",
-      "Bash(npx jest:*)"
+      "Bash(npx jest:*)",
+      "Bash(node -e:*)",
+      "Bash(git stash:*)"
     ]
   }
 }

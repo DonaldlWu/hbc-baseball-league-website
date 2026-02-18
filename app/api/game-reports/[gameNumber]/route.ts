@@ -36,7 +36,7 @@ export async function GET(
     }
 
     // 處理特殊狀態
-    if (gameInfo.status === 'rain' && !gameInfo.rescheduledDate) {
+    if (gameInfo.status === 'rain' && (!gameInfo.rescheduledDates || gameInfo.rescheduledDates.length === 0)) {
       return NextResponse.json(
         { error: `比賽 ${decodedGameNumber} 因雨延賽，尚未補賽` },
         { status: 404 }

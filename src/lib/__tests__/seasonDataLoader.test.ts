@@ -79,11 +79,11 @@ const mockSeasonData: SeasonData = {
       timeSlot: '下午',
       startTime: '14:00',
       endTime: '17:00',
-      status: 'rain',
+      status: 'finished',
       homeScore: 5,
       awayScore: 3,
       sheetId: 'abc123',
-      rescheduledDate: '2026-03-07',
+      rescheduledDates: ['2026-03-07'],
     },
     '2025209': {
       date: '2026-01-10',
@@ -97,6 +97,34 @@ const mockSeasonData: SeasonData = {
       homeScore: null,
       awayScore: null,
       sheetId: '',
+    },
+    '2025210': {
+      date: '2025-01-21',
+      homeTeam: '飛尼克斯',
+      awayTeam: '永春TB',
+      venue: '中正B',
+      timeSlot: '上午',
+      startTime: '08:00',
+      endTime: '11:00',
+      status: 'finished',
+      homeScore: 4,
+      awayScore: 2,
+      sheetId: 'xyz789',
+      rescheduledDates: ['2025-03-21', '2025-05-10'],
+    },
+    '2025211': {
+      date: '2025-02-01',
+      homeTeam: '楚奧特',
+      awayTeam: 'Line Drive',
+      venue: '中正A',
+      timeSlot: '上午',
+      startTime: '08:00',
+      endTime: '11:00',
+      status: 'rain',
+      homeScore: null,
+      awayScore: null,
+      sheetId: '',
+      rescheduledDates: [],
     },
   },
 };
@@ -121,7 +149,7 @@ describe('loadSeasonData', () => {
 
     expect(result.season).toBe(2025);
     expect(result.standings.source).toBe('manual');
-    expect(Object.keys(result.games)).toHaveLength(5);
+    expect(Object.keys(result.games)).toHaveLength(7);
     expect(global.fetch).toHaveBeenCalledWith('/data/seasons/2025.json');
   });
 
@@ -158,7 +186,7 @@ describe('getGamesByMonth', () => {
     expect(result[0].gameNumber).toBe('2025207');
   });
 
-  it('雨延且有補賽日期的比賽，在原定月份應出現，status 為 rain', () => {
+  it('雨延且有 rescheduledDates 的比賽，在原定月份應顯示 status: rain（即使 root status 是 finished）', () => {
     const result = getGamesByMonth(mockSeasonData, 2026, 1);
 
     const rainGame = result.find((g) => g.gameNumber === '2025208');
@@ -167,7 +195,7 @@ describe('getGamesByMonth', () => {
     expect(rainGame?.date).toBe('2026-01-03');
   });
 
-  it('雨延且有補賽日期的比賽，在補賽月份也應出現，date 為 rescheduledDate，status 為 finished', () => {
+  it('雨延且有補賽日期的比賽，在補賽月份也應出現，date 為 rescheduledDates[0]，status 為 finished', () => {
     const result = getGamesByMonth(mockSeasonData, 2026, 3);
 
     const makeupGame = result.find((g) => g.gameNumber === '2025208');
@@ -177,11 +205,38 @@ describe('getGamesByMonth', () => {
     expect(makeupGame?.homeScore).toBe(5);
   });
 
-  it('雨延但尚未補賽（無 rescheduledDate），不應在其他月份出現', () => {
-    // 2025209 is rain with no rescheduledDate, original date 2026-01-10
+  it('雨延但尚未補賽（無 rescheduledDates），不應在其他月份出現', () => {
+    // 2025209 is rain with no rescheduledDates, original date 2026-01-10
     const resultMarch = getGamesByMonth(mockSeasonData, 2026, 3);
 
     const noMakeupGame = resultMarch.find((g) => g.gameNumber === '2025209');
+    expect(noMakeupGame).toBeUndefined();
+  });
+
+  it('多次延賽的比賽，中間補賽日應顯示 status: rain', () => {
+    const result = getGamesByMonth(mockSeasonData, 2025, 3);
+
+    const midMakeupGame = result.find((g) => g.gameNumber === '2025210');
+    expect(midMakeupGame).toBeDefined();
+    expect(midMakeupGame?.date).toBe('2025-03-21');
+    expect(midMakeupGame?.status).toBe('rain');
+  });
+
+  it('多次延賽的比賽，最終補賽日應顯示原 game 的 status 與比分', () => {
+    const result = getGamesByMonth(mockSeasonData, 2025, 5);
+
+    const finalMakeupGame = result.find((g) => g.gameNumber === '2025210');
+    expect(finalMakeupGame).toBeDefined();
+    expect(finalMakeupGame?.date).toBe('2025-05-10');
+    expect(finalMakeupGame?.status).toBe('finished');
+    expect(finalMakeupGame?.homeScore).toBe(4);
+  });
+
+  it('rescheduledDates 為空陣列時，不應在其他月份出現', () => {
+    // 2025211 has rescheduledDates: [], original date 2025-02-01
+    const resultMarch = getGamesByMonth(mockSeasonData, 2025, 3);
+
+    const noMakeupGame = resultMarch.find((g) => g.gameNumber === '2025211');
     expect(noMakeupGame).toBeUndefined();
   });
 });
@@ -190,8 +245,9 @@ describe('getGamesByTeam', () => {
   it('應該回傳指定球隊的比賽（主隊）', () => {
     const result = getGamesByTeam(mockSeasonData, 'Line Drive');
 
-    expect(result).toHaveLength(1);
-    expect(result[0].gameNumber).toBe('2025201');
+    // 2025201 (homeTeam), 2025211 (awayTeam: 'Line Drive' as away)
+    expect(result).toHaveLength(2);
+    expect(result.map((g) => g.gameNumber)).toContain('2025201');
   });
 
   it('應該回傳指定球隊的比賽（客隊）', () => {
@@ -204,7 +260,8 @@ describe('getGamesByTeam', () => {
   it('應該回傳指定球隊的所有比賽（主客場皆含）', () => {
     const result = getGamesByTeam(mockSeasonData, '永春TB');
 
-    expect(result).toHaveLength(2);
+    // 2025202 (homeTeam), 2025207 (homeTeam), 2025210 (awayTeam)
+    expect(result).toHaveLength(3);
   });
 
   it('球隊不存在時應回傳空陣列', () => {
