@@ -34,10 +34,10 @@ export function ScheduleCalendar() {
 
   // 從賽程資料中提取所有球團名稱
   const allTeams = useMemo(() => {
-    if (!data || !data.schedule.days.length) return [];
+    if (!data || !data.length) return [];
 
     const teamSet = new Set<string>();
-    data.schedule.days.forEach((day) => {
+    data.forEach((day) => {
       Object.values(day.venues).forEach((games) => {
         games.forEach((game) => {
           teamSet.add(game.homeTeam);
@@ -51,10 +51,10 @@ export function ScheduleCalendar() {
 
   // 從賽程資料中提取所有賽季
   const availableSeasons = useMemo(() => {
-    if (!data || !data.schedule.days.length) return [];
+    if (!data || !data.length) return [];
 
     const seasonSet = new Set<number>();
-    data.schedule.days.forEach((day) => {
+    data.forEach((day) => {
       Object.values(day.venues).forEach((games) => {
         games.forEach((game) => {
           const parsed = parseGameNumber(game.gameNumber);
@@ -70,10 +70,10 @@ export function ScheduleCalendar() {
 
   // 計算各賽季比賽數量
   const seasonCounts = useMemo(() => {
-    if (!data || !data.schedule.days.length) return new Map<string, number>();
+    if (!data || !data.length) return new Map<string, number>();
 
     const counts = new Map<string, number>();
-    data.schedule.days.forEach((day) => {
+    data.forEach((day) => {
       Object.values(day.venues).forEach((games) => {
         games.forEach((game) => {
           const parsed = parseGameNumber(game.gameNumber);
@@ -88,16 +88,32 @@ export function ScheduleCalendar() {
     return counts;
   }, [data]);
 
+  // 計算總比賽數與場地列表
+  const { totalGames, venues } = useMemo(() => {
+    if (!data || !data.length) return { totalGames: 0, venues: [] };
+
+    const venueSet = new Set<string>();
+    let count = 0;
+    data.forEach((day) => {
+      Object.entries(day.venues).forEach(([venueName, games]) => {
+        venueSet.add(venueName);
+        count += games.length;
+      });
+    });
+
+    return { totalGames: count, venues: Array.from(venueSet).sort() };
+  }, [data]);
+
   // 篩選賽程資料（同時支援球團和賽季篩選）
   const filteredDays = useMemo(() => {
     if (!data) return [];
 
     // 如果兩個篩選都是「全部」，直接返回所有資料
     if (selectedTeam === '全部' && selectedSeason === '全部') {
-      return data.schedule.days;
+      return data;
     }
 
-    return data.schedule.days
+    return data
       .map((day) => {
         const filteredVenues: DaySchedule['venues'] = {};
 
@@ -158,7 +174,7 @@ export function ScheduleCalendar() {
   }
 
   // 錯誤狀態或無資料 - 統一顯示「尚待安排」
-  if (error || !data || !data.schedule.days.length) {
+  if (error || !data || !data.length) {
     return (
       <div className="rounded-lg border border-gray-200 bg-white shadow-sm">
         {/* 標題與導航 */}
@@ -349,12 +365,12 @@ export function ScheduleCalendar() {
         <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-gray-600">
           <span>
             {selectedTeam === '全部' && selectedSeason === '全部' ? (
-              <>共 {data.meta.totalGames} 場比賽</>
+              <>共 {totalGames} 場比賽</>
             ) : (
               <>
                 顯示 {filteredGamesCount} 場比賽
                 <span className="text-gray-400">
-                  （共 {data.meta.totalGames} 場）
+                  （共 {totalGames} 場）
                 </span>
               </>
             )}
@@ -372,7 +388,7 @@ export function ScheduleCalendar() {
             </>
           )}
           <span className="text-gray-400">•</span>
-          <span>{data.meta.venues.join('、')}</span>
+          <span>{venues.join('、')}</span>
         </div>
       </div>
 
@@ -493,6 +509,23 @@ function DayScheduleCard({
   );
 }
 
+// 比賽狀態顯示設定
+const STATUS_CONFIG = {
+  finished: {
+    label: '已完賽',
+    className: 'bg-green-100 border-green-300 text-green-700',
+  },
+  rain: {
+    label: '雨延',
+    className: 'bg-blue-100 border-blue-300 text-blue-700',
+  },
+  cancelled: {
+    label: '取消',
+    className: 'bg-red-100 border-red-300 text-red-700',
+  },
+  scheduled: null, // 已排程不顯示標籤
+} as const;
+
 /**
  * 單場比賽卡片
  */
@@ -507,6 +540,11 @@ function GameCard({ game, highlightTeam }: { game: Game; highlightTeam?: string 
   // 判斷是否需要高亮球隊
   const isHomeTeamHighlighted = highlightTeam && game.homeTeam === highlightTeam;
   const isAwayTeamHighlighted = highlightTeam && game.awayTeam === highlightTeam;
+
+  // 取得比賽狀態設定
+  const statusConfig = game.status && game.status !== 'scheduled'
+    ? STATUS_CONFIG[game.status] ?? null
+    : null;
 
   return (
     <Link
@@ -525,6 +563,14 @@ function GameCard({ game, highlightTeam }: { game: Game; highlightTeam?: string 
             >
               {game.timeSlot}
             </span>
+            {/* 比賽狀態標籤 */}
+            {statusConfig && (
+              <span
+                className={`rounded-full border px-2 py-0.5 text-xs font-medium ${statusConfig.className}`}
+              >
+                {statusConfig.label}
+              </span>
+            )}
           </div>
           <div className="flex items-center gap-3">
             <span

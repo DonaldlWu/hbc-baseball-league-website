@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useRequest } from 'ahooks';
-import { loadMonthSchedule } from '@/src/lib/dataLoader';
-import type { ScheduleData } from '@/src/types';
+import { loadGamesByCalendarMonth } from '@/src/lib/seasonDataLoader';
+import type { DaySchedule } from '@/src/types';
 
 /**
  * useSchedule Hook
@@ -29,7 +29,7 @@ export function useSchedule(
 
   // 載入賽程資料
   const { data, loading, error, run } = useRequest(
-    () => loadMonthSchedule(currentYear, currentMonth),
+    (): Promise<DaySchedule[]> => loadGamesByCalendarMonth(currentYear, currentMonth),
     {
       refreshDeps: [currentYear, currentMonth],
     }

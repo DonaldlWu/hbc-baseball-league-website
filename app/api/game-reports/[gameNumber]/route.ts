@@ -1,17 +1,10 @@
+import fs from 'fs/promises';
+import path from 'path';
 import { NextRequest, NextResponse } from 'next/server';
 import { getGameReport } from '@/src/lib/gameReportParser';
 import { CACHE_CONFIG } from '@/src/lib/config';
-
-// 比賽對應 Google Sheet ID 的索引
-interface GameIndex {
-  games: Record<string, {
-    sheetId: string;
-    date: string;
-    homeTeam: string;
-    awayTeam: string;
-    venue: string;
-  }>;
-}
+import { parseGameNumber } from '@/src/lib/formatters';
+import type { SeasonData } from '@/src/types';
 
 export async function GET(
   request: NextRequest,
@@ -21,19 +14,19 @@ export async function GET(
     const { gameNumber } = await params;
     const decodedGameNumber = decodeURIComponent(gameNumber);
 
-    // 讀取比賽索引
-    const indexUrl = new URL('/data/game-reports/index.json', request.url);
-    const indexRes = await fetch(indexUrl);
-
-    if (!indexRes.ok) {
+    // 從 gameNumber 解析賽季年度
+    const parsed = parseGameNumber(decodedGameNumber);
+    if (!parsed) {
       return NextResponse.json(
-        { error: '無法讀取比賽索引' },
-        { status: 500 }
+        { error: `無效的比賽編號 ${decodedGameNumber}` },
+        { status: 400 }
       );
     }
 
-    const index: GameIndex = await indexRes.json();
-    const gameInfo = index.games[decodedGameNumber];
+    // 從 filesystem 讀取賽季資料（server-side only，避免 browser bundle 引入 fs）
+    const filePath = path.join(process.cwd(), 'public', 'data', 'seasons', `${parsed.season}.json`);
+    const seasonData = JSON.parse(await fs.readFile(filePath, 'utf-8')) as SeasonData;
+    const gameInfo = seasonData.games[decodedGameNumber];
 
     if (!gameInfo) {
       return NextResponse.json(
@@ -43,16 +36,16 @@ export async function GET(
     }
 
     // 處理特殊狀態
-    if (!gameInfo.sheetId) {
+    if (gameInfo.status === 'rain') {
       return NextResponse.json(
-        { error: `比賽 ${decodedGameNumber} 尚未有戰報資料` },
+        { error: `比賽 ${decodedGameNumber} 因雨延賽` },
         { status: 404 }
       );
     }
 
-    if (gameInfo.sheetId === 'rain') {
+    if (!gameInfo.sheetId) {
       return NextResponse.json(
-        { error: `比賽 ${decodedGameNumber} 因雨延賽` },
+        { error: `比賽 ${decodedGameNumber} 尚未有戰報資料` },
         { status: 404 }
       );
     }

@@ -11,11 +11,7 @@ import type {
   LeagueStats,
   TeamSummary,
   PlayerSummary,
-  LeagueStandings,
-  TeamRecordRaw,
-  SeasonGames,
 } from '@/src/types';
-import { calculateStandings } from './standingsCalculator';
 
 /**
  * 載入年度摘要
@@ -157,32 +153,6 @@ export function extractTeamsFromSeason(summary: SeasonSummary): TeamSummary[] {
 
   // 按球隊名稱排序
   return teams.sort((a, b) => a.teamName.localeCompare(b.teamName));
-}
-
-/**
- * 載入聯盟排名資料
- * @param year 年份
- * @returns 聯盟排名資料
- */
-export async function loadStandings(year: number): Promise<LeagueStandings> {
-  const response = await fetch(`/data/standings_${year}.json`);
-
-  if (!response.ok) {
-    throw new Error(`Failed to load standings for ${year}: ${response.status}`);
-  }
-
-  const rawData: { year: number; league: string; lastUpdated: string; teams: TeamRecordRaw[] } =
-    await response.json();
-
-  // 計算積分、勝率、勝差並排序
-  const teamsWithStats = calculateStandings(rawData.teams);
-
-  return {
-    year: rawData.year,
-    league: rawData.league,
-    lastUpdated: rawData.lastUpdated,
-    teams: teamsWithStats,
-  };
 }
 
 /**
@@ -381,68 +351,4 @@ export async function getLatestAnnouncements(limit: number = 5): Promise<import(
     .slice(0, limit);
 }
 
-/**
- * 載入月賽程資料
- * @param year 年份
- * @param month 月份 (1-12)
- * @returns 月賽程資料
- */
-export async function loadMonthSchedule(year: number, month: number): Promise<import('@/src/types').ScheduleData> {
-  // 格式化月份為兩位數 (例如: 01, 02, ..., 12)
-  const monthStr = month.toString().padStart(2, '0');
-  const response = await fetch(`/data/schedules/${year}-${monthStr}.json`);
 
-  if (!response.ok) {
-    throw new Error(`Failed to load schedule for ${year}-${monthStr}: ${response.status}`);
-  }
-
-  return response.json();
-}
-
-/**
- * 取得當月賽程
- * @returns 當月賽程資料
- */
-export async function getCurrentMonthSchedule(): Promise<import('@/src/types').ScheduleData> {
-  const now = new Date();
-  return loadMonthSchedule(now.getFullYear(), now.getMonth() + 1);
-}
-
-/**
- * 載入賽季比賽資料
- * @param season 賽季年度 (如 2025)
- * @returns 賽季比賽資料
- */
-export async function loadSeasonGames(season: number): Promise<SeasonGames> {
-  const response = await fetch(`/data/season_games/${season}.json`);
-
-  if (!response.ok) {
-    throw new Error(`Failed to load season games for ${season}: ${response.status}`);
-  }
-
-  return response.json();
-}
-
-/**
- * 取得可用的賽季列表
- * @returns 賽季年份陣列（降序排列）
- */
-export async function getAvailableSeasons(): Promise<number[]> {
-  // 目前硬編碼可用的賽季，未來可改為動態取得
-  const seasons = [2026, 2025];
-  const available: number[] = [];
-
-  for (const season of seasons) {
-    try {
-      const response = await fetch(`/data/season_games/${season}.json`);
-      if (response.ok) {
-        available.push(season);
-      }
-    } catch {
-      // 檔案不存在，繼續查詢下一個
-      continue;
-    }
-  }
-
-  return available;
-}

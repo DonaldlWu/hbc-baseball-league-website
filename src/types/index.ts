@@ -255,6 +255,7 @@ export interface Game {
   startTime: string;       // 開始時間 (如 "08:00")
   endTime: string;         // 結束時間 (如 "11:00")
   season?: number;         // 賽季年度 (如 2025)，可從 gameNumber 解析
+  status?: GameStatusExtended; // 比賽狀態（選填，來自 SeasonGame）
   note?: string;           // 備註（選填，如 "開賽時間暫定"）
   result?: {               // 比賽結果（選填，未開打則無）
     homeScore: number;
@@ -270,24 +271,6 @@ export interface DaySchedule {
     [venueName: string]: Game[];  // 場地名稱 -> 該場地的比賽列表
   };
   note?: string;           // 當日備註（選填，如 "新年快樂！"）
-}
-
-// 月賽程
-export interface MonthSchedule {
-  year: number;            // 日曆年份 (如 2026)
-  month: number;           // 月份 (1-12)
-  season?: number;         // 賽季年度 (如 2025)，比賽所屬的賽季
-  days: DaySchedule[];     // 該月所有有賽程的日期
-}
-
-// 賽程資料（含 metadata）
-export interface ScheduleData {
-  schedule: MonthSchedule;
-  meta: {
-    lastUpdated: string;
-    totalGames: number;
-    venues: string[];      // 所有場地列表
-  };
 }
 
 // ============ 比賽戰報 ============
@@ -365,10 +348,59 @@ export interface SeasonGameRecord {
   status: GameStatus;      // 比賽狀態
 }
 
-// 賽季比賽資料
+// 賽季比賽資料（舊格式，保留向下相容）
 export interface SeasonGames {
   season: number;          // 賽季年度 (如 2025)
   lastUpdated: string;     // 最後更新時間 (ISO 8601)
   totalGames: number;      // 總比賽場數
   games: SeasonGameRecord[]; // 比賽列表
+}
+
+// ============ 統一賽季資料結構 (2026-02-18) ============
+
+// 比賽狀態（擴展版）
+export type GameStatusExtended = 'finished' | 'scheduled' | 'rain' | 'cancelled';
+
+// 統一比賽資料（合併 schedule + game-reports + season_games）
+export interface SeasonGame {
+  date: string;              // 比賽日期 (ISO 8601: "2026-01-03")
+  homeTeam: string;          // 主隊名稱
+  awayTeam: string;          // 客隊名稱
+  venue: string;             // 場地 (如 "中正A")
+  timeSlot: TimeSlot;        // 時段
+  startTime: string;         // 開始時間 (如 "08:00")
+  endTime: string;           // 結束時間 (如 "11:00")
+  status: GameStatusExtended; // 比賽狀態
+  homeScore: number | null;  // 主隊得分（未比賽為 null）
+  awayScore: number | null;  // 客隊得分（未比賽為 null）
+  sheetId: string;           // 戰報 Google Sheet ID（空字串表示無戰報）
+  note?: string;             // 備註（選填）
+}
+
+// 戰績來源類型
+export type StandingsSource = 'manual' | 'partial' | 'calculated';
+
+// 統一賽季戰績資料
+export interface SeasonStandings {
+  source: StandingsSource;   // 資料來源
+  teams: TeamRecordRaw[];    // 球隊戰績列表
+}
+
+// 統一賽季資料（單一檔案包含所有賽季相關資訊）
+export interface SeasonData {
+  season: number;            // 賽季年度 (如 2025)
+  lastUpdated: string;       // 最後更新時間 (ISO 8601)
+  calendarRange?: {          // 此賽季資料涵蓋的日曆月份範圍（選填，向後相容）
+    start: string;           // 起始月份 "YYYY-MM"
+    end: string;             // 結束月份 "YYYY-MM"
+  };
+  standings: SeasonStandings; // 戰績資料
+  games: Record<string, SeasonGame>; // 比賽資料 (key: gameNumber)
+}
+
+// 賽季索引項目（seasons/index.json 使用）
+export interface SeasonIndexEntry {
+  season: number;            // 賽季年度 (如 2025)
+  start: string;             // 日曆起始月份 "YYYY-MM"
+  end: string;               // 日曆結束月份 "YYYY-MM"
 }

@@ -2,10 +2,13 @@
 
 import { useState, useMemo, use } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { useRequest } from 'ahooks';
-import { loadSeasonGames } from '@/src/lib/dataLoader';
+import { loadSeasonData } from '@/src/lib/seasonDataLoader';
 import { displayGameNumber } from '@/src/lib/formatters';
-import type { SeasonGames, SeasonGameRecord, GameStatus } from '@/src/types';
+import type { SeasonGame, GameStatusExtended } from '@/src/types';
+
+type GameWithNumber = SeasonGame & { gameNumber: string };
 
 /**
  * 賽季對戰紀錄頁面
@@ -24,44 +27,49 @@ export default function SeasonGamesPage({
   const [selectedTeam, setSelectedTeam] = useState<string>('全部');
 
   // 載入賽季資料
-  const { data, loading, error } = useRequest(() => loadSeasonGames(year), {
+  const { data, loading, error } = useRequest(() => loadSeasonData(year), {
     refreshDeps: [year],
   });
 
+  // 將 games Record 轉為陣列
+  const allGames = useMemo((): GameWithNumber[] => {
+    if (!data) return [];
+    return Object.entries(data.games).map(([gameNumber, game]) => ({
+      gameNumber,
+      ...game,
+    }));
+  }, [data]);
+
   // 從比賽資料中提取所有球團名稱
   const allTeams = useMemo(() => {
-    if (!data || !data.games.length) return [];
+    if (!allGames.length) return [];
 
     const teamSet = new Set<string>();
-    data.games.forEach((game) => {
+    allGames.forEach((game) => {
       teamSet.add(game.homeTeam);
       teamSet.add(game.awayTeam);
     });
 
     return ['全部', ...Array.from(teamSet).sort()];
-  }, [data]);
+  }, [allGames]);
 
   // 篩選比賽資料
   const filteredGames = useMemo(() => {
-    if (!data || selectedTeam === '全部') return data?.games || [];
+    if (selectedTeam === '全部') return allGames;
 
-    return data.games.filter(
+    return allGames.filter(
       (game) =>
         game.homeTeam === selectedTeam || game.awayTeam === selectedTeam
     );
-  }, [data, selectedTeam]);
+  }, [allGames, selectedTeam]);
 
   // 計算統計
   const stats = useMemo(() => {
-    if (!filteredGames.length) return { finished: 0, scheduled: 0, rain: 0 };
-
-    return filteredGames.reduce(
-      (acc, game) => {
-        acc[game.status]++;
-        return acc;
-      },
-      { finished: 0, scheduled: 0, rain: 0 } as Record<GameStatus, number>
-    );
+    const counts = { finished: 0, scheduled: 0, rain: 0, cancelled: 0 };
+    filteredGames.forEach((game) => {
+      counts[game.status]++;
+    });
+    return counts;
   }, [filteredGames]);
 
   // Loading 狀態
@@ -132,7 +140,7 @@ export default function SeasonGamesPage({
                   {year} 賽季對戰紀錄
                 </h1>
                 <p className="mt-1 text-sm text-gray-600">
-                  共 {data.totalGames} 場比賽
+                  共 {allGames.length} 場比賽
                 </p>
               </div>
 
@@ -160,13 +168,14 @@ export default function SeasonGamesPage({
                 <span>
                   顯示 {filteredGames.length} 場
                   <span className="text-gray-400">
-                    （共 {data.totalGames} 場）
+                    （共 {allGames.length} 場）
                   </span>
                 </span>
               )}
               <span className="text-gray-500">
                 已完賽: {stats.finished} | 待比賽: {stats.scheduled}
                 {stats.rain > 0 && ` | 雨延: ${stats.rain}`}
+                {stats.cancelled > 0 && ` | 取消: ${stats.cancelled}`}
               </span>
             </div>
           </div>
@@ -245,12 +254,13 @@ function GameRow({
   game,
   highlightTeam,
 }: {
-  game: SeasonGameRecord;
+  game: GameWithNumber;
   highlightTeam?: string;
 }) {
+  const router = useRouter();
   // 狀態顏色
   const statusStyles: Record<
-    GameStatus,
+    GameStatusExtended,
     { bg: string; text: string; label: string }
   > = {
     finished: {
@@ -268,6 +278,11 @@ function GameRow({
       text: 'text-amber-700',
       label: '雨延',
     },
+    cancelled: {
+      bg: 'bg-red-100',
+      text: 'text-red-700',
+      label: '取消',
+    },
   };
 
   const statusStyle = statusStyles[game.status];
@@ -281,8 +296,8 @@ function GameRow({
   const weekdays = ['日', '一', '二', '三', '四', '五', '六'];
   const dateStr = `${date.getMonth() + 1}/${date.getDate()} (${weekdays[date.getDay()]})`;
 
-  // 只有已完賽的比賽可以點擊查看戰報
-  const isClickable = game.status === 'finished';
+  // 只有已完賽且有戰報的比賽可以點擊查看
+  const isClickable = game.status === 'finished' && !!game.sheetId;
 
   const rowContent = (
     <>
@@ -342,13 +357,11 @@ function GameRow({
 
   if (isClickable) {
     return (
-      <tr className="hover:bg-gray-50 cursor-pointer transition-colors">
-        <Link
-          href={`/games/${encodeURIComponent(game.gameNumber)}`}
-          className="contents"
-        >
-          {rowContent}
-        </Link>
+      <tr
+        className="hover:bg-gray-50 cursor-pointer transition-colors"
+        onClick={() => router.push(`/games/${encodeURIComponent(game.gameNumber)}`)}
+      >
+        {rowContent}
       </tr>
     );
   }

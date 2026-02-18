@@ -12,7 +12,16 @@
       "Bash(npm run lint)",
       "Bash(git restore:*)",
       "WebFetch(domain:docs.google.com)",
-      "Bash(xargs:*)"
+      "Bash(xargs:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx tsx:*)",
+      "Bash(node --version:*)",
+      "Bash(npm:*)",
+      "Bash(find:*)",
+      "Bash(npx vitest:*)",
+      "Bash(grep:*)",
+      "Bash(python3:*)",
+      "Bash(npx eslint:*)"
     ]
   }
 }

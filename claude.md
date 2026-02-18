@@ -1134,225 +1134,96 @@ npm run convert-data          # CSV 轉 JSON
 
 ---
 
-## TODO：統一賽季資料結構重構
+## TODO：移除 schedules/ 並統一使用 seasons/YYYY.json
 
-> 📅 建立日期：2026-02-18
+> 📅 更新日期：2026-02-18
 > 📁 舊 TODO 備份：`docs/archive/CLAUDE_TODO_BACKUP_20260218.md`
 
-### 背景
+### 背景與決策
 
-目前賽季相關資料分散在多個 JSON 檔案中，造成：
-1. **資料冗餘**：同一場比賽的資訊重複存在多處
-2. **維護困難**：更新資料需要改多個檔案
-3. **無法計算**：standings 是手動維護，無法自動從比賽結果計算
+資料遷移已完成第一階段（`seasons/2025.json`、`seasons/2026.json` 已建立）。
+目前 `schedules/` 目錄剩餘的月曆檔案僅供 `ScheduleCalendar` 使用，計畫將其移除，改由 `seasons/YYYY.json` 統一提供所有功能所需資料。
 
-### 現有問題
+**`season_games/` 不適合直接替代 `schedules/`** 的原因：缺少 `timeSlot`、`startTime`、`endTime`，而這些欄位在 `seasons/YYYY.json` 中已完整。
 
-| 檔案 | 內容 | 問題 |
-|------|------|------|
-| `standings_2025.json` | 累計戰績 (W/L/D)、平均得失分 | 手動維護，與比賽結果脫鉤 |
-| `season_games/2025.json` | 比賽清單、狀態 | 沒有比分 |
-| `schedules/2026-01.json` | 月曆賽程、時間 | 與 season_games 重複 |
-| `game-reports/index.json` | 戰報連結 (sheetId) | 與其他檔案重複基本資訊 |
-
-**冗餘欄位：**
-- `gameNumber`, `date`, `homeTeam`, `awayTeam`, `venue` 在 3-4 個檔案中重複
-
----
-
-### 目標：單一賽季資料檔
-
-將所有賽季相關資料合併至 `seasons/YYYY.json`：
-
-```json
-{
-  "season": 2025,
-  "lastUpdated": "2026-02-03T00:00:00Z",
-
-  "standings": {
-    "source": "manual",
-    "teams": [
-      {
-        "teamId": "ROO",
-        "teamName": "Line Drive",
-        "wins": 16,
-        "losses": 3,
-        "draws": 1,
-        "runsAllowed": 4.0,
-        "runsScored": 13.75
-      }
-    ]
-  },
-
-  "games": {
-    "2025201": {
-      "date": "2026-01-03",
-      "homeTeam": "Line Drive",
-      "awayTeam": "陽明OB",
-      "venue": "中正A",
-      "timeSlot": "上午",
-      "startTime": "08:00",
-      "endTime": "11:00",
-      "status": "finished",
-      "homeScore": 10,
-      "awayScore": 3,
-      "sheetId": "1dM8woBhSnNPms3YKPEptfw3o4F3neBWa-JrbRoW1iak"
-    }
-  }
-}
-```
-
----
-
-### 檔案結構變化
-
-```
-舊結構 (5+ 檔案/賽季):
-├── standings_2025.json
-├── season_games/2025.json
-├── game-reports/index.json
-├── schedules/2026-01.json
-├── schedules/2026-02.json
-└── ...
-
-新結構 (1 檔案/賽季):
-└── seasons/
-    ├── 2025.json    ← 所有 2025 賽季資料
-    └── 2026.json    ← 所有 2026 賽季資料
-```
-
----
-
-### 過渡方案：standings.source
-
-由於目前比賽資料尚未完整（缺少比分），採用混合模式：
-
-| 階段 | standings.source | 說明 |
-|------|------------------|------|
-| **現在** | `"manual"` | 手動維護 standings，games 逐步補齊 |
-| **過渡** | `"partial"` | 部分從 games 計算，部分手動補差 |
-| **完成** | `"calculated"` | 完全從 games 計算，standings 變成快取 |
-
-```typescript
-function getStandings(seasonData) {
-  if (seasonData.standings.source === "manual") {
-    return seasonData.standings.teams;
-  }
-  if (seasonData.standings.source === "calculated") {
-    return calculateStandingsFromGames(seasonData.games);
-  }
-  // partial: 混合模式
-}
-```
-
----
-
-### 各功能資料來源
+### 各功能資料來源（目標狀態）
 
 | 功能 | 取得方式 |
 |------|----------|
-| 📅 月曆賽程 | `Object.values(games).filter(g => g.date.startsWith('2026-01'))` |
-| 🏆 戰績排行 | `standings.teams` (現階段) → 未來從 games 計算 |
-| 📊 賽季紀錄 | `Object.entries(games)` |
-| 📝 戰報連結 | `games[gameNumber].sheetId` |
-| 🔥 連勝連敗 | 從 `status: finished` 的比賽比分計算 |
-| 📈 平均得失分 | 從 `homeScore/awayScore` 計算 |
+| 📅 月曆賽程 | `getGamesByMonth(seasonData, calYear, calMonth)` |
+| 🏆 戰績排行 | `seasonData.standings.teams` |
+| 📊 賽季紀錄 | `Object.entries(seasonData.games)` |
+| 📝 戰報連結 | `seasonData.games[gameNumber].sheetId` |
+| 🔥 連勝連敗 | 從 `status: finished` 的比賽比分計算（未來） |
+| 📈 平均得失分 | 從 `homeScore/awayScore` 計算（未來） |
+
+### 跨賽季月份設計
+
+同一個曆法月份可能橫跨兩個賽季（如 2026-01 屬於 2025 賽季）。
+解法：在每個 `seasons/YYYY.json` 加入 `calendarRange` 欄位，並建立 `index.json` 讓 loader 快速查找。
+
+```json
+// seasons/2025.json
+{
+  "season": 2025,
+  "calendarRange": { "start": "2025-04", "end": "2026-02" },
+  ...
+}
+
+// seasons/index.json
+[
+  { "season": 2025, "start": "2025-04", "end": "2026-02" },
+  { "season": 2026, "start": "2026-03", "end": "2027-02" }
+]
+```
 
 ---
 
-### 任務清單 (TDD 流程)
+### 任務清單
 
-#### Phase 1: 類型定義
+#### Phase A：確認資料完整性
 
-- [ ] **1.1** 定義新的 TypeScript 類型 (`src/types/index.ts`)
-  ```typescript
-  // 統一比賽資料
-  export interface SeasonGame {
-    date: string;
-    homeTeam: string;
-    awayTeam: string;
-    venue: string;
-    timeSlot: TimeSlot;
-    startTime: string;
-    endTime: string;
-    status: 'finished' | 'scheduled' | 'rain' | 'cancelled';
-    homeScore: number | null;
-    awayScore: number | null;
-    sheetId: string;
-  }
+- [ ] **A.1** 比對 `seasons/2025.json` games 數量是否涵蓋所有 `schedules/2026-01.json` + `schedules/2026-02.json` 的比賽（逐一比對 gameNumber）
+- [ ] **A.2** 確認所有 game entry 都有 `timeSlot`、`startTime`、`endTime`（不能為空字串或缺欄位）
 
-  // 戰績來源類型
-  export type StandingsSource = 'manual' | 'partial' | 'calculated';
+#### Phase B：新增欄位 & index 檔案
 
-  // 統一賽季資料
-  export interface SeasonData {
-    season: number;
-    lastUpdated: string;
-    standings: {
-      source: StandingsSource;
-      teams: TeamRecordRaw[];
-    };
-    games: Record<string, SeasonGame>;
-  }
-  ```
+- [ ] **B.1** 在 `seasons/2025.json` 加入 `calendarRange: { "start": "2025-04", "end": "2026-02" }`
+- [ ] **B.2** 在 `seasons/2026.json` 加入 `calendarRange: { "start": "2026-03", "end": "2027-02" }`
+- [ ] **B.3** 建立 `public/data/seasons/index.json`
+- [ ] **B.4** 更新 `SeasonData` type 加入 `calendarRange` 欄位（`src/types/index.ts`）
 
-- [ ] **1.2** 撰寫類型測試（確保向後相容）
+#### Phase C：擴充 `seasonDataLoader.ts`（TDD）
 
-#### Phase 2: 資料遷移
+- [ ] **C.1** 🔴 Red: 補充測試案例至 `src/lib/__tests__/seasonDataLoader.test.ts`
+  - `loadSeasonIndex()` 載入 index.json
+  - `findSeasonByMonth(calYear, calMonth)` 正確對應到 season year
+  - `getGamesByMonth(data, calYear, calMonth)` 回傳正確月份的比賽，並轉為 `date → venue → game[]` 結構
+  - 跨賽季情境：2026-01 → 應載入 2025 season
+- [ ] **C.2** 🟢 Green: 實作以下函數於 `src/lib/seasonDataLoader.ts`
+  - `loadSeasonIndex(): Promise<SeasonIndexEntry[]>`
+  - `findSeasonByMonth(index, calYear, calMonth): number` → 回傳 season year
+  - `getGamesByMonth(data, calYear, calMonth): DaySchedule[]` → 轉為 Calendar 所需格式
+- [ ] **C.3** 🔵 Refactor: index.json 結果做 module-level cache
 
-- [ ] **2.1** 建立 `public/data/seasons/` 目錄
-- [ ] **2.2** 建立遷移腳本 `scripts/migrate-season-data.ts`
-  - 合併 standings + season_games + schedules + game-reports
-  - 處理重複資料衝突
-- [ ] **2.3** 執行遷移，產生 `seasons/2025.json`
-- [ ] **2.4** 執行遷移，產生 `seasons/2026.json`
-- [ ] **2.5** 驗證遷移結果
+#### Phase D：更新 `useSchedule` Hook
 
-#### Phase 3: 資料載入層 (TDD)
+- [ ] **D.1** 改呼叫 `loadSeasonIndex()` + `findSeasonByMonth()` + `loadSeasonData()` 取代 `loadMonthSchedule()`
+- [ ] **D.2** 確認月份導航（上個月 / 下個月 / 今天）邏輯不受影響
+- [ ] **D.3** 確認跨年份切換正常（如從 2026-02 切到 2026-03，需切換 season 檔案）
 
-- [ ] **3.1** 🔴 Red: 撰寫測試 `src/lib/__tests__/seasonDataLoader.test.ts`
-  ```typescript
-  describe('loadSeasonData', () => {
-    it('應該載入完整賽季資料');
-    it('應該正確解析 games 物件');
-    it('應該支援篩選特定月份的比賽');
-  });
-  ```
-- [ ] **3.2** 🟢 Green: 實作 `src/lib/seasonDataLoader.ts`
-  ```typescript
-  export async function loadSeasonData(year: number): Promise<SeasonData>;
-  export function getGamesByMonth(data: SeasonData, year: number, month: number): SeasonGame[];
-  export function getGamesByTeam(data: SeasonData, teamName: string): SeasonGame[];
-  ```
-- [ ] **3.3** 🔵 Refactor: 優化與快取
+#### Phase E：更新 `ScheduleCalendar.tsx`
 
-#### Phase 4: 更新現有元件
+- [ ] **E.1** 確認元件接受由 `getGamesByMonth` 回傳的 `DaySchedule[]` 格式（如格式一致則無需改動）
+- [ ] **E.2** 利用 `status` 欄位在 `GameCard` 顯示比賽狀態（已結束 / 雨延取消 / 待賽）
 
-- [ ] **4.1** 更新 `ScheduleCalendar.tsx`
-  - 改用新的 `loadSeasonData()` + `getGamesByMonth()`
-- [ ] **4.2** 更新 `app/seasons/[year]/page.tsx`
-  - 改用新的資料結構
-- [ ] **4.3** 更新 `StandingsTable` / `LeagueLeaders`
-  - 從 `seasonData.standings.teams` 取得資料
-- [ ] **4.4** 更新戰報相關元件
-  - 從 `seasonData.games[gameNumber].sheetId` 取得連結
+#### Phase F：刪除舊檔案與程式碼
 
-#### Phase 5: 清理舊檔案
-
-- [ ] **5.1** 確認所有功能正常運作
-- [ ] **5.2** 移除舊檔案（或移至 archive）
-  - `standings_2025.json`
-  - `season_games/*.json`
-  - `game-reports/index.json`
-  - `schedules/*.json` (保留或合併)
-- [ ] **5.3** 更新 `.gitignore`
-
-#### Phase 6: 文件更新
-
-- [ ] **6.1** 更新 `docs/SCHEDULE_FEATURE.md`
-- [ ] **6.2** 更新 `docs/api/game-reports.md`
-- [ ] **6.3** 建立 `docs/SEASON_DATA_STRUCTURE.md`
-- [ ] **6.4** 更新 `docs/SCHEDULE_UPDATE_GUIDE.md`
+- [ ] **F.1** `npm run build` + 所有測試通過後，執行刪除
+- [ ] **F.2** 刪除 `public/data/schedules/` 目錄（`2026-01.json`、`2026-02.json`）
+- [ ] **F.3** 刪除 `public/data/season_games/` 目錄（已被 `seasons/` 取代）
+- [ ] **F.4** 刪除 `src/lib/dataLoader.ts` 中的 `loadMonthSchedule()` 函數（確認無其他引用）
+- [ ] **F.5** 刪除 `src/types/index.ts` 中的 `ScheduleData`、`MonthSchedule`、`DaySchedule` 等舊型別（確認無引用）
 
 ---
 
@@ -1360,34 +1231,34 @@ function getStandings(seasonData) {
 
 | Phase | 狀態 | 完成日期 |
 |-------|------|---------|
-| Phase 1: 類型定義 | ⏳ 待開始 | - |
-| Phase 2: 資料遷移 | ⏳ 待開始 | - |
-| Phase 3: 資料載入層 | ⏳ 待開始 | - |
-| Phase 4: 更新元件 | ⏳ 待開始 | - |
-| Phase 5: 清理舊檔案 | ⏳ 待開始 | - |
-| Phase 6: 文件更新 | ⏳ 待開始 | - |
+| Phase A: 資料完整性確認 | ⏳ 待開始 | - |
+| Phase B: 新增欄位 & index | ⏳ 待開始 | - |
+| Phase C: seasonDataLoader 擴充 | ⏳ 待開始 | - |
+| Phase D: useSchedule Hook 更新 | ⏳ 待開始 | - |
+| Phase E: ScheduleCalendar 更新 | ⏳ 待開始 | - |
+| Phase F: 刪除舊檔案 | ⏳ 待開始 | - |
 
 ---
 
 ### 相關檔案
 
 **新增：**
-- `public/data/seasons/2025.json`
-- `public/data/seasons/2026.json`
-- `src/lib/seasonDataLoader.ts`
-- `scripts/migrate-season-data.ts`
+- `public/data/seasons/index.json`
 
 **修改：**
-- `src/types/index.ts`
-- `src/components/ScheduleCalendar.tsx`
-- `app/seasons/[year]/page.tsx`
-- `src/components/LeagueLeaders.tsx`
+- `public/data/seasons/2025.json` （加 `calendarRange`）
+- `public/data/seasons/2026.json` （加 `calendarRange`）
+- `src/types/index.ts` （加 `calendarRange`、`SeasonIndexEntry`）
+- `src/lib/seasonDataLoader.ts` （新增 index loader + getGamesByMonth）
+- `src/lib/__tests__/seasonDataLoader.test.ts` （補充測試）
+- `src/hooks/useSchedule.ts` （改用新 loader）
+- `src/components/ScheduleCalendar.tsx` （game status 顯示）
 
-**刪除（遷移後）：**
-- `public/data/standings_2025.json`
-- `public/data/season_games/`
-- `public/data/game-reports/index.json`
+**刪除（Phase F）：**
 - `public/data/schedules/`
+- `public/data/season_games/`
+- `loadMonthSchedule()` in `src/lib/dataLoader.ts`
+- 舊 `ScheduleData` / `MonthSchedule` / `DaySchedule` 型別
 
 ---
 

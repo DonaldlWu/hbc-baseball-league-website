@@ -1,0 +1,70 @@
+{
+  "season": 2026,
+  "lastUpdated": "2026-02-18T08:17:48.304Z",
+  "calendarRange": {
+    "start": "2026-03",
+    "end": "2027-02"
+  },
+  "standings": {
+    "source": "manual",
+    "teams": []
+  },
+  "games": {
+    "2026018": {
+      "date": "2026-02-14",
+      "homeTeam": "楚奧特",
+      "awayTeam": "櫻砲魂",
+      "venue": "三鶯B",
+      "timeSlot": "上午",
+      "startTime": "08:00",
+      "endTime": "11:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null,
+      "sheetId": "",
+      "note": "2026新球季"
+    },
+    "2026066": {
+      "date": "2026-02-14",
+      "homeTeam": "少林棒球隊",
+      "awayTeam": "十號馬",
+      "venue": "三鶯A",
+      "timeSlot": "中午",
+      "startTime": "12:00",
+      "endTime": "14:30",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null,
+      "sheetId": "",
+      "note": "2026新球季"
+    },
+    "2026072": {
+      "date": "2026-02-14",
+      "homeTeam": "Line Drive",
+      "awayTeam": "逆轉星球",
+      "venue": "三鶯A",
+      "timeSlot": "下午",
+      "startTime": "14:30",
+      "endTime": "17:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null,
+      "sheetId": "",
+      "note": "2026新球季"
+    },
+    "2026211": {
+      "date": "2026-02-28",
+      "homeTeam": "Aaron Prosecutor",
+      "awayTeam": "MIRACLE",
+      "venue": "三鶯A",
+      "timeSlot": "中午",
+      "startTime": "11:00",
+      "endTime": "14:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null,
+      "sheetId": "",
+      "note": "2026新球季"
+    }
+  }
+}

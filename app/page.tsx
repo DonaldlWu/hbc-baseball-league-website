@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { loadStandings } from "@/src/lib/dataLoader";
+import { loadStandingsFromSeason } from "@/src/lib/seasonDataLoader";
 import StandingsTable from "@/src/components/StandingsTable";
 import AnnouncementCarousel from "@/src/components/AnnouncementCarousel";
 import { ScheduleCalendar } from "@/src/components/ScheduleCalendar";
@@ -16,7 +16,7 @@ export default function Home() {
     async function fetchStandings() {
       try {
         setLoading(true);
-        const data = await loadStandings(2025);
+        const data = await loadStandingsFromSeason(2025);
         setStandings(data);
       } catch (err) {
         console.error("Failed to load standings:", err);
