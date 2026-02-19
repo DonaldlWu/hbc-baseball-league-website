@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 
@@ -27,8 +27,15 @@ export default function Navigation({
   items = defaultItems,
 }: NavigationProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const pathname = usePathname();
   const router = useRouter();
+
+  useEffect(() => {
+    const handleScroll = () => setIsScrolled(window.scrollY > 0);
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const isActive = (href: string): boolean => {
     // 錨點連結不參與高亮（它們是首頁內的導航）
@@ -45,18 +52,18 @@ export default function Navigation({
     const baseClasses =
       "px-3 py-2 rounded-md text-sm transition-colors duration-200";
     if (isActive(href)) {
-      return `${baseClasses} text-green-600 font-bold`;
+      return `${baseClasses} text-white font-bold bg-primary-800`;
     }
-    return `${baseClasses} text-gray-900 hover:text-green-600`;
+    return `${baseClasses} text-primary-100 hover:text-white hover:bg-primary-600`;
   };
 
   const getMobileLinkClasses = (href: string): string => {
     const baseClasses =
       "block px-4 py-3 text-base transition-colors duration-200";
     if (isActive(href)) {
-      return `${baseClasses} text-green-600 font-bold`;
+      return `${baseClasses} text-white font-bold bg-primary-800`;
     }
-    return `${baseClasses} text-gray-900 hover:text-green-600`;
+    return `${baseClasses} text-primary-100 hover:text-white hover:bg-primary-600`;
   };
 
   // 處理錨點連結滾動
@@ -95,13 +102,16 @@ export default function Navigation({
   };
 
   return (
-    <nav className="sticky top-0 z-50 bg-white shadow-md" aria-label="主要導航">
+    <nav
+      className={`sticky top-0 z-50 bg-gradient-to-r from-primary-600 to-primary-700 transition-shadow duration-300 ${isScrolled ? 'shadow-md' : 'shadow-none'}`}
+      aria-label="主要導航"
+    >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo / Site Title */}
           <Link
             href="/"
-            className="text-xl font-bold text-gray-900 hover:text-primary-600 transition-colors"
+            className="text-xl font-bold text-white hover:text-primary-200 transition-colors"
           >
             {siteTitle}
           </Link>
@@ -123,7 +133,7 @@ export default function Navigation({
           {/* Mobile Menu Button */}
           <button
             type="button"
-            className="md:hidden p-2 rounded-md text-gray-700 hover:text-primary-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-primary-500"
+            className="md:hidden p-2 rounded-md text-white hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-300"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-expanded={isMenuOpen}
             aria-label={isMenuOpen ? "關閉選單" : "開啟選單"}
@@ -172,7 +182,7 @@ export default function Navigation({
           isMenuOpen ? "max-h-64" : "max-h-0"
         }`}
       >
-        <div className="border-t border-gray-200 bg-white">
+        <div className="border-t border-primary-600 bg-primary-700 bg-gradient-to-r from-primary-600 to-primary-700">
           {items.map((item) => (
             <Link
               key={item.href}
