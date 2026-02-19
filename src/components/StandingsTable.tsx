@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { getTeamIconsByIds } from '@/src/lib/dataLoader';
+import { formatStreak } from '@/src/lib/formatters';
 import type { TeamRecord } from '@/src/types';
 
 interface StandingsTableProps {
@@ -76,6 +77,9 @@ export default function StandingsTable({ teams, year }: StandingsTableProps) {
               勝差
             </th>
             <th className="px-3 py-3 text-center text-xs font-medium uppercase tracking-wider">
+              近況
+            </th>
+            <th className="px-3 py-3 text-center text-xs font-medium uppercase tracking-wider">
               均失
             </th>
             <th className="px-3 py-3 text-center text-xs font-medium uppercase tracking-wider">
@@ -132,6 +136,31 @@ export default function StandingsTable({ teams, year }: StandingsTableProps) {
               </td>
               <td className="px-3 py-3 text-sm text-center text-gray-900">
                 {team.gamesBehind === null ? '-' : team.gamesBehind.toFixed(1)}
+              </td>
+              <td className="px-3 py-3 text-sm text-center">
+                <div className="flex items-center justify-center gap-1 flex-wrap">
+                  {team.streak && team.streak.count >= 2 ? (
+                    <span
+                      className={`rounded-full px-2 py-0.5 text-xs font-medium ${
+                        team.streak.type === 'W'
+                          ? 'bg-green-100 text-green-700'
+                          : team.streak.type === 'L'
+                            ? 'bg-red-100 text-red-700'
+                            : 'bg-gray-100 text-gray-600'
+                      }`}
+                    >
+                      {team.streak.type === 'W' ? '🔥' : team.streak.type === 'L' ? '📉' : '🤝'}{' '}
+                      {formatStreak(team.streak)}
+                    </span>
+                  ) : (
+                    <span className="text-gray-400">-</span>
+                  )}
+                  {team.specialTag && (
+                    <span className="rounded-full bg-blue-100 px-2 py-0.5 text-xs font-medium text-blue-700">
+                      ☔ {team.specialTag}
+                    </span>
+                  )}
+                </div>
               </td>
               <td className="px-3 py-3 text-sm text-center text-gray-900">
                 {team.runsAllowed.toFixed(1)}

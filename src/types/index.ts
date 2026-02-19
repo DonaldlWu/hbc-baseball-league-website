@@ -190,6 +190,16 @@ export interface TeamRecordRaw {
   runsScored: number;       // 均得（平均得分）
 }
 
+// 連勝/連敗/連平類型
+export type StreakType = 'W' | 'L' | 'D';
+
+// 球隊近況連勝連敗資料
+export interface TeamStreak {
+  teamName: string;
+  type: StreakType;
+  count: number;
+}
+
 // 球隊戰績（含計算欄位）
 export interface TeamRecord extends TeamRecordRaw {
   rank: number;             // 排名（計算後）
@@ -197,6 +207,8 @@ export interface TeamRecord extends TeamRecordRaw {
   points: number;           // 積分（勝3分、和1分、敗0分）
   winRate: number;          // 勝率 = 勝 / (勝 + 敗)
   gamesBehind: number | null; // 勝差（第一名為 null）
+  streak?: TeamStreak;      // 近況（連勝/連敗/連平）
+  specialTag?: string;      // 特殊標籤（如「雨神同行」）
 }
 
 // 聯盟戰績排名

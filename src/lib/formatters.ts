@@ -3,7 +3,7 @@
  * 格式化數據顯示的純函數
  */
 
-import type { ParsedGameNumber } from '@/src/types';
+import type { ParsedGameNumber, TeamStreak } from '@/src/types';
 
 /**
  * 格式化打擊率 (AVG, OBP, SLG 等)
@@ -260,4 +260,23 @@ export function displayGameNumber(gameNumber: string): string {
   }
 
   return `No.${parsed.number}`;
+}
+
+// 中文數字對應表 (1-10)
+const CHINESE_NUMBERS = ['一', '二', '三', '四', '五', '六', '七', '八', '九', '十'];
+
+/**
+ * 格式化球隊近況（連勝/連敗/連平）
+ * @param streak 近況資料
+ * @returns 格式化字串，例如「三連勝」、「11連敗」、「二平」
+ */
+export function formatStreak(streak: TeamStreak): string {
+  const countStr =
+    streak.count <= 10
+      ? CHINESE_NUMBERS[streak.count - 1]
+      : String(streak.count);
+
+  if (streak.type === 'W') return `${countStr}連勝`;
+  if (streak.type === 'L') return `${countStr}連敗`;
+  return `${countStr}平`;
 }

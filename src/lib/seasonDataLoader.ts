@@ -4,7 +4,7 @@
  */
 
 import type { SeasonData, SeasonGame, SeasonIndexEntry, LeagueStandings, DaySchedule, Game } from '@/src/types';
-import { calculateStandings } from './standingsCalculator';
+import { calculateStandings, calculateStreaks, calculateSpecialTags } from './standingsCalculator';
 
 /**
  * 載入統一賽季資料
@@ -85,11 +85,13 @@ export function getGamesByTeam(
 /**
  * 從統一賽季資料載入聯盟戰績排名
  * @param year 賽季年份
- * @returns 聯盟戰績排名（含計算欄位）
+ * @returns 聯盟戰績排名（含計算欄位、連勝連敗近況、特殊標籤）
  */
 export async function loadStandingsFromSeason(year: number): Promise<LeagueStandings> {
   const data = await loadSeasonData(year);
-  const teamsWithStats = calculateStandings(data.standings.teams);
+  const streaks = calculateStreaks(data.games);
+  const specialTags = calculateSpecialTags(data.games);
+  const teamsWithStats = calculateStandings(data.standings.teams, streaks, specialTags);
 
   return {
     year: data.season,

@@ -11,7 +11,9 @@ import {
   parseGameNumber,
   formatGameNumber,
   displayGameNumber,
+  formatStreak,
 } from '../formatters';
+import type { TeamStreak } from '@/src/types';
 
 describe('formatters', () => {
   describe('formatAvg', () => {
@@ -276,6 +278,56 @@ describe('formatters', () => {
     it('應該處理已是舊格式的 gameNumber（直接返回）', () => {
       expect(displayGameNumber('No.201')).toBe('No.201');
       expect(displayGameNumber('No.52')).toBe('No.52');
+    });
+  });
+
+  describe('formatStreak', () => {
+    it('count 1 勝 → 一連勝', () => {
+      const streak: TeamStreak = { teamName: 'A', type: 'W', count: 1 };
+      expect(formatStreak(streak)).toBe('一連勝');
+    });
+
+    it('count 2 勝 → 二連勝', () => {
+      const streak: TeamStreak = { teamName: 'A', type: 'W', count: 2 };
+      expect(formatStreak(streak)).toBe('二連勝');
+    });
+
+    it('count 3 敗 → 三連敗', () => {
+      const streak: TeamStreak = { teamName: 'A', type: 'L', count: 3 };
+      expect(formatStreak(streak)).toBe('三連敗');
+    });
+
+    it('count 4 平 → 四平', () => {
+      const streak: TeamStreak = { teamName: 'A', type: 'D', count: 4 };
+      expect(formatStreak(streak)).toBe('四平');
+    });
+
+    it('count 5-9 → 五六七八九', () => {
+      const cases: Array<[number, string]> = [
+        [5, '五連勝'],
+        [6, '六連勝'],
+        [7, '七連勝'],
+        [8, '八連勝'],
+        [9, '九連勝'],
+      ];
+      for (const [count, expected] of cases) {
+        expect(formatStreak({ teamName: 'A', type: 'W', count })).toBe(expected);
+      }
+    });
+
+    it('count 10 → 十連勝', () => {
+      const streak: TeamStreak = { teamName: 'A', type: 'W', count: 10 };
+      expect(formatStreak(streak)).toBe('十連勝');
+    });
+
+    it('count > 10 → 阿拉伯數字（11連勝）', () => {
+      const streak: TeamStreak = { teamName: 'A', type: 'W', count: 11 };
+      expect(formatStreak(streak)).toBe('11連勝');
+    });
+
+    it('count 15 敗 → 15連敗', () => {
+      const streak: TeamStreak = { teamName: 'A', type: 'L', count: 15 };
+      expect(formatStreak(streak)).toBe('15連敗');
     });
   });
 });

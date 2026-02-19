@@ -4,8 +4,10 @@ import {
   calculateWinRate,
   calculateGamesBehind,
   calculateStandings,
+  calculateStreaks,
+  calculateSpecialTags,
 } from '../standingsCalculator';
-import type { TeamRecordRaw } from '@/src/types';
+import type { TeamRecordRaw, SeasonGame, TeamStreak } from '@/src/types';
 
 describe('standingsCalculator', () => {
   describe('calculatePoints', () => {
@@ -171,5 +173,214 @@ describe('standingsCalculator', () => {
       expect(result[0].teamId).toBe('B'); // 勝率較高
       expect(result[1].teamId).toBe('A');
     });
+
+    it('不傳 streaks 時，streak 欄位應為 undefined', () => {
+      const result = calculateStandings(mockTeams);
+
+      expect(result[0].streak).toBeUndefined();
+    });
+
+    it('傳入 streaks 時，streak 應附加到對應球隊', () => {
+      const streaks: TeamStreak[] = [
+        { teamName: 'Line Drive', type: 'W', count: 3 },
+        { teamName: '飛尼克斯', type: 'L', count: 1 },
+      ];
+
+      const result = calculateStandings(mockTeams, streaks);
+
+      const lineDrive = result.find((t) => t.teamId === 'ROO');
+      expect(lineDrive?.streak).toEqual({ teamName: 'Line Drive', type: 'W', count: 3 });
+
+      const phoenix = result.find((t) => t.teamId === 'PHE');
+      expect(phoenix?.streak).toEqual({ teamName: '飛尼克斯', type: 'L', count: 1 });
+
+      const yct = result.find((t) => t.teamId === 'YCT');
+      expect(yct?.streak).toBeUndefined();
+    });
+
+    it('傳入 specialTags 時，specialTag 應附加到對應球隊', () => {
+      const specialTags = new Map<string, string>([['Line Drive', '雨神同行']]);
+
+      const result = calculateStandings(mockTeams, undefined, specialTags);
+
+      const lineDrive = result.find((t) => t.teamId === 'ROO');
+      expect(lineDrive?.specialTag).toBe('雨神同行');
+
+      const phoenix = result.find((t) => t.teamId === 'PHE');
+      expect(phoenix?.specialTag).toBeUndefined();
+    });
+  });
+});
+
+// ============ Helper to build minimal SeasonGame ============
+function makeGame(
+  overrides: Partial<SeasonGame> & { homeTeam: string; awayTeam: string; date: string; status: SeasonGame['status'] }
+): SeasonGame {
+  return {
+    venue: '中正A',
+    timeSlot: '上午',
+    startTime: '08:00',
+    endTime: '11:00',
+    homeScore: null,
+    awayScore: null,
+    sheetId: '',
+    ...overrides,
+  };
+}
+
+describe('calculateStreaks', () => {
+  it('無已完賽比賽時應回傳空陣列', () => {
+    const games: Record<string, SeasonGame> = {
+      g1: makeGame({ homeTeam: 'A', awayTeam: 'B', date: '2025-04-05', status: 'scheduled' }),
+    };
+
+    expect(calculateStreaks(games)).toEqual([]);
+  });
+
+  it('單場勝利 → type: W, count: 1', () => {
+    const games: Record<string, SeasonGame> = {
+      g1: makeGame({ homeTeam: 'A', awayTeam: 'B', date: '2025-04-05', status: 'finished', homeScore: 5, awayScore: 2 }),
+    };
+
+    const result = calculateStreaks(games);
+    const teamA = result.find((s) => s.teamName === 'A');
+    const teamB = result.find((s) => s.teamName === 'B');
+
+    expect(teamA).toEqual({ teamName: 'A', type: 'W', count: 1 });
+    expect(teamB).toEqual({ teamName: 'B', type: 'L', count: 1 });
+  });
+
+  it('連續兩場勝利 → type: W, count: 2', () => {
+    const games: Record<string, SeasonGame> = {
+      g1: makeGame({ homeTeam: 'A', awayTeam: 'B', date: '2025-04-05', status: 'finished', homeScore: 5, awayScore: 2 }),
+      g2: makeGame({ homeTeam: 'A', awayTeam: 'C', date: '2025-04-12', status: 'finished', homeScore: 3, awayScore: 1 }),
+    };
+
+    const result = calculateStreaks(games);
+    const teamA = result.find((s) => s.teamName === 'A');
+
+    expect(teamA).toEqual({ teamName: 'A', type: 'W', count: 2 });
+  });
+
+  it('勝後敗 → type: L, count: 1', () => {
+    const games: Record<string, SeasonGame> = {
+      g1: makeGame({ homeTeam: 'A', awayTeam: 'B', date: '2025-04-05', status: 'finished', homeScore: 5, awayScore: 2 }),
+      g2: makeGame({ homeTeam: 'C', awayTeam: 'A', date: '2025-04-12', status: 'finished', homeScore: 4, awayScore: 1 }),
+    };
+
+    const result = calculateStreaks(games);
+    const teamA = result.find((s) => s.teamName === 'A');
+
+    expect(teamA).toEqual({ teamName: 'A', type: 'L', count: 1 });
+  });
+
+  it('平局 → type: D, count: 1', () => {
+    const games: Record<string, SeasonGame> = {
+      g1: makeGame({ homeTeam: 'A', awayTeam: 'B', date: '2025-04-05', status: 'finished', homeScore: 3, awayScore: 3 }),
+    };
+
+    const result = calculateStreaks(games);
+    const teamA = result.find((s) => s.teamName === 'A');
+    const teamB = result.find((s) => s.teamName === 'B');
+
+    expect(teamA).toEqual({ teamName: 'A', type: 'D', count: 1 });
+    expect(teamB).toEqual({ teamName: 'B', type: 'D', count: 1 });
+  });
+
+  it('應忽略 rain 和 scheduled 場次', () => {
+    const games: Record<string, SeasonGame> = {
+      g1: makeGame({ homeTeam: 'A', awayTeam: 'B', date: '2025-04-05', status: 'finished', homeScore: 5, awayScore: 2 }),
+      g2: makeGame({ homeTeam: 'A', awayTeam: 'C', date: '2025-04-12', status: 'rain' }),
+      g3: makeGame({ homeTeam: 'A', awayTeam: 'D', date: '2025-04-19', status: 'scheduled' }),
+    };
+
+    const result = calculateStreaks(games);
+    const teamA = result.find((s) => s.teamName === 'A');
+
+    // rain/scheduled 忽略，只有 g1，所以是 W 1
+    expect(teamA).toEqual({ teamName: 'A', type: 'W', count: 1 });
+  });
+
+  it('同天多場不同球隊，各自計算正確', () => {
+    const games: Record<string, SeasonGame> = {
+      g1: makeGame({ homeTeam: 'A', awayTeam: 'B', date: '2025-04-05', status: 'finished', homeScore: 5, awayScore: 2 }),
+      g2: makeGame({ homeTeam: 'C', awayTeam: 'D', date: '2025-04-05', status: 'finished', homeScore: 1, awayScore: 3 }),
+    };
+
+    const result = calculateStreaks(games);
+
+    expect(result.find((s) => s.teamName === 'A')).toEqual({ teamName: 'A', type: 'W', count: 1 });
+    expect(result.find((s) => s.teamName === 'B')).toEqual({ teamName: 'B', type: 'L', count: 1 });
+    expect(result.find((s) => s.teamName === 'C')).toEqual({ teamName: 'C', type: 'L', count: 1 });
+    expect(result.find((s) => s.teamName === 'D')).toEqual({ teamName: 'D', type: 'W', count: 1 });
+  });
+
+  it('homeScore/awayScore 為 null 的 finished 場次應忽略', () => {
+    const games: Record<string, SeasonGame> = {
+      g1: makeGame({ homeTeam: 'A', awayTeam: 'B', date: '2025-04-05', status: 'finished', homeScore: null, awayScore: null }),
+    };
+
+    expect(calculateStreaks(games)).toEqual([]);
+  });
+});
+
+describe('calculateSpecialTags', () => {
+  it('最後 2 場都是 rain（同一球隊）→ 回傳「雨神同行」', () => {
+    const games: Record<string, SeasonGame> = {
+      g1: makeGame({ homeTeam: 'A', awayTeam: 'B', date: '2025-04-05', status: 'rain' }),
+      g2: makeGame({ homeTeam: 'A', awayTeam: 'C', date: '2025-04-12', status: 'rain' }),
+    };
+
+    const result = calculateSpecialTags(games);
+
+    expect(result.get('A')).toBe('雨神同行');
+    expect(result.get('B')).toBeUndefined();
+  });
+
+  it('最後 1 場 rain，前 1 場 finished → 不回傳「雨神同行」', () => {
+    const games: Record<string, SeasonGame> = {
+      g1: makeGame({ homeTeam: 'A', awayTeam: 'B', date: '2025-04-05', status: 'finished', homeScore: 5, awayScore: 2 }),
+      g2: makeGame({ homeTeam: 'A', awayTeam: 'C', date: '2025-04-12', status: 'rain' }),
+    };
+
+    const result = calculateSpecialTags(games);
+
+    expect(result.get('A')).toBeUndefined();
+  });
+
+  it('只有 1 場 rain（total）→ 不回傳「雨神同行」', () => {
+    const games: Record<string, SeasonGame> = {
+      g1: makeGame({ homeTeam: 'A', awayTeam: 'B', date: '2025-04-05', status: 'rain' }),
+    };
+
+    const result = calculateSpecialTags(games);
+
+    expect(result.get('A')).toBeUndefined();
+    expect(result.get('B')).toBeUndefined();
+  });
+
+  it('2 場 rain 中間夾 1 場 finished → 不回傳「雨神同行」', () => {
+    const games: Record<string, SeasonGame> = {
+      g1: makeGame({ homeTeam: 'A', awayTeam: 'B', date: '2025-04-05', status: 'rain' }),
+      g2: makeGame({ homeTeam: 'A', awayTeam: 'C', date: '2025-04-12', status: 'finished', homeScore: 3, awayScore: 1 }),
+      g3: makeGame({ homeTeam: 'A', awayTeam: 'D', date: '2025-04-19', status: 'rain' }),
+    };
+
+    const result = calculateSpecialTags(games);
+
+    expect(result.get('A')).toBeUndefined();
+  });
+
+  it('scheduled 場次應排除（只看 finished/rain）', () => {
+    const games: Record<string, SeasonGame> = {
+      g1: makeGame({ homeTeam: 'A', awayTeam: 'B', date: '2025-04-05', status: 'rain' }),
+      g2: makeGame({ homeTeam: 'A', awayTeam: 'C', date: '2025-04-12', status: 'rain' }),
+      g3: makeGame({ homeTeam: 'A', awayTeam: 'D', date: '2025-04-19', status: 'scheduled' }),
+    };
+
+    // scheduled 排除後，最後 2 場都是 rain → 雨神同行
+    const result = calculateSpecialTags(games);
+
+    expect(result.get('A')).toBe('雨神同行');
   });
 });

@@ -295,6 +295,22 @@ describe('loadStandingsFromSeason', () => {
     expect(result.teams[0].teamName).toBe('Line Drive');
   });
 
+  it('應該從 games 計算 streak 並附加到對應球隊', async () => {
+    // mockSeasonData 有 Line Drive 主場對 陽明OB（2025201, finished, 10:3）
+    // 所以 Line Drive 最近一場是勝
+    (global.fetch as jest.Mock).mockResolvedValueOnce({
+      ok: true,
+      json: async () => mockSeasonData,
+    });
+
+    const result = await loadStandingsFromSeason(2025);
+    const lineDrive = result.teams.find((t) => t.teamName === 'Line Drive');
+
+    expect(lineDrive?.streak).toBeDefined();
+    expect(lineDrive?.streak?.type).toBe('W');
+    expect(lineDrive?.streak?.count).toBeGreaterThanOrEqual(1);
+  });
+
   it('載入失敗時應該拋出錯誤', async () => {
     (global.fetch as jest.Mock).mockResolvedValueOnce({
       ok: false,
