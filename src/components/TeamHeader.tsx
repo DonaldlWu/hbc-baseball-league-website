@@ -22,7 +22,7 @@ export function TeamHeader({ team }: TeamHeaderProps) {
   const [imageError, setImageError] = useState(false);
 
   return (
-    <div className="bg-gradient-to-r from-primary-600 to-primary-700 px-8 py-8 text-gray-700 shadow-lg">
+    <div className="bg-gradient-to-r from-primary-600 to-primary-700 px-8 py-8 text-white shadow-lg">
       <div className="mx-auto max-w-7xl">
         {/* 球團名稱、圖標與年份 */}
         <div className="mb-6 flex items-center gap-4">
@@ -35,16 +35,16 @@ export function TeamHeader({ team }: TeamHeaderProps) {
             />
           ) : (
             <div className="h-20 w-20 rounded-lg bg-black bg-opacity-30 flex items-center justify-center border border-white border-opacity-30">
-              <span className="text-3xl font-bold text-gray-700 drop-shadow-lg">
+              <span className="text-3xl font-bold text-white drop-shadow-lg">
                 {team.teamName.substring(0, 1)}
               </span>
             </div>
           )}
           <div>
-            <h1 className="text-4xl font-bold mb-2 text-gray-700 drop-shadow-md">
+            <h1 className="text-4xl font-bold mb-2 text-white drop-shadow-md">
               {team.teamName}
             </h1>
-            <p className="text-xl text-gray-700 font-medium">
+            <p className="text-xl text-white font-medium">
               {team.year} 賽季
             </p>
           </div>
@@ -53,7 +53,7 @@ export function TeamHeader({ team }: TeamHeaderProps) {
         {/* 統計資訊 */}
         <div className="grid grid-cols-3 gap-6">
           <div className="rounded-lg bg-black bg-opacity-20 p-4 backdrop-blur-sm border border-white border-opacity-30">
-            <div className="text-sm text-gray-700 font-medium">球員數</div>
+            <div className="text-sm text-white font-medium">球員數</div>
             <div className="text-3xl font-bold text-white drop-shadow-lg">
               {team.playerCount}
             </div>

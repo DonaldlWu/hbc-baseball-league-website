@@ -116,7 +116,7 @@ export function PlayerModal({ player, isOpen, onClose }: PlayerModalProps) {
         </button>
 
         {/* 球員基本資訊 */}
-        <div className="bg-gradient-to-r from-primary-600 to-primary-700 px-8 py-6 text-gray-700 shadow-inner">
+        <div className="bg-gradient-to-r from-primary-600 to-primary-700 px-8 py-6 text-white shadow-inner">
           <div className="flex items-start gap-6">
             <div
               className="relative h-32 w-32 flex-shrink-0 overflow-hidden rounded-full border-4 border-white shadow-lg"
@@ -132,7 +132,7 @@ export function PlayerModal({ player, isOpen, onClose }: PlayerModalProps) {
                   onError={() => setImageError(true)}
                 />
               ) : (
-                <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-primary-600 to-primary-700 text-gray-700 text-5xl font-bold">
+                <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-primary-600 to-primary-700 text-white text-5xl font-bold">
                   {player.name.charAt(0)}
                 </div>
               )}
@@ -140,37 +140,37 @@ export function PlayerModal({ player, isOpen, onClose }: PlayerModalProps) {
             <div className="flex-1">
               <h2
                 id={`player-modal-title-${player.id}`}
-                className="text-3xl font-bold text-gray-700 drop-shadow-md"
+                className="text-3xl font-bold text-white drop-shadow-md"
               >
                 {player.name}
               </h2>
-              <p className="mt-1 text-lg text-gray-700 font-medium">
+              <p className="mt-1 text-lg text-white font-medium">
                 編碼：{player.code}
               </p>
 
               {/* 生涯資訊 */}
               <div className="mt-4 grid grid-cols-3 gap-4">
                 <div>
-                  <div className="text-sm text-gray-700 font-medium">
+                  <div className="text-sm text-white font-medium">
                     首次登場
                   </div>
-                  <div className="text-xl font-semibold text-gray-700 drop-shadow-md">
+                  <div className="text-xl font-semibold text-white drop-shadow-md">
                     {player.career.debut}
                   </div>
                 </div>
                 <div>
-                  <div className="text-sm text-gray-700 font-medium">
+                  <div className="text-sm text-white font-medium">
                     總賽季數
                   </div>
-                  <div className="text-xl font-semibold text-gray-700 drop-shadow-md">
+                  <div className="text-xl font-semibold text-white drop-shadow-md">
                     {player.career.totalSeasons}
                   </div>
                 </div>
                 <div>
-                  <div className="text-sm text-gray-700 font-medium">
+                  <div className="text-sm text-white font-medium">
                     效力球團
                   </div>
-                  <div className="text-lg font-semibold text-gray-700 drop-shadow-md">
+                  <div className="text-lg font-semibold text-white drop-shadow-md">
                     {player.career.teams.join("、")}
                   </div>
                 </div>

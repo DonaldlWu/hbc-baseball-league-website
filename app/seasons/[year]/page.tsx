@@ -163,16 +163,16 @@ export default function SeasonGamesPage({
             </div>
 
             {/* 統計資訊 */}
-            <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-gray-600">
+            <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-gray-900">
               {selectedTeam !== '全部' && (
                 <span>
                   顯示 {filteredGames.length} 場
-                  <span className="text-gray-400">
+                  <span className="text-gray-700">
                     （共 {allGames.length} 場）
                   </span>
                 </span>
               )}
-              <span className="text-gray-500">
+              <span className="text-gray-900">
                 已完賽: {stats.finished} | 待比賽: {stats.scheduled}
                 {stats.rain > 0 && ` | 雨延: ${stats.rain}`}
                 {stats.cancelled > 0 && ` | 取消: ${stats.cancelled}`}
@@ -269,8 +269,8 @@ function GameRow({
       label: '已完賽',
     },
     scheduled: {
-      bg: 'bg-gray-100',
-      text: 'text-gray-700',
+      bg: 'bg-gray-200',
+      text: 'text-gray-900',
       label: '待比賽',
     },
     rain: {
@@ -301,7 +301,7 @@ function GameRow({
 
   const rowContent = (
     <>
-      <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-500">
+      <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-900">
         {displayGameNumber(game.gameNumber)}
       </td>
       <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-900">
@@ -315,7 +315,7 @@ function GameRow({
         >
           {game.homeTeam}
         </span>
-        <span className="mx-2 text-gray-400">vs</span>
+        <span className="mx-2 text-gray-600">vs</span>
         <span
           className={`font-medium ${
             isAwayTeamHighlighted ? 'text-primary-600' : 'text-gray-900'
@@ -324,7 +324,7 @@ function GameRow({
           {game.awayTeam}
         </span>
       </td>
-      <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-500">
+      <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-900">
         {game.venue}
       </td>
       <td className="whitespace-nowrap px-4 py-4 text-sm">

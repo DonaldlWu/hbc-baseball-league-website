@@ -80,7 +80,7 @@ export default function GameReport({ data }: GameReportProps) {
                   )}
                 </td>
                 {innings.home.map((score, idx) => (
-                  <td key={idx} className="px-3 py-3 text-center text-gray-700">
+                  <td key={idx} className="px-3 py-3 text-center text-gray-900">
                     {score !== null ? score : "-"}
                   </td>
                 ))}
@@ -103,7 +103,7 @@ export default function GameReport({ data }: GameReportProps) {
                   )}
                 </td>
                 {innings.away.map((score, idx) => (
-                  <td key={idx} className="px-3 py-3 text-center text-gray-700">
+                  <td key={idx} className="px-3 py-3 text-center text-gray-900">
                     {score !== null ? score : "-"}
                   </td>
                 ))}
@@ -179,18 +179,18 @@ function TeamStatsCard({ team, isWinner, label }: TeamStatsCardProps) {
                   <td className="px-3 py-2 font-medium text-gray-900">
                     {p.name}
                   </td>
-                  <td className="px-3 py-2 text-center text-gray-700">
+                  <td className="px-3 py-2 text-center text-gray-900">
                     {p.ip}
                   </td>
-                  <td className="px-3 py-2 text-center text-gray-700">
+                  <td className="px-3 py-2 text-center text-gray-900">
                     {p.np}
                   </td>
-                  <td className="px-3 py-2 text-center text-gray-700">{p.h}</td>
-                  <td className="px-3 py-2 text-center text-gray-700">{p.r}</td>
-                  <td className="px-3 py-2 text-center text-gray-700">
+                  <td className="px-3 py-2 text-center text-gray-900">{p.h}</td>
+                  <td className="px-3 py-2 text-center text-gray-900">{p.r}</td>
+                  <td className="px-3 py-2 text-center text-gray-900">
                     {p.er}
                   </td>
-                  <td className="px-3 py-2 text-center text-gray-700">
+                  <td className="px-3 py-2 text-center text-gray-900">
                     {p.bb}
                   </td>
                   <td className="px-3 py-2 text-center font-semibold text-blue-600">
@@ -231,13 +231,13 @@ function TeamStatsCard({ team, isWinner, label }: TeamStatsCardProps) {
                   <td className="px-3 py-2 font-medium text-gray-900">
                     {b.name}
                   </td>
-                  <td className="px-3 py-2 text-center text-gray-700">
+                  <td className="px-3 py-2 text-center text-gray-900">
                     {b.pa}
                   </td>
-                  <td className="px-3 py-2 text-center text-gray-700">
+                  <td className="px-3 py-2 text-center text-gray-900">
                     {b.ab}
                   </td>
-                  <td className="px-3 py-2 text-center text-gray-700">
+                  <td className="px-3 py-2 text-center text-gray-900">
                     {b.r > 0 ? (
                       <span className="text-green-600 font-semibold">
                         {b.r}
@@ -246,14 +246,14 @@ function TeamStatsCard({ team, isWinner, label }: TeamStatsCardProps) {
                       b.r
                     )}
                   </td>
-                  <td className="px-3 py-2 text-center text-gray-700">
+                  <td className="px-3 py-2 text-center text-gray-900">
                     {b.h > 0 ? (
                       <span className="text-blue-600 font-semibold">{b.h}</span>
                     ) : (
                       b.h
                     )}
                   </td>
-                  <td className="px-3 py-2 text-center text-gray-700">
+                  <td className="px-3 py-2 text-center text-gray-900">
                     {b.rbi > 0 ? (
                       <span className="text-orange-600 font-semibold">
                         {b.rbi}
@@ -262,13 +262,13 @@ function TeamStatsCard({ team, isWinner, label }: TeamStatsCardProps) {
                       b.rbi
                     )}
                   </td>
-                  <td className="px-3 py-2 text-center text-gray-700">
+                  <td className="px-3 py-2 text-center text-gray-900">
                     {b.bb}
                   </td>
-                  <td className="px-3 py-2 text-center text-gray-700">
+                  <td className="px-3 py-2 text-center text-gray-900">
                     {b.so}
                   </td>
-                  <td className="px-3 py-2 text-center text-gray-700">
+                  <td className="px-3 py-2 text-center text-gray-900">
                     {b.sb > 0 ? (
                       <span className="text-purple-600 font-semibold">
                         {b.sb}

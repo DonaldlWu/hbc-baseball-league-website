@@ -574,10 +574,10 @@ function GameCard({ game, highlightTeam }: { game: Game; highlightTeam?: string 
           </div>
           <div className="flex items-center gap-3">
             <span
-              className={`font-semibold ${
+              className={`${
                 isHomeTeamHighlighted
-                  ? 'text-primary-600'
-                  : 'text-gray-900'
+                  ? 'font-bold text-primary-700'
+                  : 'font-medium text-gray-700'
               }`}
             >
               {game.homeTeam}
@@ -590,7 +590,7 @@ function GameCard({ game, highlightTeam }: { game: Game; highlightTeam?: string 
                       ? 'text-green-600'
                       : game.result.homeScore < game.result.awayScore
                         ? 'text-red-500'
-                        : 'text-gray-700'
+                        : 'text-gray-900'
                   }`}
                 >
                   {game.result.homeScore}
@@ -602,7 +602,7 @@ function GameCard({ game, highlightTeam }: { game: Game; highlightTeam?: string 
                       ? 'text-green-600'
                       : game.result.awayScore < game.result.homeScore
                         ? 'text-red-500'
-                        : 'text-gray-700'
+                        : 'text-gray-900'
                   }`}
                 >
                   {game.result.awayScore}
@@ -612,10 +612,10 @@ function GameCard({ game, highlightTeam }: { game: Game; highlightTeam?: string 
               <span className="text-gray-500">VS</span>
             )}
             <span
-              className={`font-semibold ${
+              className={`${
                 isAwayTeamHighlighted
-                  ? 'text-primary-600'
-                  : 'text-gray-900'
+                  ? 'font-bold text-primary-700'
+                  : 'font-medium text-gray-700'
               }`}
             >
               {game.awayTeam}

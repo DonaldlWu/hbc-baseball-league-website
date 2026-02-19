@@ -90,7 +90,7 @@ export default function AnnouncementCarousel() {
     <div className="bg-white rounded-lg shadow-md overflow-hidden">
       {/* Header */}
       <div className="bg-gradient-to-r from-primary-600 to-primary-700 px-6 py-4">
-        <h2 className="text-xl font-bold text-gray-700 flex items-center gap-2">
+        <h2 className="text-xl font-bold text-white flex items-center gap-2">
           <span className="text-2xl">📢</span>
           聯盟公告
         </h2>
@@ -160,7 +160,7 @@ export default function AnnouncementCarousel() {
 
           {/* Content */}
           <div
-            className="announcement-content text-gray-700 leading-relaxed mb-6"
+            className="announcement-content text-gray-900 leading-relaxed mb-6"
             dangerouslySetInnerHTML={{ __html: currentAnnouncement.content }}
           />
           <style jsx>{`
@@ -277,7 +277,7 @@ export default function AnnouncementCarousel() {
                 <a
                   key={idx}
                   href={link.url}
-                  className="inline-flex items-center px-4 py-2 bg-primary-600 text-gray-700 rounded-lg hover:bg-primary-700 transition-colors text-sm font-medium"
+                  className="inline-flex items-center px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors text-sm font-medium"
                 >
                   {link.label}
                   <svg
