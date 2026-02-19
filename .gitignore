@@ -40,8 +40,8 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# raw data files (CSV source)
-data/raw/*.csv
+# raw data files (CSV, images, etc.)
+data/raw/
 
 # processed data (keep in git for deployment)
 # data/processed/
