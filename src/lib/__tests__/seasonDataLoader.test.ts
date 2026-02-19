@@ -541,4 +541,48 @@ describe('loadGamesByCalendarMonth', () => {
 
     expect(result).toHaveLength(0);
   });
+
+  it('2026 年 2 月橫跨兩個賽季時，應合併兩賽季的比賽', async () => {
+    const overlapIndex: SeasonIndexEntry[] = [
+      { season: 2025, start: '2025-04', end: '2026-02' },
+      { season: 2026, start: '2026-02', end: '2027-02' },
+    ];
+
+    const mock2026Data: SeasonData = {
+      season: 2026,
+      lastUpdated: '2026-02-19T00:00:00Z',
+      calendarRange: { start: '2026-02', end: '2027-02' },
+      standings: { source: 'manual', teams: [] },
+      games: {
+        '2026066': {
+          date: '2026-02-14',
+          homeTeam: '少林棒球隊',
+          awayTeam: '十號馬',
+          venue: '清溪',
+          timeSlot: '下午',
+          startTime: '14:00',
+          endTime: '17:00',
+          status: 'finished',
+          homeScore: 4,
+          awayScore: 8,
+          sheetId: '1Fa5nh08MZzwzVPiphHEiJK6RAXngaeFxiRbAEW2pGqQ',
+        },
+      },
+    };
+
+    (global.fetch as jest.Mock)
+      .mockResolvedValueOnce({ ok: true, json: async () => overlapIndex })
+      .mockResolvedValueOnce({ ok: true, json: async () => mockSeasonData })
+      .mockResolvedValueOnce({ ok: true, json: async () => mock2026Data });
+
+    const result = await loadGamesByCalendarMonth(2026, 2);
+
+    const allDates = result.map((d) => d.date);
+    expect(allDates).toContain('2026-02-07');  // 來自 2025 賽季
+    expect(allDates).toContain('2026-02-14');  // 來自 2026 賽季
+
+    const allGames = result.flatMap((d) => Object.values(d.venues).flat());
+    expect(allGames.find((g) => g.gameNumber === '2025207')).toBeDefined();
+    expect(allGames.find((g) => g.gameNumber === '2026066')).toBeDefined();
+  });
 });

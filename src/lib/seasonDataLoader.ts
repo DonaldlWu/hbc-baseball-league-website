@@ -191,14 +191,21 @@ export async function loadGamesByCalendarMonth(
   calMonth: number
 ): Promise<DaySchedule[]> {
   const index = await loadSeasonIndex();
-  const seasonYear = findSeasonByMonth(index, calYear, calMonth);
-  const data = await loadSeasonData(seasonYear);
-  const games = getGamesByMonth(data, calYear, calMonth);
+  const target = `${calYear}-${calMonth.toString().padStart(2, '0')}`;
+
+  const matchingSeasons = index.filter((entry) => entry.start <= target && target <= entry.end);
+  const seasonsToLoad = matchingSeasons.length > 0 ? matchingSeasons : [index[0]];
+
+  const allGames: Array<SeasonGame & { gameNumber: string }> = [];
+  for (const entry of seasonsToLoad) {
+    const data = await loadSeasonData(entry.season);
+    allGames.push(...getGamesByMonth(data, calYear, calMonth));
+  }
 
   // Group by date, then by venue
   const byDate = new Map<string, Map<string, Game[]>>();
 
-  for (const game of games) {
+  for (const game of allGames) {
     if (!byDate.has(game.date)) {
       byDate.set(game.date, new Map());
     }
