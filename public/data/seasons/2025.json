@@ -1,6 +1,6 @@
 {
   "season": 2025,
-  "lastUpdated": "2026-02-19T16:05:29Z",
+  "lastUpdated": "2026-02-19T16:09:26Z",
   "calendarRange": {
     "start": "2025-04",
     "end": "2026-02"
@@ -272,10 +272,10 @@
       "timeSlot": "中午",
       "startTime": "11:00",
       "endTime": "14:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": "",
+      "status": "finished",
+      "homeScore": 7,
+      "awayScore": 17,
+      "sheetId": "1zb-x-lyLdzGSmYSOIGMlZlLVBlMpkXCWG_M3XaZHEDQ",
       "rescheduledDates": [
         {
           "date": "2026-02-14",
@@ -311,10 +311,10 @@
       "timeSlot": "中午",
       "startTime": "11:00",
       "endTime": "14:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 8,
+      "awayScore": 10,
+      "sheetId": "1Fet5ADIWbibIj6Dv5E4TEVl67Zg6-AH5bZqjWOeSes4"
     },
     "202552": {
       "date": "2026-01-10",
@@ -337,10 +337,10 @@
       "timeSlot": "下午",
       "startTime": "14:00",
       "endTime": "17:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 6,
+      "awayScore": 7,
+      "sheetId": "1JCsQiZi8Mh6nj-GLobgxYBP2K5gehMM6pH5cFFyE_GE"
     },
     "202566": {
       "date": "2026-02-28",
