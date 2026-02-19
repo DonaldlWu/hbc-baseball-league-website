@@ -426,3 +426,21 @@ export interface SeasonIndexEntry {
   start: string;             // 日曆起始月份 "YYYY-MM"
   end: string;               // 日曆結束月份 "YYYY-MM"
 }
+
+export type SortableStatField =
+  | 'games'
+  | 'pa'
+  | 'hits'
+  | 'hr'
+  | 'rbi'
+  | 'avg'
+  | 'obp'
+  | 'ops';
+
+export type SortOrder = 'asc' | 'desc';
+
+export interface SortOption {
+  field: SortableStatField;
+  label: string;
+  defaultOrder: SortOrder;
+}

@@ -1,12 +1,14 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { useParams, useRouter, useSearchParams } from 'next/navigation';
 import { TeamHeader } from '@/src/components/TeamHeader';
 import { PlayerCard } from '@/src/components/PlayerCard';
 import { PlayerModal } from '@/src/components/PlayerModal';
+import { PlayerSortBar } from '@/src/components/PlayerSortBar';
 import { getTeamPlayers, extractTeamsFromSeason, loadSeasonSummary, loadPlayerDetail, getTeamIcon } from '@/src/lib/dataLoader';
-import type { TeamSummary, PlayerSummary, Player, SeasonSummary } from '@/src/types';
+import { sortPlayers, SORT_OPTIONS } from '@/src/lib/playerSorter';
+import type { TeamSummary, PlayerSummary, Player, SeasonSummary, SortableStatField, SortOrder } from '@/src/types';
 
 export default function TeamDetailPage() {
   const params = useParams();
@@ -23,6 +25,10 @@ export default function TeamDetailPage() {
   const [players, setPlayers] = useState<PlayerSummary[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<Error | null>(null);
+
+  const [sortField, setSortField] = useState<SortableStatField>('games');
+  const [sortOrder, setSortOrder] = useState<SortOrder>('desc');
+  const [minGames, setMinGames] = useState(0);
 
   // PlayerModal 狀態
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -83,6 +89,23 @@ export default function TeamDetailPage() {
     }
   };
 
+  const sortedPlayers = useMemo(() => {
+    const filtered = minGames > 0
+      ? players.filter((p) => p.seasonStats.games >= minGames)
+      : players;
+    return sortPlayers(filtered, sortField, sortOrder);
+  }, [players, sortField, sortOrder, minGames]);
+
+  const handleSortChange = (field: SortableStatField) => {
+    if (field === sortField) {
+      setSortOrder((prev) => (prev === 'desc' ? 'asc' : 'desc'));
+    } else {
+      const option = SORT_OPTIONS.find((o) => o.field === field);
+      setSortField(field);
+      setSortOrder(option?.defaultOrder ?? 'desc');
+    }
+  };
+
   // 關閉 Modal
   const handleCloseModal = () => {
     setIsModalOpen(false);
@@ -128,8 +151,38 @@ export default function TeamDetailPage() {
 
       {/* 球員列表 */}
       <div className="mx-auto max-w-7xl px-8 py-8">
-        <div className="mb-6 flex items-center justify-between">
-          <h2 className="text-2xl font-bold text-gray-900">球員名單</h2>
+        <div className="mb-6 flex flex-wrap items-center justify-between gap-4">
+          <div className="flex items-center gap-3">
+            <h2 className="text-2xl font-bold text-gray-900">球員名單</h2>
+            {minGames > 0 && (
+              <span className="text-sm text-gray-700">
+                {sortedPlayers.length} / {players.length} 人
+              </span>
+            )}
+          </div>
+          <div className="flex flex-wrap items-center gap-3">
+            <div className="flex items-center gap-2">
+              <label htmlFor="min-games" className="text-sm font-medium text-gray-700">
+                出賽門檻：
+              </label>
+              <select
+                id="min-games"
+                value={minGames}
+                onChange={(e) => setMinGames(Number(e.target.value))}
+                className="rounded-lg border border-gray-300 bg-white px-3 py-1.5 text-sm text-gray-900 shadow-sm focus:border-primary-500 focus:outline-none focus:ring-2 focus:ring-primary-500"
+              >
+                <option value={0}>全部</option>
+                <option value={3}>3 場以上</option>
+                <option value={5}>5 場以上</option>
+                <option value={10}>10 場以上</option>
+              </select>
+            </div>
+            <PlayerSortBar
+              currentField={sortField}
+              currentOrder={sortOrder}
+              onChange={handleSortChange}
+            />
+          </div>
           <button
             onClick={() => router.push('/teams')}
             className="rounded-lg border border-gray-300 bg-white px-4 py-2 text-gray-700 transition-colors hover:bg-gray-50"
@@ -144,7 +197,7 @@ export default function TeamDetailPage() {
           </div>
         ) : (
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {players.map((player) => (
+            {sortedPlayers.map((player) => (
               <PlayerCard
                 key={player.id}
                 player={player}
