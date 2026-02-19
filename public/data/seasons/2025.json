@@ -1,6 +1,6 @@
 {
   "season": 2025,
-  "lastUpdated": "2026-02-19T12:00:00.000Z",
+  "lastUpdated": "2026-02-19T00:00:00.000Z",
   "calendarRange": {
     "start": "2025-04",
     "end": "2026-02"
@@ -218,11 +218,17 @@
       "startTime": "12:00",
       "endTime": "14:30",
       "status": "finished",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 9,
+      "awayScore": 7,
       "sheetId": "1L_l4GkaG5B8e5EMBfBKtBSi3lBOdd9cmJk8oSv-lj8M",
       "rescheduledDates": [
-        { "date": "2026-01-10", "venue": "三鶯A", "timeSlot": "上午", "startTime": "08:00", "endTime": "10:30" }
+        {
+          "date": "2026-01-10",
+          "venue": "三鶯A",
+          "timeSlot": "上午",
+          "startTime": "08:00",
+          "endTime": "10:30"
+        }
       ]
     },
     "202530": {
@@ -251,7 +257,11 @@
       "awayScore": null,
       "sheetId": "",
       "rescheduledDates": [
-        { "date": "2026-02-28", "venue": "清溪", "startTime": "14:30" }
+        {
+          "date": "2026-02-28",
+          "venue": "清溪",
+          "startTime": "14:30"
+        }
       ]
     },
     "202545": {
@@ -267,7 +277,12 @@
       "awayScore": null,
       "sheetId": "",
       "rescheduledDates": [
-        { "date": "2026-02-14", "timeSlot": "上午", "startTime": "08:00", "endTime": "11:00" }
+        {
+          "date": "2026-02-14",
+          "timeSlot": "上午",
+          "startTime": "08:00",
+          "endTime": "11:00"
+        }
       ]
     },
     "202547": {
@@ -283,7 +298,9 @@
       "awayScore": null,
       "sheetId": "",
       "rescheduledDates": [
-        { "date": "2026-02-28" }
+        {
+          "date": "2026-02-28"
+        }
       ]
     },
     "202550": {
@@ -308,8 +325,8 @@
       "startTime": "10:30",
       "endTime": "13:00",
       "status": "finished",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 3,
+      "awayScore": 2,
       "sheetId": "1pMLlfdHtA_8yTT5XGN9P_CVUhECPbnynu-DTt2P_8Gk"
     },
     "202557": {
@@ -360,8 +377,8 @@
       "startTime": "08:00",
       "endTime": "10:30",
       "status": "finished",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 4,
+      "awayScore": 9,
       "sheetId": "1Yy33d0is6kLcauQ2dws1kroMMBMzMxEsFXNT00aulqo"
     },
     "202584": {
@@ -377,7 +394,9 @@
       "awayScore": null,
       "sheetId": "",
       "rescheduledDates": [
-        { "date": "2026-02-28" }
+        {
+          "date": "2026-02-28"
+        }
       ]
     },
     "202590": {
@@ -427,7 +446,7 @@
       "timeSlot": "中午",
       "startTime": "11:00",
       "endTime": "14:00",
-      "status": "scheduled",
+      "status": "rain",
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
@@ -453,7 +472,7 @@
       "timeSlot": "下午",
       "startTime": "14:00",
       "endTime": "17:00",
-      "status": "scheduled",
+      "status": "rain",
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
@@ -466,7 +485,7 @@
       "timeSlot": "中午",
       "startTime": "11:00",
       "endTime": "14:00",
-      "status": "scheduled",
+      "status": "rain",
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
@@ -479,7 +498,7 @@
       "timeSlot": "中午",
       "startTime": "10:30",
       "endTime": "13:00",
-      "status": "scheduled",
+      "status": "rain",
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
@@ -508,7 +527,16 @@
       "status": "finished",
       "homeScore": 7,
       "awayScore": 8,
-      "sheetId": "1Xy8-e0YJfO89HgbmmeK-JMlArs0x8-hCjDPifLCKRm8"
+      "sheetId": "1Xy8-e0YJfO89HgbmmeK-JMlArs0x8-hCjDPifLCKRm8",
+      "rescheduledDates": [
+        {
+          "date": "2025-12-20",
+          "venue": "清溪",
+          "timeSlot": "中午",
+          "startTime": "12:00",
+          "endTime": "14:30"
+        }
+      ]
     },
     "2025129": {
       "date": "2026-01-10",
@@ -519,8 +547,8 @@
       "startTime": "14:30",
       "endTime": "17:00",
       "status": "finished",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 9,
+      "awayScore": 7,
       "sheetId": "1yfANJvHRCRoM5SjuBEMyKEbCMm200D2HAQfd-IAb4Og"
     },
     "2025133": {
@@ -531,7 +559,7 @@
       "timeSlot": "上午",
       "startTime": "08:00",
       "endTime": "10:30",
-      "status": "scheduled",
+      "status": "rain",
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
@@ -545,8 +573,8 @@
       "startTime": "12:00",
       "endTime": "14:30",
       "status": "finished",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 19,
+      "awayScore": 7,
       "sheetId": "12nq7MD6Cu2o-vmzWS9U9RQ6MyXY8rxMYdQMGWdHAqw4"
     },
     "2025142": {
@@ -558,8 +586,8 @@
       "startTime": "08:00",
       "endTime": "10:30",
       "status": "finished",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 16,
+      "awayScore": 4,
       "sheetId": "1rXHJwsXGEp4ir1Nqm40258atNnXJ2U8tgcFTN_v6Hb4"
     },
     "2025147": {
@@ -583,9 +611,9 @@
       "timeSlot": "中午",
       "startTime": "10:30",
       "endTime": "13:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 6,
+      "awayScore": 10,
       "sheetId": "1wmlvjQoxVsWtrErOs2V-JQp28UtN8Nu5zK9zTbmKZ54"
     },
     "2025163": {
@@ -609,9 +637,9 @@
       "timeSlot": "上午",
       "startTime": "08:00",
       "endTime": "10:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 10,
       "sheetId": "1MVGfKqOPDRdVUMy7lthwM0zXporPXs72rckc4gBJ6O4"
     },
     "2025181": {
@@ -627,7 +655,13 @@
       "awayScore": null,
       "sheetId": "",
       "rescheduledDates": [
-        { "date": "2026-02-28", "venue": "三鶯A", "timeSlot": "上午", "startTime": "08:00", "endTime": "11:00" }
+        {
+          "date": "2026-02-28",
+          "venue": "三鶯A",
+          "timeSlot": "上午",
+          "startTime": "08:00",
+          "endTime": "11:00"
+        }
       ]
     },
     "2025187": {
@@ -639,8 +673,8 @@
       "startTime": "10:30",
       "endTime": "13:00",
       "status": "finished",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 21,
+      "awayScore": 4,
       "sheetId": "1Hq0sffmDUAXm6FCYCusSkSczNnfBXN0txTS8-BIqoXg"
     },
     "2025194": {
@@ -652,8 +686,8 @@
       "startTime": "11:00",
       "endTime": "14:00",
       "status": "finished",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 8,
+      "awayScore": 8,
       "sheetId": "1Ez1ONri0T7K4Wujd5hBr9--rP1NUsNseG905pZgoqkY"
     },
     "2025195": {
@@ -665,8 +699,8 @@
       "startTime": "10:30",
       "endTime": "13:00",
       "status": "finished",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 14,
+      "awayScore": 9,
       "sheetId": "1BVG6yHyLKZ-izuxdc43dYqW3eWtL3Ny23Z_sY8TV3c0"
     },
     "2025201": {
@@ -678,8 +712,8 @@
       "startTime": "08:00",
       "endTime": "11:00",
       "status": "finished",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 6,
+      "awayScore": 1,
       "sheetId": "1dM8woBhSnNPms3YKPEptfw3o4F3neBWa-JrbRoW1iak"
     },
     "2025202": {
@@ -708,7 +742,13 @@
       "awayScore": null,
       "sheetId": "",
       "rescheduledDates": [
-        { "date": "2026-02-07", "venue": "中正A", "timeSlot": "上午", "startTime": "08:00", "endTime": "11:00" }
+        {
+          "date": "2026-02-07",
+          "venue": "中正A",
+          "timeSlot": "上午",
+          "startTime": "08:00",
+          "endTime": "11:00"
+        }
       ]
     },
     "2025209": {
@@ -720,11 +760,16 @@
       "startTime": "08:00",
       "endTime": "11:00",
       "status": "finished",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 11,
+      "awayScore": 6,
       "sheetId": "1ZewM7Qgyo_2zJa_HA7DaBAd3mmXwtJbDMPdHBIkRNJ4",
       "rescheduledDates": [
-        { "date": "2026-01-03", "timeSlot": "下午", "startTime": "14:00", "endTime": "17:00" }
+        {
+          "date": "2026-01-03",
+          "timeSlot": "下午",
+          "startTime": "14:00",
+          "endTime": "17:00"
+        }
       ]
     },
     "2025215": {
