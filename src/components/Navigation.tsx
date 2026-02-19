@@ -104,6 +104,7 @@ export default function Navigation({
   return (
     <nav
       className={`sticky top-0 z-50 bg-gradient-to-r from-primary-600 to-primary-700 transition-shadow duration-300 ${isScrolled ? 'shadow-md' : 'shadow-none'}`}
+      style={{ paddingTop: 'env(safe-area-inset-top)' }}
       aria-label="主要導航"
     >
       <div className="container mx-auto px-4">

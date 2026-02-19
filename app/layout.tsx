@@ -15,10 +15,18 @@ const geistMono = Geist_Mono({
 
 export const viewport: Viewport = {
   themeColor: "#0284c7",
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
 };
 
 export const metadata: Metadata = {
   title: "新和週六野球聯盟",
+  appleWebApp: {
+    capable: true,
+    title: "野球聯盟",
+    statusBarStyle: "black-translucent",
+  },
   description:
     "新和週六野球聯盟統計網站 - 球員資料查詢、統計排行榜、數據視覺化",
   icons: {
