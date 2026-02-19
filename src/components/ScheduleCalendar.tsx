@@ -582,7 +582,35 @@ function GameCard({ game, highlightTeam }: { game: Game; highlightTeam?: string 
             >
               {game.homeTeam}
             </span>
-            <span className="text-gray-500">VS</span>
+            {game.result ? (
+              <>
+                <span
+                  className={`font-bold ${
+                    game.result.homeScore > game.result.awayScore
+                      ? 'text-green-600'
+                      : game.result.homeScore < game.result.awayScore
+                        ? 'text-red-500'
+                        : 'text-gray-700'
+                  }`}
+                >
+                  {game.result.homeScore}
+                </span>
+                <span className="font-medium text-gray-400">:</span>
+                <span
+                  className={`font-bold ${
+                    game.result.awayScore > game.result.homeScore
+                      ? 'text-green-600'
+                      : game.result.awayScore < game.result.homeScore
+                        ? 'text-red-500'
+                        : 'text-gray-700'
+                  }`}
+                >
+                  {game.result.awayScore}
+                </span>
+              </>
+            ) : (
+              <span className="text-gray-500">VS</span>
+            )}
             <span
               className={`font-semibold ${
                 isAwayTeamHighlighted
@@ -601,11 +629,6 @@ function GameCard({ game, highlightTeam }: { game: Game; highlightTeam?: string 
             <div className="text-sm font-medium text-gray-900">
               {game.startTime} - {game.endTime}
             </div>
-            {game.result && (
-              <div className="mt-1 text-xs font-semibold text-primary-600">
-                {game.result.homeScore} : {game.result.awayScore}
-              </div>
-            )}
           </div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
