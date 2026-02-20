@@ -1,0 +1,52 @@
+{
+  "id": "DHW071",
+  "code": "DHW071",
+  "name": "李阜朋",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNyIZTixGNT63K2gAZHKpUQTW6qx8-SNbSOj98h0bEXWcEYl2MS2HC3QsRmL7wJNmARbFrHdVwzT44lnEetbymNeEr0PoJ-S_VJ_FTeH_lZIdZKAB5hPCyL2t3LDs26VwHoq9aL1kf2_IC3CIH3TJHS=w252-h308",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "74",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 4,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 1,
+        "bb": 1,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 361,
+        "hits": 390,
+        "hr": 1031,
+        "rbi": 256,
+        "avg": 1112,
+        "w": 818,
+        "sv": 767,
+        "so": 987,
+        "era": 1112,
+        "whip": 1112,
+        "fip": 0
+      }
+    }
+  ]
+}

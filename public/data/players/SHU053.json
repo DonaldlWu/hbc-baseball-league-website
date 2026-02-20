@@ -1,0 +1,52 @@
+{
+  "id": "SHU053",
+  "code": "SHU053",
+  "name": "李昱杰",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMDd8yFOz2X8B2EZSbAkC7KLFuxcZVSPjjF0c9h-pIg4bSQWbwjmbsi3x_rniV4TiSRZDTQYRM-5t8EVji55meVXh4SdyZBWhkn82iu2un_VX7qFFrhseoHUBWS-JWIbzqPDrffnWeb5DpEUSAHAl5v=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "世新超乙組",
+      "number": "13",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 680,
+        "hits": 652,
+        "hr": 113,
+        "rbi": 597,
+        "avg": 1112,
+        "w": 252,
+        "sv": 201,
+        "so": 421,
+        "era": 1112,
+        "whip": 1112,
+        "fip": 0
+      }
+    }
+  ]
+}

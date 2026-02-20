@@ -16,21 +16,21 @@
       "team": "ACES",
       "number": "39",
       "batting": {
-        "games": 15,
-        "pa": 53,
-        "ab": 41,
-        "hits": 14,
-        "singles": 10,
+        "games": 16,
+        "pa": 57,
+        "ab": 44,
+        "hits": 15,
+        "singles": 11,
         "doubles": 4,
         "triples": 0,
         "hr": 0,
-        "rbi": 16,
-        "runs": 18,
-        "bb": 11,
+        "rbi": 18,
+        "runs": 19,
+        "bb": 12,
         "so": 3,
         "sb": 1,
         "sf": 1,
-        "totalBases": 18
+        "totalBases": 19
       },
       "pitching": {
         "games": 1,
@@ -59,16 +59,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 57,
-        "hits": 65,
-        "hr": 1494,
-        "rbi": 20,
-        "avg": 52,
-        "w": 1345,
-        "sv": 1292,
-        "so": 1511,
-        "era": 1121,
-        "whip": 436,
+        "rc": 51,
+        "hits": 58,
+        "hr": 1503,
+        "rbi": 15,
+        "avg": 54,
+        "w": 1340,
+        "sv": 1289,
+        "so": 1509,
+        "era": 1112,
+        "whip": 438,
         "fip": 0
       }
     }

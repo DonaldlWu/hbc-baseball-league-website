@@ -1,0 +1,52 @@
+{
+  "id": "DHW070",
+  "code": "DHW070",
+  "name": "李阜肱",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMsQJTYidtGeNlhmbHGZU6SbpFpQVeybbBRXpXTOaChZVjscSN0_egpV181Biax9dDkeQFznKw_buMuKJ0bc1jrPn0iBxoPgc6PwKXAS4rU4OVFZEBXI0z3jTnyYpzK_E1wj8A1pOmKt6cP8V-qCi14=w242-h333",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "67",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1022,
+        "hits": 1497,
+        "hr": 1032,
+        "rbi": 318,
+        "avg": 1112,
+        "w": 825,
+        "sv": 774,
+        "so": 994,
+        "era": 1112,
+        "whip": 1112,
+        "fip": 0
+      }
+    }
+  ]
+}

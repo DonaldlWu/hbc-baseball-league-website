@@ -1,0 +1,52 @@
+{
+  "id": "DHW069",
+  "code": "DHW069",
+  "name": "李岳澄",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOtMDniPlzKV3Nl2yGbvI3Fg_Zx8H3rtWqFwQBMgirdbhk72AazvbKSs_K0SsJ6EolNWD53R7UoCoTOa2M06Jq4fVByRDmXKKfC5AGcn9ZAZFTuqI7rdZaRQxjCyTWXjpkla3082osDndPSO0faEYsm=w804-h933",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "DH戰將",
+      "number": "21",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 581,
+        "hits": 493,
+        "hr": 1009,
+        "rbi": 423,
+        "avg": 1112,
+        "w": 873,
+        "sv": 822,
+        "so": 1042,
+        "era": 1112,
+        "whip": 1112,
+        "fip": 0
+      }
+    }
+  ]
+}

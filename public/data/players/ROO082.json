@@ -2,53 +2,16 @@
   "id": "ROO082",
   "code": "ROO082",
   "name": "簡丞毅",
-  "photo": "https://lh3.googleusercontent.com/pw/AM-JKLUvqffjlWPgE1FGiBK_iNu453TyQmLsbW_1isIMG2cQO_3pFEVrU_PM1sSTUJHFPu2vIau_jIxLn7f6wKh1v2FXkpuvU_U20acNzFDuxnVvWSgydSYVpzhPaywje6lWG3zw2vwYnzMLZ-kxRKAVxAhuKA=w310-h335-no",
+  "photo": "",
   "career": {
     "debut": 2021,
     "teams": [
       "Line Drive",
       "ROOKIES"
     ],
-    "totalSeasons": 5
+    "totalSeasons": 4
   },
   "seasons": [
-    {
-      "year": 2025,
-      "team": "Line Drive",
-      "number": "31",
-      "batting": {
-        "games": 2,
-        "pa": 4,
-        "ab": 4,
-        "hits": 1,
-        "singles": 1,
-        "doubles": 0,
-        "triples": 0,
-        "hr": 0,
-        "rbi": 0,
-        "runs": 1,
-        "bb": 0,
-        "so": 1,
-        "sb": 0,
-        "sf": 0,
-        "totalBases": 1
-      },
-      "pitching": null,
-      "pitchingCalculated": null,
-      "rankings": {
-        "rc": 578,
-        "hits": 491,
-        "hr": 1017,
-        "rbi": 1446,
-        "avg": 1121,
-        "w": 594,
-        "sv": 541,
-        "so": 760,
-        "era": 1121,
-        "whip": 1121,
-        "fip": 0
-      }
-    },
     {
       "year": 2024,
       "team": "Line Drive",

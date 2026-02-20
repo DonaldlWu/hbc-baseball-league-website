@@ -2,17 +2,55 @@
   "id": "ROO020",
   "code": "ROO020",
   "name": "王翀",
-  "photo": "",
+  "photo": "https://lh3.googleusercontent.com/nsn9bZXkAi_yqc-BRcCiHtInP3YUR39eUx93TzekjsRvtRDh6v9HaslYNX_4MSn3i9fCgFu2kVw9Ln96noz5oKPBlJ-wVockqbwUmHO6mV20GvdzumTruZ_WwKH45DyBCqtiju8YRKzhJDhCABQYz0Z5qolao87kvYXo6sfotfePQizsyC1BDhm1thtAP7jKDrPAJfj7fIfnkcS94ZNRkskcutwMOQsqCswgYg4C0_Xjc9bt46M942R-6gDKWxEjshrOAkjvmPJhq-whMPHnEMyUf5-il5GBq2j4RlPM_3LtiCHEt5JO2Le1XfLPIdGXaZVR641xkdmtaxDx_toFVVOzKJx4rE4NIHvpMlBVbBUF8AHXk-F7rNKdYaam6miIRfKyGyrsIA_xgfP1Nkg4xxXPhxaPD90X8wTEQszK-PWCZwlnTZ1IpbbNp3NMRs1tHV6_OIz6f2J7rK2KFVm4f2JNfYoJu_8lB01kt_vI1xpp1LPmxvDx7M8jEP0VfcpCGW58zLaaVJMAhNjVE-P4qcnwKHUu4W-z1PWa6CkrTBY-8djZLSJE2JwTqUmguIkdc3mV=w310-h335-no",
   "career": {
     "debut": 2011,
     "teams": [
+      "Line Drive",
       "Synergy",
       "南港高工OB",
       "ROOKIES"
     ],
-    "totalSeasons": 7
+    "totalSeasons": 8
   },
   "seasons": [
+    {
+      "year": 2025,
+      "team": "Line Drive",
+      "number": "102",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 915,
+        "hits": 817,
+        "hr": 278,
+        "rbi": 762,
+        "avg": 1112,
+        "w": 572,
+        "sv": 521,
+        "so": 741,
+        "era": 1112,
+        "whip": 1112,
+        "fip": 0
+      }
+    },
     {
       "year": 2017,
       "team": "Synergy",

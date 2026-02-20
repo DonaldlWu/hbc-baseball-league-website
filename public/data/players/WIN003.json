@@ -2,55 +2,17 @@
   "id": "WIN003",
   "code": "WIN003",
   "name": "蔡貽同",
-  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPchPLBFRXXM-67pdmbnkaGg4CJU0PjrCfQznvGgwX4Zd80vo8T7IEbYFqwQ_AvNvZZ_o17mT5b77jaUb802B75ueuyb3GKGjH9SZI3e3m5TrfR4dv5S1D3Jt2A8QZd-_BC9W2SrN72FcfR3R1LvrCr7g=w310-h335-no",
+  "photo": "",
   "career": {
     "debut": 2013,
     "teams": [
-      "楚奧特",
       "颶風",
       "逆轉星球",
       "自轉棒球"
     ],
-    "totalSeasons": 10
+    "totalSeasons": 9
   },
   "seasons": [
-    {
-      "year": 2025,
-      "team": "楚奧特",
-      "number": "98",
-      "batting": {
-        "games": 4,
-        "pa": 7,
-        "ab": 4,
-        "hits": 0,
-        "singles": 0,
-        "doubles": 0,
-        "triples": 0,
-        "hr": 0,
-        "rbi": 0,
-        "runs": 3,
-        "bb": 3,
-        "so": 1,
-        "sb": 0,
-        "sf": 0,
-        "totalBases": 0
-      },
-      "pitching": null,
-      "pitchingCalculated": null,
-      "rankings": {
-        "rc": 508,
-        "hits": 1514,
-        "hr": 1086,
-        "rbi": 1483,
-        "avg": 1121,
-        "w": 309,
-        "sv": 256,
-        "so": 475,
-        "era": 1121,
-        "whip": 1121,
-        "fip": 0
-      }
-    },
     {
       "year": 2023,
       "team": "颶風",
