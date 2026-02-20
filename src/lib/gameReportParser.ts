@@ -92,31 +92,31 @@ export function parseGameReportCSV(
   const dateStr = rows[0]?.[13] || '';
   const date = dateStr.replace(/\//g, '-');
 
-  // Row 2: 主隊每局得分 + R(14), H(15), E(16)
-  // Row 3: 客隊每局得分
+  // Row 2: 客隊（先攻）每局得分 + R(14), H(15), E(16)
+  // Row 3: 主隊（後攻）每局得分
   // 局數 column mapping: 4-9 = 1-6局, 10 = 空, 11-13 = 7-9局
   const homeInnings: (number | null)[] = [];
   const awayInnings: (number | null)[] = [];
 
   const inningColumns = [4, 5, 6, 7, 8, 9, 11, 12, 13]; // 跳過 column 10 (空欄)
   for (const col of inningColumns) {
-    const homeVal = rows[2]?.[col]?.trim();
-    const awayVal = rows[3]?.[col]?.trim();
-    homeInnings.push(homeVal ? safeParseInt(homeVal) : null);
+    const awayVal = rows[2]?.[col]?.trim(); // Row 2 = 先攻 = 客隊
+    const homeVal = rows[3]?.[col]?.trim(); // Row 3 = 後攻 = 主隊
     awayInnings.push(awayVal ? safeParseInt(awayVal) : null);
+    homeInnings.push(homeVal ? safeParseInt(homeVal) : null);
   }
 
-  const homeRuns = safeParseInt(rows[2]?.[14]);
-  const homeHits = safeParseInt(rows[2]?.[15]);
-  const homeErrors = safeParseInt(rows[2]?.[16]);
+  const awayRuns = safeParseInt(rows[2]?.[14]);
+  const awayHits = safeParseInt(rows[2]?.[15]);
+  const awayErrors = safeParseInt(rows[2]?.[16]);
 
-  const awayRuns = safeParseInt(rows[3]?.[14]);
-  const awayHits = safeParseInt(rows[3]?.[15]);
-  const awayErrors = safeParseInt(rows[3]?.[16]);
+  const homeRuns = safeParseInt(rows[3]?.[14]);
+  const homeHits = safeParseInt(rows[3]?.[15]);
+  const homeErrors = safeParseInt(rows[3]?.[16]);
 
-  // Row 4: 隊名 (column 1 = 主隊, column 11 = 客隊)
-  const homeTeamName = rows[4]?.[1]?.trim() || '';
-  const awayTeamName = rows[4]?.[11]?.trim() || '';
+  // Row 4: 隊名 (column 1 = 客隊/先攻, column 11 = 主隊/後攻)
+  const awayTeamName = rows[4]?.[1]?.trim() || '';
+  const homeTeamName = rows[4]?.[11]?.trim() || '';
 
   // Row 5-7: 投手數據
   // CSV 格式: 背號, 名字, 局數(IP), 人次(NP), 奪三振(K), 四死(BB), 被安打(H), 被HR, 失分(R)
@@ -128,11 +128,11 @@ export function parseGameReportCSV(
     const row = rows[i];
     if (!row) continue;
 
-    // 主隊投手 (columns 0-8)
+    // 客隊投手（先攻，columns 0-8）
     if (row[0]?.trim() || row[1]?.trim()) {
       const name = row[1]?.trim();
       if (name && name !== 'TOTAL') {
-        homePitchers.push({
+        awayPitchers.push({
           number: row[0]?.trim() || '',
           name,
           ip: row[2]?.trim() || '0',
@@ -146,11 +146,11 @@ export function parseGameReportCSV(
       }
     }
 
-    // 客隊投手 (columns 10-18)
+    // 主隊投手（後攻，columns 10-18）
     if (row[10]?.trim() || row[11]?.trim()) {
       const name = row[11]?.trim();
       if (name && name !== 'TOTAL') {
-        awayPitchers.push({
+        homePitchers.push({
           number: row[10]?.trim() || '',
           name,
           ip: row[12]?.trim() || '0',
@@ -165,8 +165,8 @@ export function parseGameReportCSV(
     }
   }
 
-  // Row 9: 隊名 + 打擊率
-  const homeBattingAvg = safeParseFloat(rows[9]?.[9]);
+  // Row 9: 隊名 + 打擊率（col 9 = 客隊/先攻/左側）
+  const awayBattingAvg = safeParseFloat(rows[9]?.[9]);
 
   // Row 10+: 打者數據
   // CSV 格式: 背號, 名字, 打席(PA), 安打(H), 三振(SO), 四死(BB), 打點(RBI), 得分(R), 盜壘(SB)
@@ -177,14 +177,14 @@ export function parseGameReportCSV(
     const row = rows[i];
     if (!row) continue;
 
-    // 主隊打者 (columns 0-8)
-    const homeName = row[1]?.trim();
-    if (homeName && homeName !== 'TOTAL' && homeName !== homeTeamName) {
+    // 客隊打者（先攻，columns 0-8）
+    const awayName = row[1]?.trim();
+    if (awayName && awayName !== 'TOTAL' && awayName !== awayTeamName) {
       const pa = safeParseInt(row[2]);
       const bb = safeParseInt(row[5]);
-      homeBatters.push({
+      awayBatters.push({
         number: row[0]?.trim() || '',
-        name: homeName,
+        name: awayName,
         pa: pa,                    // 打席
         ab: pa - bb,               // 打數 = 打席 - 四死 (簡化)
         r: safeParseInt(row[7]),   // 得分
@@ -196,14 +196,14 @@ export function parseGameReportCSV(
       });
     }
 
-    // 客隊打者 (columns 10-18)
-    const awayName = row[11]?.trim();
-    if (awayName && awayName !== 'TOTAL' && awayName !== awayTeamName) {
+    // 主隊打者（後攻，columns 10-18）
+    const homeName = row[11]?.trim();
+    if (homeName && homeName !== 'TOTAL' && homeName !== homeTeamName) {
       const pa = safeParseInt(row[12]);
       const bb = safeParseInt(row[15]);
-      awayBatters.push({
+      homeBatters.push({
         number: row[10]?.trim() || '',
-        name: awayName,
+        name: homeName,
         pa: pa,                    // 打席
         ab: pa - bb,               // 打數 = 打席 - 四死 (簡化)
         r: safeParseInt(row[17]),  // 得分
@@ -229,7 +229,6 @@ export function parseGameReportCSV(
       runs: homeRuns,
       hits: homeHits,
       errors: homeErrors,
-      battingAvg: homeBattingAvg,
       pitchers: homePitchers,
       batters: homeBatters,
     },
@@ -238,6 +237,7 @@ export function parseGameReportCSV(
       runs: awayRuns,
       hits: awayHits,
       errors: awayErrors,
+      battingAvg: awayBattingAvg,
       pitchers: awayPitchers,
       batters: awayBatters,
     },

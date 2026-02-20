@@ -310,18 +310,18 @@ function GameRow({
       <td className="whitespace-nowrap px-4 py-4 text-sm">
         <span
           className={`font-medium ${
-            isHomeTeamHighlighted ? 'text-primary-600' : 'text-gray-900'
-          }`}
-        >
-          {game.homeTeam}
-        </span>
-        <span className="mx-2 text-gray-600">vs</span>
-        <span
-          className={`font-medium ${
             isAwayTeamHighlighted ? 'text-primary-600' : 'text-gray-900'
           }`}
         >
           {game.awayTeam}
+        </span>
+        <span className="mx-2 text-gray-600">vs</span>
+        <span
+          className={`font-medium ${
+            isHomeTeamHighlighted ? 'text-primary-600' : 'text-gray-900'
+          }`}
+        >
+          {game.homeTeam}
         </span>
       </td>
       <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-900">

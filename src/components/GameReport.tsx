@@ -24,16 +24,16 @@ export default function GameReport({ data }: GameReportProps) {
               {displayGameNumber(gameNumber)} | {date} | {venue}
             </div>
             <h1 className="text-2xl md:text-3xl font-bold text-gray-100">
-              {homeTeam.name} vs {awayTeam.name}
+              {awayTeam.name} vs {homeTeam.name}
             </h1>
           </div>
           <div className="text-4xl md:text-5xl font-bold">
-            <span className={homeWin ? "text-yellow-400" : "text-gray-100"}>
-              {homeTeam.runs}
-            </span>
-            <span className="mx-3 text-2xl text-gray-500">:</span>
             <span className={awayWin ? "text-yellow-400" : "text-gray-100"}>
               {awayTeam.runs}
+            </span>
+            <span className="mx-3 text-2xl text-gray-500">:</span>
+            <span className={homeWin ? "text-yellow-400" : "text-gray-100"}>
+              {homeTeam.runs}
             </span>
           </div>
         </div>
@@ -71,31 +71,8 @@ export default function GameReport({ data }: GameReportProps) {
               </tr>
             </thead>
             <tbody>
-              {/* 主隊 */}
-              <tr className={`border-b ${homeWin ? "bg-green-50" : ""}`}>
-                <td className="px-4 py-3 font-semibold text-gray-900">
-                  {homeTeam.name}
-                  {homeWin && (
-                    <span className="ml-2 text-green-600 text-xs">WIN</span>
-                  )}
-                </td>
-                {innings.home.map((score, idx) => (
-                  <td key={idx} className="px-3 py-3 text-center text-gray-900">
-                    {score !== null ? score : "-"}
-                  </td>
-                ))}
-                <td className="px-3 py-3 text-center font-bold text-gray-900 bg-gray-100">
-                  {homeTeam.runs}
-                </td>
-                <td className="px-3 py-3 text-center font-bold text-gray-900 bg-gray-100">
-                  {homeTeam.hits}
-                </td>
-                <td className="px-3 py-3 text-center font-bold text-gray-900 bg-gray-100">
-                  {homeTeam.errors}
-                </td>
-              </tr>
-              {/* 客隊 */}
-              <tr className={awayWin ? "bg-green-50" : ""}>
+              {/* 客隊（先攻，上方） */}
+              <tr className={`border-b ${awayWin ? "bg-green-50" : ""}`}>
                 <td className="px-4 py-3 font-semibold text-gray-900">
                   {awayTeam.name}
                   {awayWin && (
@@ -115,6 +92,29 @@ export default function GameReport({ data }: GameReportProps) {
                 </td>
                 <td className="px-3 py-3 text-center font-bold text-gray-900 bg-gray-100">
                   {awayTeam.errors}
+                </td>
+              </tr>
+              {/* 主隊（後攻，下方） */}
+              <tr className={homeWin ? "bg-green-50" : ""}>
+                <td className="px-4 py-3 font-semibold text-gray-900">
+                  {homeTeam.name}
+                  {homeWin && (
+                    <span className="ml-2 text-green-600 text-xs">WIN</span>
+                  )}
+                </td>
+                {innings.home.map((score, idx) => (
+                  <td key={idx} className="px-3 py-3 text-center text-gray-900">
+                    {score !== null ? score : "-"}
+                  </td>
+                ))}
+                <td className="px-3 py-3 text-center font-bold text-gray-900 bg-gray-100">
+                  {homeTeam.runs}
+                </td>
+                <td className="px-3 py-3 text-center font-bold text-gray-900 bg-gray-100">
+                  {homeTeam.hits}
+                </td>
+                <td className="px-3 py-3 text-center font-bold text-gray-900 bg-gray-100">
+                  {homeTeam.errors}
                 </td>
               </tr>
             </tbody>

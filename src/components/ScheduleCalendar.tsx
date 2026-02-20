@@ -575,27 +575,15 @@ function GameCard({ game, highlightTeam }: { game: Game; highlightTeam?: string 
           <div className="flex items-center gap-3">
             <span
               className={`${
-                isHomeTeamHighlighted
+                isAwayTeamHighlighted
                   ? 'font-bold text-primary-700'
                   : 'font-medium text-gray-700'
               }`}
             >
-              {game.homeTeam}
+              {game.awayTeam}
             </span>
             {game.result ? (
               <>
-                <span
-                  className={`font-bold ${
-                    game.result.homeScore > game.result.awayScore
-                      ? 'text-green-600'
-                      : game.result.homeScore < game.result.awayScore
-                        ? 'text-red-500'
-                        : 'text-gray-900'
-                  }`}
-                >
-                  {game.result.homeScore}
-                </span>
-                <span className="font-medium text-gray-400">:</span>
                 <span
                   className={`font-bold ${
                     game.result.awayScore > game.result.homeScore
@@ -607,18 +595,30 @@ function GameCard({ game, highlightTeam }: { game: Game; highlightTeam?: string 
                 >
                   {game.result.awayScore}
                 </span>
+                <span className="font-medium text-gray-400">:</span>
+                <span
+                  className={`font-bold ${
+                    game.result.homeScore > game.result.awayScore
+                      ? 'text-green-600'
+                      : game.result.homeScore < game.result.awayScore
+                        ? 'text-red-500'
+                        : 'text-gray-900'
+                  }`}
+                >
+                  {game.result.homeScore}
+                </span>
               </>
             ) : (
               <span className="text-gray-500">VS</span>
             )}
             <span
               className={`${
-                isAwayTeamHighlighted
+                isHomeTeamHighlighted
                   ? 'font-bold text-primary-700'
                   : 'font-medium text-gray-700'
               }`}
             >
-              {game.awayTeam}
+              {game.homeTeam}
             </span>
           </div>
         </div>
