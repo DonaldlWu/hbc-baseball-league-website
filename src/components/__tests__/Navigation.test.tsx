@@ -87,7 +87,7 @@ describe("Navigation", () => {
 
     // 點擊展開
     await user.click(menuButton);
-    expect(mobileMenu).toHaveClass("max-h-64");
+    expect(mobileMenu).toHaveClass("max-h-80");
 
     // 再次點擊收起
     await user.click(screen.getByRole("button", { name: /關閉選單/i }));
