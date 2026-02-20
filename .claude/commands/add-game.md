@@ -42,8 +42,8 @@ No.207 永春TB VS 少林棒球隊--清溪--中午(12:00~14:30)
 |------|------|
 | date | 最近一個日期行，格式 `YYYY/M/D` → `YYYY-MM-DD` |
 | gameNumber | `No.98` + 賽季前綴 → `2025098` |
-| homeTeam | VS 前的隊伍 |
-| awayTeam | VS 後的隊伍 |
+| awayTeam | VS **前**的隊伍（客隊，先攻） |
+| homeTeam | VS **後**的隊伍（主隊，後攻） |
 | venue | `--場地--` 中間段，或日期下方的場地行 |
 | timeSlot | 依實際開始時間判斷（見下表） |
 | startTime / endTime | 括號內時間 |
@@ -80,7 +80,7 @@ No.207 永春TB VS 少林棒球隊--清溪--中午(12:00~14:30)
 解析完成，共 5 場：
 
   ✅ 一般新增（4 場）
-  gameNumber  日期        主隊           客隊           場地   時段
+  gameNumber  日期        客隊           主隊           場地   時段
   ──────────────────────────────────────────────────────────────────
   2025098     2025-12-06  Mechanics      陽明OB         中正A  中午
   2025202     2025-12-06  ACES           飛尼克斯       中正A  下午
@@ -109,8 +109,8 @@ No.207 永春TB VS 少林棒球隊--清溪--中午(12:00~14:30)
 ```json
 "2025098": {
   "date": "2025-12-06",
-  "homeTeam": "Mechanics",
-  "awayTeam": "陽明OB",
+  "homeTeam": "陽明OB",
+  "awayTeam": "Mechanics",
   "venue": "中正A",
   "timeSlot": "中午",
   "startTime": "12:00",
@@ -168,7 +168,8 @@ chore: 新增 N 場賽程，含 M 場補賽安排 (YYYY-MM)
 即將新增比賽：
   gameNumber：2026100
   日期：2026-03-07
-  主隊：Line Drive vs 客隊：飛尼克斯
+  客隊（先攻）：Line Drive
+  主隊（後攻）：飛尼克斯
   場地：中正A / 下午（14:30–17:00）
   狀態：scheduled
 

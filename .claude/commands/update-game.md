@@ -39,8 +39,8 @@ https://docs.google.com/spreadsheets/d/1Xy8-e0YJfO89HgbmmeK-JMlArs0x8-hCjDPifLCK
 | 欄位 | 來源 |
 |------|------|
 | gameNumber | `No.2025147` → `2025147` |
-| homeScore | 比分左側（主隊得分） |
-| awayScore | 比分右側（客隊得分） |
+| awayScore | 比分**左**側（客隊得分，先攻） |
+| homeScore | 比分**右**側（主隊得分，後攻） |
 | sheetId | Google Sheet URL 中 `/d/` 後的 ID |
 
 > ⚠️ 若戰報連結不完整（如 `https://docs.google.com/....../1cPH7y-gcLVqLwtJK......`），sheetId 標記為「待補」，不填入，等使用者後續補充。
@@ -52,7 +52,7 @@ https://docs.google.com/spreadsheets/d/1Xy8-e0YJfO89HgbmmeK-JMlArs0x8-hCjDPifLCK
 ```
 解析完成，共 3 場：
 
-  gameNumber  主隊          比分   客隊           sheetId
+  gameNumber  客隊（先攻）   比分   主隊（後攻）   sheetId
   ─────────────────────────────────────────────────────────
   2025147     甜心暴龍       1:19   Line Drive     ✅ 1mnB7Sa...
   2025030     台大經濟OB     3:21   木柵OB         ✅ 14Wfern...
@@ -105,7 +105,7 @@ chore: 更新 N 場比賽結果 (YYYY-MM-DD 週報)
 ```
 找到比賽：
   日期：2026-01-10（原定）
-  主隊：世新超乙組 vs 客隊：十號馬
+  客隊（先攻）：世新超乙組 vs 主隊（後攻）：十號馬
   場地：三鶯A
   目前狀態：rain
   延賽歷史：
@@ -158,10 +158,10 @@ chore: 更新 N 場比賽結果 (YYYY-MM-DD 週報)
 
 | 情境 | Commit message |
 |------|----------------|
-| 比賽結果 | `chore: 更新比賽 XXXX 結果 (主隊N:M客隊)` |
+| 比賽結果 | `chore: 更新比賽 XXXX 結果 (客隊N:M主隊)` |
 | 雨延 | `chore: 比賽 XXXX 雨延，補賽日 YYYY-MM-DD` |
 | 再次延賽 | `chore: 比賽 XXXX 補賽日再次延賽，新補賽日 YYYY-MM-DD` |
-| 補賽結果 | `chore: 更新比賽 XXXX 補賽結果 (主隊N:M客隊)` |
+| 補賽結果 | `chore: 更新比賽 XXXX 補賽結果 (客隊N:M主隊)` |
 
 ---
 
