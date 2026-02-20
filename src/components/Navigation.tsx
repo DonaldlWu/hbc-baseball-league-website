@@ -181,7 +181,7 @@ export default function Navigation({
       <div
         data-testid="mobile-menu"
         className={`md:hidden overflow-hidden transition-all duration-300 ${
-          isMenuOpen ? "max-h-64" : "max-h-0"
+          isMenuOpen ? "max-h-80" : "max-h-0"
         }`}
       >
         <div className="border-t border-primary-600 bg-primary-700 bg-gradient-to-r from-primary-600 to-primary-700">
