@@ -427,6 +427,54 @@ export interface SeasonIndexEntry {
   end: string;               // 日曆結束月份 "YYYY-MM"
 }
 
+// ============ 季後賽 ============
+export type BracketSide = 'winners' | 'losers' | 'championship';
+export type PostseasonMatchupStatus = 'pending' | 'in_progress' | 'completed';
+
+export interface PostseasonTeamEntry {
+  teamId: string;
+  teamName: string;
+  regularSeasonRank: number;
+}
+
+export interface PostseasonGame {
+  gameSeq: number;
+  byeGame: boolean;
+  winner: 'team1' | 'team2' | null;
+  homeScore: number | null;
+  awayScore: number | null;
+  gameNumber: string | null;
+  note?: string;
+}
+
+export interface PostseasonMatchup {
+  matchupId: string;
+  seed1: number;
+  seed2: number;
+  team1: PostseasonTeamEntry;
+  team2: PostseasonTeamEntry;
+  games: PostseasonGame[];
+  winner: 'team1' | 'team2' | null;
+  status: PostseasonMatchupStatus;
+}
+
+export interface PostseasonRound {
+  roundId: string;
+  name: string;
+  phase: 'phase1' | 'phase2';
+  bracket?: BracketSide;
+  bestOf: number;
+  homeAdvantage: boolean;
+  winnersBracketAdvantage?: boolean;
+  matchups: PostseasonMatchup[];
+}
+
+export interface PostseasonData {
+  season: number;
+  lastUpdated: string;
+  rounds: PostseasonRound[];
+}
+
 export type SortableStatField =
   | 'games'
   | 'pa'
