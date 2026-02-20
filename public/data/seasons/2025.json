@@ -1,6 +1,6 @@
 {
   "season": 2025,
-  "lastUpdated": "2026-02-19T16:09:26Z",
+  "lastUpdated": "2026-02-20T00:00:00Z",
   "calendarRange": {
     "start": "2025-04",
     "end": "2026-02"
@@ -14,26 +14,35 @@
         "wins": 16,
         "losses": 3,
         "draws": 1,
-        "runsAllowed": 4,
+        "runsAllowed": 4.0,
         "runsScored": 13.75
+      },
+      {
+        "teamId": "YCT",
+        "teamName": "永春TB",
+        "wins": 13,
+        "losses": 4,
+        "draws": 1,
+        "runsAllowed": 6.722,
+        "runsScored": 9.0
       },
       {
         "teamId": "PHE",
         "teamName": "飛尼克斯",
         "wins": 13,
-        "losses": 5,
+        "losses": 6,
         "draws": 0,
-        "runsAllowed": 5.556,
-        "runsScored": 11.222
+        "runsAllowed": 5.632,
+        "runsScored": 10.947
       },
       {
-        "teamId": "YCT",
-        "teamName": "永春TB",
+        "teamId": "HUA",
+        "teamName": "華江OB",
         "wins": 12,
         "losses": 4,
-        "draws": 1,
-        "runsAllowed": 6.824,
-        "runsScored": 9.176
+        "draws": 2,
+        "runsAllowed": 5.778,
+        "runsScored": 10.0
       },
       {
         "teamId": "TRO",
@@ -48,19 +57,19 @@
         "teamId": "ACE",
         "teamName": "ACES",
         "wins": 12,
-        "losses": 5,
+        "losses": 6,
         "draws": 1,
-        "runsAllowed": 7.611,
-        "runsScored": 12.833
+        "runsAllowed": 7.737,
+        "runsScored": 12.579
       },
       {
-        "teamId": "HUA",
-        "teamName": "華江OB",
+        "teamId": "MUZ",
+        "teamName": "木柵OB",
         "wins": 11,
-        "losses": 4,
-        "draws": 2,
-        "runsAllowed": 5.882,
-        "runsScored": 8.647
+        "losses": 6,
+        "draws": 1,
+        "runsAllowed": 6.556,
+        "runsScored": 9.556
       },
       {
         "teamId": "NTM",
@@ -81,15 +90,6 @@
         "runsScored": 10.882
       },
       {
-        "teamId": "MUZ",
-        "teamName": "木柵OB",
-        "wins": 10,
-        "losses": 6,
-        "draws": 1,
-        "runsAllowed": 6.471,
-        "runsScored": 9.529
-      },
-      {
         "teamId": "SWD",
         "teamName": "甜心暴龍",
         "wins": 10,
@@ -108,6 +108,15 @@
         "runsScored": 7.316
       },
       {
+        "teamId": "SCO",
+        "teamName": "實踐OB",
+        "wins": 10,
+        "losses": 9,
+        "draws": 0,
+        "runsAllowed": 8.053,
+        "runsScored": 7.684
+      },
+      {
         "teamId": "SHU",
         "teamName": "世新超乙組",
         "wins": 9,
@@ -117,40 +126,31 @@
         "runsScored": 7.389
       },
       {
-        "teamId": "SCO",
-        "teamName": "實踐OB",
+        "teamId": "DHW",
+        "teamName": "DH戰將",
         "wins": 9,
-        "losses": 9,
-        "draws": 0,
-        "runsAllowed": 8.167,
-        "runsScored": 7.722
+        "losses": 10,
+        "draws": 1,
+        "runsAllowed": 9.45,
+        "runsScored": 7.15
       },
       {
         "teamId": "MOR",
         "teamName": "莫拉克",
         "wins": 9,
-        "losses": 9,
+        "losses": 10,
         "draws": 0,
-        "runsAllowed": 8.722,
-        "runsScored": 8.222
+        "runsAllowed": 8.579,
+        "runsScored": 8.053
       },
       {
         "teamId": "EAG",
         "teamName": "火把老鷹",
         "wins": 8,
-        "losses": 9,
-        "draws": 1,
-        "runsAllowed": 8.444,
-        "runsScored": 8.778
-      },
-      {
-        "teamId": "DHW",
-        "teamName": "DH戰將",
-        "wins": 8,
         "losses": 10,
         "draws": 1,
-        "runsAllowed": 9.579,
-        "runsScored": 6.632
+        "runsAllowed": 8.895,
+        "runsScored": 8.684
       },
       {
         "teamId": "NTE",
@@ -177,16 +177,16 @@
         "losses": 14,
         "draws": 1,
         "runsAllowed": 12.294,
-        "runsScored": 5
+        "runsScored": 5.0
       },
       {
         "teamId": "HOL",
         "teamName": "HOLYBAT",
         "wins": 2,
-        "losses": 15,
+        "losses": 16,
         "draws": 1,
-        "runsAllowed": 15.222,
-        "runsScored": 5.333
+        "runsAllowed": 16.158,
+        "runsScored": 5.263
       },
       {
         "teamId": "NTH",
