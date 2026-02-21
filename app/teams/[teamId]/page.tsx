@@ -6,7 +6,7 @@ import { TeamHeader } from '@/src/components/TeamHeader';
 import { PlayerCard } from '@/src/components/PlayerCard';
 import { PlayerModal } from '@/src/components/PlayerModal';
 import { PlayerSortBar } from '@/src/components/PlayerSortBar';
-import { getTeamPlayers, extractTeamsFromSeason, loadSeasonSummary, loadPlayerDetail, getTeamIcon } from '@/src/lib/dataLoader';
+import { getTeamPlayers, extractTeamsFromSeason, loadSeasonSummary, loadPlayerDetail, getTeamIconById } from '@/src/lib/dataLoader';
 import { sortPlayers, SORT_OPTIONS } from '@/src/lib/playerSorter';
 import type { TeamSummary, PlayerSummary, Player, SeasonSummary, SortableStatField, SortOrder } from '@/src/types';
 
@@ -59,7 +59,7 @@ export default function TeamDetailPage() {
         }
 
         // 載入球隊圖標
-        const iconUrl = await getTeamIcon(teamSummary.teamName);
+        const iconUrl = await getTeamIconById(teamId);
 
         setTeam({ ...teamSummary, iconUrl });
         setPlayers(teamData.players);
