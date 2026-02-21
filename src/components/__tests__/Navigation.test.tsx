@@ -54,7 +54,7 @@ describe("Navigation", () => {
 
     const teamsLinks = screen.getAllByRole("link", { name: "球團" });
     // Both desktop and mobile links should be highlighted
-    expect(teamsLinks[0]).toHaveClass("text-green-600");
+    expect(teamsLinks[0]).toHaveClass("bg-primary-800");
     expect(teamsLinks[0]).toHaveClass("font-bold");
   });
 
@@ -63,7 +63,7 @@ describe("Navigation", () => {
     render(<Navigation />);
 
     const homeLinks = screen.getAllByRole("link", { name: "首頁" });
-    expect(homeLinks[0]).toHaveClass("text-green-600");
+    expect(homeLinks[0]).toHaveClass("bg-primary-800");
   });
 
   it("應該有漢堡選單按鈕（手機版）", () => {
