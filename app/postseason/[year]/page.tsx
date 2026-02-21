@@ -1,24 +1,9 @@
 "use client";
 
-import { use, useState } from 'react';
+import { use } from 'react';
 import { usePostseason } from '@/src/hooks/usePostseason';
-import PostseasonBracket from '@/src/components/PostseasonBracket';
-import DoubleEliminationBracket from '@/src/components/DoubleEliminationBracket';
-import { getPhase1Rounds, getPhase2Rounds, getChampion } from '@/src/lib/postseasonLoader';
-
-type ActiveTab = 'phase1' | 'phase2';
-
-function RoundLabels() {
-  return (
-    <div className="flex items-center mb-4 text-xs font-medium uppercase tracking-wider">
-      <div className="text-slate-500" style={{ width: '176px' }}>16強</div>
-      <div style={{ width: '48px' }} />
-      <div className="text-slate-500" style={{ width: '176px' }}>8強</div>
-      <div style={{ width: '48px' }} />
-      <div className="text-amber-500">四強</div>
-    </div>
-  );
-}
+import FullPostseasonBracket from '@/src/components/FullPostseasonBracket';
+import { getChampion } from '@/src/lib/postseasonLoader';
 
 export default function PostseasonPage({
   params,
@@ -28,11 +13,8 @@ export default function PostseasonPage({
   const { year } = use(params);
   const yearNum = parseInt(year, 10);
   const { data, loading, error } = usePostseason(yearNum);
-  const [activeTab, setActiveTab] = useState<ActiveTab>('phase1');
 
   const champion = data ? getChampion(data) : null;
-  const phase1Rounds = data ? getPhase1Rounds(data) : [];
-  const phase2Rounds = data ? getPhase2Rounds(data) : [];
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -61,36 +43,8 @@ export default function PostseasonPage({
             )}
           </div>
 
-          {/* Tab navigation */}
-          <div className="bg-slate-900 border-b border-slate-700 px-6">
-            <nav className="-mb-px flex gap-6">
-              <button
-                type="button"
-                onClick={() => setActiveTab('phase1')}
-                className={
-                  activeTab === 'phase1'
-                    ? 'border-b-2 border-amber-500 py-4 text-sm font-medium text-amber-400'
-                    : 'border-b-2 border-transparent py-4 text-sm font-medium text-slate-400 hover:border-slate-600 hover:text-slate-300'
-                }
-              >
-                淘汰賽（16強 / 8強）
-              </button>
-              <button
-                type="button"
-                onClick={() => setActiveTab('phase2')}
-                className={
-                  activeTab === 'phase2'
-                    ? 'border-b-2 border-amber-500 py-4 text-sm font-medium text-amber-400'
-                    : 'border-b-2 border-transparent py-4 text-sm font-medium text-slate-400 hover:border-slate-600 hover:text-slate-300'
-                }
-              >
-                四強雙敗淘汰
-              </button>
-            </nav>
-          </div>
-
           {/* Bracket content */}
-          <div className="bg-slate-950 p-6 overflow-x-auto">
+          <div className="bg-slate-950 overflow-x-auto">
             {loading && (
               <p className="text-sm text-slate-400 text-center py-8">載入中...</p>
             )}
@@ -98,17 +52,9 @@ export default function PostseasonPage({
               <p className="text-sm text-red-400 text-center py-8">{error}</p>
             )}
             {data && !loading && (
-              <>
-                {activeTab === 'phase1' && (
-                  <>
-                    <RoundLabels />
-                    <PostseasonBracket rounds={phase1Rounds} />
-                  </>
-                )}
-                {activeTab === 'phase2' && (
-                  <DoubleEliminationBracket rounds={phase2Rounds} />
-                )}
-              </>
+              <div className="p-6 min-w-max">
+                <FullPostseasonBracket data={data} />
+              </div>
             )}
           </div>
 

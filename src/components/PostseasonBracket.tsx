@@ -10,13 +10,15 @@ interface PostseasonBracketProps {
 
 const CARD_W = 176;
 const CONNECTOR_W = 48;
-const CARD_H = 108;
+// 122 = 2×(py-2 + h-8) rows + border + score-row (py-1.5 + text)
+// Must match the tallest possible MatchupCard (completed, with score row)
+const CARD_H = 122;
 const CARD_GAP = 24;
 const PAIR_GAP = 48;
 
 const PAIR_HEIGHT = CARD_H * 2 + CARD_GAP;
 const TOTAL_HEIGHT = 4 * PAIR_HEIGHT + 3 * PAIR_GAP;
-const TOTAL_SVG_WIDTH = CARD_W + CONNECTOR_W + CARD_W + CONNECTOR_W + 60;
+const TOTAL_SVG_WIDTH = CARD_W + CONNECTOR_W + CARD_W + CONNECTOR_W + 24;
 
 interface PendingMatchupCardProps {
   seed1: number;
@@ -72,15 +74,19 @@ export default function PostseasonBracket({ rounds }: PostseasonBracketProps) {
       <div
         className="inline-grid"
         style={{
-          gridTemplateColumns: `${CARD_W}px ${CONNECTOR_W}px ${CARD_W}px ${CONNECTOR_W}px auto`,
+          gridTemplateColumns: `${CARD_W}px ${CONNECTOR_W}px ${CARD_W}px ${CONNECTOR_W}px`,
         }}
       >
-        {/* Column 1: r16 cards */}
+        {/* Column 1: r16 cards — each card wrapper is exactly CARD_H so SVG midpoints stay correct */}
         <div className="flex flex-col" style={{ gap: `${PAIR_GAP}px` }}>
           {pairs.map((pair, i) => (
             <div key={i} className="flex flex-col" style={{ gap: `${CARD_GAP}px` }}>
-              <MatchupCard matchup={pair.top} variant="dark" />
-              <MatchupCard matchup={pair.bottom} variant="dark" />
+              <div style={{ height: `${CARD_H}px`, display: 'flex', alignItems: 'center' }}>
+                <MatchupCard matchup={pair.top} variant="dark" />
+              </div>
+              <div style={{ height: `${CARD_H}px`, display: 'flex', alignItems: 'center' }}>
+                <MatchupCard matchup={pair.bottom} variant="dark" />
+              </div>
             </div>
           ))}
         </div>
@@ -107,27 +113,6 @@ export default function PostseasonBracket({ rounds }: PostseasonBracketProps) {
 
         {/* Column 4: connector space */}
         <div />
-
-        {/* Column 5: semi-final entry labels */}
-        <div
-          className="flex flex-col"
-          style={{ gap: `${PAIR_GAP * 2 + PAIR_HEIGHT}px` }}
-        >
-          {[0, 1].map((i) => (
-            <div
-              key={i}
-              className="flex items-center"
-              style={{ height: `${PAIR_HEIGHT * 2 + PAIR_GAP}px` }}
-            >
-              <div
-                className="text-xs text-amber-500 font-medium border border-amber-500/30 rounded px-2 py-1 bg-slate-900/50"
-                style={{ writingMode: 'vertical-rl', textOrientation: 'mixed' }}
-              >
-                晉四強
-              </div>
-            </div>
-          ))}
-        </div>
       </div>
 
       {/* SVG connector lines overlay */}

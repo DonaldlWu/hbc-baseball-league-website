@@ -1,174 +1,194 @@
 'use client';
 
-import type { PostseasonRound } from '@/src/types';
+import type { PostseasonRound, PostseasonMatchup } from '@/src/types';
 import MatchupCard from '@/src/components/MatchupCard';
 import ChampionshipCard from '@/src/components/ChampionshipCard';
+import { BracketLine } from '@/src/components/BracketLine';
 
 interface DoubleEliminationBracketProps {
   rounds: PostseasonRound[];
 }
 
-interface SectionHeaderProps {
-  dotColor: string;
-  title: string;
-  description?: string;
+const CARD_W = 176;
+const CONNECTOR_W = 48;
+const CARD_H = 108;
+const CARD_GAP = 24;
+const PAIR_GAP = 48;
+
+// W bracket: 2 cards stacked
+const W_PAIR_H = CARD_H * 2 + CARD_GAP; // 240
+
+// L bracket starts below W pair
+const L_TOP = W_PAIR_H + PAIR_GAP; // 288
+
+// Total height
+const TOTAL_HEIGHT = L_TOP + CARD_H; // 396
+
+// Key Y midpoints
+const W1M1_MID_Y = CARD_H / 2; // 54
+const W1M2_MID_Y = CARD_H + CARD_GAP + CARD_H / 2; // 186
+const W_FINAL_TOP = (W_PAIR_H - CARD_H) / 2; // 66
+const W_FINAL_MID_Y = W_FINAL_TOP + CARD_H / 2; // 120
+const L_MID_Y = L_TOP + CARD_H / 2; // 342
+const CHAMP_MID_Y = (W_FINAL_MID_Y + L_MID_Y) / 2; // 231
+const CHAMP_TOP = CHAMP_MID_Y - CARD_H / 2; // 177
+
+// Column X positions
+const COL0_X = 0;
+const COL2_X = CARD_W + CONNECTOR_W; // 224
+const COL4_X = (CARD_W + CONNECTOR_W) * 2; // 448
+
+// Connection point X values
+const COL0_RIGHT = CARD_W; // 176
+const COL2_LEFT = COL2_X; // 224
+const COL2_RIGHT = COL2_X + CARD_W; // 400
+const COL4_LEFT = COL4_X; // 448
+
+// Connector midX values
+const C1_MID_X = CARD_W + CONNECTOR_W / 2; // 200
+const C2_MID_X = CARD_W * 2 + CONNECTOR_W + CONNECTOR_W / 2; // 424
+
+// Phase 2 total width
+const PHASE2_W = CARD_W * 3 + CONNECTOR_W * 2; // 624
+
+// Colors
+const SKY = '#38bdf8';
+const SKY_DIM = '#1e3a5f';
+const ORG = '#fb923c';
+const ORG_DIM = '#431407';
+const AMB = '#f59e0b';
+const AMB_DIM = '#451a03';
+
+function matchupColor(
+  matchup: PostseasonMatchup | null,
+  done: string,
+  pending: string,
+): string {
+  return matchup?.status === 'completed' ? done : pending;
 }
 
-function SectionHeader({ dotColor, title, description }: SectionHeaderProps) {
+interface PendingCardProps {
+  label: string;
+}
+
+function PendingCard({ label }: PendingCardProps) {
   return (
-    <div className="flex items-center gap-2 mb-3">
-      <span className={`inline-block w-2 h-2 rounded-full ${dotColor}`} />
-      <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">
-        {title}
-      </span>
-      {description && (
-        <span className="text-xs text-slate-600">{description}</span>
-      )}
+    <div
+      className="rounded-lg overflow-hidden bg-slate-800 ring-1 ring-slate-700 opacity-60 flex items-center justify-center"
+      style={{ width: `${CARD_W}px`, height: `${CARD_H}px` }}
+    >
+      <span className="text-xs text-slate-500">{label}</span>
     </div>
   );
 }
 
-interface FlowIndicatorProps {
-  winnerLabel: string;
-  loserLabel: string;
+interface BracketCardsProps {
+  w1m1: PostseasonMatchup | null;
+  w1m2: PostseasonMatchup | null;
+  wFinal: PostseasonMatchup | null;
+  l1: PostseasonMatchup | null;
+  lFinal: PostseasonMatchup | null;
+  champ: PostseasonMatchup | null;
+  champAdvantage: boolean;
 }
 
-function FlowIndicator({ winnerLabel, loserLabel }: FlowIndicatorProps) {
+function BracketCards({
+  w1m1, w1m2, wFinal, l1, lFinal, champ, champAdvantage,
+}: BracketCardsProps) {
   return (
-    <div className="flex items-center gap-4 my-2 px-2">
-      <div className="flex items-center gap-1 text-xs text-sky-400">
-        <span>&#8595;</span>
-        <span>{winnerLabel}</span>
+    <>
+      <div style={{ position: 'absolute', left: COL0_X, top: 0 }}>
+        {w1m1 ? <MatchupCard matchup={w1m1} variant="dark" /> : <PendingCard label="1 vs 4" />}
       </div>
-      <div className="flex items-center gap-1 text-xs text-orange-400">
-        <span>&#8595;</span>
-        <span>{loserLabel}</span>
+      <div style={{ position: 'absolute', left: COL0_X, top: CARD_H + CARD_GAP }}>
+        {w1m2 ? <MatchupCard matchup={w1m2} variant="dark" /> : <PendingCard label="2 vs 3" />}
       </div>
-    </div>
+      <div style={{ position: 'absolute', left: COL2_X, top: W_FINAL_TOP }}>
+        {wFinal ? <MatchupCard matchup={wFinal} variant="dark" /> : <PendingCard label="W決賽" />}
+      </div>
+      <div style={{ position: 'absolute', left: COL0_X, top: L_TOP }}>
+        {l1 ? <MatchupCard matchup={l1} variant="dark" /> : <PendingCard label="L第一輪" />}
+      </div>
+      <div style={{ position: 'absolute', left: COL2_X, top: L_TOP }}>
+        {lFinal ? <MatchupCard matchup={lFinal} variant="dark" /> : <PendingCard label="L決賽" />}
+      </div>
+      <div style={{ position: 'absolute', left: COL4_X, top: CHAMP_TOP }}>
+        {champ ? (
+          <ChampionshipCard matchup={champ} winnersBracketAdvantage={champAdvantage} variant="dark" />
+        ) : (
+          <PendingCard label="冠軍戰" />
+        )}
+      </div>
+    </>
   );
 }
 
-function MatchupRow({ rounds }: { rounds: PostseasonRound[] }) {
-  const hasMatchups = rounds.some(r => r.matchups.length > 0);
+interface BracketLinesProps {
+  w1m1: PostseasonMatchup | null;
+  w1m2: PostseasonMatchup | null;
+  wFinal: PostseasonMatchup | null;
+  l1: PostseasonMatchup | null;
+  lFinal: PostseasonMatchup | null;
+}
 
-  if (!hasMatchups) {
-    return <p className="text-sm text-slate-500 italic py-2">待定</p>;
-  }
+function BracketLines({ w1m1, w1m2, wFinal, l1, lFinal }: BracketLinesProps) {
+  const w1Color = matchupColor(w1m1, SKY, SKY_DIM);
+  const wFinalChampColor = matchupColor(wFinal, AMB, AMB_DIM);
+  const l1Color = matchupColor(l1, ORG, ORG_DIM);
+  const lFinalChampColor = matchupColor(lFinal, AMB, AMB_DIM);
+  const dropColor = matchupColor(w1m1, ORG, ORG_DIM);
+  const wDropColor = matchupColor(wFinal, ORG, ORG_DIM);
 
   return (
-    <div className="flex flex-wrap gap-4">
-      {rounds.map(round =>
-        round.matchups.map(matchup => (
-          <MatchupCard key={matchup.matchupId} matchup={matchup} variant="dark" />
-        ))
-      )}
-    </div>
+    <svg className="absolute inset-0 pointer-events-none" width={PHASE2_W} height={TOTAL_HEIGHT}>
+      <BracketLine x1={COL0_RIGHT} y1={W1M1_MID_Y} x2={COL2_LEFT} y2={W_FINAL_MID_Y}
+        midX={C1_MID_X} color={w1Color} dashed={w1m1?.status !== 'completed'} />
+      <BracketLine x1={COL0_RIGHT} y1={W1M2_MID_Y} x2={COL2_LEFT} y2={W_FINAL_MID_Y}
+        midX={C1_MID_X} color={w1Color} dashed={w1m2?.status !== 'completed'} />
+      <BracketLine x1={COL2_RIGHT} y1={W_FINAL_MID_Y} x2={COL4_LEFT} y2={CHAMP_MID_Y}
+        midX={C2_MID_X} color={wFinalChampColor} dashed={wFinal?.status !== 'completed'} />
+      <BracketLine x1={COL0_RIGHT} y1={L_MID_Y} x2={COL2_LEFT} y2={L_MID_Y}
+        midX={C1_MID_X} color={l1Color} dashed={l1?.status !== 'completed'} />
+      <BracketLine x1={COL2_RIGHT} y1={L_MID_Y} x2={COL4_LEFT} y2={CHAMP_MID_Y}
+        midX={C2_MID_X} color={lFinalChampColor} dashed={lFinal?.status !== 'completed'} />
+      {/* W1 loser drop lines -> L1 */}
+      <path d={`M ${COL0_RIGHT - 8} ${CARD_H} V ${L_TOP}`}
+        fill="none" stroke={dropColor} strokeWidth="2"
+        strokeLinecap="round" strokeDasharray="3 3" />
+      <path d={`M ${COL0_RIGHT - 24} ${W_PAIR_H} V ${L_TOP}`}
+        fill="none" stroke={dropColor} strokeWidth="2"
+        strokeLinecap="round" strokeDasharray="3 3" />
+      {/* W決賽 loser drop line -> L決賽 */}
+      <path d={`M ${COL2_X + CARD_W - 8} ${W_FINAL_TOP + CARD_H} V ${L_TOP}`}
+        fill="none" stroke={wDropColor} strokeWidth="2"
+        strokeLinecap="round" strokeDasharray="3 3" />
+    </svg>
   );
 }
 
 export default function DoubleEliminationBracket({ rounds }: DoubleEliminationBracketProps) {
-  const firstRound = rounds.filter(r => r.roundId === 'top4-w1');
-  const winnersRound2 = rounds.filter(r => r.roundId === 'top4-w2');
-  const losersRound1 = rounds.filter(r => r.roundId === 'top4-l1');
-  const losersRound2 = rounds.filter(r => r.roundId === 'top4-l2');
-  const championshipRound = rounds.find(r => r.bracket === 'championship');
+  const w1Round = rounds.find(r => r.roundId === 'top4-w1');
+  const w2Round = rounds.find(r => r.roundId === 'top4-w2');
+  const l1Round = rounds.find(r => r.roundId === 'top4-l1');
+  const l2Round = rounds.find(r => r.roundId === 'top4-l2');
+  const champRound = rounds.find(r => r.roundId === 'top4-championship');
 
-  const championshipMatchup = championshipRound?.matchups[0] ?? null;
+  const w1m1 = w1Round?.matchups[0] ?? null;
+  const w1m2 = w1Round?.matchups[1] ?? null;
+  const wFinal = w2Round?.matchups[0] ?? null;
+  const l1 = l1Round?.matchups[0] ?? null;
+  const lFinal = l2Round?.matchups[0] ?? null;
+  const champ = champRound?.matchups[0] ?? null;
+  const champAdvantage = champRound?.winnersBracketAdvantage ?? false;
 
   return (
-    <div className="overflow-x-auto space-y-6 pb-2">
-      {/* Section 1: First Round */}
-      <div className="bg-slate-900/30 rounded-lg p-4 border border-slate-800">
-        <SectionHeader
-          dotColor="bg-blue-500"
-          title="第一輪"
-          description="1v4・2v3，勝者晉勝部決賽，敗者進敗部第一輪"
-        />
-        {firstRound.length > 0 ? (
-          <MatchupRow rounds={firstRound} />
-        ) : (
-          <p className="text-sm text-slate-500 italic py-2">待定</p>
-        )}
-      </div>
-
-      <FlowIndicator
-        winnerLabel="勝者 -> 勝部決賽"
-        loserLabel="敗者 -> 敗部第一輪"
+    <div className="relative flex-shrink-0" style={{ width: `${PHASE2_W}px`, height: `${TOTAL_HEIGHT}px` }}>
+      <BracketCards
+        w1m1={w1m1} w1m2={w1m2} wFinal={wFinal}
+        l1={l1} lFinal={lFinal} champ={champ}
+        champAdvantage={champAdvantage}
       />
-
-      {/* Section 2: Winners Round 2 + Losers Round 1 */}
-      <div className="bg-slate-900/30 rounded-lg p-4 border border-slate-800">
-        <div className="flex flex-wrap gap-8">
-          <div>
-            <SectionHeader
-              dotColor="bg-blue-500"
-              title="勝部決賽"
-              description="勝者晉冠軍戰，敗者進敗部決賽"
-            />
-            {winnersRound2.length > 0 ? (
-              <MatchupRow rounds={winnersRound2} />
-            ) : (
-              <p className="text-sm text-slate-500 italic py-2">待定</p>
-            )}
-          </div>
-          <div>
-            <SectionHeader
-              dotColor="bg-orange-500"
-              title="敗部第一輪"
-              description="勝者晉敗部決賽，敗者淘汰"
-            />
-            {losersRound1.length > 0 ? (
-              <MatchupRow rounds={losersRound1} />
-            ) : (
-              <p className="text-sm text-slate-500 italic py-2">待定</p>
-            )}
-          </div>
-        </div>
-      </div>
-
-      <FlowIndicator
-        winnerLabel="勝部勝者 -> 冠軍戰"
-        loserLabel="敗部敗者淘汰"
-      />
-
-      {/* Section 3: Losers Round 2 (Finals) */}
-      {(losersRound2.length > 0 || rounds.some(r => r.roundId === 'top4-l2')) && (
-        <>
-          <div className="bg-slate-900/30 rounded-lg p-4 border border-slate-800">
-            <SectionHeader
-              dotColor="bg-orange-500"
-              title="敗部決賽"
-              description="勝者晉冠軍戰，敗者淘汰"
-            />
-            {losersRound2.length > 0 ? (
-              <MatchupRow rounds={losersRound2} />
-            ) : (
-              <p className="text-sm text-slate-500 italic py-2">待定</p>
-            )}
-          </div>
-          <div className="flex items-center gap-1 text-xs text-amber-400 px-2 my-2">
-            <span>&#8595;</span>
-            <span>{'勝者 -> 冠軍戰'}</span>
-          </div>
-        </>
-      )}
-
-      {/* Section 4: Championship */}
-      <div className="bg-slate-900/30 rounded-lg p-4 border border-slate-800">
-        <SectionHeader
-          dotColor="bg-amber-500"
-          title="冠軍戰"
-        />
-        {championshipMatchup ? (
-          <ChampionshipCard
-            matchup={championshipMatchup}
-            winnersBracketAdvantage={championshipRound?.winnersBracketAdvantage ?? false}
-            variant="dark"
-          />
-        ) : (
-          <p className="text-sm text-slate-500 italic py-2">待定</p>
-        )}
-      </div>
+      <BracketLines w1m1={w1m1} w1m2={w1m2} wFinal={wFinal} l1={l1} lFinal={lFinal} />
     </div>
   );
 }
