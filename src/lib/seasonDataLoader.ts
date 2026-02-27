@@ -57,7 +57,7 @@ export function getGamesByMonth(
             ...(reschedule.timeSlot && { timeSlot: reschedule.timeSlot }),
             ...(reschedule.startTime && { startTime: reschedule.startTime }),
             ...(reschedule.endTime && { endTime: reschedule.endTime }),
-            status: isLast ? game.status : 'rain',
+            status: isLast ? (game.status === 'rain' ? 'scheduled' : game.status) : 'rain',
           });
         }
       });

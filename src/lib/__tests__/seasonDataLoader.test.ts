@@ -235,6 +235,38 @@ describe('getGamesByMonth', () => {
     expect(finalMakeupGame?.homeScore).toBe(4);
   });
 
+  it('原賽況為 rain 的補賽，在補賽月份應顯示 scheduled（未打、非 rain）', () => {
+    // 模擬：原場雨延未打（status: rain），已登記補賽日但尚未進行
+    const rainRescheduled: SeasonData = {
+      season: 2025,
+      lastUpdated: '2026-02-27T00:00:00Z',
+      calendarRange: { start: '2025-04', end: '2026-04' },
+      standings: { source: 'manual', teams: [] },
+      games: {
+        'testGame': {
+          date: '2026-01-24',
+          homeTeam: 'A',
+          awayTeam: 'B',
+          venue: '中正A',
+          timeSlot: '上午',
+          startTime: '08:00',
+          endTime: '11:00',
+          status: 'rain',
+          homeScore: null,
+          awayScore: null,
+          sheetId: '',
+          rescheduledDates: [{ date: '2026-03-07' }],
+        },
+      },
+    };
+    const result = getGamesByMonth(rainRescheduled, 2026, 3);
+
+    const makeupGame = result.find((g) => g.gameNumber === 'testGame');
+    expect(makeupGame).toBeDefined();
+    expect(makeupGame?.date).toBe('2026-03-07');
+    expect(makeupGame?.status).toBe('scheduled');
+  });
+
   it('rescheduledDates 為空陣列時，不應在其他月份出現', () => {
     // 2025211 has rescheduledDates: [], original date 2025-02-01
     const resultMarch = getGamesByMonth(mockSeasonData, 2025, 3);
