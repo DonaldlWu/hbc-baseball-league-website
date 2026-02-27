@@ -16,7 +16,7 @@ global.fetch = jest.fn();
 const mockSeasonData: SeasonData = {
   season: 2025,
   lastUpdated: '2026-02-18T00:00:00Z',
-  calendarRange: { start: '2025-04', end: '2026-02' },
+  calendarRange: { start: '2025-04', end: '2026-03' },
   standings: {
     source: 'manual',
     teams: [
@@ -133,7 +133,7 @@ const mockSeasonData: SeasonData = {
 };
 
 const mockSeasonIndex: SeasonIndexEntry[] = [
-  { season: 2025, start: '2025-04', end: '2026-02' },
+  { season: 2025, start: '2025-04', end: '2026-03' },
   { season: 2026, start: '2026-03', end: '2027-02' },
 ];
 
@@ -340,7 +340,7 @@ describe('loadSeasonIndex', () => {
     expect(result).toHaveLength(2);
     expect(result[0].season).toBe(2025);
     expect(result[0].start).toBe('2025-04');
-    expect(result[0].end).toBe('2026-02');
+    expect(result[0].end).toBe('2026-03');
     expect(global.fetch).toHaveBeenCalledWith('/data/seasons/index.json');
   });
 
@@ -367,9 +367,9 @@ describe('findSeasonByMonth', () => {
     expect(result).toBe(2025);
   });
 
-  it('2026 年 3 月應回傳 2026 賽季（新賽季起始月）', () => {
+  it('2026 年 3 月應回傳 2025 賽季（2025 賽季末月因補賽延伸至三月）', () => {
     const result = findSeasonByMonth(mockSeasonIndex, 2026, 3);
-    expect(result).toBe(2026);
+    expect(result).toBe(2025);
   });
 
   it('2025 年 4 月應回傳 2025 賽季（賽季開幕月）', () => {
@@ -486,7 +486,7 @@ describe('loadGamesByCalendarMonth', () => {
     expect(game2025207?.result).toBeUndefined();
   });
 
-  it('2026 年 3 月應從 2026 賽季載入資料', async () => {
+  it('2026 年 3 月應同時從 2025 及 2026 賽季載入資料（2025 有補賽）', async () => {
     const mockSeason2026: SeasonData = {
       season: 2026,
       lastUpdated: '2026-02-18T00:00:00Z',
@@ -497,7 +497,7 @@ describe('loadGamesByCalendarMonth', () => {
           date: '2026-03-07',
           homeTeam: 'Line Drive',
           awayTeam: '永春TB',
-          venue: '中正A',
+          venue: '中正B',
           timeSlot: '上午',
           startTime: '08:00',
           endTime: '11:00',
@@ -516,14 +516,24 @@ describe('loadGamesByCalendarMonth', () => {
       })
       .mockResolvedValueOnce({
         ok: true,
+        json: async () => mockSeasonData,
+      })
+      .mockResolvedValueOnce({
+        ok: true,
         json: async () => mockSeason2026,
       });
 
     const result = await loadGamesByCalendarMonth(2026, 3);
 
+    expect(global.fetch).toHaveBeenCalledWith('/data/seasons/2025.json');
     expect(global.fetch).toHaveBeenCalledWith('/data/seasons/2026.json');
+    // mockSeasonData 的 2025208 有 rescheduledDate: 2026-03-07（中正A）
+    // mockSeason2026 的 2026101 在 2026-03-07（中正B）
     expect(result).toHaveLength(1);
     expect(result[0].date).toBe('2026-03-07');
+    const venues = Object.keys(result[0].venues);
+    expect(venues).toContain('中正A');
+    expect(venues).toContain('中正B');
   });
 
   it('無比賽的月份應回傳空陣列', async () => {
