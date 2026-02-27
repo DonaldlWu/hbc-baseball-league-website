@@ -194,7 +194,22 @@ export async function loadGamesByCalendarMonth(
   const target = `${calYear}-${calMonth.toString().padStart(2, '0')}`;
 
   const matchingSeasons = index.filter((entry) => entry.start <= target && target <= entry.end);
-  const seasonsToLoad = matchingSeasons.length > 0 ? matchingSeasons : [index[0]];
+
+  // 除了符合區間的賽季，額外載入緊鄰的前一個賽季，
+  // 確保前一賽季因雨延補賽跨出 calendarRange 時仍能正確顯示。
+  let seasonsToLoad: SeasonIndexEntry[];
+  if (matchingSeasons.length === 0) {
+    seasonsToLoad = [index[0]];
+  } else {
+    const firstMatchIdx = index.indexOf(matchingSeasons[0]);
+    if (firstMatchIdx > 0) {
+      const prevSeason = index[firstMatchIdx - 1];
+      const alreadyIncluded = matchingSeasons.some((s) => s.season === prevSeason.season);
+      seasonsToLoad = alreadyIncluded ? matchingSeasons : [prevSeason, ...matchingSeasons];
+    } else {
+      seasonsToLoad = matchingSeasons;
+    }
+  }
 
   const allGames: Array<SeasonGame & { gameNumber: string }> = [];
   for (const entry of seasonsToLoad) {

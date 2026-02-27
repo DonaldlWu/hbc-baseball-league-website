@@ -16,7 +16,7 @@ global.fetch = jest.fn();
 const mockSeasonData: SeasonData = {
   season: 2025,
   lastUpdated: '2026-02-18T00:00:00Z',
-  calendarRange: { start: '2025-04', end: '2026-03' },
+  calendarRange: { start: '2025-04', end: '2026-02' },
   standings: {
     source: 'manual',
     teams: [
@@ -133,8 +133,8 @@ const mockSeasonData: SeasonData = {
 };
 
 const mockSeasonIndex: SeasonIndexEntry[] = [
-  { season: 2025, start: '2025-04', end: '2026-03' },
-  { season: 2026, start: '2026-03', end: '2027-02' },
+  { season: 2025, start: '2025-04', end: '2026-02' },
+  { season: 2026, start: '2026-02', end: '2027-02' },
 ];
 
 describe('loadSeasonData', () => {
@@ -340,7 +340,7 @@ describe('loadSeasonIndex', () => {
     expect(result).toHaveLength(2);
     expect(result[0].season).toBe(2025);
     expect(result[0].start).toBe('2025-04');
-    expect(result[0].end).toBe('2026-03');
+    expect(result[0].end).toBe('2026-02');
     expect(global.fetch).toHaveBeenCalledWith('/data/seasons/index.json');
   });
 
@@ -367,9 +367,9 @@ describe('findSeasonByMonth', () => {
     expect(result).toBe(2025);
   });
 
-  it('2026 年 3 月應回傳 2025 賽季（2025 賽季末月因補賽延伸至三月）', () => {
+  it('2026 年 3 月應回傳 2026 賽季（2025 補賽由程式碼自動載入，不依賴 calendarRange）', () => {
     const result = findSeasonByMonth(mockSeasonIndex, 2026, 3);
-    expect(result).toBe(2025);
+    expect(result).toBe(2026);
   });
 
   it('2025 年 4 月應回傳 2025 賽季（賽季開幕月）', () => {
@@ -468,6 +468,14 @@ describe('loadGamesByCalendarMonth', () => {
   });
 
   it('未比賽的比賽 result 欄位應為 undefined', async () => {
+    // 2026-02 同時落在 2025（end '2026-02'）與 2026（start '2026-02'）區間，兩個賽季都會被載入
+    const mock2026Data: SeasonData = {
+      season: 2026,
+      lastUpdated: '2026-02-19T00:00:00Z',
+      calendarRange: { start: '2026-02', end: '2027-02' },
+      standings: { source: 'manual', teams: [] },
+      games: {},
+    };
     (global.fetch as jest.Mock)
       .mockResolvedValueOnce({
         ok: true,
@@ -476,6 +484,10 @@ describe('loadGamesByCalendarMonth', () => {
       .mockResolvedValueOnce({
         ok: true,
         json: async () => mockSeasonData,
+      })
+      .mockResolvedValueOnce({
+        ok: true,
+        json: async () => mock2026Data,
       });
 
     const result = await loadGamesByCalendarMonth(2026, 2);
@@ -537,6 +549,14 @@ describe('loadGamesByCalendarMonth', () => {
   });
 
   it('無比賽的月份應回傳空陣列', async () => {
+    // 2026-05 僅匹配 2026 賽季，但程式碼會額外載入前一個賽季（2025）
+    const mock2026Data: SeasonData = {
+      season: 2026,
+      lastUpdated: '2026-02-19T00:00:00Z',
+      calendarRange: { start: '2026-02', end: '2027-02' },
+      standings: { source: 'manual', teams: [] },
+      games: {},
+    };
     (global.fetch as jest.Mock)
       .mockResolvedValueOnce({
         ok: true,
@@ -544,7 +564,11 @@ describe('loadGamesByCalendarMonth', () => {
       })
       .mockResolvedValueOnce({
         ok: true,
-        json: async () => mockSeasonData,
+        json: async () => mockSeasonData,  // 前一賽季（2025）
+      })
+      .mockResolvedValueOnce({
+        ok: true,
+        json: async () => mock2026Data,    // 匹配賽季（2026）
       });
 
     const result = await loadGamesByCalendarMonth(2026, 5);
