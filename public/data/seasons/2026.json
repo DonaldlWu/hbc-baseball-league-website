@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "lastUpdated": "2026-03-02T22:57:47",
+  "lastUpdated": "2026-03-02T23:06:12",
   "calendarRange": {
     "start": "2026-02",
     "end": "2027-02"
@@ -16,6 +16,15 @@
         "draws": 0,
         "runsScored": 18.0,
         "runsAllowed": 1.0
+      },
+      {
+        "teamId": "ARP",
+        "teamName": "Aaron Prosecutor",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 16.0,
+        "runsAllowed": 5.0
       },
       {
         "teamId": "ROO",
@@ -34,6 +43,42 @@
         "draws": 0,
         "runsScored": 8.0,
         "runsAllowed": 4.0
+      },
+      {
+        "teamId": "REV",
+        "teamName": "逆轉星球",
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "runsScored": 8.0,
+        "runsAllowed": 11.0
+      },
+      {
+        "teamId": "MIR",
+        "teamName": "MIRACLE",
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "runsScored": 5.0,
+        "runsAllowed": 16.0
+      },
+      {
+        "teamId": "SHA",
+        "teamName": "少林棒球隊",
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "runsScored": 4.0,
+        "runsAllowed": 8.0
+      },
+      {
+        "teamId": "SAK",
+        "teamName": "櫻砲魂",
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "runsScored": 1.0,
+        "runsAllowed": 18.0
       },
       {
         "teamId": "PHE",
@@ -162,15 +207,6 @@
         "runsAllowed": 0.0
       },
       {
-        "teamId": "MIR",
-        "teamName": "MIRACLE",
-        "wins": 0,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 0.0,
-        "runsAllowed": 0.0
-      },
-      {
         "teamId": "HOL",
         "teamName": "HOLYBAT",
         "wins": 0,
@@ -187,42 +223,6 @@
         "draws": 0,
         "runsScored": 0.0,
         "runsAllowed": 0.0
-      },
-      {
-        "teamId": "ARP",
-        "teamName": "Aaron Prosecutor",
-        "wins": 0,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 0.0,
-        "runsAllowed": 0.0
-      },
-      {
-        "teamId": "REV",
-        "teamName": "逆轉星球",
-        "wins": 0,
-        "losses": 1,
-        "draws": 0,
-        "runsScored": 8.0,
-        "runsAllowed": 11.0
-      },
-      {
-        "teamId": "SHA",
-        "teamName": "少林棒球隊",
-        "wins": 0,
-        "losses": 1,
-        "draws": 0,
-        "runsScored": 4.0,
-        "runsAllowed": 8.0
-      },
-      {
-        "teamId": "SAK",
-        "teamName": "櫻砲魂",
-        "wins": 0,
-        "losses": 1,
-        "draws": 0,
-        "runsScored": 1.0,
-        "runsAllowed": 18.0
       }
     ]
   },

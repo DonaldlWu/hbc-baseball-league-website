@@ -1,6 +1,6 @@
 {
   "season": 2025,
-  "lastUpdated": "2026-03-02T22:57:38",
+  "lastUpdated": "2026-03-02T23:06:12",
   "calendarRange": {
     "start": "2025-04",
     "end": "2026-02"
@@ -20,20 +20,20 @@
       {
         "teamId": "YCT",
         "teamName": "永春TB",
-        "wins": 13,
+        "wins": 14,
         "losses": 4,
         "draws": 1,
-        "runsAllowed": 6.722,
-        "runsScored": 9.0
+        "runsAllowed": 6.474,
+        "runsScored": 8.842
       },
       {
         "teamId": "PHE",
         "teamName": "飛尼克斯",
-        "wins": 13,
+        "wins": 14,
         "losses": 6,
         "draws": 0,
-        "runsAllowed": 5.632,
-        "runsScored": 10.947
+        "runsAllowed": 5.75,
+        "runsScored": 11.15
       },
       {
         "teamId": "HUA",
@@ -45,15 +45,6 @@
         "runsScored": 10.0
       },
       {
-        "teamId": "TRO",
-        "teamName": "楚奧特",
-        "wins": 12,
-        "losses": 5,
-        "draws": 1,
-        "runsAllowed": 6.278,
-        "runsScored": 11.5
-      },
-      {
         "teamId": "ACE",
         "teamName": "ACES",
         "wins": 12,
@@ -61,6 +52,24 @@
         "draws": 1,
         "runsAllowed": 7.737,
         "runsScored": 12.579
+      },
+      {
+        "teamId": "TRO",
+        "teamName": "楚奧特",
+        "wins": 12,
+        "losses": 6,
+        "draws": 1,
+        "runsAllowed": 6.737,
+        "runsScored": 11.316
+      },
+      {
+        "teamId": "YAN",
+        "teamName": "陽明OB",
+        "wins": 11,
+        "losses": 6,
+        "draws": 1,
+        "runsAllowed": 6.056,
+        "runsScored": 10.556
       },
       {
         "teamId": "MUZ",
@@ -72,6 +81,15 @@
         "runsScored": 9.556
       },
       {
+        "teamId": "SWD",
+        "teamName": "甜心暴龍",
+        "wins": 11,
+        "losses": 7,
+        "draws": 1,
+        "runsAllowed": 7.474,
+        "runsScored": 9.421
+      },
+      {
         "teamId": "NTM",
         "teamName": "Mechanics",
         "wins": 11,
@@ -81,31 +99,13 @@
         "runsScored": 8.368
       },
       {
-        "teamId": "YAN",
-        "teamName": "陽明OB",
+        "teamId": "SHU",
+        "teamName": "世新超乙組",
         "wins": 10,
-        "losses": 6,
+        "losses": 8,
         "draws": 1,
-        "runsAllowed": 6.176,
-        "runsScored": 10.882
-      },
-      {
-        "teamId": "SWD",
-        "teamName": "甜心暴龍",
-        "wins": 10,
-        "losses": 7,
-        "draws": 1,
-        "runsAllowed": 7.778,
-        "runsScored": 9.167
-      },
-      {
-        "teamId": "REV",
-        "teamName": "逆轉星球",
-        "wins": 10,
-        "losses": 9,
-        "draws": 0,
-        "runsAllowed": 6.211,
-        "runsScored": 7.316
+        "runsAllowed": 6.316,
+        "runsScored": 7.684
       },
       {
         "teamId": "SCO",
@@ -117,13 +117,22 @@
         "runsScored": 7.684
       },
       {
-        "teamId": "SHU",
-        "teamName": "世新超乙組",
+        "teamId": "REV",
+        "teamName": "逆轉星球",
+        "wins": 10,
+        "losses": 9,
+        "draws": 0,
+        "runsAllowed": 6.211,
+        "runsScored": 7.316
+      },
+      {
+        "teamId": "NTE",
+        "teamName": "台大經濟OB",
         "wins": 9,
-        "losses": 8,
+        "losses": 10,
         "draws": 1,
-        "runsAllowed": 6.111,
-        "runsScored": 7.389
+        "runsAllowed": 10.0,
+        "runsScored": 9.15
       },
       {
         "teamId": "DHW",
@@ -147,19 +156,10 @@
         "teamId": "EAG",
         "teamName": "火把老鷹",
         "wins": 8,
-        "losses": 10,
+        "losses": 11,
         "draws": 1,
-        "runsAllowed": 8.895,
-        "runsScored": 8.684
-      },
-      {
-        "teamId": "NTE",
-        "teamName": "台大經濟OB",
-        "wins": 8,
-        "losses": 10,
-        "draws": 1,
-        "runsAllowed": 10.368,
-        "runsScored": 9.158
+        "runsAllowed": 8.9,
+        "runsScored": 8.4
       },
       {
         "teamId": "MIR",
@@ -171,40 +171,40 @@
         "runsScored": 6.667
       },
       {
-        "teamId": "SHA",
-        "teamName": "少林棒球隊",
-        "wins": 2,
-        "losses": 14,
-        "draws": 1,
-        "runsAllowed": 12.294,
-        "runsScored": 5.0
-      },
-      {
         "teamId": "HOL",
         "teamName": "HOLYBAT",
         "wins": 2,
-        "losses": 16,
+        "losses": 17,
         "draws": 1,
-        "runsAllowed": 16.158,
-        "runsScored": 5.263
+        "runsAllowed": 15.6,
+        "runsScored": 5.2
       },
       {
-        "teamId": "NTH",
-        "teamName": "台大醫學院棒",
+        "teamId": "SHA",
+        "teamName": "少林棒球隊",
         "wins": 2,
-        "losses": 16,
-        "draws": 0,
-        "runsAllowed": 13.833,
-        "runsScored": 5.111
+        "losses": 15,
+        "draws": 1,
+        "runsAllowed": 12.389,
+        "runsScored": 4.833
       },
       {
         "teamId": "GEO",
         "teamName": "十號馬",
         "wins": 2,
+        "losses": 18,
+        "draws": 0,
+        "runsAllowed": 15.1,
+        "runsScored": 5.65
+      },
+      {
+        "teamId": "NTH",
+        "teamName": "台大醫學院棒",
+        "wins": 2,
         "losses": 17,
         "draws": 0,
-        "runsAllowed": 15.579,
-        "runsScored": 5.842
+        "runsAllowed": 13.789,
+        "runsScored": 5.368
       }
     ]
   },
