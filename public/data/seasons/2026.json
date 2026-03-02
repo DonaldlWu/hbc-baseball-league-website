@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "lastUpdated": "2026-02-26T00:00:00Z",
+  "lastUpdated": "2026-03-02T22:57:47",
   "calendarRange": {
     "start": "2026-02",
     "end": "2027-02"
@@ -8,30 +8,222 @@
   "standings": {
     "source": "calculated",
     "teams": [
-      { "teamId": "TRO", "teamName": "楚奧特",        "wins": 1, "losses": 0, "draws": 0, "runsScored": 18.0, "runsAllowed": 1.0 },
-      { "teamId": "ROO", "teamName": "Line Drive",    "wins": 1, "losses": 0, "draws": 0, "runsScored": 11.0, "runsAllowed": 8.0 },
-      { "teamId": "GEO", "teamName": "十號馬",         "wins": 1, "losses": 0, "draws": 0, "runsScored": 8.0,  "runsAllowed": 4.0 },
-      { "teamId": "PHE", "teamName": "飛尼克斯",       "wins": 0, "losses": 0, "draws": 0, "runsScored": 0.0,  "runsAllowed": 0.0 },
-      { "teamId": "YCT", "teamName": "永春TB",         "wins": 0, "losses": 0, "draws": 0, "runsScored": 0.0,  "runsAllowed": 0.0 },
-      { "teamId": "ACE", "teamName": "ACES",           "wins": 0, "losses": 0, "draws": 0, "runsScored": 0.0,  "runsAllowed": 0.0 },
-      { "teamId": "HUA", "teamName": "華江OB",         "wins": 0, "losses": 0, "draws": 0, "runsScored": 0.0,  "runsAllowed": 0.0 },
-      { "teamId": "NTM", "teamName": "政大Mechanics",  "wins": 0, "losses": 0, "draws": 0, "runsScored": 0.0,  "runsAllowed": 0.0 },
-      { "teamId": "YAN", "teamName": "陽明OB",         "wins": 0, "losses": 0, "draws": 0, "runsScored": 0.0,  "runsAllowed": 0.0 },
-      { "teamId": "MUZ", "teamName": "木柵OB",         "wins": 0, "losses": 0, "draws": 0, "runsScored": 0.0,  "runsAllowed": 0.0 },
-      { "teamId": "SWD", "teamName": "甜心暴龍",       "wins": 0, "losses": 0, "draws": 0, "runsScored": 0.0,  "runsAllowed": 0.0 },
-      { "teamId": "SHU", "teamName": "世新超乙組",     "wins": 0, "losses": 0, "draws": 0, "runsScored": 0.0,  "runsAllowed": 0.0 },
-      { "teamId": "SCO", "teamName": "實踐OB",         "wins": 0, "losses": 0, "draws": 0, "runsScored": 0.0,  "runsAllowed": 0.0 },
-      { "teamId": "MOR", "teamName": "莫拉克",         "wins": 0, "losses": 0, "draws": 0, "runsScored": 0.0,  "runsAllowed": 0.0 },
-      { "teamId": "EAG", "teamName": "火把老鷹",       "wins": 0, "losses": 0, "draws": 0, "runsScored": 0.0,  "runsAllowed": 0.0 },
-      { "teamId": "DHW", "teamName": "DH戰將",         "wins": 0, "losses": 0, "draws": 0, "runsScored": 0.0,  "runsAllowed": 0.0 },
-      { "teamId": "NTE", "teamName": "台大經濟OB",     "wins": 0, "losses": 0, "draws": 0, "runsScored": 0.0,  "runsAllowed": 0.0 },
-      { "teamId": "MIR", "teamName": "MIRACLE",        "wins": 0, "losses": 0, "draws": 0, "runsScored": 0.0,  "runsAllowed": 0.0 },
-      { "teamId": "HOL", "teamName": "HOLYBAT",        "wins": 0, "losses": 0, "draws": 0, "runsScored": 0.0,  "runsAllowed": 0.0 },
-      { "teamId": "NTH", "teamName": "台大醫學院棒",   "wins": 0, "losses": 0, "draws": 0, "runsScored": 0.0,  "runsAllowed": 0.0 },
-      { "teamId": "ARP", "teamName": "Aaron Prosecutor","wins": 0, "losses": 0, "draws": 0, "runsScored": 0.0,  "runsAllowed": 0.0 },
-      { "teamId": "REV", "teamName": "逆轉星球",       "wins": 0, "losses": 1, "draws": 0, "runsScored": 8.0,  "runsAllowed": 11.0 },
-      { "teamId": "SHA", "teamName": "少林棒球隊",     "wins": 0, "losses": 1, "draws": 0, "runsScored": 4.0,  "runsAllowed": 8.0 },
-      { "teamId": "SAK", "teamName": "櫻砲魂",         "wins": 0, "losses": 1, "draws": 0, "runsScored": 1.0,  "runsAllowed": 18.0 }
+      {
+        "teamId": "TRO",
+        "teamName": "楚奧特",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 18.0,
+        "runsAllowed": 1.0
+      },
+      {
+        "teamId": "ROO",
+        "teamName": "Line Drive",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 11.0,
+        "runsAllowed": 8.0
+      },
+      {
+        "teamId": "GEO",
+        "teamName": "十號馬",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 8.0,
+        "runsAllowed": 4.0
+      },
+      {
+        "teamId": "PHE",
+        "teamName": "飛尼克斯",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 0.0,
+        "runsAllowed": 0.0
+      },
+      {
+        "teamId": "YCT",
+        "teamName": "永春TB",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 0.0,
+        "runsAllowed": 0.0
+      },
+      {
+        "teamId": "ACE",
+        "teamName": "ACES",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 0.0,
+        "runsAllowed": 0.0
+      },
+      {
+        "teamId": "HUA",
+        "teamName": "華江OB",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 0.0,
+        "runsAllowed": 0.0
+      },
+      {
+        "teamId": "NTM",
+        "teamName": "政大Mechanics",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 0.0,
+        "runsAllowed": 0.0
+      },
+      {
+        "teamId": "YAN",
+        "teamName": "陽明OB",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 0.0,
+        "runsAllowed": 0.0
+      },
+      {
+        "teamId": "MUZ",
+        "teamName": "木柵OB",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 0.0,
+        "runsAllowed": 0.0
+      },
+      {
+        "teamId": "SWD",
+        "teamName": "甜心暴龍",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 0.0,
+        "runsAllowed": 0.0
+      },
+      {
+        "teamId": "SHU",
+        "teamName": "世新超乙組",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 0.0,
+        "runsAllowed": 0.0
+      },
+      {
+        "teamId": "SCO",
+        "teamName": "實踐OB",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 0.0,
+        "runsAllowed": 0.0
+      },
+      {
+        "teamId": "MOR",
+        "teamName": "莫拉克",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 0.0,
+        "runsAllowed": 0.0
+      },
+      {
+        "teamId": "EAG",
+        "teamName": "火把老鷹",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 0.0,
+        "runsAllowed": 0.0
+      },
+      {
+        "teamId": "DHW",
+        "teamName": "DH戰將",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 0.0,
+        "runsAllowed": 0.0
+      },
+      {
+        "teamId": "NTE",
+        "teamName": "台大經濟OB",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 0.0,
+        "runsAllowed": 0.0
+      },
+      {
+        "teamId": "MIR",
+        "teamName": "MIRACLE",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 0.0,
+        "runsAllowed": 0.0
+      },
+      {
+        "teamId": "HOL",
+        "teamName": "HOLYBAT",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 0.0,
+        "runsAllowed": 0.0
+      },
+      {
+        "teamId": "NTH",
+        "teamName": "台大醫學院棒",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 0.0,
+        "runsAllowed": 0.0
+      },
+      {
+        "teamId": "ARP",
+        "teamName": "Aaron Prosecutor",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 0.0,
+        "runsAllowed": 0.0
+      },
+      {
+        "teamId": "REV",
+        "teamName": "逆轉星球",
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "runsScored": 8.0,
+        "runsAllowed": 11.0
+      },
+      {
+        "teamId": "SHA",
+        "teamName": "少林棒球隊",
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "runsScored": 4.0,
+        "runsAllowed": 8.0
+      },
+      {
+        "teamId": "SAK",
+        "teamName": "櫻砲魂",
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "runsScored": 1.0,
+        "runsAllowed": 18.0
+      }
     ]
   },
   "games": {
@@ -141,10 +333,10 @@
       "timeSlot": "中午",
       "startTime": "11:00",
       "endTime": "14:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": "",
+      "status": "finished",
+      "homeScore": 5,
+      "awayScore": 16,
+      "sheetId": "1RMLhAYldc6pnhvMr74jT6v2kohM7ugI8LNwMjgIpqj4",
       "note": "2026新球季"
     }
   }

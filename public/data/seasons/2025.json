@@ -1,6 +1,6 @@
 {
   "season": 2025,
-  "lastUpdated": "2026-02-26T00:00:00Z",
+  "lastUpdated": "2026-03-02T22:57:38",
   "calendarRange": {
     "start": "2025-04",
     "end": "2026-02"
@@ -252,10 +252,10 @@
       "timeSlot": "下午",
       "startTime": "14:00",
       "endTime": "17:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": "",
+      "status": "finished",
+      "homeScore": 5,
+      "awayScore": 4,
+      "sheetId": "1i6JAOIGIsUvkXqj99RaB9ppdbv_c9A4ZK6rfIwrqASI",
       "rescheduledDates": [
         {
           "date": "2026-02-28",
@@ -293,10 +293,10 @@
       "timeSlot": "上午",
       "startTime": "08:00",
       "endTime": "11:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": "",
+      "status": "finished",
+      "homeScore": 10,
+      "awayScore": 13,
+      "sheetId": "1PMhMKbykoz2NHiT8TBhIUmi8hSKGrN7GH-Ec1mulHjg",
       "rescheduledDates": [
         {
           "date": "2026-02-28"
@@ -350,10 +350,10 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 14,
+      "awayScore": 2,
+      "sheetId": "1-FYiLMJKjCZXtw5zmuNAzC2lTtkL0ZQ_JXWpFQrFFbE"
     },
     "202576": {
       "date": "2026-01-24",
@@ -368,7 +368,13 @@
       "awayScore": null,
       "sheetId": "",
       "rescheduledDates": [
-        { "date": "2026-03-07", "venue": "中正A", "timeSlot": "下午", "startTime": "14:30", "endTime": "17:00" }
+        {
+          "date": "2026-03-07",
+          "venue": "中正A",
+          "timeSlot": "下午",
+          "startTime": "14:30",
+          "endTime": "17:00"
+        }
       ]
     },
     "202577": {
@@ -392,10 +398,10 @@
       "timeSlot": "下午",
       "startTime": "14:00",
       "endTime": "17:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": "",
+      "status": "finished",
+      "homeScore": 8,
+      "awayScore": 15,
+      "sheetId": "13FETcDY7tvemWqMimskGPNIu5XOjJsjzMlIid1eBNF0",
       "rescheduledDates": [
         {
           "date": "2026-02-28"
@@ -415,7 +421,13 @@
       "awayScore": null,
       "sheetId": "",
       "rescheduledDates": [
-        { "date": "2026-03-28", "venue": "中正A", "timeSlot": "中午", "startTime": "11:00", "endTime": "14:00" }
+        {
+          "date": "2026-03-28",
+          "venue": "中正A",
+          "timeSlot": "中午",
+          "startTime": "11:00",
+          "endTime": "14:00"
+        }
       ]
     },
     "202591": {
@@ -426,10 +438,10 @@
       "timeSlot": "下午",
       "startTime": "14:00",
       "endTime": "17:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 6,
+      "awayScore": 2,
+      "sheetId": "17mfrzv6O6rgCpsRuIiIvIK9nt1zg-5bUqUGU3QJWVpg"
     },
     "202593": {
       "date": "2026-01-24",
@@ -439,10 +451,10 @@
       "timeSlot": "中午",
       "startTime": "11:00",
       "endTime": "14:00",
-      "status": "rain",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 9,
+      "awayScore": 3,
+      "sheetId": "1fSCX8jm54PDgkTwHQqu3pLZUKBUZmiNsY22WOl1iMz0"
     },
     "202595": {
       "date": "2026-02-07",
@@ -457,7 +469,13 @@
       "awayScore": null,
       "sheetId": "",
       "rescheduledDates": [
-        { "date": "2026-03-21", "venue": "中正A", "timeSlot": "下午", "startTime": "14:30", "endTime": "17:00" }
+        {
+          "date": "2026-03-21",
+          "venue": "中正A",
+          "timeSlot": "下午",
+          "startTime": "14:30",
+          "endTime": "17:00"
+        }
       ]
     },
     "202598": {
@@ -486,7 +504,13 @@
       "awayScore": null,
       "sheetId": "",
       "rescheduledDates": [
-        { "date": "2026-03-28", "venue": "中正A", "timeSlot": "上午", "startTime": "08:00", "endTime": "11:00" }
+        {
+          "date": "2026-03-28",
+          "venue": "中正A",
+          "timeSlot": "上午",
+          "startTime": "08:00",
+          "endTime": "11:00"
+        }
       ]
     },
     "2025106": {
@@ -502,7 +526,13 @@
       "awayScore": null,
       "sheetId": "",
       "rescheduledDates": [
-        { "date": "2026-03-14", "venue": "清溪", "timeSlot": "中午", "startTime": "12:00", "endTime": "14:30" }
+        {
+          "date": "2026-03-14",
+          "venue": "清溪",
+          "timeSlot": "中午",
+          "startTime": "12:00",
+          "endTime": "14:30"
+        }
       ]
     },
     "2025120": {
@@ -518,7 +548,13 @@
       "awayScore": null,
       "sheetId": "",
       "rescheduledDates": [
-        { "date": "2026-03-14", "venue": "中正A", "timeSlot": "上午", "startTime": "08:00", "endTime": "11:00" }
+        {
+          "date": "2026-03-14",
+          "venue": "中正A",
+          "timeSlot": "上午",
+          "startTime": "08:00",
+          "endTime": "11:00"
+        }
       ]
     },
     "2025121": {
@@ -582,7 +618,13 @@
       "awayScore": null,
       "sheetId": "",
       "rescheduledDates": [
-        { "date": "2026-03-07", "venue": "中正A", "timeSlot": "中午", "startTime": "12:00", "endTime": "14:30" }
+        {
+          "date": "2026-03-07",
+          "venue": "中正A",
+          "timeSlot": "中午",
+          "startTime": "12:00",
+          "endTime": "14:30"
+        }
       ]
     },
     "2025135": {
@@ -650,7 +692,13 @@
       "awayScore": null,
       "sheetId": "",
       "rescheduledDates": [
-        { "date": "2026-03-21", "venue": "中正A", "timeSlot": "中午", "startTime": "12:00", "endTime": "14:30" }
+        {
+          "date": "2026-03-21",
+          "venue": "中正A",
+          "timeSlot": "中午",
+          "startTime": "12:00",
+          "endTime": "14:30"
+        }
       ]
     },
     "2025180": {
@@ -773,7 +821,13 @@
           "startTime": "08:00",
           "endTime": "11:00"
         },
-        { "date": "2026-03-14", "venue": "清溪", "timeSlot": "下午", "startTime": "14:30", "endTime": "17:00" }
+        {
+          "date": "2026-03-14",
+          "venue": "清溪",
+          "timeSlot": "下午",
+          "startTime": "14:30",
+          "endTime": "17:00"
+        }
       ]
     },
     "2025209": {
