@@ -1,0 +1,52 @@
+{
+  "id": "HOL113",
+  "code": "HOL113",
+  "name": "陳慶宇",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPjUueKWMe_yoC6YIppt4QV0NykCED00YUs7k9R4v2Yitnsrkl--mETSUsY6opGCa4abNM7Q8pi2bdfoEHYuTvLjjVVy_-qdGuMe3TQeZnXoQKoKcVzmvbWW0aShWfxrnDHpOzDw9ZcsLhokN-Evny16A=w310-h335",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "HOLYBAT",
+      "number": "66",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1054,
+        "hits": 1409,
+        "hr": 871,
+        "rbi": 1353,
+        "avg": 1127,
+        "w": 564,
+        "sv": 514,
+        "so": 734,
+        "era": 1127,
+        "whip": 1127,
+        "fip": 0
+      }
+    }
+  ]
+}

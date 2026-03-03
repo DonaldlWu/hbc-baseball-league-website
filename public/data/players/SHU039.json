@@ -16,21 +16,21 @@
       "team": "世新超乙組",
       "number": "66",
       "batting": {
-        "games": 5,
-        "pa": 11,
-        "ab": 8,
-        "hits": 1,
-        "singles": 1,
-        "doubles": 0,
+        "games": 6,
+        "pa": 16,
+        "ab": 12,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
         "triples": 0,
         "hr": 0,
-        "rbi": 1,
-        "runs": 1,
-        "bb": 3,
+        "rbi": 3,
+        "runs": 3,
+        "bb": 4,
         "so": 0,
         "sb": 0,
         "sf": 0,
-        "totalBases": 1
+        "totalBases": 5
       },
       "pitching": {
         "games": 2,
@@ -47,7 +47,7 @@
         "sv": 0,
         "hld": 0,
         "cs": 0,
-        "csAttempts": 9
+        "csAttempts": 10
       },
       "pitchingCalculated": {
         "era": 0,
@@ -59,16 +59,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 468,
-        "hits": 543,
-        "hr": 1171,
-        "rbi": 476,
-        "avg": 1112,
-        "w": 23,
+        "rc": 257,
+        "hits": 298,
+        "hr": 1243,
+        "rbi": 283,
+        "avg": 1127,
+        "w": 24,
         "sv": 1442,
         "so": 117,
-        "era": 1112,
-        "whip": 460,
+        "era": 1127,
+        "whip": 461,
         "fip": 0
       }
     }

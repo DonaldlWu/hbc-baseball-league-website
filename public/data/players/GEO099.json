@@ -2,77 +2,15 @@
   "id": "GEO099",
   "code": "GEO099",
   "name": "陳麒鈞",
-  "photo": "https://lh3.googleusercontent.com/YY3NTeNoub7fMy74D08aL8BNEWfPtRmD9CgDpSizSpmBsBTZeGjFtoQaz2cTG6oGRCGRS5Ke5rEQ9Ov8Lx85xKPRWFEsK0hL3NGSeR6EF0sbZedAQ9ia1H9KFz4WAw9jM7NZ8-K5XI5_YRqq-e7FpDux-vNqk_se3ji-tJ29vKj51en9t5fZ4dXAFCfvV4QlOF9HSYhggv68Dfm7c1srYDrRhg-xtMtyV45QHoaCTE7IAnn9arle5IpYCTy4lqrVGPFXjuyZSuEom5lAWQqSGbz8mi9Np7at9cX7DD3BlESgQPpVwOm4JMURIjVqBUUyYF2MKbBOKTHUCHLwY1LyxJVmF14uaGnhUZBOq9p9ifqZiA-PUrxQOoOHu8m4G81eIAfXvIaNkPFWENnGxXul35JOjaeN4pogJmX6FXnOoWevkIN1GCvWJ8zmDri-0hdGfUDKAa8oyqysy5iZ7QTqksRc2J9RRP1fYihnOsgmRTB3vQUhUFY514gM8zN9Tq1uf4fgODD933GzbmDq3n3YyITHSDI_q8rTjzA7lLkxRYxdem1bLhxZaruj4QdB9uzLITm1SZ2ngzDTNhiUxZc3Rsax8AMvQ-g_I3g33j7WKH_YkIVDuloaW51dy1gGJreBXz_6GMerUxpRmRQ_ywlocqrH3Ndsa4PycgqMD9rFRIlzNkZxQ8HX3kGGg4nHNw=w450-h650",
+  "photo": "https://lh3.googleusercontent.com/pw/AL9nZEUceZ756yuQt_mp21O1S7iHgDvxumulY0pmIMQ0nH0X8fdl3qe0prhg2T_zhd6nLtBfpce0gT1B56EccWiD2S4ULE1E9MXhR_m0fLvDMKVwRIS12DdtiDjKNW3xyLZhTZ67eoDJBnAR4lcswnX4XuwX_Q=w310-h335-no",
   "career": {
     "debut": 2022,
     "teams": [
-      "楚奧特",
       "十號馬"
     ],
-    "totalSeasons": 5
+    "totalSeasons": 4
   },
   "seasons": [
-    {
-      "year": 2025,
-      "team": "楚奧特",
-      "number": "79",
-      "batting": {
-        "games": 1,
-        "pa": 2,
-        "ab": 2,
-        "hits": 1,
-        "singles": 0,
-        "doubles": 1,
-        "triples": 0,
-        "hr": 0,
-        "rbi": 0,
-        "runs": 1,
-        "bb": 0,
-        "so": 0,
-        "sb": 0,
-        "sf": 0,
-        "totalBases": 2
-      },
-      "pitching": {
-        "games": 1,
-        "ip": 1.666666667,
-        "bf": 10,
-        "so": 5,
-        "bb": 1,
-        "h": 3,
-        "hr": 0,
-        "r": 4,
-        "er": 1,
-        "w": 0,
-        "l": 0,
-        "sv": 0,
-        "hld": 0,
-        "cs": 0,
-        "csAttempts": 0
-      },
-      "pitchingCalculated": {
-        "era": 5.399999998919999,
-        "whip": 2.39999999952,
-        "fip": null,
-        "kPer9": 26.9999999946,
-        "bbPer9": 5.399999998919999,
-        "hPer9": 16.19999999676,
-        "csPercentage": 0
-      },
-      "rankings": {
-        "rc": 492,
-        "hits": 457,
-        "hr": 902,
-        "rbi": 1371,
-        "avg": 1112,
-        "w": 1412,
-        "sv": 1359,
-        "so": 125,
-        "era": 1112,
-        "whip": 606,
-        "fip": 0
-      }
-    },
     {
       "year": 2025,
       "team": "十號馬",
@@ -121,15 +59,15 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 317,
-        "hits": 322,
-        "hr": 1091,
-        "rbi": 327,
-        "avg": 1112,
+        "rc": 319,
+        "hits": 334,
+        "hr": 1087,
+        "rbi": 333,
+        "avg": 1127,
         "w": 1504,
         "sv": 1460,
-        "so": 80,
-        "era": 1112,
+        "so": 83,
+        "era": 1127,
         "whip": 522,
         "fip": 0
       }

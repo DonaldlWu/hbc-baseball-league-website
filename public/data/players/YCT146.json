@@ -1,0 +1,52 @@
+{
+  "id": "YCT146",
+  "code": "YCT146",
+  "name": "畢智翔",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPUfLo-Ihb0GifbpZWH8j7zIlmqFf2KBlS_UEy7-R_Bm1wAP1HN2Z1cZgW3N8rI5Jnx-cnj_B9wsK3X08bmuJfeK56279WwY1SBR7MgqtRHxqmKU6_uhKSc-dwOhEWPOAOFfD54swYnm9fDZTEkolNQ=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "永春TB",
+      "number": "81",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 808,
+        "hits": 718,
+        "hr": 175,
+        "rbi": 660,
+        "avg": 1127,
+        "w": 369,
+        "sv": 319,
+        "so": 539,
+        "era": 1127,
+        "whip": 1127,
+        "fip": 0
+      }
+    }
+  ]
+}

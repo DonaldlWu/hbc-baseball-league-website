@@ -15,7 +15,7 @@
     {
       "year": 2025,
       "team": "莫拉克",
-      "number": "12",
+      "number": "6",
       "batting": {
         "games": 8,
         "pa": 9,
@@ -53,24 +53,24 @@
       "pitchingCalculated": {
         "era": 3.6,
         "whip": 2.5,
-        "fip": 6.300000147,
+        "fip": 6.300000145,
         "kPer9": 9,
         "bbPer9": 15.3,
         "hPer9": 7.2,
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 360,
-        "hits": 532,
-        "hr": 1125,
-        "rbi": 262,
-        "avg": 1112,
+        "rc": 368,
+        "hits": 538,
+        "hr": 1122,
+        "rbi": 268,
+        "avg": 1127,
         "w": 70,
-        "sv": 1483,
-        "so": 84,
-        "era": 1112,
-        "whip": 141,
-        "fip": 77
+        "sv": 1479,
+        "so": 85,
+        "era": 1127,
+        "whip": 102,
+        "fip": 76
       }
     },
     {

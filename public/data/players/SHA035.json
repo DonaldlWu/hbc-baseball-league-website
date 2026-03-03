@@ -16,9 +16,9 @@
       "team": "少林棒球隊",
       "number": "28",
       "batting": {
-        "games": 1,
-        "pa": 3,
-        "ab": 2,
+        "games": 2,
+        "pa": 6,
+        "ab": 5,
         "hits": 0,
         "singles": 0,
         "doubles": 0,
@@ -27,7 +27,7 @@
         "rbi": 0,
         "runs": 0,
         "bb": 1,
-        "so": 2,
+        "so": 4,
         "sb": 0,
         "sf": 0,
         "totalBases": 0
@@ -35,16 +35,16 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 611,
-        "hits": 1459,
-        "hr": 949,
-        "rbi": 1410,
-        "avg": 1112,
-        "w": 833,
-        "sv": 782,
-        "so": 1002,
-        "era": 1112,
-        "whip": 1112,
+        "rc": 1081,
+        "hits": 1508,
+        "hr": 1065,
+        "rbi": 1476,
+        "avg": 1127,
+        "w": 847,
+        "sv": 797,
+        "so": 1017,
+        "era": 1127,
+        "whip": 1127,
         "fip": 0
       }
     }

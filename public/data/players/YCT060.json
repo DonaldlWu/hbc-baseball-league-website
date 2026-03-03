@@ -16,9 +16,9 @@
       "team": "永春TB",
       "number": "9",
       "batting": {
-        "games": 12,
-        "pa": 29,
-        "ab": 22,
+        "games": 13,
+        "pa": 32,
+        "ab": 25,
         "hits": 8,
         "singles": 7,
         "doubles": 1,
@@ -27,7 +27,7 @@
         "rbi": 4,
         "runs": 7,
         "bb": 7,
-        "so": 10,
+        "so": 12,
         "sb": 2,
         "sf": 0,
         "totalBases": 9
@@ -47,7 +47,7 @@
         "sv": 0,
         "hld": 0,
         "cs": 0,
-        "csAttempts": 3
+        "csAttempts": 4
       },
       "pitchingCalculated": {
         "era": 27,
@@ -59,16 +59,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 147,
-        "hits": 170,
-        "hr": 1367,
-        "rbi": 240,
-        "avg": 1112,
-        "w": 1432,
-        "sv": 1380,
-        "so": 256,
-        "era": 1112,
-        "whip": 163,
+        "rc": 160,
+        "hits": 176,
+        "hr": 1382,
+        "rbi": 245,
+        "avg": 1127,
+        "w": 1429,
+        "sv": 1378,
+        "so": 257,
+        "era": 1127,
+        "whip": 164,
         "fip": 0
       }
     },

@@ -1,0 +1,52 @@
+{
+  "id": "YCT145",
+  "code": "YCT145",
+  "name": "俞廷瑋",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczP76eAPbb1PdfUwoQfPx7hEMBcZ2IN5iMbnGIdVg-AlaiXohFumJ6zXnVuHILKFVf5IKtVhTo4hJffc0kbPQ92iIAJm5EkWOc7PwSCXQkAMYPsoskX9Iwem8Qa3Kc-LFvzvh03c7Fp9GaEzAlQEVIlC=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "永春TB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "永春TB",
+      "number": "80",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 809,
+        "hits": 719,
+        "hr": 176,
+        "rbi": 661,
+        "avg": 1127,
+        "w": 370,
+        "sv": 320,
+        "so": 540,
+        "era": 1127,
+        "whip": 1127,
+        "fip": 0
+      }
+    }
+  ]
+}

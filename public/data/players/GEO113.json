@@ -1,0 +1,52 @@
+{
+  "id": "GEO113",
+  "code": "GEO113",
+  "name": "朱致遠",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNhn_eBXiBzK41JWYsd9QoeVO2i8xUczTUVibXS_mw1wT0t9g0cIBxZnto_BTm-7EkPMPv4m3RE3zTaOvuP0-nihJUGKp_XOT7XQVncEpp4fCjMXmF-lmrFsUMTdSdzvkEhF7efGs-U1nYhUvMxAqxnDQ=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "十號馬"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "十號馬",
+      "number": "104",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 773,
+        "hits": 594,
+        "hr": 51,
+        "rbi": 536,
+        "avg": 1127,
+        "w": 114,
+        "sv": 64,
+        "so": 284,
+        "era": 1127,
+        "whip": 1127,
+        "fip": 0
+      }
+    }
+  ]
+}
