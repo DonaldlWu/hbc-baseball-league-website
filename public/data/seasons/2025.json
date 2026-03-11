@@ -1,6 +1,6 @@
 {
   "season": 2025,
-  "lastUpdated": "2026-03-11T18:46:13",
+  "lastUpdated": "2026-03-11T18:49:51",
   "calendarRange": {
     "start": "2025-04",
     "end": "2026-02"
@@ -36,6 +36,15 @@
         "runsScored": 11.15
       },
       {
+        "teamId": "TRO",
+        "teamName": "楚奧特",
+        "wins": 12,
+        "losses": 6,
+        "draws": 2,
+        "runsAllowed": 6.75,
+        "runsScored": 11.1
+      },
+      {
         "teamId": "HUA",
         "teamName": "華江OB",
         "wins": 12,
@@ -54,22 +63,22 @@
         "runsScored": 12.579
       },
       {
-        "teamId": "TRO",
-        "teamName": "楚奧特",
+        "teamId": "YAN",
+        "teamName": "陽明OB",
         "wins": 12,
         "losses": 6,
         "draws": 1,
-        "runsAllowed": 6.737,
-        "runsScored": 11.316
+        "runsAllowed": 6.0,
+        "runsScored": 10.895
       },
       {
-        "teamId": "YAN",
-        "teamName": "陽明OB",
+        "teamId": "NTM",
+        "teamName": "Mechanics",
         "wins": 11,
-        "losses": 6,
-        "draws": 1,
-        "runsAllowed": 6.056,
-        "runsScored": 10.556
+        "losses": 7,
+        "draws": 2,
+        "runsAllowed": 6.3,
+        "runsScored": 8.3
       },
       {
         "teamId": "MUZ",
@@ -84,19 +93,10 @@
         "teamId": "SWD",
         "teamName": "甜心暴龍",
         "wins": 11,
-        "losses": 7,
+        "losses": 8,
         "draws": 1,
-        "runsAllowed": 7.474,
-        "runsScored": 9.421
-      },
-      {
-        "teamId": "NTM",
-        "teamName": "Mechanics",
-        "wins": 11,
-        "losses": 7,
-        "draws": 1,
-        "runsAllowed": 6.263,
-        "runsScored": 8.368
+        "runsAllowed": 7.95,
+        "runsScored": 9.2
       },
       {
         "teamId": "SHU",
