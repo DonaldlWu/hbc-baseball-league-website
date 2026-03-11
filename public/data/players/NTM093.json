@@ -1,0 +1,76 @@
+{
+  "id": "NTM093",
+  "code": "NTM093",
+  "name": "姚以諾",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOm17UtfnY43doYvvcaXVOGTYY9mhUvxlam2EYufRbaB_Tm3EEuM_gZNBtWLh4qVEL0nZvv_Xtz13bGtCn7DIkX743NsH9VJsPCvrDURGbuHjbNyRM6bdg7_CQNyzcDob0JTAEaKaRSwpOgqLzVrh_uow=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "Mechanics"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Mechanics",
+      "number": "13",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 1,
+        "bf": 7,
+        "so": 2,
+        "bb": 2,
+        "h": 2,
+        "hr": 0,
+        "r": 3,
+        "er": 3,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 27,
+        "whip": 4,
+        "fip": null,
+        "kPer9": 18,
+        "bbPer9": 18,
+        "hPer9": 18,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 1109,
+        "hits": 1480,
+        "hr": 1004,
+        "rbi": 436,
+        "avg": 1130,
+        "w": 1381,
+        "sv": 1330,
+        "so": 192,
+        "era": 1130,
+        "whip": 262,
+        "fip": 0
+      }
+    }
+  ]
+}

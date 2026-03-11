@@ -16,9 +16,9 @@
       "team": "陽明OB",
       "number": "3",
       "batting": {
-        "games": 6,
-        "pa": 0,
-        "ab": 0,
+        "games": 7,
+        "pa": 2,
+        "ab": 1,
         "hits": 0,
         "singles": 0,
         "doubles": 0,
@@ -26,8 +26,8 @@
         "hr": 0,
         "rbi": 0,
         "runs": 0,
-        "bb": 0,
-        "so": 0,
+        "bb": 1,
+        "so": 1,
         "sb": 0,
         "sf": 0,
         "totalBases": 0
@@ -59,16 +59,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 900,
-        "hits": 808,
-        "hr": 265,
-        "rbi": 750,
-        "avg": 1127,
+        "rc": 606,
+        "hits": 1417,
+        "hr": 881,
+        "rbi": 1362,
+        "avg": 1130,
         "w": 1478,
         "sv": 1431,
-        "so": 183,
-        "era": 1127,
-        "whip": 80,
+        "so": 184,
+        "era": 1130,
+        "whip": 79,
         "fip": 0
       }
     },

@@ -1,0 +1,76 @@
+{
+  "id": "NTM094",
+  "code": "NTM094",
+  "name": "劉禹辰",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPxK7-ZjsCUfMzsQeWZiNytOm6xW_BhrDpfg2Uv0fVmAdVAo5scqEOAeq8ibKWOzrhbwG0IC5pg0O-886KK7VCEEdi0NvK-oTafDGTFie1APD_FEu3LsPnZ_P5Qic5E2QpNqDMyue0rZ-XBz4tGemyZeQ=w310-h335-no",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "Mechanics"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "Mechanics",
+      "number": "52",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 2,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 1,
+        "bf": 6,
+        "so": 0,
+        "bb": 0,
+        "h": 2,
+        "hr": 0,
+        "r": 2,
+        "er": 1,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 9,
+        "whip": 2,
+        "fip": null,
+        "kPer9": 0,
+        "bbPer9": 0,
+        "hPer9": 18,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 320,
+        "hits": 392,
+        "hr": 972,
+        "rbi": 1429,
+        "avg": 1130,
+        "w": 1374,
+        "sv": 1323,
+        "so": 1525,
+        "era": 1130,
+        "whip": 460,
+        "fip": 0
+      }
+    }
+  ]
+}

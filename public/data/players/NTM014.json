@@ -17,21 +17,21 @@
       "team": "Mechanics",
       "number": "35",
       "batting": {
-        "games": 8,
-        "pa": 28,
-        "ab": 23,
-        "hits": 8,
-        "singles": 5,
+        "games": 9,
+        "pa": 32,
+        "ab": 26,
+        "hits": 9,
+        "singles": 6,
         "doubles": 3,
         "triples": 0,
         "hr": 0,
-        "rbi": 10,
-        "runs": 5,
-        "bb": 4,
+        "rbi": 11,
+        "runs": 7,
+        "bb": 5,
         "so": 8,
-        "sb": 1,
+        "sb": 2,
         "sf": 1,
-        "totalBases": 11
+        "totalBases": 12
       },
       "pitching": {
         "games": 3,
@@ -53,24 +53,24 @@
       "pitchingCalculated": {
         "era": 5.538461538461538,
         "whip": 2.3846153846153846,
-        "fip": 3.584615828,
+        "fip": 3.584615826,
         "kPer9": 5.538461538461538,
         "bbPer9": 4.846153846153846,
         "hPer9": 16.615384615384617,
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 177,
-        "hits": 173,
-        "hr": 1360,
-        "rbi": 75,
-        "avg": 1127,
+        "rc": 151,
+        "hits": 153,
+        "hr": 1382,
+        "rbi": 65,
+        "avg": 1130,
         "w": 1529,
-        "sv": 1497,
-        "so": 98,
-        "era": 1127,
-        "whip": 461,
-        "fip": 35
+        "sv": 1496,
+        "so": 99,
+        "era": 1130,
+        "whip": 422,
+        "fip": 36
       }
     },
     {

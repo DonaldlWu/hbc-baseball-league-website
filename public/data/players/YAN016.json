@@ -16,9 +16,9 @@
       "team": "陽明OB",
       "number": "23",
       "batting": {
-        "games": 18,
-        "pa": 65,
-        "ab": 50,
+        "games": 19,
+        "pa": 68,
+        "ab": 53,
         "hits": 21,
         "singles": 13,
         "doubles": 6,
@@ -27,7 +27,7 @@
         "rbi": 15,
         "runs": 23,
         "bb": 14,
-        "so": 9,
+        "so": 10,
         "sb": 5,
         "sf": 1,
         "totalBases": 32
@@ -59,16 +59,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 13,
+        "rc": 18,
         "hits": 24,
-        "hr": 30,
-        "rbi": 31,
-        "avg": 23,
-        "w": 1374,
-        "sv": 1323,
-        "so": 1524,
-        "era": 1127,
-        "whip": 285,
+        "hr": 31,
+        "rbi": 32,
+        "avg": 30,
+        "w": 1371,
+        "sv": 1320,
+        "so": 1523,
+        "era": 1130,
+        "whip": 283,
         "fip": 0
       }
     },
