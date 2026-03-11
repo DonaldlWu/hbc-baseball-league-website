@@ -1,6 +1,6 @@
 {
   "season": 2025,
-  "lastUpdated": "2026-03-02T23:06:12",
+  "lastUpdated": "2026-03-11T18:45:25",
   "calendarRange": {
     "start": "2025-04",
     "end": "2026-02"
@@ -363,9 +363,9 @@
       "timeSlot": "下午",
       "startTime": "14:30",
       "endTime": "17:00",
-      "status": "rain",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 17,
+      "awayScore": 5,
       "sheetId": "",
       "rescheduledDates": [
         {
@@ -613,9 +613,9 @@
       "timeSlot": "上午",
       "startTime": "08:00",
       "endTime": "10:30",
-      "status": "rain",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 7,
+      "awayScore": 7,
       "sheetId": "",
       "rescheduledDates": [
         {
