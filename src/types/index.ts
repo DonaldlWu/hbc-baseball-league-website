@@ -431,6 +431,7 @@ export interface SeasonIndexEntry {
 export type BracketSide = 'winners' | 'losers' | 'championship';
 export type PostseasonMatchupStatus = 'pending' | 'in_progress' | 'completed';
 
+// runtime 使用（經過 loader enrichment 後的完整資料）
 export interface PostseasonTeamEntry {
   teamId: string;
   teamName: string;
@@ -473,6 +474,41 @@ export interface PostseasonData {
   season: number;
   lastUpdated: string;
   rounds: PostseasonRound[];
+}
+
+// JSON 原始格式（postseason/YYYY.json 儲存用）
+// R16 matchup 不存 team1/team2（由 standings 動態推導）
+// R8+ matchup 只存 teamId（teamName/rank 由 loader 補充）
+export interface PostseasonTeamRef {
+  teamId: string;
+}
+
+export interface PostseasonMatchupRaw {
+  matchupId: string;
+  seed1: number;
+  seed2: number;
+  team1?: PostseasonTeamRef;
+  team2?: PostseasonTeamRef;
+  games: PostseasonGame[];
+  winner: 'team1' | 'team2' | null;
+  status: PostseasonMatchupStatus;
+}
+
+export interface PostseasonRoundRaw {
+  roundId: string;
+  name: string;
+  phase: 'phase1' | 'phase2';
+  bracket?: BracketSide;
+  bestOf: number;
+  homeAdvantage: boolean;
+  winnersBracketAdvantage?: boolean;
+  matchups: PostseasonMatchupRaw[];
+}
+
+export interface PostseasonDataRaw {
+  season: number;
+  lastUpdated: string;
+  rounds: PostseasonRoundRaw[];
 }
 
 export type SortableStatField =

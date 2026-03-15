@@ -1,6 +1,6 @@
 {
   "season": 2025,
-  "lastUpdated": "2026-02-20T00:00:00Z",
+  "lastUpdated": "2026-03-15T00:00:00Z",
   "rounds": [
     {
       "roundId": "r16",
@@ -10,11 +10,9 @@
       "homeAdvantage": true,
       "matchups": [
         {
-          "matchupId": "r16-2",
-          "seed1": 2,
-          "seed2": 15,
-          "team1": { "teamId": "YCT", "teamName": "永春TB", "regularSeasonRank": 2 },
-          "team2": { "teamId": "MOR", "teamName": "莫拉克", "regularSeasonRank": 15 },
+          "matchupId": "r16-1",
+          "seed1": 1,
+          "seed2": 16,
           "games": [
             { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
           ],
@@ -22,11 +20,9 @@
           "status": "in_progress"
         },
         {
-          "matchupId": "r16-7",
-          "seed1": 7,
-          "seed2": 10,
-          "team1": { "teamId": "MUZ", "teamName": "木柵OB", "regularSeasonRank": 7 },
-          "team2": { "teamId": "SWD", "teamName": "甜心暴龍", "regularSeasonRank": 10 },
+          "matchupId": "r16-2",
+          "seed1": 2,
+          "seed2": 15,
           "games": [
             { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
           ],
@@ -37,44 +33,6 @@
           "matchupId": "r16-3",
           "seed1": 3,
           "seed2": 14,
-          "team1": { "teamId": "PHE", "teamName": "飛尼克斯", "regularSeasonRank": 3 },
-          "team2": { "teamId": "DHW", "teamName": "DH戰將", "regularSeasonRank": 14 },
-          "games": [
-            { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
-          ],
-          "winner": null,
-          "status": "in_progress"
-        },
-        {
-          "matchupId": "r16-6",
-          "seed1": 6,
-          "seed2": 11,
-          "team1": { "teamId": "ACE", "teamName": "ACES", "regularSeasonRank": 6 },
-          "team2": { "teamId": "REV", "teamName": "逆轉星球", "regularSeasonRank": 11 },
-          "games": [
-            { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
-          ],
-          "winner": null,
-          "status": "in_progress"
-        },
-        {
-          "matchupId": "r16-1",
-          "seed1": 1,
-          "seed2": 16,
-          "team1": { "teamId": "ROO", "teamName": "Line Drive", "regularSeasonRank": 1 },
-          "team2": { "teamId": "EAG", "teamName": "火把老鷹", "regularSeasonRank": 16 },
-          "games": [
-            { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
-          ],
-          "winner": null,
-          "status": "in_progress"
-        },
-        {
-          "matchupId": "r16-8",
-          "seed1": 8,
-          "seed2": 9,
-          "team1": { "teamId": "NTM", "teamName": "Mechanics", "regularSeasonRank": 8 },
-          "team2": { "teamId": "YAN", "teamName": "陽明OB", "regularSeasonRank": 9 },
           "games": [
             { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
           ],
@@ -85,8 +43,6 @@
           "matchupId": "r16-4",
           "seed1": 4,
           "seed2": 13,
-          "team1": { "teamId": "HUA", "teamName": "華江OB", "regularSeasonRank": 4 },
-          "team2": { "teamId": "SHU", "teamName": "世新超乙組", "regularSeasonRank": 13 },
           "games": [
             { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
           ],
@@ -97,8 +53,36 @@
           "matchupId": "r16-5",
           "seed1": 5,
           "seed2": 12,
-          "team1": { "teamId": "TRO", "teamName": "楚奧特", "regularSeasonRank": 5 },
-          "team2": { "teamId": "SCO", "teamName": "實踐OB", "regularSeasonRank": 12 },
+          "games": [
+            { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
+          ],
+          "winner": null,
+          "status": "in_progress"
+        },
+        {
+          "matchupId": "r16-6",
+          "seed1": 6,
+          "seed2": 11,
+          "games": [
+            { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
+          ],
+          "winner": null,
+          "status": "in_progress"
+        },
+        {
+          "matchupId": "r16-7",
+          "seed1": 7,
+          "seed2": 10,
+          "games": [
+            { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
+          ],
+          "winner": null,
+          "status": "in_progress"
+        },
+        {
+          "matchupId": "r16-8",
+          "seed1": 8,
+          "seed2": 9,
           "games": [
             { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
           ],
