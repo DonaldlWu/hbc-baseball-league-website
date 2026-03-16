@@ -20,19 +20,9 @@
           "status": "in_progress"
         },
         {
-          "matchupId": "r16-2",
-          "seed1": 2,
-          "seed2": 15,
-          "games": [
-            { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
-          ],
-          "winner": null,
-          "status": "in_progress"
-        },
-        {
-          "matchupId": "r16-3",
-          "seed1": 3,
-          "seed2": 14,
+          "matchupId": "r16-8",
+          "seed1": 8,
+          "seed2": 9,
           "games": [
             { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
           ],
@@ -60,9 +50,9 @@
           "status": "in_progress"
         },
         {
-          "matchupId": "r16-6",
-          "seed1": 6,
-          "seed2": 11,
+          "matchupId": "r16-2",
+          "seed1": 2,
+          "seed2": 15,
           "games": [
             { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
           ],
@@ -80,9 +70,19 @@
           "status": "in_progress"
         },
         {
-          "matchupId": "r16-8",
-          "seed1": 8,
-          "seed2": 9,
+          "matchupId": "r16-3",
+          "seed1": 3,
+          "seed2": 14,
+          "games": [
+            { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
+          ],
+          "winner": null,
+          "status": "in_progress"
+        },
+        {
+          "matchupId": "r16-6",
+          "seed1": 6,
+          "seed2": 11,
           "games": [
             { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
           ],
