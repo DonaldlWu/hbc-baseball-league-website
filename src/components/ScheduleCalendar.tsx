@@ -4,6 +4,8 @@ import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { useSchedule } from '@/src/hooks/useSchedule';
 import { displayGameNumber, parseGameNumber } from '@/src/lib/formatters';
+import { VENUE_MAP_URLS } from '@/src/lib/venueData';
+import { AddToCalendarButton } from '@/src/components/AddToCalendarButton';
 import type { Game, DaySchedule } from '@/src/types';
 
 /**
@@ -487,6 +489,31 @@ function DayScheduleCard({
               <h4 className="text-lg font-semibold text-gray-900">
                 {venueName}
               </h4>
+              {VENUE_MAP_URLS[venueName] && (
+                <a
+                  href={VENUE_MAP_URLS[venueName]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="在 Google Maps 開啟"
+                  className="text-primary-500 hover:text-primary-700"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-4 w-4"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                    />
+                  </svg>
+                </a>
+              )}
               <span className="text-sm text-gray-500">
                 ({games.length} 場)
               </span>
@@ -499,6 +526,7 @@ function DayScheduleCard({
                   key={game.gameNumber}
                   game={game}
                   highlightTeam={highlightTeam}
+                  date={daySchedule.date}
                 />
               ))}
             </div>
@@ -529,7 +557,7 @@ const STATUS_CONFIG = {
 /**
  * 單場比賽卡片
  */
-function GameCard({ game, highlightTeam }: { game: Game; highlightTeam?: string }) {
+function GameCard({ game, highlightTeam, date }: { game: Game; highlightTeam?: string; date?: string }) {
   // 時段顏色
   const timeSlotColors = {
     上午: 'bg-amber-50 border-amber-200 text-amber-700',
@@ -623,13 +651,14 @@ function GameCard({ game, highlightTeam }: { game: Game; highlightTeam?: string 
           </div>
         </div>
 
-        {/* 右側：時間與箭頭 */}
+        {/* 右側：時間、行事曆按鈕與箭頭 */}
         <div className="flex items-center gap-3">
           <div className="text-right">
             <div className="text-sm font-medium text-gray-900">
               {game.startTime} - {game.endTime}
             </div>
           </div>
+          {date && <AddToCalendarButton game={game} date={date} />}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5 text-gray-400"
