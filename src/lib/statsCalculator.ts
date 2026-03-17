@@ -136,6 +136,26 @@ export function calculateOPSPlus(batting: BattingStats, league: LeagueStats): nu
 }
 
 /**
+ * 計算百分位排名 (PR)
+ * 回傳此球員數據優於幾%的人（0–100）
+ * @param value 此球員的數值
+ * @param allValues 所有比較球員的數值陣列
+ * @param higherIsBetter true=越高越好（AVG等），false=越低越好（K%等）
+ */
+export function calculatePercentileRank(
+  value: number,
+  allValues: number[],
+  higherIsBetter: boolean = true
+): number {
+  const validValues = allValues.filter(v => isFinite(v) && !isNaN(v));
+  if (validValues.length === 0) return 0;
+  const betterThan = validValues.filter(v =>
+    higherIsBetter ? value > v : value < v
+  ).length;
+  return Math.round((betterThan / validValues.length) * 100);
+}
+
+/**
  * 計算所有統計數據
  */
 export function calculateAllStats(

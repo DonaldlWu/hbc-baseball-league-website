@@ -8,10 +8,23 @@ import {
   calculateSLG,
   calculateOPS,
   calculateOPSPlus,
+  calculateISO,
+  calculateBABIP,
+  calculateKPct,
+  calculateBBPct,
+  calculateWOBA,
+  calculateWRC,
+  calculateWRCPlus,
+  calculatePercentileRank,
 } from "@/src/lib/statsCalculator";
 import { formatAvg } from "@/src/lib/formatters";
-import { loadLeagueStats } from "@/src/lib/dataLoader";
-import type { Player, LeagueStats } from "@/src/types";
+import { loadLeagueStats, loadSeasonSummary } from "@/src/lib/dataLoader";
+import type {
+  Player,
+  LeagueStats,
+  PlayerSummary,
+  PlayerSeason,
+} from "@/src/types";
 
 export interface PlayerModalProps {
   player: Player;
@@ -19,39 +32,378 @@ export interface PlayerModalProps {
   onClose: () => void;
 }
 
+// ─── StatPRRow ───────────────────────────────────────────────────────────────
+
+function StatPRRow({
+  label,
+  pr,
+  value,
+}: {
+  label: string;
+  pr: number;
+  value: string;
+}) {
+  const barColor =
+    pr >= 70 ? "bg-green-500" : pr >= 40 ? "bg-blue-500" : "bg-red-400";
+  return (
+    <div className="flex items-center gap-3 py-2.5 border-b border-gray-100 last:border-0">
+      <div className="w-12 text-xs font-bold text-gray-600 flex-shrink-0">
+        {label}
+      </div>
+      <div className="flex-1 relative h-3 bg-gray-200 rounded-full">
+        <div
+          className={`h-full ${barColor} rounded-full transition-all`}
+          style={{ width: `${pr}%` }}
+        />
+        <div
+          className={`absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-8 h-8 rounded-full ${barColor} text-white text-xs font-bold flex items-center justify-center shadow-md`}
+          style={{ left: `${pr}%` }}
+        >
+          {pr}
+        </div>
+      </div>
+      <div className="w-14 text-right text-xs font-mono text-gray-700 flex-shrink-0">
+        {value}
+      </div>
+    </div>
+  );
+}
+
+// ─── PRTabContent ─────────────────────────────────────────────────────────────
+
+function PRTabContent({
+  season,
+  allPlayers,
+  leagueStats,
+}: {
+  season: PlayerSeason;
+  allPlayers: PlayerSummary[];
+  leagueStats: LeagueStats | undefined;
+}) {
+  const qualifiedBatters = allPlayers.filter((p) => p.seasonStats.pa >= 10);
+  const batting = season.batting;
+
+  // Batting PR
+  const avgPR = calculatePercentileRank(
+    calculateAVG(batting),
+    qualifiedBatters.map((p) => calculateAVG(p.seasonStats))
+  );
+  const obpPR = calculatePercentileRank(
+    calculateOBP(batting),
+    qualifiedBatters.map((p) => calculateOBP(p.seasonStats))
+  );
+  const slgPR = calculatePercentileRank(
+    calculateSLG(batting),
+    qualifiedBatters.map((p) => calculateSLG(p.seasonStats))
+  );
+  const opsPR = calculatePercentileRank(
+    calculateOPS(batting),
+    qualifiedBatters.map((p) => calculateOPS(p.seasonStats))
+  );
+  const isoPR = calculatePercentileRank(
+    calculateISO(batting),
+    qualifiedBatters.map((p) => calculateISO(p.seasonStats))
+  );
+  const babipPR = calculatePercentileRank(
+    calculateBABIP(batting),
+    qualifiedBatters.map((p) => calculateBABIP(p.seasonStats))
+  );
+  const kPctPR = calculatePercentileRank(
+    calculateKPct(batting),
+    qualifiedBatters.map((p) => calculateKPct(p.seasonStats)),
+    false // 越低越好
+  );
+  const bbPctPR = calculatePercentileRank(
+    calculateBBPct(batting),
+    qualifiedBatters.map((p) => calculateBBPct(p.seasonStats))
+  );
+
+  // Weighted stats PR (computed only when leagueStats is ready)
+  const weightedStats = leagueStats
+    ? (() => {
+        const lgWOBA =
+          qualifiedBatters.length > 0
+            ? qualifiedBatters.reduce(
+                (sum, p) =>
+                  sum + (calculateWOBA(p.seasonStats, leagueStats) ?? 0),
+                0
+              ) / qualifiedBatters.length
+            : 0.34;
+        const lgRunsPerPA = 0.12;
+
+        const myWOBA = calculateWOBA(batting, leagueStats);
+        const myWRC = calculateWRC(batting, leagueStats, lgWOBA);
+        const myWRCPlus = calculateWRCPlus(
+          batting,
+          leagueStats,
+          lgWOBA,
+          lgRunsPerPA
+        );
+        const myOPSPlus = calculateOPSPlus(batting, leagueStats);
+
+        const wobaPR =
+          myWOBA !== null
+            ? calculatePercentileRank(
+                myWOBA,
+                qualifiedBatters.map(
+                  (p) => calculateWOBA(p.seasonStats, leagueStats) ?? 0
+                )
+              )
+            : 0;
+        const wrcPR =
+          myWRC !== null
+            ? calculatePercentileRank(
+                myWRC,
+                qualifiedBatters.map(
+                  (p) => calculateWRC(p.seasonStats, leagueStats, lgWOBA) ?? 0
+                )
+              )
+            : 0;
+        const wrcPlusPR =
+          myWRCPlus !== null
+            ? calculatePercentileRank(
+                myWRCPlus,
+                qualifiedBatters.map(
+                  (p) =>
+                    calculateWRCPlus(
+                      p.seasonStats,
+                      leagueStats,
+                      lgWOBA,
+                      lgRunsPerPA
+                    ) ?? 0
+                )
+              )
+            : 0;
+        const opsPlusPR =
+          myOPSPlus !== null
+            ? calculatePercentileRank(
+                myOPSPlus,
+                qualifiedBatters.map(
+                  (p) => calculateOPSPlus(p.seasonStats, leagueStats) ?? 0
+                )
+              )
+            : 0;
+
+        return {
+          wobaPR,
+          wrcPR,
+          wrcPlusPR,
+          opsPlusPR,
+          myWOBA,
+          myWRC,
+          myWRCPlus,
+          myOPSPlus,
+        };
+      })()
+    : null;
+
+  // Pitching PR (optional)
+  const pitchingStats =
+    season.pitching && season.pitchingCalculated
+      ? (() => {
+          const pitcherPlayers = allPlayers.filter(
+            (p) => p.pitchingStats && p.pitchingStats.ip >= 1
+          );
+          const calc = season.pitchingCalculated!;
+
+          const eraPR = calculatePercentileRank(
+            calc.era,
+            pitcherPlayers.map((p) => p.pitchingStats!.era),
+            false
+          );
+          const whipPR = calculatePercentileRank(
+            calc.whip,
+            pitcherPlayers.map((p) => p.pitchingStats!.whip),
+            false
+          );
+          const fipValues = pitcherPlayers
+            .filter((p) => p.pitchingStats!.fip !== null)
+            .map((p) => p.pitchingStats!.fip as number);
+          const fipPR =
+            calc.fip !== null
+              ? calculatePercentileRank(calc.fip, fipValues, false)
+              : 0;
+          const kPer9PR = calculatePercentileRank(
+            calc.kPer9,
+            pitcherPlayers.map((p) => p.pitchingStats!.kPer9)
+          );
+
+          return { eraPR, whipPR, fipPR, kPer9PR, calc };
+        })()
+      : null;
+
+  return (
+    <div className="py-2">
+      <p className="text-xs text-gray-500 mb-3">
+        與同年度打席 ≥ 10 的聯盟球員相比（共 {qualifiedBatters.length} 人）
+      </p>
+
+      <h4 className="text-sm font-bold text-gray-700 mb-2">打擊表現</h4>
+      <StatPRRow
+        label="AVG"
+        pr={avgPR}
+        value={formatAvg(calculateAVG(batting))}
+      />
+      <StatPRRow
+        label="OBP"
+        pr={obpPR}
+        value={formatAvg(calculateOBP(batting))}
+      />
+      <StatPRRow
+        label="SLG"
+        pr={slgPR}
+        value={formatAvg(calculateSLG(batting))}
+      />
+      <StatPRRow
+        label="OPS"
+        pr={opsPR}
+        value={formatAvg(calculateOPS(batting))}
+      />
+      <StatPRRow
+        label="ISO"
+        pr={isoPR}
+        value={formatAvg(calculateISO(batting))}
+      />
+      <StatPRRow
+        label="BABIP"
+        pr={babipPR}
+        value={formatAvg(calculateBABIP(batting))}
+      />
+      <StatPRRow
+        label="K%"
+        pr={kPctPR}
+        value={`${calculateKPct(batting).toFixed(1)}%`}
+      />
+      <StatPRRow
+        label="BB%"
+        pr={bbPctPR}
+        value={`${calculateBBPct(batting).toFixed(1)}%`}
+      />
+
+      <h4 className="text-sm font-bold text-gray-700 mt-4 mb-2">進階加權</h4>
+      {weightedStats ? (
+        <>
+          <StatPRRow
+            label="wOBA"
+            pr={weightedStats.wobaPR}
+            value={
+              weightedStats.myWOBA !== null
+                ? formatAvg(weightedStats.myWOBA)
+                : "-"
+            }
+          />
+          <StatPRRow
+            label="wRC"
+            pr={weightedStats.wrcPR}
+            value={
+              weightedStats.myWRC !== null
+                ? weightedStats.myWRC.toFixed(1)
+                : "-"
+            }
+          />
+          <StatPRRow
+            label="wRC+"
+            pr={weightedStats.wrcPlusPR}
+            value={
+              weightedStats.myWRCPlus !== null
+                ? Math.round(weightedStats.myWRCPlus).toString()
+                : "-"
+            }
+          />
+          <StatPRRow
+            label="OPS+"
+            pr={weightedStats.opsPlusPR}
+            value={
+              weightedStats.myOPSPlus !== null
+                ? Math.round(weightedStats.myOPSPlus).toString()
+                : "-"
+            }
+          />
+        </>
+      ) : (
+        <div className="text-xs text-gray-400 py-2 animate-pulse">
+          載入中...
+        </div>
+      )}
+
+      {pitchingStats && (
+        <>
+          <h4 className="text-sm font-bold text-gray-700 mt-4 mb-2">
+            投球表現
+          </h4>
+          <StatPRRow
+            label="ERA"
+            pr={pitchingStats.eraPR}
+            value={pitchingStats.calc.era.toFixed(2)}
+          />
+          <StatPRRow
+            label="WHIP"
+            pr={pitchingStats.whipPR}
+            value={pitchingStats.calc.whip.toFixed(2)}
+          />
+          <StatPRRow
+            label="FIP"
+            pr={pitchingStats.fipPR}
+            value={
+              pitchingStats.calc.fip !== null
+                ? pitchingStats.calc.fip.toFixed(2)
+                : "-"
+            }
+          />
+          <StatPRRow
+            label="K/9"
+            pr={pitchingStats.kPer9PR}
+            value={pitchingStats.calc.kPer9.toFixed(2)}
+          />
+        </>
+      )}
+    </div>
+  );
+}
+
+// ─── PlayerModal ─────────────────────────────────────────────────────────────
+
 export function PlayerModal({ player, isOpen, onClose }: PlayerModalProps) {
-  // 聯盟數據 state
   const [leagueStats, setLeagueStats] = useState<Record<number, LeagueStats>>(
     {}
   );
+  const [seasonSummaries, setSeasonSummaries] = useState<
+    Record<number, PlayerSummary[]>
+  >({});
 
-  // Tab state: 'batting' 或 'pitching'
-  const [activeTab, setActiveTab] = useState<"batting" | "pitching">("batting");
-
-  // 圖片載入錯誤 state
+  const [activeTab, setActiveTab] = useState<"batting" | "pitching" | "pr">(
+    "batting"
+  );
   const [imageError, setImageError] = useState(false);
 
-  // 載入聯盟數據
+  // 載入聯盟數據 + 賽季球員摘要
   useEffect(() => {
     if (!isOpen) return;
 
-    const loadAllLeagueStats = async () => {
+    const loadAllData = async () => {
       const stats: Record<number, LeagueStats> = {};
+      const summaries: Record<number, PlayerSummary[]> = {};
+
       for (const season of player.seasons) {
         try {
-          const data = await loadLeagueStats(season.year);
-          stats[season.year] = data;
-        } catch (error) {
-          console.error(
-            `Failed to load league stats for ${season.year}:`,
-            error
+          const [leagueData, summaryData] = await Promise.all([
+            loadLeagueStats(season.year),
+            loadSeasonSummary(season.year),
+          ]);
+          stats[season.year] = leagueData;
+          summaries[season.year] = Object.values(summaryData.teams).flatMap(
+            (team) => team.players
           );
+        } catch (error) {
+          console.error(`Failed to load data for ${season.year}:`, error);
         }
       }
+
       setLeagueStats(stats);
+      setSeasonSummaries(summaries);
     };
 
-    loadAllLeagueStats();
+    loadAllData();
   }, [isOpen, player.seasons]);
 
   // ESC 鍵關閉
@@ -71,10 +423,8 @@ export function PlayerModal({ player, isOpen, onClose }: PlayerModalProps) {
     };
   }, [isOpen, onClose]);
 
-  // 未開啟時不渲染
   if (!isOpen) return null;
 
-  // 點擊遮罩關閉
   const handleOverlayClick = (e: React.MouseEvent<HTMLDivElement>) => {
     if (e.target === e.currentTarget) {
       onClose();
@@ -205,31 +555,46 @@ export function PlayerModal({ player, isOpen, onClose }: PlayerModalProps) {
                     </div>
                   </div>
 
-                  {/* Tab 切換 - 只在有投球數據時顯示 */}
-                  {season.pitching && (
-                    <div className="flex gap-2">
-                      <button
-                        onClick={() => setActiveTab("batting")}
-                        className={`px-4 py-2 text-sm font-semibold transition-colors ${
-                          activeTab === "batting"
-                            ? "border-b-4 border-primary-600 text-primary-600"
-                            : "text-gray-500 hover:text-gray-700"
-                        }`}
-                      >
-                        打擊數據
-                      </button>
-                      <button
-                        onClick={() => setActiveTab("pitching")}
-                        className={`px-4 py-2 text-sm font-semibold transition-colors ${
-                          activeTab === "pitching"
-                            ? "border-b-4 border-primary-600 text-primary-600"
-                            : "text-gray-500 hover:text-gray-700"
-                        }`}
-                      >
-                        投球數據
-                      </button>
-                    </div>
-                  )}
+                  {/* Tab 切換 - 永遠顯示三個 Tab */}
+                  <div className="flex gap-2">
+                    <button
+                      onClick={() => setActiveTab("batting")}
+                      className={`px-4 py-2 text-sm font-semibold transition-colors ${
+                        activeTab === "batting"
+                          ? "border-b-4 border-primary-600 text-primary-600"
+                          : "text-gray-500 hover:text-gray-700"
+                      }`}
+                    >
+                      打擊數據
+                    </button>
+                    <button
+                      onClick={
+                        season.pitching
+                          ? () => setActiveTab("pitching")
+                          : undefined
+                      }
+                      disabled={!season.pitching}
+                      className={`px-4 py-2 text-sm font-semibold transition-colors ${
+                        !season.pitching
+                          ? "text-gray-300 cursor-not-allowed"
+                          : activeTab === "pitching"
+                          ? "border-b-4 border-primary-600 text-primary-600"
+                          : "text-gray-500 hover:text-gray-700"
+                      }`}
+                    >
+                      投球數據
+                    </button>
+                    <button
+                      onClick={() => setActiveTab("pr")}
+                      className={`px-4 py-2 text-sm font-semibold transition-colors ${
+                        activeTab === "pr"
+                          ? "border-b-4 border-primary-600 text-primary-600"
+                          : "text-gray-500 hover:text-gray-700"
+                      }`}
+                    >
+                      🎯 PR 百分位
+                    </button>
+                  </div>
                 </div>
 
                 {/* 打擊數據 */}
@@ -508,6 +873,15 @@ export function PlayerModal({ player, isOpen, onClose }: PlayerModalProps) {
                       </div>
                     </>
                   )}
+
+                {/* PR 百分位 */}
+                {activeTab === "pr" && (
+                  <PRTabContent
+                    season={season}
+                    allPlayers={seasonSummaries[season.year] ?? []}
+                    leagueStats={leagueStats[season.year]}
+                  />
+                )}
               </div>
             ))}
           </div>
