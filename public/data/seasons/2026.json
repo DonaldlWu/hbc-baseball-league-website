@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "lastUpdated": "2026-03-02T23:06:12",
+  "lastUpdated": "2026-03-17T13:50:24Z",
   "calendarRange": {
     "start": "2026-02",
     "end": "2027-02"
@@ -277,10 +277,10 @@
       "timeSlot": "下午",
       "startTime": "14:00",
       "endTime": "17:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": "",
+      "status": "finished",
+      "homeScore": 21,
+      "awayScore": 7,
+      "sheetId": "14TcDQlyWSiuhPc5K-OlUTCUA1GmmXf42tnqcev5725M",
       "note": "2026新球季"
     },
     "2026167": {

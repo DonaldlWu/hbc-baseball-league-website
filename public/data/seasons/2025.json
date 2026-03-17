@@ -1,6 +1,6 @@
 {
   "season": 2025,
-  "lastUpdated": "2026-03-11T18:49:51",
+  "lastUpdated": "2026-03-17T13:50:24Z",
   "calendarRange": {
     "start": "2025-04",
     "end": "2026-02"
@@ -20,11 +20,11 @@
       {
         "teamId": "YCT",
         "teamName": "永春TB",
-        "wins": 14,
+        "wins": 15,
         "losses": 4,
         "draws": 1,
-        "runsAllowed": 6.474,
-        "runsScored": 8.842
+        "runsAllowed": 6.35,
+        "runsScored": 9.15
       },
       {
         "teamId": "PHE",
@@ -47,29 +47,29 @@
       {
         "teamId": "HUA",
         "teamName": "華江OB",
-        "wins": 12,
+        "wins": 13,
         "losses": 4,
         "draws": 2,
-        "runsAllowed": 5.778,
-        "runsScored": 10.0
+        "runsAllowed": 5.527,
+        "runsScored": 9.842
       },
       {
         "teamId": "ACE",
         "teamName": "ACES",
         "wins": 12,
-        "losses": 6,
+        "losses": 7,
         "draws": 1,
-        "runsAllowed": 7.737,
-        "runsScored": 12.579
+        "runsAllowed": 7.7,
+        "runsScored": 12.0
       },
       {
         "teamId": "YAN",
         "teamName": "陽明OB",
         "wins": 12,
-        "losses": 6,
+        "losses": 7,
         "draws": 1,
-        "runsAllowed": 6.0,
-        "runsScored": 10.895
+        "runsAllowed": 6.2,
+        "runsScored": 10.7
       },
       {
         "teamId": "NTM",
@@ -83,11 +83,11 @@
       {
         "teamId": "MUZ",
         "teamName": "木柵OB",
-        "wins": 11,
+        "wins": 12,
         "losses": 6,
         "draws": 1,
-        "runsAllowed": 6.556,
-        "runsScored": 9.556
+        "runsAllowed": 6.579,
+        "runsScored": 9.579
       },
       {
         "teamId": "SWD",
@@ -111,10 +111,10 @@
         "teamId": "SCO",
         "teamName": "實踐OB",
         "wins": 10,
-        "losses": 9,
+        "losses": 10,
         "draws": 0,
-        "runsAllowed": 8.053,
-        "runsScored": 7.684
+        "runsAllowed": 7.95,
+        "runsScored": 7.5
       },
       {
         "teamId": "REV",
@@ -164,11 +164,11 @@
       {
         "teamId": "MIR",
         "teamName": "MIRACLE",
-        "wins": 6,
+        "wins": 7,
         "losses": 12,
         "draws": 0,
-        "runsAllowed": 11.056,
-        "runsScored": 6.667
+        "runsAllowed": 10.685,
+        "runsScored": 6.632
       },
       {
         "teamId": "HOL",
@@ -183,10 +183,10 @@
         "teamId": "SHA",
         "teamName": "少林棒球隊",
         "wins": 2,
-        "losses": 15,
+        "losses": 16,
         "draws": 1,
-        "runsAllowed": 12.389,
-        "runsScored": 4.833
+        "runsAllowed": 12.526,
+        "runsScored": 4.789
       },
       {
         "teamId": "GEO",
@@ -521,10 +521,10 @@
       "timeSlot": "中午",
       "startTime": "11:00",
       "endTime": "14:00",
-      "status": "rain",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": "",
+      "status": "finished",
+      "homeScore": 6,
+      "awayScore": 4,
+      "sheetId": "1lcibGFM7PyM0_dCR0Dkpp1tsWtkppsiPJOjF5xnGtUc",
       "rescheduledDates": [
         {
           "date": "2026-03-14",
@@ -543,10 +543,10 @@
       "timeSlot": "中午",
       "startTime": "10:30",
       "endTime": "13:00",
-      "status": "rain",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": "",
+      "status": "finished",
+      "homeScore": 7,
+      "awayScore": 10,
+      "sheetId": "1GD8F9UCj1bsWpOKDbLCb8XkpW3M-Dd-1D1gL4B5LFBg",
       "rescheduledDates": [
         {
           "date": "2026-03-14",
@@ -722,10 +722,10 @@
       "timeSlot": "下午",
       "startTime": "14:30",
       "endTime": "17:00",
-      "status": "rain",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": "",
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 7,
+      "sheetId": "1DxDkI5obR0PT8eOh3AxATsJdPivGfP6jwtHeP3x6qG4",
       "rescheduledDates": [
         {
           "date": "2026-03-14",
@@ -809,10 +809,10 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "rain",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": "",
+      "status": "finished",
+      "homeScore": 4,
+      "awayScore": 15,
+      "sheetId": "1v_S8sLF34kvJbgoWK2_BuKQNrL3XIMSmbCvURoCSTng",
       "rescheduledDates": [
         {
           "date": "2026-02-07",
