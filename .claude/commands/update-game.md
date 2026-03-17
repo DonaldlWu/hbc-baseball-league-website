@@ -79,6 +79,20 @@ https://docs.google.com/spreadsheets/d/1Xy8-e0YJfO89HgbmmeK-JMlArs0x8-hCjDPifLCK
 - `awayScore` → 整數
 - `sheetId` → ID 字串（待補的維持 `""`）
 
+**standings 自動重算（source === "calculated" 時）：**
+
+每個被修改的賽季 JSON，若 `standings.source === "calculated"`，**立即**從所有 `status === "finished"` 的比賽重算戰績，完整替換 `standings.teams`：
+
+- 主場（homeTeam）：得分 = homeScore，失分 = awayScore
+- 客場（awayTeam）：得分 = awayScore，失分 = homeScore
+- 勝負：得分 > 失分 → wins；< → losses；= → draws
+- `runsScored` = 總得分 ÷ 已賽場數（三位小數）
+- `runsAllowed` = 總失分 ÷ 已賽場數（三位小數）
+- teamId 優先從現有 `standings.teams` 比對 teamName 取得；無對應則以 teamName 前三字元
+- 依積分（勝×3 + 和×1）排序，同積分依 runsScored 降序
+
+若 `standings.source === "manual"` 或 `"partial"`，不自動重算，保留原有數據不動。
+
 更新所有涉及賽季的頂層 `lastUpdated`。
 
 驗證 JSON：
@@ -151,8 +165,9 @@ chore: 更新 N 場比賽結果 (YYYY-MM-DD 週報)
 ### Step 3：更新並驗證
 
 1. 編輯 `public/data/seasons/YYYY.json`
-2. 更新頂層 `lastUpdated`
-3. 驗證 JSON 格式
+2. 若 `standings.source === "calculated"` 且 status 改為 `finished`：從所有已完賽比賽重算並替換 `standings.teams`（邏輯同批量模式）
+3. 更新頂層 `lastUpdated`
+4. 驗證 JSON 格式
 
 ### Step 4：摘要確認與 commit
 
