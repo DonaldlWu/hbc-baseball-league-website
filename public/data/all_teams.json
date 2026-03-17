@@ -584,10 +584,17 @@
   },
   {
     "id": "NTM",
+    "name": "Mechanics",
+    "iconUrl": "assets/teams/NTM.png",
+    "yearsActive": [
+      2025
+    ]
+  },
+  {
+    "id": "NTM-2026",
     "name": "政大Mechanics",
     "iconUrl": "assets/teams/NTM.png",
     "yearsActive": [
-      2025,
       2026
     ]
   },
