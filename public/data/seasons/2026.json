@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "lastUpdated": "2026-03-24T00:00:00Z",
+  "lastUpdated": "2026-03-24T01:00:00Z",
   "calendarRange": {
     "start": "2026-02",
     "end": "2027-02"
@@ -63,6 +63,15 @@
         "runsAllowed": 12.5
       },
       {
+        "teamId": "SAK",
+        "teamName": "櫻砲魂",
+        "wins": 1,
+        "losses": 1,
+        "draws": 0,
+        "runsScored": 6.5,
+        "runsAllowed": 12.5
+      },
+      {
         "teamId": "DHW",
         "teamName": "DH戰將",
         "wins": 0,
@@ -81,6 +90,15 @@
         "runsAllowed": 11.0
       },
       {
+        "teamId": "NTE",
+        "teamName": "台大經濟OB",
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "runsScored": 7.0,
+        "runsAllowed": 12.0
+      },
+      {
         "teamId": "MIR",
         "teamName": "MIRACLE",
         "wins": 0,
@@ -97,15 +115,6 @@
         "draws": 0,
         "runsScored": 4.0,
         "runsAllowed": 8.0
-      },
-      {
-        "teamId": "SAK",
-        "teamName": "櫻砲魂",
-        "wins": 0,
-        "losses": 1,
-        "draws": 0,
-        "runsScored": 1.0,
-        "runsAllowed": 18.0
       },
       {
         "teamId": "YCT",
@@ -200,15 +209,6 @@
       {
         "teamId": "EAG",
         "teamName": "火把老鷹",
-        "wins": 0,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 0.0,
-        "runsAllowed": 0.0
-      },
-      {
-        "teamId": "NTE",
-        "teamName": "台大經濟OB",
         "wins": 0,
         "losses": 0,
         "draws": 0,
@@ -351,6 +351,20 @@
       "homeScore": 11,
       "awayScore": 10,
       "sheetId": "1jIIZ5M7yJcHZLvbtTcGQ6pZB-vkcHbRgO1O5HP1yo1U",
+      "note": "2026新球季"
+    },
+    "2026141": {
+      "date": "2026-03-21",
+      "homeTeam": "台大經濟OB",
+      "awayTeam": "櫻砲魂",
+      "venue": "清溪",
+      "timeSlot": "中午",
+      "startTime": "12:00",
+      "endTime": "14:30",
+      "status": "finished",
+      "homeScore": 7,
+      "awayScore": 12,
+      "sheetId": "",
       "note": "2026新球季"
     }
   }
