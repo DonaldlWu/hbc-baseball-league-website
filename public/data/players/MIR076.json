@@ -16,9 +16,9 @@
       "team": "MIRACLE",
       "number": "102",
       "batting": {
-        "games": 6,
-        "pa": 5,
-        "ab": 3,
+        "games": 7,
+        "pa": 7,
+        "ab": 5,
         "hits": 0,
         "singles": 0,
         "doubles": 0,
@@ -27,7 +27,7 @@
         "rbi": 0,
         "runs": 1,
         "bb": 2,
-        "so": 3,
+        "so": 4,
         "sb": 0,
         "sf": 0,
         "totalBases": 0
@@ -35,16 +35,16 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 593,
-        "hits": 1493,
-        "hr": 1019,
-        "rbi": 1455,
-        "avg": 1131,
-        "w": 690,
+        "rc": 635,
+        "hits": 1515,
+        "hr": 1072,
+        "rbi": 1480,
+        "avg": 1132,
+        "w": 691,
         "sv": 641,
-        "so": 862,
-        "era": 1131,
-        "whip": 1131,
+        "so": 863,
+        "era": 1132,
+        "whip": 1132,
         "fip": 0
       }
     }
