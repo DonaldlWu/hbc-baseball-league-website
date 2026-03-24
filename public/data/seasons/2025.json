@@ -1,6 +1,6 @@
 {
   "season": 2025,
-  "lastUpdated": "2026-03-17T13:50:24Z",
+  "lastUpdated": "2026-03-24T00:00:00Z",
   "calendarRange": {
     "start": "2025-04",
     "end": "2026-02"
@@ -27,6 +27,15 @@
         "runsScored": 9.15
       },
       {
+        "teamId": "HUA",
+        "teamName": "華江OB",
+        "wins": 14,
+        "losses": 4,
+        "draws": 2,
+        "runsAllowed": 5.301,
+        "runsScored": 10.3
+      },
+      {
         "teamId": "PHE",
         "teamName": "飛尼克斯",
         "wins": 14,
@@ -43,15 +52,6 @@
         "draws": 2,
         "runsAllowed": 6.75,
         "runsScored": 11.1
-      },
-      {
-        "teamId": "HUA",
-        "teamName": "華江OB",
-        "wins": 13,
-        "losses": 4,
-        "draws": 2,
-        "runsAllowed": 5.527,
-        "runsScored": 9.842
       },
       {
         "teamId": "ACE",
@@ -72,15 +72,6 @@
         "runsScored": 10.7
       },
       {
-        "teamId": "NTM",
-        "teamName": "Mechanics",
-        "wins": 11,
-        "losses": 7,
-        "draws": 2,
-        "runsAllowed": 6.3,
-        "runsScored": 8.3
-      },
-      {
         "teamId": "MUZ",
         "teamName": "木柵OB",
         "wins": 12,
@@ -88,6 +79,15 @@
         "draws": 1,
         "runsAllowed": 6.579,
         "runsScored": 9.579
+      },
+      {
+        "teamId": "NTM",
+        "teamName": "Mechanics",
+        "wins": 11,
+        "losses": 7,
+        "draws": 2,
+        "runsAllowed": 6.3,
+        "runsScored": 8.3
       },
       {
         "teamId": "SWD",
@@ -99,13 +99,22 @@
         "runsScored": 9.2
       },
       {
+        "teamId": "REV",
+        "teamName": "逆轉星球",
+        "wins": 11,
+        "losses": 9,
+        "draws": 0,
+        "runsAllowed": 6.0,
+        "runsScored": 8.6
+      },
+      {
         "teamId": "SHU",
         "teamName": "世新超乙組",
         "wins": 10,
-        "losses": 8,
+        "losses": 9,
         "draws": 1,
-        "runsAllowed": 6.316,
-        "runsScored": 7.684
+        "runsAllowed": 6.9,
+        "runsScored": 7.35
       },
       {
         "teamId": "SCO",
@@ -115,15 +124,6 @@
         "draws": 0,
         "runsAllowed": 7.95,
         "runsScored": 7.5
-      },
-      {
-        "teamId": "REV",
-        "teamName": "逆轉星球",
-        "wins": 10,
-        "losses": 9,
-        "draws": 0,
-        "runsAllowed": 6.211,
-        "runsScored": 7.316
       },
       {
         "teamId": "NTE",
@@ -165,10 +165,10 @@
         "teamId": "MIR",
         "teamName": "MIRACLE",
         "wins": 7,
-        "losses": 12,
+        "losses": 13,
         "draws": 0,
-        "runsAllowed": 10.685,
-        "runsScored": 6.632
+        "runsAllowed": 11.801,
+        "runsScored": 6.4
       },
       {
         "teamId": "HOL",
@@ -464,10 +464,10 @@
       "timeSlot": "中午",
       "startTime": "11:00",
       "endTime": "14:00",
-      "status": "rain",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": "",
+      "status": "finished",
+      "homeScore": 19,
+      "awayScore": 1,
+      "sheetId": "1pJOcIbAaI1k9OfcuXTwSCXGPF_dhWUYjlh1Sil3C7CI",
       "rescheduledDates": [
         {
           "date": "2026-03-21",
@@ -687,10 +687,10 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "rain",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": "",
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 33,
+      "sheetId": "1FqBmA2YLkSTQe60DP8DRjZExznN00L1n_avENm4f0yI",
       "rescheduledDates": [
         {
           "date": "2026-03-21",
