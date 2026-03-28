@@ -4,6 +4,7 @@ import type { Game } from '@/src/types';
  * 將台灣時間（UTC+8）的日期與時間轉為 UTC，格式化為 Google Calendar 所需的 YYYYMMDDTHHMMSSZ
  */
 function toGoogleCalDateTime(date: string, time: string): string {
+  if (!time) return '';
   const dt = new Date(`${date}T${time}:00+08:00`);
   return dt.toISOString().replace(/[-:.]/g, '').slice(0, 15) + 'Z';
 }
@@ -12,6 +13,7 @@ function toGoogleCalDateTime(date: string, time: string): string {
  * 格式化為 ICS 本地時間：YYYYMMDDTHHMMSS（搭配 TZID=Asia/Taipei）
  */
 function toICSLocalDateTime(date: string, time: string): string {
+  if (!time) return '';
   const [y, m, d] = date.split('-');
   const [h, min] = time.split(':');
   return `${y}${m}${d}T${h}${min}00`;
@@ -25,6 +27,7 @@ export function generateGoogleCalendarUrl(
   date: string,
   venueMapUrl?: string
 ): string {
+  if (!game.startTime || !game.endTime) return '';
   const title = encodeURIComponent(`⚾ ${game.awayTeam} vs ${game.homeTeam}`);
   const start = toGoogleCalDateTime(date, game.startTime);
   const end = toGoogleCalDateTime(date, game.endTime);
@@ -43,6 +46,7 @@ export function generateICSContent(
   date: string,
   venueMapUrl?: string
 ): string {
+  if (!game.startTime || !game.endTime) return '';
   const start = toICSLocalDateTime(date, game.startTime);
   const end = toICSLocalDateTime(date, game.endTime);
   const now = new Date().toISOString().replace(/[-:.]/g, '').slice(0, 15) + 'Z';

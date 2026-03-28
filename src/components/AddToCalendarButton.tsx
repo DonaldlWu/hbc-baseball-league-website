@@ -26,6 +26,8 @@ export function AddToCalendarButton({ game, date }: Props) {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, [open]);
 
+  if (!game.startTime || !game.endTime) return null;
+
   const venueMapUrl = VENUE_MAP_URLS[game.venue];
   const googleUrl = generateGoogleCalendarUrl(game, date, venueMapUrl);
 
