@@ -75,10 +75,10 @@
         "teamId": "MUZ",
         "teamName": "木柵OB",
         "wins": 12,
-        "losses": 6,
+        "losses": 7,
         "draws": 1,
-        "runsAllowed": 6.579,
-        "runsScored": 9.579
+        "runsAllowed": 6.8,
+        "runsScored": 9.4
       },
       {
         "teamId": "NTM",
@@ -117,6 +117,15 @@
         "runsScored": 7.35
       },
       {
+        "teamId": "MOR",
+        "teamName": "莫拉克",
+        "wins": 10,
+        "losses": 10,
+        "draws": 0,
+        "runsAllowed": 8.25,
+        "runsScored": 7.9
+      },
+      {
         "teamId": "SCO",
         "teamName": "實踐OB",
         "wins": 10,
@@ -144,15 +153,6 @@
         "runsScored": 7.15
       },
       {
-        "teamId": "MOR",
-        "teamName": "莫拉克",
-        "wins": 9,
-        "losses": 10,
-        "draws": 0,
-        "runsAllowed": 8.579,
-        "runsScored": 8.053
-      },
-      {
         "teamId": "EAG",
         "teamName": "火把老鷹",
         "wins": 8,
@@ -171,6 +171,15 @@
         "runsScored": 6.4
       },
       {
+        "teamId": "SHA",
+        "teamName": "少林棒球隊",
+        "wins": 3,
+        "losses": 16,
+        "draws": 1,
+        "runsAllowed": 12.2,
+        "runsScored": 5.1
+      },
+      {
         "teamId": "HOL",
         "teamName": "HOLYBAT",
         "wins": 2,
@@ -178,15 +187,6 @@
         "draws": 1,
         "runsAllowed": 15.6,
         "runsScored": 5.2
-      },
-      {
-        "teamId": "SHA",
-        "teamName": "少林棒球隊",
-        "wins": 2,
-        "losses": 16,
-        "draws": 1,
-        "runsAllowed": 12.526,
-        "runsScored": 4.789
       },
       {
         "teamId": "GEO",
@@ -201,10 +201,10 @@
         "teamId": "NTH",
         "teamName": "台大醫學院棒",
         "wins": 2,
-        "losses": 17,
+        "losses": 18,
         "draws": 0,
-        "runsAllowed": 13.789,
-        "runsScored": 5.368
+        "runsAllowed": 13.35,
+        "runsScored": 5.2
       }
     ]
   },
