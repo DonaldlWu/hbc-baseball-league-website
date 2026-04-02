@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import type { PostseasonMatchup } from '@/src/types';
-import { formatGamesOneLine } from '@/src/lib/bracketLayout';
+import { formatSeriesScore, formatGamesInfoLine, formatGamesOneLine } from '@/src/lib/bracketLayout';
 
 interface MatchupCardProps {
   matchup: PostseasonMatchup;
@@ -76,7 +76,18 @@ export default function MatchupCard({ matchup, variant = 'dark' }: MatchupCardPr
     ? 'px-3 py-1.5 bg-slate-900/50 border-t border-slate-700 text-xs text-slate-500'
     : 'px-3 py-1.5 bg-gray-50 border-t border-gray-100 text-xs text-gray-500';
 
-  const gamesLine = !isPending ? formatGamesOneLine(matchup.games) : '';
+  const seriesRowClasses = isDark
+    ? 'px-3 py-1.5 bg-slate-900/50 border-t border-slate-700 text-sm font-bold text-center text-slate-100'
+    : 'px-3 py-1.5 bg-gray-50 border-t border-gray-100 text-sm font-bold text-center text-gray-900';
+
+  const infoRowClasses = isDark
+    ? 'px-3 py-1 text-xs text-slate-500'
+    : 'px-3 py-1 text-xs text-gray-400';
+
+  const hasByeGame = matchup.games.some((g) => g.byeGame);
+  const seriesScore = hasByeGame ? formatSeriesScore(matchup.games) : '';
+  const infoLine = hasByeGame ? formatGamesInfoLine(matchup.games) : '';
+  const gamesLine = !hasByeGame && !isPending ? formatGamesOneLine(matchup.games) : '';
 
   return (
     <div className={cardClasses}>
@@ -96,7 +107,13 @@ export default function MatchupCard({ matchup, variant = 'dark' }: MatchupCardPr
         isPending={isPending}
         variant={variant}
       />
-      {!isPending && gamesLine && (
+      {!isPending && hasByeGame && (
+        <>
+          <div className={seriesRowClasses}>{seriesScore}</div>
+          <div className={infoRowClasses}>{infoLine}</div>
+        </>
+      )}
+      {!isPending && !hasByeGame && gamesLine && (
         <div className={scoreRowClasses}>
           {gamesLine}
         </div>
