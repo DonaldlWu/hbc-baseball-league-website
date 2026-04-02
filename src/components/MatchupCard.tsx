@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import type { PostseasonMatchup } from '@/src/types';
-import { formatSeriesScore, formatGamesInfoLine, formatGamesOneLine } from '@/src/lib/bracketLayout';
+import { formatGamesInfoLine, formatGamesOneLine } from '@/src/lib/bracketLayout';
 
 interface MatchupCardProps {
   matchup: PostseasonMatchup;
@@ -16,9 +16,10 @@ interface TeamRowProps {
   isWinner: boolean;
   isPending: boolean;
   variant: 'light' | 'dark';
+  seriesWins?: number;
 }
 
-function TeamRow({ teamId, teamName, seed, isWinner, isPending, variant }: TeamRowProps) {
+function TeamRow({ teamId, teamName, seed, isWinner, isPending, variant, seriesWins }: TeamRowProps) {
   const isDark = variant === 'dark';
 
   const containerClasses = isDark
@@ -39,8 +40,15 @@ function TeamRow({ teamId, teamName, seed, isWinner, isPending, variant }: TeamR
     ? 'text-xs font-medium bg-amber-500 text-slate-950 rounded px-1.5 py-0.5'
     : 'text-xs font-medium bg-green-100 text-green-700 rounded px-1.5 py-0.5';
 
+  const winsClasses = isDark
+    ? 'w-5 flex-shrink-0 text-sm font-bold text-center text-slate-100'
+    : 'w-5 flex-shrink-0 text-sm font-bold text-center text-gray-900';
+
   return (
     <div className={containerClasses}>
+      {seriesWins !== undefined && (
+        <span className={winsClasses}>{seriesWins}</span>
+      )}
       <div className={logoClasses}>
         {isPending ? (
           <span className={seedClasses}>{seed}</span>
@@ -76,17 +84,18 @@ export default function MatchupCard({ matchup, variant = 'dark' }: MatchupCardPr
     ? 'px-3 py-1.5 bg-slate-900/50 border-t border-slate-700 text-xs text-slate-500'
     : 'px-3 py-1.5 bg-gray-50 border-t border-gray-100 text-xs text-gray-500';
 
-  const seriesRowClasses = isDark
-    ? 'px-3 py-1.5 bg-slate-900/50 border-t border-slate-700 text-sm font-bold text-center text-slate-100'
-    : 'px-3 py-1.5 bg-gray-50 border-t border-gray-100 text-sm font-bold text-center text-gray-900';
-
   const infoRowClasses = isDark
     ? 'px-3 py-1 text-xs text-slate-500'
     : 'px-3 py-1 text-xs text-gray-400';
 
   const hasByeGame = matchup.games.some((g) => g.byeGame);
-  const seriesScore = hasByeGame ? formatSeriesScore(matchup.games) : '';
-  const infoLine = hasByeGame ? formatGamesInfoLine(matchup.games) : '';
+  const team1Wins = hasByeGame && !isPending
+    ? matchup.games.filter((g) => g.winner === 'team1').length
+    : undefined;
+  const team2Wins = hasByeGame && !isPending
+    ? matchup.games.filter((g) => g.winner === 'team2').length
+    : undefined;
+  const infoLine = hasByeGame && !isPending ? formatGamesInfoLine(matchup.games) : '';
   const gamesLine = !hasByeGame && !isPending ? formatGamesOneLine(matchup.games) : '';
 
   return (
@@ -98,6 +107,7 @@ export default function MatchupCard({ matchup, variant = 'dark' }: MatchupCardPr
         isWinner={matchup.winner === 'team1'}
         isPending={isPending}
         variant={variant}
+        seriesWins={team1Wins}
       />
       <TeamRow
         teamId={matchup.team2.teamId}
@@ -106,12 +116,10 @@ export default function MatchupCard({ matchup, variant = 'dark' }: MatchupCardPr
         isWinner={matchup.winner === 'team2'}
         isPending={isPending}
         variant={variant}
+        seriesWins={team2Wins}
       />
-      {!isPending && hasByeGame && (
-        <>
-          <div className={seriesRowClasses}>{seriesScore}</div>
-          <div className={infoRowClasses}>{infoLine}</div>
-        </>
+      {!isPending && hasByeGame && infoLine && (
+        <div className={infoRowClasses}>{infoLine}</div>
       )}
       {!isPending && !hasByeGame && gamesLine && (
         <div className={scoreRowClasses}>
