@@ -20,7 +20,8 @@ export function formatGamesInfoLine(games: PostseasonGame[]): string {
     if (first.venue) parts.push(first.venue);
     if (first.date) parts.push(first.date.slice(5).replace('-', '/'));
     if (first.startTime) parts.push(first.startTime);
-    return parts.join(' · ');
+    const info = parts.join(' · ');
+    return info ? `Next Game · ${info}` : 'Next Game';
   }
 
   return realGames
