@@ -450,6 +450,10 @@ export interface PostseasonGame {
   awayScore: number | null;
   gameNumber: string | null;
   note?: string;
+  // Enriched by postseasonLoader from postseason schedule data
+  date?: string | null;
+  venue?: string | null;
+  startTime?: string | null;
 }
 
 export interface PostseasonMatchup {

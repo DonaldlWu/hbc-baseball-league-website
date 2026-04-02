@@ -5,7 +5,7 @@ import type {
   PostseasonRound,
   PostseasonTeamEntry,
 } from '@/src/types';
-import { loadSeasonData } from './seasonDataLoader';
+import { loadSeasonData, loadPostseasonScheduleData } from './seasonDataLoader';
 import { calculateStandings } from './standingsCalculator';
 
 /**
@@ -31,9 +31,10 @@ function buildSeedMap(
  * - 確保季後賽排名永遠與 seasons/YYYY.json 的排名資料一致（單一事實來源）
  */
 export async function loadPostseasonData(year: number): Promise<PostseasonData> {
-  const [postseasonResponse, seasonData] = await Promise.all([
+  const [postseasonResponse, seasonData, scheduleData] = await Promise.all([
     fetch(`/data/postseason/${year}.json`),
     loadSeasonData(year),
+    loadPostseasonScheduleData(year).catch(() => null),
   ]);
 
   if (!postseasonResponse.ok) {
@@ -41,6 +42,10 @@ export async function loadPostseasonData(year: number): Promise<PostseasonData> 
   }
 
   const raw: PostseasonDataRaw = await postseasonResponse.json();
+
+  const scheduleMap = scheduleData
+    ? new Map(Object.entries(scheduleData.games))
+    : new Map<string, never>();
 
   // 計算排名（與排名頁面邏輯一致：積分 → 勝率）
   const rankedTeams = calculateStandings(seasonData.standings.teams);
@@ -96,7 +101,15 @@ export async function loadPostseasonData(year: number): Promise<PostseasonData> 
         seed2: matchup.seed2,
         team1,
         team2,
-        games: matchup.games,
+        games: matchup.games.map((g) => {
+          const sched = g.gameNumber ? scheduleMap.get(g.gameNumber) : undefined;
+          return {
+            ...g,
+            date: sched?.date ?? null,
+            venue: sched?.venue ?? null,
+            startTime: sched?.startTime ?? null,
+          };
+        }),
         winner: matchup.winner,
         status: matchup.status,
       };

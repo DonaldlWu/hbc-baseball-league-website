@@ -1,12 +1,9 @@
 "use client";
 
-import { use, useState } from 'react';
+import { use } from 'react';
 import { usePostseason } from '@/src/hooks/usePostseason';
 import FullPostseasonBracket from '@/src/components/FullPostseasonBracket';
-import PostseasonSchedule from '@/src/components/PostseasonSchedule';
 import { getChampion } from '@/src/lib/postseasonLoader';
-
-type Tab = 'bracket' | 'schedule';
 
 export default function PostseasonPage({
   params,
@@ -16,7 +13,6 @@ export default function PostseasonPage({
   const { year } = use(params);
   const yearNum = parseInt(year, 10);
   const { data, loading, error } = usePostseason(yearNum);
-  const [activeTab, setActiveTab] = useState<Tab>('bracket');
 
   const champion = data ? getChampion(data) : null;
 
@@ -47,46 +43,20 @@ export default function PostseasonPage({
             )}
           </div>
 
-          {/* Tabs */}
-          <div className="flex bg-slate-900 border-b border-slate-700">
-            {([['bracket', '對戰籤表'], ['schedule', '賽程表']] as [Tab, string][]).map(([tab, label]) => (
-              <button
-                key={tab}
-                onClick={() => setActiveTab(tab)}
-                className={`px-5 py-3 text-sm font-medium transition-colors ${
-                  activeTab === tab
-                    ? 'text-white border-b-2 border-amber-400'
-                    : 'text-slate-400 hover:text-slate-200'
-                }`}
-              >
-                {label}
-              </button>
-            ))}
-          </div>
-
           {/* Bracket content */}
-          {activeTab === 'bracket' && (
-            <div className="bg-slate-950 overflow-x-auto">
-              {loading && (
-                <p className="text-sm text-slate-400 text-center py-8">載入中...</p>
-              )}
-              {error && (
-                <p className="text-sm text-red-400 text-center py-8">{error}</p>
-              )}
-              {data && !loading && (
-                <div className="p-6 min-w-max">
-                  <FullPostseasonBracket data={data} />
-                </div>
-              )}
-            </div>
-          )}
-
-          {/* Schedule content */}
-          {activeTab === 'schedule' && (
-            <div className="bg-slate-950 p-6">
-              <PostseasonSchedule year={yearNum} />
-            </div>
-          )}
+          <div className="bg-slate-950 overflow-x-auto">
+            {loading && (
+              <p className="text-sm text-slate-400 text-center py-8">載入中...</p>
+            )}
+            {error && (
+              <p className="text-sm text-red-400 text-center py-8">{error}</p>
+            )}
+            {data && !loading && (
+              <div className="p-6 min-w-max">
+                <FullPostseasonBracket data={data} />
+              </div>
+            )}
+          </div>
 
         </div>
       </main>

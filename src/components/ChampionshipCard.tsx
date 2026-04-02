@@ -23,23 +23,37 @@ function GameCell({ game, variant }: { game: PostseasonGame | undefined; variant
     );
   }
 
-  const scoreDisplay =
-    game.homeScore !== null && game.awayScore !== null
-      ? `${game.homeScore}-${game.awayScore}`
-      : '-';
-
+  const hasScore = game.homeScore !== null && game.awayScore !== null;
   const cellClasses = isDark
-    ? 'flex flex-col items-center justify-center h-12 rounded border border-slate-700 bg-slate-900/50 p-2 text-center text-xs'
-    : 'flex flex-col items-center justify-center h-12 rounded border border-amber-200 bg-amber-50';
+    ? 'flex flex-col items-center justify-center h-12 rounded border border-slate-700 bg-slate-900/50 p-1.5 text-center overflow-hidden'
+    : 'flex flex-col items-center justify-center h-12 rounded border border-amber-200 bg-amber-50 p-1.5 text-center overflow-hidden';
 
   return (
     <div className={cellClasses}>
       <span className={isDark ? 'text-xs text-slate-400' : 'text-xs text-amber-600 font-medium'}>
         G{game.gameSeq}
       </span>
-      <span className={isDark ? 'text-sm font-bold text-slate-100' : 'text-sm font-semibold text-gray-800'}>
-        {scoreDisplay}
-      </span>
+      {hasScore ? (
+        <span className={isDark ? 'text-sm font-bold text-slate-100' : 'text-sm font-semibold text-gray-800'}>
+          {game.homeScore}-{game.awayScore}
+        </span>
+      ) : (
+        <>
+          {game.venue && (
+            <span className={`text-xs truncate w-full text-center ${isDark ? 'text-slate-300' : 'text-amber-700'}`}>
+              {game.venue}
+            </span>
+          )}
+          {game.startTime && (
+            <span className={isDark ? 'text-xs text-slate-500' : 'text-xs text-amber-500'}>
+              {game.startTime}
+            </span>
+          )}
+          {!game.venue && !game.startTime && (
+            <span className={isDark ? 'text-xs text-slate-600' : 'text-xs text-gray-400'}>待賽</span>
+          )}
+        </>
+      )}
     </div>
   );
 }
