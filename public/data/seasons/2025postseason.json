@@ -1,0 +1,118 @@
+{
+  "season": 2025,
+  "lastUpdated": "2026-04-02T00:00:00Z",
+  "calendarRange": {
+    "start": "2026-04",
+    "end": "2026-06"
+  },
+  "standings": {
+    "source": "manual",
+    "teams": []
+  },
+  "games": {
+    "20250314G1": {
+      "date": "2026-04-04",
+      "homeTeam": "莫拉克",
+      "awayTeam": "華江OB",
+      "venue": "中正A",
+      "timeSlot": "上午",
+      "startTime": "08:00",
+      "endTime": "11:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null,
+      "sheetId": ""
+    },
+    "20250215G1": {
+      "date": "2026-04-04",
+      "homeTeam": "台大經濟OB",
+      "awayTeam": "永春TB",
+      "venue": "中正A",
+      "timeSlot": "中午",
+      "startTime": "11:00",
+      "endTime": "14:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null,
+      "sheetId": ""
+    },
+    "20250116G1": {
+      "date": "2026-04-05",
+      "homeTeam": "DH戰將",
+      "awayTeam": "Line Drive",
+      "venue": "中正A",
+      "timeSlot": "下午",
+      "startTime": "14:00",
+      "endTime": "17:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null,
+      "sheetId": ""
+    },
+    "20250512G1": {
+      "date": "2026-04-06",
+      "homeTeam": "世新超乙組",
+      "awayTeam": "楚奧特",
+      "venue": "中正A",
+      "timeSlot": "上午",
+      "startTime": "08:00",
+      "endTime": "11:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null,
+      "sheetId": ""
+    },
+    "20250809G1": {
+      "date": "2026-04-06",
+      "homeTeam": "政大Mechanics",
+      "awayTeam": "ACES",
+      "venue": "中正A",
+      "timeSlot": "中午",
+      "startTime": "11:00",
+      "endTime": "14:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null,
+      "sheetId": ""
+    },
+    "20250413G1": {
+      "date": "2026-04-06",
+      "homeTeam": "實踐OB",
+      "awayTeam": "飛尼克斯",
+      "venue": "中正A",
+      "timeSlot": "下午",
+      "startTime": "14:00",
+      "endTime": "17:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null,
+      "sheetId": ""
+    },
+    "20250710G1": {
+      "date": "2026-04-06",
+      "homeTeam": "甜心暴龍",
+      "awayTeam": "陽明OB",
+      "venue": "三鶯A",
+      "timeSlot": "中午",
+      "startTime": "12:00",
+      "endTime": "14:30",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null,
+      "sheetId": ""
+    },
+    "20250611G1": {
+      "date": "2026-04-06",
+      "homeTeam": "逆轉星球",
+      "awayTeam": "木柵OB",
+      "venue": "三鶯B",
+      "timeSlot": "中午",
+      "startTime": "12:00",
+      "endTime": "14:30",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null,
+      "sheetId": ""
+    }
+  }
+}

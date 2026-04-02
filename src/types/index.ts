@@ -342,7 +342,10 @@ export interface GameReport {
 // gameNumber 解析結果
 export interface ParsedGameNumber {
   season: number;          // 賽季年度 (如 2025)
-  number: number;          // 場次編號 (如 201)
+  number: number;          // 場次編號 (如 201)；季後賽為配對代碼數字值 (如 314)
+  isPostseason?: boolean;  // 是否為季後賽場次
+  matchupCode?: string;    // 季後賽配對代碼 (如 "0314"，代表第3種子 vs 第14種子)
+  gameSeq?: number;        // 季後賽該系列第幾場 (如 1)
 }
 
 // ============ 賽季對戰紀錄 ============
