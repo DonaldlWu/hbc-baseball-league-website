@@ -47,7 +47,7 @@ export default function Home() {
               <h2 className="text-2xl font-bold text-gray-900">聯盟排名</h2>
               {availableSeasons.length > 0 && (
                 <div className="flex gap-2">
-                  {availableSeasons.map((s) => (
+                  {availableSeasons.filter((s) => !s.file).map((s) => (
                     <button
                       key={s.season}
                       onClick={() => setSelectedYear(s.season)}
