@@ -10,9 +10,9 @@ interface PostseasonBracketProps {
 
 const CARD_W = 176;
 const CONNECTOR_W = 48;
-// 122 = 2×(py-2 + h-8) rows + border + info-row (py-1)
-// Must match the tallest possible MatchupCard (completed, with score row)
-const CARD_H = 122;
+// 148 = 2×(py-2 + h-8) rows + border + Next Game row (border-t py-1) + venue row (py-1)
+// Must match the tallest possible MatchupCard (upcoming R16 with two footer rows)
+const CARD_H = 148;
 const CARD_GAP = 24;
 const PAIR_GAP = 48;
 
