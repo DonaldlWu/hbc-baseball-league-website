@@ -1,0 +1,52 @@
+{
+  "id": "SAK006",
+  "code": "SAK006",
+  "name": "鄧宇修",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNlEdlI8ISm_dFmyl9VqvSCtE-yNvkKkqGlWGQWOonPtadvKHgJuBDsqbWG7ZOMOCQm2XEJeSsSHxj6F0z6G2VuEpStMdqrcAWR1gZTNDEH4IhRmzT0L6pIPfmApO_bjuKgu6Wl_t76fzmcKtkv-YWBGQ=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "櫻砲魂"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "櫻砲魂",
+      "number": "98",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 5,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 1,
+        "bb": 1,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 34,
+        "hits": 37,
+        "hr": 1597,
+        "rbi": 3,
+        "avg": 45,
+        "w": 242,
+        "sv": 240,
+        "so": 262,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    }
+  ]
+}

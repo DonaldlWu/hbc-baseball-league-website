@@ -1,0 +1,52 @@
+{
+  "id": "SAK021",
+  "code": "SAK021",
+  "name": "姜柏睿",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNMgV3Uv8gMjqsaLiDvf9kqG0ELSnqypGBVZLBCKDvRgXClF8TI0Gxh9YbhyravCS_jUV_4_5yvYcADYewZJL4IPfLrCwV5zEWgmRrf1BZx6-e4KgNwONKswq04ockzQGLlBEr3ZZC70ACSb8028POpog=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "櫻砲魂"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "櫻砲魂",
+      "number": "30",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 1,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 56,
+        "hits": 53,
+        "hr": 1507,
+        "rbi": 1559,
+        "avg": 38,
+        "w": 263,
+        "sv": 261,
+        "so": 283,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    }
+  ]
+}

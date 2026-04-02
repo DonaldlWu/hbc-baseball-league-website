@@ -8,9 +8,46 @@
     "teams": [
       "Line Drive"
     ],
-    "totalSeasons": 2
+    "totalSeasons": 3
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "Line Drive",
+      "number": "105",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 864,
+        "hits": 634,
+        "hr": 544,
+        "rbi": 604,
+        "avg": 1090,
+        "w": 639,
+        "sv": 637,
+        "so": 659,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "Line Drive",
@@ -59,16 +96,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 936,
-        "hits": 833,
-        "hr": 284,
-        "rbi": 772,
+        "rc": 925,
+        "hits": 824,
+        "hr": 275,
+        "rbi": 764,
         "avg": 1132,
         "w": 1425,
         "sv": 1375,
         "so": 207,
         "era": 1132,
-        "whip": 645,
+        "whip": 926,
         "fip": 0
       }
     },

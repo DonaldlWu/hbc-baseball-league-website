@@ -8,9 +8,46 @@
     "teams": [
       "台大經濟OB"
     ],
-    "totalSeasons": 10
+    "totalSeasons": 11
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "台大經濟OB",
+      "number": "99",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 665,
+        "hits": 477,
+        "hr": 387,
+        "rbi": 447,
+        "avg": 1090,
+        "w": 457,
+        "sv": 455,
+        "so": 477,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "台大經濟OB",
@@ -59,16 +96,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 399,
-        "hits": 328,
-        "hr": 1368,
-        "rbi": 205,
+        "rc": 402,
+        "hits": 330,
+        "hr": 1365,
+        "rbi": 206,
         "avg": 1132,
         "w": 1489,
-        "sv": 1444,
-        "so": 157,
+        "sv": 1443,
+        "so": 159,
         "era": 1132,
-        "whip": 562,
+        "whip": 561,
         "fip": 0
       }
     },

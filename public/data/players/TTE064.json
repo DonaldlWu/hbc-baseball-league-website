@@ -8,9 +8,46 @@
     "teams": [
       "ACES"
     ],
-    "totalSeasons": 5
+    "totalSeasons": 6
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "ACES",
+      "number": "3",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 423,
+        "hits": 224,
+        "hr": 134,
+        "rbi": 194,
+        "avg": 1090,
+        "w": 163,
+        "sv": 161,
+        "so": 183,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "ACES",
@@ -35,10 +72,10 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 381,
-        "hits": 432,
-        "hr": 1153,
-        "rbi": 350,
+        "rc": 384,
+        "hits": 431,
+        "hr": 1150,
+        "rbi": 353,
         "avg": 1132,
         "w": 190,
         "sv": 140,

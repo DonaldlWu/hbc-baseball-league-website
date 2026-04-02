@@ -10,9 +10,46 @@
       "台大機械",
       "ALLSTAR"
     ],
-    "totalSeasons": 3
+    "totalSeasons": 4
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "Mechanics",
+      "number": "17",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 793,
+        "hits": 835,
+        "hr": 745,
+        "rbi": 805,
+        "avg": 1090,
+        "w": 863,
+        "sv": 861,
+        "so": 883,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "Mechanics",
@@ -61,16 +98,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 347,
-        "hits": 335,
-        "hr": 990,
-        "rbi": 429,
+        "rc": 349,
+        "hits": 336,
+        "hr": 991,
+        "rbi": 430,
         "avg": 1132,
-        "w": 1391,
-        "sv": 1340,
-        "so": 195,
+        "w": 1390,
+        "sv": 1339,
+        "so": 194,
         "era": 1132,
-        "whip": 752,
+        "whip": 751,
         "fip": 0
       }
     },

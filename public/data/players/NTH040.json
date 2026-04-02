@@ -8,15 +8,52 @@
     "teams": [
       "台大醫學院棒"
     ],
-    "totalSeasons": 1
+    "totalSeasons": 2
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "台大醫學院棒",
+      "number": "51",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 299,
+        "hits": 929,
+        "hr": 839,
+        "rbi": 899,
+        "avg": 1090,
+        "w": 964,
+        "sv": 962,
+        "so": 984,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "台大醫學院棒",
       "number": "51",
       "batting": {
-        "games": 13,
+        "games": 14,
         "pa": 34,
         "ab": 33,
         "hits": 6,
@@ -36,13 +73,13 @@
       "pitchingCalculated": null,
       "rankings": {
         "rc": 464,
-        "hits": 240,
-        "hr": 1393,
-        "rbi": 314,
+        "hits": 243,
+        "hr": 1390,
+        "rbi": 315,
         "avg": 1132,
-        "w": 861,
-        "sv": 811,
-        "so": 1033,
+        "w": 858,
+        "sv": 808,
+        "so": 1030,
         "era": 1132,
         "whip": 1132,
         "fip": 0

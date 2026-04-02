@@ -8,9 +8,70 @@
     "teams": [
       "十號馬"
     ],
-    "totalSeasons": 2
+    "totalSeasons": 3
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "十號馬",
+      "number": "18",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 1,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": {
+        "games": 2,
+        "ip": 4.667,
+        "bf": 24,
+        "so": 10,
+        "bb": 5,
+        "h": 4,
+        "hr": 0,
+        "r": 5,
+        "er": 2,
+        "w": 0,
+        "l": 0,
+        "sv": 1,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 3.85686736661667,
+        "whip": 1.928433683308335,
+        "fip": 2.128648874,
+        "kPer9": 19.28433683308335,
+        "bbPer9": 9.642168416541676,
+        "hPer9": 7.71373473323334,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 75,
+        "hits": 84,
+        "hr": 1585,
+        "rbi": 1603,
+        "avg": 70,
+        "w": 1608,
+        "sv": 6,
+        "so": 2,
+        "era": 1090,
+        "whip": 13,
+        "fip": 10
+      }
+    },
     {
       "year": 2025,
       "team": "十號馬",
@@ -59,13 +120,13 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 1058,
+        "rc": 1057,
         "hits": 1401,
         "hr": 853,
-        "rbi": 1338,
+        "rbi": 1339,
         "avg": 1132,
         "w": 84,
-        "sv": 1505,
+        "sv": 1504,
         "so": 25,
         "era": 1132,
         "whip": 42,

@@ -9,9 +9,46 @@
       "飛尼克斯",
       "ALLSTAR"
     ],
-    "totalSeasons": 17
+    "totalSeasons": 18
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "飛尼克斯",
+      "number": "15",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 54,
+        "hits": 51,
+        "hr": 1503,
+        "rbi": 1555,
+        "avg": 36,
+        "w": 200,
+        "sv": 198,
+        "so": 220,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "飛尼克斯",
@@ -36,10 +73,10 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 114,
-        "hits": 143,
-        "hr": 1435,
-        "rbi": 48,
+        "rc": 113,
+        "hits": 145,
+        "hr": 1434,
+        "rbi": 49,
         "avg": 1132,
         "w": 217,
         "sv": 167,

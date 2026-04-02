@@ -9,9 +9,46 @@
       "Mechanics",
       "HOLYBAT"
     ],
-    "totalSeasons": 5
+    "totalSeasons": 6
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "Mechanics",
+      "number": "40",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 787,
+        "hits": 805,
+        "hr": 715,
+        "rbi": 775,
+        "avg": 1090,
+        "w": 833,
+        "sv": 831,
+        "so": 853,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "Mechanics",
@@ -36,10 +73,10 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 908,
+        "rc": 906,
         "hits": 929,
         "hr": 380,
-        "rbi": 868,
+        "rbi": 869,
         "avg": 1132,
         "w": 760,
         "sv": 710,

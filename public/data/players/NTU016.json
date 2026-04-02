@@ -9,9 +9,46 @@
       "楚奧特",
       "台大化工OB"
     ],
-    "totalSeasons": 13
+    "totalSeasons": 14
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "楚奧特",
+      "number": "25",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 0,
+        "bb": 1,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 49,
+        "hits": 66,
+        "hr": 1534,
+        "rbi": 8,
+        "avg": 50,
+        "w": 345,
+        "sv": 343,
+        "so": 365,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "楚奧特",
@@ -37,13 +74,13 @@
       "pitchingCalculated": null,
       "rankings": {
         "rc": 39,
-        "hits": 49,
+        "hits": 50,
         "hr": 1533,
-        "rbi": 42,
-        "avg": 62,
-        "w": 350,
-        "sv": 300,
-        "so": 522,
+        "rbi": 43,
+        "avg": 63,
+        "w": 349,
+        "sv": 299,
+        "so": 521,
         "era": 1132,
         "whip": 1132,
         "fip": 0

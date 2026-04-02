@@ -8,9 +8,46 @@
     "teams": [
       "Mechanics"
     ],
-    "totalSeasons": 1
+    "totalSeasons": 2
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "Mechanics",
+      "number": "78",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 804,
+        "hits": 898,
+        "hr": 808,
+        "rbi": 868,
+        "avg": 1090,
+        "w": 929,
+        "sv": 927,
+        "so": 949,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "Mechanics",
@@ -35,14 +72,14 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 292,
-        "hits": 301,
-        "hr": 1178,
-        "rbi": 227,
+        "rc": 293,
+        "hits": 304,
+        "hr": 1175,
+        "rbi": 228,
         "avg": 1132,
-        "w": 841,
-        "sv": 791,
-        "so": 1013,
+        "w": 840,
+        "sv": 790,
+        "so": 1012,
         "era": 1132,
         "whip": 1132,
         "fip": 0

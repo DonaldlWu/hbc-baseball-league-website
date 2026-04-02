@@ -7,11 +7,86 @@
     "debut": 2014,
     "teams": [
       "Mechanics",
+      "Aaron Prosecutor",
       "台大機械"
     ],
-    "totalSeasons": 12
+    "totalSeasons": 14
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "Mechanics",
+      "number": "11",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 819,
+        "hits": 978,
+        "hr": 888,
+        "rbi": 948,
+        "avg": 1090,
+        "w": 1017,
+        "sv": 1015,
+        "so": 1037,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
+    {
+      "year": 2026,
+      "team": "Aaron Prosecutor",
+      "number": "17",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 6,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 5,
+        "bb": 2,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 21,
+        "hits": 38,
+        "hr": 1606,
+        "rbi": 1610,
+        "avg": 49,
+        "w": 142,
+        "sv": 140,
+        "so": 162,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "Mechanics",
@@ -67,9 +142,9 @@
         "avg": 3,
         "w": 32,
         "sv": 33,
-        "so": 34,
+        "so": 35,
         "era": 1132,
-        "whip": 200,
+        "whip": 201,
         "fip": 1
       }
     },

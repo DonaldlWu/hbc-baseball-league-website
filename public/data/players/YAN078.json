@@ -8,9 +8,46 @@
     "teams": [
       "陽明OB"
     ],
-    "totalSeasons": 7
+    "totalSeasons": 8
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "陽明OB",
+      "number": "31",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 752,
+        "hits": 564,
+        "hr": 474,
+        "rbi": 534,
+        "avg": 1090,
+        "w": 562,
+        "sv": 560,
+        "so": 582,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "陽明OB",
@@ -35,14 +72,14 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 895,
+        "rc": 893,
         "hits": 805,
         "hr": 256,
-        "rbi": 744,
+        "rbi": 745,
         "avg": 1132,
-        "w": 524,
-        "sv": 474,
-        "so": 696,
+        "w": 523,
+        "sv": 473,
+        "so": 695,
         "era": 1132,
         "whip": 1132,
         "fip": 0

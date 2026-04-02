@@ -9,29 +9,66 @@
       "莫拉克",
       "京盛宇"
     ],
-    "totalSeasons": 6
+    "totalSeasons": 7
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "莫拉克",
+      "number": "28",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 964,
+        "hits": 961,
+        "hr": 871,
+        "rbi": 931,
+        "avg": 1090,
+        "w": 999,
+        "sv": 997,
+        "so": 1019,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "莫拉克",
       "number": "28",
       "batting": {
-        "games": 16,
-        "pa": 68,
-        "ab": 45,
-        "hits": 15,
-        "singles": 8,
+        "games": 17,
+        "pa": 71,
+        "ab": 48,
+        "hits": 16,
+        "singles": 9,
         "doubles": 7,
         "triples": 0,
         "hr": 0,
-        "rbi": 6,
+        "rbi": 7,
         "runs": 20,
         "bb": 22,
-        "so": 8,
+        "so": 9,
         "sb": 4,
         "sf": 1,
-        "totalBases": 22
+        "totalBases": 23
       },
       "pitching": {
         "games": 1,
@@ -60,14 +97,14 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 30,
-        "hits": 69,
-        "hr": 1523,
-        "rbi": 178,
-        "avg": 53,
-        "w": 1367,
-        "sv": 1316,
-        "so": 240,
+        "rc": 27,
+        "hits": 59,
+        "hr": 1527,
+        "rbi": 151,
+        "avg": 54,
+        "w": 1366,
+        "sv": 1315,
+        "so": 239,
         "era": 1132,
         "whip": 261,
         "fip": 0

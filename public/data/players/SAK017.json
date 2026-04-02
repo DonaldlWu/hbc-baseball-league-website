@@ -1,0 +1,52 @@
+{
+  "id": "SAK017",
+  "code": "SAK017",
+  "name": "呂紹銓",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNmNDLCHmtFpZr3Zed6VBli1HxAYXXrkiQJbpmbCDfG2pjEU5T6wexi4buvEewi8YLXxwGMwYp6Wz5yAyiec7hSrAhlx7lRifwIc2ecAQxoJfR6cZSvbBI2F7lUyH0iDn8doxvDjokFPzEjr_7FMOWJPw=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "櫻砲魂"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "櫻砲魂",
+      "number": "99",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 12,
+        "hits": 18,
+        "hr": 1506,
+        "rbi": 1558,
+        "avg": 4,
+        "w": 240,
+        "sv": 238,
+        "so": 260,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    }
+  ]
+}

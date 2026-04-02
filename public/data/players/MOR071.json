@@ -9,9 +9,46 @@
       "永春TB",
       "莫拉克"
     ],
-    "totalSeasons": 7
+    "totalSeasons": 8
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "永春TB",
+      "number": "8",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 597,
+        "hits": 409,
+        "hr": 319,
+        "rbi": 379,
+        "avg": 1090,
+        "w": 388,
+        "sv": 386,
+        "so": 408,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "永春TB",
@@ -36,14 +73,14 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 385,
+        "rc": 388,
         "hits": 546,
-        "hr": 1118,
-        "rbi": 474,
+        "hr": 1117,
+        "rbi": 473,
         "avg": 1132,
-        "w": 387,
-        "sv": 337,
-        "so": 559,
+        "w": 386,
+        "sv": 336,
+        "so": 558,
         "era": 1132,
         "whip": 1132,
         "fip": 0

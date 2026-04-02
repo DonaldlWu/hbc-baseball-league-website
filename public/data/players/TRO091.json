@@ -8,9 +8,46 @@
     "teams": [
       "楚奧特"
     ],
-    "totalSeasons": 1
+    "totalSeasons": 2
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "楚奧特",
+      "number": "88",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 520,
+        "hits": 332,
+        "hr": 242,
+        "rbi": 302,
+        "avg": 1090,
+        "w": 299,
+        "sv": 297,
+        "so": 319,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "楚奧特",
@@ -59,16 +96,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 805,
+        "rc": 803,
         "hits": 715,
         "hr": 166,
-        "rbi": 654,
+        "rbi": 655,
         "avg": 1132,
         "w": 1397,
         "sv": 1346,
-        "so": 251,
+        "so": 250,
         "era": 1132,
-        "whip": 645,
+        "whip": 644,
         "fip": 0
       }
     }

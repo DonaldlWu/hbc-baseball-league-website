@@ -9,9 +9,46 @@
       "木柵OB",
       "冷鋒"
     ],
-    "totalSeasons": 11
+    "totalSeasons": 12
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "木柵OB",
+      "number": "18",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 470,
+        "hits": 309,
+        "hr": 219,
+        "rbi": 279,
+        "avg": 1090,
+        "w": 267,
+        "sv": 265,
+        "so": 287,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "木柵OB",
@@ -60,16 +97,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 217,
-        "hits": 194,
-        "hr": 1145,
-        "rbi": 348,
+        "rc": 223,
+        "hits": 198,
+        "hr": 1141,
+        "rbi": 351,
         "avg": 1132,
         "w": 1512,
         "sv": 1468,
-        "so": 46,
+        "so": 47,
         "era": 1132,
-        "whip": 323,
+        "whip": 322,
         "fip": 0
       }
     },

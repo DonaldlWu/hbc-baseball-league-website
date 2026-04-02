@@ -9,9 +9,46 @@
       "飛尼克斯",
       "ROOKIES"
     ],
-    "totalSeasons": 13
+    "totalSeasons": 14
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "飛尼克斯",
+      "number": "18",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 97,
+        "hits": 55,
+        "hr": 1512,
+        "rbi": 17,
+        "avg": 56,
+        "w": 197,
+        "sv": 195,
+        "so": 217,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "飛尼克斯",
@@ -60,14 +97,14 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 185,
-        "hits": 260,
-        "hr": 1230,
-        "rbi": 369,
+        "rc": 190,
+        "hits": 263,
+        "hr": 1227,
+        "rbi": 371,
         "avg": 1132,
-        "w": 70,
+        "w": 72,
         "sv": 27,
-        "so": 111,
+        "so": 113,
         "era": 1132,
         "whip": 303,
         "fip": 0

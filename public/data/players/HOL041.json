@@ -8,9 +8,46 @@
     "teams": [
       "HOLYBAT"
     ],
-    "totalSeasons": 11
+    "totalSeasons": 12
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "HOLYBAT",
+      "number": "19",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 835,
+        "hits": 605,
+        "hr": 515,
+        "rbi": 575,
+        "avg": 1090,
+        "w": 603,
+        "sv": 601,
+        "so": 623,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "HOLYBAT",
@@ -59,16 +96,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 320,
-        "hits": 265,
-        "hr": 1256,
+        "rc": 323,
+        "hits": 268,
+        "hr": 1254,
         "rbi": 195,
         "avg": 1132,
-        "w": 1364,
-        "sv": 1313,
-        "so": 238,
+        "w": 1363,
+        "sv": 1312,
+        "so": 237,
         "era": 1132,
-        "whip": 817,
+        "whip": 816,
         "fip": 0
       }
     },

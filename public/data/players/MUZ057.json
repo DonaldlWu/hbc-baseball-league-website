@@ -8,9 +8,46 @@
     "teams": [
       "木柵OB"
     ],
-    "totalSeasons": 7
+    "totalSeasons": 8
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "木柵OB",
+      "number": "7",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 478,
+        "hits": 319,
+        "hr": 229,
+        "rbi": 289,
+        "avg": 1090,
+        "w": 282,
+        "sv": 280,
+        "so": 302,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "木柵OB",
@@ -59,16 +96,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 355,
+        "rc": 358,
         "hits": 571,
-        "hr": 1247,
-        "rbi": 374,
+        "hr": 1244,
+        "rbi": 377,
         "avg": 1132,
-        "w": 35,
-        "sv": 1493,
-        "so": 79,
+        "w": 36,
+        "sv": 1492,
+        "so": 80,
         "era": 1132,
-        "whip": 162,
+        "whip": 163,
         "fip": 45
       }
     },

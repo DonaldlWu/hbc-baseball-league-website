@@ -9,9 +9,46 @@
       "逆轉星球",
       "台大化工OB"
     ],
-    "totalSeasons": 8
+    "totalSeasons": 9
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "逆轉星球",
+      "number": "97",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 710,
+        "hits": 522,
+        "hr": 432,
+        "rbi": 492,
+        "avg": 1090,
+        "w": 511,
+        "sv": 509,
+        "so": 531,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "逆轉星球",
@@ -36,14 +73,14 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 558,
+        "rc": 557,
         "hits": 543,
-        "hr": 1110,
-        "rbi": 1497,
+        "hr": 1109,
+        "rbi": 1499,
         "avg": 1132,
-        "w": 487,
-        "sv": 437,
-        "so": 659,
+        "w": 486,
+        "sv": 436,
+        "so": 658,
         "era": 1132,
         "whip": 1132,
         "fip": 0

@@ -1,0 +1,52 @@
+{
+  "id": "AAR003",
+  "code": "AAR003",
+  "name": "陳柏宇",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczN7Wt9RKKRPNY2pryqoM5xXICOf8l5ZHHsfVK2dMnJo7LY-mB7H68fPwDAHja_5xvRFh7k6wiPb62_SdzQ6n0AeVr4DJ0rB2Tcez4nOH6n3Fc0I9H_sKkVxCklmaIgSCivyPE6_Gt5fso6Y0gjyPoZhMA=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "Aaron Prosecutor"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "Aaron Prosecutor",
+      "number": "22",
+      "batting": {
+        "games": 2,
+        "pa": 6,
+        "ab": 4,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 5,
+        "runs": 1,
+        "bb": 2,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 18,
+        "hits": 36,
+        "hr": 1596,
+        "rbi": 1,
+        "avg": 26,
+        "w": 136,
+        "sv": 134,
+        "so": 156,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    }
+  ]
+}

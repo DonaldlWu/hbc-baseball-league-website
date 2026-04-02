@@ -9,9 +9,46 @@
       "MIRACLE",
       "Miracle"
     ],
-    "totalSeasons": 17
+    "totalSeasons": 18
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "MIRACLE",
+      "number": "77",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1004,
+        "hits": 729,
+        "hr": 639,
+        "rbi": 699,
+        "avg": 1090,
+        "w": 750,
+        "sv": 748,
+        "so": 770,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "MIRACLE",
@@ -60,16 +97,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 1015,
-        "hits": 894,
-        "hr": 345,
-        "rbi": 833,
+        "rc": 1014,
+        "hits": 895,
+        "hr": 346,
+        "rbi": 835,
         "avg": 1132,
-        "w": 66,
+        "w": 68,
         "sv": 1462,
-        "so": 144,
+        "so": 145,
         "era": 1132,
-        "whip": 562,
+        "whip": 561,
         "fip": 0
       }
     },

@@ -11,9 +11,46 @@
       "戊戍本一家",
       "Synergy"
     ],
-    "totalSeasons": 9
+    "totalSeasons": 10
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "Line Drive",
+      "number": "39",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 883,
+        "hits": 653,
+        "hr": 563,
+        "rbi": 623,
+        "avg": 1090,
+        "w": 663,
+        "sv": 661,
+        "so": 683,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "Line Drive",
@@ -38,10 +75,10 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 491,
+        "rc": 492,
         "hits": 555,
-        "hr": 1156,
-        "rbi": 485,
+        "hr": 1153,
+        "rbi": 482,
         "avg": 1132,
         "w": 591,
         "sv": 541,

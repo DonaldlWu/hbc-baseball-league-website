@@ -10,9 +10,46 @@
       "Synergy",
       "南港高工OB"
     ],
-    "totalSeasons": 11
+    "totalSeasons": 12
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "ACES",
+      "number": "17",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 413,
+        "hits": 201,
+        "hr": 111,
+        "rbi": 171,
+        "avg": 1090,
+        "w": 133,
+        "sv": 131,
+        "so": 153,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "ACES",
@@ -61,12 +98,12 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 434,
+        "rc": 436,
         "hits": 493,
-        "hr": 967,
-        "rbi": 424,
+        "hr": 968,
+        "rbi": 425,
         "avg": 1132,
-        "w": 1525,
+        "w": 1524,
         "sv": 34,
         "so": 55,
         "era": 1132,

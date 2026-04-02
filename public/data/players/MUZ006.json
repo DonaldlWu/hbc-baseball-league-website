@@ -8,17 +8,54 @@
     "teams": [
       "木柵OB"
     ],
-    "totalSeasons": 9
+    "totalSeasons": 10
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "木柵OB",
+      "number": "11",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 475,
+        "hits": 316,
+        "hr": 226,
+        "rbi": 286,
+        "avg": 1090,
+        "w": 277,
+        "sv": 275,
+        "so": 297,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "木柵OB",
       "number": "11",
       "batting": {
-        "games": 11,
-        "pa": 13,
-        "ab": 8,
+        "games": 12,
+        "pa": 14,
+        "ab": 9,
         "hits": 4,
         "singles": 2,
         "doubles": 2,
@@ -27,7 +64,7 @@
         "rbi": 6,
         "runs": 5,
         "bb": 5,
-        "so": 2,
+        "so": 3,
         "sb": 0,
         "sf": 0,
         "totalBases": 6
@@ -59,16 +96,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 214,
-        "hits": 302,
-        "hr": 1185,
-        "rbi": 151,
+        "rc": 227,
+        "hits": 306,
+        "hr": 1191,
+        "rbi": 153,
         "avg": 1132,
-        "w": 68,
+        "w": 70,
         "sv": 25,
         "so": 95,
         "era": 1132,
-        "whip": 219,
+        "whip": 220,
         "fip": 0
       }
     },

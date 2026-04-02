@@ -1,0 +1,52 @@
+{
+  "id": "DHW074",
+  "code": "DHW074",
+  "name": "洪鉉恩",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNZpf7VhDsJ17XuD60HlSb9CgfFiQDyAQfAU3RE0JnCtFb9C2PxVFULUVIa0jNJc_3nqibZ4NYivlnFhYCTNbNRsrJUC4gmtjXPv_2eR79QHosk2KFS8VBtTFGQ9Owol7UMYhV-R98Lk9_epJHZdRja=w685-h925",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "DH戰將",
+      "number": "39",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 186,
+        "hits": 786,
+        "hr": 696,
+        "rbi": 756,
+        "avg": 1090,
+        "w": 813,
+        "sv": 811,
+        "so": 833,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    }
+  ]
+}

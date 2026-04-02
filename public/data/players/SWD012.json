@@ -8,9 +8,46 @@
     "teams": [
       "甜心暴龍"
     ],
-    "totalSeasons": 1
+    "totalSeasons": 2
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "甜心暴龍",
+      "number": "77",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 232,
+        "hits": 903,
+        "hr": 813,
+        "rbi": 873,
+        "avg": 1090,
+        "w": 934,
+        "sv": 932,
+        "so": 954,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "甜心暴龍",
@@ -35,14 +72,14 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 617,
-        "hits": 1533,
-        "hr": 1159,
-        "rbi": 1511,
+        "rc": 616,
+        "hits": 1532,
+        "hr": 1156,
+        "rbi": 1512,
         "avg": 1132,
-        "w": 844,
-        "sv": 794,
-        "so": 1016,
+        "w": 843,
+        "sv": 793,
+        "so": 1015,
         "era": 1132,
         "whip": 1132,
         "fip": 0

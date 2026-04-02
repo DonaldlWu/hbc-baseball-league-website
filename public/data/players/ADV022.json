@@ -9,9 +9,46 @@
       "飛尼克斯",
       "冒險家"
     ],
-    "totalSeasons": 14
+    "totalSeasons": 15
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "飛尼克斯",
+      "number": "8",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1032,
+        "hits": 241,
+        "hr": 151,
+        "rbi": 211,
+        "avg": 1090,
+        "w": 182,
+        "sv": 180,
+        "so": 202,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "飛尼克斯",
@@ -36,10 +73,10 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 1027,
+        "rc": 1026,
         "hits": 652,
         "hr": 103,
-        "rbi": 591,
+        "rbi": 592,
         "avg": 1132,
         "w": 202,
         "sv": 152,

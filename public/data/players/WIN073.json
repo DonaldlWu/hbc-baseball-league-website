@@ -9,9 +9,46 @@
       "HOLYBAT",
       "颶風"
     ],
-    "totalSeasons": 8
+    "totalSeasons": 9
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "HOLYBAT",
+      "number": "33",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 832,
+        "hits": 602,
+        "hr": 512,
+        "rbi": 572,
+        "avg": 1090,
+        "w": 600,
+        "sv": 598,
+        "so": 620,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "HOLYBAT",
@@ -36,14 +73,14 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 485,
+        "rc": 486,
         "hits": 479,
-        "hr": 920,
-        "rbi": 416,
+        "hr": 921,
+        "rbi": 417,
         "avg": 1132,
-        "w": 555,
-        "sv": 505,
-        "so": 727,
+        "w": 554,
+        "sv": 504,
+        "so": 726,
         "era": 1132,
         "whip": 1132,
         "fip": 0

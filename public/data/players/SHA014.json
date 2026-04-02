@@ -8,29 +8,66 @@
     "teams": [
       "少林棒球隊"
     ],
-    "totalSeasons": 1
+    "totalSeasons": 2
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "少林棒球隊",
+      "number": "18",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 1,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1051,
+        "hits": 1598,
+        "hr": 1550,
+        "rbi": 1585,
+        "avg": 106,
+        "w": 981,
+        "sv": 979,
+        "so": 1001,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "少林棒球隊",
       "number": "18",
       "batting": {
-        "games": 14,
-        "pa": 43,
-        "ab": 29,
-        "hits": 4,
-        "singles": 4,
+        "games": 15,
+        "pa": 48,
+        "ab": 33,
+        "hits": 5,
+        "singles": 5,
         "doubles": 0,
         "triples": 0,
         "hr": 0,
         "rbi": 4,
-        "runs": 6,
-        "bb": 13,
-        "so": 12,
-        "sb": 0,
+        "runs": 8,
+        "bb": 14,
+        "so": 13,
+        "sb": 1,
         "sf": 1,
-        "totalBases": 4
+        "totalBases": 5
       },
       "pitching": {
         "games": 2,
@@ -59,16 +96,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 221,
-        "hits": 332,
-        "hr": 1441,
-        "rbi": 264,
-        "avg": 1132,
-        "w": 1355,
-        "sv": 1305,
+        "rc": 206,
+        "hits": 286,
+        "hr": 1461,
+        "rbi": 271,
+        "avg": 99,
+        "w": 1354,
+        "sv": 1304,
         "so": 1519,
         "era": 1132,
-        "whip": 323,
+        "whip": 322,
         "fip": 0
       }
     }

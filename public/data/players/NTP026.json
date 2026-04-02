@@ -9,9 +9,46 @@
       "Line Drive",
       "台北大學"
     ],
-    "totalSeasons": 7
+    "totalSeasons": 8
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "Line Drive",
+      "number": "47",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 87,
+        "hits": 1587,
+        "hr": 1529,
+        "rbi": 1572,
+        "avg": 107,
+        "w": 661,
+        "sv": 659,
+        "so": 681,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "Line Drive",
@@ -62,14 +99,14 @@
       "rankings": {
         "rc": 5,
         "hits": 8,
-        "hr": 1524,
+        "hr": 1523,
         "rbi": 6,
         "avg": 5,
         "w": 1498,
         "sv": 1456,
-        "so": 108,
+        "so": 110,
         "era": 1132,
-        "whip": 421,
+        "whip": 420,
         "fip": 0
       }
     },

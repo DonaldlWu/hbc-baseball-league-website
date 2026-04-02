@@ -1,0 +1,52 @@
+{
+  "id": "SAK018",
+  "code": "SAK018",
+  "name": "邱主恩",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMmvz-wNyiLhzjVI67PzS2yWLSAONeP9NLWQeTtptZtaw83lDUeFpVWxcAQsYMkhIlCM5AjgtfScak0Syl_ypORFvGOsXPAG0jFgJajrhW8cR2VZgb1n_d4lKdYg-fOq3OBiHatr1LSvIp6JK8j2Vhd6Q=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "櫻砲魂"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "櫻砲魂",
+      "number": "69",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 319,
+        "hits": 298,
+        "hr": 208,
+        "rbi": 268,
+        "avg": 1090,
+        "w": 251,
+        "sv": 249,
+        "so": 271,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    }
+  ]
+}

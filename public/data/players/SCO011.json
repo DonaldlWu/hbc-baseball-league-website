@@ -8,9 +8,46 @@
     "teams": [
       "實踐OB"
     ],
-    "totalSeasons": 2
+    "totalSeasons": 3
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "實踐OB",
+      "number": "8",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 373,
+        "hits": 214,
+        "hr": 124,
+        "rbi": 184,
+        "avg": 1090,
+        "w": 151,
+        "sv": 149,
+        "so": 171,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "實踐OB",
@@ -60,15 +97,15 @@
       },
       "rankings": {
         "rc": 164,
-        "hits": 261,
+        "hits": 264,
         "hr": 7,
         "rbi": 192,
         "avg": 1132,
-        "w": 55,
-        "sv": 1418,
-        "so": 153,
+        "w": 57,
+        "sv": 1417,
+        "so": 154,
         "era": 1132,
-        "whip": 183,
+        "whip": 184,
         "fip": 0
       }
     },

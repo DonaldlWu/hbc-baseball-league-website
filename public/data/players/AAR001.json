@@ -1,0 +1,52 @@
+{
+  "id": "AAR001",
+  "code": "AAR001",
+  "name": "林冠騰",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNijavdyL9o7E8J9Lfhl6n7BzP4VOM36bs3eTUnDZrT-Nwr5bwAPWEtQdj6enOhm0RxNGJ2pcMynJZwKAeYggyVoT9rIW_pwCIgHhSc_h5eczRGIWxnKjeunGSaefPUwituYhAbfJFuh-F-Zr49yXP__Q=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "Aaron Prosecutor"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "Aaron Prosecutor",
+      "number": "5",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 5,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 3,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 52,
+        "hits": 33,
+        "hr": 1588,
+        "rbi": 14,
+        "avg": 46,
+        "w": 160,
+        "sv": 158,
+        "so": 180,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    }
+  ]
+}

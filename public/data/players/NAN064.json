@@ -11,9 +11,46 @@
       "ROOKIES",
       "南港高工OB"
     ],
-    "totalSeasons": 13
+    "totalSeasons": 14
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "陽明OB",
+      "number": "105",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 743,
+        "hits": 555,
+        "hr": 465,
+        "rbi": 525,
+        "avg": 1090,
+        "w": 553,
+        "sv": 551,
+        "so": 573,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "陽明OB",
@@ -38,14 +75,14 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 889,
+        "rc": 887,
         "hits": 799,
         "hr": 250,
-        "rbi": 738,
+        "rbi": 739,
         "avg": 1132,
-        "w": 518,
-        "sv": 468,
-        "so": 690,
+        "w": 517,
+        "sv": 467,
+        "so": 689,
         "era": 1132,
         "whip": 1132,
         "fip": 0

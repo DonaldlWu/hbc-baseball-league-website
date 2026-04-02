@@ -9,9 +9,70 @@
       "逆轉星球",
       "颶風"
     ],
-    "totalSeasons": 11
+    "totalSeasons": 12
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "逆轉星球",
+      "number": "0",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 4.666666667,
+        "bf": 29,
+        "so": 1,
+        "bb": 7,
+        "h": 11,
+        "hr": 0,
+        "r": 10,
+        "er": 9,
+        "w": 0,
+        "l": 1,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 17.35714285590306,
+        "whip": 3.8571428568673465,
+        "fip": 7.271,
+        "kPer9": 1.9285714284336732,
+        "bbPer9": 13.499999999035714,
+        "hPer9": 21.21428571277041,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 1063,
+        "hits": 1548,
+        "hr": 1463,
+        "rbi": 1521,
+        "avg": 1090,
+        "w": 1609,
+        "sv": 1606,
+        "so": 28,
+        "era": 1090,
+        "whip": 28,
+        "fip": 29
+      }
+    },
     {
       "year": 2025,
       "team": "逆轉星球",
@@ -60,14 +121,14 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 115,
-        "hits": 140,
+        "rc": 116,
+        "hits": 141,
         "hr": 16,
-        "rbi": 70,
+        "rbi": 71,
         "avg": 1132,
-        "w": 92,
+        "w": 93,
         "sv": 42,
-        "so": 31,
+        "so": 32,
         "era": 1132,
         "whip": 11,
         "fip": 44

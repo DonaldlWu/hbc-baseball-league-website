@@ -1,0 +1,52 @@
+{
+  "id": "SAK008",
+  "code": "SAK008",
+  "name": "胡志燮",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNfKkLaPEMi4N7TNVDkKXH3W23jcjvnH2OQwLAMa-vY6H4dE5qh-KZWaWHNdfcUKNSLPMPxOTc9RFiKhMLs6gni1_jcDSLaVqOkoNigpodcIAEV0B0Nhq_FBMuZoiOEIsei2QWgnLnbTcgvWuFZE8lxiw=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "櫻砲魂"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "櫻砲魂",
+      "number": "42",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1052,
+        "hits": 1544,
+        "hr": 1459,
+        "rbi": 1517,
+        "avg": 1090,
+        "w": 259,
+        "sv": 257,
+        "so": 279,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    }
+  ]
+}

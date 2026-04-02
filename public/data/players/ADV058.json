@@ -9,9 +9,70 @@
       "逆轉星球",
       "冒險家"
     ],
-    "totalSeasons": 4
+    "totalSeasons": 5
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "逆轉星球",
+      "number": "53",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 1.333333333,
+        "bf": 6,
+        "so": 0,
+        "bb": 0,
+        "h": 2,
+        "hr": 0,
+        "r": 1,
+        "er": 1,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 6.750000001687501,
+        "whip": 1.500000000375,
+        "fip": 3.200000583,
+        "kPer9": 0,
+        "bbPer9": 0,
+        "hPer9": 13.500000003375002,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 67,
+        "hits": 1557,
+        "hr": 1472,
+        "rbi": 1529,
+        "avg": 142,
+        "w": 1590,
+        "sv": 1588,
+        "so": 1606,
+        "era": 1090,
+        "whip": 12,
+        "fip": 17
+      }
+    },
     {
       "year": 2025,
       "team": "逆轉星球",
@@ -60,10 +121,10 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 411,
-        "hits": 413,
+        "rc": 413,
+        "hits": 412,
         "hr": 1025,
-        "rbi": 335,
+        "rbi": 338,
         "avg": 1132,
         "w": 4,
         "sv": 1538,

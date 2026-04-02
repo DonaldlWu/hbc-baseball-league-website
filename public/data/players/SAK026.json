@@ -1,0 +1,52 @@
+{
+  "id": "SAK026",
+  "code": "SAK026",
+  "name": "蘇敏智",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczN8i7VfUaqNMxgbiCsU9gdvGSZVe3K1QY8HeW07zv773FW0ByHq7U0hKxM7WAm2kOG3NWs4e3hYsX2F45A5FsoR_4-wD5g5aWCECwlw3ffMY3yuXFEyb-lE24A-z0nBySi8GpdUhUEaNBeBpDvFL2EzUw=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "櫻砲魂"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "櫻砲魂",
+      "number": "27",
+      "batting": {
+        "games": 2,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1078,
+        "hits": 1570,
+        "hr": 1489,
+        "rbi": 1544,
+        "avg": 128,
+        "w": 265,
+        "sv": 263,
+        "so": 285,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    }
+  ]
+}

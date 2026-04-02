@@ -1,0 +1,52 @@
+{
+  "id": "AAR004",
+  "code": "AAR004",
+  "name": "劉育顯",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMIyBRsUfvg78COUuaZxNUMyBRRcFrOKaVxAH6fpFTXFP3VyePWvsLvVwaIGa_KMrV16oH-WK8LWu_fHvp8LbMABGM8ycNflf86f2NJcN2woi5KomlOMjTSh9sm1-XBEaKHY7WnUx_Z0QFsNMeih0uzvQ=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "Aaron Prosecutor"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "Aaron Prosecutor",
+      "number": "34",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1076,
+        "hits": 1567,
+        "hr": 1486,
+        "rbi": 1541,
+        "avg": 125,
+        "w": 133,
+        "sv": 131,
+        "so": 153,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    }
+  ]
+}

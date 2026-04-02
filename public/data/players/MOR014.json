@@ -9,15 +9,52 @@
       "莫拉克",
       "京盛宇"
     ],
-    "totalSeasons": 14
+    "totalSeasons": 15
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "莫拉克",
+      "number": "17",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 968,
+        "hits": 984,
+        "hr": 894,
+        "rbi": 954,
+        "avg": 1090,
+        "w": 1023,
+        "sv": 1021,
+        "so": 1043,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "莫拉克",
       "number": "17",
       "batting": {
-        "games": 12,
+        "games": 13,
         "pa": 4,
         "ab": 4,
         "hits": 0,
@@ -34,12 +71,12 @@
         "totalBases": 0
       },
       "pitching": {
-        "games": 12,
-        "ip": 22,
-        "bf": 121,
-        "so": 24,
-        "bb": 25,
-        "h": 30,
+        "games": 13,
+        "ip": 23,
+        "bf": 125,
+        "so": 25,
+        "bb": 26,
+        "h": 31,
         "hr": 0,
         "r": 21,
         "er": 16,
@@ -51,25 +88,25 @@
         "csAttempts": 0
       },
       "pitchingCalculated": {
-        "era": 6.545454545454546,
-        "whip": 2.5,
-        "fip": 4.427272876,
-        "kPer9": 9.818181818181818,
-        "bbPer9": 10.227272727272727,
-        "hPer9": 12.272727272727273,
+        "era": 6.260869565217392,
+        "whip": 2.4782608695652173,
+        "fip": 4.417391453,
+        "kPer9": 9.782608695652174,
+        "bbPer9": 10.173913043478262,
+        "hPer9": 12.130434782608695,
         "csPercentage": 0
       },
       "rankings": {
         "rc": 1111,
-        "hits": 1486,
-        "hr": 1008,
-        "rbi": 1446,
+        "hits": 1488,
+        "hr": 1009,
+        "rbi": 1449,
         "avg": 1132,
-        "w": 43,
-        "sv": 1519,
-        "so": 30,
+        "w": 44,
+        "sv": 1521,
+        "so": 27,
         "era": 1132,
-        "whip": 37,
+        "whip": 36,
         "fip": 49
       }
     },

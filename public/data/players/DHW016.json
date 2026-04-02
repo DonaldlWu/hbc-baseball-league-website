@@ -8,9 +8,70 @@
     "teams": [
       "DH戰將"
     ],
-    "totalSeasons": 1
+    "totalSeasons": 2
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "DH戰將",
+      "number": "42",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 4,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 0,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 2.666666667,
+        "bf": 18,
+        "so": 6,
+        "bb": 3,
+        "h": 5,
+        "hr": 0,
+        "r": 3,
+        "er": 1,
+        "w": 0,
+        "l": 1,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 3
+      },
+      "pitchingCalculated": {
+        "era": 3.374999999578125,
+        "whip": 2.999999999625,
+        "fip": 2.075001488,
+        "kPer9": 20.249999997468752,
+        "bbPer9": 10.124999998734376,
+        "hPer9": 16.874999997890626,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 31,
+        "hits": 32,
+        "hr": 1582,
+        "rbi": 26,
+        "avg": 28,
+        "w": 1602,
+        "sv": 1598,
+        "so": 8,
+        "era": 1090,
+        "whip": 20,
+        "fip": 9
+      }
+    },
     {
       "year": 2025,
       "team": "DH戰將",
@@ -59,16 +120,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 154,
-        "hits": 135,
-        "hr": 1378,
+        "rc": 153,
+        "hits": 136,
+        "hr": 1376,
         "rbi": 99,
         "avg": 1132,
-        "w": 88,
+        "w": 89,
         "sv": 39,
         "so": 13,
         "era": 1132,
-        "whip": 43,
+        "whip": 44,
         "fip": 43
       }
     }

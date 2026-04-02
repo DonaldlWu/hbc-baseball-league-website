@@ -2,15 +2,53 @@
   "id": "NTP005",
   "code": "NTP005",
   "name": "林勇領",
-  "photo": "",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMqwvqkstCNj1bY1XrEQgfaQXEA37_YnRGfLkrnh1Lp1_iRYAn8RZ6HyPS6WKx7r3ptASnW9l1xar7bm6QkwoTJBLMl71HG3F4ROHMkglxtGNORF77ClnjEOMsVY5GJysismmaG3SPOdHF6yV8-c7f-XQ=w310-h335-no",
   "career": {
     "debut": 2019,
     "teams": [
+      "Aaron Prosecutor",
       "台北大學"
     ],
-    "totalSeasons": 3
+    "totalSeasons": 4
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "Aaron Prosecutor",
+      "number": "12",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 7,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 1,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 91,
+        "hits": 90,
+        "hr": 1607,
+        "rbi": 59,
+        "avg": 86,
+        "w": 151,
+        "sv": 149,
+        "so": 171,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2021,
       "team": "台北大學",

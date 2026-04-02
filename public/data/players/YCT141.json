@@ -8,9 +8,46 @@
     "teams": [
       "永春TB"
     ],
-    "totalSeasons": 1
+    "totalSeasons": 2
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "永春TB",
+      "number": "89",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 572,
+        "hits": 384,
+        "hr": 294,
+        "rbi": 354,
+        "avg": 1090,
+        "w": 363,
+        "sv": 361,
+        "so": 383,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "永春TB",
@@ -35,14 +72,14 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 236,
-        "hits": 293,
-        "hr": 1151,
-        "rbi": 186,
+        "rc": 239,
+        "hits": 296,
+        "hr": 1148,
+        "rbi": 187,
         "avg": 1132,
-        "w": 366,
-        "sv": 316,
-        "so": 538,
+        "w": 365,
+        "sv": 315,
+        "so": 537,
         "era": 1132,
         "whip": 1132,
         "fip": 0

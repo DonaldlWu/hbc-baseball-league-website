@@ -10,9 +10,46 @@
       "戊戍本一家",
       "華江OB"
     ],
-    "totalSeasons": 8
+    "totalSeasons": 9
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "逆轉星球",
+      "number": "24",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 1,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 118,
+        "hits": 1592,
+        "hr": 1543,
+        "rbi": 1578,
+        "avg": 100,
+        "w": 535,
+        "sv": 533,
+        "so": 555,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "逆轉星球",
@@ -61,16 +98,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 61,
+        "rc": 62,
         "hits": 126,
         "hr": 27,
-        "rbi": 109,
+        "rbi": 110,
         "avg": 72,
-        "w": 1419,
-        "sv": 1368,
-        "so": 260,
+        "w": 1418,
+        "sv": 1367,
+        "so": 259,
         "era": 1132,
-        "whip": 344,
+        "whip": 343,
         "fip": 0
       }
     },

@@ -9,9 +9,46 @@
       "MIRACLE",
       "冷鋒"
     ],
-    "totalSeasons": 15
+    "totalSeasons": 16
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "MIRACLE",
+      "number": "9",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 26,
+        "hits": 24,
+        "hr": 1539,
+        "rbi": 41,
+        "avg": 17,
+        "w": 769,
+        "sv": 767,
+        "so": 789,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "MIRACLE",
@@ -60,16 +97,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 235,
-        "hits": 218,
-        "hr": 1216,
-        "rbi": 285,
+        "rc": 238,
+        "hits": 220,
+        "hr": 1214,
+        "rbi": 289,
         "avg": 1132,
         "w": 1403,
         "sv": 1352,
-        "so": 166,
+        "so": 167,
         "era": 1132,
-        "whip": 142,
+        "whip": 143,
         "fip": 0
       }
     },

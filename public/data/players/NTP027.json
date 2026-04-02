@@ -2,15 +2,53 @@
   "id": "NTP027",
   "code": "NTP027",
   "name": "顏爾汎",
-  "photo": "",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNbtJ30X1VYR8mu4H5J--FLoR8AFyxy3aPWEJuNIlTUfWc-R6nUr0EpMM34ereZFHhIiD1JhfCvfc0jwYbPEtF1cCVMA8LJqieOhWnIqrEd-v2VLWI55oCxWgu2uY5s0r11hO9Nd2sXtpkCahpA3oHjEQ=w310-h335-no",
   "career": {
     "debut": 2019,
     "teams": [
+      "Aaron Prosecutor",
       "台北大學"
     ],
-    "totalSeasons": 3
+    "totalSeasons": 4
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "Aaron Prosecutor",
+      "number": "13",
+      "batting": {
+        "games": 2,
+        "pa": 7,
+        "ab": 7,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 4,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1090,
+        "hits": 1610,
+        "hr": 1602,
+        "rbi": 1609,
+        "avg": 87,
+        "w": 148,
+        "sv": 146,
+        "so": 168,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2021,
       "team": "台北大學",

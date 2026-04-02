@@ -9,9 +9,46 @@
       "MIRACLE",
       "The Buddies"
     ],
-    "totalSeasons": 5
+    "totalSeasons": 6
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "MIRACLE",
+      "number": "72",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1057,
+        "hits": 1553,
+        "hr": 1468,
+        "rbi": 1526,
+        "avg": 1090,
+        "w": 751,
+        "sv": 749,
+        "so": 771,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "MIRACLE",
@@ -36,9 +73,9 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 614,
+        "rc": 613,
         "hits": 456,
-        "hr": 1447,
+        "hr": 1444,
         "rbi": 215,
         "avg": 1132,
         "w": 693,

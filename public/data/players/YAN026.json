@@ -9,9 +9,46 @@
       "實踐OB",
       "陽明OB"
     ],
-    "totalSeasons": 12
+    "totalSeasons": 13
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "實踐OB",
+      "number": "39",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 359,
+        "hits": 182,
+        "hr": 92,
+        "rbi": 152,
+        "avg": 1090,
+        "w": 111,
+        "sv": 109,
+        "so": 131,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "實踐OB",
@@ -60,16 +97,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 283,
-        "hits": 284,
-        "hr": 1078,
-        "rbi": 462,
+        "rc": 284,
+        "hits": 287,
+        "hr": 1076,
+        "rbi": 461,
         "avg": 1132,
         "w": 1332,
         "sv": 1282,
         "so": 1504,
         "era": 1132,
-        "whip": 460,
+        "whip": 459,
         "fip": 0
       }
     },

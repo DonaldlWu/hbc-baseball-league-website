@@ -8,9 +8,46 @@
     "teams": [
       "莫拉克"
     ],
-    "totalSeasons": 1
+    "totalSeasons": 2
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "莫拉克",
+      "number": "102",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 950,
+        "hits": 888,
+        "hr": 798,
+        "rbi": 858,
+        "avg": 1090,
+        "w": 917,
+        "sv": 915,
+        "so": 937,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "莫拉克",
@@ -35,14 +72,14 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 991,
-        "hits": 966,
-        "hr": 417,
-        "rbi": 905,
+        "rc": 990,
+        "hits": 964,
+        "hr": 415,
+        "rbi": 904,
         "avg": 1132,
-        "w": 832,
-        "sv": 782,
-        "so": 1004,
+        "w": 831,
+        "sv": 781,
+        "so": 1003,
         "era": 1132,
         "whip": 1132,
         "fip": 0

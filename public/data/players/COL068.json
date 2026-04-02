@@ -9,15 +9,52 @@
       "木柵OB",
       "冷鋒"
     ],
-    "totalSeasons": 11
+    "totalSeasons": 12
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "木柵OB",
+      "number": "8",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 477,
+        "hits": 318,
+        "hr": 228,
+        "rbi": 288,
+        "avg": 1090,
+        "w": 281,
+        "sv": 279,
+        "so": 301,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "木柵OB",
       "number": "8",
       "batting": {
-        "games": 9,
+        "games": 10,
         "pa": 14,
         "ab": 10,
         "hits": 2,
@@ -33,19 +70,43 @@
         "sf": 0,
         "totalBases": 2
       },
-      "pitching": null,
-      "pitchingCalculated": null,
+      "pitching": {
+        "games": 1,
+        "ip": 2,
+        "bf": 12,
+        "so": 1,
+        "bb": 4,
+        "h": 2,
+        "hr": 0,
+        "r": 1,
+        "er": 0,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 0,
+        "whip": 3,
+        "fip": null,
+        "kPer9": 4.5,
+        "bbPer9": 18,
+        "hPer9": 9,
+        "csPercentage": 0
+      },
       "rankings": {
-        "rc": 387,
-        "hits": 441,
-        "hr": 1197,
-        "rbi": 495,
+        "rc": 390,
+        "hits": 440,
+        "hr": 1194,
+        "rbi": 493,
         "avg": 1132,
-        "w": 306,
-        "sv": 256,
-        "so": 478,
+        "w": 1422,
+        "sv": 1372,
+        "so": 260,
         "era": 1132,
-        "whip": 1132,
+        "whip": 184,
         "fip": 0
       }
     },
