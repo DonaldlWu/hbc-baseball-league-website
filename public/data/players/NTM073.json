@@ -9,9 +9,46 @@
       "Mechanics",
       "台大機械"
     ],
-    "totalSeasons": 3
+    "totalSeasons": 4
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "Mechanics",
+      "number": "99",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 800,
+        "hits": 876,
+        "hr": 786,
+        "rbi": 846,
+        "avg": 1090,
+        "w": 905,
+        "sv": 903,
+        "so": 925,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "Mechanics",
@@ -60,10 +97,10 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 426,
-        "hits": 424,
-        "hr": 1079,
-        "rbi": 463,
+        "rc": 428,
+        "hits": 423,
+        "hr": 1077,
+        "rbi": 462,
         "avg": 1132,
         "w": 23,
         "sv": 45,

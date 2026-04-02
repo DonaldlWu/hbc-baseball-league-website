@@ -10,9 +10,46 @@
       "Synergy",
       "南港高工OB"
     ],
-    "totalSeasons": 7
+    "totalSeasons": 8
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "永春TB",
+      "number": "51",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 615,
+        "hits": 427,
+        "hr": 337,
+        "rbi": 397,
+        "avg": 1090,
+        "w": 406,
+        "sv": 404,
+        "so": 426,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "永春TB",
@@ -38,13 +75,13 @@
       "pitchingCalculated": null,
       "rankings": {
         "rc": 74,
-        "hits": 46,
-        "hr": 1507,
+        "hits": 47,
+        "hr": 1505,
         "rbi": 79,
-        "avg": 54,
-        "w": 402,
-        "sv": 352,
-        "so": 574,
+        "avg": 55,
+        "w": 401,
+        "sv": 351,
+        "so": 573,
         "era": 1132,
         "whip": 1132,
         "fip": 0

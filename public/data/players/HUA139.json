@@ -8,9 +8,46 @@
     "teams": [
       "華江OB"
     ],
-    "totalSeasons": 1
+    "totalSeasons": 2
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "華江OB",
+      "number": "1",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 910,
+        "hits": 680,
+        "hr": 590,
+        "rbi": 650,
+        "avg": 1090,
+        "w": 698,
+        "sv": 696,
+        "so": 718,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "華江OB",
@@ -38,7 +75,7 @@
         "rc": 1074,
         "hits": 1425,
         "hr": 894,
-        "rbi": 1369,
+        "rbi": 1370,
         "avg": 1132,
         "w": 663,
         "sv": 613,

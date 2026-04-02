@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import type { PostseasonMatchup } from '@/src/types';
-import { formatGamesOneLine } from '@/src/lib/bracketLayout';
+import { formatGamesInfoLine, formatGamesOneLine } from '@/src/lib/bracketLayout';
 
 interface MatchupCardProps {
   matchup: PostseasonMatchup;
@@ -16,9 +16,10 @@ interface TeamRowProps {
   isWinner: boolean;
   isPending: boolean;
   variant: 'light' | 'dark';
+  seriesWins?: number;
 }
 
-function TeamRow({ teamId, teamName, seed, isWinner, isPending, variant }: TeamRowProps) {
+function TeamRow({ teamId, teamName, seed, isWinner, isPending, variant, seriesWins }: TeamRowProps) {
   const isDark = variant === 'dark';
 
   const containerClasses = isDark
@@ -39,8 +40,15 @@ function TeamRow({ teamId, teamName, seed, isWinner, isPending, variant }: TeamR
     ? 'text-xs font-medium bg-amber-500 text-slate-950 rounded px-1.5 py-0.5'
     : 'text-xs font-medium bg-green-100 text-green-700 rounded px-1.5 py-0.5';
 
+  const winsClasses = isDark
+    ? 'w-5 flex-shrink-0 text-sm font-bold text-center text-slate-100'
+    : 'w-5 flex-shrink-0 text-sm font-bold text-center text-gray-900';
+
   return (
     <div className={containerClasses}>
+      {seriesWins !== undefined && (
+        <span className={winsClasses}>{seriesWins}</span>
+      )}
       <div className={logoClasses}>
         {isPending ? (
           <span className={seedClasses}>{seed}</span>
@@ -76,7 +84,34 @@ export default function MatchupCard({ matchup, variant = 'dark' }: MatchupCardPr
     ? 'px-3 py-1.5 bg-slate-900/50 border-t border-slate-700 text-xs text-slate-500'
     : 'px-3 py-1.5 bg-gray-50 border-t border-gray-100 text-xs text-gray-500';
 
-  const gamesLine = !isPending ? formatGamesOneLine(matchup.games) : '';
+  const nextGameRowClasses = isDark
+    ? 'px-3 py-1 border-t border-slate-700 text-xs font-semibold tracking-wider uppercase text-center text-slate-400'
+    : 'px-3 py-1 border-t border-gray-100 text-xs font-semibold tracking-wider uppercase text-center text-gray-500';
+
+  const venueRowClasses = isDark
+    ? 'px-3 py-1 text-xs text-center text-slate-500'
+    : 'px-3 py-1 text-xs text-center text-gray-400';
+
+  const hasByeGame = matchup.games.some((g) => g.byeGame);
+  const team1Wins = hasByeGame && !isPending
+    ? matchup.games.filter((g) => g.winner === 'team1').length
+    : undefined;
+  const team2Wins = hasByeGame && !isPending
+    ? matchup.games.filter((g) => g.winner === 'team2').length
+    : undefined;
+
+  // R16 footer: split upcoming (2 rows) vs scored (1 row)
+  const realGames = matchup.games.filter((g) => !g.byeGame);
+  const isUpcoming = hasByeGame && !isPending && realGames.length > 0
+    && realGames.every((g) => g.homeScore === null);
+  const venueInfo = isUpcoming
+    ? [realGames[0].venue, realGames[0].date?.slice(5).replace('-', '/'), realGames[0].startTime]
+        .filter(Boolean).join(' · ')
+    : '';
+  const scoresLine = hasByeGame && !isPending && !isUpcoming
+    ? formatGamesInfoLine(matchup.games)
+    : '';
+  const gamesLine = !hasByeGame && !isPending ? formatGamesOneLine(matchup.games) : '';
 
   return (
     <div className={cardClasses}>
@@ -87,6 +122,7 @@ export default function MatchupCard({ matchup, variant = 'dark' }: MatchupCardPr
         isWinner={matchup.winner === 'team1'}
         isPending={isPending}
         variant={variant}
+        seriesWins={team1Wins}
       />
       <TeamRow
         teamId={matchup.team2.teamId}
@@ -95,11 +131,19 @@ export default function MatchupCard({ matchup, variant = 'dark' }: MatchupCardPr
         isWinner={matchup.winner === 'team2'}
         isPending={isPending}
         variant={variant}
+        seriesWins={team2Wins}
       />
-      {!isPending && gamesLine && (
-        <div className={scoreRowClasses}>
-          {gamesLine}
-        </div>
+      {isUpcoming && (
+        <>
+          <div className={nextGameRowClasses}>Next Game</div>
+          <div className={venueRowClasses}>{venueInfo}</div>
+        </>
+      )}
+      {!isPending && !isUpcoming && hasByeGame && scoresLine && (
+        <div className={scoreRowClasses}>{scoresLine}</div>
+      )}
+      {!isPending && !hasByeGame && gamesLine && (
+        <div className={scoreRowClasses}>{gamesLine}</div>
       )}
     </div>
   );

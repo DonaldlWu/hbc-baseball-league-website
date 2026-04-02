@@ -1,4 +1,4 @@
-新增比賽場次到賽季資料，支援貼上公告批量新增，自動偵測補賽情境。
+新增比賽場次到賽季資料，支援貼上公告批量新增，自動偵測補賽情境。支援一般賽季場次（`No.98`）及季後賽場次（`No.20250314G1`）兩種格式。
 
 ## 使用方式
 
@@ -7,7 +7,8 @@
 
 ```
 /add-game                  # 批量：貼上公告全文
-/add-game 2026/3/7 No.100 Line Drive VS 飛尼克斯--中正A--下午(14:30~17:00)  # 單場
+/add-game 2026/3/7 No.100 Line Drive VS 飛尼克斯--中正A--下午(14:30~17:00)  # 單場（一般賽季）
+/add-game 2026/4/4 No.20250314G1 華江OB VS 莫拉克--中正A--上午(08:00~11:00)  # 單場（季後賽）
 ```
 
 ---
@@ -36,7 +37,9 @@ No.207 永春TB VS 少林棒球隊--清溪--中午(12:00~14:30)
 
 逐行解析所有 `No.XXX` 場次。
 
-**解析規則：**
+**場次格式分兩種：**
+
+#### 一般賽季格式（`No.98`）
 
 | 欄位 | 來源 |
 |------|------|
@@ -47,11 +50,37 @@ No.207 永春TB VS 少林棒球隊--清溪--中午(12:00~14:30)
 | venue | `--場地--` 中間段，或日期下方的場地行 |
 | timeSlot | 依實際開始時間判斷（見下表） |
 | startTime / endTime | 括號內時間 |
+| 目標檔案 | `public/data/seasons/YYYY.json` |
 
 **賽季年度判斷：**
 讀取 `public/data/seasons/index.json`，依比賽日期找出所屬賽季。
 
-**時段對應：**
+**gameNumber 轉換：**
+`No.98` + 賽季 2025 → `2025098`（補零至三位數）
+
+#### 季後賽格式（`No.20250314G1`）
+
+| 欄位 | 來源 |
+|------|------|
+| date | 最近一個日期行，格式 `YYYY/M/D` → `YYYY-MM-DD` |
+| gameNumber | 完整保留 `No.` 後的內容 → `20250314G1` |
+| awayTeam | VS **前**的隊伍（客隊，先攻） |
+| homeTeam | VS **後**的隊伍（主隊，後攻） |
+| venue | `--場地--` 中間段，或日期下方的場地行 |
+| timeSlot | 依實際開始時間判斷（見下表） |
+| startTime / endTime | 括號內時間 |
+| 目標檔案 | `public/data/seasons/{賽季年}postseason.json` |
+
+**季後賽識別規則：**
+gameNumber 符合正則 `^\d{8}G\d+$`（8 位數字 + G + 數字），例如 `20250314G1`。
+
+**賽季年度：** 直接取 gameNumber 前 4 位（如 `2025`）。
+
+**目標檔案：** `public/data/seasons/2025postseason.json`（不是 `2025.json`）。
+
+**gameNumber 不轉換：** 保留原始格式 `20250314G1`，不補零不拼接。
+
+**時段對應（兩種格式均適用）：**
 
 | 開始時間 | timeSlot |
 |---------|---------|
@@ -66,7 +95,11 @@ No.207 永春TB VS 少林棒球隊--清溪--中午(12:00~14:30)
 
 ### Step 2：偵測每場是否為補賽
 
-讀取目標 `public/data/seasons/YYYY.json`，逐一檢查 gameNumber 是否已存在：
+根據場次格式讀取對應的目標檔案：
+- 一般賽季：讀取 `public/data/seasons/YYYY.json`
+- 季後賽：讀取 `public/data/seasons/YYYYpostseason.json`
+
+逐一檢查 gameNumber 是否已存在：
 
 | 情況 | 處理方式 |
 |------|---------|
@@ -80,12 +113,11 @@ No.207 永春TB VS 少林棒球隊--清溪--中午(12:00~14:30)
 解析完成，共 5 場：
 
   ✅ 一般新增（4 場）
-  gameNumber  日期        客隊           主隊           場地   時段
-  ──────────────────────────────────────────────────────────────────
-  2025098     2025-12-06  Mechanics      陽明OB         中正A  中午
-  2025202     2025-12-06  ACES           飛尼克斯       中正A  下午
-  2025106     2025-12-27  實踐OB         MIRACLE        中正A  中午
-  2025207     2025-12-27  永春TB         少林棒球隊     清溪   中午
+  gameNumber       日期        客隊           主隊           場地    時段   目標檔案
+  ─────────────────────────────────────────────────────────────────────────────────
+  2025098          2025-12-06  Mechanics      陽明OB         中正A   中午   2025.json
+  20250314G1       2026-04-04  華江OB         莫拉克         中正A   上午   2025postseason.json
+  20250215G1       2026-04-04  永春TB         台大經濟OB     中正A   中午   2025postseason.json
 
   🔄 補賽安排（1 場）
   gameNumber  原定日期    補賽日        場地   時段
@@ -105,7 +137,7 @@ No.207 永春TB VS 少林棒球隊--清溪--中午(12:00~14:30)
 
 ### Step 4：寫入並驗證
 
-**一般新增**，新增 game entry，預設值：
+**一般賽季新增**（寫入 `YYYY.json`）：
 ```json
 "2025098": {
   "date": "2025-12-06",
@@ -115,6 +147,23 @@ No.207 永春TB VS 少林棒球隊--清溪--中午(12:00~14:30)
   "timeSlot": "中午",
   "startTime": "12:00",
   "endTime": "14:30",
+  "status": "scheduled",
+  "homeScore": null,
+  "awayScore": null,
+  "sheetId": ""
+}
+```
+
+**季後賽新增**（寫入 `YYYYpostseason.json`，gameNumber 完整保留）：
+```json
+"20250314G1": {
+  "date": "2026-04-04",
+  "homeTeam": "莫拉克",
+  "awayTeam": "華江OB",
+  "venue": "中正A",
+  "timeSlot": "上午",
+  "startTime": "08:00",
+  "endTime": "11:00",
   "status": "scheduled",
   "homeScore": null,
   "awayScore": null,
@@ -136,22 +185,29 @@ No.207 永春TB VS 少林棒球隊--清溪--中午(12:00~14:30)
 
 > 若補賽場地時間與原賽相同，可省略：`{ "date": "2025-12-27" }`
 
-更新頂層 `lastUpdated` 為今天日期。
+更新對應檔案的頂層 `lastUpdated` 為今天日期。
 
-驗證 JSON：
+驗證 JSON（對每個修改的目標檔案個別驗證）：
 ```bash
 python3 -m json.tool public/data/seasons/YYYY.json > /dev/null && echo "JSON 格式正確"
+python3 -m json.tool public/data/seasons/YYYYpostseason.json > /dev/null && echo "JSON 格式正確"
 ```
 
 ### Step 5：詢問是否 commit
 
+一般賽季：
 ```
 chore: 新增 N 場賽程 (YYYY-MM)
 ```
 
-若同時有補賽：
+季後賽：
 ```
-chore: 新增 N 場賽程，含 M 場補賽安排 (YYYY-MM)
+chore: 新增 N 場季後賽賽程 (YYYY)
+```
+
+混合時分別說明：
+```
+chore: 新增 N 場賽程，含 M 場季後賽 (YYYY-MM)
 ```
 
 ---

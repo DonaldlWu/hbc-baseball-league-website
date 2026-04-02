@@ -1,0 +1,113 @@
+{
+  "id": "ROO097",
+  "code": "ROO097",
+  "name": "劉澔橙",
+  "photo": "https://photos.google.com/search/CgAiCBIGCgRyAgoAKP6y56vRMw%3D%3D/photo/AF1QipO7IhGAtJmUUObwneKUAFiszajp7tJM08IOY6Do",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "Line Drive"
+    ],
+    "totalSeasons": 2
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "Line Drive",
+      "number": "103",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 2.666666667,
+        "bf": 11,
+        "so": 5,
+        "bb": 2,
+        "h": 1,
+        "hr": 0,
+        "r": 1,
+        "er": 0,
+        "w": 1,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 0,
+        "whip": 1.1249999998593752,
+        "fip": 1.700000312,
+        "kPer9": 16.874999997890626,
+        "bbPer9": 6.74999999915625,
+        "hPer9": 3.374999999578125,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 83,
+        "hits": 46,
+        "hr": 1479,
+        "rbi": 35,
+        "avg": 40,
+        "w": 3,
+        "sv": 1596,
+        "so": 9,
+        "era": 1090,
+        "whip": 6,
+        "fip": 7
+      }
+    },
+    {
+      "year": 2025,
+      "team": "Line Drive",
+      "number": "103",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 935,
+        "hits": 834,
+        "hr": 285,
+        "rbi": 774,
+        "avg": 1132,
+        "w": 585,
+        "sv": 535,
+        "so": 757,
+        "era": 1132,
+        "whip": 1132,
+        "fip": 0
+      }
+    }
+  ]
+}

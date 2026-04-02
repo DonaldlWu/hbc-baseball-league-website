@@ -9,9 +9,46 @@
       "飛尼克斯",
       "冷鋒"
     ],
-    "totalSeasons": 10
+    "totalSeasons": 11
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "飛尼克斯",
+      "number": "1",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1049,
+        "hits": 258,
+        "hr": 168,
+        "rbi": 228,
+        "avg": 1090,
+        "w": 208,
+        "sv": 206,
+        "so": 228,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "飛尼克斯",
@@ -36,10 +73,10 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 272,
-        "hits": 294,
-        "hr": 1154,
-        "rbi": 351,
+        "rc": 274,
+        "hits": 297,
+        "hr": 1151,
+        "rbi": 354,
         "avg": 1132,
         "w": 225,
         "sv": 175,

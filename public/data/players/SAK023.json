@@ -1,0 +1,52 @@
+{
+  "id": "SAK023",
+  "code": "SAK023",
+  "name": "田哲宇",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNJY98MjYUJonBfz9meCyyHNJkQ6cv5xZkn8sZqG2E0Fh5aj-XFQ7j3YNFIS1xuBdSvclMR788ZO6FIHWAikDBbR-V-kzZl9YTunRVyhdxwp5NSSxPS7i5bfRNmkPuchICvyGNr6g548M3MASvjTLj_Hg=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "櫻砲魂"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "櫻砲魂",
+      "number": "18",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 108,
+        "hits": 1559,
+        "hr": 1475,
+        "rbi": 1532,
+        "avg": 137,
+        "w": 273,
+        "sv": 271,
+        "so": 293,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    }
+  ]
+}

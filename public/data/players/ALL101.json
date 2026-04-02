@@ -10,9 +10,46 @@
       "台大機械",
       "ALLSTAR"
     ],
-    "totalSeasons": 6
+    "totalSeasons": 7
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "逆轉星球",
+      "number": "2",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1071,
+        "hits": 1573,
+        "hr": 1493,
+        "rbi": 1548,
+        "avg": 131,
+        "w": 547,
+        "sv": 545,
+        "so": 567,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "逆轉星球",
@@ -37,14 +74,14 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 619,
-        "hits": 1452,
-        "hr": 932,
-        "rbi": 1399,
+        "rc": 618,
+        "hits": 1453,
+        "hr": 933,
+        "rbi": 1401,
         "avg": 1132,
-        "w": 513,
-        "sv": 463,
-        "so": 685,
+        "w": 512,
+        "sv": 462,
+        "so": 684,
         "era": 1132,
         "whip": 1132,
         "fip": 0

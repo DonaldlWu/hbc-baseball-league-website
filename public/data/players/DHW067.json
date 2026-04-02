@@ -8,9 +8,46 @@
     "teams": [
       "DH戰將"
     ],
-    "totalSeasons": 1
+    "totalSeasons": 2
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "DH戰將",
+      "number": "75",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 173,
+        "hits": 760,
+        "hr": 670,
+        "rbi": 730,
+        "avg": 1090,
+        "w": 787,
+        "sv": 785,
+        "so": 807,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "DH戰將",
@@ -38,11 +75,11 @@
         "rc": 541,
         "hits": 475,
         "hr": 906,
-        "rbi": 1381,
+        "rbi": 1382,
         "avg": 1132,
-        "w": 723,
-        "sv": 673,
-        "so": 895,
+        "w": 722,
+        "sv": 672,
+        "so": 894,
         "era": 1132,
         "whip": 1132,
         "fip": 0

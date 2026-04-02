@@ -11,9 +11,46 @@
       "Synergy",
       "南港高工OB"
     ],
-    "totalSeasons": 15
+    "totalSeasons": 16
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "Line Drive",
+      "number": "21",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 6,
+        "hits": 4,
+        "singles": 2,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 2,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1,
+        "hits": 2,
+        "hr": 1605,
+        "rbi": 29,
+        "avg": 15,
+        "w": 669,
+        "sv": 667,
+        "so": 689,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "Line Drive",
@@ -62,13 +99,13 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 27,
+        "rc": 28,
         "hits": 26,
-        "hr": 1532,
+        "hr": 1531,
         "rbi": 10,
-        "avg": 47,
-        "w": 1372,
-        "sv": 1321,
+        "avg": 48,
+        "w": 1371,
+        "sv": 1320,
         "so": 1524,
         "era": 1132,
         "whip": 261,

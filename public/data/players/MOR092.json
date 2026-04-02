@@ -9,9 +9,46 @@
       "台大醫學院棒",
       "京盛宇"
     ],
-    "totalSeasons": 2
+    "totalSeasons": 3
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "台大醫學院棒",
+      "number": "221",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 286,
+        "hits": 861,
+        "hr": 771,
+        "rbi": 831,
+        "avg": 1090,
+        "w": 889,
+        "sv": 887,
+        "so": 909,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "台大醫學院棒",
@@ -60,16 +97,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 205,
-        "hits": 250,
-        "hr": 1076,
-        "rbi": 340,
+        "rc": 211,
+        "hits": 253,
+        "hr": 1074,
+        "rbi": 343,
         "avg": 1132,
         "w": 1517,
         "sv": 29,
         "so": 69,
         "era": 1132,
-        "whip": 645,
+        "whip": 644,
         "fip": 0
       }
     },

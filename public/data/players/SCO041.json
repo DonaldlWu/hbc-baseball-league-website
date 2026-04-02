@@ -6,11 +6,86 @@
   "career": {
     "debut": 2024,
     "teams": [
-      "實踐OB"
+      "實踐OB",
+      "Aaron Prosecutor"
     ],
-    "totalSeasons": 2
+    "totalSeasons": 4
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "實踐OB",
+      "number": "322",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 351,
+        "hits": 166,
+        "hr": 76,
+        "rbi": 136,
+        "avg": 1090,
+        "w": 95,
+        "sv": 93,
+        "so": 115,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
+    {
+      "year": 2026,
+      "team": "Aaron Prosecutor",
+      "number": "2",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 14,
+        "hits": 6,
+        "hr": 1551,
+        "rbi": 9,
+        "avg": 10,
+        "w": 166,
+        "sv": 164,
+        "so": 186,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "實踐OB",
@@ -35,10 +110,10 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 353,
+        "rc": 355,
         "hits": 364,
-        "hr": 1201,
-        "rbi": 364,
+        "hr": 1198,
+        "rbi": 366,
         "avg": 1132,
         "w": 167,
         "sv": 117,

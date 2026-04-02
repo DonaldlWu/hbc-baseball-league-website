@@ -10,9 +10,46 @@
       "ROOKIES",
       "MIX"
     ],
-    "totalSeasons": 8
+    "totalSeasons": 9
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "Line Drive",
+      "number": "78",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 866,
+        "hits": 636,
+        "hr": 546,
+        "rbi": 606,
+        "avg": 1090,
+        "w": 641,
+        "sv": 639,
+        "so": 661,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "Line Drive",
@@ -37,14 +74,14 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 927,
-        "hits": 824,
-        "hr": 275,
-        "rbi": 763,
+        "rc": 926,
+        "hits": 825,
+        "hr": 276,
+        "rbi": 765,
         "avg": 1132,
-        "w": 576,
-        "sv": 526,
-        "so": 748,
+        "w": 575,
+        "sv": 525,
+        "so": 747,
         "era": 1132,
         "whip": 1132,
         "fip": 0

@@ -13,9 +13,46 @@
       "亞克鷹",
       "ROOKIES"
     ],
-    "totalSeasons": 12
+    "totalSeasons": 13
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "火把老鷹",
+      "number": "105",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 680,
+        "hits": 492,
+        "hr": 402,
+        "rbi": 462,
+        "avg": 1090,
+        "w": 481,
+        "sv": 479,
+        "so": 501,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "火把老鷹",
@@ -65,16 +102,16 @@
       },
       "rankings": {
         "rc": 78,
-        "hits": 57,
-        "hr": 1399,
-        "rbi": 45,
+        "hits": 60,
+        "hr": 1396,
+        "rbi": 46,
         "avg": 1132,
         "w": 83,
-        "sv": 1504,
-        "so": 74,
+        "sv": 1503,
+        "so": 75,
         "era": 1132,
-        "whip": 15,
-        "fip": 19
+        "whip": 16,
+        "fip": 20
       }
     },
     {

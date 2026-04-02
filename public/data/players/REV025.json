@@ -10,9 +10,46 @@
       "自轉棒球",
       "自轉星球"
     ],
-    "totalSeasons": 12
+    "totalSeasons": 13
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "逆轉星球",
+      "number": "52",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 2,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 27,
+        "hits": 65,
+        "hr": 1528,
+        "rbi": 19,
+        "avg": 34,
+        "w": 530,
+        "sv": 528,
+        "so": 550,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "逆轉星球",
@@ -37,14 +74,14 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 56,
-        "hits": 56,
+        "rc": 57,
+        "hits": 58,
         "hr": 1520,
         "rbi": 33,
-        "avg": 63,
-        "w": 501,
-        "sv": 451,
-        "so": 673,
+        "avg": 64,
+        "w": 500,
+        "sv": 450,
+        "so": 672,
         "era": 1132,
         "whip": 1132,
         "fip": 0

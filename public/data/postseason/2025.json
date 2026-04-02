@@ -14,7 +14,23 @@
           "seed1": 1,
           "seed2": 16,
           "games": [
-            { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
+            {
+              "gameSeq": 1,
+              "byeGame": true,
+              "winner": "team1",
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": null,
+              "note": "主場優勢"
+            },
+            {
+              "gameSeq": 2,
+              "byeGame": false,
+              "winner": null,
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": "20250116G1"
+            }
           ],
           "winner": null,
           "status": "in_progress"
@@ -24,7 +40,23 @@
           "seed1": 8,
           "seed2": 9,
           "games": [
-            { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
+            {
+              "gameSeq": 1,
+              "byeGame": true,
+              "winner": "team1",
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": null,
+              "note": "主場優勢"
+            },
+            {
+              "gameSeq": 2,
+              "byeGame": false,
+              "winner": null,
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": "20250809G1"
+            }
           ],
           "winner": null,
           "status": "in_progress"
@@ -34,7 +66,23 @@
           "seed1": 4,
           "seed2": 13,
           "games": [
-            { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
+            {
+              "gameSeq": 1,
+              "byeGame": true,
+              "winner": "team1",
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": null,
+              "note": "主場優勢"
+            },
+            {
+              "gameSeq": 2,
+              "byeGame": false,
+              "winner": null,
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": "20250413G1"
+            }
           ],
           "winner": null,
           "status": "in_progress"
@@ -44,7 +92,23 @@
           "seed1": 5,
           "seed2": 12,
           "games": [
-            { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
+            {
+              "gameSeq": 1,
+              "byeGame": true,
+              "winner": "team1",
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": null,
+              "note": "主場優勢"
+            },
+            {
+              "gameSeq": 2,
+              "byeGame": false,
+              "winner": null,
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": "20250512G1"
+            }
           ],
           "winner": null,
           "status": "in_progress"
@@ -54,7 +118,23 @@
           "seed1": 2,
           "seed2": 15,
           "games": [
-            { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
+            {
+              "gameSeq": 1,
+              "byeGame": true,
+              "winner": "team1",
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": null,
+              "note": "主場優勢"
+            },
+            {
+              "gameSeq": 2,
+              "byeGame": false,
+              "winner": null,
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": "20250215G1"
+            }
           ],
           "winner": null,
           "status": "in_progress"
@@ -64,7 +144,23 @@
           "seed1": 7,
           "seed2": 10,
           "games": [
-            { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
+            {
+              "gameSeq": 1,
+              "byeGame": true,
+              "winner": "team1",
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": null,
+              "note": "主場優勢"
+            },
+            {
+              "gameSeq": 2,
+              "byeGame": false,
+              "winner": null,
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": "20250710G1"
+            }
           ],
           "winner": null,
           "status": "in_progress"
@@ -74,7 +170,23 @@
           "seed1": 3,
           "seed2": 14,
           "games": [
-            { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
+            {
+              "gameSeq": 1,
+              "byeGame": true,
+              "winner": "team1",
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": null,
+              "note": "主場優勢"
+            },
+            {
+              "gameSeq": 2,
+              "byeGame": false,
+              "winner": null,
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": "20250314G1"
+            }
           ],
           "winner": null,
           "status": "in_progress"
@@ -84,7 +196,23 @@
           "seed1": 6,
           "seed2": 11,
           "games": [
-            { "gameSeq": 1, "byeGame": true, "winner": "team1", "homeScore": null, "awayScore": null, "gameNumber": null, "note": "主場優勢" }
+            {
+              "gameSeq": 1,
+              "byeGame": true,
+              "winner": "team1",
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": null,
+              "note": "主場優勢"
+            },
+            {
+              "gameSeq": 2,
+              "byeGame": false,
+              "winner": null,
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": "20250611G1"
+            }
           ],
           "winner": null,
           "status": "in_progress"

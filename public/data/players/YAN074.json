@@ -10,9 +10,46 @@
       "聖騎士",
       "陽明OB"
     ],
-    "totalSeasons": 4
+    "totalSeasons": 5
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "逆轉星球",
+      "number": "13",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 734,
+        "hits": 546,
+        "hr": 456,
+        "rbi": 516,
+        "avg": 1090,
+        "w": 540,
+        "sv": 538,
+        "so": 560,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "逆轉星球",
@@ -61,16 +98,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 362,
+        "rc": 365,
         "hits": 452,
-        "hr": 1277,
-        "rbi": 382,
+        "hr": 1276,
+        "rbi": 385,
         "avg": 1132,
         "w": 1413,
         "sv": 1363,
         "so": 201,
         "era": 1132,
-        "whip": 239,
+        "whip": 240,
         "fip": 0
       }
     },

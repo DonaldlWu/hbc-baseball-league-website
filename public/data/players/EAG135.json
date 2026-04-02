@@ -8,9 +8,46 @@
     "teams": [
       "火把老鷹"
     ],
-    "totalSeasons": 1
+    "totalSeasons": 2
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "火把老鷹",
+      "number": "58",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 688,
+        "hits": 500,
+        "hr": 410,
+        "rbi": 470,
+        "avg": 1090,
+        "w": 489,
+        "sv": 487,
+        "so": 509,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "火把老鷹",
@@ -60,16 +97,16 @@
       },
       "rankings": {
         "rc": 1100,
-        "hits": 1460,
-        "hr": 940,
-        "rbi": 420,
+        "hits": 1461,
+        "hr": 941,
+        "rbi": 421,
         "avg": 1132,
         "w": 22,
         "sv": 1534,
         "so": 10,
         "era": 1132,
         "whip": 29,
-        "fip": 32
+        "fip": 33
       }
     }
   ]

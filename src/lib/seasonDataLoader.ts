@@ -22,6 +22,55 @@ export async function loadSeasonData(year: number): Promise<SeasonData> {
 }
 
 /**
+ * 載入季後賽賽程資料（seasons/{year}postseason.json）
+ * @param year 賽季年份
+ * @returns 季後賽賽程資料（SeasonData 格式，games 使用季後賽場次編號）
+ */
+export async function loadPostseasonScheduleData(year: number): Promise<SeasonData> {
+  const response = await fetch(`/data/seasons/${year}postseason.json`);
+
+  if (!response.ok) {
+    throw new Error(`Failed to load postseason schedule data for ${year}: ${response.status}`);
+  }
+
+  return response.json();
+}
+
+/**
+ * 載入季後賽賽程並依日期分組，回傳 DaySchedule[] 格式
+ * @param year 賽季年份
+ * @returns 按日期分組的季後賽賽程陣列
+ */
+export async function loadPostseasonSchedule(year: number): Promise<DaySchedule[]> {
+  const data = await loadPostseasonScheduleData(year);
+
+  const byDate = new Map<string, Map<string, Game[]>>();
+
+  for (const [gameNumber, game] of Object.entries(data.games)) {
+    if (!byDate.has(game.date)) {
+      byDate.set(game.date, new Map());
+    }
+    const byVenue = byDate.get(game.date)!;
+    if (!byVenue.has(game.venue)) {
+      byVenue.set(game.venue, []);
+    }
+    byVenue.get(game.venue)!.push(toGame(gameNumber, game));
+  }
+
+  return Array.from(byDate.entries())
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([date, byVenue]) => ({
+      date,
+      venues: Object.fromEntries(
+        Array.from(byVenue.entries()).map(([venue, vGames]) => [
+          venue,
+          vGames.sort((a, b) => a.startTime.localeCompare(b.startTime)),
+        ])
+      ),
+    }));
+}
+
+/**
  * 取得指定月份的比賽（含 gameNumber）
  * @param data 賽季資料
  * @param year 日曆年份
@@ -213,7 +262,9 @@ export async function loadGamesByCalendarMonth(
 
   const allGames: Array<SeasonGame & { gameNumber: string }> = [];
   for (const entry of seasonsToLoad) {
-    const data = await loadSeasonData(entry.season);
+    const data = entry.file
+      ? await loadPostseasonScheduleData(entry.season)
+      : await loadSeasonData(entry.season);
     allGames.push(...getGamesByMonth(data, calYear, calMonth));
   }
 

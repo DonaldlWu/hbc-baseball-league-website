@@ -1,0 +1,52 @@
+{
+  "id": "SAK005",
+  "code": "SAK005",
+  "name": "柯俊楷",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNmjLhEpCKvCHQ0XJpMMwoPeROGq0VuXFLMZSAxbzW-aLDzJ38bDPN9Dy_rB4eoyU17qjqZ3ZGCdz6owtCs1yhPWbmLSY6INyAmGUxEk_pDGboq8rW0vSgw3OCM7ZXjCtoyfxwuIh_KJVSf0woAF_vkhg=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "櫻砲魂"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "櫻砲魂",
+      "number": "7",
+      "batting": {
+        "games": 2,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1080,
+        "hits": 1572,
+        "hr": 1491,
+        "rbi": 1546,
+        "avg": 130,
+        "w": 284,
+        "sv": 282,
+        "so": 304,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    }
+  ]
+}

@@ -11,9 +11,46 @@
       "路易莎咖啡",
       "ALLSTAR"
     ],
-    "totalSeasons": 5
+    "totalSeasons": 6
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "火把老鷹",
+      "number": "101",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 682,
+        "hits": 494,
+        "hr": 404,
+        "rbi": 464,
+        "avg": 1090,
+        "w": 483,
+        "sv": 481,
+        "so": 503,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "火把老鷹",
@@ -64,14 +101,14 @@
       "rankings": {
         "rc": 165,
         "hits": 133,
-        "hr": 1320,
+        "hr": 1314,
         "rbi": 200,
         "avg": 1132,
-        "w": 1356,
-        "sv": 1306,
+        "w": 1355,
+        "sv": 1305,
         "so": 1520,
         "era": 1132,
-        "whip": 604,
+        "whip": 603,
         "fip": 0
       }
     },

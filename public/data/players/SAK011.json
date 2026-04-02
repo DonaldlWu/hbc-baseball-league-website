@@ -1,0 +1,52 @@
+{
+  "id": "SAK011",
+  "code": "SAK011",
+  "name": "劉育豪",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNb4n6poz9wjH4CxFRUTIx80gnIpM_Vgo4rIaUQPp7bfZJ9i0cTgaMaV-OdHR1VpMyxX2gGfMCpKv4aqPzle6kB5Hx7dOM9PRa5oOia3mZCDhkX-gqPcwuhGyEbaCovz1J_4esLQM2B3iAvnkNh3BaXEA=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "櫻砲魂"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "櫻砲魂",
+      "number": "11",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1060,
+        "hits": 1545,
+        "hr": 1460,
+        "rbi": 1518,
+        "avg": 1090,
+        "w": 277,
+        "sv": 275,
+        "so": 297,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    }
+  ]
+}

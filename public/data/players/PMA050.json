@@ -10,9 +10,46 @@
       "ROOKIES",
       "戊戍本一家"
     ],
-    "totalSeasons": 5
+    "totalSeasons": 6
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "楚奧特",
+      "number": "96",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 518,
+        "hits": 330,
+        "hr": 240,
+        "rbi": 300,
+        "avg": 1090,
+        "w": 297,
+        "sv": 295,
+        "so": 317,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "楚奧特",
@@ -37,14 +74,14 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 786,
+        "rc": 784,
         "hits": 696,
         "hr": 147,
-        "rbi": 635,
+        "rbi": 636,
         "avg": 1132,
-        "w": 314,
-        "sv": 264,
-        "so": 486,
+        "w": 313,
+        "sv": 263,
+        "so": 485,
         "era": 1132,
         "whip": 1132,
         "fip": 0

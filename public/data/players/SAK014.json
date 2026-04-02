@@ -1,0 +1,52 @@
+{
+  "id": "SAK014",
+  "code": "SAK014",
+  "name": "曾禹翔",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMx35RsKSC7k5cmc_oFzfsIQSh9YHYQZfsXQwnFXAS5FQNrQqmh0NzK5P-gU5UDyNx0XWvPzDb5mJcKHmIIQmQzUbn5iMBlho0oHRJJE26NVNy5TWjBQhND-kssXTJlKBX-OkQF0mE4m_XUrCEYG4vAUA=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "櫻砲魂"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "櫻砲魂",
+      "number": "39",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 321,
+        "hits": 305,
+        "hr": 215,
+        "rbi": 275,
+        "avg": 1090,
+        "w": 261,
+        "sv": 259,
+        "so": 281,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    }
+  ]
+}

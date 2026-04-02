@@ -10,9 +10,46 @@
       "ROOKIES",
       "南港高工OB"
     ],
-    "totalSeasons": 15
+    "totalSeasons": 16
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "ACES",
+      "number": "5",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 422,
+        "hits": 222,
+        "hr": 132,
+        "rbi": 192,
+        "avg": 1090,
+        "w": 160,
+        "sv": 158,
+        "so": 180,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "ACES",
@@ -61,7 +98,7 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 40,
+        "rc": 41,
         "hits": 92,
         "hr": 1522,
         "rbi": 90,
@@ -70,7 +107,7 @@
         "sv": 31,
         "so": 50,
         "era": 1132,
-        "whip": 122,
+        "whip": 123,
         "fip": 37
       }
     },

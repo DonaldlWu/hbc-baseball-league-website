@@ -2,15 +2,53 @@
   "id": "NTP016",
   "code": "NTP016",
   "name": "黃宇綸",
-  "photo": "",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMnnuB19OY4F5ao-XuIYXWZJG30JvNH-300UEBDoVew24jbV0eFLNnenkrRkl_3b6jcDrmeQLqX4Uue5Ljl67fIKN44OkOSvvyuhIUP6UF3JSHT_SVySEQcLUbJsZ1o1Dt10vLxc1-pZ3JSWtK930Pfqg=w310-h335-no",
   "career": {
     "debut": 2019,
     "teams": [
+      "Aaron Prosecutor",
       "台北大學"
     ],
-    "totalSeasons": 3
+    "totalSeasons": 4
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "Aaron Prosecutor",
+      "number": "15",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 124,
+        "hits": 209,
+        "hr": 119,
+        "rbi": 179,
+        "avg": 1090,
+        "w": 145,
+        "sv": 143,
+        "so": 165,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2021,
       "team": "台北大學",

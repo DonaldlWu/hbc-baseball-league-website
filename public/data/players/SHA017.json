@@ -8,15 +8,52 @@
     "teams": [
       "少林棒球隊"
     ],
-    "totalSeasons": 1
+    "totalSeasons": 2
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "少林棒球隊",
+      "number": "24",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 150,
+        "hits": 929,
+        "hr": 839,
+        "rbi": 899,
+        "avg": 1090,
+        "w": 964,
+        "sv": 962,
+        "so": 984,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "少林棒球隊",
       "number": "24",
       "batting": {
-        "games": 7,
+        "games": 8,
         "pa": 8,
         "ab": 6,
         "hits": 0,
@@ -33,15 +70,15 @@
         "totalBases": 0
       },
       "pitching": {
-        "games": 7,
-        "ip": 18.66666667,
-        "bf": 126,
-        "so": 10,
-        "bb": 26,
-        "h": 37,
+        "games": 8,
+        "ip": 21.66666667,
+        "bf": 144,
+        "so": 11,
+        "bb": 29,
+        "h": 45,
         "hr": 0,
-        "r": 38,
-        "er": 17,
+        "r": 43,
+        "er": 22,
         "w": 0,
         "l": 4,
         "sv": 0,
@@ -50,26 +87,26 @@
         "csAttempts": 0
       },
       "pitchingCalculated": {
-        "era": 8.196428569964922,
-        "whip": 3.374999999397321,
-        "fip": 6.307144416,
-        "kPer9": 4.821428570567602,
-        "bbPer9": 12.535714283475764,
-        "hPer9": 17.839285711100125,
+        "era": 9.13846153705562,
+        "whip": 3.4153846148591716,
+        "fip": 6.200001559,
+        "kPer9": 4.56923076852781,
+        "bbPer9": 12.04615384430059,
+        "hPer9": 18.692307689431953,
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 1034,
+        "rc": 1033,
         "hits": 1523,
-        "hr": 1106,
-        "rbi": 1496,
+        "hr": 1105,
+        "rbi": 1498,
         "avg": 1132,
-        "w": 1534,
-        "sv": 1511,
-        "so": 87,
+        "w": 1536,
+        "sv": 1517,
+        "so": 84,
         "era": 1132,
-        "whip": 53,
-        "fip": 77
+        "whip": 55,
+        "fip": 76
       }
     }
   ]

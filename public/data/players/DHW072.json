@@ -2,15 +2,52 @@
   "id": "DHW072",
   "code": "DHW072",
   "name": "葉昕宥",
-  "photo": "https://lh3.googleusercontent.com/YY3NTeNoub7fMy74D08aL8BNEWfPtRmD9CgDpSizSpmBsBTZeGjFtoQaz2cTG6oGRCGRS5Ke5rEQ9Ov8Lx85xKPRWFEsK0hL3NGSeR6EF0sbZedAQ9ia1H9KFz4WAw9jM7NZ8-K5XI5_YRqq-e7FpDux-vNqk_se3ji-tJ29vKj51en9t5fZ4dXAFCfvV4QlOF9HSYhggv68Dfm7c1srYDrRhg-xtMtyV45QHoaCTE7IAnn9arle5IpYCTy4lqrVGPFXjuyZSuEom5lAWQqSGbz8mi9Np7at9cX7DD3BlESgQPpVwOm4JMURIjVqBUUyYF2MKbBOKTHUCHLwY1LyxJVmF14uaGnhUZBOq9p9ifqZiA-PUrxQOoOHu8m4G81eIAfXvIaNkPFWENnGxXul35JOjaeN4pogJmX6FXnOoWevkIN1GCvWJ8zmDri-0hdGfUDKAa8oyqysy5iZ7QTqksRc2J9RRP1fYihnOsgmRTB3vQUhUFY514gM8zN9Tq1uf4fgODD933GzbmDq3n3YyITHSDI_q8rTjzA7lLkxRYxdem1bLhxZaruj4QdB9uzLITm1SZ2ngzDTNhiUxZc3Rsax8AMvQ-g_I3g33j7WKH_YkIVDuloaW51dy1gGJreBXz_6GMerUxpRmRQ_ywlocqrH3Ndsa4PycgqMD9rFRIlzNkZxQ8HX3kGGg4nHNw=w450-h650",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPZHOwlnsr5nm_4WByeQSCG68DpcDcW2E0-XRo2Qhj8pHlhqjRMPEjcuVVTAk642kkuEZSzV2tlcJq_uZD7hU3lTqBi7TYNeIgKJY6NZi5cMtYWHPWWpBiGQcyih6T_CCqc3t317_ZPYhc4qN2O_xRJ=w238-h303-s-no?authuser=0",
   "career": {
     "debut": 2025,
     "teams": [
       "DH戰將"
     ],
-    "totalSeasons": 1
+    "totalSeasons": 2
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "DH戰將",
+      "number": "54",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 42,
+        "hits": 28,
+        "hr": 1562,
+        "rbi": 1588,
+        "avg": 31,
+        "w": 946,
+        "sv": 944,
+        "so": 966,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "DH戰將",
@@ -35,14 +72,14 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 663,
-        "hits": 969,
-        "hr": 420,
-        "rbi": 908,
+        "rc": 662,
+        "hits": 967,
+        "hr": 418,
+        "rbi": 907,
         "avg": 1132,
-        "w": 851,
-        "sv": 801,
-        "so": 1023,
+        "w": 849,
+        "sv": 799,
+        "so": 1021,
         "era": 1132,
         "whip": 1132,
         "fip": 0

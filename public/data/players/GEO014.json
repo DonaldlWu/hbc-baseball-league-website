@@ -9,9 +9,46 @@
       "十號馬",
       "台大地理OB"
     ],
-    "totalSeasons": 10
+    "totalSeasons": 11
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "十號馬",
+      "number": "24",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 495,
+        "hits": 103,
+        "hr": 13,
+        "rbi": 73,
+        "avg": 1090,
+        "w": 22,
+        "sv": 20,
+        "so": 42,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "十號馬",
@@ -36,10 +73,10 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 771,
+        "rc": 769,
         "hits": 592,
         "hr": 43,
-        "rbi": 531,
+        "rbi": 532,
         "avg": 1132,
         "w": 107,
         "sv": 57,

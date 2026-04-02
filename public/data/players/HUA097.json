@@ -9,9 +9,46 @@
       "Line Drive",
       "華江OB"
     ],
-    "totalSeasons": 8
+    "totalSeasons": 9
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "Line Drive",
+      "number": "49",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 82,
+        "hits": 60,
+        "hr": 1518,
+        "rbi": 1562,
+        "avg": 61,
+        "w": 660,
+        "sv": 658,
+        "so": 680,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "Line Drive",
@@ -60,16 +97,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 368,
-        "hits": 347,
-        "hr": 1112,
-        "rbi": 184,
+        "rc": 373,
+        "hits": 348,
+        "hr": 1111,
+        "rbi": 185,
         "avg": 1132,
-        "w": 1420,
-        "sv": 1369,
+        "w": 1419,
+        "sv": 1368,
         "so": 203,
         "era": 1132,
-        "whip": 439,
+        "whip": 438,
         "fip": 0
       }
     },

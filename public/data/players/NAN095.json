@@ -10,9 +10,70 @@
       "ROOKIES",
       "Synergy"
     ],
-    "totalSeasons": 10
+    "totalSeasons": 11
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "台大經濟OB",
+      "number": "14",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 2.666666667,
+        "bf": 15,
+        "so": 6,
+        "bb": 2,
+        "h": 5,
+        "hr": 0,
+        "r": 3,
+        "er": 3,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 10.124999998734376,
+        "whip": 2.624999999671875,
+        "fip": 0.950000708,
+        "kPer9": 20.249999997468752,
+        "bbPer9": 6.74999999915625,
+        "hPer9": 16.874999997890626,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 69,
+        "hits": 40,
+        "hr": 1452,
+        "rbi": 31,
+        "avg": 1090,
+        "w": 1601,
+        "sv": 1597,
+        "so": 7,
+        "era": 1090,
+        "whip": 17,
+        "fip": 5
+      }
+    },
     {
       "year": 2025,
       "team": "台大經濟OB",
@@ -61,7 +122,7 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 123,
+        "rc": 122,
         "hits": 78,
         "hr": 1474,
         "rbi": 14,
@@ -70,7 +131,7 @@
         "sv": 1451,
         "so": 223,
         "era": 1132,
-        "whip": 162,
+        "whip": 163,
         "fip": 0
       }
     },

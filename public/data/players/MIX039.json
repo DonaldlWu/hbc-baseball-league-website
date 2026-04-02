@@ -9,9 +9,46 @@
       "飛尼克斯",
       "MIX"
     ],
-    "totalSeasons": 12
+    "totalSeasons": 13
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "飛尼克斯",
+      "number": "44",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 1,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 76,
+        "hits": 85,
+        "hr": 1586,
+        "rbi": 1604,
+        "avg": 71,
+        "w": 190,
+        "sv": 188,
+        "so": 210,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "飛尼克斯",
@@ -36,10 +73,10 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 348,
+        "rc": 350,
         "hits": 394,
-        "hr": 1410,
-        "rbi": 519,
+        "hr": 1408,
+        "rbi": 520,
         "avg": 1132,
         "w": 209,
         "sv": 159,

@@ -51,23 +51,44 @@ export function ScheduleCalendar() {
     return ['全部', ...Array.from(teamSet).sort()];
   }, [data]);
 
+  // 從 ParsedGameNumber 取得賽季複合 key（正規賽 "2025"，季後賽 "2025postseason"）
+  function getSeasonKey(parsed: { season: number; isPostseason?: boolean }): string {
+    return parsed.isPostseason ? `${parsed.season}postseason` : String(parsed.season);
+  }
+
+  // 從賽季複合 key 產生顯示標籤
+  function formatSeasonLabel(key: string): string {
+    if (key === '全部') return '全部賽季';
+    if (key.endsWith('postseason')) return `${key.replace('postseason', '')} 季後賽`;
+    return `${key} 賽季`;
+  }
+
   // 從賽程資料中提取所有賽季
   const availableSeasons = useMemo(() => {
     if (!data || !data.length) return [];
 
-    const seasonSet = new Set<number>();
+    const seasonSet = new Set<string>();
     data.forEach((day) => {
       Object.values(day.venues).forEach((games) => {
         games.forEach((game) => {
           const parsed = parseGameNumber(game.gameNumber);
           if (parsed) {
-            seasonSet.add(parsed.season);
+            seasonSet.add(getSeasonKey(parsed));
           }
         });
       });
     });
 
-    return ['全部', ...Array.from(seasonSet).sort((a, b) => b - a).map(String)];
+    return [
+      '全部',
+      ...Array.from(seasonSet).sort((a, b) => {
+        const yearA = parseInt(a);
+        const yearB = parseInt(b);
+        if (yearA !== yearB) return yearB - yearA;
+        // 同年：季後賽排在正規賽前面（時間較晚）
+        return a.endsWith('postseason') ? -1 : b.endsWith('postseason') ? 1 : 0;
+      }),
+    ];
   }, [data]);
 
   // 計算各賽季比賽數量
@@ -80,8 +101,8 @@ export function ScheduleCalendar() {
         games.forEach((game) => {
           const parsed = parseGameNumber(game.gameNumber);
           if (parsed) {
-            const seasonStr = String(parsed.season);
-            counts.set(seasonStr, (counts.get(seasonStr) || 0) + 1);
+            const key = getSeasonKey(parsed);
+            counts.set(key, (counts.get(key) || 0) + 1);
           }
         });
       });
@@ -131,7 +152,7 @@ export function ScheduleCalendar() {
             let seasonMatch = selectedSeason === '全部';
             if (!seasonMatch) {
               const parsed = parseGameNumber(game.gameNumber);
-              seasonMatch = parsed !== null && String(parsed.season) === selectedSeason;
+              seasonMatch = parsed !== null && getSeasonKey(parsed) === selectedSeason;
             }
 
             return teamMatch && seasonMatch;
@@ -288,7 +309,7 @@ export function ScheduleCalendar() {
                 >
                   {availableSeasons.map((season) => (
                     <option key={season} value={season}>
-                      {season === '全部' ? '全部賽季' : `${season} 賽季`}
+                      {formatSeasonLabel(season)}
                     </option>
                   ))}
                 </select>

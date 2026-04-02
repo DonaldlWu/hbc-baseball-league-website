@@ -10,9 +10,46 @@
       "ROOKIES",
       "台北大學"
     ],
-    "totalSeasons": 6
+    "totalSeasons": 7
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "Line Drive",
+      "number": "101",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 878,
+        "hits": 648,
+        "hr": 558,
+        "rbi": 618,
+        "avg": 1090,
+        "w": 653,
+        "sv": 651,
+        "so": 673,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "Line Drive",
@@ -61,16 +98,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 300,
-        "hits": 257,
-        "hr": 1225,
-        "rbi": 287,
+        "rc": 301,
+        "hits": 260,
+        "hr": 1222,
+        "rbi": 291,
         "avg": 1132,
-        "w": 74,
-        "sv": 1484,
-        "so": 58,
+        "w": 75,
+        "sv": 1483,
+        "so": 59,
         "era": 1132,
-        "whip": 604,
+        "whip": 603,
         "fip": 21
       }
     },

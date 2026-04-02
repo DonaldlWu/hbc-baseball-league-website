@@ -1,0 +1,52 @@
+{
+  "id": "SAK022",
+  "code": "SAK022",
+  "name": "李子軒",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOHANH5YLjwxBj-VglGlZuCeFg3y0MdmyXuQibv0BANrLB_uR2t3YrNwzIr5Hfaq52cN6xJtNzbHyWLDPBv-AuVaLvUr0dwjY5ECMDFyfsg0SVZ4Ox700lEENUefODTCRsUfO8_4-orjgaJHvLtwdd85w=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "櫻砲魂"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "櫻砲魂",
+      "number": "82",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 3,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 15,
+        "hits": 10,
+        "hr": 1560,
+        "rbi": 1586,
+        "avg": 14,
+        "w": 249,
+        "sv": 247,
+        "so": 269,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    }
+  ]
+}

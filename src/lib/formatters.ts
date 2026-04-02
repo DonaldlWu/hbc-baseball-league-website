@@ -194,7 +194,8 @@ export function formatStatValue(
 
 /**
  * 解析 gameNumber 字串
- * @param gameNumber 格式為 "YYYYNNN"，例如 "2025201" 表示 2025 賽季第 201 場
+ * @param gameNumber 一般賽季格式 "YYYYNNN"（例如 "2025201"）；
+ *                   季後賽格式 "YYYYMMMM_GN"（例如 "20250314G1"，MMMM=配對代碼，N=第幾場）
  * @returns 解析結果，若無效則返回 null
  */
 export function parseGameNumber(gameNumber: string): ParsedGameNumber | null {
@@ -207,7 +208,19 @@ export function parseGameNumber(gameNumber: string): ParsedGameNumber | null {
     return null;
   }
 
-  // 檢查是否為純數字且長度至少為 5（4 位年份 + 至少 1 位場次）
+  // 季後賽格式：YYYY + 4位配對代碼 + G + 場次序號，例如 "20250314G1"
+  const postseasonMatch = /^(\d{4})(\d{4})G(\d+)$/.exec(gameNumber);
+  if (postseasonMatch) {
+    const season = parseInt(postseasonMatch[1], 10);
+    const matchupCode = postseasonMatch[2];
+    const gameSeq = parseInt(postseasonMatch[3], 10);
+    if (season >= 2000 && gameSeq > 0) {
+      return { season, number: parseInt(matchupCode, 10), isPostseason: true, matchupCode, gameSeq };
+    }
+    return null;
+  }
+
+  // 一般賽季格式：純數字且長度至少為 5（4 位年份 + 至少 1 位場次）
   if (!/^\d{5,}$/.test(gameNumber)) {
     return null;
   }
@@ -240,8 +253,8 @@ export function formatGameNumber(season: number, number: number): string {
 
 /**
  * 將 gameNumber 轉換為友善顯示格式
- * @param gameNumber 格式為 "YYYYNNN" 或 "No.XXX"
- * @returns 友善顯示格式，例如 "No.201"
+ * @param gameNumber 格式為 "YYYYNNN"、"No.XXX" 或季後賽格式 "YYYYMMMMGN"
+ * @returns 友善顯示格式，例如 "No.201" 或 "No.0314-G1"（季後賽）
  */
 export function displayGameNumber(gameNumber: string): string {
   if (!gameNumber || typeof gameNumber !== 'string') {
@@ -257,6 +270,11 @@ export function displayGameNumber(gameNumber: string): string {
   const parsed = parseGameNumber(gameNumber);
   if (!parsed) {
     return '-';
+  }
+
+  // 季後賽格式：顯示配對代碼與場次序號
+  if (parsed.isPostseason && parsed.matchupCode && parsed.gameSeq) {
+    return `No.${parsed.matchupCode}-G${parsed.gameSeq}`;
   }
 
   return `No.${parsed.number}`;

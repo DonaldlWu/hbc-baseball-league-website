@@ -10,9 +10,46 @@
       "HOLYBAT",
       "冷鋒"
     ],
-    "totalSeasons": 14
+    "totalSeasons": 15
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "飛尼克斯",
+      "number": "22",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1043,
+        "hits": 252,
+        "hr": 162,
+        "rbi": 222,
+        "avg": 1090,
+        "w": 196,
+        "sv": 194,
+        "so": 216,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "飛尼克斯",
@@ -37,10 +74,10 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 1033,
+        "rc": 1032,
         "hits": 658,
         "hr": 109,
-        "rbi": 597,
+        "rbi": 598,
         "avg": 1132,
         "w": 214,
         "sv": 164,

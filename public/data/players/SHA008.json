@@ -8,9 +8,46 @@
     "teams": [
       "少林棒球隊"
     ],
-    "totalSeasons": 1
+    "totalSeasons": 2
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "少林棒球隊",
+      "number": "996",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 1,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 62,
+        "hits": 70,
+        "hr": 1542,
+        "rbi": 1577,
+        "avg": 54,
+        "w": 823,
+        "sv": 821,
+        "so": 843,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "少林棒球隊",
@@ -59,16 +96,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 569,
-        "hits": 533,
-        "hr": 1086,
-        "rbi": 1484,
+        "rc": 568,
+        "hits": 532,
+        "hr": 1084,
+        "rbi": 1485,
         "avg": 1132,
-        "w": 1366,
-        "sv": 1315,
-        "so": 192,
+        "w": 1365,
+        "sv": 1314,
+        "so": 191,
         "era": 1132,
-        "whip": 927,
+        "whip": 926,
         "fip": 0
       }
     }

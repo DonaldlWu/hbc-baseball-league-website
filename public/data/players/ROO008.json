@@ -10,9 +10,46 @@
       "ROOKIES",
       "南港高工OB"
     ],
-    "totalSeasons": 15
+    "totalSeasons": 16
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "Line Drive",
+      "number": "13",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 1
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 50,
+        "hits": 89,
+        "hr": 1604,
+        "rbi": 58,
+        "avg": 83,
+        "w": 672,
+        "sv": 670,
+        "so": 692,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "Line Drive",
@@ -39,7 +76,7 @@
       "rankings": {
         "rc": 75,
         "hits": 89,
-        "hr": 1411,
+        "hr": 1410,
         "rbi": 85,
         "avg": 1132,
         "w": 598,

@@ -9,9 +9,46 @@
       "逆轉星球",
       "自轉星球"
     ],
-    "totalSeasons": 10
+    "totalSeasons": 11
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "逆轉星球",
+      "number": "17",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 717,
+        "hits": 529,
+        "hr": 439,
+        "rbi": 499,
+        "avg": 1090,
+        "w": 518,
+        "sv": 516,
+        "so": 538,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "逆轉星球",
@@ -60,16 +97,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 639,
+        "rc": 638,
         "hits": 1522,
-        "hr": 1105,
-        "rbi": 1495,
+        "hr": 1103,
+        "rbi": 1496,
         "avg": 1132,
-        "w": 58,
-        "sv": 1430,
+        "w": 59,
+        "sv": 1429,
         "so": 221,
         "era": 1132,
-        "whip": 730,
+        "whip": 729,
         "fip": 0
       }
     },

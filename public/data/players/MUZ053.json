@@ -8,15 +8,52 @@
     "teams": [
       "木柵OB"
     ],
-    "totalSeasons": 6
+    "totalSeasons": 7
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "木柵OB",
+      "number": "52",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 465,
+        "hits": 303,
+        "hr": 213,
+        "rbi": 273,
+        "avg": 1090,
+        "w": 257,
+        "sv": 255,
+        "so": 277,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "木柵OB",
       "number": "52",
       "batting": {
-        "games": 16,
+        "games": 17,
         "pa": 0,
         "ab": 0,
         "hits": 0,
@@ -33,15 +70,15 @@
         "totalBases": 0
       },
       "pitching": {
-        "games": 16,
-        "ip": 37.33333333,
-        "bf": 192,
-        "so": 39,
-        "bb": 33,
-        "h": 40,
+        "games": 17,
+        "ip": 39.33333333,
+        "bf": 205,
+        "so": 42,
+        "bb": 36,
+        "h": 43,
         "hr": 0,
-        "r": 33,
-        "er": 19,
+        "r": 36,
+        "er": 20,
         "w": 5,
         "l": 2,
         "sv": 0,
@@ -50,26 +87,26 @@
         "csAttempts": 0
       },
       "pitchingCalculated": {
-        "era": 4.580357143266103,
-        "whip": 1.9553571430317283,
-        "fip": 3.762501001,
-        "kPer9": 9.40178571512516,
-        "bbPer9": 7.955357143567442,
-        "hPer9": 9.642857143718112,
+        "era": 4.576271186828497,
+        "whip": 2.008474576441396,
+        "fip": 3.810170493,
+        "kPer9": 9.610169492339844,
+        "bbPer9": 8.237288136291296,
+        "hPer9": 9.83898305168127,
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 762,
+        "rc": 760,
         "hits": 693,
         "hr": 144,
-        "rbi": 632,
+        "rbi": 633,
         "avg": 1132,
         "w": 8,
         "sv": 1535,
         "so": 8,
         "era": 1132,
-        "whip": 20,
-        "fip": 34
+        "whip": 22,
+        "fip": 35
       }
     },
     {

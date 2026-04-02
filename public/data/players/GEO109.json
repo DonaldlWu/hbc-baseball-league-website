@@ -8,9 +8,46 @@
     "teams": [
       "十號馬"
     ],
-    "totalSeasons": 1
+    "totalSeasons": 2
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "十號馬",
+      "number": "21",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 60,
+        "hits": 67,
+        "hr": 1536,
+        "rbi": 21,
+        "avg": 51,
+        "w": 47,
+        "sv": 45,
+        "so": 67,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "十號馬",
@@ -61,14 +98,14 @@
       "rankings": {
         "rc": 92,
         "hits": 74,
-        "hr": 1448,
-        "rbi": 105,
+        "hr": 1445,
+        "rbi": 106,
         "avg": 1132,
         "w": 1427,
         "sv": 1377,
         "so": 174,
         "era": 1132,
-        "whip": 219,
+        "whip": 220,
         "fip": 0
       }
     }

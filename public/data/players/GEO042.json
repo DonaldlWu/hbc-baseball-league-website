@@ -9,9 +9,70 @@
       "十號馬",
       "台大地理OB"
     ],
-    "totalSeasons": 7
+    "totalSeasons": 8
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "十號馬",
+      "number": "12",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 3,
+        "bf": 16,
+        "so": 3,
+        "bb": 2,
+        "h": 5,
+        "hr": 0,
+        "r": 6,
+        "er": 0,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 0,
+        "whip": 2.3333333333333335,
+        "fip": 3.200000917,
+        "kPer9": 9,
+        "bbPer9": 6,
+        "hPer9": 15,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 92,
+        "hits": 58,
+        "hr": 1515,
+        "rbi": 38,
+        "avg": 59,
+        "w": 1603,
+        "sv": 1599,
+        "so": 15,
+        "era": 1090,
+        "whip": 14,
+        "fip": 18
+      }
+    },
     {
       "year": 2025,
       "team": "十號馬",
@@ -60,16 +121,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 188,
-        "hits": 185,
-        "hr": 1401,
+        "rc": 193,
+        "hits": 189,
+        "hr": 1398,
         "rbi": 144,
         "avg": 1132,
         "w": 1537,
-        "sv": 1520,
-        "so": 40,
+        "sv": 1519,
+        "so": 42,
         "era": 1132,
-        "whip": 52,
+        "whip": 53,
         "fip": 63
       }
     },

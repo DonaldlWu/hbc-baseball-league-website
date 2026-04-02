@@ -1,0 +1,52 @@
+{
+  "id": "SAK007",
+  "code": "SAK007",
+  "name": "聶世昕",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMRwytcnWYW_GKvMrVtw5Ysyo8oZtq3Vo8gCmrTQXHEoZvEiDErDHKAaxiJIPnCGBTUrVCvR2-rmICkPUpDBbSlykzncDcSdNapNejONQN4gkSn_iN84wAfigyTRpjGAcsqDjzKKTuA2Frs-5RJ4CiwWA=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "櫻砲魂"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "櫻砲魂",
+      "number": "5",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 1,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1081,
+        "hits": 1593,
+        "hr": 1544,
+        "rbi": 1579,
+        "avg": 101,
+        "w": 286,
+        "sv": 284,
+        "so": 306,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    }
+  ]
+}

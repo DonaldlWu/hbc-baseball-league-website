@@ -13,7 +13,7 @@ interface FullPostseasonBracketProps {
 // Phase 1 dimensions — must match PostseasonBracket.tsx constants exactly
 const P1_CARD_W = 176;
 const P1_CONN_W = 48;
-const P1_CARD_H = 122; // matches CARD_H in PostseasonBracket.tsx
+const P1_CARD_H = 148; // matches CARD_H in PostseasonBracket.tsx
 const P1_CARD_GAP = 24;
 const P1_PAIR_GAP = 48;
 const P1_PAIR_H = P1_CARD_H * 2 + P1_CARD_GAP; // 268

@@ -1,0 +1,52 @@
+{
+  "id": "AAR005",
+  "code": "AAR005",
+  "name": "許哲瑋",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMDJqETvJSXEmQ66sMMkmXFoQFUi-M9r3pVeOyfxXyVmjYWF0LJoUvfXZ_FhcV4ADO1bQ-AmHrGhxnKWPwem6v-sDgtoDqtgvebYoWv36tPZqXNQa__f7535SCvW6ZNGTgszLRWo-0hJlodGFV_HZw2Pg=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "Aaron Prosecutor"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "Aaron Prosecutor",
+      "number": "42",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 122,
+        "hits": 195,
+        "hr": 105,
+        "rbi": 165,
+        "avg": 1090,
+        "w": 127,
+        "sv": 125,
+        "so": 147,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    }
+  ]
+}

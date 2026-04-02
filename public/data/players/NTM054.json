@@ -9,9 +9,46 @@
       "ACES",
       "台大機械"
     ],
-    "totalSeasons": 3
+    "totalSeasons": 4
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "ACES",
+      "number": "23",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 409,
+        "hits": 191,
+        "hr": 101,
+        "rbi": 161,
+        "avg": 1090,
+        "w": 122,
+        "sv": 120,
+        "so": 142,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "ACES",
@@ -60,17 +97,17 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 734,
+        "rc": 732,
         "hits": 639,
         "hr": 90,
-        "rbi": 578,
+        "rbi": 579,
         "avg": 1132,
-        "w": 37,
-        "sv": 1497,
-        "so": 29,
+        "w": 38,
+        "sv": 1496,
+        "so": 30,
         "era": 1132,
-        "whip": 382,
-        "fip": 70
+        "whip": 381,
+        "fip": 72
       }
     },
     {

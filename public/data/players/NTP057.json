@@ -2,15 +2,77 @@
   "id": "NTP057",
   "code": "NTP057",
   "name": "陳又嘉",
-  "photo": "",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOyT8YSQetB7RI4O-BcQditrLcz6St_AyUkWeFAFvPtAC1udiJgIIeGAkZV7fEw9byzaM0vZFibVe_LNL6Ce4GaDyKrA_YZSkLuDArkCs48X50MxAsrzMiuQZbDMc2fYDKPpe9RMextMc3c6qgmS24G4g=w310-h335-no",
   "career": {
     "debut": 2021,
     "teams": [
+      "Aaron Prosecutor",
       "台北大學"
     ],
-    "totalSeasons": 1
+    "totalSeasons": 2
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "Aaron Prosecutor",
+      "number": "1",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 2,
+        "bf": 13,
+        "so": 0,
+        "bb": 4,
+        "h": 4,
+        "hr": 0,
+        "r": 4,
+        "er": 0,
+        "w": 0,
+        "l": 1,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 0,
+        "whip": 4,
+        "fip": 9.2,
+        "kPer9": 0,
+        "bbPer9": 18,
+        "hPer9": 18,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 1059,
+        "hits": 1543,
+        "hr": 1458,
+        "rbi": 1516,
+        "avg": 1090,
+        "w": 1597,
+        "sv": 1594,
+        "so": 1609,
+        "era": 1090,
+        "whip": 29,
+        "fip": 31
+      }
+    },
     {
       "year": 2021,
       "team": "台北大學",

@@ -9,9 +9,46 @@
       "ACES",
       "ROOKIES"
     ],
-    "totalSeasons": 11
+    "totalSeasons": 12
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "ACES",
+      "number": "25",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 408,
+        "hits": 189,
+        "hr": 99,
+        "rbi": 159,
+        "avg": 1090,
+        "w": 119,
+        "sv": 117,
+        "so": 139,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "ACES",
@@ -36,10 +73,10 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 333,
-        "hits": 258,
-        "hr": 1228,
-        "rbi": 289,
+        "rc": 335,
+        "hits": 261,
+        "hr": 1225,
+        "rbi": 293,
         "avg": 1132,
         "w": 179,
         "sv": 129,

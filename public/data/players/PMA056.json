@@ -9,9 +9,46 @@
       "ACES",
       "戊戍本一家"
     ],
-    "totalSeasons": 3
+    "totalSeasons": 4
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "ACES",
+      "number": "21",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 411,
+        "hits": 195,
+        "hr": 105,
+        "rbi": 165,
+        "avg": 1090,
+        "w": 127,
+        "sv": 125,
+        "so": 147,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "ACES",
@@ -36,7 +73,7 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 332,
+        "rc": 334,
         "hits": 362,
         "hr": 6,
         "rbi": 152,

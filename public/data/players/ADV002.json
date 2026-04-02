@@ -10,9 +10,46 @@
       "冒險家",
       "永春TB"
     ],
-    "totalSeasons": 17
+    "totalSeasons": 18
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "十號馬",
+      "number": "17",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 513,
+        "hits": 121,
+        "hr": 31,
+        "rbi": 91,
+        "avg": 1090,
+        "w": 48,
+        "sv": 46,
+        "so": 68,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "十號馬",
@@ -62,15 +99,15 @@
       },
       "rankings": {
         "rc": 1110,
-        "hits": 1483,
+        "hits": 1484,
         "hr": 1004,
-        "rbi": 1442,
+        "rbi": 1444,
         "avg": 1132,
-        "w": 93,
+        "w": 94,
         "sv": 1526,
         "so": 15,
         "era": 1132,
-        "whip": 56,
+        "whip": 57,
         "fip": 68
       }
     },

@@ -1,0 +1,52 @@
+{
+  "id": "SAK001",
+  "code": "SAK001",
+  "name": "陳正軒",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNoXvLAaaW_ORjKkWDm8yNVQsaFGrwRyUKF7Bvgo6XDHgbjAp0Vo68gmBZD5kF0WPpvXGmhXjjlNNesdLGyecwxDo2zWOTYlhZ3U1CIaFr5-CJZHVF1MbOS6sjg8e7VZ_QLDHSfHL6GrfBGA7AKkeN9WQ=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "櫻砲魂"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "櫻砲魂",
+      "number": "10",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 80,
+        "hits": 56,
+        "hr": 1513,
+        "rbi": 18,
+        "avg": 57,
+        "w": 279,
+        "sv": 277,
+        "so": 299,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    }
+  ]
+}

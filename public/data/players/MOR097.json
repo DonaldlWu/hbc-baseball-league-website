@@ -8,17 +8,54 @@
     "teams": [
       "莫拉克"
     ],
-    "totalSeasons": 1
+    "totalSeasons": 2
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "莫拉克",
+      "number": "103",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 949,
+        "hits": 882,
+        "hr": 792,
+        "rbi": 852,
+        "avg": 1090,
+        "w": 911,
+        "sv": 909,
+        "so": 931,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "莫拉克",
       "number": "103",
       "batting": {
-        "games": 2,
-        "pa": 5,
-        "ab": 4,
+        "games": 3,
+        "pa": 8,
+        "ab": 6,
         "hits": 1,
         "singles": 1,
         "doubles": 0,
@@ -26,8 +63,8 @@
         "hr": 0,
         "rbi": 0,
         "runs": 1,
-        "bb": 1,
-        "so": 1,
+        "bb": 2,
+        "so": 2,
         "sb": 0,
         "sf": 0,
         "totalBases": 1
@@ -35,14 +72,14 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 518,
-        "hits": 516,
-        "hr": 1029,
-        "rbi": 1458,
+        "rc": 505,
+        "hits": 541,
+        "hr": 1104,
+        "rbi": 1497,
         "avg": 1132,
-        "w": 827,
-        "sv": 777,
-        "so": 999,
+        "w": 826,
+        "sv": 776,
+        "so": 998,
         "era": 1132,
         "whip": 1132,
         "fip": 0

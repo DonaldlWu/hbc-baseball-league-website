@@ -280,7 +280,11 @@ async function main() {
         teamName,
         stats: {
           totalPlayers: teamPlayers.length,
-          avgBattingAvg: teamPlayers.reduce((sum, p) => sum + (p.batting.hits / p.batting.ab || 0), 0) / teamPlayers.length,
+          avgBattingAvg: (() => {
+            const totalH = teamPlayers.reduce((sum, p) => sum + p.batting.hits, 0);
+            const totalAB = teamPlayers.reduce((sum, p) => sum + p.batting.ab, 0);
+            return totalAB > 0 ? totalH / totalAB : 0;
+          })(),
           totalHomeRuns: teamPlayers.reduce((sum, p) => sum + p.batting.hr, 0),
         },
         players: teamPlayers.map(p => ({

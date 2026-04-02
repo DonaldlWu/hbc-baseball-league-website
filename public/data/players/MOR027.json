@@ -9,9 +9,46 @@
       "莫拉克",
       "京盛宇"
     ],
-    "totalSeasons": 15
+    "totalSeasons": 16
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "莫拉克",
+      "number": "91",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 955,
+        "hits": 912,
+        "hr": 822,
+        "rbi": 882,
+        "avg": 1090,
+        "w": 946,
+        "sv": 944,
+        "so": 966,
+        "era": 1090,
+        "whip": 1090,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "莫拉克",
@@ -60,16 +97,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 367,
-        "hits": 342,
-        "hr": 1082,
-        "rbi": 466,
+        "rc": 372,
+        "hits": 343,
+        "hr": 1080,
+        "rbi": 465,
         "avg": 1132,
         "w": 1513,
         "sv": 1470,
-        "so": 145,
+        "so": 146,
         "era": 1132,
-        "whip": 439,
+        "whip": 438,
         "fip": 0
       }
     },
