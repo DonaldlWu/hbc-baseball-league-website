@@ -262,7 +262,9 @@ export async function loadGamesByCalendarMonth(
 
   const allGames: Array<SeasonGame & { gameNumber: string }> = [];
   for (const entry of seasonsToLoad) {
-    const data = await loadSeasonData(entry.season);
+    const data = entry.file
+      ? await loadPostseasonScheduleData(entry.season)
+      : await loadSeasonData(entry.season);
     allGames.push(...getGamesByMonth(data, calYear, calMonth));
   }
 

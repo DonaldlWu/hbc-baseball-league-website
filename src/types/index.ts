@@ -428,6 +428,7 @@ export interface SeasonIndexEntry {
   season: number;            // 賽季年度 (如 2025)
   start: string;             // 日曆起始月份 "YYYY-MM"
   end: string;               // 日曆結束月份 "YYYY-MM"
+  file?: string;             // 自訂檔名（不含副檔名），如 "2025postseason"；省略則使用 season 年份
 }
 
 // ============ 季後賽 ============
