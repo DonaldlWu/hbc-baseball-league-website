@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "lastUpdated": "2026-03-28T00:00:00Z",
+  "lastUpdated": "2026-04-09T00:00:00Z",
   "calendarRange": {
     "start": "2026-02",
     "end": "2027-02"
@@ -8,6 +8,15 @@
   "standings": {
     "source": "calculated",
     "teams": [
+      {
+        "teamId": "SAK",
+        "teamName": "櫻砲魂",
+        "wins": 2,
+        "losses": 1,
+        "draws": 0,
+        "runsScored": 9.667,
+        "runsAllowed": 11.0
+      },
       {
         "teamId": "ROO",
         "teamName": "Line Drive",
@@ -63,15 +72,6 @@
         "runsAllowed": 12.5
       },
       {
-        "teamId": "SAK",
-        "teamName": "櫻砲魂",
-        "wins": 1,
-        "losses": 1,
-        "draws": 0,
-        "runsScored": 6.5,
-        "runsAllowed": 12.5
-      },
-      {
         "teamId": "DHW",
         "teamName": "DH戰將",
         "wins": 0,
@@ -88,6 +88,15 @@
         "draws": 0,
         "runsScored": 8.0,
         "runsAllowed": 11.0
+      },
+      {
+        "teamId": "NTH",
+        "teamName": "台大醫學院棒",
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "runsScored": 8.0,
+        "runsAllowed": 16.0
       },
       {
         "teamId": "NTE",
@@ -117,15 +126,6 @@
         "runsAllowed": 8.0
       },
       {
-        "teamId": "YCT",
-        "teamName": "永春TB",
-        "wins": 0,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 0.0,
-        "runsAllowed": 0.0
-      },
-      {
         "teamId": "ACE",
         "teamName": "ACES",
         "wins": 0,
@@ -144,17 +144,8 @@
         "runsAllowed": 0.0
       },
       {
-        "teamId": "NTM",
-        "teamName": "政大Mechanics",
-        "wins": 0,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 0.0,
-        "runsAllowed": 0.0
-      },
-      {
-        "teamId": "YAN",
-        "teamName": "陽明OB",
+        "teamId": "EAG",
+        "teamName": "火把老鷹",
         "wins": 0,
         "losses": 0,
         "draws": 0,
@@ -171,8 +162,8 @@
         "runsAllowed": 0.0
       },
       {
-        "teamId": "SWD",
-        "teamName": "甜心暴龍",
+        "teamId": "NTM",
+        "teamName": "政大Mechanics",
         "wins": 0,
         "losses": 0,
         "draws": 0,
@@ -180,17 +171,8 @@
         "runsAllowed": 0.0
       },
       {
-        "teamId": "SHU",
-        "teamName": "世新超乙組",
-        "wins": 0,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 0.0,
-        "runsAllowed": 0.0
-      },
-      {
-        "teamId": "SCO",
-        "teamName": "實踐OB",
+        "teamId": "YCT",
+        "teamName": "永春TB",
         "wins": 0,
         "losses": 0,
         "draws": 0,
@@ -207,8 +189,8 @@
         "runsAllowed": 0.0
       },
       {
-        "teamId": "EAG",
-        "teamName": "火把老鷹",
+        "teamId": "SCO",
+        "teamName": "實踐OB",
         "wins": 0,
         "losses": 0,
         "draws": 0,
@@ -216,8 +198,26 @@
         "runsAllowed": 0.0
       },
       {
-        "teamId": "NTH",
-        "teamName": "台大醫學院棒",
+        "teamId": "SWD",
+        "teamName": "甜心暴龍",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 0.0,
+        "runsAllowed": 0.0
+      },
+      {
+        "teamId": "YAN",
+        "teamName": "陽明OB",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 0.0,
+        "runsAllowed": 0.0
+      },
+      {
+        "teamId": "SHU",
+        "teamName": "世新超乙組",
         "wins": 0,
         "losses": 0,
         "draws": 0,
@@ -366,6 +366,19 @@
       "awayScore": 12,
       "sheetId": "19CyIFrQuI5t_ciLkAsQ1mUPZJpHXJC7Q1zpTyYWwqvo",
       "note": "2026新球季"
+    },
+    "2026191": {
+      "date": "2026-04-05",
+      "homeTeam": "櫻砲魂",
+      "awayTeam": "台大醫學院棒",
+      "venue": "中正A",
+      "timeSlot": "中午",
+      "startTime": "11:00",
+      "endTime": "14:00",
+      "status": "finished",
+      "homeScore": 16,
+      "awayScore": 8,
+      "sheetId": "1A0rDSrosx5tAgjqmjse7Ps4Ni7_2UKGcG9CNOlogxTE"
     }
   }
 }
