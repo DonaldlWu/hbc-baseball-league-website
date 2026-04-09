@@ -8,7 +8,7 @@ import { ScheduleCalendar } from "@/src/components/ScheduleCalendar";
 import type { LeagueStandings, SeasonIndexEntry } from "@/src/types";
 
 export default function Home() {
-  const [selectedYear, setSelectedYear] = useState(2025);
+  const [selectedYear, setSelectedYear] = useState(2026);
   const [availableSeasons, setAvailableSeasons] = useState<SeasonIndexEntry[]>([]);
   const [standings, setStandings] = useState<LeagueStandings | null>(null);
   const [standingsLoading, setStandingsLoading] = useState(true);

@@ -36,7 +36,7 @@ export interface UseTeamsListReturn {
  * ```
  */
 export function useTeamsList(initialYear?: number): UseTeamsListReturn {
-  const [year, setYearState] = useState(initialYear || 2025);
+  const [year, setYearState] = useState(initialYear || 2026);
   const [teams, setTeams] = useState<TeamSummary[]>([]);
   const [availableYears, setAvailableYears] = useState<number[]>([]);
   const [loading, setLoading] = useState(true);

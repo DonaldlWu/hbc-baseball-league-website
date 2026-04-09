@@ -7,7 +7,7 @@ import type { TeamSummary } from '@/src/types';
 
 export default function TeamsPage() {
   const router = useRouter();
-  const { year, teams, availableYears, loading, error, setYear } = useTeamsList(2025);
+  const { year, teams, availableYears, loading, error, setYear } = useTeamsList(2026);
 
   if (loading && teams.length === 0) {
     return (
