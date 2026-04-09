@@ -14,13 +14,14 @@ interface TeamRowProps {
   teamName: string;
   seed: number;
   isWinner: boolean;
-  isPending: boolean;
+  isTeamPending: boolean;
   variant: 'light' | 'dark';
   seriesWins?: number;
 }
 
-function TeamRow({ teamId, teamName, seed, isWinner, isPending, variant, seriesWins }: TeamRowProps) {
+function TeamRow({ teamId, teamName, seed, isWinner, isTeamPending, variant, seriesWins }: TeamRowProps) {
   const isDark = variant === 'dark';
+  const isPending = isTeamPending;
 
   const containerClasses = isDark
     ? 'flex items-center gap-2.5 px-3 py-2 border-b border-slate-700 last:border-b-0'
@@ -65,7 +66,7 @@ function TeamRow({ teamId, teamName, seed, isWinner, isPending, variant, seriesW
       <span className={nameClasses}>
         {isPending ? '待定' : teamName}
       </span>
-      {isWinner && !isPending && (
+      {isWinner && !isPending && seriesWins === undefined && (
         <span className={badgeClasses}>勝</span>
       )}
     </div>
@@ -73,7 +74,10 @@ function TeamRow({ teamId, teamName, seed, isWinner, isPending, variant, seriesW
 }
 
 export default function MatchupCard({ matchup, variant = 'dark' }: MatchupCardProps) {
-  const isPending = matchup.status === 'pending';
+  // 以各隊的 teamId 判斷是否待定，讓已確定的隊伍能正常顯示（即使對手仍待定）
+  const team1IsPending = matchup.team1.teamId === 'TBD';
+  const team2IsPending = matchup.team2.teamId === 'TBD';
+  const isPending = team1IsPending && team2IsPending;
   const isDark = variant === 'dark';
 
   const cardClasses = isDark
@@ -120,7 +124,7 @@ export default function MatchupCard({ matchup, variant = 'dark' }: MatchupCardPr
         teamName={matchup.team1.teamName}
         seed={matchup.seed1}
         isWinner={matchup.winner === 'team1'}
-        isPending={isPending}
+        isTeamPending={team1IsPending}
         variant={variant}
         seriesWins={team1Wins}
       />
@@ -129,7 +133,7 @@ export default function MatchupCard({ matchup, variant = 'dark' }: MatchupCardPr
         teamName={matchup.team2.teamName}
         seed={matchup.seed2}
         isWinner={matchup.winner === 'team2'}
-        isPending={isPending}
+        isTeamPending={team2IsPending}
         variant={variant}
         seriesWins={team2Wins}
       />

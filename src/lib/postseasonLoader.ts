@@ -226,8 +226,14 @@ export async function loadPostseasonData(year: number): Promise<PostseasonData> 
 
       const enrichedGames = matchup.games.map((g) => {
         const sched = g.gameNumber ? scheduleMap.get(g.gameNumber) : undefined;
+        const computedWinner = (!g.winner && sched)
+          ? calcGameWinner(sched, team1.teamName, team2.teamName)
+          : g.winner;
         return {
           ...g,
+          winner: computedWinner,
+          homeScore: sched?.homeScore ?? g.homeScore,
+          awayScore: sched?.awayScore ?? g.awayScore,
           date: sched?.date ?? null,
           venue: sched?.venue ?? null,
           startTime: sched?.startTime ?? null,
@@ -236,7 +242,7 @@ export async function loadPostseasonData(year: number): Promise<PostseasonData> 
 
       const requiredWins = Math.ceil(round.bestOf / 2);
       const { winner, status } = calcMatchupResult(
-        matchup.games,
+        enrichedGames,
         scheduleMap,
         team1.teamName,
         team2.teamName,
