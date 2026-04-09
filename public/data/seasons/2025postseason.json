@@ -1,6 +1,6 @@
 {
   "season": 2025,
-  "lastUpdated": "2026-04-02T00:00:00Z",
+  "lastUpdated": "2026-04-09T00:00:00Z",
   "calendarRange": {
     "start": "2026-04",
     "end": "2026-06"
@@ -18,7 +18,7 @@
       "timeSlot": "上午",
       "startTime": "08:00",
       "endTime": "11:00",
-      "status": "scheduled",
+      "status": "rain",
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
@@ -31,7 +31,7 @@
       "timeSlot": "中午",
       "startTime": "11:00",
       "endTime": "14:00",
-      "status": "scheduled",
+      "status": "rain",
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
@@ -44,9 +44,9 @@
       "timeSlot": "下午",
       "startTime": "14:00",
       "endTime": "17:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 12,
       "sheetId": ""
     },
     "20250512G1": {
@@ -57,7 +57,7 @@
       "timeSlot": "上午",
       "startTime": "08:00",
       "endTime": "11:00",
-      "status": "scheduled",
+      "status": "rain",
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
@@ -70,7 +70,7 @@
       "timeSlot": "中午",
       "startTime": "11:00",
       "endTime": "14:00",
-      "status": "scheduled",
+      "status": "rain",
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
@@ -83,7 +83,7 @@
       "timeSlot": "下午",
       "startTime": "14:00",
       "endTime": "17:00",
-      "status": "scheduled",
+      "status": "rain",
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
@@ -96,7 +96,7 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "scheduled",
+      "status": "rain",
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
@@ -109,7 +109,7 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "scheduled",
+      "status": "rain",
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
