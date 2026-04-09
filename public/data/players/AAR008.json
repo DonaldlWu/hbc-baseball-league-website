@@ -1,0 +1,52 @@
+{
+  "id": "AAR008",
+  "code": "AAR008",
+  "name": "王紹安",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNOME3odbwSFPUqgEYTFor16Zc_jZtbUFOcLio9oWdeHMZc1EpbBPMRWrum6vifSB4yhcZbdg334c6w0URJePS6Di9H9P-CiOTGG4tqPul5DZHrRmMOAfrlOM7kJpqQ6gHcLDEGcgtJmFxD_sDpX5EIFw=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "Aaron Prosecutor"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "Aaron Prosecutor",
+      "number": "39",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 135,
+        "hits": 205,
+        "hr": 106,
+        "rbi": 172,
+        "avg": 1084,
+        "w": 128,
+        "sv": 126,
+        "so": 150,
+        "era": 1084,
+        "whip": 1084,
+        "fip": 0
+      }
+    }
+  ]
+}

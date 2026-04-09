@@ -16,7 +16,7 @@
     {
       "year": 2026,
       "team": "Aaron Prosecutor",
-      "number": "99",
+      "number": "104",
       "batting": {
         "games": 1,
         "pa": 0,
@@ -54,23 +54,23 @@
       "pitchingCalculated": {
         "era": 4.5,
         "whip": 3.5,
-        "fip": 5.200001643,
+        "fip": 5.200001633,
         "kPer9": 4.5,
         "bbPer9": 9,
         "hPer9": 22.5,
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 120,
-        "hits": 161,
-        "hr": 71,
-        "rbi": 131,
-        "avg": 1090,
-        "w": 1596,
+        "rc": 133,
+        "hits": 192,
+        "hr": 93,
+        "rbi": 159,
+        "avg": 1084,
+        "w": 1595,
         "sv": 3,
-        "so": 25,
-        "era": 1090,
-        "whip": 24,
+        "so": 27,
+        "era": 1084,
+        "whip": 25,
         "fip": 24
       }
     },
