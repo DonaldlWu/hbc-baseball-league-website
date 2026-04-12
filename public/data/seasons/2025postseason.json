@@ -1,6 +1,6 @@
 {
   "season": 2025,
-  "lastUpdated": "2026-04-09T00:00:00Z",
+  "lastUpdated": "2026-04-12T00:00:00Z",
   "calendarRange": {
     "start": "2026-04",
     "end": "2026-06"
@@ -18,10 +18,13 @@
       "timeSlot": "上午",
       "startTime": "08:00",
       "endTime": "11:00",
-      "status": "rain",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 14,
+      "sheetId": "",
+      "rescheduledDates": [
+        { "date": "2026-04-11", "venue": "中正A", "timeSlot": "中午", "startTime": "11:00", "endTime": "14:00" }
+      ]
     },
     "20250215G1": {
       "date": "2026-04-04",
@@ -31,10 +34,13 @@
       "timeSlot": "中午",
       "startTime": "11:00",
       "endTime": "14:00",
-      "status": "rain",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 10,
+      "awayScore": 17,
+      "sheetId": "",
+      "rescheduledDates": [
+        { "date": "2026-04-11", "venue": "中正A", "timeSlot": "下午", "startTime": "14:00", "endTime": "17:00" }
+      ]
     },
     "20250116G1": {
       "date": "2026-04-05",
