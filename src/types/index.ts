@@ -188,6 +188,7 @@ export interface TeamRecordRaw {
   draws: number;            // 和局
   runsAllowed: number;      // 均失（平均失分）
   runsScored: number;       // 均得（平均得分）
+  tiebreakRank?: number;    // 手動並列排名（資料不完整時使用，數字越小排名越前）
 }
 
 // 連勝/連敗/連平類型

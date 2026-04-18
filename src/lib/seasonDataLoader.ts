@@ -140,7 +140,10 @@ export async function loadStandingsFromSeason(year: number): Promise<LeagueStand
   const data = await loadSeasonData(year);
   const streaks = calculateStreaks(data.games);
   const specialTags = calculateSpecialTags(data.games);
-  const teamsWithStats = calculateStandings(data.standings.teams, streaks, specialTags);
+  // 人工排名賽季（source: 'manual'）不傳 games，依 tiebreakRank 解決並列
+  // 其他賽季傳入 games，自動依對戰成績解決並列
+  const gamesForTiebreak = data.standings.source !== 'manual' ? data.games : undefined;
+  const teamsWithStats = calculateStandings(data.standings.teams, streaks, specialTags, gamesForTiebreak);
 
   return {
     year: data.season,

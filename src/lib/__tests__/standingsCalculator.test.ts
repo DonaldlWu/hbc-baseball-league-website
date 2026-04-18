@@ -209,6 +209,117 @@ describe('standingsCalculator', () => {
       const phoenix = result.find((t) => t.teamId === 'PHE');
       expect(phoenix?.specialTag).toBeUndefined();
     });
+
+    describe('並列排名處理', () => {
+      const makeTiedTeam = (id: string, name: string, extra: Partial<TeamRecordRaw> = {}): TeamRecordRaw => ({
+        teamId: id,
+        teamName: name,
+        wins: 12,
+        losses: 7,
+        draws: 1, // 37分, winRate 12/19
+        runsAllowed: 6.0,
+        runsScored: 9.0,
+        ...extra,
+      });
+
+      it('提供 games 時：對戰成績勝利方排在前面', () => {
+        const teams = [
+          makeTiedTeam('A', 'Team A'),
+          makeTiedTeam('B', 'Team B'),
+        ];
+        const games: Record<string, SeasonGame> = {
+          g1: makeGame({ homeTeam: 'Team A', awayTeam: 'Team B', date: '2026-01-01', status: 'finished', homeScore: 5, awayScore: 3 }),
+        };
+
+        const result = calculateStandings(teams, undefined, undefined, games);
+
+        expect(result[0].teamId).toBe('A'); // 對戰勝利
+        expect(result[1].teamId).toBe('B');
+      });
+
+      it('提供 games 且對戰積分相同時：對戰失分少的排前面', () => {
+        const teams = [
+          makeTiedTeam('A', 'Team A', { runsAllowed: 6.0 }),
+          makeTiedTeam('B', 'Team B', { runsAllowed: 5.0 }),
+        ];
+        const games: Record<string, SeasonGame> = {
+          // A vs B: 7:7 平手
+          g1: makeGame({ homeTeam: 'Team A', awayTeam: 'Team B', date: '2026-01-01', status: 'finished', homeScore: 7, awayScore: 7 }),
+        };
+
+        const result = calculateStandings(teams, undefined, undefined, games);
+
+        // 對戰平手 → 比整體均失（B: 5.0 < A: 6.0，B 排前）
+        expect(result[0].teamId).toBe('B');
+        expect(result[1].teamId).toBe('A');
+      });
+
+      it('提供 games：三隊並列時依對戰積分排序', () => {
+        const teams = [
+          makeTiedTeam('MUZ', '木柵OB', { runsAllowed: 6.8 }),
+          makeTiedTeam('YAN', '陽明OB', { runsAllowed: 6.2 }),
+          makeTiedTeam('ACE', 'ACES', { runsAllowed: 7.7 }),
+        ];
+        const games: Record<string, SeasonGame> = {
+          // 木柵OB beat 陽明OB
+          g1: makeGame({ homeTeam: '木柵OB', awayTeam: '陽明OB', date: '2026-01-01', status: 'finished', homeScore: 10, awayScore: 7 }),
+          // 木柵OB beat ACES
+          g2: makeGame({ homeTeam: '木柵OB', awayTeam: 'ACES', date: '2026-01-08', status: 'finished', homeScore: 10, awayScore: 8 }),
+          // 陽明OB vs ACES: draw
+          g3: makeGame({ homeTeam: '陽明OB', awayTeam: 'ACES', date: '2026-01-15', status: 'finished', homeScore: 7, awayScore: 7 }),
+        };
+
+        const result = calculateStandings(teams, undefined, undefined, games);
+
+        // 木柵OB: 2 wins (6pts H2H), 陽明OB: 0 wins 1 draw (1pt H2H), ACES: 0 wins 1 draw (1pt H2H)
+        // 陽明OB vs ACES: both 1 H2H pt; 陽明OB H2H allowed = 7+7=14, ACES H2H allowed = 7+8=15
+        // 所以排名: 木柵OB > 陽明OB > ACES
+        expect(result[0].teamId).toBe('MUZ');
+        expect(result[1].teamId).toBe('YAN');
+        expect(result[2].teamId).toBe('ACE');
+      });
+
+      it('未提供 games 且有 tiebreakRank 時：依 tiebreakRank 排序', () => {
+        const teams = [
+          makeTiedTeam('ACE', 'ACES', { tiebreakRank: 8 }),
+          makeTiedTeam('YAN', '陽明OB', { tiebreakRank: 7 }),
+          makeTiedTeam('MUZ', '木柵OB', { tiebreakRank: 6 }),
+        ];
+
+        const result = calculateStandings(teams); // 不傳 games
+
+        expect(result[0].teamId).toBe('MUZ'); // tiebreakRank: 6
+        expect(result[1].teamId).toBe('YAN'); // tiebreakRank: 7
+        expect(result[2].teamId).toBe('ACE'); // tiebreakRank: 8
+      });
+
+      it('未提供 games 且無 tiebreakRank 時：維持輸入順序（stable sort）', () => {
+        const teams = [
+          makeTiedTeam('B', 'Team B'),
+          makeTiedTeam('A', 'Team A'),
+        ];
+
+        const result = calculateStandings(teams);
+
+        expect(result[0].teamId).toBe('B'); // 輸入順序保留
+        expect(result[1].teamId).toBe('A');
+      });
+
+      it('非並列隊伍不受對戰排名影響', () => {
+        const teams = [
+          { teamId: 'TOP', teamName: 'Top Team', wins: 16, losses: 3, draws: 1, runsAllowed: 4.0, runsScored: 14.0 },
+          makeTiedTeam('A', 'Team A'),
+          makeTiedTeam('B', 'Team B', { tiebreakRank: 2 }),
+        ];
+        teams[1].tiebreakRank = 1; // explicitly set
+
+        const result = calculateStandings(teams);
+
+        expect(result[0].teamId).toBe('TOP'); // 49分，絕對領先
+        expect(result[1].teamId).toBe('A');   // tiebreakRank: 1
+        expect(result[2].teamId).toBe('B');   // tiebreakRank: 2
+      });
+    });
   });
 });
 

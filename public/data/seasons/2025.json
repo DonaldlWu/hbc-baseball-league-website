@@ -54,13 +54,14 @@
         "runsScored": 11.1
       },
       {
-        "teamId": "ACE",
-        "teamName": "ACES",
+        "teamId": "MUZ",
+        "teamName": "木柵OB",
         "wins": 12,
         "losses": 7,
         "draws": 1,
-        "runsAllowed": 7.7,
-        "runsScored": 12.0
+        "runsAllowed": 6.8,
+        "runsScored": 9.4,
+        "tiebreakRank": 6
       },
       {
         "teamId": "YAN",
@@ -69,16 +70,18 @@
         "losses": 7,
         "draws": 1,
         "runsAllowed": 6.2,
-        "runsScored": 10.7
+        "runsScored": 10.7,
+        "tiebreakRank": 7
       },
       {
-        "teamId": "MUZ",
-        "teamName": "木柵OB",
+        "teamId": "ACE",
+        "teamName": "ACES",
         "wins": 12,
         "losses": 7,
         "draws": 1,
-        "runsAllowed": 6.8,
-        "runsScored": 9.4
+        "runsAllowed": 7.7,
+        "runsScored": 12.0,
+        "tiebreakRank": 8
       },
       {
         "teamId": "NTM",
@@ -117,22 +120,24 @@
         "runsScored": 7.35
       },
       {
-        "teamId": "MOR",
-        "teamName": "莫拉克",
-        "wins": 10,
-        "losses": 10,
-        "draws": 0,
-        "runsAllowed": 8.25,
-        "runsScored": 7.9
-      },
-      {
         "teamId": "SCO",
         "teamName": "實踐OB",
         "wins": 10,
         "losses": 10,
         "draws": 0,
         "runsAllowed": 7.95,
-        "runsScored": 7.5
+        "runsScored": 7.5,
+        "tiebreakRank": 13
+      },
+      {
+        "teamId": "MOR",
+        "teamName": "莫拉克",
+        "wins": 10,
+        "losses": 10,
+        "draws": 0,
+        "runsAllowed": 8.25,
+        "runsScored": 7.9,
+        "tiebreakRank": 14
       },
       {
         "teamId": "NTE",
@@ -189,22 +194,24 @@
         "runsScored": 5.2
       },
       {
-        "teamId": "GEO",
-        "teamName": "十號馬",
-        "wins": 2,
-        "losses": 18,
-        "draws": 0,
-        "runsAllowed": 15.1,
-        "runsScored": 5.65
-      },
-      {
         "teamId": "NTH",
         "teamName": "台大醫學院棒",
         "wins": 2,
         "losses": 18,
         "draws": 0,
         "runsAllowed": 13.35,
-        "runsScored": 5.2
+        "runsScored": 5.2,
+        "tiebreakRank": 21
+      },
+      {
+        "teamId": "GEO",
+        "teamName": "十號馬",
+        "wins": 2,
+        "losses": 18,
+        "draws": 0,
+        "runsAllowed": 15.1,
+        "runsScored": 5.65,
+        "tiebreakRank": 22
       }
     ]
   },

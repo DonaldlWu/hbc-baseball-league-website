@@ -52,24 +52,37 @@ export function calculateGamesBehind(
   return (leader.wins - team.wins + team.losses - leader.losses) / 2;
 }
 
+// 中間計算型別
+type TeamWithStats = TeamRecordRaw & {
+  gamesPlayed: number;
+  points: number;
+  winRate: number;
+  gamesBehind: number | null;
+  streak: TeamStreak | undefined;
+  specialTag: string | undefined;
+};
+
 /**
  * 計算並排序所有球隊的戰績
  * @param teams 原始球隊資料
  * @param streaks 各隊近況（選填）
  * @param specialTags 各隊特殊標籤（選填）
+ * @param games 賽季比賽資料（選填）- 提供時自動依對戰成績處理並列，適用於資料完整的賽季；
+ *             未提供時依 tiebreakRank 欄位處理並列，適用於人工排名的賽季
  * @returns 計算後並依積分排序的球隊資料
  */
 export function calculateStandings(
   teams: TeamRecordRaw[],
   streaks?: TeamStreak[],
-  specialTags?: Map<string, string>
+  specialTags?: Map<string, string>,
+  games?: Record<string, SeasonGame>
 ): TeamRecord[] {
   const streakByName = new Map<string, TeamStreak>(
     (streaks ?? []).map((s) => [s.teamName, s])
   );
 
   // 計算每隊的積分和勝率
-  const teamsWithStats = teams.map((team) => ({
+  const teamsWithStats: TeamWithStats[] = teams.map((team) => ({
     ...team,
     gamesPlayed: team.wins + team.losses + team.draws,
     points: calculatePoints(team.wins, team.draws),
@@ -79,13 +92,20 @@ export function calculateStandings(
     specialTag: specialTags?.get(team.teamName),
   }));
 
-  // 依積分排序（積分相同則依勝率）
+  // 依積分排序（積分相同則依勝率；仍相同時 stable sort 保留輸入順序）
   teamsWithStats.sort((a, b) => {
-    if (b.points !== a.points) {
-      return b.points - a.points;
-    }
+    if (b.points !== a.points) return b.points - a.points;
     return b.winRate - a.winRate;
   });
+
+  // 處理並列排名
+  if (games !== undefined) {
+    // 有賽事資料：自動依對戰成績排名（適用於 2026+ 資料完整的賽季）
+    resolveGroupTiesWithGames(teamsWithStats, games);
+  } else {
+    // 無賽事資料：依 tiebreakRank 處理並列（適用於 2025 人工排名）
+    resolveGroupTiesWithTiebreakRank(teamsWithStats);
+  }
 
   // 計算勝差並更新排名
   const leader = teamsWithStats[0];
@@ -100,6 +120,107 @@ export function calculateStandings(
             { wins: team.wins, losses: team.losses }
           ),
   }));
+}
+
+/**
+ * 取得某隊在並列群組內的對戰成績（積分 + 失分）
+ */
+function getHeadToHeadStats(
+  teamName: string,
+  groupNames: Set<string>,
+  games: Record<string, SeasonGame>
+): { points: number; runsAllowed: number } {
+  let points = 0;
+  let runsAllowed = 0;
+
+  for (const game of Object.values(games)) {
+    if (
+      game.status !== 'finished' ||
+      game.homeScore === null ||
+      game.awayScore === null
+    ) continue;
+    if (!groupNames.has(game.homeTeam) || !groupNames.has(game.awayTeam)) continue;
+    if (game.homeTeam !== teamName && game.awayTeam !== teamName) continue;
+
+    const isHome = game.homeTeam === teamName;
+    const scored = isHome ? game.homeScore : game.awayScore;
+    const allowed = isHome ? game.awayScore : game.homeScore;
+
+    runsAllowed += allowed;
+    if (scored > allowed) points += 3;
+    else if (scored === allowed) points += 1;
+  }
+
+  return { points, runsAllowed };
+}
+
+/**
+ * 對積分+勝率相同的並列群組，依對戰成績重新排序
+ * 排序優先序：對戰積分 → 對戰失分（少的優先）→ 整體均失（少的優先）
+ */
+function resolveGroupTiesWithGames(
+  sorted: TeamWithStats[],
+  games: Record<string, SeasonGame>
+): void {
+  let i = 0;
+  while (i < sorted.length) {
+    let j = i + 1;
+    while (
+      j < sorted.length &&
+      sorted[j].points === sorted[i].points &&
+      sorted[j].winRate === sorted[i].winRate
+    ) {
+      j++;
+    }
+
+    if (j > i + 1) {
+      const group = sorted.slice(i, j);
+      const groupNames = new Set(group.map((t) => t.teamName));
+      const h2hMap = new Map(
+        group.map((t) => [t.teamName, getHeadToHeadStats(t.teamName, groupNames, games)])
+      );
+
+      group.sort((a, b) => {
+        const ah2h = h2hMap.get(a.teamName)!;
+        const bh2h = h2hMap.get(b.teamName)!;
+        if (bh2h.points !== ah2h.points) return bh2h.points - ah2h.points;
+        if (ah2h.runsAllowed !== bh2h.runsAllowed) return ah2h.runsAllowed - bh2h.runsAllowed;
+        return a.runsAllowed - b.runsAllowed;
+      });
+
+      sorted.splice(i, j - i, ...group);
+    }
+
+    i = j;
+  }
+}
+
+/**
+ * 對積分+勝率相同的並列群組，依 tiebreakRank 重新排序
+ * 只有群組內所有成員都設有 tiebreakRank 才排序，否則維持穩定排序的原始順序
+ */
+function resolveGroupTiesWithTiebreakRank(sorted: TeamWithStats[]): void {
+  let i = 0;
+  while (i < sorted.length) {
+    let j = i + 1;
+    while (
+      j < sorted.length &&
+      sorted[j].points === sorted[i].points &&
+      sorted[j].winRate === sorted[i].winRate
+    ) {
+      j++;
+    }
+
+    if (j > i + 1) {
+      const group = sorted.slice(i, j);
+      if (group.every((t) => t.tiebreakRank !== undefined)) {
+        group.sort((a, b) => (a.tiebreakRank ?? 999) - (b.tiebreakRank ?? 999));
+        sorted.splice(i, j - i, ...group);
+      }
+    }
+
+    i = j;
+  }
 }
 
 /**
