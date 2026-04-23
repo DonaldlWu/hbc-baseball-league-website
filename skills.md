@@ -2,6 +2,24 @@
 
 本專案提供以下 Claude Code slash commands，用於常見的資料更新作業。
 
+另外也提供對應的 Codex skills 版本，放在 `.codex/skills/`：
+
+- `$hbc-add-game`
+- `$hbc-update-game`
+- `$hbc-update-player-data`
+- `$hbc-update-standings`
+
+在 Codex 中可直接用這類提示：
+
+```text
+使用 $hbc-add-game，依照以下公告新增賽程
+使用 $hbc-update-game，根據以下週報更新比賽結果
+使用 $hbc-update-player-data，從 data/raw/2026-02-07.csv 更新球員資料
+使用 $hbc-update-standings，重算 2026 賽季戰績
+```
+
+> `.claude/commands/` 保留作為原始 Claude command 規格；`.codex/skills/` 是轉換後的 Codex skill 定義。
+
 ---
 
 ## 資料更新指令

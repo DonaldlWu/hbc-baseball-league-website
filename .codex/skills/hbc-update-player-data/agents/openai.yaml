@@ -1,0 +1,7 @@
+interface:
+  display_name: "HBC Update Player Data"
+  short_description: "從 CSV 轉換球員統計資料"
+  default_prompt: "Use $hbc-update-player-data to refresh player data from this CSV path or date input."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "HBC Update Game"
+  short_description: "更新比分、戰報與延賽資訊"
+  default_prompt: "Use $hbc-update-game to parse this report or update the specified game in season JSON data."
+
+policy:
+  allow_implicit_invocation: true

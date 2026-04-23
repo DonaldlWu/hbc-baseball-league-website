@@ -1,0 +1,7 @@
+interface:
+  display_name: "HBC Update Standings"
+  short_description: "更新賽季戰績排行資料"
+  default_prompt: "Use $hbc-update-standings to refresh the standings for this season."
+
+policy:
+  allow_implicit_invocation: true
