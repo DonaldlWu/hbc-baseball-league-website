@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "lastUpdated": "2026-04-09T00:00:00Z",
+  "lastUpdated": "2026-04-23T00:00:00Z",
   "calendarRange": {
     "start": "2026-02",
     "end": "2027-02"
@@ -9,13 +9,13 @@
     "source": "calculated",
     "teams": [
       {
-        "teamId": "SAK",
-        "teamName": "櫻砲魂",
+        "teamId": "ARP",
+        "teamName": "Aaron Prosecutor",
         "wins": 2,
         "losses": 1,
         "draws": 0,
-        "runsScored": 9.667,
-        "runsAllowed": 11.0
+        "runsScored": 9.333,
+        "runsAllowed": 4.667
       },
       {
         "teamId": "ROO",
@@ -25,6 +25,15 @@
         "draws": 0,
         "runsScored": 8.0,
         "runsAllowed": 5.0
+      },
+      {
+        "teamId": "SAK",
+        "teamName": "櫻砲魂",
+        "wins": 2,
+        "losses": 2,
+        "draws": 0,
+        "runsScored": 7.5,
+        "runsAllowed": 10.25
       },
       {
         "teamId": "PHE",
@@ -45,22 +54,13 @@
         "runsAllowed": 1.0
       },
       {
-        "teamId": "HOL",
-        "teamName": "HOLYBAT",
+        "teamId": "EAG",
+        "teamName": "火把老鷹",
         "wins": 1,
         "losses": 0,
         "draws": 0,
-        "runsScored": 11.0,
-        "runsAllowed": 10.0
-      },
-      {
-        "teamId": "ARP",
-        "teamName": "Aaron Prosecutor",
-        "wins": 1,
-        "losses": 1,
-        "draws": 0,
-        "runsScored": 9.0,
-        "runsAllowed": 5.0
+        "runsScored": 8.0,
+        "runsAllowed": 1.0
       },
       {
         "teamId": "GEO",
@@ -70,6 +70,15 @@
         "draws": 0,
         "runsScored": 7.5,
         "runsAllowed": 12.5
+      },
+      {
+        "teamId": "HOL",
+        "teamName": "HOLYBAT",
+        "wins": 1,
+        "losses": 1,
+        "draws": 0,
+        "runsScored": 7.5,
+        "runsAllowed": 10.0
       },
       {
         "teamId": "DHW",
@@ -124,105 +133,6 @@
         "draws": 0,
         "runsScored": 4.0,
         "runsAllowed": 8.0
-      },
-      {
-        "teamId": "ACE",
-        "teamName": "ACES",
-        "wins": 0,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 0.0,
-        "runsAllowed": 0.0
-      },
-      {
-        "teamId": "HUA",
-        "teamName": "華江OB",
-        "wins": 0,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 0.0,
-        "runsAllowed": 0.0
-      },
-      {
-        "teamId": "EAG",
-        "teamName": "火把老鷹",
-        "wins": 0,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 0.0,
-        "runsAllowed": 0.0
-      },
-      {
-        "teamId": "MUZ",
-        "teamName": "木柵OB",
-        "wins": 0,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 0.0,
-        "runsAllowed": 0.0
-      },
-      {
-        "teamId": "NTM",
-        "teamName": "政大Mechanics",
-        "wins": 0,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 0.0,
-        "runsAllowed": 0.0
-      },
-      {
-        "teamId": "YCT",
-        "teamName": "永春TB",
-        "wins": 0,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 0.0,
-        "runsAllowed": 0.0
-      },
-      {
-        "teamId": "MOR",
-        "teamName": "莫拉克",
-        "wins": 0,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 0.0,
-        "runsAllowed": 0.0
-      },
-      {
-        "teamId": "SCO",
-        "teamName": "實踐OB",
-        "wins": 0,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 0.0,
-        "runsAllowed": 0.0
-      },
-      {
-        "teamId": "SWD",
-        "teamName": "甜心暴龍",
-        "wins": 0,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 0.0,
-        "runsAllowed": 0.0
-      },
-      {
-        "teamId": "YAN",
-        "teamName": "陽明OB",
-        "wins": 0,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 0.0,
-        "runsAllowed": 0.0
-      },
-      {
-        "teamId": "SHU",
-        "teamName": "世新超乙組",
-        "wins": 0,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 0.0,
-        "runsAllowed": 0.0
       }
     ]
   },
@@ -379,6 +289,32 @@
       "homeScore": 16,
       "awayScore": 8,
       "sheetId": "1A0rDSrosx5tAgjqmjse7Ps4Ni7_2UKGcG9CNOlogxTE"
+    },
+    "2026098": {
+      "date": "2026-04-18",
+      "homeTeam": "Aaron Prosecutor",
+      "awayTeam": "HOLYBAT",
+      "venue": "三鶯B",
+      "timeSlot": "中午",
+      "startTime": "12:00",
+      "endTime": "14:30",
+      "status": "finished",
+      "homeScore": 10,
+      "awayScore": 4,
+      "sheetId": "1CjBKV9zPB1J5ehy4cTQKO_sbGGhaNhXKz0Av7Lq3XKw"
+    },
+    "2026209": {
+      "date": "2026-04-18",
+      "homeTeam": "火把老鷹",
+      "awayTeam": "櫻砲魂",
+      "venue": "三鶯B",
+      "timeSlot": "下午",
+      "startTime": "14:30",
+      "endTime": "17:00",
+      "status": "finished",
+      "homeScore": 8,
+      "awayScore": 1,
+      "sheetId": "1d5CpauzSOXWZK7VwLHcXEVyQ7sje1ZmzPAlg8_1NraM"
     }
   }
 }
