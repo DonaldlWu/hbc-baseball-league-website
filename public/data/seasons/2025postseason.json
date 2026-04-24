@@ -1,6 +1,6 @@
 {
   "season": 2025,
-  "lastUpdated": "2026-04-23T00:00:00Z",
+  "lastUpdated": "2026-04-24T00:00:00Z",
   "calendarRange": {
     "start": "2026-04",
     "end": "2026-06"
@@ -111,7 +111,10 @@
       "status": "rain",
       "homeScore": null,
       "awayScore": null,
-      "sheetId": ""
+      "sheetId": "",
+      "rescheduledDates": [
+        { "date": "2026-05-02", "venue": "中正A", "timeSlot": "中午", "startTime": "12:00", "endTime": "14:30" }
+      ]
     },
     "20250611G1": {
       "date": "2026-04-06",
@@ -122,6 +125,45 @@
       "startTime": "12:00",
       "endTime": "14:30",
       "status": "rain",
+      "homeScore": null,
+      "awayScore": null,
+      "sheetId": ""
+    },
+    "20250405G1": {
+      "date": "2026-05-01",
+      "homeTeam": "楚奧特",
+      "awayTeam": "飛尼克斯",
+      "venue": "中正A",
+      "timeSlot": "下午",
+      "startTime": "14:00",
+      "endTime": "17:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null,
+      "sheetId": ""
+    },
+    "20250306G1": {
+      "date": "2026-05-02",
+      "homeTeam": "木柵OB",
+      "awayTeam": "華江OB",
+      "venue": "中正A",
+      "timeSlot": "上午",
+      "startTime": "08:00",
+      "endTime": "11:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null,
+      "sheetId": ""
+    },
+    "20250809G2": {
+      "date": "2026-05-02",
+      "homeTeam": "ACES",
+      "awayTeam": "政大Mechanics",
+      "venue": "中正A",
+      "timeSlot": "下午",
+      "startTime": "14:30",
+      "endTime": "17:00",
+      "status": "scheduled",
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
