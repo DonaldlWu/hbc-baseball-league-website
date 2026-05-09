@@ -54,7 +54,7 @@
         "runsAllowed": 10.6
       },
       {
-        "teamId": "永春T",
+        "teamId": "YCT",
         "teamName": "永春TB",
         "wins": 1,
         "losses": 0,
@@ -90,7 +90,7 @@
         "runsAllowed": 1.0
       },
       {
-        "teamId": "華江O",
+        "teamId": "HUA",
         "teamName": "華江OB",
         "wins": 1,
         "losses": 0,
@@ -108,7 +108,7 @@
         "runsAllowed": 11.667
       },
       {
-        "teamId": "莫拉克",
+        "teamId": "MOR",
         "teamName": "莫拉克",
         "wins": 0,
         "losses": 0,
@@ -419,19 +419,6 @@
       "awayScore": 12,
       "sheetId": "1IYh9TP35llvq8lzQzlWsnXXhKON7InLtVtrDNmLz_9s"
     },
-    "2026002": {
-      "date": "2026-05-02",
-      "homeTeam": "DH戰將",
-      "awayTeam": "實踐OB",
-      "venue": "三鶯B",
-      "timeSlot": "中午",
-      "startTime": "10:30",
-      "endTime": "13:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
-    },
     "2026089": {
       "date": "2026-05-09",
       "homeTeam": "Aaron Prosecutor",
@@ -503,8 +490,8 @@
       "awayTeam": "DH戰將",
       "venue": "三鶯B",
       "timeSlot": "中午",
-      "startTime": "13:00",
-      "endTime": "15:30",
+      "startTime": "10:30",
+      "endTime": "13:00",
       "status": "finished",
       "homeScore": 10,
       "awayScore": 7,
@@ -516,8 +503,8 @@
       "awayTeam": "華江OB",
       "venue": "三鶯B",
       "timeSlot": "下午",
-      "startTime": "15:30",
-      "endTime": "18:00",
+      "startTime": "13:00",
+      "endTime": "15:30",
       "status": "finished",
       "homeScore": 0,
       "awayScore": 7,
