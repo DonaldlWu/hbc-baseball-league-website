@@ -89,6 +89,16 @@ https://docs.google.com/spreadsheets/d/1Xy8-e0YJfO89HgbmmeK-JMlArs0x8-hCjDPifLCK
 - `runsScored` = 總得分 ÷ 已賽場數（三位小數）
 - `runsAllowed` = 總失分 ÷ 已賽場數（三位小數）
 - teamId 優先從現有 `standings.teams` 比對 teamName 取得；無對應則以 teamName 前三字元
+
+**套用 adjustments（若存在）：**
+
+原始計算完成後，讀取 `standings.adjustments`（若欄位存在且非空）：
+- 對每個 adjustment entry，在計算結果中找到 `teamName` 對應球隊
+- 若不存在則建立（wins/losses/draws/runsScored/runsAllowed 均為 0）
+- 套用 `delta.wins / delta.losses / delta.draws`（僅套用有提供的欄位）
+- ⚠️ 套用後 wins/losses/draws 不得為負數，若為負則強制設為 0
+- `standings.adjustments` 欄位本身**不修改**，原封不動保留在 JSON 中
+
 - 依積分（勝×3 + 和×1）排序，同積分依 runsScored 降序
 
 若 `standings.source === "manual"` 或 `"partial"`，不自動重算，保留原有數據不動。
@@ -165,7 +175,7 @@ chore: 更新 N 場比賽結果 (YYYY-MM-DD 週報)
 ### Step 3：更新並驗證
 
 1. 編輯 `public/data/seasons/YYYY.json`
-2. 若 `standings.source === "calculated"` 且 status 改為 `finished`：從所有已完賽比賽重算並替換 `standings.teams`（邏輯同批量模式）
+2. 若 `standings.source === "calculated"` 且 status 改為 `finished`：從所有已完賽比賽重算並替換 `standings.teams`，並套用 `standings.adjustments`（邏輯同批量模式）
 3. 更新頂層 `lastUpdated`
 4. 驗證 JSON 格式
 

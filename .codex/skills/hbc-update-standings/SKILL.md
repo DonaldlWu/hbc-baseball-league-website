@@ -32,6 +32,16 @@ Use this skill when the user wants to refresh `public/data/seasons/YYYY.json` st
   - `runsAllowed` as average runs allowed, three decimals
 - Reuse `teamId` from existing `standings.teams` when `teamName` matches
 - Otherwise derive a fallback `teamId` from the team name
+
+**Apply adjustments (if present):**
+
+After raw calculation, read `standings.adjustments` (if the field exists and is non-empty):
+- For each adjustment entry, find the team with matching `teamName` in the calculated results
+- If not found, create a new entry with wins/losses/draws/runsScored/runsAllowed all set to 0
+- Apply `delta.wins / delta.losses / delta.draws` (only fields present in delta)
+- wins/losses/draws must not go negative after applying delta; clamp to 0
+- The `standings.adjustments` array itself is **never modified**; preserve it as-is
+
 - Replace `standings.teams` completely
 - Set `standings.source` to `"calculated"`
 

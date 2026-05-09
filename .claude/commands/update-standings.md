@@ -96,7 +96,12 @@ standings.source 將設為 "calculated"。
 
 1. 編輯 `public/data/seasons/YYYY.json`：
    - 更新 `standings.teams` 陣列
-     - 自動計算：完整替換整個 teams 陣列
+     - 自動計算：完整替換整個 teams 陣列；替換前套用 `standings.adjustments`（若存在且非空）：
+       - 對每個 adjustment entry，找到 `teamName` 對應球隊
+       - 若不存在則建立（wins/losses/draws/runsScored/runsAllowed 均為 0）
+       - 套用 `delta.wins / delta.losses / delta.draws`（僅套用有提供的欄位）
+       - ⚠️ 套用後 wins/losses/draws 不得為負數，若為負則強制設為 0
+       - `standings.adjustments` 欄位本身**不修改**，原封不動保留
      - 手動：只更新使用者指定的球隊，其餘保留不動
    - 更新 `standings.source`
      - 自動計算 → `"calculated"`

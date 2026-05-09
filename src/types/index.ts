@@ -406,10 +406,23 @@ export interface SeasonGame {
 // 戰績來源類型
 export type StandingsSource = 'manual' | 'partial' | 'calculated';
 
+// 戰績特殊調整（用於非對稱判決，如計分錯誤後聯盟特殊判定）
+export interface StandingsAdjustment {
+  gameNumber: string;   // 觸發此調整的場次號碼（用於追溯）
+  teamName: string;     // 受調整的球隊名稱
+  reason: string;       // 說明（中文，供人類閱讀）
+  delta: {
+    wins?: number;      // 正數=加、負數=減
+    losses?: number;
+    draws?: number;
+  };
+}
+
 // 統一賽季戰績資料
 export interface SeasonStandings {
   source: StandingsSource;   // 資料來源
   teams: TeamRecordRaw[];    // 球隊戰績列表
+  adjustments?: StandingsAdjustment[];  // 特殊調整（永久保留，每次重算後套用）
 }
 
 // 統一賽季資料（單一檔案包含所有賽季相關資訊）
