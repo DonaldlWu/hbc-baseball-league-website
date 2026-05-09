@@ -1,6 +1,6 @@
 {
   "season": 2025,
-  "lastUpdated": "2026-04-24T00:00:00Z",
+  "lastUpdated": "2026-05-09T00:00:00Z",
   "calendarRange": {
     "start": "2026-04",
     "end": "2026-06"
@@ -23,7 +23,13 @@
       "awayScore": 14,
       "sheetId": "",
       "rescheduledDates": [
-        { "date": "2026-04-11", "venue": "中正A", "timeSlot": "中午", "startTime": "11:00", "endTime": "14:00" }
+        {
+          "date": "2026-04-11",
+          "venue": "中正A",
+          "timeSlot": "中午",
+          "startTime": "11:00",
+          "endTime": "14:00"
+        }
       ]
     },
     "20250215G1": {
@@ -39,7 +45,13 @@
       "awayScore": 17,
       "sheetId": "",
       "rescheduledDates": [
-        { "date": "2026-04-11", "venue": "中正A", "timeSlot": "下午", "startTime": "14:00", "endTime": "17:00" }
+        {
+          "date": "2026-04-11",
+          "venue": "中正A",
+          "timeSlot": "下午",
+          "startTime": "14:00",
+          "endTime": "17:00"
+        }
       ]
     },
     "20250116G1": {
@@ -68,7 +80,13 @@
       "awayScore": 6,
       "sheetId": "",
       "rescheduledDates": [
-        { "date": "2026-04-18", "venue": "中正A", "timeSlot": "中午", "startTime": "12:00", "endTime": "14:30" }
+        {
+          "date": "2026-04-18",
+          "venue": "中正A",
+          "timeSlot": "中午",
+          "startTime": "12:00",
+          "endTime": "14:30"
+        }
       ]
     },
     "20250809G1": {
@@ -84,7 +102,13 @@
       "awayScore": 6,
       "sheetId": "",
       "rescheduledDates": [
-        { "date": "2026-04-18", "venue": "中正A", "timeSlot": "下午", "startTime": "14:30", "endTime": "17:00" }
+        {
+          "date": "2026-04-18",
+          "venue": "中正A",
+          "timeSlot": "下午",
+          "startTime": "14:30",
+          "endTime": "17:00"
+        }
       ]
     },
     "20250413G1": {
@@ -95,10 +119,15 @@
       "timeSlot": "下午",
       "startTime": "14:00",
       "endTime": "17:00",
-      "status": "rain",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 6,
+      "awayScore": 5,
+      "sheetId": "",
+      "rescheduledDates": [
+        {
+          "date": "2026-05-01"
+        }
+      ]
     },
     "20250710G1": {
       "date": "2026-04-06",
@@ -108,12 +137,18 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "rain",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 8,
+      "awayScore": 6,
       "sheetId": "",
       "rescheduledDates": [
-        { "date": "2026-05-02", "venue": "中正A", "timeSlot": "中午", "startTime": "12:00", "endTime": "14:30" }
+        {
+          "date": "2026-05-02",
+          "venue": "中正A",
+          "timeSlot": "中午",
+          "startTime": "12:00",
+          "endTime": "14:30"
+        }
       ]
     },
     "20250611G1": {
@@ -124,10 +159,15 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "rain",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 12,
+      "sheetId": "",
+      "rescheduledDates": [
+        {
+          "date": "2026-05-02"
+        }
+      ]
     },
     "20250809G2": {
       "date": "2026-05-02",
@@ -137,9 +177,9 @@
       "timeSlot": "下午",
       "startTime": "14:30",
       "endTime": "17:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 12,
+      "awayScore": 14,
       "sheetId": ""
     }
   }
