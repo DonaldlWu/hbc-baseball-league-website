@@ -27,6 +27,15 @@
         "runsAllowed": 4.25
       },
       {
+        "teamId": "TRO",
+        "teamName": "楚奧特",
+        "wins": 2,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 14.0,
+        "runsAllowed": 4.0
+      },
+      {
         "teamId": "GEO",
         "teamName": "十號馬",
         "wins": 2,
@@ -45,24 +54,6 @@
         "runsAllowed": 10.6
       },
       {
-        "teamId": "PHE",
-        "teamName": "飛尼克斯",
-        "wins": 1,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 21.0,
-        "runsAllowed": 7.0
-      },
-      {
-        "teamId": "TRO",
-        "teamName": "楚奧特",
-        "wins": 1,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 18.0,
-        "runsAllowed": 1.0
-      },
-      {
         "teamId": "永春T",
         "teamName": "永春TB",
         "wins": 1,
@@ -70,6 +61,15 @@
         "draws": 0,
         "runsScored": 15.0,
         "runsAllowed": 1.0
+      },
+      {
+        "teamId": "PHE",
+        "teamName": "飛尼克斯",
+        "wins": 1,
+        "losses": 1,
+        "draws": 0,
+        "runsScored": 10.5,
+        "runsAllowed": 7.0
       },
       {
         "teamId": "MIR",
@@ -90,6 +90,15 @@
         "runsAllowed": 1.0
       },
       {
+        "teamId": "華江O",
+        "teamName": "華江OB",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 7.0,
+        "runsAllowed": 0.0
+      },
+      {
         "teamId": "HOL",
         "teamName": "HOLYBAT",
         "wins": 1,
@@ -108,15 +117,6 @@
         "runsAllowed": 8.0
       },
       {
-        "teamId": "DHW",
-        "teamName": "DH戰將",
-        "wins": 0,
-        "losses": 1,
-        "draws": 0,
-        "runsScored": 10.0,
-        "runsAllowed": 11.0
-      },
-      {
         "teamId": "NTE",
         "teamName": "台大經濟OB",
         "wins": 0,
@@ -124,6 +124,15 @@
         "draws": 0,
         "runsScored": 10.0,
         "runsAllowed": 13.0
+      },
+      {
+        "teamId": "DHW",
+        "teamName": "DH戰將",
+        "wins": 0,
+        "losses": 2,
+        "draws": 0,
+        "runsScored": 8.5,
+        "runsAllowed": 10.5
       },
       {
         "teamId": "REV",
@@ -487,6 +496,32 @@
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
+    },
+    "2026204": {
+      "date": "2026-05-02",
+      "homeTeam": "楚奧特",
+      "awayTeam": "DH戰將",
+      "venue": "三鶯B",
+      "timeSlot": "中午",
+      "startTime": "13:00",
+      "endTime": "15:30",
+      "status": "finished",
+      "homeScore": 10,
+      "awayScore": 7,
+      "sheetId": "1gHhcNA19u92OxTwoX0YooStqd8YuFBOXRSjMC-SReH0"
+    },
+    "2026016": {
+      "date": "2026-05-02",
+      "homeTeam": "飛尼克斯",
+      "awayTeam": "華江OB",
+      "venue": "三鶯B",
+      "timeSlot": "下午",
+      "startTime": "15:30",
+      "endTime": "18:00",
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 7,
+      "sheetId": "1UmI7NcViNRsoCc7ZrNiAijFoEFwEgq6KXGr28YJtZG4"
     }
   }
 }
