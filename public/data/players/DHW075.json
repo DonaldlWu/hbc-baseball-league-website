@@ -1,0 +1,52 @@
+{
+  "id": "DHW075",
+  "code": "DHW075",
+  "name": "黃士綸",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMBzgPsyZ8eIVnc74APCrmzly7Q_gNM5ORF4iuNFyAw0fe7j4FsF-Y26abmQDgYVMjxsfG88vjW32Tk1S5EomtFt0L9LgHopLcejGqKF0JVXrl5mx_7rl2pubZuAi7_yXgxnf9ZAt_b7ZEukZSH1sMb=w886-h911",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "DH戰將",
+      "number": "30",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 286,
+        "hits": 936,
+        "hr": 766,
+        "rbi": 887,
+        "avg": 1085,
+        "w": 960,
+        "sv": 953,
+        "so": 1000,
+        "era": 1085,
+        "whip": 1085,
+        "fip": 0
+      }
+    }
+  ]
+}

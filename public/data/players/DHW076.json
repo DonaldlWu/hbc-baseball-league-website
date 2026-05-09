@@ -1,0 +1,52 @@
+{
+  "id": "DHW076",
+  "code": "DHW076",
+  "name": "李孟桓",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOwr-Ur2CuQhIIYT7LdVHoNSw51xetnvQ9JGXbbnW5e3pWfrIZG_h3Cukd9FWJajD0yfjSWMFzZ5hRnDPlzc-EyDN8jPi3TLgvw-MT0xmsZnKvbxV2TvaPx4Dl5CBKR-N-acfsv9j-4jeyBU_01IqfU=w1215-h911",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "DH戰將",
+      "number": "40",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 283,
+        "hits": 919,
+        "hr": 749,
+        "rbi": 870,
+        "avg": 1085,
+        "w": 938,
+        "sv": 931,
+        "so": 978,
+        "era": 1085,
+        "whip": 1085,
+        "fip": 0
+      }
+    }
+  ]
+}

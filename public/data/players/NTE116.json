@@ -16,7 +16,7 @@
       "team": "台大經濟OB",
       "number": "102",
       "batting": {
-        "games": 1,
+        "games": 2,
         "pa": 3,
         "ab": 2,
         "hits": 1,
@@ -32,20 +32,44 @@
         "sf": 0,
         "totalBases": 1
       },
-      "pitching": null,
-      "pitchingCalculated": null,
+      "pitching": {
+        "games": 1,
+        "ip": 1.666666667,
+        "bf": 12,
+        "so": 1,
+        "bb": 5,
+        "h": 2,
+        "hr": 0,
+        "r": 5,
+        "er": 4,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 21.599999995679998,
+        "whip": 4.19999999916,
+        "fip": 11.00000072,
+        "kPer9": 5.399999998919999,
+        "bbPer9": 26.9999999946,
+        "hPer9": 10.799999997839999,
+        "csPercentage": 0
+      },
       "rankings": {
-        "rc": 66,
-        "hits": 70,
-        "hr": 1477,
-        "rbi": 1542,
-        "avg": 44,
-        "w": 456,
-        "sv": 452,
-        "so": 481,
-        "era": 1086,
-        "whip": 1086,
-        "fip": 0
+        "rc": 105,
+        "hits": 104,
+        "hr": 1412,
+        "rbi": 1521,
+        "avg": 1085,
+        "w": 1579,
+        "sv": 1572,
+        "so": 53,
+        "era": 1085,
+        "whip": 49,
+        "fip": 60
       }
     },
     {

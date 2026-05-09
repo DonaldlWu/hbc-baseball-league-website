@@ -17,7 +17,7 @@
       "team": "莫拉克",
       "number": "7",
       "batting": {
-        "games": 0,
+        "games": 1,
         "pa": 0,
         "ab": 0,
         "hits": 0,
@@ -33,20 +33,44 @@
         "sf": 0,
         "totalBases": 0
       },
-      "pitching": null,
-      "pitchingCalculated": null,
+      "pitching": {
+        "games": 1,
+        "ip": 2,
+        "bf": 13,
+        "so": 0,
+        "bb": 2,
+        "h": 7,
+        "hr": 0,
+        "r": 4,
+        "er": 3,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 13.5,
+        "whip": 4.5,
+        "fip": 6.200000146,
+        "kPer9": 0,
+        "bbPer9": 9,
+        "hPer9": 31.5,
+        "csPercentage": 0
+      },
       "rankings": {
         "rc": 961,
-        "hits": 988,
-        "hr": 873,
-        "rbi": 948,
-        "avg": 1086,
-        "w": 1031,
-        "sv": 1027,
-        "so": 1056,
-        "era": 1086,
-        "whip": 1086,
-        "fip": 0
+        "hits": 975,
+        "hr": 805,
+        "rbi": 926,
+        "avg": 1085,
+        "w": 1590,
+        "sv": 1579,
+        "so": 1608,
+        "era": 1085,
+        "whip": 50,
+        "fip": 45
       }
     },
     {

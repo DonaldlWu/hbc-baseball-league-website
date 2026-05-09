@@ -16,7 +16,7 @@
       "team": "楚奧特",
       "number": "54",
       "batting": {
-        "games": 0,
+        "games": 1,
         "pa": 0,
         "ab": 0,
         "hits": 0,
@@ -32,20 +32,44 @@
         "sf": 0,
         "totalBases": 0
       },
-      "pitching": null,
-      "pitchingCalculated": null,
+      "pitching": {
+        "games": 1,
+        "ip": 6,
+        "bf": 30,
+        "so": 4,
+        "bb": 2,
+        "h": 8,
+        "hr": 0,
+        "r": 3,
+        "er": 1,
+        "w": 1,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 1.5,
+        "whip": 1.6666666666666667,
+        "fip": 2.866667532,
+        "kPer9": 6,
+        "bbPer9": 3,
+        "hPer9": 12,
+        "csPercentage": 0
+      },
       "rankings": {
-        "rc": 548,
-        "hits": 364,
-        "hr": 249,
-        "rbi": 324,
-        "avg": 1086,
-        "w": 311,
-        "sv": 307,
-        "so": 336,
-        "era": 1086,
-        "whip": 1086,
-        "fip": 0
+        "rc": 592,
+        "hits": 421,
+        "hr": 251,
+        "rbi": 372,
+        "avg": 1085,
+        "w": 12,
+        "sv": 1602,
+        "so": 24,
+        "era": 1085,
+        "whip": 17,
+        "fip": 21
       }
     },
     {

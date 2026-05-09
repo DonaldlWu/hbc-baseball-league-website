@@ -1,0 +1,76 @@
+{
+  "id": "DHW078",
+  "code": "DHW078",
+  "name": "簡子淂",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMnQpdnLTXV7yBZ508n2NcGc-G0OfCxhu-8i_zx6K7ZTwx87nq-Hk3Q18tZNMC2Xm-Xu2AoTkE2g1_P2FEdct2zsJIuWUtVWvLpjP4VbLsjlnqwmVupW0_klSUaZSqp5scqR6sWGaSL9W_ljFhF6ho1=w531-h691",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "DH戰將",
+      "number": "95",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 1,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 2,
+        "bf": 10,
+        "so": 3,
+        "bb": 2,
+        "h": 2,
+        "hr": 0,
+        "r": 0,
+        "er": 0,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 0,
+        "whip": 2,
+        "fip": 3.200001501,
+        "kPer9": 13.5,
+        "bbPer9": 9,
+        "hPer9": 9,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 204,
+        "hits": 1577,
+        "hr": 1457,
+        "rbi": 1548,
+        "avg": 174,
+        "w": 1585,
+        "sv": 1576,
+        "so": 28,
+        "era": 1085,
+        "whip": 26,
+        "fip": 28
+      }
+    }
+  ]
+}

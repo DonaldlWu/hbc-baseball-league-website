@@ -1,0 +1,52 @@
+{
+  "id": "DHW077",
+  "code": "DHW077",
+  "name": "瞿開聰",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOaKLqDaYckRWQ-eJUVgZnw4gkFdkqxhermV0NwSC6QhP78azGMhbfOIMlTKMA_2pgKWmDuxSzUFI2xcGgTtw8IcUs1s05A8yQiwF3-02mK1F09I_AvVNbhbLN3eu1Bxgco7laREaD2EJ7DV82GcUNW=w683-h911",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "DH戰將",
+      "number": "43",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1076,
+        "hits": 1584,
+        "hr": 1478,
+        "rbi": 93,
+        "avg": 163,
+        "w": 929,
+        "sv": 922,
+        "so": 969,
+        "era": 1085,
+        "whip": 1085,
+        "fip": 0
+      }
+    }
+  ]
+}

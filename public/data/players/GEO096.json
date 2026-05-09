@@ -16,9 +16,9 @@
       "team": "十號馬",
       "number": "28",
       "batting": {
-        "games": 1,
-        "pa": 1,
-        "ab": 1,
+        "games": 2,
+        "pa": 5,
+        "ab": 2,
         "hits": 1,
         "singles": 0,
         "doubles": 0,
@@ -26,7 +26,7 @@
         "hr": 0,
         "rbi": 0,
         "runs": 0,
-        "bb": 0,
+        "bb": 3,
         "so": 0,
         "sb": 0,
         "sf": 0,
@@ -59,17 +59,17 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 34,
-        "hits": 56,
-        "hr": 1423,
-        "rbi": 1495,
-        "avg": 1086,
-        "w": 7,
-        "sv": 1601,
-        "so": 4,
-        "era": 1086,
-        "whip": 25,
-        "fip": 20
+        "rc": 27,
+        "hits": 146,
+        "hr": 1502,
+        "rbi": 1577,
+        "avg": 41,
+        "w": 9,
+        "sv": 1596,
+        "so": 6,
+        "era": 1085,
+        "whip": 33,
+        "fip": 31
       }
     },
     {

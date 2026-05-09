@@ -2,15 +2,77 @@
   "id": "GEO099",
   "code": "GEO099",
   "name": "陳麒鈞",
-  "photo": "https://lh3.googleusercontent.com/pw/AL9nZEUceZ756yuQt_mp21O1S7iHgDvxumulY0pmIMQ0nH0X8fdl3qe0prhg2T_zhd6nLtBfpce0gT1B56EccWiD2S4ULE1E9MXhR_m0fLvDMKVwRIS12DdtiDjKNW3xyLZhTZ67eoDJBnAR4lcswnX4XuwX_Q=w310-h335-no",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczP0WorKwzcK-Iw3RGBcbdR3O_xiiNYmmd6j1JOa5uvQ-iphdQhCe6aFgw16UznDhA59DVA6u_-PhjnkrUCAIdiQCGwxpH09SXzPdWcDsrSkvSxCd8A6o_QtpPA-8FXir1-qe0VDcHTgWIxXW-nJ8uUZcg=w548-h827-s-no-gm?authuser=0",
   "career": {
     "debut": 2022,
     "teams": [
+      "楚奧特",
       "十號馬"
     ],
-    "totalSeasons": 5
+    "totalSeasons": 6
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "楚奧特",
+      "number": "79",
+      "batting": {
+        "games": 1,
+        "pa": 5,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 2,
+        "bf": 7,
+        "so": 5,
+        "bb": 1,
+        "h": 1,
+        "hr": 0,
+        "r": 0,
+        "er": 0,
+        "w": 0,
+        "l": 0,
+        "sv": 1,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 0,
+        "whip": 1,
+        "fip": null,
+        "kPer9": 22.5,
+        "bbPer9": 4.5,
+        "hPer9": 4.5,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 194,
+        "hits": 157,
+        "hr": 1526,
+        "rbi": 48,
+        "avg": 128,
+        "w": 1582,
+        "sv": 3,
+        "so": 14,
+        "era": 1085,
+        "whip": 5,
+        "fip": 1
+      }
+    },
     {
       "year": 2026,
       "team": "十號馬",
@@ -35,16 +97,16 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 510,
-        "hits": 125,
-        "hr": 10,
-        "rbi": 85,
-        "avg": 1086,
-        "w": 18,
-        "sv": 14,
-        "so": 43,
-        "era": 1086,
-        "whip": 1086,
+        "rc": 548,
+        "hits": 182,
+        "hr": 12,
+        "rbi": 133,
+        "avg": 1085,
+        "w": 25,
+        "sv": 18,
+        "so": 65,
+        "era": 1085,
+        "whip": 1085,
         "fip": 0
       }
     },

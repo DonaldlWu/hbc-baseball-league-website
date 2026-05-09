@@ -2,15 +2,52 @@
   "id": "YCT135",
   "code": "YCT135",
   "name": "莊柏嵩",
-  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOBK61meQcU6ESMGEFyPdtPxdKoFz04B3fblPaOnOewEWmXgFkJXkuwxIj3f7iBOfJ_Dx0JL4O4arADE5yTxTbPMn3L_7NfAL382-5mwWsqpL4Nk_YNhfvVu1Ha9A0hrdELPbsyO6tFdJJ9cBCjoYzj=w310-h335-no",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMnBAsNnvQqxgXMnVJ2x7fJsvuzk_HwHlNyX_Z838c68azGlLi9KCswXDabVdLRcz7bRk1V8p5UUqN-lmfnCQ8rpdpPGVGCXj9HOe9W-aB8rhovumYSlWM4ZU9wlWjZtIDrOjuYs2ONxGNXAVbOd0k3=w310-h335-no",
   "career": {
     "debut": 2024,
     "teams": [
       "永春TB"
     ],
-    "totalSeasons": 2
+    "totalSeasons": 3
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "永春TB",
+      "number": "95",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 608,
+        "hits": 437,
+        "hr": 267,
+        "rbi": 388,
+        "avg": 1085,
+        "w": 351,
+        "sv": 344,
+        "so": 391,
+        "era": 1085,
+        "whip": 1085,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "永春TB",
