@@ -703,4 +703,162 @@ describe('loadPostseasonData dynamic winner calculation', () => {
       expect(stub.team2.teamId).toBe('TBD');
     });
   });
+
+  it('top4-w1 matchups 為空時，應從已完成的 r8 schedule games 自動生成四強勝部第一輪', async () => {
+    const rawWithCompletedR16: PostseasonDataRaw = {
+      season: 2025,
+      lastUpdated: '2026-04-01T00:00:00Z',
+      rounds: [
+        {
+          roundId: 'r16', name: '16強', phase: 'phase1', bestOf: 3, homeAdvantage: true,
+          matchups: [
+            {
+              matchupId: 'r16-a', seed1: 1, seed2: 8,
+              games: [
+                { gameSeq: 1, byeGame: true, winner: 'team1', homeScore: null, awayScore: null, gameNumber: null },
+                { gameSeq: 2, byeGame: false, winner: 'team1', homeScore: 8, awayScore: 1, gameNumber: 'G1' },
+              ],
+              winner: 'team1',
+              status: 'completed',
+            },
+            {
+              matchupId: 'r16-b', seed1: 2, seed2: 7,
+              games: [
+                { gameSeq: 1, byeGame: true, winner: 'team1', homeScore: null, awayScore: null, gameNumber: null },
+                { gameSeq: 2, byeGame: false, winner: 'team1', homeScore: 7, awayScore: 2, gameNumber: 'G2' },
+              ],
+              winner: 'team1',
+              status: 'completed',
+            },
+            {
+              matchupId: 'r16-c', seed1: 3, seed2: 6,
+              games: [
+                { gameSeq: 1, byeGame: true, winner: 'team1', homeScore: null, awayScore: null, gameNumber: null },
+                { gameSeq: 2, byeGame: false, winner: 'team1', homeScore: 6, awayScore: 3, gameNumber: 'G3' },
+              ],
+              winner: 'team1',
+              status: 'completed',
+            },
+            {
+              matchupId: 'r16-d', seed1: 4, seed2: 5,
+              games: [{ gameSeq: 1, byeGame: false, winner: null, homeScore: null, awayScore: null, gameNumber: null }],
+              winner: null,
+              status: 'pending',
+            },
+          ],
+        },
+        {
+          roundId: 'r8', name: '8強', phase: 'phase1', bestOf: 3, homeAdvantage: true,
+          matchups: [],
+        },
+        {
+          roundId: 'top4-w1', name: '四強勝部第一輪', phase: 'phase2', bracket: 'winners',
+          bestOf: 1, homeAdvantage: false, matchups: [],
+        },
+      ],
+    };
+
+    const seasonData: SeasonData = {
+      season: 2025,
+      lastUpdated: '2026-04-01T00:00:00Z',
+      standings: {
+        source: 'manual',
+        teams: [
+          { teamId: 'TEAM1', teamName: 'Team One', wins: 10, losses: 0, draws: 0, runsScored: 50, runsAllowed: 10 },
+          { teamId: 'TEAM2', teamName: 'Team Two', wins: 9, losses: 1, draws: 0, runsScored: 45, runsAllowed: 15 },
+          { teamId: 'TEAM3', teamName: 'Team Three', wins: 8, losses: 2, draws: 0, runsScored: 40, runsAllowed: 20 },
+          { teamId: 'TEAM4', teamName: 'Team Four', wins: 7, losses: 3, draws: 0, runsScored: 35, runsAllowed: 25 },
+          { teamId: 'TEAM5', teamName: 'Team Five', wins: 6, losses: 4, draws: 0, runsScored: 30, runsAllowed: 30 },
+          { teamId: 'TEAM6', teamName: 'Team Six', wins: 5, losses: 5, draws: 0, runsScored: 25, runsAllowed: 35 },
+          { teamId: 'TEAM7', teamName: 'Team Seven', wins: 4, losses: 6, draws: 0, runsScored: 20, runsAllowed: 40 },
+          { teamId: 'TEAM8', teamName: 'Team Eight', wins: 3, losses: 7, draws: 0, runsScored: 15, runsAllowed: 45 },
+        ],
+      },
+      games: {},
+    };
+
+    const scheduleData: SeasonData = {
+      season: 2025,
+      lastUpdated: '2026-04-01T00:00:00Z',
+      standings: { source: 'manual', teams: [] },
+      games: {
+        G1: {
+          date: '2026-04-01',
+          homeTeam: 'Team Eight',
+          awayTeam: 'Team One',
+          venue: '中正A',
+          timeSlot: '上午',
+          startTime: '08:00',
+          endTime: '11:00',
+          status: 'finished',
+          homeScore: 1,
+          awayScore: 8,
+          sheetId: '',
+        },
+        G2: {
+          date: '2026-04-01',
+          homeTeam: 'Team Seven',
+          awayTeam: 'Team Two',
+          venue: '中正A',
+          timeSlot: '中午',
+          startTime: '11:00',
+          endTime: '14:00',
+          status: 'finished',
+          homeScore: 2,
+          awayScore: 7,
+          sheetId: '',
+        },
+        G3: {
+          date: '2026-04-01',
+          homeTeam: 'Team Six',
+          awayTeam: 'Team Three',
+          venue: '中正A',
+          timeSlot: '下午',
+          startTime: '14:00',
+          endTime: '17:00',
+          status: 'finished',
+          homeScore: 3,
+          awayScore: 6,
+          sheetId: '',
+        },
+        R8_GAME: {
+          date: '2026-05-09',
+          homeTeam: 'Team Two',
+          awayTeam: 'Team One',
+          venue: '中正A',
+          timeSlot: '下午',
+          startTime: '14:00',
+          endTime: '16:30',
+          status: 'finished',
+          homeScore: 3,
+          awayScore: 4,
+          sheetId: '',
+        },
+      },
+    };
+
+    global.fetch = jest.fn((url: string) => {
+      if (url.includes('/data/postseason/')) {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve(rawWithCompletedR16) } as Response);
+      }
+      if (url.includes('postseason.json')) {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve(scheduleData) } as Response);
+      }
+      if (url.includes('/data/seasons/')) {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve(seasonData) } as Response);
+      }
+      return Promise.reject(new Error(`Unexpected URL: ${url}`));
+    }) as jest.Mock;
+
+    const data = await loadPostseasonData(2025);
+    const r8 = data.rounds.find(r => r.roundId === 'r8')!;
+    const top4w1 = data.rounds.find(r => r.roundId === 'top4-w1')!;
+
+    expect(r8.matchups[0].games).toHaveLength(2);
+    expect(r8.matchups[0].winner).toBe('team1');
+    expect(top4w1.matchups).toHaveLength(1);
+    expect(top4w1.matchups[0].matchupId).toBe('top4-w1-gen-0');
+    expect(top4w1.matchups[0].team1.teamId).toBe('TEAM1');
+    expect(top4w1.matchups[0].team2.teamId).toBe('TBD');
+  });
 });
