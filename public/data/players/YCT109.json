@@ -2,52 +2,15 @@
   "id": "YCT109",
   "code": "YCT109",
   "name": "廖曜倫",
-  "photo": "https://lh3.googleusercontent.com/pw/ACtC-3fLooLiHT7Z-sZ8kViztpPtLWTOUxArjziqstSH1EwINumLZGV05Rjc54MpKc9xDTZFt_BA2K_O6aMeFRvfaCsHnM46NaVtGgqvs3SNO0LzwTZCD6ymr1w194NepWc9w_Obkwiu23Yy006OlBdGUN5J=w310-h335-no",
+  "photo": "",
   "career": {
     "debut": 2021,
     "teams": [
       "永春TB"
     ],
-    "totalSeasons": 6
+    "totalSeasons": 5
   },
   "seasons": [
-    {
-      "year": 2026,
-      "team": "永春TB",
-      "number": "40",
-      "batting": {
-        "games": 0,
-        "pa": 0,
-        "ab": 0,
-        "hits": 0,
-        "singles": 0,
-        "doubles": 0,
-        "triples": 0,
-        "hr": 0,
-        "rbi": 0,
-        "runs": 0,
-        "bb": 0,
-        "so": 0,
-        "sb": 0,
-        "sf": 0,
-        "totalBases": 0
-      },
-      "pitching": null,
-      "pitchingCalculated": null,
-      "rankings": {
-        "rc": 623,
-        "hits": 452,
-        "hr": 282,
-        "rbi": 403,
-        "avg": 1085,
-        "w": 366,
-        "sv": 359,
-        "so": 406,
-        "era": 1085,
-        "whip": 1085,
-        "fip": 0
-      }
-    },
     {
       "year": 2025,
       "team": "永春TB",

@@ -15,7 +15,7 @@
     {
       "year": 2026,
       "team": "ACES",
-      "number": "23",
+      "number": "999",
       "batting": {
         "games": 0,
         "pa": 0,
@@ -36,16 +36,16 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 470,
-        "hits": 284,
-        "hr": 114,
-        "rbi": 235,
-        "avg": 1085,
-        "w": 145,
-        "sv": 138,
-        "so": 185,
-        "era": 1085,
-        "whip": 1085,
+        "rc": 441,
+        "hits": 224,
+        "hr": 47,
+        "rbi": 178,
+        "avg": 1083,
+        "w": 75,
+        "sv": 66,
+        "so": 119,
+        "era": 1083,
+        "whip": 1083,
         "fip": 0
       }
     },

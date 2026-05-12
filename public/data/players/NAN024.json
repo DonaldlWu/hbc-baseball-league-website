@@ -7,11 +7,12 @@
     "debut": 2012,
     "teams": [
       "Line Drive",
+      "ACES",
       "ROOKIES",
       "Synergy",
       "南港高工OB"
     ],
-    "totalSeasons": 12
+    "totalSeasons": 13
   },
   "seasons": [
     {
@@ -38,16 +39,53 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 887,
+        "rc": 883,
         "hits": 674,
-        "hr": 504,
-        "rbi": 625,
-        "avg": 1085,
-        "w": 637,
-        "sv": 630,
-        "so": 677,
-        "era": 1085,
-        "whip": 1085,
+        "hr": 497,
+        "rbi": 628,
+        "avg": 1083,
+        "w": 629,
+        "sv": 620,
+        "so": 673,
+        "era": 1083,
+        "whip": 1083,
+        "fip": 0
+      }
+    },
+    {
+      "year": 2026,
+      "team": "ACES",
+      "number": "23",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 475,
+        "hits": 293,
+        "hr": 116,
+        "rbi": 247,
+        "avg": 1083,
+        "w": 147,
+        "sv": 138,
+        "so": 191,
+        "era": 1083,
+        "whip": 1083,
         "fip": 0
       }
     },
