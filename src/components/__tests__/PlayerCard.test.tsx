@@ -91,6 +91,18 @@ describe('PlayerCard', () => {
       // 圖片應該被移除
       expect(screen.queryByAltText('陳重任')).not.toBeInTheDocument();
     });
+
+    it('Google Photos 頁面網址不應該作為圖片渲染', () => {
+      const playerWithGooglePhotosPage = {
+        ...mockPlayer,
+        photo: 'https://photos.google.com/search/example/photo/AF1QipExample',
+      };
+
+      render(<PlayerCard player={playerWithGooglePhotosPage} />);
+
+      expect(screen.getByText('陳')).toBeInTheDocument();
+      expect(screen.queryByAltText('陳重任')).not.toBeInTheDocument();
+    });
   });
 
   describe('統計數據顯示', () => {

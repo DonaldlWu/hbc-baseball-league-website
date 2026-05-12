@@ -8,6 +8,17 @@ interface PlayerCardProps {
   onClick?: (player: PlayerSummary) => void;
 }
 
+function isRenderablePlayerPhoto(photo: string): boolean {
+  if (!photo) return false;
+
+  try {
+    const url = new URL(photo);
+    return url.hostname !== 'photos.google.com';
+  } catch {
+    return true;
+  }
+}
+
 /**
  * PlayerCard 組件
  *
@@ -26,6 +37,8 @@ interface PlayerCardProps {
  */
 export function PlayerCard({ player, onClick }: PlayerCardProps) {
   const [imageError, setImageError] = useState(false);
+  const shouldShowImage = isRenderablePlayerPhoto(player.photo) && !imageError;
+
   return (
     <button
       onClick={() => onClick?.(player)}
@@ -34,7 +47,7 @@ export function PlayerCard({ player, onClick }: PlayerCardProps) {
       <div className="flex items-start gap-3">
         {/* 球員照片 */}
         <div className="relative h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-gray-100">
-          {player.photo && !imageError ? (
+          {shouldShowImage ? (
             <Image
               src={player.photo}
               alt={player.name}
