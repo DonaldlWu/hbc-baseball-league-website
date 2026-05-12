@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "lastUpdated": "2026-05-09T00:00:00Z",
+  "lastUpdated": "2026-05-12T00:00:00Z",
   "calendarRange": {
     "start": "2026-02",
     "end": "2027-02"
@@ -8,6 +8,15 @@
   "standings": {
     "source": "calculated",
     "teams": [
+      {
+        "teamId": "ARP",
+        "teamName": "Aaron Prosecutor",
+        "wins": 4,
+        "losses": 1,
+        "draws": 0,
+        "runsScored": 11,
+        "runsAllowed": 4.4
+      },
       {
         "teamId": "ROO",
         "teamName": "Line Drive",
@@ -18,15 +27,6 @@
         "runsAllowed": 7.667
       },
       {
-        "teamId": "ARP",
-        "teamName": "Aaron Prosecutor",
-        "wins": 3,
-        "losses": 1,
-        "draws": 0,
-        "runsScored": 10.0,
-        "runsAllowed": 4.25
-      },
-      {
         "teamId": "TRO",
         "teamName": "楚奧特",
         "wins": 2,
@@ -34,6 +34,15 @@
         "draws": 0,
         "runsScored": 14.0,
         "runsAllowed": 4.0
+      },
+      {
+        "teamId": "HOL",
+        "teamName": "HOLYBAT",
+        "wins": 2,
+        "losses": 2,
+        "draws": 0,
+        "runsScored": 9.75,
+        "runsAllowed": 10.25
       },
       {
         "teamId": "GEO",
@@ -99,15 +108,6 @@
         "runsAllowed": 0.0
       },
       {
-        "teamId": "HOL",
-        "teamName": "HOLYBAT",
-        "wins": 1,
-        "losses": 2,
-        "draws": 0,
-        "runsScored": 5.333,
-        "runsAllowed": 11.667
-      },
-      {
         "teamId": "MOR",
         "teamName": "莫拉克",
         "wins": 0,
@@ -147,19 +147,19 @@
         "teamId": "NTH",
         "teamName": "台大醫學院棒",
         "wins": 0,
-        "losses": 1,
+        "losses": 2,
         "draws": 0,
-        "runsScored": 8.0,
-        "runsAllowed": 16.0
+        "runsScored": 7,
+        "runsAllowed": 19.5
       },
       {
         "teamId": "SHA",
         "teamName": "少林棒球隊",
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "draws": 0,
-        "runsScored": 6.5,
-        "runsAllowed": 10.5
+        "runsScored": 6,
+        "runsAllowed": 12
       }
     ],
     "adjustments": [
@@ -427,10 +427,10 @@
       "timeSlot": "上午",
       "startTime": "08:00",
       "endTime": "11:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 15,
+      "awayScore": 5,
+      "sheetId": "13Fl2FUy7LEyewhvrb6zlJL4lv4ayv0f0NWgJb67-CJo"
     },
     "2026087": {
       "date": "2026-05-09",
@@ -440,10 +440,10 @@
       "timeSlot": "中午",
       "startTime": "11:00",
       "endTime": "14:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 6,
+      "awayScore": 23,
+      "sheetId": "1E6N-P5Q_jrh8c_ZJIWegEDwFvPs9QrQbIhAlEHG-w7k"
     },
     "2026082": {
       "date": "2026-05-16",

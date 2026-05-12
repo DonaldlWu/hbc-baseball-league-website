@@ -1,6 +1,6 @@
 {
   "season": 2025,
-  "lastUpdated": "2026-05-09T00:00:00Z",
+  "lastUpdated": "2026-05-12T00:00:00Z",
   "calendarRange": {
     "start": "2026-04",
     "end": "2026-06"
@@ -91,7 +91,7 @@
     },
     "20250809G1": {
       "date": "2026-04-06",
-      "homeTeam": "政大Mechanics",
+      "homeTeam": "Mechanics",
       "awayTeam": "ACES",
       "venue": "中正A",
       "timeSlot": "中午",
@@ -172,7 +172,7 @@
     "20250809G2": {
       "date": "2026-05-02",
       "homeTeam": "ACES",
-      "awayTeam": "政大Mechanics",
+      "awayTeam": "Mechanics",
       "venue": "中正A",
       "timeSlot": "下午",
       "startTime": "14:30",
@@ -180,6 +180,19 @@
       "status": "finished",
       "homeScore": 12,
       "awayScore": 14,
+      "sheetId": ""
+    },
+    "20250109G1": {
+      "date": "2026-05-09",
+      "homeTeam": "Mechanics",
+      "awayTeam": "Line Drive",
+      "venue": "中正A",
+      "timeSlot": "下午",
+      "startTime": "14:00",
+      "endTime": "16:30",
+      "status": "finished",
+      "homeScore": 3,
+      "awayScore": 4,
       "sheetId": ""
     }
   }
