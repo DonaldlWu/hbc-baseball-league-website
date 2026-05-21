@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "lastUpdated": "2026-05-12T00:00:00Z",
+  "lastUpdated": "2026-05-21",
   "calendarRange": {
     "start": "2026-02",
     "end": "2027-02"
@@ -9,22 +9,31 @@
     "source": "calculated",
     "teams": [
       {
+        "teamId": "ROO",
+        "teamName": "Line Drive",
+        "wins": 4,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 13.5,
+        "runsAllowed": 5.75
+      },
+      {
         "teamId": "ARP",
         "teamName": "Aaron Prosecutor",
         "wins": 4,
         "losses": 1,
         "draws": 0,
-        "runsScored": 11,
+        "runsScored": 11.0,
         "runsAllowed": 4.4
       },
       {
-        "teamId": "ROO",
-        "teamName": "Line Drive",
+        "teamId": "GEO",
+        "teamName": "十號馬",
         "wins": 3,
-        "losses": 0,
+        "losses": 1,
         "draws": 0,
-        "runsScored": 10.0,
-        "runsAllowed": 7.667
+        "runsScored": 8.0,
+        "runsAllowed": 9.25
       },
       {
         "teamId": "TRO",
@@ -33,6 +42,15 @@
         "losses": 0,
         "draws": 0,
         "runsScored": 14.0,
+        "runsAllowed": 4.0
+      },
+      {
+        "teamId": "YCT",
+        "teamName": "永春TB",
+        "wins": 2,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 13.0,
         "runsAllowed": 4.0
       },
       {
@@ -45,31 +63,13 @@
         "runsAllowed": 10.25
       },
       {
-        "teamId": "GEO",
-        "teamName": "十號馬",
-        "wins": 2,
-        "losses": 1,
-        "draws": 0,
-        "runsScored": 7.667,
-        "runsAllowed": 10.333
-      },
-      {
         "teamId": "SAK",
         "teamName": "櫻砲魂",
         "wins": 2,
-        "losses": 3,
+        "losses": 4,
         "draws": 0,
-        "runsScored": 6.6,
-        "runsAllowed": 10.6
-      },
-      {
-        "teamId": "YCT",
-        "teamName": "永春TB",
-        "wins": 1,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 15.0,
-        "runsAllowed": 1.0
+        "runsScored": 5.5,
+        "runsAllowed": 12.833
       },
       {
         "teamId": "PHE",
@@ -120,10 +120,10 @@
         "teamId": "NTE",
         "teamName": "台大經濟OB",
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "draws": 0,
-        "runsScored": 10.0,
-        "runsAllowed": 13.0
+        "runsScored": 8.667,
+        "runsAllowed": 11.667
       },
       {
         "teamId": "DHW",
@@ -149,8 +149,17 @@
         "wins": 0,
         "losses": 2,
         "draws": 0,
-        "runsScored": 7,
+        "runsScored": 7.0,
         "runsAllowed": 19.5
+      },
+      {
+        "teamId": "ACE",
+        "teamName": "ACES",
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "runsScored": 7.0,
+        "runsAllowed": 11.0
       },
       {
         "teamId": "SHA",
@@ -158,8 +167,8 @@
         "wins": 0,
         "losses": 3,
         "draws": 0,
-        "runsScored": 6,
-        "runsAllowed": 12
+        "runsScored": 6.0,
+        "runsAllowed": 12.0
       }
     ],
     "adjustments": [
@@ -453,10 +462,10 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 6,
+      "awayScore": 9,
+      "sheetId": "1bPh7vxSnnTLhgusL4D1lZRVJO-OnClHPXgVc87Z138s"
     },
     "2026166": {
       "date": "2026-05-23",
@@ -509,6 +518,32 @@
       "homeScore": 0,
       "awayScore": 7,
       "sheetId": "1UmI7NcViNRsoCc7ZrNiAijFoEFwEgq6KXGr28YJtZG4"
+    },
+    "2026134": {
+      "date": "2026-05-16",
+      "homeTeam": "Line Drive",
+      "awayTeam": "櫻砲魂",
+      "venue": "中正A",
+      "timeSlot": "中午",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "status": "finished",
+      "homeScore": 24,
+      "awayScore": 0,
+      "sheetId": "1cgTb6PEgBNiMybRHHf8RIuKvrhICPvYV3nXN9nQsro0"
+    },
+    "2026102": {
+      "date": "2026-05-16",
+      "homeTeam": "ACES",
+      "awayTeam": "永春TB",
+      "venue": "中正A",
+      "timeSlot": "下午",
+      "startTime": "13:00",
+      "endTime": "15:30",
+      "status": "finished",
+      "homeScore": 7,
+      "awayScore": 11,
+      "sheetId": "1SjYAJ1fomOK6rsH_IbgOVJCnbC4BVjh5NL7JKUdIzi0"
     }
   }
 }
