@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "lastUpdated": "2026-05-21",
+  "lastUpdated": "2026-05-29",
   "calendarRange": {
     "start": "2026-02",
     "end": "2027-02"
@@ -54,6 +54,15 @@
         "runsAllowed": 4.0
       },
       {
+        "teamId": "EAG",
+        "teamName": "火把老鷹",
+        "wins": 2,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 12.5,
+        "runsAllowed": 6.5
+      },
+      {
         "teamId": "HOL",
         "teamName": "HOLYBAT",
         "wins": 2,
@@ -90,15 +99,6 @@
         "runsAllowed": 12.5
       },
       {
-        "teamId": "EAG",
-        "teamName": "火把老鷹",
-        "wins": 1,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 8.0,
-        "runsAllowed": 1.0
-      },
-      {
         "teamId": "HUA",
         "teamName": "華江OB",
         "wins": 1,
@@ -117,6 +117,15 @@
         "runsAllowed": 8.0
       },
       {
+        "teamId": "DHW",
+        "teamName": "DH戰將",
+        "wins": 0,
+        "losses": 3,
+        "draws": 0,
+        "runsScored": 9.667,
+        "runsAllowed": 12.667
+      },
+      {
         "teamId": "NTE",
         "teamName": "台大經濟OB",
         "wins": 0,
@@ -124,15 +133,6 @@
         "draws": 0,
         "runsScored": 8.667,
         "runsAllowed": 11.667
-      },
-      {
-        "teamId": "DHW",
-        "teamName": "DH戰將",
-        "wins": 0,
-        "losses": 2,
-        "draws": 0,
-        "runsScored": 8.5,
-        "runsAllowed": 10.5
       },
       {
         "teamId": "REV",
@@ -475,10 +475,10 @@
       "timeSlot": "下午",
       "startTime": "14:30",
       "endTime": "17:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 12,
+      "awayScore": 17,
+      "sheetId": "1zwDeLsU4sUixlCAU9uegFHkrH6SIY3JqOQZbXnkUmNk"
     },
     "2026108": {
       "date": "2026-05-30",

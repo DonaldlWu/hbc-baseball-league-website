@@ -1,6 +1,6 @@
 {
   "season": 2025,
-  "lastUpdated": "2026-05-21",
+  "lastUpdated": "2026-05-29",
   "calendarRange": {
     "start": "2026-04",
     "end": "2026-06"
@@ -207,6 +207,20 @@
       "homeScore": 9,
       "awayScore": 4,
       "sheetId": ""
+    },
+    "20250306G1": {
+      "date": "2026-05-23",
+      "homeTeam": "木柵OB",
+      "awayTeam": "華江OB",
+      "venue": "中正A",
+      "timeSlot": "中午",
+      "startTime": "11:00",
+      "endTime": "14:00",
+      "status": "finished",
+      "homeScore": 8,
+      "awayScore": 10,
+      "sheetId": "",
+      "note": "歷經兩次延長賽，九局下半分出勝負"
     }
   }
 }
