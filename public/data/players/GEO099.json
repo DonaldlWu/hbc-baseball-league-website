@@ -9,7 +9,7 @@
       "楚奧特",
       "十號馬"
     ],
-    "totalSeasons": 6
+    "totalSeasons": 5
   },
   "seasons": [
     {
@@ -60,54 +60,17 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 217,
-        "hits": 171,
-        "hr": 1501,
-        "rbi": 59,
-        "avg": 92,
-        "w": 1577,
+        "rc": 223,
+        "hits": 177,
+        "hr": 1492,
+        "rbi": 65,
+        "avg": 98,
+        "w": 1574,
         "sv": 4,
         "so": 17,
-        "era": 1084,
+        "era": 1079,
         "whip": 6,
         "fip": 3
-      }
-    },
-    {
-      "year": 2026,
-      "team": "十號馬",
-      "number": "79",
-      "batting": {
-        "games": 0,
-        "pa": 0,
-        "ab": 0,
-        "hits": 0,
-        "singles": 0,
-        "doubles": 0,
-        "triples": 0,
-        "hr": 0,
-        "rbi": 0,
-        "runs": 0,
-        "bb": 0,
-        "so": 0,
-        "sb": 0,
-        "sf": 0,
-        "totalBases": 0
-      },
-      "pitching": null,
-      "pitchingCalculated": null,
-      "rankings": {
-        "rc": 556,
-        "hits": 204,
-        "hr": 13,
-        "rbi": 156,
-        "avg": 1084,
-        "w": 28,
-        "sv": 18,
-        "so": 79,
-        "era": 1084,
-        "whip": 1084,
-        "fip": 0
       }
     },
     {

@@ -2,53 +2,16 @@
   "id": "NTM080",
   "code": "NTM080",
   "name": "王旭彬",
-  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMGzPMilveiMjKQJwsaYeX6dymkHRqEpfudaEP-3BVRLYRMUagUGZbIECDv43rZAciZORENnu3hpOiSDT6JiTdGJRptvWKuMnAPstWIZ2qKlBsOG1eL47a5EK6LwT7KvvWbHlHk2waWVmc1Zm5ww1MNAg=w310-h335-no",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMvwFAyY4poQ1EN7O_DWPPaymZnNSyMHv5WuSNE2xHJXFQ78YUzSP47YPylrKMhBlZ6jh8he7oVxN3kI4jN0qQzr_EyFL0NrHTO1jFk6up1qE9lgOSnmPV7CZELbBw7mR4I_cjdo0FErLwCbVOBUJqQ5A=w310-h335-no",
   "career": {
     "debut": 2025,
     "teams": [
-      "Mechanics",
-      "Aaron Prosecutor"
+      "Aaron Prosecutor",
+      "Mechanics"
     ],
-    "totalSeasons": 3
+    "totalSeasons": 2
   },
   "seasons": [
-    {
-      "year": 2026,
-      "team": "Mechanics",
-      "number": "6",
-      "batting": {
-        "games": 0,
-        "pa": 0,
-        "ab": 0,
-        "hits": 0,
-        "singles": 0,
-        "doubles": 0,
-        "triples": 0,
-        "hr": 0,
-        "rbi": 0,
-        "runs": 0,
-        "bb": 0,
-        "so": 0,
-        "sb": 0,
-        "sf": 0,
-        "totalBases": 0
-      },
-      "pitching": null,
-      "pitchingCalculated": null,
-      "rankings": {
-        "rc": 817,
-        "hits": 883,
-        "hr": 692,
-        "rbi": 835,
-        "avg": 1084,
-        "w": 872,
-        "sv": 862,
-        "so": 923,
-        "era": 1084,
-        "whip": 1084,
-        "fip": 0
-      }
-    },
     {
       "year": 2026,
       "team": "Aaron Prosecutor",
@@ -101,11 +64,11 @@
         "hits": 18,
         "hr": 1596,
         "rbi": 21,
-        "avg": 41,
-        "w": 1582,
+        "avg": 45,
+        "w": 1579,
         "sv": 6,
         "so": 11,
-        "era": 1084,
+        "era": 1079,
         "whip": 26,
         "fip": 5
       }

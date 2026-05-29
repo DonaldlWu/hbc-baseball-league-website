@@ -2,58 +2,21 @@
   "id": "ROO009",
   "code": "ROO009",
   "name": "高煌程",
-  "photo": "https://lh3.googleusercontent.com/RoweWTxaR94_DGxA72Rd-hdyfeU75qgqM8TnE_fBScc9jJS1tQ9wSs0rApihF06PfIO5IWr4E4kBFrUWYZL_HajIFapC4hIbCaguXI3ps2-E9fOH_GbA7hz2O0jt7F63w8NnsiQhfA4rqpoSHULErtfZRCjAlOsOrxzLqiUAYihiQl5ahuhrf2mN1sJ0DyzSM8sXYcbqW0Nuo6LHqRaCPI7LgNLkrTwqZL1laD-BP7uyNPFIEYyfVhvSbW1oaVsdGMLRi_C2KunduPW6Sm29cc-2Sxoz_1corqcP99e64CDeaatvjV_PT9SipHnXs0CmP3oy0VPbKortPR7xyPeUinIecHEaYByNWaEIdwuDyXWzQBkil2Q7N-Y3n1BfV1WC4abjCQLznYZXWnzbBXv7j0BoFGIdNV7mGUGQF_CtwhzVBZ9EEGYwFIeAaLMHM85jwlsSm1RFuJuQAbRXOgolze-4cnBT4L6zw6_X35uHjyLXlMfeKt7GTpoPkfVnRte7HuCIdSOZkKRBA4416z32Vnt9ZWKwKYgdmQNyw9dccePrXQMKO4LEaRiwYZkGfkDwCqMJ=w310-h335-no",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNmfLrQJEtS5iJfNBfXYHj6a8TKdokw8MI4ttw013gqYbKd03KWGDSbyaRH0CvfNpgzw-lqOdusoMGrLZ6XiFvHP6fzsLWLtKPCH_mIoHuJTeF7N086KWVz1kztFkR03dSdzy51J1us_KqH7q46CDXdqg=w310-h335-no",
   "career": {
     "debut": 2011,
     "teams": [
-      "Mechanics",
       "Aaron Prosecutor",
+      "Mechanics",
       "台大機械",
       "Line Drive",
       "ROOKIES",
       "Synergy",
       "南港高工OB"
     ],
-    "totalSeasons": 17
+    "totalSeasons": 16
   },
   "seasons": [
-    {
-      "year": 2026,
-      "team": "Mechanics",
-      "number": "5",
-      "batting": {
-        "games": 0,
-        "pa": 0,
-        "ab": 0,
-        "hits": 0,
-        "singles": 0,
-        "doubles": 0,
-        "triples": 0,
-        "hr": 0,
-        "rbi": 0,
-        "runs": 0,
-        "bb": 0,
-        "so": 0,
-        "sb": 0,
-        "sf": 0,
-        "totalBases": 0
-      },
-      "pitching": null,
-      "pitchingCalculated": null,
-      "rankings": {
-        "rc": 832,
-        "hits": 964,
-        "hr": 773,
-        "rbi": 916,
-        "avg": 1084,
-        "w": 997,
-        "sv": 987,
-        "so": 1048,
-        "era": 1084,
-        "whip": 1084,
-        "fip": 0
-      }
-    },
     {
       "year": 2026,
       "team": "Aaron Prosecutor",
@@ -78,16 +41,16 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 239,
-        "hits": 300,
-        "hr": 109,
-        "rbi": 252,
-        "avg": 1084,
+        "rc": 248,
+        "hits": 308,
+        "hr": 108,
+        "rbi": 258,
+        "avg": 1079,
         "w": 143,
         "sv": 133,
-        "so": 194,
-        "era": 1084,
-        "whip": 1084,
+        "so": 197,
+        "era": 1079,
+        "whip": 1079,
         "fip": 0
       }
     },

@@ -2,54 +2,17 @@
   "id": "NTM013",
   "code": "NTM013",
   "name": "王賢強",
-  "photo": "https://lh3.googleusercontent.com/bL4Pg3ybdRugmcrdp5O45F9CMRODi5OzzxeLlwrNh4QPojQ3ooG41AI_iQzt0DSUUsVbgmLvSNblJYK5rJluiMePfCYDZslD_FK0Ni_M2vxvFIMTY9M7-pNiVf-mzwetCOvDpTvlvhaWsNZQDxDH0nsDBBzraKO2M73_djkv7qEQI_8Fe2QTaYpL2otZe0VCCBFGrvGhB6bVK4YgeozIJgdWhfkD997hSyQCxyDBxCjlBgHvHnwj7ax8oJxlrR4fpTnLbTqtaYmk8RPeKRt_U9lNuH6G2xRjjJE3O5OQxjxugQZf9MbteA0w2QFW4xtHZwc5TU47zVRtqnKsh5liXQCbWppR6D4HzCmCQWqcqCnEYlnq3BnwD-RWvMm5eDbK2v4Qfk-zsIH2GtqQEzQ1hD_GXV4rXl1hSzEAXAX3mMpOIpsBOo1IGx3Rv7sofmIQoYHPeT1yN58IFBylYgzn2tMxjo4QoSebwOIIM30-hqYHoRqiq0y2vUEij2IznZeKr5dJegZycMlpKsOzT49-HVC6D9gexMswO2PmS4XQREp6CIqdftegBHdEAcgZnQ9syJaS41FOSCNG0-OkCyCPYMaLOnkEyTSFdxZw9hauTJJwXv7X9JLmJ2XJFkOymq-xSBMQ2RbzQ0acjBbwRcayeWfw513bkg4p=w310-h335-no",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPA6CfKRKx6mfq-bIIX8YPjNtNO68piNbOYvZaQ7syQffUfQoxe7yLGsAdQRKYu-ldQxN7keqbHHNrPuiK3BwfnQmuLkQcfKYyjidvyleLMBZNlfP9W5lvibN2Ut2hGyC-16Dq9vKGyl0U1tQVp3BDGAA=w310-h335-no",
   "career": {
     "debut": 2014,
     "teams": [
-      "Mechanics",
       "Aaron Prosecutor",
+      "Mechanics",
       "台大機械"
     ],
-    "totalSeasons": 14
+    "totalSeasons": 13
   },
   "seasons": [
-    {
-      "year": 2026,
-      "team": "Mechanics",
-      "number": "11",
-      "batting": {
-        "games": 0,
-        "pa": 0,
-        "ab": 0,
-        "hits": 0,
-        "singles": 0,
-        "doubles": 0,
-        "triples": 0,
-        "hr": 0,
-        "rbi": 0,
-        "runs": 0,
-        "bb": 0,
-        "so": 0,
-        "sb": 0,
-        "sf": 0,
-        "totalBases": 0
-      },
-      "pitching": null,
-      "pitchingCalculated": null,
-      "rankings": {
-        "rc": 829,
-        "hits": 952,
-        "hr": 761,
-        "rbi": 904,
-        "avg": 1084,
-        "w": 979,
-        "sv": 969,
-        "so": 1030,
-        "era": 1084,
-        "whip": 1084,
-        "fip": 0
-      }
-    },
     {
       "year": 2026,
       "team": "Aaron Prosecutor",
@@ -74,16 +37,16 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 68,
-        "hits": 90,
-        "hr": 1543,
+        "rc": 72,
+        "hits": 97,
+        "hr": 1539,
         "rbi": 1601,
-        "avg": 61,
+        "avg": 66,
         "w": 155,
         "sv": 145,
-        "so": 206,
-        "era": 1084,
-        "whip": 1084,
+        "so": 209,
+        "era": 1079,
+        "whip": 1079,
         "fip": 0
       }
     },
