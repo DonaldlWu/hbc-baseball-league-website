@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "lastUpdated": "2026-06-02",
+  "lastUpdated": "2026-06-15",
   "calendarRange": {
     "start": "2026-02",
     "end": "2027-02"
@@ -81,6 +81,15 @@
         "runsAllowed": 12.833
       },
       {
+        "teamId": "REV",
+        "teamName": "逆轉星球",
+        "wins": 1,
+        "losses": 1,
+        "draws": 0,
+        "runsScored": 11.0,
+        "runsAllowed": 6.0
+      },
+      {
         "teamId": "PHE",
         "teamName": "飛尼克斯",
         "wins": 1,
@@ -90,15 +99,6 @@
         "runsAllowed": 7.0
       },
       {
-        "teamId": "MIR",
-        "teamName": "MIRACLE",
-        "wins": 1,
-        "losses": 1,
-        "draws": 0,
-        "runsScored": 9.0,
-        "runsAllowed": 12.5
-      },
-      {
         "teamId": "HUA",
         "teamName": "華江OB",
         "wins": 1,
@@ -106,6 +106,15 @@
         "draws": 0,
         "runsScored": 7.0,
         "runsAllowed": 0.0
+      },
+      {
+        "teamId": "MIR",
+        "teamName": "MIRACLE",
+        "wins": 1,
+        "losses": 2,
+        "draws": 0,
+        "runsScored": 6.333,
+        "runsAllowed": 13.0
       },
       {
         "teamId": "MOR",
@@ -133,15 +142,6 @@
         "draws": 0,
         "runsScored": 8.667,
         "runsAllowed": 11.667
-      },
-      {
-        "teamId": "REV",
-        "teamName": "逆轉星球",
-        "wins": 0,
-        "losses": 1,
-        "draws": 0,
-        "runsScored": 8.0,
-        "runsAllowed": 11.0
       },
       {
         "teamId": "NTH",
@@ -488,10 +488,10 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 14,
+      "awayScore": 1,
+      "sheetId": "1gQL11MY_EvNq1A2MVzU1YJhL7jbCIlJ_GPZda42PZho"
     },
     "2026204": {
       "date": "2026-05-02",

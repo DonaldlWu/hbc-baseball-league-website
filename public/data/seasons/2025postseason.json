@@ -243,9 +243,9 @@
       "timeSlot": "下午",
       "startTime": "14:30",
       "endTime": "17:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 9,
+      "awayScore": 8,
       "sheetId": ""
     }
   }
