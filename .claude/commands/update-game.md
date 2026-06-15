@@ -79,6 +79,23 @@ https://docs.google.com/spreadsheets/d/1Xy8-e0YJfO89HgbmmeK-JMlArs0x8-hCjDPifLCK
 - `awayScore` → 整數
 - `sheetId` → ID 字串（待補的維持 `""`）
 
+**⚠️ 季後賽場次額外步驟（gameNumber 符合 `^\d{8}G\d+$`）：**
+
+寫入 `seasons/YYYYpostseason.json` 後，**必須同步更新** `public/data/postseason/YYYY.json` 的籤表資料：
+
+1. 讀取 `public/data/postseason/YYYY.json`（YYYY 取 gameNumber 前四碼）
+2. 在 `rounds` 中找到包含此 gameNumber 的 matchup
+3. 在 matchup 的 `games` 陣列中，找到對應 gameNumber 的 game entry，補填：
+   - `winner`：比對 homeTeam/awayTeam 與 matchup 的 team1/team2 決定
+   - `homeScore` / `awayScore`
+4. 呼叫 `calcMatchupResult` 邏輯重算系列賽結果：
+   - 統計 games 中 `winner === 'team1'` 與 `winner === 'team2'` 的場數
+   - 達到 `bestOf` 所需勝場（`Math.ceil(bestOf / 2)`）→ 更新 matchup `winner` 與 `status: "completed"`
+   - 尚未分出勝負 → `winner: null`，`status: "in_progress"`
+5. 更新 `lastUpdated`，寫回檔案，驗證 JSON 格式
+
+> 若 gameNumber 尚未出現在任何 matchup 的 games 陣列中，表示籤表資料尚未設定，**提醒使用者手動確認** `public/data/postseason/YYYY.json` 是否需要補上此場次。
+
 **standings 自動重算（source === "calculated" 時）：**
 
 每個被修改的賽季 JSON，若 `standings.source === "calculated"`，**立即**從所有 `status === "finished"` 的比賽重算戰績，完整替換 `standings.teams`：
@@ -174,10 +191,11 @@ chore: 更新 N 場比賽結果 (YYYY-MM-DD 週報)
 
 ### Step 3：更新並驗證
 
-1. 編輯 `public/data/seasons/YYYY.json`
+1. 編輯 `public/data/seasons/YYYY.json`（或 `YYYYpostseason.json`）
 2. 若 `standings.source === "calculated"` 且 status 改為 `finished`：從所有已完賽比賽重算並替換 `standings.teams`，並套用 `standings.adjustments`（邏輯同批量模式）
 3. 更新頂層 `lastUpdated`
 4. 驗證 JSON 格式
+5. **若為季後賽場次**：同步更新 `public/data/postseason/YYYY.json` 籤表（邏輯同批量模式 Step 3）
 
 ### Step 4：摘要確認與 commit
 
