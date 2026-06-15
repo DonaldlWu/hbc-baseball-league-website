@@ -17,21 +17,21 @@
       "team": "逆轉星球",
       "number": "0",
       "batting": {
-        "games": 1,
-        "pa": 1,
-        "ab": 1,
-        "hits": 0,
-        "singles": 0,
+        "games": 2,
+        "pa": 5,
+        "ab": 4,
+        "hits": 1,
+        "singles": 1,
         "doubles": 0,
         "triples": 0,
         "hr": 0,
-        "rbi": 0,
-        "runs": 0,
-        "bb": 0,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 1,
         "so": 1,
-        "sb": 0,
+        "sb": 1,
         "sf": 0,
-        "totalBases": 0
+        "totalBases": 1
       },
       "pitching": {
         "games": 1,
@@ -60,17 +60,17 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 1035,
-        "hits": 1514,
-        "hr": 1319,
-        "rbi": 1467,
-        "avg": 1079,
-        "w": 1603,
-        "sv": 1593,
-        "so": 75,
+        "rc": 153,
+        "hits": 174,
+        "hr": 1476,
+        "rbi": 123,
+        "avg": 91,
+        "w": 1602,
+        "sv": 1592,
+        "so": 78,
         "era": 1079,
-        "whip": 51,
-        "fip": 61
+        "whip": 52,
+        "fip": 51
       }
     },
     {

@@ -17,7 +17,7 @@
       "team": "MIRACLE",
       "number": "8",
       "batting": {
-        "games": 2,
+        "games": 3,
         "pa": 2,
         "ab": 2,
         "hits": 0,
@@ -34,10 +34,10 @@
         "totalBases": 0
       },
       "pitching": {
-        "games": 2,
-        "ip": 8,
-        "bf": 56,
-        "so": 14,
+        "games": 3,
+        "ip": 8.333333333,
+        "bf": 58,
+        "so": 15,
         "bb": 7,
         "h": 15,
         "hr": 0,
@@ -51,26 +51,26 @@
         "csAttempts": 0
       },
       "pitchingCalculated": {
-        "era": 4.5,
-        "whip": 2.75,
-        "fip": 2.325000076,
-        "kPer9": 15.75,
-        "bbPer9": 7.875,
-        "hPer9": 16.875,
+        "era": 4.3200000001728,
+        "whip": 2.6400000001055997,
+        "fip": 2.120000076,
+        "kPer9": 16.200000000648,
+        "bbPer9": 7.5600000003023995,
+        "hPer9": 16.200000000648,
         "csPercentage": 0
       },
       "rankings": {
         "rc": 1048,
-        "hits": 1544,
-        "hr": 1361,
-        "rbi": 1502,
+        "hits": 1540,
+        "hr": 1354,
+        "rbi": 1504,
         "avg": 1079,
-        "w": 19,
+        "w": 20,
         "sv": 1605,
         "so": 4,
         "era": 1079,
         "whip": 37,
-        "fip": 23
+        "fip": 18
       }
     },
     {
