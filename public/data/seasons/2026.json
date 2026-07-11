@@ -9,6 +9,15 @@
     "source": "calculated",
     "teams": [
       {
+        "teamId": "ARP",
+        "teamName": "Aaron Prosecutor",
+        "wins": 5,
+        "losses": 1,
+        "draws": 0,
+        "runsScored": 11.0,
+        "runsAllowed": 4.667
+      },
+      {
         "teamId": "ROO",
         "teamName": "Line Drive",
         "wins": 4,
@@ -18,15 +27,6 @@
         "runsAllowed": 5.75
       },
       {
-        "teamId": "ARP",
-        "teamName": "Aaron Prosecutor",
-        "wins": 4,
-        "losses": 1,
-        "draws": 0,
-        "runsScored": 11.0,
-        "runsAllowed": 4.4
-      },
-      {
         "teamId": "GEO",
         "teamName": "十號馬",
         "wins": 3,
@@ -34,6 +34,15 @@
         "draws": 0,
         "runsScored": 8.0,
         "runsAllowed": 9.25
+      },
+      {
+        "teamId": "PHE",
+        "teamName": "飛尼克斯",
+        "wins": 2,
+        "losses": 1,
+        "draws": 0,
+        "runsScored": 14.333,
+        "runsAllowed": 6.0
       },
       {
         "teamId": "TRO",
@@ -63,13 +72,40 @@
         "runsAllowed": 6.5
       },
       {
+        "teamId": "REV",
+        "teamName": "逆轉星球",
+        "wins": 2,
+        "losses": 1,
+        "draws": 0,
+        "runsScored": 11.333,
+        "runsAllowed": 7.0
+      },
+      {
         "teamId": "HOL",
         "teamName": "HOLYBAT",
         "wins": 2,
+        "losses": 3,
+        "draws": 0,
+        "runsScored": 10.0,
+        "runsAllowed": 11.2
+      },
+      {
+        "teamId": "HUA",
+        "teamName": "華江OB",
+        "wins": 2,
+        "losses": 0,
+        "draws": 0,
+        "runsScored": 9.5,
+        "runsAllowed": 3.0
+      },
+      {
+        "teamId": "MIR",
+        "teamName": "MIRACLE",
+        "wins": 2,
         "losses": 2,
         "draws": 0,
-        "runsScored": 9.75,
-        "runsAllowed": 10.25
+        "runsScored": 8.5,
+        "runsAllowed": 12.5
       },
       {
         "teamId": "SAK",
@@ -81,49 +117,13 @@
         "runsAllowed": 12.833
       },
       {
-        "teamId": "REV",
-        "teamName": "逆轉星球",
-        "wins": 1,
-        "losses": 1,
-        "draws": 0,
-        "runsScored": 11.0,
-        "runsAllowed": 6.0
-      },
-      {
-        "teamId": "PHE",
-        "teamName": "飛尼克斯",
-        "wins": 1,
-        "losses": 1,
-        "draws": 0,
-        "runsScored": 10.5,
-        "runsAllowed": 7.0
-      },
-      {
-        "teamId": "HUA",
-        "teamName": "華江OB",
-        "wins": 1,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 7.0,
-        "runsAllowed": 0.0
-      },
-      {
-        "teamId": "MIR",
-        "teamName": "MIRACLE",
-        "wins": 1,
-        "losses": 2,
-        "draws": 0,
-        "runsScored": 6.333,
-        "runsAllowed": 13.0
-      },
-      {
         "teamId": "MOR",
         "teamName": "莫拉克",
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "draws": 1,
         "runsScored": 6.0,
-        "runsAllowed": 8.0
+        "runsAllowed": 9.5
       },
       {
         "teamId": "DHW",
@@ -138,19 +138,10 @@
         "teamId": "NTE",
         "teamName": "台大經濟OB",
         "wins": 0,
-        "losses": 3,
+        "losses": 4,
         "draws": 0,
-        "runsScored": 8.667,
-        "runsAllowed": 11.667
-      },
-      {
-        "teamId": "NTH",
-        "teamName": "台大醫學院棒",
-        "wins": 0,
-        "losses": 2,
-        "draws": 0,
-        "runsScored": 7.0,
-        "runsAllowed": 19.5
+        "runsScored": 8.75,
+        "runsAllowed": 11.75
       },
       {
         "teamId": "ACE",
@@ -166,6 +157,24 @@
         "teamName": "少林棒球隊",
         "wins": 0,
         "losses": 3,
+        "draws": 0,
+        "runsScored": 6.0,
+        "runsAllowed": 12.0
+      },
+      {
+        "teamId": "NTH",
+        "teamName": "台大醫學院棒",
+        "wins": 0,
+        "losses": 3,
+        "draws": 0,
+        "runsScored": 6.0,
+        "runsAllowed": 20.333
+      },
+      {
+        "teamId": "木柵O",
+        "teamName": "木柵OB",
+        "wins": 0,
+        "losses": 1,
         "draws": 0,
         "runsScored": 6.0,
         "runsAllowed": 12.0
@@ -787,10 +796,10 @@
       "timeSlot": "上午",
       "startTime": "08:00",
       "endTime": "11:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 6,
+      "awayScore": 11,
+      "sheetId": "1iFPyczy9ThRWdr11by_BOLjpVpCjqvre7bo3tozmyJY"
     },
     "2026113": {
       "date": "2026-07-04",
@@ -800,23 +809,10 @@
       "timeSlot": "中午",
       "startTime": "11:00",
       "endTime": "14:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
-    },
-    "2026024": {
-      "date": "2026-07-04",
-      "homeTeam": "台大醫學院棒",
-      "awayTeam": "ACES",
-      "venue": "迎風A",
-      "timeSlot": "晚上",
-      "startTime": "18:30",
-      "endTime": "21:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 6,
+      "awayScore": 12,
+      "sheetId": "12yYH0jmWCbiGPMJaZpeDdfhukRdS4qoJhAKkGTgkHn0"
     },
     "2026161": {
       "date": "2026-07-04",
@@ -826,10 +822,10 @@
       "timeSlot": "中午",
       "startTime": "13:00",
       "endTime": "15:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 12,
+      "awayScore": 9,
+      "sheetId": "1L5gjCeYPQRSlt7Cs8m9bJodDFqYTOxb22bloH6ROK5E"
     },
     "2026065": {
       "date": "2026-07-04",
@@ -839,10 +835,10 @@
       "timeSlot": "下午",
       "startTime": "15:30",
       "endTime": "18:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 11,
+      "awayScore": 15,
+      "sheetId": "13hJSN6U_zbtg1XvxuGst9wBJY2hb1jNhfjMc-q1ndNg"
     },
     "2026060": {
       "date": "2026-07-11",
@@ -973,6 +969,19 @@
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
+    },
+    "2026062": {
+      "date": "2026-07-04",
+      "homeTeam": "飛尼克斯",
+      "awayTeam": "台大醫學院棒",
+      "venue": "迎風A",
+      "timeSlot": "晚上",
+      "startTime": "18:30",
+      "endTime": "21:30",
+      "status": "finished",
+      "homeScore": 22,
+      "awayScore": 4,
+      "sheetId": "1PehZ0SZ6daNLKxa3xRwQGYY7EiKa4GnvzUxTanIhr3k"
     }
   }
 }
