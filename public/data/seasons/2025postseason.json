@@ -233,7 +233,16 @@
       "status": "rain",
       "homeScore": null,
       "awayScore": null,
-      "sheetId": ""
+      "sheetId": "",
+      "rescheduledDates": [
+        {
+          "date": "2026-06-27",
+          "venue": "中正A",
+          "timeSlot": "下午",
+          "startTime": "14:30",
+          "endTime": "17:00"
+        }
+      ]
     },
     "20250413G2": {
       "date": "2026-05-30",
@@ -246,6 +255,19 @@
       "status": "finished",
       "homeScore": 9,
       "awayScore": 8,
+      "sheetId": ""
+    },
+    "20250405G1": {
+      "date": "2026-06-27",
+      "homeTeam": "楚奧特",
+      "awayTeam": "飛尼克斯",
+      "venue": "三鶯B",
+      "timeSlot": "下午",
+      "startTime": "15:30",
+      "endTime": "18:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null,
       "sheetId": ""
     }
   }
