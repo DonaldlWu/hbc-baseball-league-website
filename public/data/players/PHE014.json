@@ -16,21 +16,21 @@
       "team": "飛尼克斯",
       "number": "78",
       "batting": {
-        "games": 2,
-        "pa": 2,
-        "ab": 2,
-        "hits": 0,
-        "singles": 0,
+        "games": 4,
+        "pa": 11,
+        "ab": 9,
+        "hits": 2,
+        "singles": 2,
         "doubles": 0,
         "triples": 0,
         "hr": 0,
-        "rbi": 0,
-        "runs": 0,
-        "bb": 0,
-        "so": 1,
+        "rbi": 1,
+        "runs": 3,
+        "bb": 2,
+        "so": 3,
         "sb": 0,
         "sf": 0,
-        "totalBases": 0
+        "totalBases": 2
       },
       "pitching": {
         "games": 1,
@@ -52,24 +52,24 @@
       "pitchingCalculated": {
         "era": 13.500000003375002,
         "whip": 3.00000000075,
-        "fip": 8.450000025,
+        "fip": null,
         "kPer9": 6.750000001687501,
         "bbPer9": 20.250000005062503,
         "hPer9": 6.750000001687501,
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 1049,
-        "hits": 1534,
-        "hr": 1345,
-        "rbi": 1495,
-        "avg": 1079,
-        "w": 1565,
-        "sv": 1553,
-        "so": 72,
-        "era": 1079,
-        "whip": 522,
-        "fip": 60
+        "rc": 183,
+        "hits": 179,
+        "hr": 1522,
+        "rbi": 223,
+        "avg": 89,
+        "w": 1551,
+        "sv": 1529,
+        "so": 104,
+        "era": 1081,
+        "whip": 499,
+        "fip": 0
       }
     },
     {

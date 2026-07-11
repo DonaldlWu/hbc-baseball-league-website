@@ -16,9 +16,9 @@
       "team": "櫻砲魂",
       "number": "0",
       "batting": {
-        "games": 1,
-        "pa": 0,
-        "ab": 0,
+        "games": 2,
+        "pa": 2,
+        "ab": 2,
         "hits": 0,
         "singles": 0,
         "doubles": 0,
@@ -27,7 +27,7 @@
         "rbi": 0,
         "runs": 0,
         "bb": 0,
-        "so": 0,
+        "so": 1,
         "sb": 0,
         "sf": 0,
         "totalBases": 0
@@ -59,16 +59,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 411,
-        "hits": 423,
-        "hr": 220,
-        "rbi": 377,
-        "avg": 1079,
-        "w": 1545,
-        "sv": 1533,
-        "so": 1597,
-        "era": 1079,
-        "whip": 63,
+        "rc": 1042,
+        "hits": 1525,
+        "hr": 1242,
+        "rbi": 1467,
+        "avg": 1081,
+        "w": 1524,
+        "sv": 1505,
+        "so": 1599,
+        "era": 1081,
+        "whip": 64,
         "fip": 0
       }
     }

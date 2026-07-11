@@ -2,15 +2,52 @@
   "id": "TRO021",
   "code": "TRO021",
   "name": "張家維",
-  "photo": "",
+  "photo": "https://lh3.googleusercontent.com/P8nN4dmrbsC-OaiY-3wYdarlWSY9q4NdvEnOrSYSTUCdhJRdxPgzMXITf9FVRDzP1g_cBOie9Obwf5L2I1BGp-mk1Ixc074UOUwPZeN9OMSXhKBuWF3dfqIAtC6uqJJUsVNKLMLbVuYhlehcPP6zzV-_07eN8Vhc66qIDzK_PkvLEUFxjvkappsE2_nVastGE_lSbR-zR1Zis6TR8tAimQsnoYnfLHWCB7r5qwWHJqq2MtyjBpLrJSsk2XEjIYxzo4ygWusZzCqWzHfqaqpIHfjsnC9g8vaBCZe7cvVRng743LgnGtzrqJ0-Epog9z7aqYYk57AOtXDtICkgMi0YXWrquSChQcijJpw0G-oLO3gkbFiXKgB1rwzLu_Y5jDMjo8AiNkhfGIEDrq52Y9na65q8SL20FcrDY8D38Cprjg2k8Lxe0Lt72npR2E8HCgXcfVMbSuo4II-qTcSyjlK_vQYv8XAAG9PsXxSZG7J2XGGIylzGgtskOziUh0wV-BO2zLnDxDHUcziPRqbnqiRTjwrCvgnv9ZbWm5hAB1_G4NieBghkQOJIJGLZsFekJ2OoJ1DhFR93cWjleW75bazPcrodjbY5aQJ0qrTEPNJx8l_DWkH1_Nh0lHCE7ELHGtHsYbKNJVHcARzFslhF2RE6OBelfyL78G-qdlQPjHe5HAgzOhxjLnAqXUM4vIi9C-nVZmti_eefkczgWX590P18OjVqg4s2OhmHt-JRlI81WZd_kjIj=w310-h335-no",
   "career": {
     "debut": 2016,
     "teams": [
       "楚奧特"
     ],
-    "totalSeasons": 9
+    "totalSeasons": 10
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "楚奧特",
+      "number": "66",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 611,
+        "hits": 458,
+        "hr": 158,
+        "rbi": 391,
+        "avg": 1081,
+        "w": 284,
+        "sv": 266,
+        "so": 365,
+        "era": 1081,
+        "whip": 1081,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "楚奧特",

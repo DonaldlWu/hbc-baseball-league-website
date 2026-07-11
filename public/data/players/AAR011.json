@@ -1,0 +1,52 @@
+{
+  "id": "AAR011",
+  "code": "AAR011",
+  "name": "鄭楷叡",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOhxdnQfd8JiSok3eAh7T4_GM90P4McydkLoelPZtuGh0FyST9MD94rFAq3CrXVPUE7WF0-h3-cln27iKFbM9kI3AqkmRXqQ1hcoxgYOTZTxLA_rp1jLc41ARWsYT3zOmLFvQBuFVIHr_3wrykCUDXWPQ=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "Aaron Prosecutor"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "Aaron Prosecutor",
+      "number": "101",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 261,
+        "hits": 219,
+        "hr": 1285,
+        "rbi": 1494,
+        "avg": 1081,
+        "w": 129,
+        "sv": 111,
+        "so": 210,
+        "era": 1081,
+        "whip": 1081,
+        "fip": 0
+      }
+    }
+  ]
+}

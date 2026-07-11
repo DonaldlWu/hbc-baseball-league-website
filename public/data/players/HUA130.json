@@ -2,15 +2,52 @@
   "id": "HUA130",
   "code": "HUA130",
   "name": "吳承軒",
-  "photo": "https://lh3.googleusercontent.com/pw/ADCreHfxCSeVYNrE32g-P-bChWkRZzAPjnDVf24B5SpngJbUjsaDT3IIDZYGiEJ19u68-mfVGuvIH4X4fyMftnd87kN0--KqDMC1VZ6-LODGwHZRmXbiDyMq-tIG8YM839_cNJqF-9-k0wY0lxmTInUH3R4=w310-h335-no",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMXVzIMpC9TDtQ6ki_vIIm1O7_u3Bf83tZwFIeA5uDHNl1KAPIcPY6QvVznxTf-KSF2sE6QP7YRG-we2PT6c5jR0VTk12HN2kAx3chzS7gju85nlw97RmXHqQcEkKm0bxpgS8m7VrbayVFtm0jd_2ztZA=w310-h335-no",
   "career": {
     "debut": 2023,
     "teams": [
       "華江OB"
     ],
-    "totalSeasons": 3
+    "totalSeasons": 4
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "華江OB",
+      "number": "80",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 270,
+        "hits": 205,
+        "hr": 1231,
+        "rbi": 1456,
+        "avg": 1081,
+        "w": 637,
+        "sv": 619,
+        "so": 718,
+        "era": 1081,
+        "whip": 1081,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "華江OB",

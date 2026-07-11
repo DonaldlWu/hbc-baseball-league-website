@@ -1,0 +1,76 @@
+{
+  "id": "MUZ095",
+  "code": "MUZ095",
+  "name": "陳宥軍",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMEZLUloodYWvde2Af5lFhLYt-J-tlWx3dCGbz-fOCdPqlbqzPaP4pAX2SXqRMvEZoQeqMVYQYZQ0ie9oaSHWBcrhrCIRd95OUNp7o6w0GDMGI6BBZISpKwqV-0QC3Gt4A_p2MjQs7b4TmqJm02wspn6w=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "木柵OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "木柵OB",
+      "number": "90",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 2,
+        "bf": 15,
+        "so": 4,
+        "bb": 5,
+        "h": 4,
+        "hr": 0,
+        "r": 4,
+        "er": 3,
+        "w": 0,
+        "l": 1,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 13.5,
+        "whip": 4.5,
+        "fip": 6.70000102,
+        "kPer9": 18,
+        "bbPer9": 22.5,
+        "hPer9": 18,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 1018,
+        "hits": 1492,
+        "hr": 1193,
+        "rbi": 1425,
+        "avg": 1081,
+        "w": 1570,
+        "sv": 1545,
+        "so": 42,
+        "era": 1081,
+        "whip": 854,
+        "fip": 71
+      }
+    }
+  ]
+}

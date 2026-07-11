@@ -1,0 +1,76 @@
+{
+  "id": "MOR102",
+  "code": "MOR102",
+  "name": "鄭永鈞",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOsPYy49rS-VIVfBP7QYyudefg3HAoGmJNW_YxQUEt_0xicZ8nDpauSQY4YuxLGmK5IvA4HkeNdPdO3WEhap2jkvEtQG9O1jDN8dWeH6fMI8w2rcIU0mWX-CsIjVjO3_0oTN1QGqpB1PVyMPZ1dH6dO=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "莫拉克"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "莫拉克",
+      "number": "102",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 4,
+        "bf": 23,
+        "so": 2,
+        "bb": 0,
+        "h": 9,
+        "hr": 0,
+        "r": 7,
+        "er": 4,
+        "w": 0,
+        "l": 1,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 9,
+        "whip": 2.25,
+        "fip": 2.200000164,
+        "kPer9": 4.5,
+        "bbPer9": 0,
+        "hPer9": 20.25,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 935,
+        "hits": 897,
+        "hr": 597,
+        "rbi": 830,
+        "avg": 1081,
+        "w": 1589,
+        "sv": 1572,
+        "so": 88,
+        "era": 1081,
+        "whip": 32,
+        "fip": 18
+      }
+    }
+  ]
+}

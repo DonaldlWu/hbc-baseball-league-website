@@ -14,23 +14,23 @@
     {
       "year": 2026,
       "team": "櫻砲魂",
-      "number": "57",
+      "number": "16",
       "batting": {
-        "games": 1,
-        "pa": 4,
-        "ab": 4,
-        "hits": 1,
+        "games": 2,
+        "pa": 8,
+        "ab": 7,
+        "hits": 2,
         "singles": 1,
-        "doubles": 0,
+        "doubles": 1,
         "triples": 0,
         "hr": 0,
-        "rbi": 0,
+        "rbi": 2,
         "runs": 1,
         "bb": 0,
-        "so": 3,
+        "so": 4,
         "sb": 0,
-        "sf": 0,
-        "totalBases": 1
+        "sf": 1,
+        "totalBases": 3
       },
       "pitching": {
         "games": 1,
@@ -59,16 +59,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 221,
-        "hits": 163,
-        "hr": 1447,
-        "rbi": 1557,
-        "avg": 1079,
-        "w": 1536,
-        "sv": 1525,
-        "so": 1592,
-        "era": 1079,
-        "whip": 501,
+        "rc": 226,
+        "hits": 167,
+        "hr": 1479,
+        "rbi": 118,
+        "avg": 1081,
+        "w": 1513,
+        "sv": 1495,
+        "so": 1594,
+        "era": 1081,
+        "whip": 269,
         "fip": 0
       }
     }

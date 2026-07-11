@@ -1,0 +1,52 @@
+{
+  "id": "MUZ094",
+  "code": "MUZ094",
+  "name": "黃湋喆",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMKeVPbmwRM31lw8kfU1ZjSs0W3uUBXhp7WVYLpQ53UnPFlHoZheWcy3R5CuBHXKbmtIiIfTcQru9120TfeIJl3o9XMhIuEuTj8XExFoFlZ2Hdbm3PA8kdSSDxQEfQsPzsKwemNFn1jUn2WS-PiAgxuKg=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "木柵OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "木柵OB",
+      "number": "20",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1059,
+        "hits": 1545,
+        "hr": 1287,
+        "rbi": 1496,
+        "avg": 1081,
+        "w": 255,
+        "sv": 237,
+        "so": 336,
+        "era": 1081,
+        "whip": 1081,
+        "fip": 0
+      }
+    }
+  ]
+}

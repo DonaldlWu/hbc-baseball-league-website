@@ -2,15 +2,76 @@
   "id": "HUA124",
   "code": "HUA124",
   "name": "吳宗熹",
-  "photo": "",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMHrTF1Mam5xSRsTfPQF3cZ1PEmWQpQtV3IIASukpQzoENsbY24nXcEZWz1WX5aVC81GTebC7jD-mSWfQcMSd50ZYhpkIvB8RFgBqVl2WrDo83Di0IvOvk9HnAOChD_FWQE3_SQzIHyp7anHyIkiiXlwA=w310-h335-no",
   "career": {
     "debut": 2022,
     "teams": [
       "華江OB"
     ],
-    "totalSeasons": 4
+    "totalSeasons": 5
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "華江OB",
+      "number": "98",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 3,
+        "bf": 13,
+        "so": 4,
+        "bb": 1,
+        "h": 3,
+        "hr": 0,
+        "r": 0,
+        "er": 0,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 0,
+        "whip": 1.3333333333333333,
+        "fip": 1.533333571,
+        "kPer9": 12,
+        "bbPer9": 3,
+        "hPer9": 9,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 904,
+        "hits": 711,
+        "hr": 411,
+        "rbi": 644,
+        "avg": 1081,
+        "w": 1579,
+        "sv": 1556,
+        "so": 43,
+        "era": 1081,
+        "whip": 10,
+        "fip": 10
+      }
+    },
     {
       "year": 2025,
       "team": "華江OB",

@@ -16,9 +16,9 @@
       "team": "櫻砲魂",
       "number": "98",
       "batting": {
-        "games": 5,
-        "pa": 13,
-        "ab": 10,
+        "games": 6,
+        "pa": 14,
+        "ab": 11,
         "hits": 3,
         "singles": 3,
         "doubles": 0,
@@ -27,7 +27,7 @@
         "rbi": 5,
         "runs": 3,
         "bb": 3,
-        "so": 2,
+        "so": 3,
         "sb": 0,
         "sf": 0,
         "totalBases": 3
@@ -35,16 +35,16 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 57,
-        "hits": 57,
-        "hr": 1592,
-        "rbi": 11,
+        "rc": 102,
+        "hits": 101,
+        "hr": 1555,
+        "rbi": 14,
         "avg": 75,
-        "w": 250,
-        "sv": 239,
-        "so": 306,
-        "era": 1079,
-        "whip": 1079,
+        "w": 235,
+        "sv": 217,
+        "so": 316,
+        "era": 1081,
+        "whip": 1081,
         "fip": 0
       }
     }

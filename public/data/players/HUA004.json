@@ -2,15 +2,52 @@
   "id": "HUA004",
   "code": "HUA004",
   "name": "林益民",
-  "photo": "",
+  "photo": "https://lh3.googleusercontent.com/j_vhyq8wAHJL7Ez6oidMfcRdTU0fJ5C3hRd_TuZ1G-btNXKHvHF_XWKQPpYmObo7B3Ray8m1q_YOOITq4ePy3ZKEsEmXlLEQ329h_q4dAejLL6JmpFMkCJrlpsduyAN0Sh_Yl4iwExm2T66a8Wg7hkGmZSC42LQxXYf_LG1bNEZzlbp86MBG-Ba0BuKwqU4QFTDsrZ0R3RysLlbRlxkus5FWSTcJkb7XnhcFtgLj4dtPXZrlvvN2I-8iUJMpgmh-wTttPhA1rTr0_4lz0ortWJIYk-iXPYebWaEC66_j32HFIhhPvWLvosoNy3q0PBUCGyZx0OCUuLz2Sh_LhH3cAuO4k_c_s9Bt4e-OQiSOpS0jZebdd-ml85x8WHFFB81eAsXA7hXvnuakcg9MliuRjrZxBquDTzJ_WOpX7NfBVPnkczlRX6nNkRi_h4nc016sSXzoxZuv3C8iKGnbDBnEVu09taoZtEPDotbq9Xh8nA1M9VJuvl6lkMqQ2q21SGh68x-HMxRjk5Fl-uMQJgrMjJ0kJfQx53HJhJ553sOG80ptrBzVIgqUS_s0xaGofoUo6sIn=w310-h335-no",
   "career": {
     "debut": 2012,
     "teams": [
       "華江OB"
     ],
-    "totalSeasons": 14
+    "totalSeasons": 15
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "華江OB",
+      "number": "77",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 247,
+        "hits": 199,
+        "hr": 1224,
+        "rbi": 88,
+        "avg": 1081,
+        "w": 638,
+        "sv": 620,
+        "so": 719,
+        "era": 1081,
+        "whip": 1081,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "華江OB",

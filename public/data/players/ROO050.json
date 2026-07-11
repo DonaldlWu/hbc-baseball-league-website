@@ -2,16 +2,54 @@
   "id": "ROO050",
   "code": "ROO050",
   "name": "于大為",
-  "photo": "",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczM3at0m6ap2e9nmk5oHJShA7bh5jqwBLpnTO7EXNJlrbSx26BvOtHLEsdHqvVwN-VH3jLKXriuPH64Hj2zoypYe5PoLJvBNRp6shB4mBsvJSrSlXCFnHKgxiaAz2HowHHlRkkGWnDfs8kb_MUp3ynkOYw=w310-h335-no",
   "career": {
     "debut": 2014,
     "teams": [
+      "Aaron Prosecutor",
       "Synergy",
       "ROOKIES"
     ],
-    "totalSeasons": 4
+    "totalSeasons": 5
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "Aaron Prosecutor",
+      "number": "9",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 350,
+        "hits": 407,
+        "hr": 107,
+        "rbi": 340,
+        "avg": 1081,
+        "w": 176,
+        "sv": 158,
+        "so": 257,
+        "era": 1081,
+        "whip": 1081,
+        "fip": 0
+      }
+    },
     {
       "year": 2017,
       "team": "Synergy",

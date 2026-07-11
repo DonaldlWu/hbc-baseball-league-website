@@ -2,52 +2,15 @@
   "id": "MUZ067",
   "code": "MUZ067",
   "name": "廖栢丞",
-  "photo": "https://lh3.googleusercontent.com/pw/AJFCJaVlxXR2QsGc99rlAOvlkJisgEz-BOFLhbV3LVFtDthfiH_ILs8xRsm4YtY6KHpac7Bjv1Zw8ZGYwsYlwtNcZ4lXqDsYCwwCzJpZOwJ9q1aoZJ4dh7xuJ0Oo3irxzy7iDL3iWq84e9zwApxt07oVTsc=w310-h335-no",
+  "photo": "",
   "career": {
     "debut": 2022,
     "teams": [
       "木柵OB"
     ],
-    "totalSeasons": 5
+    "totalSeasons": 4
   },
   "seasons": [
-    {
-      "year": 2026,
-      "team": "木柵OB",
-      "number": "58",
-      "batting": {
-        "games": 0,
-        "pa": 0,
-        "ab": 0,
-        "hits": 0,
-        "singles": 0,
-        "doubles": 0,
-        "triples": 0,
-        "hr": 0,
-        "rbi": 0,
-        "runs": 0,
-        "bb": 0,
-        "so": 0,
-        "sb": 0,
-        "sf": 0,
-        "totalBases": 0
-      },
-      "pitching": null,
-      "pitchingCalculated": null,
-      "rankings": {
-        "rc": 516,
-        "hits": 375,
-        "hr": 172,
-        "rbi": 329,
-        "avg": 1079,
-        "w": 231,
-        "sv": 220,
-        "so": 287,
-        "era": 1079,
-        "whip": 1079,
-        "fip": 0
-      }
-    },
     {
       "year": 2025,
       "team": "木柵OB",

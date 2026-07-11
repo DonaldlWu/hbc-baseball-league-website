@@ -2,78 +2,16 @@
   "id": "GEO063",
   "code": "GEO063",
   "name": "張緯程",
-  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOHsKJHMtclUCnySwUhA5FzwCzvQUNgYy5x3pS0rBCjnsg6mNKsbLZR5ZfJO7ZRfwlQ92Q5QPF9ZYV8CkIoEDlzsF0K0bOUbYX8heqfIS2Jzf4-FNZgxi7ad484PbarHDnfNO0UTQyN7m97lX2zBD2PQQ=w310-h335-no",
+  "photo": "",
   "career": {
     "debut": 2018,
     "teams": [
-      "Aaron Prosecutor",
       "台北大學",
       "台大地理OB"
     ],
-    "totalSeasons": 5
+    "totalSeasons": 4
   },
   "seasons": [
-    {
-      "year": 2026,
-      "team": "Aaron Prosecutor",
-      "number": "98",
-      "batting": {
-        "games": 1,
-        "pa": 0,
-        "ab": 0,
-        "hits": 0,
-        "singles": 0,
-        "doubles": 0,
-        "triples": 0,
-        "hr": 0,
-        "rbi": 0,
-        "runs": 0,
-        "bb": 0,
-        "so": 0,
-        "sb": 0,
-        "sf": 0,
-        "totalBases": 0
-      },
-      "pitching": {
-        "games": 1,
-        "ip": 2,
-        "bf": 13,
-        "so": 1,
-        "bb": 2,
-        "h": 5,
-        "hr": 0,
-        "r": 3,
-        "er": 1,
-        "w": 0,
-        "l": 0,
-        "sv": 1,
-        "hld": 0,
-        "cs": 0,
-        "csAttempts": 0
-      },
-      "pitchingCalculated": {
-        "era": 4.5,
-        "whip": 3.5,
-        "fip": 5.200001634,
-        "kPer9": 4.5,
-        "bbPer9": 9,
-        "hPer9": 22.5,
-        "csPercentage": 0
-      },
-      "rankings": {
-        "rc": 250,
-        "hits": 298,
-        "hr": 95,
-        "rbi": 252,
-        "avg": 1079,
-        "w": 1580,
-        "sv": 7,
-        "so": 77,
-        "era": 1079,
-        "whip": 45,
-        "fip": 41
-      }
-    },
     {
       "year": 2021,
       "team": "台北大學",

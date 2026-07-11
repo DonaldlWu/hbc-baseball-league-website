@@ -1,0 +1,76 @@
+{
+  "id": "HUA141",
+  "code": "HUA141",
+  "name": "陳昱廷",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczN4LwKmTm3QAuMIZOeH25z8yzWcdY10-OE9OTsJPbBdEZYjS3676XmqpLsmXN8vbaUhvL8gbrZ9e0k2UueRjm7mE9UkuGvnIcltS8tIYGJUhdVUpAcsymOdw8QGN2afRiYSR0L-Jd90h71nNQgj3st_lg=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "華江OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "華江OB",
+      "number": "0",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 2,
+        "bf": 8,
+        "so": 5,
+        "bb": 0,
+        "h": 2,
+        "hr": 0,
+        "r": 1,
+        "er": 1,
+        "w": 0,
+        "l": 0,
+        "sv": 1,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 4.5,
+        "whip": 1,
+        "fip": null,
+        "kPer9": 22.5,
+        "bbPer9": 0,
+        "hPer9": 9,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 912,
+        "hits": 719,
+        "hr": 419,
+        "rbi": 652,
+        "avg": 1081,
+        "w": 1557,
+        "sv": 7,
+        "so": 30,
+        "era": 1081,
+        "whip": 64,
+        "fip": 1
+      }
+    }
+  ]
+}

@@ -11,7 +11,7 @@
       "颶風",
       "自轉棒球"
     ],
-    "totalSeasons": 14
+    "totalSeasons": 15
   },
   "seasons": [
     {
@@ -38,16 +38,53 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 133,
-        "hits": 79,
-        "hr": 1444,
-        "rbi": 1554,
-        "avg": 1079,
-        "w": 510,
-        "sv": 499,
-        "so": 566,
-        "era": 1079,
-        "whip": 1079,
+        "rc": 197,
+        "hits": 136,
+        "hr": 1349,
+        "rbi": 1530,
+        "avg": 1081,
+        "w": 495,
+        "sv": 477,
+        "so": 576,
+        "era": 1081,
+        "whip": 1081,
+        "fip": 0
+      }
+    },
+    {
+      "year": 2026,
+      "team": "楚奧特",
+      "number": "19",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 641,
+        "hits": 488,
+        "hr": 188,
+        "rbi": 421,
+        "avg": 1081,
+        "w": 327,
+        "sv": 309,
+        "so": 408,
+        "era": 1081,
+        "whip": 1081,
         "fip": 0
       }
     },

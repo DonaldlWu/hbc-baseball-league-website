@@ -2,10 +2,11 @@
   "id": "NAN103",
   "code": "NAN103",
   "name": "歐陽友",
-  "photo": "https://lh3.googleusercontent.com/276U7xbBKQRQgGlgokOkCflzRun3k6kbbzZK1pe37BgD4aWsvzcG9VTmsqaHnydZjaKSkOaJEFJgBsxp54NJ6_Gg0PuTYSsdftLP_TBxKgwp9782OTlB3APoI37ZHCyTGUQSEdR4fVSPPx9NRdPUKfYRkLmQ8YFO6SSq1Xb5gpuDqc8gZkRA9Eb6uOHo-9YEFnphc7x9TgZbxrU8GHfNW1m4LK6p-XuJrLpnbZlfA-JHobtlAGn8YdoU2_ixfIEuorBpdWns9uWlkpGE0PwnnDeQhqSzpm_SysFD1CGsDm5C4ytDs2rQta9JTuAi6TuiW5KK0ysUzwpB3nmZ-VHF9PeCjiMfDNavgsoPfVnpaOb4h40KBix0SyV5FOI2kYEDAJByjd-esRruTXcKy8w6oBkHNjzgeip58yeDxZ8PnLkDjrgzSCQFm3fVgv96nTLTQA0wFBmk5KhqtN_PezHreJ63G6ReOffFn8sGiRVRfEpCoGbJ2_RA26Z8L9xe1NijtKTjFNZLrnhNw9O4teZkHjyn-PCcepgiNgnpilJPNP1w9VRk6AiO_WBwI_XKfb5uPZK1WStTZ3by4iAf-G3shzlg1CXsFUcP23Mkf3uAseOf7qR8ENLjp1mmFlQ6XsHkIPcL6O56Y4a-hwbxfeagRgQrWLUI9MP3eec=w310-h335-no",
+  "photo": "https://lh3.googleusercontent.com/YY3NTeNoub7fMy74D08aL8BNEWfPtRmD9CgDpSizSpmBsBTZeGjFtoQaz2cTG6oGRCGRS5Ke5rEQ9Ov8Lx85xKPRWFEsK0hL3NGSeR6EF0sbZedAQ9ia1H9KFz4WAw9jM7NZ8-K5XI5_YRqq-e7FpDux-vNqk_se3ji-tJ29vKj51en9t5fZ4dXAFCfvV4QlOF9HSYhggv68Dfm7c1srYDrRhg-xtMtyV45QHoaCTE7IAnn9arle5IpYCTy4lqrVGPFXjuyZSuEom5lAWQqSGbz8mi9Np7at9cX7DD3BlESgQPpVwOm4JMURIjVqBUUyYF2MKbBOKTHUCHLwY1LyxJVmF14uaGnhUZBOq9p9ifqZiA-PUrxQOoOHu8m4G81eIAfXvIaNkPFWENnGxXul35JOjaeN4pogJmX6FXnOoWevkIN1GCvWJ8zmDri-0hdGfUDKAa8oyqysy5iZ7QTqksRc2J9RRP1fYihnOsgmRTB3vQUhUFY514gM8zN9Tq1uf4fgODD933GzbmDq3n3YyITHSDI_q8rTjzA7lLkxRYxdem1bLhxZaruj4QdB9uzLITm1SZ2ngzDTNhiUxZc3Rsax8AMvQ-g_I3g33j7WKH_YkIVDuloaW51dy1gGJreBXz_6GMerUxpRmRQ_ywlocqrH3Ndsa4PycgqMD9rFRIlzNkZxQ8HX3kGGg4nHNw=w450-h650",
   "career": {
     "debut": 2017,
     "teams": [
+      "Mechanics",
       "Line Drive",
       "ROOKIES",
       "戊戍本一家",
@@ -16,8 +17,8 @@
   "seasons": [
     {
       "year": 2026,
-      "team": "Line Drive",
-      "number": "39",
+      "team": "Mechanics",
+      "number": "74",
       "batting": {
         "games": 0,
         "pa": 0,
@@ -38,16 +39,16 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 884,
-        "hits": 680,
-        "hr": 477,
-        "rbi": 634,
-        "avg": 1079,
-        "w": 626,
-        "sv": 615,
-        "so": 682,
-        "era": 1079,
-        "whip": 1079,
+        "rc": 822,
+        "hits": 910,
+        "hr": 610,
+        "rbi": 843,
+        "avg": 1081,
+        "w": 897,
+        "sv": 879,
+        "so": 978,
+        "era": 1081,
+        "whip": 1081,
         "fip": 0
       }
     },

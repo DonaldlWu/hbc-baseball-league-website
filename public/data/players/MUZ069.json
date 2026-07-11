@@ -16,7 +16,7 @@
       "team": "木柵OB",
       "number": "61",
       "batting": {
-        "games": 0,
+        "games": 2,
         "pa": 0,
         "ab": 0,
         "hits": 0,
@@ -32,20 +32,44 @@
         "sf": 0,
         "totalBases": 0
       },
-      "pitching": null,
-      "pitchingCalculated": null,
+      "pitching": {
+        "games": 2,
+        "ip": 4,
+        "bf": 26,
+        "so": 5,
+        "bb": 4,
+        "h": 9,
+        "hr": 0,
+        "r": 7,
+        "er": 5,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 11.25,
+        "whip": 3.25,
+        "fip": 3.700001005,
+        "kPer9": 11.25,
+        "bbPer9": 9,
+        "hPer9": 20.25,
+        "csPercentage": 0
+      },
       "rankings": {
-        "rc": 539,
-        "hits": 400,
-        "hr": 197,
-        "rbi": 354,
-        "avg": 1079,
-        "w": 259,
-        "sv": 248,
-        "so": 315,
-        "era": 1079,
-        "whip": 1079,
-        "fip": 0
+        "rc": 567,
+        "hits": 443,
+        "hr": 143,
+        "rbi": 376,
+        "avg": 1081,
+        "w": 1591,
+        "sv": 1575,
+        "so": 35,
+        "era": 1081,
+        "whip": 53,
+        "fip": 41
       }
     },
     {

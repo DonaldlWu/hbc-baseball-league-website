@@ -14,7 +14,7 @@
     {
       "year": 2026,
       "team": "少林棒球隊",
-      "number": "39",
+      "number": "22",
       "batting": {
         "games": 3,
         "pa": 7,
@@ -35,16 +35,16 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 64,
-        "hits": 46,
-        "hr": 1518,
-        "rbi": 1597,
-        "avg": 33,
-        "w": 886,
-        "sv": 875,
-        "so": 942,
-        "era": 1079,
-        "whip": 1079,
+        "rc": 109,
+        "hits": 83,
+        "hr": 1446,
+        "rbi": 1585,
+        "avg": 1081,
+        "w": 910,
+        "sv": 892,
+        "so": 991,
+        "era": 1081,
+        "whip": 1081,
         "fip": 0
       }
     },

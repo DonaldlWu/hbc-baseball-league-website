@@ -2,15 +2,52 @@
   "id": "TRO035",
   "code": "TRO035",
   "name": "洪崇恩",
-  "photo": "",
+  "photo": "https://lh3.googleusercontent.com/3cvGHC6J1GavqxBUwACtSXnS8Vrp1O5UKQtg15miY7lWF0T3uhk_ZO5V0jlL05G_-Y3tr2UtbJaRtWakk08EL7Qt4RnBk9a2h9orypbrDjRDOJAZtBGnPB1NukMAgHTL4wdyjiP6bIlcMc0qHdyq-CIkIoGneR1R2tKHayKV6J6hq1Fww9fCbqFeqhnmup2a2kIn5-d4V9maIJen66jtFHVwSyBQR6UX-pzzW4CdBULxRfASrhhxCzjNl40WIOQz5wI0DYeMk8qF8m8chJ9VYYK7tslyDI1CiQF8wU3s2dEUm9Vo5K4bonlmd-mIpdV9ih4bBqJRuRXgINfrazXBJA4xFMs2z4Cy1f0NBzfHHC69dQlNJtms5_fJQQqV1-OUKDjrBPRYZ0kh8ii3aIpMI9DS3CKWvor7Ddh6XO43yF0jOgVgEgaKPCDZawsOFWAS27vhhAX0hPcr27Xjr0-HEPik1ISOAWWI0BD77XvtijmulBwdMIPizrSDef7cimKPMANz56k1nCLioUoZU4VkSB9tiPgez69kylXH3ZqKZNsDgX60KL3h05zQK-NiDlxrE8WHkuWdeYmjKDer9XTd6X1ARSGJm27mOO__XKPcZdkBXdPUFjnSjW3JyKlgtusEuwhPEhCzY0XT5fPZFlNvC__q9irZy2Kan7mtF2M4UDHpcyXZyfkBWq4ULHxYUA9Jwj0Bpt7swtrRhsKyTRh5K7EC5Bc87mmmsusKn_0q0sQ159S7=w310-h335-no",
   "career": {
     "debut": 2016,
     "teams": [
       "楚奧特"
     ],
-    "totalSeasons": 10
+    "totalSeasons": 11
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "楚奧特",
+      "number": "52",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 615,
+        "hits": 462,
+        "hr": 162,
+        "rbi": 395,
+        "avg": 1081,
+        "w": 289,
+        "sv": 271,
+        "so": 370,
+        "era": 1081,
+        "whip": 1081,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "楚奧特",

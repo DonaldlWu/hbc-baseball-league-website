@@ -2,52 +2,15 @@
   "id": "MUZ008",
   "code": "MUZ008",
   "name": "施宗佑",
-  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMrzK_qjbhf7O5Rg3HhE0Oid4Wasr_fwJo6c88LwnJ9J4ldVgjk3qfq9NUVND9pAXs_GI5BJzpHO4reA26rD-jJGC6SwZGV85evXBD0NUNgnQZwH4oCTPqlxEoF8sYgnOzty1kMRrkTTD8EjtfFb6c=w310-h335-no",
+  "photo": "",
   "career": {
     "debut": 2017,
     "teams": [
       "木柵OB"
     ],
-    "totalSeasons": 7
+    "totalSeasons": 6
   },
   "seasons": [
-    {
-      "year": 2026,
-      "team": "木柵OB",
-      "number": "9",
-      "batting": {
-        "games": 0,
-        "pa": 0,
-        "ab": 0,
-        "hits": 0,
-        "singles": 0,
-        "doubles": 0,
-        "triples": 0,
-        "hr": 0,
-        "rbi": 0,
-        "runs": 0,
-        "bb": 0,
-        "so": 0,
-        "sb": 0,
-        "sf": 0,
-        "totalBases": 0
-      },
-      "pitching": null,
-      "pitchingCalculated": null,
-      "rankings": {
-        "rc": 529,
-        "hits": 388,
-        "hr": 185,
-        "rbi": 342,
-        "avg": 1079,
-        "w": 244,
-        "sv": 233,
-        "so": 300,
-        "era": 1079,
-        "whip": 1079,
-        "fip": 0
-      }
-    },
     {
       "year": 2025,
       "team": "木柵OB",

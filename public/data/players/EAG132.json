@@ -2,15 +2,52 @@
   "id": "EAG132",
   "code": "EAG132",
   "name": "王文朋",
-  "photo": "https://lh3.googleusercontent.com/pw/AP1GczM_Iy4zfmpGxtQod0851sqJVKTgdNtF2cNndfWbYZ-8l7L23ZaoC-XzDK6uAlaZyPhBVIutjkRzTdAVbsc5JTymMySQqoJtx7RpX6hLvY-gmH8YOQBSSzJKPHmPt3LFLNIa8D4k4Xc8tEVpDvnukI4=w310-h335-no",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPu7pXjKiSNlEIjA2zKr_5YEHGSl9bB5cM9DjM4pGgP5B9bk68RIOfVETPhBuZk4BHD2y5x-WapCP65cLwvVqm1_BTWsO5oRaGsKmopB6-xuGtu8q3cmAvnn8882baOnWlqYkhKueX1OnqHyJE5SmA=w310-h335-no",
   "career": {
     "debut": 2024,
     "teams": [
       "火把老鷹"
     ],
-    "totalSeasons": 1
+    "totalSeasons": 2
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "火把老鷹",
+      "number": "103",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 2,
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 196,
+        "hits": 131,
+        "hr": 1335,
+        "rbi": 98,
+        "avg": 1081,
+        "w": 442,
+        "sv": 424,
+        "so": 523,
+        "era": 1081,
+        "whip": 1081,
+        "fip": 0
+      }
+    },
     {
       "year": 2024,
       "team": "火把老鷹",

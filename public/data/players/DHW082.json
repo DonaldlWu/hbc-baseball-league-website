@@ -1,0 +1,52 @@
+{
+  "id": "DHW082",
+  "code": "DHW082",
+  "name": "呂維釜",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPFYJc3dV6sdgaFgrA7F8eJMPLlr35evHN9zk-izOoAVq3Gch0NxP4QiqpDFRTw3idkZ5_6nGcEspU3NijV2e0DkVrTe3CG45WhqVDhvK6mHp7hj05_uCZ4wVX2lKOk0DmIKixQ5_ko7dnD5IBbYBdvow=w227-h304",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "DH戰將"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "DH戰將",
+      "number": "55",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1034,
+        "hits": 1532,
+        "hr": 1250,
+        "rbi": 1475,
+        "avg": 1081,
+        "w": 886,
+        "sv": 868,
+        "so": 967,
+        "era": 1081,
+        "whip": 1081,
+        "fip": 0
+      }
+    }
+  ]
+}

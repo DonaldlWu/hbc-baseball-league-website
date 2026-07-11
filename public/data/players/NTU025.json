@@ -2,16 +2,53 @@
   "id": "NTU025",
   "code": "NTU025",
   "name": "吳忠承",
-  "photo": "",
+  "photo": "https://lh3.googleusercontent.com/pw/ACtC-3eukot9UyFTDKBCf7Q_2iDSpmtOwQpBpM7w1mmyiUS6O-rkCNZMIfLD0GLJk25y4qViGfDmpFvCkZRgik-vKEEwWyPpFyKE8C72fEgnnDG1asq_jaqTBrhXBgrL_H94ipc1T2AQyBhVrer42_riCZdU=w310-h335-no",
   "career": {
     "debut": 2013,
     "teams": [
       "楚奧特",
       "台大化工OB"
     ],
-    "totalSeasons": 13
+    "totalSeasons": 14
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "楚奧特",
+      "number": "76",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 609,
+        "hits": 456,
+        "hr": 156,
+        "rbi": 389,
+        "avg": 1081,
+        "w": 282,
+        "sv": 264,
+        "so": 363,
+        "era": 1081,
+        "whip": 1081,
+        "fip": 0
+      }
+    },
     {
       "year": 2025,
       "team": "楚奧特",

@@ -1,0 +1,52 @@
+{
+  "id": "NTH068",
+  "code": "NTH068",
+  "name": "李建樂",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPZm2Iw_92fPKfovVqZWaY8nUljqgIrs16rSoBr6HDcquLC3WaYP5WWA-tai852_d7o7h3UqkeX_QzLesy5BwdhgkyuP6sgKM1T23c9djBtB9T3esVyMDG38rOYUqdsrnIj4UkNdFBBplhIJ_9XF53n=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "台大醫學院棒",
+      "number": "3",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1061,
+        "hits": 1552,
+        "hr": 1300,
+        "rbi": 1509,
+        "avg": 1081,
+        "w": 969,
+        "sv": 951,
+        "so": 1050,
+        "era": 1081,
+        "whip": 1081,
+        "fip": 0
+      }
+    }
+  ]
+}
