@@ -735,7 +735,7 @@
       "timeSlot": "中午",
       "startTime": "13:00",
       "endTime": "15:30",
-      "status": "scheduled",
+      "status": "rain",
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
@@ -748,7 +748,7 @@
       "timeSlot": "下午",
       "startTime": "15:30",
       "endTime": "18:00",
-      "status": "scheduled",
+      "status": "rain",
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
@@ -761,7 +761,7 @@
       "timeSlot": "中午",
       "startTime": "13:00",
       "endTime": "15:30",
-      "status": "scheduled",
+      "status": "rain",
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
@@ -774,7 +774,7 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "scheduled",
+      "status": "rain",
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
@@ -852,7 +852,7 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "scheduled",
+      "status": "rain",
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
@@ -865,7 +865,7 @@
       "timeSlot": "下午",
       "startTime": "14:30",
       "endTime": "17:00",
-      "status": "scheduled",
+      "status": "rain",
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
@@ -878,7 +878,7 @@
       "timeSlot": "晚上",
       "startTime": "18:30",
       "endTime": "21:30",
-      "status": "scheduled",
+      "status": "rain",
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
