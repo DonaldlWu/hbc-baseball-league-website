@@ -50,3 +50,6 @@ data/raw/
 # 使用遠端圖片 + Next.js Image Optimization cache
 public/images/players/
 .worktrees/
+
+# Claude Code 本地個人設定（權限記錄等，machine-specific）
+.claude/settings.local.json
