@@ -79,22 +79,26 @@ https://docs.google.com/spreadsheets/d/1Xy8-e0YJfO89HgbmmeK-JMlArs0x8-hCjDPifLCK
 - `awayScore` → 整數
 - `sheetId` → ID 字串（待補的維持 `""`）
 
-**⚠️ 季後賽場次額外步驟（gameNumber 符合 `^\d{8}G\d+$`）：**
+**⚠️ 季後賽場次（gameNumber 符合 `^\d{8}G\d+$`）：籤表通常「不需要」手動更新**
 
-寫入 `seasons/YYYYpostseason.json` 後，**必須同步更新** `public/data/postseason/YYYY.json` 的籤表資料：
+季後賽資料分兩張 JSON，分工如下：
 
-1. 讀取 `public/data/postseason/YYYY.json`（YYYY 取 gameNumber 前四碼）
-2. 在 `rounds` 中找到包含此 gameNumber 的 matchup
-3. 在 matchup 的 `games` 陣列中，找到對應 gameNumber 的 game entry，補填：
-   - `winner`：比對 homeTeam/awayTeam 與 matchup 的 team1/team2 決定
-   - `homeScore` / `awayScore`
-4. 呼叫 `calcMatchupResult` 邏輯重算系列賽結果：
-   - 統計 games 中 `winner === 'team1'` 與 `winner === 'team2'` 的場數
-   - 達到 `bestOf` 所需勝場（`Math.ceil(bestOf / 2)`）→ 更新 matchup `winner` 與 `status: "completed"`
-   - 尚未分出勝負 → `winner: null`，`status: "in_progress"`
-5. 更新 `lastUpdated`，寫回檔案，驗證 JSON 格式
+| 檔案 | 內容 | 何時手動更新 |
+|------|------|-------------|
+| `seasons/YYYYpostseason.json` | 比賽結果（比分、狀態、延賽記錄） | 每次結果更新（本 skill 的主要工作） |
+| `postseason/YYYY.json` | 籤表**靜態結構**（rounds 定義 + R16 seed 配對與 games 登錄） | 僅當 gameNumber 已明確登錄在某 matchup 的 games 陣列時（目前只有 R16） |
 
-> 若 gameNumber 尚未出現在任何 matchup 的 games 陣列中，表示籤表資料尚未設定，**提醒使用者手動確認** `public/data/postseason/YYYY.json` 是否需要補上此場次。
+`src/lib/postseasonLoader.ts` 載入時會**動態推導**，不依賴籤表中的靜態結果：
+- R16 隊伍由 standings 排名推導（seed N = 第 N 名），winner/status 由比賽結果即時計算
+- **R8 matchups 為空時自動生成**：從 R16 勝者依序配對，並以「隊名比對」從 `seasons/YYYYpostseason.json` 自動找到對應場次計算勝負；每組 matchup 自帶主場優勢 byeGame（team1 +1 勝，bestOf 3 需 2 勝）
+- **四強勝部第一輪（top4-w1）matchups 為空時**同樣自動從 R8 勝者生成
+
+判斷流程：
+1. 讀取 `public/data/postseason/YYYY.json`（YYYY 取 gameNumber 前四碼），檢查此 gameNumber 是否出現在任一 matchup 的 `games` 陣列
+2. **有登錄**（目前僅 R16）→ 同步該 matchup：補填 game entry 的 `winner`（比對 team1/team2）與 `homeScore`/`awayScore`，依 `calcMatchupResult` 邏輯重算系列賽 `winner` 與 `status`（達 `Math.ceil(bestOf / 2)` 勝 → `completed`），更新 `lastUpdated` 並驗證 JSON
+3. **未登錄**（R8、top4-w1 的自動生成場次）→ **不需要**更新籤表檔，結果由 loader 自動推導；**不要**誤判為「籤表缺資料」而提醒使用者補籤表
+
+> ⚠️ 已知限制：四強敗部、勝部/敗部決賽、總冠軍戰（top4-w1 之後的 rounds）loader 尚未支援自動生成 matchups。屆時若賽果無法顯示於籤表頁，優先考慮擴充 `postseasonLoader` 的自動推導，而非手動維護靜態籤表。
 
 **standings 自動重算（source === "calculated" 時）：**
 
@@ -195,7 +199,7 @@ chore: 更新 N 場比賽結果 (YYYY-MM-DD 週報)
 2. 若 `standings.source === "calculated"` 且 status 改為 `finished`：從所有已完賽比賽重算並替換 `standings.teams`，並套用 `standings.adjustments`（邏輯同批量模式）
 3. 更新頂層 `lastUpdated`
 4. 驗證 JSON 格式
-5. **若為季後賽場次**：同步更新 `public/data/postseason/YYYY.json` 籤表（邏輯同批量模式 Step 3）
+5. **若為季後賽場次**：依批量模式 Step 3 的判斷流程處理——gameNumber 已登錄在籤表 matchup 的 games 陣列（目前僅 R16）才同步 `public/data/postseason/YYYY.json`；R8 之後的自動生成場次**不需要**動籤表
 
 ### Step 4：摘要確認與 commit
 
