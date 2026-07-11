@@ -584,6 +584,7 @@ function GameCard({ game, highlightTeam, date }: { game: Game; highlightTeam?: s
     上午: 'bg-amber-50 border-amber-200 text-amber-700',
     中午: 'bg-orange-50 border-orange-200 text-orange-700',
     下午: 'bg-red-50 border-red-200 text-red-700',
+    晚上: 'bg-indigo-50 border-indigo-200 text-indigo-700',
   };
 
   // 判斷是否需要高亮球隊

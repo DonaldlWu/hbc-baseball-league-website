@@ -256,7 +256,7 @@ export interface AnnouncementsData {
 }
 
 // 賽程時段
-export type TimeSlot = '上午' | '中午' | '下午';
+export type TimeSlot = '上午' | '中午' | '下午' | '晚上';
 
 // 單場比賽
 export interface Game {

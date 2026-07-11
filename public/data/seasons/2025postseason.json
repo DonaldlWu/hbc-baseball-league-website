@@ -1,9 +1,9 @@
 {
   "season": 2025,
-  "lastUpdated": "2026-06-15",
+  "lastUpdated": "2026-07-11",
   "calendarRange": {
     "start": "2026-04",
-    "end": "2026-06"
+    "end": "2026-07"
   },
   "standings": {
     "source": "manual",
@@ -241,6 +241,13 @@
           "timeSlot": "下午",
           "startTime": "14:30",
           "endTime": "17:00"
+        },
+        {
+          "date": "2026-07-04",
+          "venue": "中正A",
+          "timeSlot": "下午",
+          "startTime": "14:00",
+          "endTime": "17:00"
         }
       ]
     },
@@ -265,10 +272,19 @@
       "timeSlot": "下午",
       "startTime": "15:30",
       "endTime": "18:00",
-      "status": "scheduled",
+      "status": "rain",
       "homeScore": null,
       "awayScore": null,
-      "sheetId": ""
+      "sheetId": "",
+      "rescheduledDates": [
+        {
+          "date": "2026-07-18",
+          "venue": "中正A",
+          "timeSlot": "下午",
+          "startTime": "14:30",
+          "endTime": "17:00"
+        }
+      ]
     }
   }
 }
