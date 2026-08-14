@@ -245,42 +245,49 @@ function enrichGeneratedMatchup(
   };
 }
 
-/**
- * 從已 enrich 的 r8 matchups 生成四強勝部第一輪 matchup stubs
- * 配對規則：pair[i] = r8[i*2] winner vs r8[i*2+1] winner
- * 尚未決出勝者的席位使用 TBD entry
- */
-export function generateTop4W1Stubs(
-  r8Matchups: PostseasonMatchup[],
+function getMatchupWinner(matchup: PostseasonMatchup): PostseasonTeamEntry {
+  if (!matchup.winner) return TBD_ENTRY;
+  return matchup.winner === 'team1' ? matchup.team1 : matchup.team2;
+}
+
+function getMatchupLoser(matchup: PostseasonMatchup): PostseasonTeamEntry {
+  if (!matchup.winner) return TBD_ENTRY;
+  return matchup.winner === 'team1' ? matchup.team2 : matchup.team1;
+}
+
+function makeMatchupStub(
+  matchupId: string,
+  team1: PostseasonTeamEntry,
+  team2: PostseasonTeamEntry,
+  initialGames: PostseasonGame[] = [],
+): PostseasonMatchup {
+  return {
+    matchupId,
+    seed1: 0,
+    seed2: 0,
+    team1,
+    team2,
+    games: initialGames,
+    winner: null,
+    status: 'pending',
+  };
+}
+
+function enrichAndTrack(
+  stubs: PostseasonMatchup[],
+  scheduleMap: Map<string, SeasonGame>,
+  bestOf: number,
+  excludedGameNumbers: Set<string>,
 ): PostseasonMatchup[] {
-  const pairCount = Math.floor(r8Matchups.length / 2);
-  const stubs: PostseasonMatchup[] = [];
-
-  for (let i = 0; i < pairCount; i++) {
-    const left = r8Matchups[i * 2];
-    const right = r8Matchups[i * 2 + 1];
-
-    const team1 = left?.winner
-      ? (left.winner === 'team1' ? left.team1 : left.team2)
-      : TBD_ENTRY;
-
-    const team2 = right?.winner
-      ? (right.winner === 'team1' ? right.team1 : right.team2)
-      : TBD_ENTRY;
-
-    stubs.push({
-      matchupId: `top4-w1-gen-${i}`,
-      seed1: 0,
-      seed2: 0,
-      team1,
-      team2,
-      games: [],
-      winner: null,
-      status: 'pending',
-    });
+  const enriched = stubs.map((stub) =>
+    enrichGeneratedMatchup(stub, scheduleMap, bestOf, excludedGameNumbers)
+  );
+  for (const matchup of enriched) {
+    for (const game of matchup.games) {
+      if (game.gameNumber) excludedGameNumbers.add(game.gameNumber);
+    }
   }
-
-  return stubs;
+  return enriched;
 }
 
 /**
@@ -325,7 +332,6 @@ export async function loadPostseasonData(year: number): Promise<PostseasonData> 
   // Find rounds used for generated matchup stubs
   const r16Round = raw.rounds.find((r) => r.roundId === 'r16');
   const r8Round = raw.rounds.find((r) => r.roundId === 'r8');
-  const top4W1Round = raw.rounds.find((r) => r.roundId === 'top4-w1');
 
   const enrichedRounds: PostseasonRound[] = raw.rounds.map((round) => ({
     ...round,
@@ -417,17 +423,72 @@ export async function loadPostseasonData(year: number): Promise<PostseasonData> 
     }
   }
 
-  // Auto-generate top4 W1 stubs from r8 winners when W1 has no explicit matchups.
+  // Auto-generate phase2 (top4) rounds when matchups are empty
+  const top4W1Round = raw.rounds.find((r) => r.roundId === 'top4-w1');
+  const top4L1Round = raw.rounds.find((r) => r.roundId === 'top4-l1');
+  const top4W2Round = raw.rounds.find((r) => r.roundId === 'top4-w2');
+  const top4L2Round = raw.rounds.find((r) => r.roundId === 'top4-l2');
+  const top4ChampRound = raw.rounds.find((r) => r.roundId === 'top4-championship');
+
   if (top4W1Round && top4W1Round.matchups.length === 0) {
     const enrichedR8 = enrichedRounds.find((r) => r.roundId === 'r8');
-    if (enrichedR8) {
-      const stubs = generateTop4W1Stubs(enrichedR8.matchups);
-      const top4W1RoundIndex = enrichedRounds.findIndex((r) => r.roundId === 'top4-w1');
-      if (top4W1RoundIndex !== -1) {
-        enrichedRounds[top4W1RoundIndex] = {
-          ...enrichedRounds[top4W1RoundIndex],
-          matchups: stubs,
-        };
+    if (enrichedR8 && enrichedR8.matchups.length >= 4) {
+      // Running exclude set: R16 registered games + R8 auto-assigned games
+      const excludedGames = getReferencedGameNumbers(enrichedRounds);
+      for (const m of enrichedR8.matchups) {
+        for (const g of m.games) {
+          if (g.gameNumber) excludedGames.add(g.gameNumber);
+        }
+      }
+
+      // top4-w1: R8 winners paired
+      const w1Stubs = [
+        makeMatchupStub('top4-w1-gen-0', getMatchupWinner(enrichedR8.matchups[0]), getMatchupWinner(enrichedR8.matchups[1])),
+        makeMatchupStub('top4-w1-gen-1', getMatchupWinner(enrichedR8.matchups[2]), getMatchupWinner(enrichedR8.matchups[3])),
+      ];
+      const enrichedW1 = enrichAndTrack(w1Stubs, scheduleMap, top4W1Round.bestOf, excludedGames);
+      const w1Idx = enrichedRounds.findIndex((r) => r.roundId === 'top4-w1');
+      if (w1Idx !== -1) enrichedRounds[w1Idx] = { ...enrichedRounds[w1Idx], matchups: enrichedW1 };
+
+      if (top4L1Round && top4L1Round.matchups.length === 0 && enrichedW1.length >= 2) {
+        // top4-l1: W1 losers vs each other
+        const l1Stubs = [makeMatchupStub('top4-l1-gen-0', getMatchupLoser(enrichedW1[0]), getMatchupLoser(enrichedW1[1]))];
+        const enrichedL1 = enrichAndTrack(l1Stubs, scheduleMap, top4L1Round.bestOf, excludedGames);
+        const l1Idx = enrichedRounds.findIndex((r) => r.roundId === 'top4-l1');
+        if (l1Idx !== -1) enrichedRounds[l1Idx] = { ...enrichedRounds[l1Idx], matchups: enrichedL1 };
+
+        if (top4W2Round && top4W2Round.matchups.length === 0) {
+          // top4-w2: W1 winners vs each other
+          const w2Stubs = [makeMatchupStub('top4-w2-gen-0', getMatchupWinner(enrichedW1[0]), getMatchupWinner(enrichedW1[1]))];
+          const enrichedW2 = enrichAndTrack(w2Stubs, scheduleMap, top4W2Round.bestOf, excludedGames);
+          const w2Idx = enrichedRounds.findIndex((r) => r.roundId === 'top4-w2');
+          if (w2Idx !== -1) enrichedRounds[w2Idx] = { ...enrichedRounds[w2Idx], matchups: enrichedW2 };
+
+          if (top4L2Round && top4L2Round.matchups.length === 0 && enrichedL1.length >= 1) {
+            // top4-l2: W2 loser vs L1 winner (losers bracket revival)
+            const l2Stubs = [makeMatchupStub('top4-l2-gen-0', getMatchupLoser(enrichedW2[0]), getMatchupWinner(enrichedL1[0]))];
+            const enrichedL2 = enrichAndTrack(l2Stubs, scheduleMap, top4L2Round.bestOf, excludedGames);
+            const l2Idx = enrichedRounds.findIndex((r) => r.roundId === 'top4-l2');
+            if (l2Idx !== -1) enrichedRounds[l2Idx] = { ...enrichedRounds[l2Idx], matchups: enrichedL2 };
+
+            if (top4ChampRound && top4ChampRound.matchups.length === 0 && enrichedL2.length >= 1) {
+              // top4-championship: W2 winner (winners bracket) gets byeGame advantage vs L2 winner
+              const champByeGame: PostseasonGame = {
+                gameSeq: 1, byeGame: true, winner: 'team1',
+                homeScore: null, awayScore: null, gameNumber: null, note: '勝部優勢',
+              };
+              const champStub = makeMatchupStub(
+                'top4-champ-gen-0',
+                getMatchupWinner(enrichedW2[0]),
+                getMatchupWinner(enrichedL2[0]),
+                [champByeGame],
+              );
+              const enrichedChamp = enrichAndTrack([champStub], scheduleMap, top4ChampRound.bestOf, excludedGames);
+              const champIdx = enrichedRounds.findIndex((r) => r.roundId === 'top4-championship');
+              if (champIdx !== -1) enrichedRounds[champIdx] = { ...enrichedRounds[champIdx], matchups: enrichedChamp };
+            }
+          }
+        }
       }
     }
   }
