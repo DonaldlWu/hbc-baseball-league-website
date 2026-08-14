@@ -1,0 +1,76 @@
+{
+  "id": "PMA077",
+  "code": "PMA077",
+  "name": "田兆崴",
+  "photo": "",
+  "career": {
+    "debut": 2020,
+    "teams": [
+      "戊戍本一家"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "team": "戊戍本一家",
+      "number": "PMA077",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 1,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 3,
+        "bf": 14,
+        "so": 4,
+        "bb": 2,
+        "h": 2,
+        "hr": 0,
+        "r": 1,
+        "er": 1,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 3,
+        "whip": 1.3333333333333333,
+        "fip": null,
+        "kPer9": 12,
+        "bbPer9": 6,
+        "hPer9": 6,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 0,
+        "hits": 903,
+        "hr": 903,
+        "rbi": 903,
+        "avg": 903,
+        "w": 903,
+        "sv": 903,
+        "so": 903,
+        "era": 903,
+        "whip": 903,
+        "fip": 0
+      }
+    }
+  ]
+}

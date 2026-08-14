@@ -1,0 +1,52 @@
+{
+  "id": "AAR013",
+  "code": "AAR013",
+  "name": "陳季磊",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOphZa5QOu3L9Fv7EjXYWz7XarZ1bROtaJrj_UhX9JebAICS8e1oOwSjSeP2-vtZ16Bwz_L_Folxw4xReCIKTnD1NW8ZbQhSeJyvAtuYAGLnNMbmakKK-JyIq8DbytHMC8zWvhmqLAUt0UpgzWbR9iuig=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "Aaron Prosecutor"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "Aaron Prosecutor",
+      "number": "103",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 1,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 240,
+        "hits": 252,
+        "hr": 1148,
+        "rbi": 201,
+        "avg": 1099,
+        "w": 136,
+        "sv": 114,
+        "so": 236,
+        "era": 1099,
+        "whip": 1099,
+        "fip": 0
+      }
+    }
+  ]
+}

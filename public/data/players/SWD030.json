@@ -1,0 +1,52 @@
+{
+  "id": "SWD030",
+  "code": "SWD030",
+  "name": "郭政忠",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNFpns7J5oEFKj8dNrpuXOw7fhjulae2OhEmjUbKM8sFpOjPlS8BohwQKmkjQWUW6hRRi-81yENVP3i4YDNAJwpPwwX7iR0dPDBpZ5J8N6iezHZjzkpJeNhr7hPVIXy8PMjNn4NcNG0hI3o-p5Gk_d8YA=w446-h964",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "甜心暴龍"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "甜心暴龍",
+      "number": "98",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1054,
+        "hits": 1527,
+        "hr": 1172,
+        "rbi": 1448,
+        "avg": 1099,
+        "w": 861,
+        "sv": 839,
+        "so": 961,
+        "era": 1099,
+        "whip": 1099,
+        "fip": 0
+      }
+    }
+  ]
+}

@@ -145,20 +145,26 @@
       "logo": ""
     },
     {
-      "id": "allstar",
-      "name": "ALLSTAR",
-      "code": "ALL",
-      "logo": ""
-    },
-    {
       "id": "黑名單",
       "name": "黑名單",
       "code": "黑名單",
       "logo": ""
     },
     {
+      "id": "allstar",
+      "name": "ALLSTAR",
+      "code": "ALL",
+      "logo": ""
+    },
+    {
       "id": "force",
       "name": "FORCE",
+      "code": "FOR",
+      "logo": ""
+    },
+    {
+      "id": "force",
+      "name": "Force",
       "code": "FOR",
       "logo": ""
     },
@@ -187,15 +193,21 @@
       "logo": ""
     },
     {
+      "id": "亞克鷹",
+      "name": "亞克鷹",
+      "code": "亞克鷹",
+      "logo": ""
+    },
+    {
       "id": "rookies",
       "name": "ROOKIES",
       "code": "ROO",
       "logo": ""
     },
     {
-      "id": "亞克鷹",
-      "name": "亞克鷹",
-      "code": "亞克鷹",
+      "id": "台大化工ob",
+      "name": "台大化工OB",
+      "code": "台大化",
       "logo": ""
     },
     {
@@ -208,12 +220,6 @@
       "id": "mix",
       "name": "MIX",
       "code": "MIX",
-      "logo": ""
-    },
-    {
-      "id": "台大化工ob",
-      "name": "台大化工OB",
-      "code": "台大化",
       "logo": ""
     },
     {
@@ -241,9 +247,9 @@
       "logo": ""
     },
     {
-      "id": "synergy",
-      "name": "Synergy",
-      "code": "SYN",
+      "id": "台大地理ob",
+      "name": "台大地理OB",
+      "code": "台大地",
       "logo": ""
     },
     {
@@ -253,9 +259,9 @@
       "logo": ""
     },
     {
-      "id": "台大地理ob",
-      "name": "台大地理OB",
-      "code": "台大地",
+      "id": "synergy",
+      "name": "Synergy",
+      "code": "SYN",
       "logo": ""
     },
     {
@@ -265,15 +271,15 @@
       "logo": ""
     },
     {
-      "id": "路易莎咖啡",
-      "name": "路易莎咖啡",
-      "code": "路易莎",
-      "logo": ""
-    },
-    {
       "id": "台北大學",
       "name": "台北大學",
       "code": "台北大",
+      "logo": ""
+    },
+    {
+      "id": "路易莎咖啡",
+      "name": "路易莎咖啡",
+      "code": "路易莎",
       "logo": ""
     },
     {
@@ -295,15 +301,15 @@
       "logo": ""
     },
     {
-      "id": "the-buddies",
-      "name": "The Buddies",
-      "code": "THE",
-      "logo": ""
-    },
-    {
       "id": "極品酷寶",
       "name": "極品酷寶",
       "code": "極品酷",
+      "logo": ""
+    },
+    {
+      "id": "the-buddies",
+      "name": "The Buddies",
+      "code": "THE",
       "logo": ""
     },
     {
@@ -313,15 +319,15 @@
       "logo": ""
     },
     {
-      "id": "台科大",
-      "name": "台科大",
-      "code": "台科大",
-      "logo": ""
-    },
-    {
       "id": "世新超乙組",
       "name": "世新超乙組",
       "code": "世新超",
+      "logo": ""
+    },
+    {
+      "id": "台科大",
+      "name": "台科大",
+      "code": "台科大",
       "logo": ""
     }
   ]

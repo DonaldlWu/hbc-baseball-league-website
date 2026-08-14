@@ -8,9 +8,46 @@
     "teams": [
       "實踐OB"
     ],
-    "totalSeasons": 1
+    "totalSeasons": 2
   },
   "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "SCO034",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 1,
+        "so": 2,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 0,
+        "hits": 903,
+        "hr": 903,
+        "rbi": 903,
+        "avg": 903,
+        "w": 903,
+        "sv": 903,
+        "so": 903,
+        "era": 903,
+        "whip": 903,
+        "fip": 0
+      }
+    },
     {
       "year": 2024,
       "team": "實踐OB",

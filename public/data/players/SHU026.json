@@ -1,0 +1,52 @@
+{
+  "id": "SHU026",
+  "code": "SHU026",
+  "name": "游輝彥",
+  "photo": "",
+  "career": {
+    "debut": 2024,
+    "teams": [
+      "世新超乙組"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2024,
+      "team": "世新超乙組",
+      "number": "SHU026",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 0,
+        "hits": 903,
+        "hr": 903,
+        "rbi": 903,
+        "avg": 903,
+        "w": 903,
+        "sv": 903,
+        "so": 903,
+        "era": 903,
+        "whip": 903,
+        "fip": 0
+      }
+    }
+  ]
+}

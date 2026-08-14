@@ -16,21 +16,21 @@
       "team": "實踐OB",
       "number": "49",
       "batting": {
-        "games": 1,
-        "pa": 4,
-        "ab": 3,
-        "hits": 1,
-        "singles": 1,
+        "games": 3,
+        "pa": 12,
+        "ab": 8,
+        "hits": 5,
+        "singles": 5,
         "doubles": 0,
         "triples": 0,
         "hr": 0,
-        "rbi": 1,
-        "runs": 0,
-        "bb": 1,
+        "rbi": 3,
+        "runs": 3,
+        "bb": 4,
         "so": 1,
         "sb": 0,
         "sf": 0,
-        "totalBases": 1
+        "totalBases": 5
       },
       "pitching": {
         "games": 1,
@@ -59,17 +59,17 @@
         "csPercentage": 1
       },
       "rankings": {
-        "rc": 242,
-        "hits": 232,
-        "hr": 1317,
-        "rbi": 170,
-        "avg": 1081,
-        "w": 1585,
-        "sv": 1561,
-        "so": 85,
-        "era": 1081,
-        "whip": 49,
-        "fip": 65
+        "rc": 40,
+        "hits": 49,
+        "hr": 1487,
+        "rbi": 96,
+        "avg": 3,
+        "w": 1567,
+        "sv": 1545,
+        "so": 114,
+        "era": 1099,
+        "whip": 479,
+        "fip": 73
       }
     },
     {

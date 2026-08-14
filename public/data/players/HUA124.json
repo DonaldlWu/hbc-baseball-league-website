@@ -16,7 +16,7 @@
       "team": "華江OB",
       "number": "98",
       "batting": {
-        "games": 1,
+        "games": 2,
         "pa": 0,
         "ab": 0,
         "hits": 0,
@@ -33,10 +33,10 @@
         "totalBases": 0
       },
       "pitching": {
-        "games": 1,
-        "ip": 3,
-        "bf": 13,
-        "so": 4,
+        "games": 2,
+        "ip": 5,
+        "bf": 19,
+        "so": 5,
         "bb": 1,
         "h": 3,
         "hr": 0,
@@ -44,32 +44,32 @@
         "er": 0,
         "w": 0,
         "l": 0,
-        "sv": 0,
+        "sv": 1,
         "hld": 0,
         "cs": 0,
         "csAttempts": 0
       },
       "pitchingCalculated": {
         "era": 0,
-        "whip": 1.3333333333333333,
-        "fip": 1.533333571,
-        "kPer9": 12,
-        "bbPer9": 3,
-        "hPer9": 9,
+        "whip": 0.8,
+        "fip": 1.800000238,
+        "kPer9": 9,
+        "bbPer9": 1.8,
+        "hPer9": 5.4,
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 904,
-        "hits": 711,
-        "hr": 411,
-        "rbi": 644,
-        "avg": 1081,
-        "w": 1579,
-        "sv": 1556,
-        "so": 43,
-        "era": 1081,
-        "whip": 10,
-        "fip": 10
+        "rc": 920,
+        "hits": 750,
+        "hr": 378,
+        "rbi": 664,
+        "avg": 1099,
+        "w": 1588,
+        "sv": 16,
+        "so": 52,
+        "era": 1099,
+        "whip": 3,
+        "fip": 16
       }
     },
     {

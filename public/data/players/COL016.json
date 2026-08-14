@@ -231,8 +231,8 @@
         "l": 2,
         "sv": 1,
         "hld": 0,
-        "cs": 0,
-        "csAttempts": 0
+        "cs": 1,
+        "csAttempts": 1
       },
       "pitchingCalculated": {
         "era": 4.021191038488543,
@@ -241,7 +241,7 @@
         "kPer9": 7.467926214335865,
         "bbPer9": 4.595646901129763,
         "hPer9": 9.191293802259526,
-        "csPercentage": 0
+        "csPercentage": 1
       },
       "rankings": {
         "rc": 112,

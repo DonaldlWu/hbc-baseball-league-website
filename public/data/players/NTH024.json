@@ -2,7 +2,7 @@
   "id": "NTH024",
   "code": "NTH024",
   "name": "葉獻之",
-  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMPoH0DZtcajovX6j4AnRrurXmfTi5uzm_UdaWEXaSVIiXZ1VnBjb6MUE1zV3bmiQ8reGcnev4VK1E70Fjpu5YpMVg2ITKy4EuHedIY7Rznu_XkisLysez9RRrigP0Khrr_wNvoakBSHKck9tS8Zx2q=w310-h335-no",
+  "photo": "",
   "career": {
     "debut": 2025,
     "teams": [
@@ -14,7 +14,7 @@
     {
       "year": 2025,
       "team": "台大醫學院棒",
-      "number": "3",
+      "number": "NTH024",
       "batting": {
         "games": 1,
         "pa": 4,
@@ -59,16 +59,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 458,
-        "hits": 408,
-        "hr": 999,
-        "rbi": 438,
-        "avg": 1132,
-        "w": 1417,
-        "sv": 1367,
-        "so": 171,
-        "era": 1132,
-        "whip": 708,
+        "rc": 0,
+        "hits": 896,
+        "hr": 896,
+        "rbi": 896,
+        "avg": 896,
+        "w": 896,
+        "sv": 896,
+        "so": 896,
+        "era": 896,
+        "whip": 896,
         "fip": 0
       }
     }

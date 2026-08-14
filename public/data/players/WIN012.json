@@ -11,7 +11,7 @@
       "颶風",
       "自轉棒球"
     ],
-    "totalSeasons": 15
+    "totalSeasons": 14
   },
   "seasons": [
     {
@@ -38,16 +38,16 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 197,
-        "hits": 136,
-        "hr": 1349,
-        "rbi": 1530,
-        "avg": 1081,
-        "w": 495,
-        "sv": 477,
-        "so": 576,
-        "era": 1081,
-        "whip": 1081,
+        "rc": 248,
+        "hits": 183,
+        "hr": 1278,
+        "rbi": 1516,
+        "avg": 1099,
+        "w": 506,
+        "sv": 484,
+        "so": 606,
+        "era": 1099,
+        "whip": 1099,
         "fip": 0
       }
     },
@@ -75,53 +75,16 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 641,
-        "hits": 488,
-        "hr": 188,
-        "rbi": 421,
-        "avg": 1081,
-        "w": 327,
-        "sv": 309,
-        "so": 408,
-        "era": 1081,
-        "whip": 1081,
-        "fip": 0
-      }
-    },
-    {
-      "year": 2025,
-      "team": "逆轉星球",
-      "number": "9",
-      "batting": {
-        "games": 1,
-        "pa": 4,
-        "ab": 3,
-        "hits": 1,
-        "singles": 1,
-        "doubles": 0,
-        "triples": 0,
-        "hr": 0,
-        "rbi": 0,
-        "runs": 1,
-        "bb": 1,
-        "so": 0,
-        "sb": 0,
-        "sf": 0,
-        "totalBases": 1
-      },
-      "pitching": null,
-      "pitchingCalculated": null,
-      "rankings": {
-        "rc": 571,
-        "hits": 501,
-        "hr": 983,
-        "rbi": 1438,
-        "avg": 1132,
-        "w": 507,
-        "sv": 457,
-        "so": 679,
-        "era": 1132,
-        "whip": 1132,
+        "rc": 681,
+        "hits": 542,
+        "hr": 170,
+        "rbi": 456,
+        "avg": 1099,
+        "w": 338,
+        "sv": 316,
+        "so": 438,
+        "era": 1099,
+        "whip": 1099,
         "fip": 0
       }
     },
@@ -482,7 +445,7 @@
         "doubles": 3,
         "triples": 1,
         "hr": 0,
-        "rbi": 21,
+        "rbi": 20,
         "runs": 24,
         "bb": 12,
         "so": 9,

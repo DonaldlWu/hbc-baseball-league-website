@@ -4,12 +4,12 @@
   "name": "王郡",
   "photo": "",
   "career": {
-    "debut": 2022,
+    "debut": 2021,
     "teams": [
       "Tsuyoi",
       "路易莎咖啡"
     ],
-    "totalSeasons": 2
+    "totalSeasons": 3
   },
   "seasons": [
     {
@@ -83,6 +83,43 @@
         "so": 248,
         "era": 943,
         "whip": 943,
+        "fip": 0
+      }
+    },
+    {
+      "year": 2021,
+      "team": "路易莎咖啡",
+      "number": "LOU059",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 1,
+        "sf": 1,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 0,
+        "hits": 896,
+        "hr": 896,
+        "rbi": 896,
+        "avg": 896,
+        "w": 896,
+        "sv": 896,
+        "so": 896,
+        "era": 896,
+        "whip": 896,
         "fip": 0
       }
     }

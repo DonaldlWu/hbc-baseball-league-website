@@ -8,9 +8,70 @@
     "teams": [
       "北科大"
     ],
-    "totalSeasons": 1
+    "totalSeasons": 2
   },
   "seasons": [
+    {
+      "year": 2016,
+      "team": "北科大",
+      "number": "TTE013",
+      "batting": {
+        "games": 4,
+        "pa": 14,
+        "ab": 11,
+        "hits": 4,
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 4,
+        "runs": 2,
+        "bb": 3,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 5
+      },
+      "pitching": {
+        "games": 3,
+        "ip": 12.333,
+        "bf": 75,
+        "so": 10,
+        "bb": 11,
+        "h": 25,
+        "hr": 1,
+        "r": 24,
+        "er": 17,
+        "w": 0,
+        "l": 2,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 12.405740695694478,
+        "whip": 2.918997810751642,
+        "fip": null,
+        "kPer9": 7.297494526879105,
+        "bbPer9": 8.027243979567015,
+        "hPer9": 18.24373631719776,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 0,
+        "hits": 903,
+        "hr": 903,
+        "rbi": 903,
+        "avg": 903,
+        "w": 903,
+        "sv": 903,
+        "so": 903,
+        "era": 903,
+        "whip": 903,
+        "fip": 0
+      }
+    },
     {
       "year": 2015,
       "team": "北科大",

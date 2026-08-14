@@ -6,7 +6,8 @@
   "career": {
     "debut": 2009,
     "teams": [
-      "FORCE"
+      "FORCE",
+      "Force"
     ],
     "totalSeasons": 2
   },
@@ -74,19 +75,19 @@
     },
     {
       "year": 2009,
-      "team": "FORCE",
+      "team": "Force",
       "number": "FET011",
       "batting": {
-        "games": 16,
-        "pa": 69,
-        "ab": 56,
+        "games": 15,
+        "pa": 67,
+        "ab": 54,
         "hits": 20,
         "singles": 13,
         "doubles": 6,
         "triples": 1,
         "hr": 0,
         "rbi": 17,
-        "runs": 28,
+        "runs": 27,
         "bb": 13,
         "so": 3,
         "sb": 0,
@@ -94,14 +95,14 @@
         "totalBases": 28
       },
       "pitching": {
-        "games": 9,
-        "ip": 29.667,
-        "bf": 142,
-        "so": 36,
+        "games": 8,
+        "ip": 28,
+        "bf": 134,
+        "so": 32,
         "bb": 15,
-        "h": 33,
+        "h": 32,
         "hr": 0,
-        "r": 18,
+        "r": 16,
         "er": 8,
         "w": 3,
         "l": 1,
@@ -111,12 +112,12 @@
         "csAttempts": 0
       },
       "pitchingCalculated": {
-        "era": 2.426939023157043,
-        "whip": 1.617959348771362,
+        "era": 2.5714285714285716,
+        "whip": 1.6785714285714286,
         "fip": 2.29,
-        "kPer9": 10.921225604206693,
-        "bbPer9": 4.550510668419456,
-        "hPer9": 10.011123470522802,
+        "kPer9": 10.285714285714286,
+        "bbPer9": 4.821428571428571,
+        "hPer9": 10.285714285714286,
         "csPercentage": 0
       },
       "rankings": {

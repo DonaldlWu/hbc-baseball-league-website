@@ -4,11 +4,11 @@
   "name": "陳麒鈞",
   "photo": "",
   "career": {
-    "debut": 2022,
+    "debut": 2021,
     "teams": [
       "十號馬"
     ],
-    "totalSeasons": 4
+    "totalSeasons": 5
   },
   "seasons": [
     {
@@ -180,6 +180,67 @@
         "so": 295,
         "era": 943,
         "whip": 943,
+        "fip": 0
+      }
+    },
+    {
+      "year": 2021,
+      "team": "十號馬",
+      "number": "",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 1.667,
+        "bf": 9,
+        "so": 3,
+        "bb": 2,
+        "h": 1,
+        "hr": 0,
+        "r": 1,
+        "er": 1,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 5.398920215956808,
+        "whip": 1.799640071985603,
+        "fip": null,
+        "kPer9": 16.196760647870427,
+        "bbPer9": 10.797840431913617,
+        "hPer9": 5.398920215956808,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 0,
+        "hits": 896,
+        "hr": 896,
+        "rbi": 896,
+        "avg": 896,
+        "w": 896,
+        "sv": 896,
+        "so": 896,
+        "era": 896,
+        "whip": 896,
         "fip": 0
       }
     }

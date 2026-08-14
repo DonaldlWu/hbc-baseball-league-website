@@ -1,0 +1,76 @@
+{
+  "id": "EAG151",
+  "code": "EAG151",
+  "name": "尤伯祥",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMmo6dFPYjg2D8Gf665dAJxHVlYyOATzCvyMuwwSfcq1EusN4mPJiR7LasTCImBnhm1KyYr8_x2mSc2NNME0pk8yC9XyuAwqIfT9yAcA70w5ZL65If8OdqBO3bxYQUkf8VD7Z7wTuLZ3EtrcoLoqwk=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "火把老鷹",
+      "number": "103",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 3,
+        "bf": 11,
+        "so": 4,
+        "bb": 0,
+        "h": 3,
+        "hr": 0,
+        "r": 1,
+        "er": 0,
+        "w": 1,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 0,
+        "whip": 1,
+        "fip": 0.5333339943,
+        "kPer9": 12,
+        "bbPer9": 0,
+        "hPer9": 9,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 767,
+        "hits": 628,
+        "hr": 256,
+        "rbi": 542,
+        "avg": 1099,
+        "w": 14,
+        "sv": 1537,
+        "so": 59,
+        "era": 1099,
+        "whip": 650,
+        "fip": 6
+      }
+    }
+  ]
+}

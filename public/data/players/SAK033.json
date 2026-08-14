@@ -1,0 +1,52 @@
+{
+  "id": "SAK033",
+  "code": "SAK033",
+  "name": "顏士豪",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPF11dyK6y1RGXvc1IucxpsJxKTEc7l3Ww1GlHz6LBeZoFECKkvRacKmAcsIH5TqYuckJLhaeaQOZ4t5KEUSqDrvBxaQaoRY7cZnkMg7IamUBeC-XodUxnSJuw22S9-osinPU3K2Hb_Cp-wFR6HrGCUCw=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "櫻砲魂"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "櫻砲魂",
+      "number": "96",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1019,
+        "hits": 1497,
+        "hr": 1126,
+        "rbi": 1410,
+        "avg": 1099,
+        "w": 248,
+        "sv": 226,
+        "so": 348,
+        "era": 1099,
+        "whip": 1099,
+        "fip": 0
+      }
+    }
+  ]
+}

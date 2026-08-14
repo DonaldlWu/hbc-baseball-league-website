@@ -17,7 +17,7 @@
       "team": "Aaron Prosecutor",
       "number": "1",
       "batting": {
-        "games": 2,
+        "games": 3,
         "pa": 3,
         "ab": 3,
         "hits": 1,
@@ -34,12 +34,12 @@
         "totalBases": 1
       },
       "pitching": {
-        "games": 2,
-        "ip": 5,
-        "bf": 31,
-        "so": 1,
-        "bb": 8,
-        "h": 8,
+        "games": 3,
+        "ip": 7,
+        "bf": 39,
+        "so": 3,
+        "bb": 9,
+        "h": 9,
         "hr": 0,
         "r": 10,
         "er": 4,
@@ -51,26 +51,26 @@
         "csAttempts": 0
       },
       "pitchingCalculated": {
-        "era": 7.2,
-        "whip": 3.2,
-        "fip": 7.6,
-        "kPer9": 1.8,
-        "bbPer9": 14.4,
-        "hPer9": 14.4,
+        "era": 5.142857142857143,
+        "whip": 2.5714285714285716,
+        "fip": 6.2,
+        "kPer9": 3.857142857142857,
+        "bbPer9": 11.571428571428571,
+        "hPer9": 11.571428571428571,
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 294,
-        "hits": 220,
-        "hr": 1286,
-        "rbi": 1495,
-        "avg": 1081,
-        "w": 22,
-        "sv": 1583,
-        "so": 113,
-        "era": 1081,
-        "whip": 52,
-        "fip": 77
+        "rc": 357,
+        "hits": 279,
+        "hr": 1211,
+        "rbi": 1477,
+        "avg": 1099,
+        "w": 37,
+        "sv": 1593,
+        "so": 91,
+        "era": 1099,
+        "whip": 42,
+        "fip": 79
       }
     },
     {

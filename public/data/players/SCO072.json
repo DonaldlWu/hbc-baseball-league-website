@@ -1,0 +1,52 @@
+{
+  "id": "SCO072",
+  "code": "SCO072",
+  "name": "謝侑家",
+  "photo": "",
+  "career": {
+    "debut": 2025,
+    "teams": [
+      "實踐OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2025,
+      "team": "實踐OB",
+      "number": "SCO072",
+      "batting": {
+        "games": 2,
+        "pa": 5,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 0,
+        "hits": 903,
+        "hr": 903,
+        "rbi": 903,
+        "avg": 903,
+        "w": 903,
+        "sv": 903,
+        "so": 903,
+        "era": 903,
+        "whip": 903,
+        "fip": 0
+      }
+    }
+  ]
+}

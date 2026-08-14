@@ -1,0 +1,52 @@
+{
+  "id": "HOL091",
+  "code": "HOL091",
+  "name": "朱家興",
+  "photo": "",
+  "career": {
+    "debut": 2021,
+    "teams": [
+      "HOLYBAT"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2021,
+      "team": "HOLYBAT",
+      "number": "102",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 1,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 0,
+        "hits": 896,
+        "hr": 896,
+        "rbi": 896,
+        "avg": 896,
+        "w": 896,
+        "sv": 896,
+        "so": 896,
+        "era": 896,
+        "whip": 896,
+        "fip": 0
+      }
+    }
+  ]
+}

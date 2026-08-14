@@ -9,7 +9,7 @@
       "逆轉星球",
       "台大化工OB"
     ],
-    "totalSeasons": 9
+    "totalSeasons": 8
   },
   "seasons": [
     {
@@ -218,67 +218,6 @@
         "so": 1657,
         "era": 1101,
         "whip": 457,
-        "fip": 0
-      }
-    },
-    {
-      "year": 2020,
-      "team": "逆轉星球",
-      "number": "27",
-      "batting": {
-        "games": 8,
-        "pa": 21,
-        "ab": 14,
-        "hits": 3,
-        "singles": 3,
-        "doubles": 0,
-        "triples": 0,
-        "hr": 0,
-        "rbi": 3,
-        "runs": 3,
-        "bb": 7,
-        "so": 4,
-        "sb": 0,
-        "sf": 0,
-        "totalBases": 3
-      },
-      "pitching": {
-        "games": 1,
-        "ip": 0.333,
-        "bf": 6,
-        "so": 0,
-        "bb": 4,
-        "h": 1,
-        "hr": 0,
-        "r": 2,
-        "er": 0,
-        "w": 0,
-        "l": 0,
-        "sv": 0,
-        "hld": 0,
-        "cs": 0,
-        "csAttempts": 0
-      },
-      "pitchingCalculated": {
-        "era": 0,
-        "whip": 15.015015015015015,
-        "fip": null,
-        "kPer9": 0,
-        "bbPer9": 108.1081081081081,
-        "hPer9": 27.027027027027025,
-        "csPercentage": 0
-      },
-      "rankings": {
-        "rc": 299,
-        "hits": 414,
-        "hr": 1381,
-        "rbi": 301,
-        "avg": 1101,
-        "w": 1519,
-        "sv": 1459,
-        "so": 1656,
-        "era": 1101,
-        "whip": 746,
         "fip": 0
       }
     },

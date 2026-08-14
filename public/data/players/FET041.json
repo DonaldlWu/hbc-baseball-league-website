@@ -6,7 +6,8 @@
   "career": {
     "debut": 2009,
     "teams": [
-      "FORCE"
+      "FORCE",
+      "Force"
     ],
     "totalSeasons": 2
   },
@@ -50,51 +51,27 @@
     },
     {
       "year": 2009,
-      "team": "FORCE",
+      "team": "Force",
       "number": "FET041",
       "batting": {
-        "games": 20,
-        "pa": 83,
-        "ab": 71,
-        "hits": 16,
-        "singles": 14,
+        "games": 19,
+        "pa": 81,
+        "ab": 69,
+        "hits": 14,
+        "singles": 12,
         "doubles": 1,
         "triples": 1,
         "hr": 0,
-        "rbi": 17,
+        "rbi": 16,
         "runs": 24,
         "bb": 11,
         "so": 14,
         "sb": 0,
         "sf": 1,
-        "totalBases": 19
+        "totalBases": 17
       },
-      "pitching": {
-        "games": 1,
-        "ip": 1,
-        "bf": 12,
-        "so": 2,
-        "bb": 6,
-        "h": 4,
-        "hr": 0,
-        "r": 6,
-        "er": 2,
-        "w": 0,
-        "l": 1,
-        "sv": 0,
-        "hld": 0,
-        "cs": 0,
-        "csAttempts": 0
-      },
-      "pitchingCalculated": {
-        "era": 18,
-        "whip": 10,
-        "fip": null,
-        "kPer9": 18,
-        "bbPer9": 54,
-        "hPer9": 36,
-        "csPercentage": 0
-      },
+      "pitching": null,
+      "pitchingCalculated": null,
       "rankings": {
         "rc": 40,
         "hits": 27,

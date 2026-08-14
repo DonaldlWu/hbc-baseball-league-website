@@ -18,21 +18,21 @@
       "team": "台大經濟OB",
       "number": "14",
       "batting": {
-        "games": 3,
-        "pa": 8,
-        "ab": 7,
-        "hits": 3,
-        "singles": 2,
+        "games": 4,
+        "pa": 13,
+        "ab": 11,
+        "hits": 4,
+        "singles": 3,
         "doubles": 0,
         "triples": 1,
         "hr": 0,
         "rbi": 4,
-        "runs": 3,
-        "bb": 1,
-        "so": 0,
+        "runs": 4,
+        "bb": 2,
+        "so": 2,
         "sb": 0,
         "sf": 0,
-        "totalBases": 5
+        "totalBases": 6
       },
       "pitching": {
         "games": 1,
@@ -61,17 +61,17 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 72,
-        "hits": 88,
-        "hr": 1472,
-        "rbi": 28,
-        "avg": 1081,
-        "w": 1576,
-        "sv": 1552,
-        "so": 23,
-        "era": 1081,
-        "whip": 164,
-        "fip": 5
+        "rc": 84,
+        "hits": 95,
+        "hr": 1516,
+        "rbi": 52,
+        "avg": 53,
+        "w": 1559,
+        "sv": 1535,
+        "so": 36,
+        "era": 1099,
+        "whip": 169,
+        "fip": 8
       }
     },
     {

@@ -1,14 +1,14 @@
 {
   "id": "NAN045",
   "code": "NAN045",
-  "name": "吳俊賢",
+  "name": "呂承哲",
   "photo": "",
   "career": {
     "debut": 2011,
     "teams": [
       "南港高工OB"
     ],
-    "totalSeasons": 3
+    "totalSeasons": 2
   },
   "seasons": [
     {
@@ -69,67 +69,6 @@
         "so": 56,
         "era": 102,
         "whip": 102,
-        "fip": 0
-      }
-    },
-    {
-      "year": 2011,
-      "team": "南港高工OB",
-      "number": "NAN045",
-      "batting": {
-        "games": 4,
-        "pa": 15,
-        "ab": 12,
-        "hits": 4,
-        "singles": 1,
-        "doubles": 3,
-        "triples": 0,
-        "hr": 0,
-        "rbi": 3,
-        "runs": 2,
-        "bb": 3,
-        "so": 4,
-        "sb": 0,
-        "sf": 0,
-        "totalBases": 7
-      },
-      "pitching": {
-        "games": 1,
-        "ip": 1.666666667,
-        "bf": 15,
-        "so": 2,
-        "bb": 5,
-        "h": 5,
-        "hr": 0,
-        "r": 8,
-        "er": 8,
-        "w": 0,
-        "l": 1,
-        "sv": 0,
-        "hld": 0,
-        "cs": 0,
-        "csAttempts": 0
-      },
-      "pitchingCalculated": {
-        "era": 43.199999991359995,
-        "whip": 5.9999999988,
-        "fip": null,
-        "kPer9": 10.799999997839999,
-        "bbPer9": 26.9999999946,
-        "hPer9": 26.9999999946,
-        "csPercentage": 0
-      },
-      "rankings": {
-        "rc": 76,
-        "hits": 87,
-        "hr": 112,
-        "rbi": 221,
-        "avg": 450,
-        "w": 90,
-        "sv": 90,
-        "so": 50,
-        "era": 120,
-        "whip": 120,
         "fip": 0
       }
     },

@@ -8,9 +8,46 @@
     "teams": [
       "北科大"
     ],
-    "totalSeasons": 1
+    "totalSeasons": 2
   },
   "seasons": [
+    {
+      "year": 2016,
+      "team": "北科大",
+      "number": "TTE042",
+      "batting": {
+        "games": 2,
+        "pa": 7,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 3,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 0,
+        "hits": 1022,
+        "hr": 1022,
+        "rbi": 1022,
+        "avg": 1022,
+        "w": 1022,
+        "sv": 1022,
+        "so": 1022,
+        "era": 1022,
+        "whip": 1022,
+        "fip": 0
+      }
+    },
     {
       "year": 2015,
       "team": "北科大",

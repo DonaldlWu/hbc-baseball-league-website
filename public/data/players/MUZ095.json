@@ -52,24 +52,24 @@
       "pitchingCalculated": {
         "era": 13.5,
         "whip": 4.5,
-        "fip": 6.70000102,
+        "fip": null,
         "kPer9": 18,
         "bbPer9": 22.5,
         "hPer9": 18,
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 1018,
-        "hits": 1492,
-        "hr": 1193,
-        "rbi": 1425,
-        "avg": 1081,
-        "w": 1570,
-        "sv": 1545,
-        "so": 42,
-        "era": 1081,
-        "whip": 854,
-        "fip": 71
+        "rc": 1032,
+        "hits": 1494,
+        "hr": 1123,
+        "rbi": 1407,
+        "avg": 1099,
+        "w": 1554,
+        "sv": 1528,
+        "so": 58,
+        "era": 1099,
+        "whip": 945,
+        "fip": 0
       }
     }
   ]

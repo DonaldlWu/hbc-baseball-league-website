@@ -4,11 +4,11 @@
   "name": "游智煒",
   "photo": "",
   "career": {
-    "debut": 2022,
+    "debut": 2021,
     "teams": [
       "火把老鷹"
     ],
-    "totalSeasons": 1
+    "totalSeasons": 2
   },
   "seasons": [
     {
@@ -45,6 +45,43 @@
         "so": 460,
         "era": 943,
         "whip": 943,
+        "fip": 0
+      }
+    },
+    {
+      "year": 2021,
+      "team": "火把老鷹",
+      "number": "EAG115",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 1,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 0,
+        "hits": 896,
+        "hr": 896,
+        "rbi": 896,
+        "avg": 896,
+        "w": 896,
+        "sv": 896,
+        "so": 896,
+        "era": 896,
+        "whip": 896,
         "fip": 0
       }
     }

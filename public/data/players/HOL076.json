@@ -2,15 +2,52 @@
   "id": "HOL076",
   "code": "HOL076",
   "name": "林哲緯",
-  "photo": "",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNTwp1yrN54z_r5QaZvvN6fgWDz4y4iofaP-kIUvzHZw8Np0_Kvzm_nfa2vE9LOKZVMfJvAepH2jC8aBHAH1OC6fi7pqUSBoQ5jerSqOi2mpkZEKftwnALxLIa2MfSxeajVxcwDMf8J_FFahcwpBvKv=w310-h335-no",
   "career": {
     "debut": 2020,
     "teams": [
       "HOLYBAT"
     ],
-    "totalSeasons": 4
+    "totalSeasons": 5
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "HOLYBAT",
+      "number": "31",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 4,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1084,
+        "hits": 1570,
+        "hr": 1291,
+        "rbi": 1529,
+        "avg": 1099,
+        "w": 579,
+        "sv": 557,
+        "so": 679,
+        "era": 1099,
+        "whip": 1099,
+        "fip": 0
+      }
+    },
     {
       "year": 2023,
       "team": "HOLYBAT",

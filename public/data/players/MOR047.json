@@ -9,7 +9,7 @@
       "台大化工OB",
       "莫拉克"
     ],
-    "totalSeasons": 8
+    "totalSeasons": 9
   },
   "seasons": [
     {
@@ -198,6 +198,67 @@
       }
     },
     {
+      "year": 2014,
+      "team": "台大化工OB",
+      "number": "MOR047",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 5,
+        "bf": 26,
+        "so": 6,
+        "bb": 1,
+        "h": 8,
+        "hr": 0,
+        "r": 7,
+        "er": 4,
+        "w": 0,
+        "l": 1,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 7.2,
+        "whip": 1.8,
+        "fip": null,
+        "kPer9": 10.8,
+        "bbPer9": 1.8,
+        "hPer9": 14.4,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 0,
+        "hits": 896,
+        "hr": 896,
+        "rbi": 896,
+        "avg": 896,
+        "w": 896,
+        "sv": 896,
+        "so": 896,
+        "era": 896,
+        "whip": 896,
+        "fip": 0
+      }
+    },
+    {
       "year": 2013,
       "team": "台大化工OB",
       "number": "MOR047",
@@ -218,8 +279,32 @@
         "sf": 0,
         "totalBases": 2
       },
-      "pitching": null,
-      "pitchingCalculated": null,
+      "pitching": {
+        "games": 3,
+        "ip": 12.333,
+        "bf": 58,
+        "so": 11,
+        "bb": 3,
+        "h": 12,
+        "hr": 0,
+        "r": 8,
+        "er": 4,
+        "w": 0,
+        "l": 1,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 2.918997810751642,
+        "whip": 1.2162490878131842,
+        "fip": null,
+        "kPer9": 8.027243979567015,
+        "bbPer9": 2.1892483580637316,
+        "hPer9": 8.756993432254927,
+        "csPercentage": 0
+      },
       "rankings": {
         "rc": 241,
         "hits": 246,

@@ -1,0 +1,76 @@
+{
+  "id": "NTO083",
+  "code": "NTO083",
+  "name": "張博辰",
+  "photo": "",
+  "career": {
+    "debut": 2022,
+    "teams": [
+      "海洋大學"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2022,
+      "team": "海洋大學",
+      "number": "NTO083",
+      "batting": {
+        "games": 8,
+        "pa": 27,
+        "ab": 23,
+        "hits": 11,
+        "singles": 8,
+        "doubles": 3,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 8,
+        "runs": 9,
+        "bb": 4,
+        "so": 3,
+        "sb": 7,
+        "sf": 0,
+        "totalBases": 14
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 1,
+        "bf": 8,
+        "so": 0,
+        "bb": 0,
+        "h": 3,
+        "hr": 0,
+        "r": 2,
+        "er": 1,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 3,
+        "csAttempts": 10
+      },
+      "pitchingCalculated": {
+        "era": 9,
+        "whip": 3,
+        "fip": null,
+        "kPer9": 0,
+        "bbPer9": 0,
+        "hPer9": 27,
+        "csPercentage": 0.3
+      },
+      "rankings": {
+        "rc": 0,
+        "hits": 896,
+        "hr": 896,
+        "rbi": 896,
+        "avg": 896,
+        "w": 896,
+        "sv": 896,
+        "so": 896,
+        "era": 896,
+        "whip": 896,
+        "fip": 0
+      }
+    }
+  ]
+}

@@ -9,7 +9,7 @@
       "楚奧特",
       "台大化工OB"
     ],
-    "totalSeasons": 11
+    "totalSeasons": 12
   },
   "seasons": [
     {
@@ -194,6 +194,43 @@
         "so": 535,
         "era": 1101,
         "whip": 1101,
+        "fip": 0
+      }
+    },
+    {
+      "year": 2019,
+      "team": "台大化工OB",
+      "number": "NTU010",
+      "batting": {
+        "games": 4,
+        "pa": 10,
+        "ab": 9,
+        "hits": 3,
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 3,
+        "bb": 1,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 0,
+        "hits": 896,
+        "hr": 896,
+        "rbi": 896,
+        "avg": 896,
+        "w": 896,
+        "sv": 896,
+        "so": 896,
+        "era": 896,
+        "whip": 896,
         "fip": 0
       }
     },

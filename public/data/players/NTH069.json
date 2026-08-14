@@ -1,0 +1,52 @@
+{
+  "id": "NTH069",
+  "code": "NTH069",
+  "name": "劉冠廷",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNNczq7HcNX8KbQRkUS5SqC9sFS_3AGG4oLHgo76BMqI70g9TbJ4Bt4_BRkDceytV71S1wi4vVIO1WucT5tYARPSlUJzM9LOBkDrzdeeAII2frXPclc0Qz4jFttk6fvtDi-x1O3xsZOsyaAxppbiIgs=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "台大醫學院棒"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "台大醫學院棒",
+      "number": "81",
+      "batting": {
+        "games": 2,
+        "pa": 3,
+        "ab": 3,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 353,
+        "hits": 286,
+        "hr": 1230,
+        "rbi": 1496,
+        "avg": 1099,
+        "w": 880,
+        "sv": 858,
+        "so": 980,
+        "era": 1099,
+        "whip": 1099,
+        "fip": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "SAK030",
+  "code": "SAK030",
+  "name": "許凱翔",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPpsOOzPuQFAx4zXND3McIuBF3xjIvwe-Y8Fj_2Q2xYZFEdF17Bi6BGV7vmZg5FURmj9M6nGcWsE_QARVh8pJYU1brA_9w2kkw9TA7qUbz9q6A8JtiZwGTqdBfFYSH4ntljmJax2NWS4wJNfPodO-UmaQ=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "櫻砲魂"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "櫻砲魂",
+      "number": "1",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 265,
+        "hits": 249,
+        "hr": 1130,
+        "rbi": 1414,
+        "avg": 1099,
+        "w": 284,
+        "sv": 262,
+        "so": 384,
+        "era": 1099,
+        "whip": 1099,
+        "fip": 0
+      }
+    }
+  ]
+}

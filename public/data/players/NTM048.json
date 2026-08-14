@@ -1,24 +1,24 @@
 {
   "id": "NTM048",
   "code": "NTM048",
-  "name": "何光展",
-  "photo": "",
+  "name": "蔡明翰",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOiAd9qA1DWhNfVr81ff9yQd1a3g8Q6cYHBt4AoSw1BkliDzDFaTz9fTmZO5dTll-VXraqMrMrTvGZYcd8JGRo1UIlxlxc4u-KJP1AXC1zuW8yEPoowGuuFePmqkGOBDW_PycpPzgImhaa6FNFxOLVblww=310-h335-no",
   "career": {
-    "debut": 2016,
+    "debut": 2026,
     "teams": [
-      "台大機械"
+      "Mechanics"
     ],
-    "totalSeasons": 3
+    "totalSeasons": 1
   },
   "seasons": [
     {
-      "year": 2018,
-      "team": "台大機械",
-      "number": "20",
+      "year": 2026,
+      "team": "Mechanics",
+      "number": "25",
       "batting": {
         "games": 1,
-        "pa": 3,
-        "ab": 3,
+        "pa": 1,
+        "ab": 1,
         "hits": 0,
         "singles": 0,
         "doubles": 0,
@@ -35,90 +35,16 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 920,
-        "hits": 1645,
-        "hr": 1157,
-        "rbi": 1590,
-        "avg": 940,
-        "w": 405,
-        "sv": 352,
-        "so": 516,
-        "era": 940,
-        "whip": 940,
-        "fip": 0
-      }
-    },
-    {
-      "year": 2017,
-      "team": "台大機械",
-      "number": "NTM048",
-      "batting": {
-        "games": 0,
-        "pa": 0,
-        "ab": 0,
-        "hits": 0,
-        "singles": 0,
-        "doubles": 0,
-        "triples": 0,
-        "hr": 0,
-        "rbi": 0,
-        "runs": 0,
-        "bb": 0,
-        "so": 0,
-        "sb": 0,
-        "sf": 0,
-        "totalBases": 0
-      },
-      "pitching": null,
-      "pitchingCalculated": null,
-      "rankings": {
-        "rc": 704,
-        "hits": 709,
-        "hr": 203,
-        "rbi": 653,
-        "avg": 340,
-        "w": 0,
-        "sv": 0,
-        "so": 0,
-        "era": 0,
-        "whip": 0,
-        "fip": 0
-      }
-    },
-    {
-      "year": 2016,
-      "team": "台大機械",
-      "number": "NTM048",
-      "batting": {
-        "games": 1,
-        "pa": 1,
-        "ab": 1,
-        "hits": 1,
-        "singles": 1,
-        "doubles": 0,
-        "triples": 0,
-        "hr": 0,
-        "rbi": 0,
-        "runs": 0,
-        "bb": 0,
-        "so": 0,
-        "sb": 0,
-        "sf": 0,
-        "totalBases": 1
-      },
-      "pitching": null,
-      "pitchingCalculated": null,
-      "rankings": {
-        "rc": 462,
-        "hits": 470,
-        "hr": 348,
-        "rbi": 793,
-        "avg": 349,
-        "w": 0,
-        "sv": 0,
-        "so": 0,
-        "era": 0,
-        "whip": 0,
+        "rc": 1042,
+        "hits": 1513,
+        "hr": 1144,
+        "rbi": 1428,
+        "avg": 1099,
+        "w": 929,
+        "sv": 907,
+        "so": 1029,
+        "era": 1099,
+        "whip": 1099,
         "fip": 0
       }
     }

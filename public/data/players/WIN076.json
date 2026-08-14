@@ -17,9 +17,9 @@
       "team": "HOLYBAT",
       "number": "120",
       "batting": {
-        "games": 1,
-        "pa": 0,
-        "ab": 0,
+        "games": 2,
+        "pa": 2,
+        "ab": 2,
         "hits": 0,
         "singles": 0,
         "doubles": 0,
@@ -28,7 +28,7 @@
         "rbi": 0,
         "runs": 0,
         "bb": 0,
-        "so": 0,
+        "so": 1,
         "sb": 0,
         "sf": 0,
         "totalBases": 0
@@ -60,17 +60,17 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 854,
-        "hits": 661,
-        "hr": 361,
-        "rbi": 594,
-        "avg": 1081,
-        "w": 1586,
-        "sv": 1562,
-        "so": 19,
-        "era": 1081,
-        "whip": 27,
-        "fip": 4
+        "rc": 1059,
+        "hits": 1533,
+        "hr": 1181,
+        "rbi": 1457,
+        "avg": 1099,
+        "w": 1569,
+        "sv": 1547,
+        "so": 29,
+        "era": 1099,
+        "whip": 671,
+        "fip": 7
       }
     },
     {
