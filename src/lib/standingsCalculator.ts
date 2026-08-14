@@ -101,7 +101,7 @@ export function calculateStandings(
   // 處理並列排名
   if (games !== undefined) {
     // 有賽事資料：自動依對戰成績排名（適用於 2026+ 資料完整的賽季）
-    resolveGroupTiesWithGames(teamsWithStats, games);
+    resolveGroupTiesWithGames(teamsWithStats, games, teamsWithStats[0]);
   } else {
     // 無賽事資料：依 tiebreakRank 處理並列（適用於 2025 人工排名）
     resolveGroupTiesWithTiebreakRank(teamsWithStats);
@@ -156,11 +156,12 @@ function getHeadToHeadStats(
 
 /**
  * 對積分+勝率相同的並列群組，依對戰成績重新排序
- * 排序優先序：對戰積分 → 對戰失分（少的優先）→ 整體均失（少的優先）
+ * 排序優先序：對戰積分 → 對戰失分（少的優先）→ 勝差GB（少的優先）→ 整體均失（少的優先）
  */
 function resolveGroupTiesWithGames(
   sorted: TeamWithStats[],
-  games: Record<string, SeasonGame>
+  games: Record<string, SeasonGame>,
+  leader: { wins: number; losses: number }
 ): void {
   let i = 0;
   while (i < sorted.length) {
@@ -185,6 +186,9 @@ function resolveGroupTiesWithGames(
         const bh2h = h2hMap.get(b.teamName)!;
         if (bh2h.points !== ah2h.points) return bh2h.points - ah2h.points;
         if (ah2h.runsAllowed !== bh2h.runsAllowed) return ah2h.runsAllowed - bh2h.runsAllowed;
+        const aGB = calculateGamesBehind(leader, a);
+        const bGB = calculateGamesBehind(leader, b);
+        if (aGB !== bGB) return aGB - bGB;
         return a.runsAllowed - b.runsAllowed;
       });
 
