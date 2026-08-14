@@ -1,9 +1,9 @@
 {
   "season": 2025,
-  "lastUpdated": "2026-07-11",
+  "lastUpdated": "2026-08-15",
   "calendarRange": {
     "start": "2026-04",
-    "end": "2026-07"
+    "end": "2026-09"
   },
   "standings": {
     "source": "manual",
@@ -265,26 +265,97 @@
       "sheetId": ""
     },
     "20250405G1": {
-      "date": "2026-06-27",
+      "date": "2026-07-18",
       "homeTeam": "楚奧特",
       "awayTeam": "飛尼克斯",
-      "venue": "三鶯B",
+      "venue": "中正A",
       "timeSlot": "下午",
-      "startTime": "15:30",
-      "endTime": "18:00",
-      "status": "rain",
-      "homeScore": null,
-      "awayScore": null,
+      "startTime": "14:30",
+      "endTime": "17:00",
+      "status": "finished",
+      "homeScore": 9,
+      "awayScore": 7,
       "sheetId": "",
       "rescheduledDates": [
         {
-          "date": "2026-07-18",
-          "venue": "中正A",
+          "date": "2026-06-27",
+          "venue": "三鶯B",
           "timeSlot": "下午",
-          "startTime": "14:30",
-          "endTime": "17:00"
+          "startTime": "15:30",
+          "endTime": "18:00",
+          "note": "雨延"
         }
       ]
+    },
+    "20250405G2": {
+      "date": "2026-07-25",
+      "homeTeam": "楚奧特",
+      "awayTeam": "飛尼克斯",
+      "venue": "中正A",
+      "timeSlot": "上午",
+      "startTime": "08:00",
+      "endTime": "11:00",
+      "status": "finished",
+      "homeScore": 8,
+      "awayScore": 1,
+      "sheetId": "",
+      "note": "八強敗部生死戰 G2，楚奧特晉級四強"
+    },
+    "20250203G1": {
+      "date": "2026-08-01",
+      "homeTeam": "永春TB",
+      "awayTeam": "華江OB",
+      "venue": "中正A",
+      "timeSlot": "上午",
+      "startTime": "08:00",
+      "endTime": "11:00",
+      "status": "finished",
+      "homeScore": 15,
+      "awayScore": 2,
+      "sheetId": "",
+      "note": "四強勝部第一輪，永春TB晉級勝部冠軍賽"
+    },
+    "20250105G1": {
+      "date": "2026-08-08",
+      "homeTeam": "楚奧特",
+      "awayTeam": "Line Drive",
+      "venue": "中正A",
+      "timeSlot": "中午",
+      "startTime": "11:00",
+      "endTime": "14:00",
+      "status": "finished",
+      "homeScore": 3,
+      "awayScore": 15,
+      "sheetId": "",
+      "note": "四強勝部第一輪，Line Drive晉級勝部冠軍賽"
+    },
+    "20250102G1": {
+      "date": "2026-08-15",
+      "homeTeam": "Line Drive",
+      "awayTeam": "永春TB",
+      "venue": "中正A",
+      "timeSlot": "中午",
+      "startTime": "12:00",
+      "endTime": "14:30",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null,
+      "sheetId": "",
+      "note": "四強勝部冠軍賽"
+    },
+    "20250305G1": {
+      "date": "2026-08-15",
+      "homeTeam": "華江OB",
+      "awayTeam": "楚奧特",
+      "venue": "中正A",
+      "timeSlot": "下午",
+      "startTime": "14:30",
+      "endTime": "17:00",
+      "status": "scheduled",
+      "homeScore": null,
+      "awayScore": null,
+      "sheetId": "",
+      "note": "四強敗部第一輪"
     }
   }
 }
