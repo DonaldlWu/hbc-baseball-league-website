@@ -53,3 +53,5 @@ public/images/players/
 
 # Claude Code 本地個人設定（權限記錄等，machine-specific）
 .claude/settings.local.json
+.spectra/
+openspec/.vector-search.db*
