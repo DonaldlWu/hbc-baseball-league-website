@@ -1,5 +1,7 @@
 # 排行榜積分與排序規則
 
+> **Spectra Spec**: The authoritative machine-readable version of these rules lives at [`openspec/specs/standings/spec.md`](../openspec/specs/standings/spec.md). This document is kept for human-readable reference.
+
 ## 積分制度
 
 | 結果 | 積分 |

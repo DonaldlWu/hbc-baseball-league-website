@@ -1,8 +1,9 @@
 # Spec：四強雙敗淘汰（敗部復活）自動推導
 
 > 📅 建立日期：2026-07-11
-> 📌 狀態：待審核（spec only，尚未實作）
+> 📌 狀態：**已實作** — 完整實作位於 `src/lib/postseasonLoader.ts`
 > 🔗 相關：`src/lib/postseasonLoader.ts`、`public/data/postseason/2025.json`
+> 📐 **Spectra Spec**: The authoritative spec is at [`openspec/specs/postseason/spec.md`](../openspec/specs/postseason/spec.md).
 
 ## 1. 背景與目標
 
