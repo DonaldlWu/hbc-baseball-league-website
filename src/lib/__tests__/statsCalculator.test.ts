@@ -215,6 +215,11 @@ describe('statsCalculator', () => {
       const league = { ...sampleLeague, avgOBP: 0, avgSLG: 0 };
       expect(calculateOPSPlus(sampleBatting, league)).toBeNull();
     });
+
+    it('打席為 0 時應該返回 null', () => {
+      const batting = { ...sampleBatting, pa: 0 };
+      expect(calculateOPSPlus(batting, sampleLeague)).toBeNull();
+    });
   });
 
   describe('calculateAllStats', () => {

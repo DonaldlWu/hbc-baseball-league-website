@@ -127,6 +127,7 @@ export function calculateWRCPlus(
  * OPS+ = 100 × (OBP/lgOBP + SLG/lgSLG - 1)
  */
 export function calculateOPSPlus(batting: BattingStats, league: LeagueStats): number | null {
+  if (batting.pa === 0) return null;
   if (league.avgOBP === 0 || league.avgSLG === 0) return null;
 
   const obp = calculateOBP(batting);
