@@ -11,232 +11,209 @@
       {
         "teamId": "ARP",
         "teamName": "Aaron Prosecutor",
-        "wins": 9,
-        "losses": 1,
+        "wins": 11,
+        "losses": 2,
         "draws": 0,
-        "runsScored": 12.3,
-        "runsAllowed": 4.4,
-        "points": 27
+        "runsScored": 11.769,
+        "runsAllowed": 4.692
       },
       {
         "teamId": "ROO",
         "teamName": "Line Drive",
-        "wins": 5,
+        "wins": 9,
         "losses": 0,
         "draws": 0,
-        "runsScored": 13.4,
-        "runsAllowed": 5.2,
-        "points": 15
-      },
-      {
-        "teamId": "TRO",
-        "teamName": "楚奧特",
-        "wins": 4,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 15.25,
-        "runsAllowed": 6.25,
-        "points": 12
-      },
-      {
-        "teamId": "SCO",
-        "teamName": "實踐OB",
-        "wins": 4,
-        "losses": 1,
-        "draws": 0,
-        "runsScored": 13.8,
-        "runsAllowed": 5.0,
-        "points": 12
+        "runsScored": 13.667,
+        "runsAllowed": 4.444
       },
       {
         "teamId": "HUA",
         "teamName": "華江OB",
-        "wins": 4,
+        "wins": 8,
         "losses": 0,
         "draws": 0,
-        "runsScored": 13.75,
-        "runsAllowed": 2.0,
-        "points": 12
+        "runsScored": 12.75,
+        "runsAllowed": 1.625
+      },
+      {
+        "teamId": "SCO",
+        "teamName": "實踐OB",
+        "wins": 7,
+        "losses": 1,
+        "draws": 0,
+        "runsScored": 13.375,
+        "runsAllowed": 5.875
+      },
+      {
+        "teamId": "EAG",
+        "teamName": "火把老鷹",
+        "wins": 7,
+        "losses": 3,
+        "draws": 0,
+        "runsScored": 9.4,
+        "runsAllowed": 7.7
+      },
+      {
+        "teamId": "GEO",
+        "teamName": "十號馬",
+        "wins": 6,
+        "losses": 5,
+        "draws": 1,
+        "runsScored": 7.917,
+        "runsAllowed": 8.833
+      },
+      {
+        "teamId": "ACE",
+        "teamName": "ACES",
+        "wins": 6,
+        "losses": 2,
+        "draws": 0,
+        "runsScored": 12.875,
+        "runsAllowed": 4.375
+      },
+      {
+        "teamId": "PHE",
+        "teamName": "飛尼克斯",
+        "wins": 6,
+        "losses": 3,
+        "draws": 0,
+        "runsScored": 12.111,
+        "runsAllowed": 8.444
+      },
+      {
+        "teamId": "YAN",
+        "teamName": "陽明OB",
+        "wins": 6,
+        "losses": 1,
+        "draws": 0,
+        "runsScored": 11.429,
+        "runsAllowed": 3.571
+      },
+      {
+        "teamId": "REV",
+        "teamName": "逆轉星球",
+        "wins": 5,
+        "losses": 5,
+        "draws": 0,
+        "runsScored": 9.2,
+        "runsAllowed": 8.3
+      },
+      {
+        "teamId": "SWD",
+        "teamName": "甜心暴龍",
+        "wins": 4,
+        "losses": 2,
+        "draws": 1,
+        "runsScored": 7.857,
+        "runsAllowed": 7.571
+      },
+      {
+        "teamId": "SAK",
+        "teamName": "櫻砲魂",
+        "wins": 4,
+        "losses": 8,
+        "draws": 1,
+        "runsScored": 5.154,
+        "runsAllowed": 12.154
       },
       {
         "teamId": "YCT",
         "teamName": "永春TB",
         "wins": 4,
-        "losses": 0,
+        "losses": 1,
         "draws": 0,
-        "runsScored": 11.75,
-        "runsAllowed": 4.25,
-        "points": 12
+        "runsScored": 10.8,
+        "runsAllowed": 5.6
       },
       {
-        "teamId": "EAG",
-        "teamName": "火把老鷹",
+        "teamId": "TRO",
+        "teamName": "楚奧特",
         "wins": 4,
-        "losses": 1,
+        "losses": 5,
         "draws": 0,
-        "runsScored": 10.2,
-        "runsAllowed": 6.4,
-        "points": 12
-      },
-      {
-        "teamId": "GEO",
-        "teamName": "十號馬",
-        "wins": 3,
-        "losses": 4,
-        "draws": 0,
-        "runsScored": 6.143,
-        "runsAllowed": 9.857,
-        "points": 9
-      },
-      {
-        "teamId": "PHE",
-        "teamName": "飛尼克斯",
-        "wins": 2,
-        "losses": 2,
-        "draws": 0,
-        "runsScored": 12.5,
-        "runsAllowed": 9.25,
-        "points": 6
-      },
-      {
-        "teamId": "YAN",
-        "teamName": "陽明OB",
-        "wins": 2,
-        "losses": 0,
-        "draws": 0,
-        "runsScored": 12.5,
-        "runsAllowed": 3.0,
-        "points": 6
-      },
-      {
-        "teamId": "ACE",
-        "teamName": "ACES",
-        "wins": 2,
-        "losses": 1,
-        "draws": 0,
-        "runsScored": 12.0,
-        "runsAllowed": 6.0,
-        "points": 6
+        "runsScored": 9.0,
+        "runsAllowed": 9.333
       },
       {
         "teamId": "MUZ",
         "teamName": "木柵OB",
-        "wins": 2,
-        "losses": 1,
+        "wins": 4,
+        "losses": 4,
         "draws": 0,
-        "runsScored": 10.0,
-        "runsAllowed": 6.333,
-        "points": 6
-      },
-      {
-        "teamId": "REV",
-        "teamName": "逆轉星球",
-        "wins": 2,
-        "losses": 2,
-        "draws": 0,
-        "runsScored": 9.5,
-        "runsAllowed": 9.0,
-        "points": 6
+        "runsScored": 8.5,
+        "runsAllowed": 7.5
       },
       {
         "teamId": "HOL",
         "teamName": "HOLYBAT",
+        "wins": 3,
+        "losses": 7,
+        "draws": 1,
+        "runsScored": 8.091,
+        "runsAllowed": 11.455
+      },
+      {
+        "teamId": "NTM-2026",
+        "teamName": "政大Mechanics",
         "wins": 2,
         "losses": 5,
         "draws": 0,
         "runsScored": 8.571,
-        "runsAllowed": 12.286,
-        "points": 6
+        "runsAllowed": 11.0
       },
       {
-        "teamId": "SWD",
-        "teamName": "甜心暴龍",
+        "teamId": "NTE",
+        "teamName": "台大經濟OB",
         "wins": 2,
-        "losses": 1,
+        "losses": 9,
         "draws": 0,
-        "runsScored": 7.0,
-        "runsAllowed": 5.0,
-        "points": 6
+        "runsScored": 8.364,
+        "runsAllowed": 10.455
+      },
+      {
+        "teamId": "SHA",
+        "teamName": "少林棒球隊",
+        "wins": 2,
+        "losses": 7,
+        "draws": 0,
+        "runsScored": 5.667,
+        "runsAllowed": 13.0
       },
       {
         "teamId": "MIR",
         "teamName": "MIRACLE",
         "wins": 2,
-        "losses": 5,
+        "losses": 8,
         "draws": 0,
-        "runsScored": 5.857,
-        "runsAllowed": 14.0,
-        "points": 6
+        "runsScored": 4.7,
+        "runsAllowed": 14.0
       },
       {
-        "teamId": "SAK",
-        "teamName": "櫻砲魂",
-        "wins": 2,
-        "losses": 7,
-        "draws": 0,
-        "runsScored": 4.333,
-        "runsAllowed": 13.889,
-        "points": 6
-      },
-      {
-        "teamId": "SHA",
-        "teamName": "少林棒球隊",
+        "teamId": "DHW",
+        "teamName": "DH戰將",
         "wins": 1,
-        "losses": 4,
+        "losses": 9,
         "draws": 0,
-        "runsScored": 6.0,
-        "runsAllowed": 11.8,
-        "points": 3
+        "runsScored": 6.6,
+        "runsAllowed": 9.7
+      },
+      {
+        "teamId": "NTH",
+        "teamName": "台大醫學院棒",
+        "wins": 1,
+        "losses": 9,
+        "draws": 0,
+        "runsScored": 5.0,
+        "runsAllowed": 16.7
       },
       {
         "teamId": "MOR",
         "teamName": "莫拉克",
         "wins": 0,
-        "losses": 2,
+        "losses": 7,
         "draws": 1,
-        "runsScored": 6.333,
-        "runsAllowed": 10.0,
-        "points": 1
-      },
-      {
-        "teamId": "NTE",
-        "teamName": "台大經濟OB",
-        "wins": 0,
-        "losses": 6,
-        "draws": 0,
-        "runsScored": 8.667,
-        "runsAllowed": 11.833,
-        "points": 0
-      },
-      {
-        "teamId": "DHW",
-        "teamName": "DH戰將",
-        "wins": 0,
-        "losses": 5,
-        "draws": 0,
-        "runsScored": 7.4,
-        "runsAllowed": 10.8,
-        "points": 0
-      },
-      {
-        "teamId": "NTM-2026",
-        "teamName": "政大Mechanics",
-        "wins": 0,
-        "losses": 1,
-        "draws": 0,
-        "runsScored": 5.0,
-        "runsAllowed": 15.0,
-        "points": 0
-      },
-      {
-        "teamId": "NTH",
-        "teamName": "台大醫學院棒",
-        "wins": 0,
-        "losses": 6,
-        "draws": 0,
-        "runsScored": 4.333,
-        "runsAllowed": 18.333,
-        "points": 0
+        "runsScored": 4.875,
+        "runsAllowed": 11.5
       }
     ],
     "adjustments": [
@@ -803,10 +780,10 @@
       "timeSlot": "中午",
       "startTime": "13:00",
       "endTime": "15:30",
-      "status": "rain",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": "",
+      "status": "finished",
+      "homeScore": 9,
+      "awayScore": 2,
+      "sheetId": "14Omg6ahClIEsECsJ2EPTA90b6FCuXu99_ccoEXIy5m0",
       "rescheduledDates": [
         {
           "date": "2026-09-12",
@@ -1248,10 +1225,10 @@
       "timeSlot": "上午",
       "startTime": "08:00",
       "endTime": "10:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 7,
+      "awayScore": 9,
+      "sheetId": "1Gw8HLcVXa7C9kCfHaZm5FREQRwAc2tJhfE8OW4ZfWNU"
     },
     "2026182": {
       "date": "2026-08-15",
@@ -1261,10 +1238,10 @@
       "timeSlot": "中午",
       "startTime": "10:30",
       "endTime": "13:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 12,
+      "awayScore": 9,
+      "sheetId": "15h5Jc1A5tCW9FWWs2pZkf2gl0KhSI0tceSz9Ghom5nA"
     },
     "2026101": {
       "date": "2026-08-15",
@@ -1274,10 +1251,10 @@
       "timeSlot": "中午",
       "startTime": "12:30",
       "endTime": "15:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 21,
+      "awayScore": 11,
+      "sheetId": "1IrZMUQqC3x6ABSC1LMSHN2k6W2SiacLatWqEB9LJqM8"
     },
     "2026119": {
       "date": "2026-08-15",
@@ -1287,10 +1264,20 @@
       "timeSlot": "下午",
       "startTime": "15:00",
       "endTime": "17:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 20,
+      "awayScore": 4,
+      "sheetId": "1AhHdPFb9IOy3KE8iIMpeRzQ_AafjNnJM6D2nrH671qY",
+      "rescheduledDates": [
+        {
+          "date": "2026-09-28",
+          "venue": "三鶯B",
+          "timeSlot": "中午",
+          "startTime": "10:30",
+          "endTime": "13:00"
+        }
+      ],
+      "note": "9/28 補賽完成（8/15 原場次 0:1 因雨中止）"
     },
     "2026094": {
       "date": "2026-08-22",
@@ -1300,10 +1287,10 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 9,
+      "sheetId": "1j_BC6__8vC4Z7gq1QwGJd-EWKYjh02vtm6jHgddnejA"
     },
     "2026146": {
       "date": "2026-08-22",
@@ -1343,10 +1330,10 @@
       "timeSlot": "中午",
       "startTime": "13:00",
       "endTime": "15:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 12,
+      "awayScore": 3,
+      "sheetId": "1rkDbC2t0pZtBtf1yl0dP3oJml489EAez6RQQZZdhoM0"
     },
     "2026049": {
       "date": "2026-08-22",
@@ -1356,10 +1343,10 @@
       "timeSlot": "下午",
       "startTime": "15:30",
       "endTime": "18:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 10,
+      "awayScore": 3,
+      "sheetId": "1EOehH0Z_VQ81tQCQiRPlq0ngZPqmdKO2cZkT1CVGRvk"
     },
     "2026202": {
       "date": "2026-08-29",
@@ -1369,10 +1356,10 @@
       "timeSlot": "上午",
       "startTime": "08:00",
       "endTime": "11:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 10,
+      "awayScore": 6,
+      "sheetId": "1T1sUMTi5fcHaGP4BtONmJ4ixEfiMGlgQbfacjVPKdkk"
     },
     "2026051": {
       "date": "2026-08-29",
@@ -1382,10 +1369,10 @@
       "timeSlot": "中午",
       "startTime": "11:00",
       "endTime": "14:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 13,
+      "awayScore": 7,
+      "sheetId": "1HiMzBEYUU4vr70wtcgxSTsjp3rMbeD-SoPP0PfwDfxU"
     },
     "2026027": {
       "date": "2026-08-29",
@@ -1395,10 +1382,10 @@
       "timeSlot": "下午",
       "startTime": "14:00",
       "endTime": "17:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 7,
+      "awayScore": 6,
+      "sheetId": "10kdMP0igRxxd-HYfxEavGZi6yu-6pJeqsJUwTwx3m2Y"
     },
     "2026022": {
       "date": "2026-08-29",
@@ -1408,10 +1395,10 @@
       "timeSlot": "中午",
       "startTime": "13:00",
       "endTime": "15:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 3,
+      "awayScore": 3,
+      "sheetId": "1zsC-YBzxHtFJItfN-379evv32_VnH1ldPSt8j6HVsEA"
     },
     "2026168": {
       "date": "2026-08-29",
@@ -1421,10 +1408,10 @@
       "timeSlot": "下午",
       "startTime": "15:30",
       "endTime": "18:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 10,
+      "sheetId": "1xWglM2BbD-VTe8oA_vjS9A5XluPBSTx4yEnKpsG-dEY"
     },
     "2026156": {
       "date": "2026-08-29",
@@ -1434,10 +1421,10 @@
       "timeSlot": "上午",
       "startTime": "08:00",
       "endTime": "10:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 13,
+      "awayScore": 17,
+      "sheetId": "1Yi1WtCOmYrX7Vqd_n2a40aQc-cP2NwKxjRSrslUsgoA"
     },
     "2026163": {
       "date": "2026-08-29",
@@ -1447,10 +1434,10 @@
       "timeSlot": "中午",
       "startTime": "10:30",
       "endTime": "13:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 4,
+      "awayScore": 18,
+      "sheetId": "1SPtPCn5XYCYBDM-Yh-DjJ2pBP1zrTX1eBSIGJ7CsJ88"
     },
     "2026046": {
       "date": "2026-08-29",
@@ -1460,10 +1447,10 @@
       "timeSlot": "中午",
       "startTime": "13:00",
       "endTime": "15:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 16,
+      "sheetId": "1J8LMu4WixlK_IrgR0DvIqqFN9fqpsm9VUS7EYx4DozA"
     },
     "2026173": {
       "date": "2026-08-29",
@@ -1473,10 +1460,10 @@
       "timeSlot": "下午",
       "startTime": "15:30",
       "endTime": "18:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 4,
+      "awayScore": 0,
+      "sheetId": "178tEzrH64XmDqJhVJiSZPQlzPFW08fUd3gu5u1V2yK0"
     },
     "2026169": {
       "date": "2026-09-05",
@@ -1538,10 +1525,10 @@
       "timeSlot": "中午",
       "startTime": "13:00",
       "endTime": "15:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 13,
+      "awayScore": 8,
+      "sheetId": "1eqTDlBHwul0HPswQcE71Qkh5GInc4Mpz92EHF7zaFJ8"
     },
     "2026216": {
       "date": "2026-09-12",
@@ -1551,10 +1538,10 @@
       "timeSlot": "下午",
       "startTime": "15:30",
       "endTime": "18:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 7,
+      "awayScore": 3,
+      "sheetId": "1u0CaMcgZNO6--NhEZS9v_eUnYMgFdxKcFEW8hyeSxyo"
     },
     "2026127": {
       "date": "2026-09-12",
@@ -1564,10 +1551,10 @@
       "timeSlot": "中午",
       "startTime": "10:30",
       "endTime": "13:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 4,
+      "awayScore": 2,
+      "sheetId": "1md9O4eGA5SNGhPG35-u5ZwT_7H6ooeWvBd1138ZivbU"
     },
     "2026118": {
       "date": "2026-09-19",
@@ -1577,10 +1564,10 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 3,
+      "awayScore": 9,
+      "sheetId": "1zIld4k_GGXCon41eUuJlUx6LFOiaZJUjEfnJY3jHo64"
     },
     "2026159": {
       "date": "2026-09-19",
@@ -1590,10 +1577,10 @@
       "timeSlot": "下午",
       "startTime": "14:30",
       "endTime": "17:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 12,
+      "awayScore": 23,
+      "sheetId": "1a5QasfESnHQhEQBwSjYm6mqdfmKakKCtZDVCuabfPsE"
     },
     "2026147": {
       "date": "2026-09-26",
@@ -1603,10 +1590,10 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 3,
+      "awayScore": 6,
+      "sheetId": "1HSCcZ1jyZgS3XTXhYhTsNhOWoqTbHYk1rP0FgtSziYE"
     },
     "2026125": {
       "date": "2026-09-26",
@@ -1616,10 +1603,10 @@
       "timeSlot": "下午",
       "startTime": "14:30",
       "endTime": "17:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 9,
+      "sheetId": "1qyquS-qAiH0FrikLXS74NV2FsCBGQSHHCPRCPo8m5N0"
     },
     "2026090": {
       "date": "2026-09-26",
@@ -1629,10 +1616,10 @@
       "timeSlot": "晚上",
       "startTime": "18:30",
       "endTime": "21:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 7,
+      "awayScore": 6,
+      "sheetId": "1zNshJhpRtUXiGjA1uxX0vNSdLB2hvXb9jHz3_L_Vw70"
     },
     "2026019": {
       "date": "2026-09-26",
@@ -1642,10 +1629,10 @@
       "timeSlot": "上午",
       "startTime": "08:00",
       "endTime": "10:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 13,
+      "sheetId": "1bFMdPkMHI25KNcijgkgipM_hb9H_DrN_jmwkEAkb8wU"
     },
     "2026149": {
       "date": "2026-09-26",
@@ -1655,10 +1642,10 @@
       "timeSlot": "中午",
       "startTime": "10:30",
       "endTime": "13:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 22,
+      "awayScore": 6,
+      "sheetId": "1TKzc2T7V13O0BCUKUGtnF8cbad6kXF1yqaYD1YBiT-A"
     },
     "2026059": {
       "date": "2026-09-26",
@@ -1668,10 +1655,10 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 5,
+      "awayScore": 9,
+      "sheetId": "1I_DQEzPK5jftxOxzg7sY_d8wEjz9gNc1EF1fRax63PQ"
     },
     "2026088": {
       "date": "2026-09-26",
@@ -1681,10 +1668,10 @@
       "timeSlot": "下午",
       "startTime": "14:30",
       "endTime": "17:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 28,
+      "awayScore": 2,
+      "sheetId": "1BCScFpnMqLk2h-BMZvYEHBjrUQ44jvg5gZeHnEL0NgQ"
     },
     "2026058": {
       "date": "2026-09-28",
@@ -1694,10 +1681,10 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 15,
+      "awayScore": 6,
+      "sheetId": "1wSyUaRfAX3a0giTzdv0649ffd4Uz6RlSrk1z1MoaHRk"
     },
     "2026194": {
       "date": "2026-09-28",
@@ -1707,10 +1694,10 @@
       "timeSlot": "下午",
       "startTime": "14:30",
       "endTime": "17:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 7,
+      "awayScore": 11,
+      "sheetId": "1etBUVIAMu78nWW8WjTO0LiurXdEl8ly09EmO0qPHiUg"
     },
     "2026039": {
       "date": "2026-09-28",
@@ -1720,10 +1707,10 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 9,
+      "awayScore": 11,
+      "sheetId": "1tKgXQjgjhOqvQwqD9CR9Qosw2M2yWTbhLIHQgMpaUGA"
     },
     "2026117": {
       "date": "2026-09-28",
@@ -1733,10 +1720,10 @@
       "timeSlot": "下午",
       "startTime": "14:30",
       "endTime": "17:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 12,
+      "awayScore": 16,
+      "sheetId": "1GR-_1y1x1eg6MEX6KQdWkgSaQjmRsrj_Ve4byai81U8"
     },
     "2026201": {
       "date": "2026-09-28",
@@ -1746,10 +1733,10 @@
       "timeSlot": "上午",
       "startTime": "08:00",
       "endTime": "10:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 5,
+      "awayScore": 8,
+      "sheetId": "1XHbl-1-JszL2tZoDOAsUosx2GRvyaXLan0qRcPqkb_Q"
     },
     "2026100": {
       "date": "2026-10-03",
@@ -1759,10 +1746,10 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 13,
+      "awayScore": 2,
+      "sheetId": "1-tvgVGxG4fYIyzAW145I4zxfq3t7xGkB872snSaagEI"
     },
     "2026187": {
       "date": "2026-10-03",
@@ -1772,10 +1759,10 @@
       "timeSlot": "下午",
       "startTime": "14:30",
       "endTime": "17:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 3,
+      "awayScore": 2,
+      "sheetId": "1SL7uYhuV6ndttpQmsT2RW1xo-6eCc7jwiUzbiuA8G-o"
     },
     "2026005": {
       "date": "2026-10-09",
@@ -1785,10 +1772,10 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 15,
+      "awayScore": 5,
+      "sheetId": "1CWyUrczTjZB-DcWS6y7Au_4ZF3ZC9s7YH4IdPQBfd5c"
     },
     "2026015": {
       "date": "2026-10-09",
@@ -1798,10 +1785,10 @@
       "timeSlot": "下午",
       "startTime": "14:30",
       "endTime": "17:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 9,
+      "awayScore": 3,
+      "sheetId": "1os41jv1jIvBTLA62hObW597C5Nvu9ye-niZMx1f8CMc"
     },
     "2026184": {
       "date": "2026-10-09",
@@ -1811,10 +1798,10 @@
       "timeSlot": "中午",
       "startTime": "13:00",
       "endTime": "15:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 21,
+      "awayScore": 3,
+      "sheetId": "1r3aYymoheXysJx5Pf7wOvfVxDOYj2I2gHIHMjq_UaiU"
     },
     "2026152": {
       "date": "2026-10-09",
@@ -1824,10 +1811,10 @@
       "timeSlot": "下午",
       "startTime": "15:30",
       "endTime": "18:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 19,
+      "awayScore": 0,
+      "sheetId": "1pQ3E10k_iZERgcP96j1KJd66GMpF1Aga2HNbzstBqTY"
     },
     "2026200": {
       "date": "2026-10-09",
@@ -1837,10 +1824,10 @@
       "timeSlot": "上午",
       "startTime": "08:00",
       "endTime": "10:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 8,
+      "awayScore": 6,
+      "sheetId": "1gETWzjDlujkC8JKjEWd2VpbWZ9U8yAeTn92vVidvjdA"
     },
     "2026070": {
       "date": "2026-10-09",
@@ -1850,10 +1837,10 @@
       "timeSlot": "中午",
       "startTime": "10:30",
       "endTime": "13:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 13,
+      "awayScore": 7,
+      "sheetId": "1xFPuk7IX8wKB87_GjgSHxnQov13qQaaWe49rqVJTqaA"
     },
     "2026078": {
       "date": "2026-10-10",
@@ -1863,10 +1850,10 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 7,
+      "awayScore": 16,
+      "sheetId": "1nSGPatR-B5A-o81uCmynsJv1ZoM6Q1-lkoPhscr0uIg"
     },
     "2026213": {
       "date": "2026-10-10",
@@ -1876,10 +1863,10 @@
       "timeSlot": "下午",
       "startTime": "14:30",
       "endTime": "17:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 25,
+      "awayScore": 2,
+      "sheetId": "1nH2gWC2EfY7WhOo0VAF4VcT1xjTUXHfpj_eGeaShJNI"
     },
     "2026175": {
       "date": "2026-10-10",
@@ -1889,10 +1876,10 @@
       "timeSlot": "上午",
       "startTime": "08:00",
       "endTime": "11:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 6,
+      "awayScore": 6,
+      "sheetId": "1xe_7R9yuYsmaOvFjyXwRVCwoW-jQ-kaugjFe8fsKRW0"
     },
     "2026084": {
       "date": "2026-10-10",
@@ -1902,10 +1889,10 @@
       "timeSlot": "下午",
       "startTime": "14:00",
       "endTime": "17:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 10,
+      "awayScore": 4,
+      "sheetId": "1oBhKbWdFVFfLyeqBSQ3YqGsKjSrGy0mpnCOk5TJUz-s"
     },
     "2026055": {
       "date": "2026-10-17",
@@ -1915,10 +1902,10 @@
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 7,
+      "awayScore": 10,
+      "sheetId": "1gzq-uAZPW8nxdjSwmUJ-NB9gAoLu9mQNgDXc3RZTRmY"
     },
     "2026009": {
       "date": "2026-10-17",
@@ -1928,10 +1915,10 @@
       "timeSlot": "下午",
       "startTime": "14:30",
       "endTime": "17:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 12,
+      "awayScore": 6,
+      "sheetId": "1ce-nYHgXHHFpzteolBrgv_DpyovdT5HdMCFid2lYXj8"
     },
     "2026179": {
       "date": "2026-10-17",
@@ -1941,10 +1928,10 @@
       "timeSlot": "上午",
       "startTime": "08:00",
       "endTime": "10:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 7,
+      "awayScore": 6,
+      "sheetId": "1ir_2WyTLclDFmwQOPkPcSCTBZddm8lsyw3AgS8GHUFA"
     },
     "2026206": {
       "date": "2026-10-17",
@@ -1954,10 +1941,10 @@
       "timeSlot": "中午",
       "startTime": "10:30",
       "endTime": "13:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 12,
+      "awayScore": 2,
+      "sheetId": "1ey5A2-LTNDR-3Q68blAqhvx0cHyXPzJWJXfEtvtSli8"
     },
     "2026077": {
       "date": "2026-10-24",
