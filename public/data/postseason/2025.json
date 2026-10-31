@@ -1,6 +1,6 @@
 {
   "season": 2025,
-  "lastUpdated": "2026-06-15",
+  "lastUpdated": "2026-10-31",
   "rounds": [
     {
       "roundId": "r16",
@@ -258,7 +258,54 @@
       "bracket": "winners",
       "bestOf": 1,
       "homeAdvantage": false,
-      "matchups": []
+      "matchups": [
+        {
+          "matchupId": "top4-w1-a",
+          "seed1": 2,
+          "seed2": 3,
+          "team1": {
+            "teamId": "YCT"
+          },
+          "team2": {
+            "teamId": "HUA"
+          },
+          "games": [
+            {
+              "gameSeq": 1,
+              "byeGame": false,
+              "winner": null,
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": "20250203G1"
+            }
+          ],
+          "winner": null,
+          "status": "pending"
+        },
+        {
+          "matchupId": "top4-w1-b",
+          "seed1": 1,
+          "seed2": 5,
+          "team1": {
+            "teamId": "ROO"
+          },
+          "team2": {
+            "teamId": "TRO"
+          },
+          "games": [
+            {
+              "gameSeq": 1,
+              "byeGame": false,
+              "winner": null,
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": "20250105G1"
+            }
+          ],
+          "winner": null,
+          "status": "pending"
+        }
+      ]
     },
     {
       "roundId": "top4-l1",
@@ -267,7 +314,31 @@
       "bracket": "losers",
       "bestOf": 1,
       "homeAdvantage": false,
-      "matchups": []
+      "matchups": [
+        {
+          "matchupId": "top4-l1-a",
+          "seed1": 3,
+          "seed2": 5,
+          "team1": {
+            "teamId": "HUA"
+          },
+          "team2": {
+            "teamId": "TRO"
+          },
+          "games": [
+            {
+              "gameSeq": 1,
+              "byeGame": false,
+              "winner": null,
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": "20250305G1"
+            }
+          ],
+          "winner": null,
+          "status": "pending"
+        }
+      ]
     },
     {
       "roundId": "top4-w2",
@@ -276,7 +347,31 @@
       "bracket": "winners",
       "bestOf": 1,
       "homeAdvantage": false,
-      "matchups": []
+      "matchups": [
+        {
+          "matchupId": "top4-w2-a",
+          "seed1": 1,
+          "seed2": 2,
+          "team1": {
+            "teamId": "ROO"
+          },
+          "team2": {
+            "teamId": "YCT"
+          },
+          "games": [
+            {
+              "gameSeq": 1,
+              "byeGame": false,
+              "winner": null,
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": "20250102G1"
+            }
+          ],
+          "winner": null,
+          "status": "pending"
+        }
+      ]
     },
     {
       "roundId": "top4-l2",
@@ -285,7 +380,31 @@
       "bracket": "losers",
       "bestOf": 1,
       "homeAdvantage": false,
-      "matchups": []
+      "matchups": [
+        {
+          "matchupId": "top4-l2-a",
+          "seed1": 2,
+          "seed2": 3,
+          "team1": {
+            "teamId": "YCT"
+          },
+          "team2": {
+            "teamId": "HUA"
+          },
+          "games": [
+            {
+              "gameSeq": 1,
+              "byeGame": false,
+              "winner": null,
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": "20250203G2"
+            }
+          ],
+          "winner": null,
+          "status": "pending"
+        }
+      ]
     },
     {
       "roundId": "top4-championship",
@@ -295,7 +414,40 @@
       "bestOf": 3,
       "homeAdvantage": false,
       "winnersBracketAdvantage": true,
-      "matchups": []
+      "matchups": [
+        {
+          "matchupId": "top4-champ-a",
+          "seed1": 1,
+          "seed2": 2,
+          "team1": {
+            "teamId": "ROO"
+          },
+          "team2": {
+            "teamId": "YCT"
+          },
+          "games": [
+            {
+              "gameSeq": 1,
+              "byeGame": true,
+              "winner": "team1",
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": null,
+              "note": "勝部優勢"
+            },
+            {
+              "gameSeq": 2,
+              "byeGame": false,
+              "winner": null,
+              "homeScore": null,
+              "awayScore": null,
+              "gameNumber": "20250102G2"
+            }
+          ],
+          "winner": null,
+          "status": "pending"
+        }
+      ]
     }
   ]
 }
