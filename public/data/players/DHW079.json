@@ -14,23 +14,23 @@
     {
       "year": 2026,
       "team": "DH戰將",
-      "number": "21",
+      "number": "67",
       "batting": {
-        "games": 1,
-        "pa": 2,
-        "ab": 2,
-        "hits": 0,
-        "singles": 0,
+        "games": 2,
+        "pa": 6,
+        "ab": 5,
+        "hits": 1,
+        "singles": 1,
         "doubles": 0,
         "triples": 0,
         "hr": 0,
-        "rbi": 0,
-        "runs": 1,
-        "bb": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 1,
         "so": 1,
         "sb": 0,
         "sf": 0,
-        "totalBases": 0
+        "totalBases": 1
       },
       "pitching": {
         "games": 1,
@@ -47,7 +47,7 @@
         "sv": 0,
         "hld": 0,
         "cs": 0,
-        "csAttempts": 0
+        "csAttempts": 2
       },
       "pitchingCalculated": {
         "era": 0,
@@ -59,16 +59,16 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 1053,
-        "hits": 1526,
-        "hr": 1171,
-        "rbi": 1447,
-        "avg": 1099,
-        "w": 1519,
-        "sv": 1495,
-        "so": 126,
-        "era": 1099,
-        "whip": 899,
+        "rc": 437,
+        "hits": 431,
+        "hr": 1229,
+        "rbi": 236,
+        "avg": 1121,
+        "w": 1483,
+        "sv": 1444,
+        "so": 170,
+        "era": 1121,
+        "whip": 490,
         "fip": 0
       }
     }

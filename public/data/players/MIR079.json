@@ -1,0 +1,52 @@
+{
+  "id": "MIR079",
+  "code": "MIR079",
+  "name": "陳柏丞",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczMymJoXx4w64qI3sgj31G6LZhUgZeHynBHTy4p09xxyCPR4yaInifBBFHZ6pLFugRS5_eaDfOGhr90KIzNcjJ2oQAWmfgwQ4gNdd7SQY9w0IyfPRXnkInYLyTKXCRjhYg_Y5Gzfp7nll54Gw-lEbzAl=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "MIRACLE"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "MIRACLE",
+      "number": "103",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 435,
+        "hits": 376,
+        "hr": 1093,
+        "rbi": 1450,
+        "avg": 1121,
+        "w": 685,
+        "sv": 647,
+        "so": 815,
+        "era": 1121,
+        "whip": 1121,
+        "fip": 0
+      }
+    }
+  ]
+}

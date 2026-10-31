@@ -16,18 +16,18 @@
       "team": "Aaron Prosecutor",
       "number": "5",
       "batting": {
-        "games": 5,
-        "pa": 25,
-        "ab": 19,
+        "games": 7,
+        "pa": 33,
+        "ab": 25,
         "hits": 10,
         "singles": 7,
         "doubles": 2,
         "triples": 0,
         "hr": 1,
         "rbi": 10,
-        "runs": 11,
-        "bb": 5,
-        "so": 1,
+        "runs": 14,
+        "bb": 7,
+        "so": 2,
         "sb": 1,
         "sf": 1,
         "totalBases": 15
@@ -59,17 +59,17 @@
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 5,
-        "hits": 5,
-        "hr": 6,
-        "rbi": 2,
-        "avg": 17,
-        "w": 36,
-        "sv": 1591,
-        "so": 41,
-        "era": 1099,
-        "whip": 21,
-        "fip": 52
+        "rc": 24,
+        "hits": 43,
+        "hr": 17,
+        "rbi": 18,
+        "avg": 41,
+        "w": 46,
+        "sv": 1565,
+        "so": 74,
+        "era": 1121,
+        "whip": 114,
+        "fip": 41
       }
     }
   ]

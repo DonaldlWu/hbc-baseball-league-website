@@ -1,0 +1,52 @@
+{
+  "id": "SWD031",
+  "code": "SWD031",
+  "name": "柯冠宇",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNI58qrH_VeF-6LoT4bik0qft-qsqkUuiBqbXHbg__CleI5ZS7dN1ceKEfDm_2ACEUsUtZ6w8e5WNYIvDOAna1Acp19DkURiX4AUVEOgP_XX_2Bh6mEHz4EPvsJmMmrsr8bBACYt90gpaK23j9c_LyucQ=w721-h923",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "甜心暴龍"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "甜心暴龍",
+      "number": "103",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1098,
+        "hits": 1556,
+        "hr": 1145,
+        "rbi": 1491,
+        "avg": 1121,
+        "w": 847,
+        "sv": 809,
+        "so": 977,
+        "era": 1121,
+        "whip": 1121,
+        "fip": 0
+      }
+    }
+  ]
+}

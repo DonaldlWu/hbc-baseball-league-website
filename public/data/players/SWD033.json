@@ -1,0 +1,52 @@
+{
+  "id": "SWD033",
+  "code": "SWD033",
+  "name": "黃麒維",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNdY_j4n5JHNi1Hmt_pxk1fXyZVY1tbOrwYqubD-SAGxoOyef6NfNUU5nk-DrGnGiN94OMTzWr7jqnY-RDMY5DOoz8VwjAAKbjfhitlxQlefOFpVbhw_BWn56r3fPF6T9j3fsAGLuA8KFXGR-yul9hcIw=w1456-h964",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "甜心暴龍"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "甜心暴龍",
+      "number": "101",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 1,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 376,
+        "hits": 383,
+        "hr": 1114,
+        "rbi": 1465,
+        "avg": 1121,
+        "w": 852,
+        "sv": 814,
+        "so": 982,
+        "era": 1121,
+        "whip": 1121,
+        "fip": 0
+      }
+    }
+  ]
+}

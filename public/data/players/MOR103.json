@@ -1,0 +1,52 @@
+{
+  "id": "MOR103",
+  "code": "MOR103",
+  "name": "何世灝",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOWMZ8PV0GbUu0ROwUTlHJwlZukJ07PRJl7F-WjAHJsn-hf0Db5ta9MhQsYPUocJ_xQnmS9asqA1-Duo2REStQbsJsZYo2H5t-8QhT29RSt4h1EH7rsYVUvo1VahzoJ4p6vUmT_iiSXk06AfjTeddhP=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "莫拉克"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "莫拉克",
+      "number": "105",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 1,
+        "singles": 0,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 2
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 401,
+        "hits": 366,
+        "hr": 1075,
+        "rbi": 295,
+        "avg": 1121,
+        "w": 842,
+        "sv": 804,
+        "so": 972,
+        "era": 1121,
+        "whip": 1121,
+        "fip": 0
+      }
+    }
+  ]
+}

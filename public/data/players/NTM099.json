@@ -1,0 +1,52 @@
+{
+  "id": "NTM099",
+  "code": "NTM099",
+  "name": "陳佑熙",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPKfL2iPx0d40T51HAfPf9ckc7k785PMWjrfK_ajxpk2RYvVooVfYHeHOujeHouYk-cHev6yklBtivq1chBWe8Yfg_QrSmXT5K5LWuT39H9gXtSNspLciTKVQ4a5LUz1agXeTIm2WwlGo1-B6E3wZ_38A=w689-h919",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "政大Mechanics"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "政大Mechanics",
+      "number": "13",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 891,
+        "hits": 997,
+        "hr": 536,
+        "rbi": 904,
+        "avg": 1121,
+        "w": 932,
+        "sv": 894,
+        "so": 1062,
+        "era": 1121,
+        "whip": 1121,
+        "fip": 0
+      }
+    }
+  ]
+}

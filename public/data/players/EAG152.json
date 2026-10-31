@@ -1,0 +1,52 @@
+{
+  "id": "EAG152",
+  "code": "EAG152",
+  "name": "莊柏辰",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNstGqLjO3RDLdYXs6hVC_vnVCD3-8dFK7QOymH0YxLcMebIduN2FepC5uafXH-JKksqEmrTR_Pzg3jfyGdi17mPDK20o_GDdoWyRa-cbppVswlnwe9inmRedoEn2rw147IUC2fO2uD772b5IBXdqY=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "火把老鷹",
+      "number": "101",
+      "batting": {
+        "games": 2,
+        "pa": 8,
+        "ab": 6,
+        "hits": 4,
+        "singles": 2,
+        "doubles": 2,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 5,
+        "bb": 2,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 6
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 139,
+        "hits": 166,
+        "hr": 1283,
+        "rbi": 1568,
+        "avg": 1121,
+        "w": 461,
+        "sv": 423,
+        "so": 591,
+        "era": 1121,
+        "whip": 1121,
+        "fip": 0
+      }
+    }
+  ]
+}

@@ -6,6 +6,7 @@
   "career": {
     "debut": 2017,
     "teams": [
+      "政大Mechanics",
       "Mechanics",
       "台大機械",
       "火把老鷹",
@@ -16,8 +17,8 @@
   "seasons": [
     {
       "year": 2026,
-      "team": "Mechanics",
-      "number": "9",
+      "team": "政大Mechanics",
+      "number": "996",
       "batting": {
         "games": 0,
         "pa": 0,
@@ -38,16 +39,16 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 856,
-        "hits": 967,
-        "hr": 595,
-        "rbi": 881,
-        "avg": 1099,
-        "w": 959,
-        "sv": 937,
-        "so": 1059,
-        "era": 1099,
-        "whip": 1099,
+        "rc": 871,
+        "hits": 897,
+        "hr": 436,
+        "rbi": 804,
+        "avg": 1121,
+        "w": 764,
+        "sv": 726,
+        "so": 894,
+        "era": 1121,
+        "whip": 1121,
         "fip": 0
       }
     },

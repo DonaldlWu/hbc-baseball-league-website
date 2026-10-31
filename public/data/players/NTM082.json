@@ -6,6 +6,7 @@
   "career": {
     "debut": 2025,
     "teams": [
+      "政大Mechanics",
       "Mechanics"
     ],
     "totalSeasons": 2
@@ -13,39 +14,63 @@
   "seasons": [
     {
       "year": 2026,
-      "team": "Mechanics",
+      "team": "政大Mechanics",
       "number": "27",
       "batting": {
-        "games": 0,
-        "pa": 0,
-        "ab": 0,
-        "hits": 0,
-        "singles": 0,
+        "games": 4,
+        "pa": 14,
+        "ab": 10,
+        "hits": 3,
+        "singles": 2,
         "doubles": 0,
-        "triples": 0,
+        "triples": 1,
         "hr": 0,
         "rbi": 0,
-        "runs": 0,
-        "bb": 0,
-        "so": 0,
-        "sb": 0,
+        "runs": 5,
+        "bb": 4,
+        "so": 3,
+        "sb": 1,
         "sf": 0,
-        "totalBases": 0
+        "totalBases": 5
       },
-      "pitching": null,
-      "pitchingCalculated": null,
+      "pitching": {
+        "games": 4,
+        "ip": 15,
+        "bf": 78,
+        "so": 18,
+        "bb": 11,
+        "h": 17,
+        "hr": 0,
+        "r": 12,
+        "er": 7,
+        "w": 2,
+        "l": 1,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 4.2,
+        "whip": 1.8666666666666667,
+        "fip": 3.000000436,
+        "kPer9": 10.8,
+        "bbPer9": 6.6,
+        "hPer9": 10.2,
+        "csPercentage": 0
+      },
       "rankings": {
-        "rc": 852,
-        "hits": 953,
-        "hr": 581,
-        "rbi": 867,
-        "avg": 1099,
-        "w": 920,
-        "sv": 898,
-        "so": 1020,
-        "era": 1099,
-        "whip": 1099,
-        "fip": 0
+        "rc": 152,
+        "hits": 248,
+        "hr": 1408,
+        "rbi": 1602,
+        "avg": 1121,
+        "w": 16,
+        "sv": 1598,
+        "so": 15,
+        "era": 1121,
+        "whip": 18,
+        "fip": 26
       }
     },
     {

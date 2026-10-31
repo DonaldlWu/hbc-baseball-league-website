@@ -6,6 +6,7 @@
   "career": {
     "debut": 2025,
     "teams": [
+      "政大Mechanics",
       "Mechanics"
     ],
     "totalSeasons": 2
@@ -13,7 +14,7 @@
   "seasons": [
     {
       "year": 2026,
-      "team": "Mechanics",
+      "team": "政大Mechanics",
       "number": "70",
       "batting": {
         "games": 0,
@@ -35,16 +36,16 @@
       "pitching": null,
       "pitchingCalculated": null,
       "rankings": {
-        "rc": 848,
-        "hits": 939,
-        "hr": 567,
-        "rbi": 853,
-        "avg": 1099,
-        "w": 894,
-        "sv": 872,
-        "so": 994,
-        "era": 1099,
-        "whip": 1099,
+        "rc": 886,
+        "hits": 975,
+        "hr": 514,
+        "rbi": 882,
+        "avg": 1121,
+        "w": 873,
+        "sv": 835,
+        "so": 1003,
+        "era": 1121,
+        "whip": 1121,
         "fip": 0
       }
     },

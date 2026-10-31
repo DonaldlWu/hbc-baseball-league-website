@@ -1,0 +1,76 @@
+{
+  "id": "YAN113",
+  "code": "YAN113",
+  "name": "徐銘謙",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPjIv5dgt6wx4BbK49zYpyPw0SVCrGDtuEv747nZl_osPN8IVA6MKv1Y22X69wGrT2sOk9e4yTxd4dkRMnig3-TBeM-d9ULHfHdjfCwpaiS4zGKjlViFLVVJjA0-ZeCNsFbMSJpaXCBj0HcQeXPbt1b=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "陽明OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "陽明OB",
+      "number": "33",
+      "batting": {
+        "games": 3,
+        "pa": 6,
+        "ab": 6,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 2,
+        "bb": 0,
+        "so": 3,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": {
+        "games": 2,
+        "ip": 1,
+        "bf": 10,
+        "so": 2,
+        "bb": 5,
+        "h": 3,
+        "hr": 0,
+        "r": 6,
+        "er": 5,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 45,
+        "whip": 8,
+        "fip": null,
+        "kPer9": 18,
+        "bbPer9": 45,
+        "hPer9": 27,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 1115,
+        "hits": 1590,
+        "hr": 1240,
+        "rbi": 1547,
+        "avg": 1121,
+        "w": 1504,
+        "sv": 1464,
+        "so": 141,
+        "era": 1121,
+        "whip": 366,
+        "fip": 0
+      }
+    }
+  ]
+}

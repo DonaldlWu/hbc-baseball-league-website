@@ -37,9 +37,9 @@
       "logo": ""
     },
     {
-      "id": "mechanics",
-      "name": "Mechanics",
-      "code": "MEC",
+      "id": "政大mechanics",
+      "name": "政大Mechanics",
+      "code": "政大M",
       "logo": ""
     },
     {
@@ -328,6 +328,12 @@
       "id": "台科大",
       "name": "台科大",
       "code": "台科大",
+      "logo": ""
+    },
+    {
+      "id": "mechanics",
+      "name": "Mechanics",
+      "code": "MEC",
       "logo": ""
     }
   ]

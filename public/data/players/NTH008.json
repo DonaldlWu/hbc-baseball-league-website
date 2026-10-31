@@ -16,7 +16,7 @@
       "team": "台大醫學院棒",
       "number": "32",
       "batting": {
-        "games": 1,
+        "games": 2,
         "pa": 0,
         "ab": 0,
         "hits": 0,
@@ -33,14 +33,14 @@
         "totalBases": 0
       },
       "pitching": {
-        "games": 1,
-        "ip": 4,
-        "bf": 25,
-        "so": 5,
-        "bb": 8,
-        "h": 6,
+        "games": 2,
+        "ip": 8,
+        "bf": 51,
+        "so": 9,
+        "bb": 16,
+        "h": 10,
         "hr": 0,
-        "r": 6,
+        "r": 15,
         "er": 4,
         "w": 0,
         "l": 1,
@@ -50,26 +50,26 @@
         "csAttempts": 0
       },
       "pitchingCalculated": {
-        "era": 9,
-        "whip": 3.5,
-        "fip": 6.700001343,
-        "kPer9": 11.25,
+        "era": 4.5,
+        "whip": 3.25,
+        "fip": 6.950001343,
+        "kPer9": 10.125,
         "bbPer9": 18,
-        "hPer9": 13.5,
+        "hPer9": 11.25,
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 541,
-        "hits": 956,
-        "hr": 584,
-        "rbi": 870,
-        "avg": 1099,
-        "w": 1579,
-        "sv": 1564,
-        "so": 50,
-        "era": 1099,
-        "whip": 59,
-        "fip": 83
+        "rc": 625,
+        "hits": 990,
+        "hr": 529,
+        "rbi": 897,
+        "avg": 1121,
+        "w": 1600,
+        "sv": 1573,
+        "so": 42,
+        "era": 1121,
+        "whip": 43,
+        "fip": 80
       }
     },
     {

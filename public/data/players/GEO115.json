@@ -1,0 +1,76 @@
+{
+  "id": "GEO115",
+  "code": "GEO115",
+  "name": "王聖利",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPYJ6qKLmgeqnBV5sHlYnrCUhd-0mtlTWfO_C8PbtUkolso4bFrZIsMVd1fbWzs4aZAjIaB34oGwy8xnD-Xao4v0QVjeCLWQkA8g9s9WHKsp2at5hAC-cGp0hwc2przwqKn0BK3WXhrBiQMVjxO_zc7aw=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "十號馬"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "十號馬",
+      "number": "25",
+      "batting": {
+        "games": 5,
+        "pa": 9,
+        "ab": 5,
+        "hits": 4,
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 4,
+        "bb": 4,
+        "so": 0,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "pitching": {
+        "games": 5,
+        "ip": 23.33666667,
+        "bf": 123,
+        "so": 9,
+        "bb": 8,
+        "h": 40,
+        "hr": 0,
+        "r": 24,
+        "er": 18,
+        "w": 3,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 6.941865446801619,
+        "whip": 2.056849021274554,
+        "fip": 3.45710705,
+        "kPer9": 3.4709327234008094,
+        "bbPer9": 3.0852735319118305,
+        "hPer9": 15.426367659559153,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 118,
+        "hits": 170,
+        "hr": 1299,
+        "rbi": 162,
+        "avg": 1121,
+        "w": 6,
+        "sv": 1605,
+        "so": 47,
+        "era": 1121,
+        "whip": 23,
+        "fip": 32
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "NTE123",
+  "code": "NTE123",
+  "name": "陳修泓",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczODX99JSmimJdbpkoraudb85JVT1ujKBvMaL6vLPzGkD-GZ3S2PuTkfjwniCbR0mtgfSdDKI3084KzlrCXKeuUY6cqtIa8FW-epgDCfbuV0D1MRaQVRJ7iNLpdOlRR7EB1UTBjS7WDSmwwP7aELkfCn=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "台大經濟OB"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "台大經濟OB",
+      "number": "68",
+      "batting": {
+        "games": 1,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 1054,
+        "hits": 1506,
+        "hr": 1047,
+        "rbi": 1413,
+        "avg": 1121,
+        "w": 436,
+        "sv": 398,
+        "so": 566,
+        "era": 1121,
+        "whip": 1121,
+        "fip": 0
+      }
+    }
+  ]
+}

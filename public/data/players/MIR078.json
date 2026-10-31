@@ -1,0 +1,76 @@
+{
+  "id": "MIR078",
+  "code": "MIR078",
+  "name": "張凱荃",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOhqF3JngySUmvIP9vgKQH6v1LpKch97PkM5fiuedNELNhbsoelPSjgczUenYsX_067Jw2jLol8c_rx09dNR_kEA3jcZd5R2VA01lDkQXei2odZTvh6FfzX7Qp8Ab6n4igrgOJQkZ4HxAa8I0AHXEW5=w640-h853",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "MIRACLE"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "MIRACLE",
+      "number": "102",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 1,
+        "bf": 13,
+        "so": 1,
+        "bb": 2,
+        "h": 5,
+        "hr": 0,
+        "r": 8,
+        "er": 0,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 0,
+        "whip": 7,
+        "fip": null,
+        "kPer9": 9,
+        "bbPer9": 18,
+        "hPer9": 45,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 1085,
+        "hits": 1534,
+        "hr": 1094,
+        "rbi": 1451,
+        "avg": 1121,
+        "w": 1507,
+        "sv": 1467,
+        "so": 180,
+        "era": 1121,
+        "whip": 624,
+        "fip": 0
+      }
+    }
+  ]
+}

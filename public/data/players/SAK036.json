@@ -1,0 +1,52 @@
+{
+  "id": "SAK036",
+  "code": "SAK036",
+  "name": "胡政傑",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPmjCvp8vdKhI687PxxQkUNgPafIjVEH4VyQTXCG3gi9NZgx9BW82FmIOHwbuCZ3ddLPQNje6qnvBLZEfbAVdJXLMupWGa6dLF-M7aRHcXL5453Irx8PlfixbU4lwWBFZbq4hMRGT1fr-hGrREP57wkYQ=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "櫻砲魂"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "櫻砲魂",
+      "number": "57",
+      "batting": {
+        "games": 0,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 629,
+        "hits": 594,
+        "hr": 133,
+        "rbi": 501,
+        "avg": 1121,
+        "w": 261,
+        "sv": 223,
+        "so": 391,
+        "era": 1121,
+        "whip": 1121,
+        "fip": 0
+      }
+    }
+  ]
+}

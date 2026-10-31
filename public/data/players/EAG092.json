@@ -2,15 +2,76 @@
   "id": "EAG092",
   "code": "EAG092",
   "name": "謝宗諺",
-  "photo": "",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPXRj6aFkInOSzMfiRkakVwaCD84YZwgmxArBPt0ZoM55UAUN9x7lLUgzZfuorbostbtNrWZ7GzrvIwdsk0TdCSkPEfJ8DaH7wzVPYjx_-gVKmHub6CunY4jrIS1YLKDkUXCs1itzlcSssL7TzPNrI=w310-h335-no",
   "career": {
     "debut": 2019,
     "teams": [
       "火把老鷹"
     ],
-    "totalSeasons": 7
+    "totalSeasons": 8
   },
   "seasons": [
+    {
+      "year": 2026,
+      "team": "火把老鷹",
+      "number": "10",
+      "batting": {
+        "games": 3,
+        "pa": 1,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": {
+        "games": 3,
+        "ip": 6.666666667,
+        "bf": 41,
+        "so": 6,
+        "bb": 5,
+        "h": 14,
+        "hr": 1,
+        "r": 16,
+        "er": 8,
+        "w": 1,
+        "l": 1,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 10.799999999459999,
+        "whip": 2.8499999998575,
+        "fip": 5.600000636,
+        "kPer9": 8.099999999595,
+        "bbPer9": 6.749999999662499,
+        "hPer9": 18.899999999054998,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 1056,
+        "hits": 1508,
+        "hr": 1050,
+        "rbi": 1416,
+        "avg": 1121,
+        "w": 44,
+        "sv": 1562,
+        "so": 73,
+        "era": 1121,
+        "whip": 114,
+        "fip": 64
+      }
+    },
     {
       "year": 2025,
       "team": "火把老鷹",

@@ -1,0 +1,52 @@
+{
+  "id": "EAG149",
+  "code": "EAG149",
+  "name": "張晁翔",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPu7pXjKiSNlEIjA2zKr_5YEHGSl9bB5cM9DjM4pGgP5B9bk68RIOfVETPhBuZk4BHD2y5x-WapCP65cLwvVqm1_BTWsO5oRaGsKmopB6-xuGtu8q3cmAvnn8882baOnWlqYkhKueX1OnqHyJE5SmA=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "火把老鷹",
+      "number": "104",
+      "batting": {
+        "games": 2,
+        "pa": 7,
+        "ab": 6,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 1,
+        "runs": 2,
+        "bb": 1,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 230,
+        "hits": 215,
+        "hr": 1255,
+        "rbi": 326,
+        "avg": 1121,
+        "w": 459,
+        "sv": 421,
+        "so": 589,
+        "era": 1121,
+        "whip": 1121,
+        "fip": 0
+      }
+    }
+  ]
+}

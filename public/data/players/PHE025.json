@@ -1,0 +1,76 @@
+{
+  "id": "PHE025",
+  "code": "PHE025",
+  "name": "吳承融",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNMWrEnnk978JTHWDnIM5ZbQ6dX5_QAIi_fetmljg0Tn5lJ2IXYx4ZIlVsFHO_kNkIzNbS_Eu5_4ki740dG_8h2fGn726qmbJKfzV1RWx-PnA4qygwXVfOekVWWnN-tD3xGrhmrqCQuwS1VfiSWnPdW1A=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "飛尼克斯"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "飛尼克斯",
+      "number": "994",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 3,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 1,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 3,
+        "bf": 13,
+        "so": 1,
+        "bb": 3,
+        "h": 1,
+        "hr": 0,
+        "r": 0,
+        "er": 0,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 0,
+        "whip": 1.3333333333333333,
+        "fip": null,
+        "kPer9": 3,
+        "bbPer9": 9,
+        "hPer9": 3,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 516,
+        "hits": 1561,
+        "hr": 1158,
+        "rbi": 1499,
+        "avg": 1121,
+        "w": 1549,
+        "sv": 1506,
+        "so": 195,
+        "era": 1121,
+        "whip": 624,
+        "fip": 0
+      }
+    }
+  ]
+}

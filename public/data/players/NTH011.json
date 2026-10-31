@@ -16,21 +16,21 @@
       "team": "台大醫學院棒",
       "number": "43",
       "batting": {
-        "games": 5,
-        "pa": 15,
-        "ab": 13,
-        "hits": 2,
-        "singles": 2,
-        "doubles": 0,
+        "games": 7,
+        "pa": 23,
+        "ab": 21,
+        "hits": 5,
+        "singles": 4,
+        "doubles": 1,
         "triples": 0,
         "hr": 0,
-        "rbi": 0,
-        "runs": 2,
+        "rbi": 1,
+        "runs": 3,
         "bb": 2,
-        "so": 6,
+        "so": 8,
         "sb": 0,
         "sf": 0,
-        "totalBases": 2
+        "totalBases": 6
       },
       "pitching": {
         "games": 2,
@@ -52,24 +52,24 @@
       "pitchingCalculated": {
         "era": 0,
         "whip": 2.1021021021021022,
-        "fip": 3.500301648,
+        "fip": null,
         "kPer9": 10.81081081081081,
         "bbPer9": 8.108108108108109,
         "hPer9": 10.81081081081081,
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 314,
-        "hits": 244,
-        "hr": 1546,
-        "rbi": 1608,
-        "avg": 110,
-        "w": 1568,
-        "sv": 1546,
-        "so": 61,
-        "era": 1099,
-        "whip": 377,
-        "fip": 45
+        "rc": 247,
+        "hits": 155,
+        "hr": 1529,
+        "rbi": 386,
+        "avg": 93,
+        "w": 1557,
+        "sv": 1517,
+        "so": 96,
+        "era": 1121,
+        "whip": 366,
+        "fip": 0
       }
     },
     {

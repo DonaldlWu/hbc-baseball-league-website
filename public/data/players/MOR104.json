@@ -1,0 +1,52 @@
+{
+  "id": "MOR104",
+  "code": "MOR104",
+  "name": "廖元督",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOIeiUR3tViz6CNc4n2xblOkvsn_Ev9aVKIpKLzbdD-l9Dp41Rj2QSToXC9b0SQ47H9Teb33iYs-HsVeMLUoynHH_xKj9F29uUYsGfZQyE5T1Cyx8bOdTj562fqyu6KYr-bMAebhrHoAFwIaVuwKv91=w997-h1302",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "莫拉克"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "莫拉克",
+      "number": "103",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 1,
+        "singles": 1,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 1
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 440,
+        "hits": 377,
+        "hr": 1096,
+        "rbi": 1453,
+        "avg": 1121,
+        "w": 852,
+        "sv": 814,
+        "so": 982,
+        "era": 1121,
+        "whip": 1121,
+        "fip": 0
+      }
+    }
+  ]
+}

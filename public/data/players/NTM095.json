@@ -1,0 +1,52 @@
+{
+  "id": "NTM095",
+  "code": "NTM095",
+  "name": "陳致軒",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNnxLKhB_mYELFkMIyB2k3tdWvdQwwEo76UIIg9g61R7zhfDUdq5siHw2GHDzzOE0lKfG40y53nTFdbqAc7yPe-kktJLdHPf2NPqiQhSAJIE3dNtYfbFnEmjAUNqySAxYbkoMzxLsjjHkkyLJVSBsl5Dg=w613-h919",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "政大Mechanics"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "政大Mechanics",
+      "number": "9",
+      "batting": {
+        "games": 3,
+        "pa": 9,
+        "ab": 7,
+        "hits": 3,
+        "singles": 2,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 3,
+        "runs": 1,
+        "bb": 2,
+        "so": 1,
+        "sb": 1,
+        "sf": 0,
+        "totalBases": 4
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 203,
+        "hits": 224,
+        "hr": 1310,
+        "rbi": 166,
+        "avg": 1121,
+        "w": 940,
+        "sv": 902,
+        "so": 1070,
+        "era": 1121,
+        "whip": 1121,
+        "fip": 0
+      }
+    }
+  ]
+}

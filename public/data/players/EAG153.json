@@ -1,0 +1,52 @@
+{
+  "id": "EAG153",
+  "code": "EAG153",
+  "name": "傅科瑋",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczM6_4Q1CICMaoafp27u_vqEDkIz7bm0fz5tvXQmZsJiOnW9XPuY5XFk4MPSW8rDnFLaH1z9MV5zk_9Lq-LFhpl7Ia-yWTj1PbgTHRGYX-MTximvmVNrZvOWd6AA4H0Lj2GiI3IJkSjJr8lTYo_lQOk=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "火把老鷹"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "火把老鷹",
+      "number": "122",
+      "batting": {
+        "games": 1,
+        "pa": 4,
+        "ab": 2,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 222,
+        "hits": 284,
+        "hr": 1153,
+        "rbi": 1497,
+        "avg": 1121,
+        "w": 458,
+        "sv": 420,
+        "so": 588,
+        "era": 1121,
+        "whip": 1121,
+        "fip": 0
+      }
+    }
+  ]
+}

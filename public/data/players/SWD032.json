@@ -1,0 +1,76 @@
+{
+  "id": "SWD032",
+  "code": "SWD032",
+  "name": "鄞士閔",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczObAlMMskGBVn32kVb7Aumn7Usk5IU7FVnMTD_y7WDZZIwfgC4KqfEY32ANO5GHjUEl7ihMefBXEQYeIJN_ehApPqiSbyBNP0EtwyrYwFvBMkxbfhKXAPw6ioZBeLZyr_SRKE0WtuILyE3ejambyZJpbA=w1260-h945",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "甜心暴龍"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "甜心暴龍",
+      "number": "98",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 2,
+        "hits": 2,
+        "singles": 1,
+        "doubles": 1,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 2,
+        "runs": 2,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 3
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 1.666666667,
+        "bf": 7,
+        "so": 0,
+        "bb": 2,
+        "h": 2,
+        "hr": 0,
+        "r": 0,
+        "er": 0,
+        "w": 1,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 0,
+        "whip": 2.39999999952,
+        "fip": null,
+        "kPer9": 0,
+        "bbPer9": 10.799999997839999,
+        "hPer9": 10.799999997839999,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 292,
+        "hits": 275,
+        "hr": 1070,
+        "rbi": 218,
+        "avg": 1121,
+        "w": 23,
+        "sv": 1474,
+        "so": 1602,
+        "era": 1121,
+        "whip": 556,
+        "fip": 0
+      }
+    }
+  ]
+}

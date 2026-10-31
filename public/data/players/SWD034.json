@@ -1,0 +1,52 @@
+{
+  "id": "SWD034",
+  "code": "SWD034",
+  "name": "鄭宇傑",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczPjpLhE2-EW3sTwM3VRP2tGjxxX39bk_BSpppWeIhFHYvQaY_grLXc2yKokCiNKq1-GxtJvu65WoWV7hyr5g2tuzNnMq4QFOtH98leIE4wr_5IbFtYleqw8WEMq9VUdGXwoHmXHCLoiu8vyXFcNIPxanQ=w400-h375",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "甜心暴龍"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "甜心暴龍",
+      "number": "105",
+      "batting": {
+        "games": 1,
+        "pa": 3,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 2,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 416,
+        "hits": 1540,
+        "hr": 1101,
+        "rbi": 1457,
+        "avg": 1121,
+        "w": 842,
+        "sv": 804,
+        "so": 972,
+        "era": 1121,
+        "whip": 1121,
+        "fip": 0
+      }
+    }
+  ]
+}

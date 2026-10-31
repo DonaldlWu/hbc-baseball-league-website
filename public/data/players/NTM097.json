@@ -1,0 +1,52 @@
+{
+  "id": "NTM097",
+  "code": "NTM097",
+  "name": "潘維宗",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczNdxJHMOoTWrW50ik3p_dVVoKsoHnODUrv4jiHzSah8JHE84ChWO8sUc6a2vwp5Y0Lqj2G6COH_AIjbw0W1HVYrpy4qA2JcgPpwC7km6pl-ZLUTL6IIso19pDb62iYfOdCIBkP-aFKAnCIvyfDa7YPupA=w310-h335-no",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "政大Mechanics"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "政大Mechanics",
+      "number": "39",
+      "batting": {
+        "games": 1,
+        "pa": 2,
+        "ab": 1,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 1,
+        "bb": 1,
+        "so": 1,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": null,
+      "pitchingCalculated": null,
+      "rankings": {
+        "rc": 492,
+        "hits": 1521,
+        "hr": 1067,
+        "rbi": 1430,
+        "avg": 1121,
+        "w": 888,
+        "sv": 850,
+        "so": 1018,
+        "era": 1121,
+        "whip": 1121,
+        "fip": 0
+      }
+    }
+  ]
+}
