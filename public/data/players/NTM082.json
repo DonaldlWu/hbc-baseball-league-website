@@ -17,21 +17,21 @@
       "team": "政大Mechanics",
       "number": "27",
       "batting": {
-        "games": 4,
-        "pa": 14,
-        "ab": 10,
-        "hits": 3,
-        "singles": 2,
+        "games": 5,
+        "pa": 17,
+        "ab": 12,
+        "hits": 5,
+        "singles": 4,
         "doubles": 0,
         "triples": 1,
         "hr": 0,
-        "rbi": 0,
-        "runs": 5,
-        "bb": 4,
+        "rbi": 1,
+        "runs": 8,
+        "bb": 5,
         "so": 3,
         "sb": 1,
         "sf": 0,
-        "totalBases": 5
+        "totalBases": 7
       },
       "pitching": {
         "games": 4,
@@ -53,24 +53,24 @@
       "pitchingCalculated": {
         "era": 4.2,
         "whip": 1.8666666666666667,
-        "fip": 3.000000436,
+        "fip": 3.000000437,
         "kPer9": 10.8,
         "bbPer9": 6.6,
         "hPer9": 10.2,
         "csPercentage": 0
       },
       "rankings": {
-        "rc": 152,
-        "hits": 248,
-        "hr": 1408,
-        "rbi": 1602,
-        "avg": 1121,
+        "rc": 102,
+        "hits": 144,
+        "hr": 1444,
+        "rbi": 391,
+        "avg": 1122,
         "w": 16,
         "sv": 1598,
         "so": 15,
-        "era": 1121,
+        "era": 1122,
         "whip": 18,
-        "fip": 26
+        "fip": 28
       }
     },
     {

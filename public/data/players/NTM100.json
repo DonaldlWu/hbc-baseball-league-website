@@ -1,0 +1,76 @@
+{
+  "id": "NTM100",
+  "code": "NTM100",
+  "name": "洪翊程",
+  "photo": "https://lh3.googleusercontent.com/pw/AP1GczOXy4p9_4QoQhGNEJMJUBmx0jiJITFNUM8EP0SGjNL3dX3I-sB0hr9s9btskDNGwSetfSdcMwHXTA2Su7XMlkluegww0Z9onAbwIDTGJU4tUy6idiiCQ80Q-qj6ri-UiDq5svpjD4tQsxFwQk-vL0P9gw=w512-h911",
+  "career": {
+    "debut": 2026,
+    "teams": [
+      "政大Mechanics"
+    ],
+    "totalSeasons": 1
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "team": "政大Mechanics",
+      "number": "60",
+      "batting": {
+        "games": 1,
+        "pa": 0,
+        "ab": 0,
+        "hits": 0,
+        "singles": 0,
+        "doubles": 0,
+        "triples": 0,
+        "hr": 0,
+        "rbi": 0,
+        "runs": 0,
+        "bb": 0,
+        "so": 0,
+        "sb": 0,
+        "sf": 0,
+        "totalBases": 0
+      },
+      "pitching": {
+        "games": 1,
+        "ip": 2.333333333,
+        "bf": 21,
+        "so": 2,
+        "bb": 7,
+        "h": 5,
+        "hr": 0,
+        "r": 9,
+        "er": 2,
+        "w": 0,
+        "l": 0,
+        "sv": 0,
+        "hld": 0,
+        "cs": 0,
+        "csAttempts": 0
+      },
+      "pitchingCalculated": {
+        "era": 7.714285715387755,
+        "whip": 5.142857143591836,
+        "fip": null,
+        "kPer9": 7.714285715387755,
+        "bbPer9": 27.000000003857142,
+        "hPer9": 19.285714288469386,
+        "csPercentage": 0
+      },
+      "rankings": {
+        "rc": 889,
+        "hits": 978,
+        "hr": 510,
+        "rbi": 890,
+        "avg": 1122,
+        "w": 1542,
+        "sv": 1499,
+        "so": 156,
+        "era": 1122,
+        "whip": 473,
+        "fip": 0
+      }
+    }
+  ]
+}
