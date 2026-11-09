@@ -1,7 +1,7 @@
 interface:
   display_name: "HBC Update Game"
-  short_description: "更新比分、戰報與延賽資訊"
-  default_prompt: "Use $hbc-update-game to parse this report or update the specified game in season JSON data."
+  short_description: "自動抓取近一週聯盟戰報，依專案場次更新比分與完整表單連結"
+  default_prompt: "使用 $hbc-update-game 更新戰報：抓取近七天資料，依專案場次與隊名驗證後更新本機賽季資料。"
 
 policy:
   allow_implicit_invocation: true

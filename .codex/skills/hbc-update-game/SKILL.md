@@ -1,14 +1,15 @@
 ---
 name: hbc-update-game
-description: Update HBC game results from a weekly report or a single game number. Use this skill when the user needs score updates, sheet IDs, rainouts, cancellations, or rescheduled-game handling.
+description: Update HBC game reports and results. Use for 更新戰報 or 更新本週戰報 to fetch the last seven calendar days from the configured Facebook group, or for supplied weekly reports and single-game score, sheet ID, rainout and reschedule updates.
 ---
 
 # HBC Update Game
 
-Use this skill when the user provides league report text, asks to update a single game, or needs rainout and reschedule handling.
+Use this skill for「更新戰報」「更新本週戰報」, supplied report text, or single-game updates. A request to update reports authorizes one bounded fetch and validated local data updates; it does not authorize commit, push, deployment or scheduling.
 
 ## Modes
 
+- Weekly fetch mode (default without report text or a game number): read [weekly-fetch.md](references/weekly-fetch.md), run its helper once, then match and update validated games. Do not ask the user to paste a report before trying the configured fetch.
 - Batch mode: pasted weekly report containing `No.XXXXXXX`, score, and Google Sheets links
 - Single-game mode: one `gameNumber`
 
@@ -23,7 +24,7 @@ Use this skill when the user provides league report text, asks to update a singl
 3. For each affected season file, update the game:
    - `status` -> `finished`
    - `homeScore`, `awayScore`
-   - `sheetId`, or leave empty when the link is incomplete
+   - `sheetId` only when the complete URL is unambiguously associated with that game; preserve an existing value if the source is incomplete
 4. If `standings.source === "calculated"`, recalculate `standings.teams` from all `status === "finished"` games in that file.
 5. Update top-level `lastUpdated`.
 6. Validate changed JSON files.
@@ -62,6 +63,9 @@ After raw calculation, read `standings.adjustments` (if the field exists and is 
 
 ## Constraints
 
+- Project season records are authoritative for team names. Report names can be missing or wrong: never rename project teams or create an alias from a guess. Match by explicit gameNumber and corroborating evidence; leave conflicts for review.
+- Publication date is provenance, not the game date. Preserve original date and all rescheduledDates when completing a makeup game.
+- Preserve an existing sheetId when the new source is missing/incomplete; do not clear it. Different existing results or sheet IDs require review.
 - `homeScore: 0` is different from `null`
 - `sheetId` should contain only the ID, not the full URL
 - `rescheduledDates` is append-only; never rewrite history
