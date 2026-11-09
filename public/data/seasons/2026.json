@@ -1312,13 +1312,6 @@
           "startTime": "12:00",
           "endTime": "14:30",
           "note": "雨延"
-        },
-        {
-          "date": "2026-10-31",
-          "venue": "中正A",
-          "timeSlot": "下午",
-          "startTime": "14:30",
-          "endTime": "17:00"
         }
       ]
     },
@@ -2094,19 +2087,6 @@
       "startTime": "14:00",
       "endTime": "17:00",
       "status": "rain",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
-    },
-    "2026093": {
-      "date": "2026-10-31",
-      "homeTeam": "ACES",
-      "awayTeam": "華江OB",
-      "venue": "中正A",
-      "timeSlot": "中午",
-      "startTime": "12:00",
-      "endTime": "14:30",
-      "status": "scheduled",
       "homeScore": null,
       "awayScore": null,
       "sheetId": ""
