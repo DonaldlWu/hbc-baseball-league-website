@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "lastUpdated": "2026-10-31",
+  "lastUpdated": "2026-11-09",
   "calendarRange": {
     "start": "2026-02",
     "end": "2027-02"
@@ -27,6 +27,15 @@
         "runsAllowed": 4.444
       },
       {
+        "teamId": "SCO",
+        "teamName": "實踐OB",
+        "wins": 8,
+        "losses": 1,
+        "draws": 0,
+        "runsScored": 13.444,
+        "runsAllowed": 6.111
+      },
+      {
         "teamId": "HUA",
         "teamName": "華江OB",
         "wins": 8,
@@ -36,22 +45,13 @@
         "runsAllowed": 1.625
       },
       {
-        "teamId": "SCO",
-        "teamName": "實踐OB",
-        "wins": 7,
-        "losses": 1,
-        "draws": 0,
-        "runsScored": 13.375,
-        "runsAllowed": 5.875
-      },
-      {
         "teamId": "EAG",
         "teamName": "火把老鷹",
-        "wins": 7,
+        "wins": 8,
         "losses": 3,
         "draws": 0,
-        "runsScored": 9.4,
-        "runsAllowed": 7.7
+        "runsScored": 9.273,
+        "runsAllowed": 7.364
       },
       {
         "teamId": "GEO",
@@ -90,6 +90,15 @@
         "runsAllowed": 3.571
       },
       {
+        "teamId": "MUZ",
+        "teamName": "木柵OB",
+        "wins": 5,
+        "losses": 4,
+        "draws": 0,
+        "runsScored": 9.889,
+        "runsAllowed": 7.0
+      },
+      {
         "teamId": "REV",
         "teamName": "逆轉星球",
         "wins": 5,
@@ -120,28 +129,19 @@
         "teamId": "YCT",
         "teamName": "永春TB",
         "wins": 4,
-        "losses": 1,
+        "losses": 2,
         "draws": 0,
-        "runsScored": 10.8,
-        "runsAllowed": 5.6
+        "runsScored": 10.333,
+        "runsAllowed": 7.0
       },
       {
         "teamId": "TRO",
         "teamName": "楚奧特",
         "wins": 4,
-        "losses": 5,
+        "losses": 6,
         "draws": 0,
         "runsScored": 9.0,
-        "runsAllowed": 9.333
-      },
-      {
-        "teamId": "MUZ",
-        "teamName": "木柵OB",
-        "wins": 4,
-        "losses": 4,
-        "draws": 0,
-        "runsScored": 8.5,
-        "runsAllowed": 7.5
+        "runsAllowed": 10.6
       },
       {
         "teamId": "HOL",
@@ -155,20 +155,20 @@
       {
         "teamId": "NTM-2026",
         "teamName": "政大Mechanics",
-        "wins": 2,
+        "wins": 3,
         "losses": 5,
         "draws": 0,
-        "runsScored": 8.571,
-        "runsAllowed": 11.0
+        "runsScored": 10.25,
+        "runsAllowed": 10.75
       },
       {
         "teamId": "NTE",
         "teamName": "台大經濟OB",
         "wins": 2,
-        "losses": 9,
+        "losses": 10,
         "draws": 0,
-        "runsScored": 8.364,
-        "runsAllowed": 10.455
+        "runsScored": 8.0,
+        "runsAllowed": 10.25
       },
       {
         "teamId": "SHA",
@@ -201,10 +201,10 @@
         "teamId": "NTH",
         "teamName": "台大醫學院棒",
         "wins": 1,
-        "losses": 9,
+        "losses": 10,
         "draws": 0,
-        "runsScored": 5.0,
-        "runsAllowed": 16.7
+        "runsScored": 4.818,
+        "runsAllowed": 17.091
       },
       {
         "teamId": "MOR",
@@ -810,7 +810,7 @@
     "2026137": {
       "date": "2026-06-27",
       "homeTeam": "火把老鷹",
-      "awayTeam": "Mechanics",
+      "awayTeam": "政大Mechanics",
       "venue": "三鶯B",
       "timeSlot": "中午",
       "startTime": "13:00",
@@ -907,15 +907,15 @@
     "2026060": {
       "date": "2026-07-11",
       "homeTeam": "楚奧特",
-      "awayTeam": "Mechanics",
+      "awayTeam": "政大Mechanics",
       "venue": "中正A",
       "timeSlot": "中午",
       "startTime": "12:00",
       "endTime": "14:30",
-      "status": "rain",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": "",
+      "status": "finished",
+      "homeScore": 9,
+      "awayScore": 22,
+      "sheetId": "1_r6HA0XGCTQyMvzNeaQp8HN7ft7HiI7H669_UCEQc9I",
       "rescheduledDates": [
         {
           "date": "2026-10-31",
@@ -1041,7 +1041,7 @@
     },
     "2026045": {
       "date": "2026-07-26",
-      "homeTeam": "Mechanics",
+      "homeTeam": "政大Mechanics",
       "awayTeam": "莫拉克",
       "venue": "百齡E",
       "timeSlot": "晚上",
@@ -2119,10 +2119,10 @@
       "timeSlot": "中午",
       "startTime": "13:00",
       "endTime": "15:30",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 3,
+      "awayScore": 21,
+      "sheetId": "1VjsIxyYO1eYVjUIiQ6U_82YVYhN_zkkk_q8AbfE_evg"
     },
     "2026188": {
       "date": "2026-10-31",
@@ -2132,10 +2132,10 @@
       "timeSlot": "下午",
       "startTime": "15:30",
       "endTime": "18:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 4,
+      "awayScore": 8,
+      "sheetId": "1TKNAQGzOyNDwpaEGsin6gvQJSzfY00I3jz80OA6YSZQ"
     },
     "2026063": {
       "date": "2026-10-31",
@@ -2145,10 +2145,10 @@
       "timeSlot": "下午",
       "startTime": "15:30",
       "endTime": "18:00",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "sheetId": ""
+      "status": "finished",
+      "homeScore": 8,
+      "awayScore": 14,
+      "sheetId": "1Y-RrI4Rz5swwGAHzhtThBwVkF6KsSSeJK_BU3QvFFtk"
     },
     "2026144": {
       "date": "2026-11-07",
