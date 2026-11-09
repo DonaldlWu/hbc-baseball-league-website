@@ -1,7 +1,7 @@
 interface:
   display_name: "HBC Add Game"
-  short_description: "新增賽程並處理補賽判斷"
-  default_prompt: "Use $hbc-add-game to parse this league schedule text and update the season JSON files."
+  short_description: "抓取近七天賽程公告，依專案隊名新增場次並避免重複補賽"
+  default_prompt: "使用 $hbc-add-game 更新賽程：抓取近七天公告，依專案隊名核對後新增場次或補賽。"
 
 policy:
   allow_implicit_invocation: true

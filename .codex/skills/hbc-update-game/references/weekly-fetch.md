@@ -10,6 +10,10 @@
 node .codex/skills/hbc-update-game/scripts/fetch-weekly-reports.mjs
 ```
 
+共用入口支援 `--kind report`（預設）、`--kind schedule` 與 `--kind all`。戰報候選需有完整場次編號及比分，賽程候選可使用短場次編號及 VS；同一篇可同時屬於兩種。分類只是候選，不代表已驗證可寫入。
+
+若同次請求也更新賽程，使用 `--kind all` 只抓一次；selected JSON 的 reportPosts/schedulePosts 分別交給對應 skill，posts 保留所選模式的聯集且不重複同篇。已抓取時可加 `--input 原始JSON路徑 --as-of 原截止日`，僅重讀本機檔案，不開瀏覽器；來源社團與七日範圍必須完全相符，不能用不同週資料代替本週。不要傳 selected JSON，使用其 rawReport 所指的原始 JSON。
+
 預設使用 `/Users/wuderen/WorkSpace/fbpost`、`.local/profile`，社團 `1572865402911021`，作者帳號 ID `100000312762702`。作者篩選只依帳號 ID，不保存姓名設定。可用 `--fbpost-dir PATH` 指定搬遷位置。只能使用已有登入；不讀出 cookie、不保存密碼。不自動跑 login 或要求使用者貼週報來替代失效登入。
 
 日期為 Asia/Taipei 的最近七個日曆日、含當天。`--as-of YYYY-MM-DD` 指定截止日仍只抓七天；不是上一個週一至週日。先報告實際日期範圍。`--dry-run` 只輸出命令計畫，不抓取、不建立結果。
